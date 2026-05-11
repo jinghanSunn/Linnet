@@ -13,6 +13,8 @@ must_include:
   - agent
   - alignment
   - RLHF
+  - hallucination
+  - multi-modal
 
 boost_keywords:
   - GPT
@@ -24,4 +26,4 @@ boost_keywords:
   - chain-of-thought
 
 llm_score_threshold: 7
-max_papers_per_run: 100
+max_papers_per_run: 50
