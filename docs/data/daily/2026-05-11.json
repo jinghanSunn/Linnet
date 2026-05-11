@@ -1,0 +1,1360 @@
+{
+  "date": "2026-05-11",
+  "generated_at": "2026-05-11T12:32:49.346062+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2605.08037v1",
+          "title": "Beyond Pairs: Your Language Model is Secretly Optimizing a Preference Graph",
+          "authors": [
+            "Ning Liu",
+            "Chuanneng Sun",
+            "Kristina Klinkner",
+            "Shervin Malmasi"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces **Graph Direct Preference Optimization (GraphDPO)**, a principled generalization of DPO that moves beyond pairwise comparisons to leverage richer preference structures present in multi-rollout training data. GraphDPO models these relationships as a directed acyclic graph and optimizes a graph-structured objective inspired by Plackett-Luce, effectively enforcing transitivity and aggregating supervision across the entire preference structure. This method provides a more stable and informative optimization compared to collapsing multi-rollout data into independent pairs.",
+          "url": "http://arxiv.org/abs/2605.08037v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.08037v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.08037v1/x1.png",
+          "figure_caption": "GraphDPO pipeline for LLM alignment. For each prompt, the policy samples K K rollouts, which are grouped into equivalence classes according to preference signals. These classes induce a DAG structure whose edges encode dominance relations between groups, with an optional ground-truth node as a global anchor. Equivalence-class masking removes intra-group comparisons so that each response is contrasted only with strictly worse groups via a local Plackett–Luce loss. The resulting losses are aggregated over the graph to update the policy while enforcing transitive preference structure.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.08019v1",
+          "title": "Reason to Play: Behavioral and Brain Alignment Between Frontier LRMs and Human Game Learners",
+          "authors": [
+            "Botos Csaba",
+            "Sreejan Kumar",
+            "Austin Tudor David Andrews",
+            "Laurence Hunt",
+            "Chris Summerfield"
+          ],
+          "categories": [
+            "cs.AI",
+            "q-bio.NC"
+          ],
+          "abstract": "This paper investigates whether frontier Large Reasoning Models (LRMs) can emulate human learning and planning in novel game environments. The core method involves jointly evaluating LRMs against RL agents using human gameplay data, concurrent fMRI recordings, and task performance. The key contribution is demonstrating that LRMs significantly outperform traditional AI methods in matching human behavioral learning patterns and predicting brain activity during complex rule discovery and planning tasks.",
+          "url": "http://arxiv.org/abs/2605.08019v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.08019v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.08019v1/x1.png",
+          "figure_caption": "VGDL game paradigm. (A) Games are defined by combining game rules with map layouts to produce interactive environments. (B) Example Trial Structure of VGDL-fMRI Dataset. Color denotes game names: ( Bait , Chase , Helper , Lemmings , Plaque Attack , Zelda ). All participants played the same level progression structure with randomized game order. The subsequent levels reveal new rules incrementally. The Interactive Catalogue A lets readers try each game in the browser and browse all participant and LRM agent gameplay replays. Project page: https://botcs.github.io/reason-to-play/",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.08060v1",
+          "title": "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents",
+          "authors": [
+            "Jiayuan Liu",
+            "Tianqin Li",
+            "Shiyi Du",
+            "Xin Luo",
+            "Haoxuan Zeng"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.GT",
+            "cs.MA"
+          ],
+          "abstract": "This paper introduces the \"memory curse,\" demonstrating that expanding the context window for LLM agents systematically *erodes* cooperation in multi-agent social dilemmas. The core finding is that this degradation stems from the LLMs focusing less on future intent and more on past history, a mechanism confirmed by fine-tuning on forward-looking reasoning traces to restore cooperation. The contribution is identifying memory content, not just length, as the critical factor undermining cooperative behavior in extended recall settings.",
+          "url": "http://arxiv.org/abs/2605.08060v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.08060v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.08060v1/x1.png",
+          "figure_caption": "Schematic of repeated social dilemma interactions between two LLM agents with shared memory.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.07990v1",
+          "title": "Tool Calling is Linearly Readable and Steerable in Language Models",
+          "authors": [
+            "Zekun Wu",
+            "Ze Wang",
+            "Seonglae Cho",
+            "Yufei Yang",
+            "Adriano Koshiyama"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.SE"
+          ],
+          "abstract": "This paper demonstrates that the tool selection within instruction-tuned language models is **linearly readable and steerable** by manipulating internal activations. By adding the mean-difference vector between two tools' activations, the model can be reliably forced to choose a different tool, and this manipulation also preserves the correct argument structure. Furthermore, the gap between the top-1 and top-2 tool activation means serves as a reliable **pre-execution error flag**, predicting incorrect tool calls.",
+          "url": "http://arxiv.org/abs/2605.07990v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.07990v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.07990v1/figures/fig1_hero_final.png",
+          "figure_caption": "Overview of the three-stage circuit and steering demonstration. Adding a mean-difference vector redirects tool selection and automatically restructures arguments. Validated across 12 IT models in 3 families (Gemma 3, Qwen 3 / Qwen 2.5, Llama 3.1; 270M–27B).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.07977v1",
+          "title": "Self-Play Enhancement via Advantage-Weighted Refinement in Online Federated LLM Fine-Tuning with Real-Time Feedback",
+          "authors": [
+            "Seohyun Lee",
+            "Wenzhi Fang",
+            "Dong-Jun Han",
+            "Seyyedali Hosseinalipour",
+            "Christopher G. Brinton"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces SPEAR, an efficient online learning algorithm for federated LLM fine-tuning that enhances self-play using real-time user feedback. SPEAR constructs naturally contrastive training pairs from this feedback within a self-play loop, allowing the model to refine itself without requiring offline setups or privileged ground-truth data. This method effectively integrates external feedback across resource-constrained edge devices in a federated setting.",
+          "url": "http://arxiv.org/abs/2605.07977v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.07977v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.07977v1/x1.png",
+          "figure_caption": "The two phases of the SPEAR algorithm. Firstly, the model interacts with an incoming feedback source (e.g., a user) to correct incorrect generations. After the interaction phase, it categorizes the samples into wins and losses, which are then used to train a standard MLE and unlikelihood objective. This two-stage process repeats at each federated round t t for each client selected for aggregation.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.07982v1",
+          "title": "GLiGuard: Schema-Conditioned Classification for LLM Safeguard",
+          "authors": [
+            "Urchade Zaratiana",
+            "Mary Newhauser",
+            "George Hurn-Maloney",
+            "Ash Lewis"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.CR"
+          ],
+          "abstract": "GLiGuard reframes LLM safety evaluation from slow, sequential text generation to efficient, non-autoregressive classification by adapting a small (0.3B parameter) encoder model. Its core contribution is encoding task definitions and label semantics directly into the input as structured token schemas, allowing simultaneous, low-latency assessment across numerous safety dimensions (e.g., harm categories, jailbreaks) in a single forward pass.",
+          "url": "http://arxiv.org/abs/2605.07982v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.07982v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.07982v1/x1.png",
+          "figure_caption": "GLiGuard multi-task moderation overview. Given a text (prompt or response) and a user-specified task schema, GLiGuard produces predictions for all selected tasks in a single forward pass.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.08083v1",
+          "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
+          "authors": [
+            "Tong Zheng",
+            "Haolin Liu",
+            "Chengsong Huang",
+            "Huiwen Bao",
+            "Sheng Zhang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces AutoTTS, an environment-driven framework that automates the discovery of optimal test-time scaling (TTS) strategies, moving beyond manual heuristic design. The core method involves formulating TTS as controller synthesis over pre-collected reasoning trajectories, allowing an agent to learn when to branch, prune, or stop computation. This approach efficiently explores the vast computation-allocation space, leading to improved LLM performance during inference.",
+          "url": "http://arxiv.org/abs/2605.08083v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.08083v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.08083v1/x1.png",
+          "figure_caption": "Overview of our Auto-TTS framework. Unlike the traditional workflow of manually designing TTS strategies, Auto-TTS shifts the human role from directly hand-crafting branching, pruning, and stopping heuristics to constructing environments by defining states, actions, feedback, and objectives. Given the constructed environment, an explorer LLM iteratively proposes candidate controllers, evaluates them in the offline replay environment, receives feedback from scaling curves and execution traces, and uses the accumulated history to refine future proposals. The right panel shows an example evaluation on Qwen-1.7B and AIME25, where the discovered controller improves the accuracy–cost Pareto frontier over hand-crafted baselines with an affordable one-time search cost.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.08011v1",
+          "title": "Abductive Reasoning with Probabilistic Commonsense",
+          "authors": [
+            "Joseph Cotnareanu",
+            "Chiara Roverato",
+            "Han Zhou",
+            "Didier Chetelat",
+            "Yingxue Zhang"
+          ],
+          "categories": [
+            "cs.AI",
+            "stat.CO"
+          ],
+          "abstract": "This paper introduces Probabilistic Abductive CommonSense (PACS), a novel framework for abductive reasoning that explicitly models the variation in human commonsense beliefs. PACS uses an LLM and a formal solver to sample proofs representing different individuals' distinct commonsense assumptions. The core contribution is aggregating conclusions across these samples to determine the likely consensus on a statement's truth, overcoming the limitation of assuming universal commonsense agreement.",
+          "url": "http://arxiv.org/abs/2605.08011v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.08011v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.08011v1/x1.png",
+          "figure_caption": "Diagram illustrating our proposed PACS algorithm. The LLM receives a question from a user which requires abductive reasoning. The LLM translates this question into premises S S and a query proposition c c whose truth value is to be determined. Ascertaining that it cannot be solved directly, the LLM then attempts to add new commonsense clauses l 1 , l 2 , l 3 , … l_{1},l_{2},l_{3},\\( \\dots \\) , each time calling the formal logic solver to verify whether it has pinned down a value for c c , and if not, obtain the score. We stop after a time limit and take a majority vote among the conclusions as our answer. The algorithm used to search the tree of possibilities is described in Section 5.1 .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.08063v1",
+          "title": "Flow-OPD: On-Policy Distillation for Flow Matching Models",
+          "authors": [
+            "Zhen Fang",
+            "Wenxuan Huang",
+            "Yu Zeng",
+            "Yiming Zhao",
+            "Shuang Chen"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "Flow-OPD introduces the first on-policy distillation framework for Flow Matching text-to-image models to overcome multi-task alignment issues like reward sparsity and gradient interference. It employs a two-stage strategy: first, training specialized teacher models via single-reward fine-tuning, and second, distilling their consolidated expertise into a single student model using on-policy sampling and a flow-based cold-start. This method effectively unifies heterogeneous performance ceilings into a single, robust policy.",
+          "url": "http://arxiv.org/abs/2605.08063v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.08063v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.08063v1/x1.png",
+          "figure_caption": "Performance Comparison in Multi-task Training . During training, Flow-OPD exhibits a steady increase in mean rewards across GenEval Ghosh et al. ( 2023 ) and OCR Chen et al. ( 2023 ) benchmarks, reaching a peak of 93. In contrast, vanilla GRPO converges prematurely around 78. Our approach significantly outperforms GRPO in both image synthesis and text rendering while maintaining superior generation quality and human preference alignment. The curves are smoothed for visual clarity. DeQA and PickScore are norm to 0-1. We employ model merging for cold-start in the left subgraph.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.08013v1",
+          "title": "Learning CLI Agents with Structured Action Credit under Selective Observation",
+          "authors": [
+            "Haoyang Su",
+            "Ying Wen"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces a novel method for training Command Line Interface (CLI) agents by leveraging the inherent structure of CLI actions for better credit assignment. The core contribution involves two mechanisms: $\\sigma$-Reveal, which addresses selective observation by choosing task-relevant context from partial inputs, and Action Advantage Assignment, which refines the sparse terminal rewards by using structured action information to guide learning across long interaction trajectories.",
+          "url": "http://arxiv.org/abs/2605.08013v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.08013v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.08013v1/x1.png",
+          "figure_caption": "Overview of the verifiable CLI task workflow. (a) ShellOps task instance with a natural language query, an initial workspace file tree, a verifiable gold bash solution, and the expected post execution workspace or standard output. (b) ShellOps and ShellOps-Pro coverage across file extensions and four task axes (Lookup, Aggregate, Edit, Mixed). (c) Unified verifiable loop with workspace observation, shell action generation, sandbox execution, and schema based scoring.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.08012v1",
+          "title": "Position: Mechanistic Interpretability Must Disclose Identification Assumptions for Causal Claims",
+          "authors": [
+            "Zezheng Lin",
+            "Fengming Liu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper argues that mechanistic interpretability research, which frequently employs causal language, must explicitly state its identification assumptions for causal claims to be valid. The authors audited existing work, finding a pervasive lack of dedicated sections detailing these assumptions, with validation metrics often incorrectly substituted for actual causal identification. The core contribution is a proposed disclosure norm requiring researchers to name their identification strategy, enumerate assumptions, and explain the implications if those assumptions fail.",
+          "url": "http://arxiv.org/abs/2605.08012v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.08012v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.08012v1/x1.png",
+          "figure_caption": "Validation metrics and identification assumptions are not interchangeable. Validation metrics report what the data show under assumed conditions; identification assumptions are the conditions under which a causal claim follows. Substitution—reporting the metric in place of the assumption—leaves the causal claim unidentified. Audit ( n = 10 n=10 + n = 30 n=30 sensitivity): 0 / 30 0/30 papers contain a dedicated identification-assumptions section under any rule or coder.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.08007v1",
+          "title": "Interpreting Reinforcement Learning Agents with Susceptibilities",
+          "authors": [
+            "Chris Elliott",
+            "Einar Urdshals",
+            "David Quarel",
+            "Daniel Murfet"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces \"susceptibilities\" as a novel interpretability technique generalized from neural networks to deep reinforcement learning, focusing on the regret's response to loss perturbations. The core contribution is demonstrating that susceptibilities reveal internal developmental features within the model's parameter space that are invisible when only analyzing the learned policy. This method is validated using activation steering and proposed for extension to RLHF post-training.",
+          "url": "http://arxiv.org/abs/2605.08007v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.08007v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.08007v1/x1.png",
+          "figure_caption": "Training dynamics for a model trained with α = 0.6 \\( \\alpha \\)=0.6 . Top row: Cheese-in-corner environment; an RL agent (mouse) navigates to cheese (+1 reward). Initial states are colored by mouse position relative to the cheese (two rightmost panels); in a fraction 1 − α 1-\\( \\alpha \\) of environments cheese is in the top-left corner (top right panel), so all initial mouse positions are red/orange/yellow. Middle and lower row: Middle left shows the LLC and regret curves; the model passes through 3 phases, visible as LLC spikes and regret drops. Red dots mark the checkpoints whose susceptibility scatter plots are shown, projecting susceptibilities to 2D (average convolution-block vs. average fully-connected-block susceptibility). Red/orange/yellow states dominate phases 1–2, with other directions concentrated near the origin. Lower left: transition to phase 3, where other directions (notably green) gain non-zero susceptibilities, before two clusters emerge early in phase 3 (lower middle). Late in phase 3, the clusters merge and the overall susceptibility scale declines. Each susceptibility panel reports the variance explained by PC1 and PC1’s cosine similarity to each weight restriction direction.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.07969v1",
+          "title": "When Diffusion Model Can Ignore Dimension: An Entropy-Based Theory",
+          "authors": [
+            "Ahmad Aghapour",
+            "Erhan Bayraktar"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.IT"
+          ],
+          "abstract": "This paper develops an entropy-based theory to explain the high-dimensional efficiency of diffusion model samplers. The core method proves that the discretization error for Gaussian mixture targets is controlled by the **Shannon entropy of the latent mixture components**, not the ambient dimension. This contribution shows that step complexity scales linearly with latent entropy, offering a theoretical justification for why diffusion models perform well even in high dimensions with few steps.",
+          "url": "http://arxiv.org/abs/2605.07969v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.07969v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 16,
+        "papers_after_llm_filter": 13,
+        "count": 13
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48085821,
+          "title": "Local AI needs to be the norm",
+          "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+          "score": 1304,
+          "created_at": "2026-05-10T17:19:28Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48085821",
+          "summary": "The core message is that local AI processing should become the standard practice rather than the exception."
+        },
+        {
+          "id": 48088151,
+          "title": "Maryland citizens hit with $2B power grid upgrade for out-of-state AI",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
+          "score": 270,
+          "created_at": "2026-05-10T21:16:58Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48088151",
+          "summary": "Maryland residents face a \\$2 billion power grid upgrade bill primarily to support out-of-state AI data centers, prompting the state to complain to federal regulators about the cost burden."
+        },
+        {
+          "id": 48089289,
+          "title": "An AI coding agent, used to write code, needs to reduce your maintenance costs",
+          "url": "https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs",
+          "score": 212,
+          "created_at": "2026-05-10T23:39:55Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48089289",
+          "summary": "The core message is that AI coding agents must evolve to actively reduce software maintenance costs, rather than just focusing on initial code generation."
+        },
+        {
+          "id": 48089263,
+          "title": "PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs",
+          "url": "https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656",
+          "score": 168,
+          "created_at": "2026-05-10T23:36:48Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48089263",
+          "summary": "Developers of a PlayStation 3 emulator are asking contributors to stop submitting numerous, often low-quality, pull requests generated by artificial intelligence tools."
+        },
+        {
+          "id": 48084710,
+          "title": "Chrome's AI features may be hogging 4GB of your computer storage",
+          "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
+          "score": 110,
+          "created_at": "2026-05-10T15:22:46Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48084710",
+          "summary": "Google Chrome's new AI features, powered by Gemini Nano, are reportedly consuming a significant 4GB of local computer storage."
+        }
+      ],
+      "meta": {
+        "count": 5
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Postdoctoral Researcher in Industrial AI Algorithm and Autonomous Decision-Making Systems",
+          "url": "https://www.jobs.ac.uk/job/DRM575/postdoctoral-researcher-in-industrial-ai-algorithm-and-autonomous-decision-making-systems/",
+          "description": "Xi&#039;an Jiaotong - Liverpool University - School of Intelligent Manufacturing Ecosystem&lt;br /&gt;Salary: Competitive",
+          "posted_date": "",
+          "source": "jobs.ac.uk CS",
+          "deadline": "",
+          "requirements": "Research Area: Industrial AI Algorithm and Autonomous Decision-Making Systems\nKey Requirements: N/A\nApplication Info: N/A / N/A, N/A, N/A\nPosition Details: Suzhou - China, Fixed-Term/Contract, Full Time, Competitive\nOne-line Advice: Focus CV on industrial applications, AI algorithms, and decision-making systems.",
+          "relevance_score": 8.0,
+          "institution": "",
+          "location": "Suzhou - China",
+          "salary": "Competitive",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "10th May 2026",
+          "job_ref": ""
+        },
+        {
+          "title": "PhD Studentship: Cracks and Code: From High-Fidelity Simulations to Fast Scientific Machine Learning Models",
+          "url": "https://www.jobs.ac.uk/job/DRM429/phd-studentship-cracks-and-code-from-high-fidelity-simulations-to-fast-scientific-machine-learning-models/",
+          "description": "About the project: Cracks and Code: From High-Fidelity Simulations to Fast Scientific Machine Learning Models Supervisor: Dr Emmanouil Kakouris, University of Warwick When metals experience extreme events, such as shock waves, high-speed impacts, or rapid deformation, they can fail suddenly in ways that remain difficult to predict. In this project, you will investigate how cracks initiate and grow in metals under these high-rate conditions. You will use large-scale simulations (both atomistic and continuum) to study how damage forms and localises, and then develop scientific machine-learning models that can reproduce these processes far more efficiently. Your results will help create faster more reliable tools for predicting material failure in real engineering applications. About HetSys: Harnessing Data, Modelling and Simulation for Real‑World Impact HetSys (Centre for Doctoral Training in Modelling of Heterogeneous Systems ) at the University of Warwick is an innovative, interdisciplinary fully funded PhD programme that brings together science, engineering, and mathematics to tackle some of the most pressing challenges of our time. Big Questions, Real Impact – From climate modelling and sustainable energy to advanced materials and biomedical systems, HetSys projects apply cutting‑edge computational and mathematical techniques to problems with global significance. Interdisciplinary Training – Students gain expertise across physics, engineering, computer science, and applied mathematics, developing versatile skills that open doors to both academia and industry. Collaborative Environment – Work alongside leading researchers and industry partners in a supportive, vibrant community that values curiosity, creativity, and collaboration. Future‑Focused Careers – HetSys graduates are equipped with highly sought‑after skills in modelling, simulation, and data science, preparing them for impactful careers in research, technology, and beyond. If you’re excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs £21805 (equivalent to national living wage)",
+          "posted_date": "",
+          "source": "jobs.ac.uk CS",
+          "deadline": "2026-08-01T00:00:00+00:00",
+          "requirements": "Research Area: Cracks and Code: From High-Fidelity Simulations (atomistic and continuum) to Fast Scientific Machine Learning Models for predicting material failure in metals under high-rate conditions (shock waves, impacts, rapid deformation).\nKey Requirements: Ability to work on large-scale simulations (atomistic and continuum) and develop scientific machine-learning models to reproduce high-rate material damage processes.\nApplication Info: deadline/start date, required materials, contact (if any): Deadline 2026-08-01T00:00:00+00:00. Supervisor: Dr Emmanouil Kakouris. Required materials not explicitly listed.\nPosition Details: location, contract type, workload, salary: Location University of Warwick, Coventry, England, United Kingdom. Contract type N/A. Workload Full Time. Salary N/A.\nOne-line Advice: Focus CV on computational modeling, materials science/mechanics, and experience with large-scale simulation or scientific ML development.",
+          "relevance_score": 7.0,
+          "institution": "University of Warwick",
+          "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+          "salary": "",
+          "hours": "Full Time",
+          "contract_type": "",
+          "placed_on": "9th May 2026",
+          "job_ref": ""
+        },
+        {
+          "title": "PhD Studentship: Extreme Weather Storylines via Generative AI",
+          "url": "https://www.jobs.ac.uk/job/DRM434/phd-studentship-extreme-weather-storylines-via-generative-ai/",
+          "description": "About the project: Extreme Weather Storylines via Generative AI Supervisor: Dr Tobias Grafke, University of Warwick Generative machine learning techniques, as known for example from large language models or image generation, have recently also taken the atmospheric dynamics and weather forecast communities by storm. At the same time, due to anthropogenetic climate change, society faces elevated risk from extreme weather events such as flash floods, heatwaves, or tropical cyclones. This project aims to combine generative weather prediction models with rare event techniques to generate plausible trajectories of the weather system exhibiting extreme weather events. The ECMWF machine learning division has agreed to provide data and support the project in adapting their in-house intermediate-resolution generative weather model. About HetSys: Harnessing Data, Modelling and Simulation for Real‑World Impact HetSys (Centre for Doctoral Training in Modelling of Heterogeneous Systems ) at the University of Warwick is an innovative, interdisciplinary fully funded PhD programme that brings together science, engineering, and mathematics to tackle some of the most pressing challenges of our time. Big Questions, Real Impact – From climate modelling and sustainable energy to advanced materials and biomedical systems, HetSys projects apply cutting‑edge computational and mathematical techniques to problems with global significance. Interdisciplinary Training – Students gain expertise across physics, engineering, computer science, and applied mathematics, developing versatile skills that open doors to both academia and industry. Collaborative Environment – Work alongside leading researchers and industry partners in a supportive, vibrant community that values curiosity, creativity, and collaboration. Future‑Focused Careers – HetSys graduates are equipped with highly sought‑after skills in modelling, simulation, and data science, preparing them for impactful careers in research, technology, and beyond. If you’re excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs (standard UKRI rate £21,805 in 26/27 - equivalent to national living wage)",
+          "posted_date": "",
+          "source": "jobs.ac.uk CS",
+          "deadline": "2026-08-28T00:00:00+00:00",
+          "requirements": "Research Area: Extreme Weather Storylines via Generative AI, combining generative weather prediction models with rare event techniques.\nKey Requirements: Expertise/interest in Generative machine learning techniques (e.g., LLMs, image generation) applied to atmospheric dynamics/weather forecast models.\nApplication Info: deadline: 2026-08-28T00:00:00+00:00, required materials: N/A, contact: Dr Tobias Grafke (Supervisor).\nPosition Details: location: Coventry, England, United Kingdom / University of Warwick, England, United Kingdom, contract type: N/A, workload: Full Time, salary: N/A.\nOne-line Advice: Focus CV on generative AI/machine learning applied to physical systems or complex data modeling.",
+          "relevance_score": 7.0,
+          "institution": "University of Warwick",
+          "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+          "salary": "",
+          "hours": "Full Time",
+          "contract_type": "",
+          "placed_on": "9th May 2026",
+          "job_ref": ""
+        },
+        {
+          "title": "PhD Studentship: From Brittle to Ductile: Machine Learning 3D Fracture Simulations for Extreme Environments",
+          "url": "https://www.jobs.ac.uk/job/DRM435/phd-studentship-from-brittle-to-ductile-machine-learning-3d-fracture-simulations-for-extreme-environments/",
+          "description": "About the project: From Brittle to Ductile: Machine Learning 3D Fracture Simulations for Extreme Environments Supervisor: Prof, James Kermode, University of Warwick Develop cutting-edge machine learning models to predict how materials break at the atomic scale. You'll create AI-driven simulations that reveal why tungsten, the leading fusion reactor material, transitions from ductile to brittle behaviour as the temperature drops, combining quantum mechanics, large-scale molecular dynamics, and deep learning. Work with world-leading researchers at Warwick and the Max Planck Institute for Sustainable Materials, mastering scientific machine learning, uncertainty quantification, and high-performance computing. Your models will inform fusion design and advance AI-for-materials. Perfect for physics, maths, or materials students wanting to blend fundamentals with real-world impact. Code, physics, and helping to solve the energy challenge, all in one project. About HetSys: Harnessing Data, Modelling and Simulation for Real‑World Impact HetSys (Centre for Doctoral Training in Modelling of Heterogeneous Systems ) at the University of Warwick is an innovative, interdisciplinary fully funded PhD programme that brings together science, engineering, and mathematics to tackle some of the most pressing challenges of our time. Big Questions, Real Impact – From climate modelling and sustainable energy to advanced materials and biomedical systems, HetSys projects apply cutting‑edge computational and mathematical techniques to problems with global significance. Interdisciplinary Training – Students gain expertise across physics, engineering, computer science, and applied mathematics, developing versatile skills that open doors to both academia and industry. Collaborative Environment – Work alongside leading researchers and industry partners in a supportive, vibrant community that values curiosity, creativity, and collaboration. Future‑Focused Careers – HetSys graduates are equipped with highly sought‑after skills in modelling, simulation, and data science, preparing them for impactful careers in research, technology, and beyond. If you’re excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs (standard UKRI rate £21,805 in 26/27 - equivalent to national living wage)",
+          "posted_date": "",
+          "source": "jobs.ac.uk CS",
+          "deadline": "2026-08-28T00:00:00+00:00",
+          "requirements": "Research Area: Machine Learning 3D Fracture Simulations for Extreme Environments, focusing on predicting material failure (tungsten) at the atomic scale using quantum mechanics, molecular dynamics, and deep learning.\nKey Requirements: Background in physics, maths, or materials; skills in scientific machine learning, uncertainty quantification, and high-performance computing are desirable.\nApplication Info: deadline/start date, required materials, contact (if any): Deadline 2026-08-28. Materials and contact information are not fully specified beyond the supervisor (Prof. James Kermode).\nPosition Details: location, contract type, workload, salary: Location Coventry, England, UK (University of Warwick). Contract type N/A. Workload Full Time. Salary N/A.\nOne-line Advice: Match assessment for CV/medical imaging/LLM applicants: This role requires strong foundations in physics/materials science and scientific computing (ML/HPC), not standard CV/medical imaging/LLM applications.",
+          "relevance_score": 7.0,
+          "institution": "University of Warwick",
+          "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+          "salary": "",
+          "hours": "Full Time",
+          "contract_type": "",
+          "placed_on": "9th May 2026",
+          "job_ref": ""
+        },
+        {
+          "title": "Postdoctoral Training Fellow - Artificial Intelligence for Radiotherapy",
+          "url": "https://www.findapostdoc.com/search/Job-Details.aspx?jobcode=12657",
+          "description": "Under the guidance of Dr Matthew Blackledge, we are seeking to recruit a Postdoctoral Training Fellow to contribute to deliver treatment-integrated, multimodal agentic AI to drive a step-change in clinical radiotherapy by i) improving patient outcomes for cancers of unmet clinical need; and ii) increasing the efficiency of RT by enabling safe ultra-hypofractionated treatments.",
+          "institution": "The Institute of Cancer Research, Radiotherapy & Imaging",
+          "posted_date": "17 April 2026",
+          "deadline": "15 May 2026",
+          "source": "FindAPostDoc AI",
+          "requirements": "Research Area: Artificial Intelligence for Radiotherapy, multimodal agentic AI, treatment-integrated AI.\nKey Requirements: Ability to contribute to delivering treatment-integrated, multimodal agentic AI for improving patient outcomes and increasing RT efficiency (enabling safe ultra-hypofractionated treatments).\nApplication Info: deadline: 15 May 2026, required materials: N/A, contact: Dr Matthew Blackledge (guidance).\nPosition Details: location: N/A, contract type: N/A, workload: N/A, salary: N/A.\nOne-line Advice: Focus CV on AI/ML applications within medical imaging or clinical treatment optimization, emphasizing multimodal data handling.",
+          "relevance_score": 9.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        },
+        {
+          "title": "Announcement of a part-time research staff position (R2) specialising in AI architectures for the Computer Vision Center",
+          "url": "https://euraxess.ec.europa.eu/jobs/435211",
+          "description": "Position reference: 20260505_IA-RClosing date: 15/05/2026About the CVCThe Computer Vision Centre (CVC) is a CERCA research centre created in 1995 by the Government of Catalonia and the Autonomous University of Barcelona (UAB) and dedicated to research in the field of Computer Vision and Artificial... * Work Locations: Number of offers: 1, Spain, Computer Vision Center, Cerdanyola del Vallés, 08193, Barcelona, Edifici O, s/n Campus UAB Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A91) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Other EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A6053) Application Deadline: 15 May 2026 - 23:59 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Spain * [Universitat Pompeu Fabra](https://euraxess.ec.europa.eu/partnering/organisations/profile/universitat-pompeu-fabra-8) * [Field: Computer science]",
+          "institution": "",
+          "posted_date": "11 May 2026",
+          "deadline": "15/05/2026About the CVCThe Computer Vision Centre (CVC) is a CERCA research centre created in 1995 by the Government of Catalonia and the Autonomous University of Barcelona (UAB) and dedicated to research in the field of Computer Vision and Artificial",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: AI architectures for Computer Vision\nKey Requirements: Specialisation in AI architectures; Researcher Profile R2 (Recognised Researcher)\nApplication Info: Deadline 15/05/2026; Required materials N/A; Contact N/A\nPosition Details: Location Spain, Computer Vision Center, Cerdanyola del Vallés, Barcelona; Contract part-time; Workload N/A; Salary N/A\nOne-line Advice: Focus CV expertise on AI architectures; medical imaging/LLM details are not specified.",
+          "relevance_score": 9.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 6
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 16,
+    "papers_after_llm_filter": 13,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 131
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2605.08037v1",
+      "title": "Beyond Pairs: Your Language Model is Secretly Optimizing a Preference Graph",
+      "authors": [
+        "Ning Liu",
+        "Chuanneng Sun",
+        "Kristina Klinkner",
+        "Shervin Malmasi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **Graph Direct Preference Optimization (GraphDPO)**, a principled generalization of DPO that moves beyond pairwise comparisons to leverage richer preference structures present in multi-rollout training data. GraphDPO models these relationships as a directed acyclic graph and optimizes a graph-structured objective inspired by Plackett-Luce, effectively enforcing transitivity and aggregating supervision across the entire preference structure. This method provides a more stable and informative optimization compared to collapsing multi-rollout data into independent pairs.",
+      "url": "http://arxiv.org/abs/2605.08037v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08037v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.08037v1/x1.png",
+      "figure_caption": "GraphDPO pipeline for LLM alignment. For each prompt, the policy samples K K rollouts, which are grouped into equivalence classes according to preference signals. These classes induce a DAG structure whose edges encode dominance relations between groups, with an optional ground-truth node as a global anchor. Equivalence-class masking removes intra-group comparisons so that each response is contrasted only with strictly worse groups via a local Plackett–Luce loss. The resulting losses are aggregated over the graph to update the policy while enforcing transitive preference structure.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.08019v1",
+      "title": "Reason to Play: Behavioral and Brain Alignment Between Frontier LRMs and Human Game Learners",
+      "authors": [
+        "Botos Csaba",
+        "Sreejan Kumar",
+        "Austin Tudor David Andrews",
+        "Laurence Hunt",
+        "Chris Summerfield"
+      ],
+      "categories": [
+        "cs.AI",
+        "q-bio.NC"
+      ],
+      "abstract": "This paper investigates whether frontier Large Reasoning Models (LRMs) can emulate human learning and planning in novel game environments. The core method involves jointly evaluating LRMs against RL agents using human gameplay data, concurrent fMRI recordings, and task performance. The key contribution is demonstrating that LRMs significantly outperform traditional AI methods in matching human behavioral learning patterns and predicting brain activity during complex rule discovery and planning tasks.",
+      "url": "http://arxiv.org/abs/2605.08019v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08019v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.08019v1/x1.png",
+      "figure_caption": "VGDL game paradigm. (A) Games are defined by combining game rules with map layouts to produce interactive environments. (B) Example Trial Structure of VGDL-fMRI Dataset. Color denotes game names: ( Bait , Chase , Helper , Lemmings , Plaque Attack , Zelda ). All participants played the same level progression structure with randomized game order. The subsequent levels reveal new rules incrementally. The Interactive Catalogue A lets readers try each game in the browser and browse all participant and LRM agent gameplay replays. Project page: https://botcs.github.io/reason-to-play/",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.08060v1",
+      "title": "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents",
+      "authors": [
+        "Jiayuan Liu",
+        "Tianqin Li",
+        "Shiyi Du",
+        "Xin Luo",
+        "Haoxuan Zeng"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.GT",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces the \"memory curse,\" demonstrating that expanding the context window for LLM agents systematically *erodes* cooperation in multi-agent social dilemmas. The core finding is that this degradation stems from the LLMs focusing less on future intent and more on past history, a mechanism confirmed by fine-tuning on forward-looking reasoning traces to restore cooperation. The contribution is identifying memory content, not just length, as the critical factor undermining cooperative behavior in extended recall settings.",
+      "url": "http://arxiv.org/abs/2605.08060v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08060v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.08060v1/x1.png",
+      "figure_caption": "Schematic of repeated social dilemma interactions between two LLM agents with shared memory.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.07990v1",
+      "title": "Tool Calling is Linearly Readable and Steerable in Language Models",
+      "authors": [
+        "Zekun Wu",
+        "Ze Wang",
+        "Seonglae Cho",
+        "Yufei Yang",
+        "Adriano Koshiyama"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "This paper demonstrates that the tool selection within instruction-tuned language models is **linearly readable and steerable** by manipulating internal activations. By adding the mean-difference vector between two tools' activations, the model can be reliably forced to choose a different tool, and this manipulation also preserves the correct argument structure. Furthermore, the gap between the top-1 and top-2 tool activation means serves as a reliable **pre-execution error flag**, predicting incorrect tool calls.",
+      "url": "http://arxiv.org/abs/2605.07990v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07990v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.07990v1/figures/fig1_hero_final.png",
+      "figure_caption": "Overview of the three-stage circuit and steering demonstration. Adding a mean-difference vector redirects tool selection and automatically restructures arguments. Validated across 12 IT models in 3 families (Gemma 3, Qwen 3 / Qwen 2.5, Llama 3.1; 270M–27B).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.07977v1",
+      "title": "Self-Play Enhancement via Advantage-Weighted Refinement in Online Federated LLM Fine-Tuning with Real-Time Feedback",
+      "authors": [
+        "Seohyun Lee",
+        "Wenzhi Fang",
+        "Dong-Jun Han",
+        "Seyyedali Hosseinalipour",
+        "Christopher G. Brinton"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces SPEAR, an efficient online learning algorithm for federated LLM fine-tuning that enhances self-play using real-time user feedback. SPEAR constructs naturally contrastive training pairs from this feedback within a self-play loop, allowing the model to refine itself without requiring offline setups or privileged ground-truth data. This method effectively integrates external feedback across resource-constrained edge devices in a federated setting.",
+      "url": "http://arxiv.org/abs/2605.07977v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07977v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.07977v1/x1.png",
+      "figure_caption": "The two phases of the SPEAR algorithm. Firstly, the model interacts with an incoming feedback source (e.g., a user) to correct incorrect generations. After the interaction phase, it categorizes the samples into wins and losses, which are then used to train a standard MLE and unlikelihood objective. This two-stage process repeats at each federated round t t for each client selected for aggregation.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.07982v1",
+      "title": "GLiGuard: Schema-Conditioned Classification for LLM Safeguard",
+      "authors": [
+        "Urchade Zaratiana",
+        "Mary Newhauser",
+        "George Hurn-Maloney",
+        "Ash Lewis"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "GLiGuard reframes LLM safety evaluation from slow, sequential text generation to efficient, non-autoregressive classification by adapting a small (0.3B parameter) encoder model. Its core contribution is encoding task definitions and label semantics directly into the input as structured token schemas, allowing simultaneous, low-latency assessment across numerous safety dimensions (e.g., harm categories, jailbreaks) in a single forward pass.",
+      "url": "http://arxiv.org/abs/2605.07982v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07982v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.07982v1/x1.png",
+      "figure_caption": "GLiGuard multi-task moderation overview. Given a text (prompt or response) and a user-specified task schema, GLiGuard produces predictions for all selected tasks in a single forward pass.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.08083v1",
+      "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
+      "authors": [
+        "Tong Zheng",
+        "Haolin Liu",
+        "Chengsong Huang",
+        "Huiwen Bao",
+        "Sheng Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces AutoTTS, an environment-driven framework that automates the discovery of optimal test-time scaling (TTS) strategies, moving beyond manual heuristic design. The core method involves formulating TTS as controller synthesis over pre-collected reasoning trajectories, allowing an agent to learn when to branch, prune, or stop computation. This approach efficiently explores the vast computation-allocation space, leading to improved LLM performance during inference.",
+      "url": "http://arxiv.org/abs/2605.08083v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08083v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.08083v1/x1.png",
+      "figure_caption": "Overview of our Auto-TTS framework. Unlike the traditional workflow of manually designing TTS strategies, Auto-TTS shifts the human role from directly hand-crafting branching, pruning, and stopping heuristics to constructing environments by defining states, actions, feedback, and objectives. Given the constructed environment, an explorer LLM iteratively proposes candidate controllers, evaluates them in the offline replay environment, receives feedback from scaling curves and execution traces, and uses the accumulated history to refine future proposals. The right panel shows an example evaluation on Qwen-1.7B and AIME25, where the discovered controller improves the accuracy–cost Pareto frontier over hand-crafted baselines with an affordable one-time search cost.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.08011v1",
+      "title": "Abductive Reasoning with Probabilistic Commonsense",
+      "authors": [
+        "Joseph Cotnareanu",
+        "Chiara Roverato",
+        "Han Zhou",
+        "Didier Chetelat",
+        "Yingxue Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "stat.CO"
+      ],
+      "abstract": "This paper introduces Probabilistic Abductive CommonSense (PACS), a novel framework for abductive reasoning that explicitly models the variation in human commonsense beliefs. PACS uses an LLM and a formal solver to sample proofs representing different individuals' distinct commonsense assumptions. The core contribution is aggregating conclusions across these samples to determine the likely consensus on a statement's truth, overcoming the limitation of assuming universal commonsense agreement.",
+      "url": "http://arxiv.org/abs/2605.08011v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08011v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.08011v1/x1.png",
+      "figure_caption": "Diagram illustrating our proposed PACS algorithm. The LLM receives a question from a user which requires abductive reasoning. The LLM translates this question into premises S S and a query proposition c c whose truth value is to be determined. Ascertaining that it cannot be solved directly, the LLM then attempts to add new commonsense clauses l 1 , l 2 , l 3 , … l_{1},l_{2},l_{3},\\( \\dots \\) , each time calling the formal logic solver to verify whether it has pinned down a value for c c , and if not, obtain the score. We stop after a time limit and take a majority vote among the conclusions as our answer. The algorithm used to search the tree of possibilities is described in Section 5.1 .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.08063v1",
+      "title": "Flow-OPD: On-Policy Distillation for Flow Matching Models",
+      "authors": [
+        "Zhen Fang",
+        "Wenxuan Huang",
+        "Yu Zeng",
+        "Yiming Zhao",
+        "Shuang Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "Flow-OPD introduces the first on-policy distillation framework for Flow Matching text-to-image models to overcome multi-task alignment issues like reward sparsity and gradient interference. It employs a two-stage strategy: first, training specialized teacher models via single-reward fine-tuning, and second, distilling their consolidated expertise into a single student model using on-policy sampling and a flow-based cold-start. This method effectively unifies heterogeneous performance ceilings into a single, robust policy.",
+      "url": "http://arxiv.org/abs/2605.08063v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08063v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.08063v1/x1.png",
+      "figure_caption": "Performance Comparison in Multi-task Training . During training, Flow-OPD exhibits a steady increase in mean rewards across GenEval Ghosh et al. ( 2023 ) and OCR Chen et al. ( 2023 ) benchmarks, reaching a peak of 93. In contrast, vanilla GRPO converges prematurely around 78. Our approach significantly outperforms GRPO in both image synthesis and text rendering while maintaining superior generation quality and human preference alignment. The curves are smoothed for visual clarity. DeQA and PickScore are norm to 0-1. We employ model merging for cold-start in the left subgraph.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.08013v1",
+      "title": "Learning CLI Agents with Structured Action Credit under Selective Observation",
+      "authors": [
+        "Haoyang Su",
+        "Ying Wen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a novel method for training Command Line Interface (CLI) agents by leveraging the inherent structure of CLI actions for better credit assignment. The core contribution involves two mechanisms: $\\sigma$-Reveal, which addresses selective observation by choosing task-relevant context from partial inputs, and Action Advantage Assignment, which refines the sparse terminal rewards by using structured action information to guide learning across long interaction trajectories.",
+      "url": "http://arxiv.org/abs/2605.08013v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08013v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.08013v1/x1.png",
+      "figure_caption": "Overview of the verifiable CLI task workflow. (a) ShellOps task instance with a natural language query, an initial workspace file tree, a verifiable gold bash solution, and the expected post execution workspace or standard output. (b) ShellOps and ShellOps-Pro coverage across file extensions and four task axes (Lookup, Aggregate, Edit, Mixed). (c) Unified verifiable loop with workspace observation, shell action generation, sandbox execution, and schema based scoring.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.08012v1",
+      "title": "Position: Mechanistic Interpretability Must Disclose Identification Assumptions for Causal Claims",
+      "authors": [
+        "Zezheng Lin",
+        "Fengming Liu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper argues that mechanistic interpretability research, which frequently employs causal language, must explicitly state its identification assumptions for causal claims to be valid. The authors audited existing work, finding a pervasive lack of dedicated sections detailing these assumptions, with validation metrics often incorrectly substituted for actual causal identification. The core contribution is a proposed disclosure norm requiring researchers to name their identification strategy, enumerate assumptions, and explain the implications if those assumptions fail.",
+      "url": "http://arxiv.org/abs/2605.08012v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08012v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.08012v1/x1.png",
+      "figure_caption": "Validation metrics and identification assumptions are not interchangeable. Validation metrics report what the data show under assumed conditions; identification assumptions are the conditions under which a causal claim follows. Substitution—reporting the metric in place of the assumption—leaves the causal claim unidentified. Audit ( n = 10 n=10 + n = 30 n=30 sensitivity): 0 / 30 0/30 papers contain a dedicated identification-assumptions section under any rule or coder.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.08007v1",
+      "title": "Interpreting Reinforcement Learning Agents with Susceptibilities",
+      "authors": [
+        "Chris Elliott",
+        "Einar Urdshals",
+        "David Quarel",
+        "Daniel Murfet"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces \"susceptibilities\" as a novel interpretability technique generalized from neural networks to deep reinforcement learning, focusing on the regret's response to loss perturbations. The core contribution is demonstrating that susceptibilities reveal internal developmental features within the model's parameter space that are invisible when only analyzing the learned policy. This method is validated using activation steering and proposed for extension to RLHF post-training.",
+      "url": "http://arxiv.org/abs/2605.08007v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08007v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.08007v1/x1.png",
+      "figure_caption": "Training dynamics for a model trained with α = 0.6 \\( \\alpha \\)=0.6 . Top row: Cheese-in-corner environment; an RL agent (mouse) navigates to cheese (+1 reward). Initial states are colored by mouse position relative to the cheese (two rightmost panels); in a fraction 1 − α 1-\\( \\alpha \\) of environments cheese is in the top-left corner (top right panel), so all initial mouse positions are red/orange/yellow. Middle and lower row: Middle left shows the LLC and regret curves; the model passes through 3 phases, visible as LLC spikes and regret drops. Red dots mark the checkpoints whose susceptibility scatter plots are shown, projecting susceptibilities to 2D (average convolution-block vs. average fully-connected-block susceptibility). Red/orange/yellow states dominate phases 1–2, with other directions concentrated near the origin. Lower left: transition to phase 3, where other directions (notably green) gain non-zero susceptibilities, before two clusters emerge early in phase 3 (lower middle). Late in phase 3, the clusters merge and the overall susceptibility scale declines. Each susceptibility panel reports the variance explained by PC1 and PC1’s cosine similarity to each weight restriction direction.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.07969v1",
+      "title": "When Diffusion Model Can Ignore Dimension: An Entropy-Based Theory",
+      "authors": [
+        "Ahmad Aghapour",
+        "Erhan Bayraktar"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.IT"
+      ],
+      "abstract": "This paper develops an entropy-based theory to explain the high-dimensional efficiency of diffusion model samplers. The core method proves that the discretization error for Gaussian mixture targets is controlled by the **Shannon entropy of the latent mixture components**, not the ambient dimension. This contribution shows that step complexity scales linearly with latent entropy, offering a theoretical justification for why diffusion models perform well even in high dimensions with few steps.",
+      "url": "http://arxiv.org/abs/2605.07969v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07969v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "papers": [
+    {
+      "id": "2605.08037v1",
+      "title": "Beyond Pairs: Your Language Model is Secretly Optimizing a Preference Graph",
+      "authors": [
+        "Ning Liu",
+        "Chuanneng Sun",
+        "Kristina Klinkner",
+        "Shervin Malmasi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **Graph Direct Preference Optimization (GraphDPO)**, a principled generalization of DPO that moves beyond pairwise comparisons to leverage richer preference structures present in multi-rollout training data. GraphDPO models these relationships as a directed acyclic graph and optimizes a graph-structured objective inspired by Plackett-Luce, effectively enforcing transitivity and aggregating supervision across the entire preference structure. This method provides a more stable and informative optimization compared to collapsing multi-rollout data into independent pairs.",
+      "url": "http://arxiv.org/abs/2605.08037v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08037v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.08037v1/x1.png",
+      "figure_caption": "GraphDPO pipeline for LLM alignment. For each prompt, the policy samples K K rollouts, which are grouped into equivalence classes according to preference signals. These classes induce a DAG structure whose edges encode dominance relations between groups, with an optional ground-truth node as a global anchor. Equivalence-class masking removes intra-group comparisons so that each response is contrasted only with strictly worse groups via a local Plackett–Luce loss. The resulting losses are aggregated over the graph to update the policy while enforcing transitive preference structure.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.08019v1",
+      "title": "Reason to Play: Behavioral and Brain Alignment Between Frontier LRMs and Human Game Learners",
+      "authors": [
+        "Botos Csaba",
+        "Sreejan Kumar",
+        "Austin Tudor David Andrews",
+        "Laurence Hunt",
+        "Chris Summerfield"
+      ],
+      "categories": [
+        "cs.AI",
+        "q-bio.NC"
+      ],
+      "abstract": "This paper investigates whether frontier Large Reasoning Models (LRMs) can emulate human learning and planning in novel game environments. The core method involves jointly evaluating LRMs against RL agents using human gameplay data, concurrent fMRI recordings, and task performance. The key contribution is demonstrating that LRMs significantly outperform traditional AI methods in matching human behavioral learning patterns and predicting brain activity during complex rule discovery and planning tasks.",
+      "url": "http://arxiv.org/abs/2605.08019v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08019v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.08019v1/x1.png",
+      "figure_caption": "VGDL game paradigm. (A) Games are defined by combining game rules with map layouts to produce interactive environments. (B) Example Trial Structure of VGDL-fMRI Dataset. Color denotes game names: ( Bait , Chase , Helper , Lemmings , Plaque Attack , Zelda ). All participants played the same level progression structure with randomized game order. The subsequent levels reveal new rules incrementally. The Interactive Catalogue A lets readers try each game in the browser and browse all participant and LRM agent gameplay replays. Project page: https://botcs.github.io/reason-to-play/",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.08060v1",
+      "title": "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents",
+      "authors": [
+        "Jiayuan Liu",
+        "Tianqin Li",
+        "Shiyi Du",
+        "Xin Luo",
+        "Haoxuan Zeng"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.GT",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces the \"memory curse,\" demonstrating that expanding the context window for LLM agents systematically *erodes* cooperation in multi-agent social dilemmas. The core finding is that this degradation stems from the LLMs focusing less on future intent and more on past history, a mechanism confirmed by fine-tuning on forward-looking reasoning traces to restore cooperation. The contribution is identifying memory content, not just length, as the critical factor undermining cooperative behavior in extended recall settings.",
+      "url": "http://arxiv.org/abs/2605.08060v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08060v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.08060v1/x1.png",
+      "figure_caption": "Schematic of repeated social dilemma interactions between two LLM agents with shared memory.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.07990v1",
+      "title": "Tool Calling is Linearly Readable and Steerable in Language Models",
+      "authors": [
+        "Zekun Wu",
+        "Ze Wang",
+        "Seonglae Cho",
+        "Yufei Yang",
+        "Adriano Koshiyama"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "This paper demonstrates that the tool selection within instruction-tuned language models is **linearly readable and steerable** by manipulating internal activations. By adding the mean-difference vector between two tools' activations, the model can be reliably forced to choose a different tool, and this manipulation also preserves the correct argument structure. Furthermore, the gap between the top-1 and top-2 tool activation means serves as a reliable **pre-execution error flag**, predicting incorrect tool calls.",
+      "url": "http://arxiv.org/abs/2605.07990v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07990v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.07990v1/figures/fig1_hero_final.png",
+      "figure_caption": "Overview of the three-stage circuit and steering demonstration. Adding a mean-difference vector redirects tool selection and automatically restructures arguments. Validated across 12 IT models in 3 families (Gemma 3, Qwen 3 / Qwen 2.5, Llama 3.1; 270M–27B).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.07977v1",
+      "title": "Self-Play Enhancement via Advantage-Weighted Refinement in Online Federated LLM Fine-Tuning with Real-Time Feedback",
+      "authors": [
+        "Seohyun Lee",
+        "Wenzhi Fang",
+        "Dong-Jun Han",
+        "Seyyedali Hosseinalipour",
+        "Christopher G. Brinton"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces SPEAR, an efficient online learning algorithm for federated LLM fine-tuning that enhances self-play using real-time user feedback. SPEAR constructs naturally contrastive training pairs from this feedback within a self-play loop, allowing the model to refine itself without requiring offline setups or privileged ground-truth data. This method effectively integrates external feedback across resource-constrained edge devices in a federated setting.",
+      "url": "http://arxiv.org/abs/2605.07977v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07977v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.07977v1/x1.png",
+      "figure_caption": "The two phases of the SPEAR algorithm. Firstly, the model interacts with an incoming feedback source (e.g., a user) to correct incorrect generations. After the interaction phase, it categorizes the samples into wins and losses, which are then used to train a standard MLE and unlikelihood objective. This two-stage process repeats at each federated round t t for each client selected for aggregation.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.07982v1",
+      "title": "GLiGuard: Schema-Conditioned Classification for LLM Safeguard",
+      "authors": [
+        "Urchade Zaratiana",
+        "Mary Newhauser",
+        "George Hurn-Maloney",
+        "Ash Lewis"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "GLiGuard reframes LLM safety evaluation from slow, sequential text generation to efficient, non-autoregressive classification by adapting a small (0.3B parameter) encoder model. Its core contribution is encoding task definitions and label semantics directly into the input as structured token schemas, allowing simultaneous, low-latency assessment across numerous safety dimensions (e.g., harm categories, jailbreaks) in a single forward pass.",
+      "url": "http://arxiv.org/abs/2605.07982v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07982v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.07982v1/x1.png",
+      "figure_caption": "GLiGuard multi-task moderation overview. Given a text (prompt or response) and a user-specified task schema, GLiGuard produces predictions for all selected tasks in a single forward pass.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.08083v1",
+      "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
+      "authors": [
+        "Tong Zheng",
+        "Haolin Liu",
+        "Chengsong Huang",
+        "Huiwen Bao",
+        "Sheng Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces AutoTTS, an environment-driven framework that automates the discovery of optimal test-time scaling (TTS) strategies, moving beyond manual heuristic design. The core method involves formulating TTS as controller synthesis over pre-collected reasoning trajectories, allowing an agent to learn when to branch, prune, or stop computation. This approach efficiently explores the vast computation-allocation space, leading to improved LLM performance during inference.",
+      "url": "http://arxiv.org/abs/2605.08083v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08083v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.08083v1/x1.png",
+      "figure_caption": "Overview of our Auto-TTS framework. Unlike the traditional workflow of manually designing TTS strategies, Auto-TTS shifts the human role from directly hand-crafting branching, pruning, and stopping heuristics to constructing environments by defining states, actions, feedback, and objectives. Given the constructed environment, an explorer LLM iteratively proposes candidate controllers, evaluates them in the offline replay environment, receives feedback from scaling curves and execution traces, and uses the accumulated history to refine future proposals. The right panel shows an example evaluation on Qwen-1.7B and AIME25, where the discovered controller improves the accuracy–cost Pareto frontier over hand-crafted baselines with an affordable one-time search cost.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.08011v1",
+      "title": "Abductive Reasoning with Probabilistic Commonsense",
+      "authors": [
+        "Joseph Cotnareanu",
+        "Chiara Roverato",
+        "Han Zhou",
+        "Didier Chetelat",
+        "Yingxue Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "stat.CO"
+      ],
+      "abstract": "This paper introduces Probabilistic Abductive CommonSense (PACS), a novel framework for abductive reasoning that explicitly models the variation in human commonsense beliefs. PACS uses an LLM and a formal solver to sample proofs representing different individuals' distinct commonsense assumptions. The core contribution is aggregating conclusions across these samples to determine the likely consensus on a statement's truth, overcoming the limitation of assuming universal commonsense agreement.",
+      "url": "http://arxiv.org/abs/2605.08011v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08011v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.08011v1/x1.png",
+      "figure_caption": "Diagram illustrating our proposed PACS algorithm. The LLM receives a question from a user which requires abductive reasoning. The LLM translates this question into premises S S and a query proposition c c whose truth value is to be determined. Ascertaining that it cannot be solved directly, the LLM then attempts to add new commonsense clauses l 1 , l 2 , l 3 , … l_{1},l_{2},l_{3},\\( \\dots \\) , each time calling the formal logic solver to verify whether it has pinned down a value for c c , and if not, obtain the score. We stop after a time limit and take a majority vote among the conclusions as our answer. The algorithm used to search the tree of possibilities is described in Section 5.1 .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.08063v1",
+      "title": "Flow-OPD: On-Policy Distillation for Flow Matching Models",
+      "authors": [
+        "Zhen Fang",
+        "Wenxuan Huang",
+        "Yu Zeng",
+        "Yiming Zhao",
+        "Shuang Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "Flow-OPD introduces the first on-policy distillation framework for Flow Matching text-to-image models to overcome multi-task alignment issues like reward sparsity and gradient interference. It employs a two-stage strategy: first, training specialized teacher models via single-reward fine-tuning, and second, distilling their consolidated expertise into a single student model using on-policy sampling and a flow-based cold-start. This method effectively unifies heterogeneous performance ceilings into a single, robust policy.",
+      "url": "http://arxiv.org/abs/2605.08063v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08063v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.08063v1/x1.png",
+      "figure_caption": "Performance Comparison in Multi-task Training . During training, Flow-OPD exhibits a steady increase in mean rewards across GenEval Ghosh et al. ( 2023 ) and OCR Chen et al. ( 2023 ) benchmarks, reaching a peak of 93. In contrast, vanilla GRPO converges prematurely around 78. Our approach significantly outperforms GRPO in both image synthesis and text rendering while maintaining superior generation quality and human preference alignment. The curves are smoothed for visual clarity. DeQA and PickScore are norm to 0-1. We employ model merging for cold-start in the left subgraph.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.08013v1",
+      "title": "Learning CLI Agents with Structured Action Credit under Selective Observation",
+      "authors": [
+        "Haoyang Su",
+        "Ying Wen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a novel method for training Command Line Interface (CLI) agents by leveraging the inherent structure of CLI actions for better credit assignment. The core contribution involves two mechanisms: $\\sigma$-Reveal, which addresses selective observation by choosing task-relevant context from partial inputs, and Action Advantage Assignment, which refines the sparse terminal rewards by using structured action information to guide learning across long interaction trajectories.",
+      "url": "http://arxiv.org/abs/2605.08013v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08013v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.08013v1/x1.png",
+      "figure_caption": "Overview of the verifiable CLI task workflow. (a) ShellOps task instance with a natural language query, an initial workspace file tree, a verifiable gold bash solution, and the expected post execution workspace or standard output. (b) ShellOps and ShellOps-Pro coverage across file extensions and four task axes (Lookup, Aggregate, Edit, Mixed). (c) Unified verifiable loop with workspace observation, shell action generation, sandbox execution, and schema based scoring.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.08012v1",
+      "title": "Position: Mechanistic Interpretability Must Disclose Identification Assumptions for Causal Claims",
+      "authors": [
+        "Zezheng Lin",
+        "Fengming Liu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper argues that mechanistic interpretability research, which frequently employs causal language, must explicitly state its identification assumptions for causal claims to be valid. The authors audited existing work, finding a pervasive lack of dedicated sections detailing these assumptions, with validation metrics often incorrectly substituted for actual causal identification. The core contribution is a proposed disclosure norm requiring researchers to name their identification strategy, enumerate assumptions, and explain the implications if those assumptions fail.",
+      "url": "http://arxiv.org/abs/2605.08012v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08012v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.08012v1/x1.png",
+      "figure_caption": "Validation metrics and identification assumptions are not interchangeable. Validation metrics report what the data show under assumed conditions; identification assumptions are the conditions under which a causal claim follows. Substitution—reporting the metric in place of the assumption—leaves the causal claim unidentified. Audit ( n = 10 n=10 + n = 30 n=30 sensitivity): 0 / 30 0/30 papers contain a dedicated identification-assumptions section under any rule or coder.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.08007v1",
+      "title": "Interpreting Reinforcement Learning Agents with Susceptibilities",
+      "authors": [
+        "Chris Elliott",
+        "Einar Urdshals",
+        "David Quarel",
+        "Daniel Murfet"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces \"susceptibilities\" as a novel interpretability technique generalized from neural networks to deep reinforcement learning, focusing on the regret's response to loss perturbations. The core contribution is demonstrating that susceptibilities reveal internal developmental features within the model's parameter space that are invisible when only analyzing the learned policy. This method is validated using activation steering and proposed for extension to RLHF post-training.",
+      "url": "http://arxiv.org/abs/2605.08007v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08007v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.08007v1/x1.png",
+      "figure_caption": "Training dynamics for a model trained with α = 0.6 \\( \\alpha \\)=0.6 . Top row: Cheese-in-corner environment; an RL agent (mouse) navigates to cheese (+1 reward). Initial states are colored by mouse position relative to the cheese (two rightmost panels); in a fraction 1 − α 1-\\( \\alpha \\) of environments cheese is in the top-left corner (top right panel), so all initial mouse positions are red/orange/yellow. Middle and lower row: Middle left shows the LLC and regret curves; the model passes through 3 phases, visible as LLC spikes and regret drops. Red dots mark the checkpoints whose susceptibility scatter plots are shown, projecting susceptibilities to 2D (average convolution-block vs. average fully-connected-block susceptibility). Red/orange/yellow states dominate phases 1–2, with other directions concentrated near the origin. Lower left: transition to phase 3, where other directions (notably green) gain non-zero susceptibilities, before two clusters emerge early in phase 3 (lower middle). Late in phase 3, the clusters merge and the overall susceptibility scale declines. Each susceptibility panel reports the variance explained by PC1 and PC1’s cosine similarity to each weight restriction direction.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.07969v1",
+      "title": "When Diffusion Model Can Ignore Dimension: An Entropy-Based Theory",
+      "authors": [
+        "Ahmad Aghapour",
+        "Erhan Bayraktar"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.IT"
+      ],
+      "abstract": "This paper develops an entropy-based theory to explain the high-dimensional efficiency of diffusion model samplers. The core method proves that the discretization error for Gaussian mixture targets is controlled by the **Shannon entropy of the latent mixture components**, not the ambient dimension. This contribution shows that step complexity scales linearly with latent entropy, offering a theoretical justification for why diffusion models perform well even in high dimensions with few steps.",
+      "url": "http://arxiv.org/abs/2605.07969v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07969v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "hacker_news": [
+    {
+      "id": 48085821,
+      "title": "Local AI needs to be the norm",
+      "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+      "score": 1304,
+      "created_at": "2026-05-10T17:19:28Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48085821",
+      "summary": "The core message is that local AI processing should become the standard practice rather than the exception."
+    },
+    {
+      "id": 48088151,
+      "title": "Maryland citizens hit with $2B power grid upgrade for out-of-state AI",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
+      "score": 270,
+      "created_at": "2026-05-10T21:16:58Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48088151",
+      "summary": "Maryland residents face a \\$2 billion power grid upgrade bill primarily to support out-of-state AI data centers, prompting the state to complain to federal regulators about the cost burden."
+    },
+    {
+      "id": 48089289,
+      "title": "An AI coding agent, used to write code, needs to reduce your maintenance costs",
+      "url": "https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs",
+      "score": 212,
+      "created_at": "2026-05-10T23:39:55Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48089289",
+      "summary": "The core message is that AI coding agents must evolve to actively reduce software maintenance costs, rather than just focusing on initial code generation."
+    },
+    {
+      "id": 48089263,
+      "title": "PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs",
+      "url": "https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656",
+      "score": 168,
+      "created_at": "2026-05-10T23:36:48Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48089263",
+      "summary": "Developers of a PlayStation 3 emulator are asking contributors to stop submitting numerous, often low-quality, pull requests generated by artificial intelligence tools."
+    },
+    {
+      "id": 48084710,
+      "title": "Chrome's AI features may be hogging 4GB of your computer storage",
+      "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
+      "score": 110,
+      "created_at": "2026-05-10T15:22:46Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48084710",
+      "summary": "Google Chrome's new AI features, powered by Gemini Nano, are reportedly consuming a significant 4GB of local computer storage."
+    }
+  ],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Postdoctoral Researcher in Industrial AI Algorithm and Autonomous Decision-Making Systems",
+      "url": "https://www.jobs.ac.uk/job/DRM575/postdoctoral-researcher-in-industrial-ai-algorithm-and-autonomous-decision-making-systems/",
+      "description": "Xi&#039;an Jiaotong - Liverpool University - School of Intelligent Manufacturing Ecosystem&lt;br /&gt;Salary: Competitive",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "",
+      "requirements": "Research Area: Industrial AI Algorithm and Autonomous Decision-Making Systems\nKey Requirements: N/A\nApplication Info: N/A / N/A, N/A, N/A\nPosition Details: Suzhou - China, Fixed-Term/Contract, Full Time, Competitive\nOne-line Advice: Focus CV on industrial applications, AI algorithms, and decision-making systems.",
+      "relevance_score": 8.0,
+      "institution": "",
+      "location": "Suzhou - China",
+      "salary": "Competitive",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "10th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "PhD Studentship: Cracks and Code: From High-Fidelity Simulations to Fast Scientific Machine Learning Models",
+      "url": "https://www.jobs.ac.uk/job/DRM429/phd-studentship-cracks-and-code-from-high-fidelity-simulations-to-fast-scientific-machine-learning-models/",
+      "description": "About the project: Cracks and Code: From High-Fidelity Simulations to Fast Scientific Machine Learning Models Supervisor: Dr Emmanouil Kakouris, University of Warwick When metals experience extreme events, such as shock waves, high-speed impacts, or rapid deformation, they can fail suddenly in ways that remain difficult to predict. In this project, you will investigate how cracks initiate and grow in metals under these high-rate conditions. You will use large-scale simulations (both atomistic and continuum) to study how damage forms and localises, and then develop scientific machine-learning models that can reproduce these processes far more efficiently. Your results will help create faster more reliable tools for predicting material failure in real engineering applications. About HetSys: Harnessing Data, Modelling and Simulation for Real‑World Impact HetSys (Centre for Doctoral Training in Modelling of Heterogeneous Systems ) at the University of Warwick is an innovative, interdisciplinary fully funded PhD programme that brings together science, engineering, and mathematics to tackle some of the most pressing challenges of our time. Big Questions, Real Impact – From climate modelling and sustainable energy to advanced materials and biomedical systems, HetSys projects apply cutting‑edge computational and mathematical techniques to problems with global significance. Interdisciplinary Training – Students gain expertise across physics, engineering, computer science, and applied mathematics, developing versatile skills that open doors to both academia and industry. Collaborative Environment – Work alongside leading researchers and industry partners in a supportive, vibrant community that values curiosity, creativity, and collaboration. Future‑Focused Careers – HetSys graduates are equipped with highly sought‑after skills in modelling, simulation, and data science, preparing them for impactful careers in research, technology, and beyond. If you’re excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs £21805 (equivalent to national living wage)",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-08-01T00:00:00+00:00",
+      "requirements": "Research Area: Cracks and Code: From High-Fidelity Simulations (atomistic and continuum) to Fast Scientific Machine Learning Models for predicting material failure in metals under high-rate conditions (shock waves, impacts, rapid deformation).\nKey Requirements: Ability to work on large-scale simulations (atomistic and continuum) and develop scientific machine-learning models to reproduce high-rate material damage processes.\nApplication Info: deadline/start date, required materials, contact (if any): Deadline 2026-08-01T00:00:00+00:00. Supervisor: Dr Emmanouil Kakouris. Required materials not explicitly listed.\nPosition Details: location, contract type, workload, salary: Location University of Warwick, Coventry, England, United Kingdom. Contract type N/A. Workload Full Time. Salary N/A.\nOne-line Advice: Focus CV on computational modeling, materials science/mechanics, and experience with large-scale simulation or scientific ML development.",
+      "relevance_score": 7.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "",
+      "hours": "Full Time",
+      "contract_type": "",
+      "placed_on": "9th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "PhD Studentship: Extreme Weather Storylines via Generative AI",
+      "url": "https://www.jobs.ac.uk/job/DRM434/phd-studentship-extreme-weather-storylines-via-generative-ai/",
+      "description": "About the project: Extreme Weather Storylines via Generative AI Supervisor: Dr Tobias Grafke, University of Warwick Generative machine learning techniques, as known for example from large language models or image generation, have recently also taken the atmospheric dynamics and weather forecast communities by storm. At the same time, due to anthropogenetic climate change, society faces elevated risk from extreme weather events such as flash floods, heatwaves, or tropical cyclones. This project aims to combine generative weather prediction models with rare event techniques to generate plausible trajectories of the weather system exhibiting extreme weather events. The ECMWF machine learning division has agreed to provide data and support the project in adapting their in-house intermediate-resolution generative weather model. About HetSys: Harnessing Data, Modelling and Simulation for Real‑World Impact HetSys (Centre for Doctoral Training in Modelling of Heterogeneous Systems ) at the University of Warwick is an innovative, interdisciplinary fully funded PhD programme that brings together science, engineering, and mathematics to tackle some of the most pressing challenges of our time. Big Questions, Real Impact – From climate modelling and sustainable energy to advanced materials and biomedical systems, HetSys projects apply cutting‑edge computational and mathematical techniques to problems with global significance. Interdisciplinary Training – Students gain expertise across physics, engineering, computer science, and applied mathematics, developing versatile skills that open doors to both academia and industry. Collaborative Environment – Work alongside leading researchers and industry partners in a supportive, vibrant community that values curiosity, creativity, and collaboration. Future‑Focused Careers – HetSys graduates are equipped with highly sought‑after skills in modelling, simulation, and data science, preparing them for impactful careers in research, technology, and beyond. If you’re excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs (standard UKRI rate £21,805 in 26/27 - equivalent to national living wage)",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-08-28T00:00:00+00:00",
+      "requirements": "Research Area: Extreme Weather Storylines via Generative AI, combining generative weather prediction models with rare event techniques.\nKey Requirements: Expertise/interest in Generative machine learning techniques (e.g., LLMs, image generation) applied to atmospheric dynamics/weather forecast models.\nApplication Info: deadline: 2026-08-28T00:00:00+00:00, required materials: N/A, contact: Dr Tobias Grafke (Supervisor).\nPosition Details: location: Coventry, England, United Kingdom / University of Warwick, England, United Kingdom, contract type: N/A, workload: Full Time, salary: N/A.\nOne-line Advice: Focus CV on generative AI/machine learning applied to physical systems or complex data modeling.",
+      "relevance_score": 7.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "",
+      "hours": "Full Time",
+      "contract_type": "",
+      "placed_on": "9th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "PhD Studentship: From Brittle to Ductile: Machine Learning 3D Fracture Simulations for Extreme Environments",
+      "url": "https://www.jobs.ac.uk/job/DRM435/phd-studentship-from-brittle-to-ductile-machine-learning-3d-fracture-simulations-for-extreme-environments/",
+      "description": "About the project: From Brittle to Ductile: Machine Learning 3D Fracture Simulations for Extreme Environments Supervisor: Prof, James Kermode, University of Warwick Develop cutting-edge machine learning models to predict how materials break at the atomic scale. You'll create AI-driven simulations that reveal why tungsten, the leading fusion reactor material, transitions from ductile to brittle behaviour as the temperature drops, combining quantum mechanics, large-scale molecular dynamics, and deep learning. Work with world-leading researchers at Warwick and the Max Planck Institute for Sustainable Materials, mastering scientific machine learning, uncertainty quantification, and high-performance computing. Your models will inform fusion design and advance AI-for-materials. Perfect for physics, maths, or materials students wanting to blend fundamentals with real-world impact. Code, physics, and helping to solve the energy challenge, all in one project. About HetSys: Harnessing Data, Modelling and Simulation for Real‑World Impact HetSys (Centre for Doctoral Training in Modelling of Heterogeneous Systems ) at the University of Warwick is an innovative, interdisciplinary fully funded PhD programme that brings together science, engineering, and mathematics to tackle some of the most pressing challenges of our time. Big Questions, Real Impact – From climate modelling and sustainable energy to advanced materials and biomedical systems, HetSys projects apply cutting‑edge computational and mathematical techniques to problems with global significance. Interdisciplinary Training – Students gain expertise across physics, engineering, computer science, and applied mathematics, developing versatile skills that open doors to both academia and industry. Collaborative Environment – Work alongside leading researchers and industry partners in a supportive, vibrant community that values curiosity, creativity, and collaboration. Future‑Focused Careers – HetSys graduates are equipped with highly sought‑after skills in modelling, simulation, and data science, preparing them for impactful careers in research, technology, and beyond. If you’re excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs (standard UKRI rate £21,805 in 26/27 - equivalent to national living wage)",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-08-28T00:00:00+00:00",
+      "requirements": "Research Area: Machine Learning 3D Fracture Simulations for Extreme Environments, focusing on predicting material failure (tungsten) at the atomic scale using quantum mechanics, molecular dynamics, and deep learning.\nKey Requirements: Background in physics, maths, or materials; skills in scientific machine learning, uncertainty quantification, and high-performance computing are desirable.\nApplication Info: deadline/start date, required materials, contact (if any): Deadline 2026-08-28. Materials and contact information are not fully specified beyond the supervisor (Prof. James Kermode).\nPosition Details: location, contract type, workload, salary: Location Coventry, England, UK (University of Warwick). Contract type N/A. Workload Full Time. Salary N/A.\nOne-line Advice: Match assessment for CV/medical imaging/LLM applicants: This role requires strong foundations in physics/materials science and scientific computing (ML/HPC), not standard CV/medical imaging/LLM applications.",
+      "relevance_score": 7.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "",
+      "hours": "Full Time",
+      "contract_type": "",
+      "placed_on": "9th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "Postdoctoral Training Fellow - Artificial Intelligence for Radiotherapy",
+      "url": "https://www.findapostdoc.com/search/Job-Details.aspx?jobcode=12657",
+      "description": "Under the guidance of Dr Matthew Blackledge, we are seeking to recruit a Postdoctoral Training Fellow to contribute to deliver treatment-integrated, multimodal agentic AI to drive a step-change in clinical radiotherapy by i) improving patient outcomes for cancers of unmet clinical need; and ii) increasing the efficiency of RT by enabling safe ultra-hypofractionated treatments.",
+      "institution": "The Institute of Cancer Research, Radiotherapy & Imaging",
+      "posted_date": "17 April 2026",
+      "deadline": "15 May 2026",
+      "source": "FindAPostDoc AI",
+      "requirements": "Research Area: Artificial Intelligence for Radiotherapy, multimodal agentic AI, treatment-integrated AI.\nKey Requirements: Ability to contribute to delivering treatment-integrated, multimodal agentic AI for improving patient outcomes and increasing RT efficiency (enabling safe ultra-hypofractionated treatments).\nApplication Info: deadline: 15 May 2026, required materials: N/A, contact: Dr Matthew Blackledge (guidance).\nPosition Details: location: N/A, contract type: N/A, workload: N/A, salary: N/A.\nOne-line Advice: Focus CV on AI/ML applications within medical imaging or clinical treatment optimization, emphasizing multimodal data handling.",
+      "relevance_score": 9.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "Announcement of a part-time research staff position (R2) specialising in AI architectures for the Computer Vision Center",
+      "url": "https://euraxess.ec.europa.eu/jobs/435211",
+      "description": "Position reference: 20260505_IA-RClosing date: 15/05/2026About the CVCThe Computer Vision Centre (CVC) is a CERCA research centre created in 1995 by the Government of Catalonia and the Autonomous University of Barcelona (UAB) and dedicated to research in the field of Computer Vision and Artificial... * Work Locations: Number of offers: 1, Spain, Computer Vision Center, Cerdanyola del Vallés, 08193, Barcelona, Edifici O, s/n Campus UAB Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A91) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Other EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A6053) Application Deadline: 15 May 2026 - 23:59 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Spain * [Universitat Pompeu Fabra](https://euraxess.ec.europa.eu/partnering/organisations/profile/universitat-pompeu-fabra-8) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "11 May 2026",
+      "deadline": "15/05/2026About the CVCThe Computer Vision Centre (CVC) is a CERCA research centre created in 1995 by the Government of Catalonia and the Autonomous University of Barcelona (UAB) and dedicated to research in the field of Computer Vision and Artificial",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: AI architectures for Computer Vision\nKey Requirements: Specialisation in AI architectures; Researcher Profile R2 (Recognised Researcher)\nApplication Info: Deadline 15/05/2026; Required materials N/A; Contact N/A\nPosition Details: Location Spain, Computer Vision Center, Cerdanyola del Vallés, Barcelona; Contract part-time; Workload N/A; Salary N/A\nOne-line Advice: Focus CV expertise on AI architectures; medical imaging/LLM details are not specified.",
+      "relevance_score": 9.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Postdoctoral Researcher in Industrial AI Algorithm and Autonomous Decision-Making Systems",
+      "url": "https://www.jobs.ac.uk/job/DRM575/postdoctoral-researcher-in-industrial-ai-algorithm-and-autonomous-decision-making-systems/",
+      "description": "Xi&#039;an Jiaotong - Liverpool University - School of Intelligent Manufacturing Ecosystem&lt;br /&gt;Salary: Competitive",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "",
+      "requirements": "Research Area: Industrial AI Algorithm and Autonomous Decision-Making Systems\nKey Requirements: N/A\nApplication Info: N/A / N/A, N/A, N/A\nPosition Details: Suzhou - China, Fixed-Term/Contract, Full Time, Competitive\nOne-line Advice: Focus CV on industrial applications, AI algorithms, and decision-making systems.",
+      "relevance_score": 8.0,
+      "institution": "",
+      "location": "Suzhou - China",
+      "salary": "Competitive",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "10th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "PhD Studentship: Cracks and Code: From High-Fidelity Simulations to Fast Scientific Machine Learning Models",
+      "url": "https://www.jobs.ac.uk/job/DRM429/phd-studentship-cracks-and-code-from-high-fidelity-simulations-to-fast-scientific-machine-learning-models/",
+      "description": "About the project: Cracks and Code: From High-Fidelity Simulations to Fast Scientific Machine Learning Models Supervisor: Dr Emmanouil Kakouris, University of Warwick When metals experience extreme events, such as shock waves, high-speed impacts, or rapid deformation, they can fail suddenly in ways that remain difficult to predict. In this project, you will investigate how cracks initiate and grow in metals under these high-rate conditions. You will use large-scale simulations (both atomistic and continuum) to study how damage forms and localises, and then develop scientific machine-learning models that can reproduce these processes far more efficiently. Your results will help create faster more reliable tools for predicting material failure in real engineering applications. About HetSys: Harnessing Data, Modelling and Simulation for Real‑World Impact HetSys (Centre for Doctoral Training in Modelling of Heterogeneous Systems ) at the University of Warwick is an innovative, interdisciplinary fully funded PhD programme that brings together science, engineering, and mathematics to tackle some of the most pressing challenges of our time. Big Questions, Real Impact – From climate modelling and sustainable energy to advanced materials and biomedical systems, HetSys projects apply cutting‑edge computational and mathematical techniques to problems with global significance. Interdisciplinary Training – Students gain expertise across physics, engineering, computer science, and applied mathematics, developing versatile skills that open doors to both academia and industry. Collaborative Environment – Work alongside leading researchers and industry partners in a supportive, vibrant community that values curiosity, creativity, and collaboration. Future‑Focused Careers – HetSys graduates are equipped with highly sought‑after skills in modelling, simulation, and data science, preparing them for impactful careers in research, technology, and beyond. If you’re excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs £21805 (equivalent to national living wage)",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-08-01T00:00:00+00:00",
+      "requirements": "Research Area: Cracks and Code: From High-Fidelity Simulations (atomistic and continuum) to Fast Scientific Machine Learning Models for predicting material failure in metals under high-rate conditions (shock waves, impacts, rapid deformation).\nKey Requirements: Ability to work on large-scale simulations (atomistic and continuum) and develop scientific machine-learning models to reproduce high-rate material damage processes.\nApplication Info: deadline/start date, required materials, contact (if any): Deadline 2026-08-01T00:00:00+00:00. Supervisor: Dr Emmanouil Kakouris. Required materials not explicitly listed.\nPosition Details: location, contract type, workload, salary: Location University of Warwick, Coventry, England, United Kingdom. Contract type N/A. Workload Full Time. Salary N/A.\nOne-line Advice: Focus CV on computational modeling, materials science/mechanics, and experience with large-scale simulation or scientific ML development.",
+      "relevance_score": 7.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "",
+      "hours": "Full Time",
+      "contract_type": "",
+      "placed_on": "9th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "PhD Studentship: Extreme Weather Storylines via Generative AI",
+      "url": "https://www.jobs.ac.uk/job/DRM434/phd-studentship-extreme-weather-storylines-via-generative-ai/",
+      "description": "About the project: Extreme Weather Storylines via Generative AI Supervisor: Dr Tobias Grafke, University of Warwick Generative machine learning techniques, as known for example from large language models or image generation, have recently also taken the atmospheric dynamics and weather forecast communities by storm. At the same time, due to anthropogenetic climate change, society faces elevated risk from extreme weather events such as flash floods, heatwaves, or tropical cyclones. This project aims to combine generative weather prediction models with rare event techniques to generate plausible trajectories of the weather system exhibiting extreme weather events. The ECMWF machine learning division has agreed to provide data and support the project in adapting their in-house intermediate-resolution generative weather model. About HetSys: Harnessing Data, Modelling and Simulation for Real‑World Impact HetSys (Centre for Doctoral Training in Modelling of Heterogeneous Systems ) at the University of Warwick is an innovative, interdisciplinary fully funded PhD programme that brings together science, engineering, and mathematics to tackle some of the most pressing challenges of our time. Big Questions, Real Impact – From climate modelling and sustainable energy to advanced materials and biomedical systems, HetSys projects apply cutting‑edge computational and mathematical techniques to problems with global significance. Interdisciplinary Training – Students gain expertise across physics, engineering, computer science, and applied mathematics, developing versatile skills that open doors to both academia and industry. Collaborative Environment – Work alongside leading researchers and industry partners in a supportive, vibrant community that values curiosity, creativity, and collaboration. Future‑Focused Careers – HetSys graduates are equipped with highly sought‑after skills in modelling, simulation, and data science, preparing them for impactful careers in research, technology, and beyond. If you’re excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs (standard UKRI rate £21,805 in 26/27 - equivalent to national living wage)",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-08-28T00:00:00+00:00",
+      "requirements": "Research Area: Extreme Weather Storylines via Generative AI, combining generative weather prediction models with rare event techniques.\nKey Requirements: Expertise/interest in Generative machine learning techniques (e.g., LLMs, image generation) applied to atmospheric dynamics/weather forecast models.\nApplication Info: deadline: 2026-08-28T00:00:00+00:00, required materials: N/A, contact: Dr Tobias Grafke (Supervisor).\nPosition Details: location: Coventry, England, United Kingdom / University of Warwick, England, United Kingdom, contract type: N/A, workload: Full Time, salary: N/A.\nOne-line Advice: Focus CV on generative AI/machine learning applied to physical systems or complex data modeling.",
+      "relevance_score": 7.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "",
+      "hours": "Full Time",
+      "contract_type": "",
+      "placed_on": "9th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "PhD Studentship: From Brittle to Ductile: Machine Learning 3D Fracture Simulations for Extreme Environments",
+      "url": "https://www.jobs.ac.uk/job/DRM435/phd-studentship-from-brittle-to-ductile-machine-learning-3d-fracture-simulations-for-extreme-environments/",
+      "description": "About the project: From Brittle to Ductile: Machine Learning 3D Fracture Simulations for Extreme Environments Supervisor: Prof, James Kermode, University of Warwick Develop cutting-edge machine learning models to predict how materials break at the atomic scale. You'll create AI-driven simulations that reveal why tungsten, the leading fusion reactor material, transitions from ductile to brittle behaviour as the temperature drops, combining quantum mechanics, large-scale molecular dynamics, and deep learning. Work with world-leading researchers at Warwick and the Max Planck Institute for Sustainable Materials, mastering scientific machine learning, uncertainty quantification, and high-performance computing. Your models will inform fusion design and advance AI-for-materials. Perfect for physics, maths, or materials students wanting to blend fundamentals with real-world impact. Code, physics, and helping to solve the energy challenge, all in one project. About HetSys: Harnessing Data, Modelling and Simulation for Real‑World Impact HetSys (Centre for Doctoral Training in Modelling of Heterogeneous Systems ) at the University of Warwick is an innovative, interdisciplinary fully funded PhD programme that brings together science, engineering, and mathematics to tackle some of the most pressing challenges of our time. Big Questions, Real Impact – From climate modelling and sustainable energy to advanced materials and biomedical systems, HetSys projects apply cutting‑edge computational and mathematical techniques to problems with global significance. Interdisciplinary Training – Students gain expertise across physics, engineering, computer science, and applied mathematics, developing versatile skills that open doors to both academia and industry. Collaborative Environment – Work alongside leading researchers and industry partners in a supportive, vibrant community that values curiosity, creativity, and collaboration. Future‑Focused Careers – HetSys graduates are equipped with highly sought‑after skills in modelling, simulation, and data science, preparing them for impactful careers in research, technology, and beyond. If you’re excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs (standard UKRI rate £21,805 in 26/27 - equivalent to national living wage)",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-08-28T00:00:00+00:00",
+      "requirements": "Research Area: Machine Learning 3D Fracture Simulations for Extreme Environments, focusing on predicting material failure (tungsten) at the atomic scale using quantum mechanics, molecular dynamics, and deep learning.\nKey Requirements: Background in physics, maths, or materials; skills in scientific machine learning, uncertainty quantification, and high-performance computing are desirable.\nApplication Info: deadline/start date, required materials, contact (if any): Deadline 2026-08-28. Materials and contact information are not fully specified beyond the supervisor (Prof. James Kermode).\nPosition Details: location, contract type, workload, salary: Location Coventry, England, UK (University of Warwick). Contract type N/A. Workload Full Time. Salary N/A.\nOne-line Advice: Match assessment for CV/medical imaging/LLM applicants: This role requires strong foundations in physics/materials science and scientific computing (ML/HPC), not standard CV/medical imaging/LLM applications.",
+      "relevance_score": 7.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "",
+      "hours": "Full Time",
+      "contract_type": "",
+      "placed_on": "9th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "Postdoctoral Training Fellow - Artificial Intelligence for Radiotherapy",
+      "url": "https://www.findapostdoc.com/search/Job-Details.aspx?jobcode=12657",
+      "description": "Under the guidance of Dr Matthew Blackledge, we are seeking to recruit a Postdoctoral Training Fellow to contribute to deliver treatment-integrated, multimodal agentic AI to drive a step-change in clinical radiotherapy by i) improving patient outcomes for cancers of unmet clinical need; and ii) increasing the efficiency of RT by enabling safe ultra-hypofractionated treatments.",
+      "institution": "The Institute of Cancer Research, Radiotherapy & Imaging",
+      "posted_date": "17 April 2026",
+      "deadline": "15 May 2026",
+      "source": "FindAPostDoc AI",
+      "requirements": "Research Area: Artificial Intelligence for Radiotherapy, multimodal agentic AI, treatment-integrated AI.\nKey Requirements: Ability to contribute to delivering treatment-integrated, multimodal agentic AI for improving patient outcomes and increasing RT efficiency (enabling safe ultra-hypofractionated treatments).\nApplication Info: deadline: 15 May 2026, required materials: N/A, contact: Dr Matthew Blackledge (guidance).\nPosition Details: location: N/A, contract type: N/A, workload: N/A, salary: N/A.\nOne-line Advice: Focus CV on AI/ML applications within medical imaging or clinical treatment optimization, emphasizing multimodal data handling.",
+      "relevance_score": 9.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "Announcement of a part-time research staff position (R2) specialising in AI architectures for the Computer Vision Center",
+      "url": "https://euraxess.ec.europa.eu/jobs/435211",
+      "description": "Position reference: 20260505_IA-RClosing date: 15/05/2026About the CVCThe Computer Vision Centre (CVC) is a CERCA research centre created in 1995 by the Government of Catalonia and the Autonomous University of Barcelona (UAB) and dedicated to research in the field of Computer Vision and Artificial... * Work Locations: Number of offers: 1, Spain, Computer Vision Center, Cerdanyola del Vallés, 08193, Barcelona, Edifici O, s/n Campus UAB Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A91) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Other EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A6053) Application Deadline: 15 May 2026 - 23:59 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Spain * [Universitat Pompeu Fabra](https://euraxess.ec.europa.eu/partnering/organisations/profile/universitat-pompeu-fabra-8) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "11 May 2026",
+      "deadline": "15/05/2026About the CVCThe Computer Vision Centre (CVC) is a CERCA research centre created in 1995 by the Government of Catalonia and the Autonomous University of Barcelona (UAB) and dedicated to research in the field of Computer Vision and Artificial",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: AI architectures for Computer Vision\nKey Requirements: Specialisation in AI architectures; Researcher Profile R2 (Recognised Researcher)\nApplication Info: Deadline 15/05/2026; Required materials N/A; Contact N/A\nPosition Details: Location Spain, Computer Vision Center, Cerdanyola del Vallés, Barcelona; Contract part-time; Workload N/A; Salary N/A\nOne-line Advice: Focus CV expertise on AI architectures; medical imaging/LLM details are not specified.",
+      "relevance_score": 9.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
