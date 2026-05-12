@@ -14,7 +14,11 @@ must_include:
   - alignment
   - RLHF
   - hallucination
-  - multi-modal
+  - world model
+  - graphRAG
+  - Report Generation
+  - medical images
+  - medical report
 
 boost_keywords:
   - GPT
