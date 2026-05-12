@@ -2,8 +2,8 @@
 
 display_order:
   - arxiv
-  - hacker_news
   - postdoc_jobs
+  - us_stocks
 
 hitokoto:
   enabled: false
@@ -18,10 +18,18 @@ arxiv:
   enabled: true
 
 us_stocks:
-  enabled: false
+  enabled: true
+  mode: premarket
+  max_items: 12
+  max_symbols: 18
+  max_sector_overview: 7
+  max_llm_items: 8
+  include_neutral: true
+  skip_llm: false
+  request_timeout: 20
 
 hacker_news:
-  enabled: true
+  enabled: false
 
 github_trending:
   enabled: false
@@ -36,8 +44,8 @@ language: en
 
 llm:
   provider: openrouter
-  scoring_model: google/gemini-2.5-flash-lite-preview-09-2025
-  summarization_model: google/gemini-2.5-flash-lite-preview-09-2025
+  scoring_model: google/gemini-2.5-flash-lite
+  summarization_model: google/gemini-2.5-flash-lite
   base_url: "https://openrouter.ai/api/v1"
   api_key_env: OPENROUTER_API_KEY
 
@@ -48,22 +56,22 @@ weekly:
   arxiv:
     enabled: true
     top_n: 5
-  hacker_news:
-    enabled: true
-    top_n: 5
   postdoc_jobs:
     enabled: true
     top_n: 3
+  us_stocks:
+    enabled: false
+    top_n: 5
 
 monthly:
   arxiv:
     enabled: true
     top_n: 10
-  hacker_news:
-    enabled: false
-    top_n: 5
   postdoc_jobs:
     enabled: true
+    top_n: 5
+  us_stocks:
+    enabled: false
     top_n: 5
 
 sinks:
@@ -71,10 +79,8 @@ sinks:
     enabled: false
     # Add SLACK_WEBHOOK_URL as a GitHub Actions secret
     max_papers: 5
-    max_hn: 3
   serverchan:
     enabled: false
     # Add SERVERCHAN_SENDKEY as a GitHub Actions secret
     max_papers: 5
-    max_hn: 3
     max_jobs: 3
