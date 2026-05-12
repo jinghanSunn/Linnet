@@ -11,32 +11,18 @@ rss_sources:
     name: jobs.ac.uk Mathematics
 
 jina_sources:
-  - url: "https://www.findapostdoc.com/search/?Keywords=AI"
-    name: FindAPostDoc AI
-    type: findapostdoc
-  - url: "https://academicpositions.com/find-jobs?keywords=AI"
-    name: AcademicPositions AI
-    type: academicpositions
   - url: "https://www.findapostdoc.com/search/?Keywords=artificial%20intelligence"
     name: FindAPostDoc artificial intelligence
     type: findapostdoc
   - url: "https://academicpositions.com/find-jobs?keywords=artificial%20intelligence"
     name: AcademicPositions artificial intelligence
     type: academicpositions
-  - url: "https://www.findapostdoc.com/search/?Keywords=language%20model"
-    name: FindAPostDoc language model
-    type: findapostdoc
-  - url: "https://academicpositions.com/find-jobs?keywords=language%20model"
-    name: AcademicPositions language model
-    type: academicpositions
   - url: "https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer&f%5B1%5D=positions%3Apostdoc_positions"
     name: EURAXESS Postdoc
     type: euraxess
 
 filter_keywords:
-  - AI
   - artificial intelligence
-  - language model
   - postdoc
   - research associate
   - fellowship
