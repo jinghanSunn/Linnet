@@ -1,0 +1,1933 @@
+{
+  "date": "2026-05-12",
+  "generated_at": "2026-05-12T11:35:31.523201+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2605.10938v1",
+          "title": "ELF: Embedded Language Flows",
+          "authors": [
+            "Keya Hu",
+            "Linlu Qiu",
+            "Yiyang Lu",
+            "Hanhong Zhao",
+            "Tianhong Li"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "ELF (Embedded Language Flows) proposes a continuous diffusion model for language generation that operates primarily in the continuous embedding space, unlike most existing discrete diffusion language models. It leverages continuous-time Flow Matching and maps to discrete tokens only at the final step using a shared-weight network. This continuous approach allows for straightforward adaptation of successful image-domain diffusion techniques like classifier-free guidance, leading to superior performance.",
+          "url": "http://arxiv.org/abs/2605.10938v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10938v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.10938v1/x1.png",
+          "figure_caption": "ELF achieves lower generative perplexity with fewer sampling steps than prior DLMs, without using distillation. ELF achieves this while using 10 × 10\\( \\times \\) fewer training tokens. (Model size: 105M for ELF and 170M for others; dataset: OWT. Detailed comparison in Fig. 7 .)",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.10828v1",
+          "title": "The First Drop of Ink: Nonlinear Impact of Misleading Information in Long-Context Reasoning",
+          "authors": [
+            "Muhan Gao",
+            "Zih-Ching Chen",
+            "Kuan-Hao Huang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces and investigates the \"First Drop of Ink\" effect, revealing a nonlinear degradation in LLM performance during long-context reasoning as the proportion of misleading information increases. The core finding is that performance drops sharply with only a small initial fraction of hard distractors, after which further increases yield only marginal additional decline. This effect is attributed to hard distractors capturing disproportionate attention, even when scarce.",
+          "url": "http://arxiv.org/abs/2605.10828v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10828v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.10828v1/x1.png",
+          "figure_caption": "The First Drop of Ink effect. Left: Conventional linear assumption (top, red dashed line) versus empirically observed nonlinear degradation (bottom, blue curve): a small fraction of hard distractors is sufficient to severely degrade accuracy. Middle: Hard distractors receive similar attention logits as gold documents ( 8 ≈ 9 ≫ 1 8\\( \\approx \\) 9\\( \\gg \\) 1 ), dominating the softmax competition even at low proportions. Right: With 100 distractor documents, attention on gold drops 76% by adding only 10% hard distractors. This convex relationship explains The First Drop of Ink .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.10923v1",
+          "title": "Dynamic Skill Lifecycle Management for Agentic Reinforcement Learning",
+          "authors": [
+            "Junhao Shen",
+            "Teng Zhang",
+            "Xiaoyan Zhao",
+            "Hong Cheng"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces SLIM, a framework for dynamic Skill Lifecycle Management in agentic reinforcement learning. SLIM treats the set of active external skills as a dynamic variable, optimizing it alongside policy learning. The core method involves estimating each skill's marginal contribution via leave-one-skill-out validation to decide whether to retain, retire, or acquire new skills, addressing the limitations of static skill management.",
+          "url": "http://arxiv.org/abs/2605.10923v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10923v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.10923v1/x1.png",
+          "figure_caption": "The reinforcement learning dynamics on ALFWorld. We plot validation success rate against the number of skills in active set during training. SkillRL accumulates external skills, whereas Skill0 progressively eliminates them. SLIM instead performs retain–retire–expand lifecycle management, converging to a non-empty skill set with higher validation success. This suggests that the effective endpoint is a learned external skill boundary rather than full accumulation or forced elimination.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.10893v1",
+          "title": "Grounded or Guessing? LVLM Confidence Estimation via Blind-Image Contrastive Ranking",
+          "authors": [
+            "Reza Khanmohammadi",
+            "Erfan Miahi",
+            "Simerjot Kaur",
+            "Charese H. Smiley",
+            "Ivan Brugere"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces **BICR (Blind-Image Contrastive Ranking)**, a model-agnostic framework to estimate Large Vision-Language Model (LVLM) confidence by detecting visual ungroundedness. BICR trains a lightweight probe to rank the hidden states derived from the real image-question pair higher than those from a blacked-out image with the same question. This contrastive regularization explicitly teaches the model to associate higher reliability with predictions shaped by actual visual input.",
+          "url": "http://arxiv.org/abs/2605.10893v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10893v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.10893v1/figures/BICR-main-figure.png",
+          "figure_caption": "Overview of our method ( BICR ) and headline results. (A) BICR pairs each question with two views, the real image and a blank counterfactual, and trains a shared probe on top of a frozen large vision-language model (LVLM). The ranking loss ℒ r ​ a ​ n ​ k \\( \\mathcal{L}_{rank} \\) enforces that the real-view confidence c b ​ a ​ s ​ e c_{base} exceeds the blank-view confidence c b ​ l ​ a ​ n ​ k c_{blank} by a margin \\( \\gamma \\) , teaching the probe that confidence must be grounded in the visual input. Only the base view is used at inference. (B) Each marker is one confidence estimator’s cross-LVLM average across our 5 LVLMs and 7 datasets, plotting calibration quality, 1 − ECE 1-\\( \\mathrm{ECE} \\) (Expected Calibration Error), against discrimination quality, AUROC (Area Under the ROC Curve). BICR (red star) is the only method in the upper-right region, achieving both high calibration and high discrimination simultaneously.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.10912v1",
+          "title": "WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation",
+          "authors": [
+            "Shuangrui Ding",
+            "Xuanlang Dai",
+            "Long Xing",
+            "Shengyuan Ding",
+            "Ziyu Liu"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "WildClawBench introduces a novel benchmark designed to evaluate real-world, long-horizon agent performance by executing tasks within a native runtime environment using actual command-line tools inside reproducible Docker containers. Its core contribution is providing a challenging, realistic evaluation suite of 60 multimodal tasks, averaging eight minutes and many tool calls, to bridge the gap between synthetic benchmarks and practical agent deployment. Evaluation employs a hybrid grading system combining rule-based checks, environment auditing, and LLM/VLM judges for comprehensive assessment.",
+          "url": "http://arxiv.org/abs/2605.10912v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10912v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.10912v1/x1.png",
+          "figure_caption": "Comparison with previous agent benchmarks and WildClawBench. (a) Prior benchmarks evaluate short-horizon, single-step tasks with toy APIs in controlled sandboxes, whereas (b) WildClawBench evaluates long-horizon multimodal workflows with real tools in open-world environments. (c) The benchmark spans six categories and is compatible with multiple agent harnesses. (d) A summary of key differences across environment, task horizon, tool use, and evaluation.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.10876v1",
+          "title": "AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents",
+          "authors": [
+            "Edward De Brouwer",
+            "Carl Edwards",
+            "Alexander Wu",
+            "Jenna Collier",
+            "Graham Heimberg"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "q-bio.QM"
+          ],
+          "abstract": "AssayBench is introduced as the first standard benchmark specifically designed to evaluate Large Language Models (LLMs) and agents on predicting cellular phenotypic screens. It leverages 1,920 publicly available CRISPR screens across five phenotype classes to test models on complex tasks combining heterogeneous text inputs with diverse phenotypic outputs, addressing a gap in current biological evaluation tools.",
+          "url": "http://arxiv.org/abs/2605.10876v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10876v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.10876v1/x1.png",
+          "figure_caption": "Overview of the AssayBench benchmark creation. ( A ) Starting from 1971 human CRISPR screens, we perform data quality filtering, replicate merging, and data augmentation to obtain 1920 high quality screens. ( B ) Phenotype composition of the database and its four splits. A realistic but challenging temporal split was used. ( C ) Given a description of the screen and a gene ranking criteria, a model must provide a ranked list of 100 genes.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.10906v1",
+          "title": "DataMaster: Towards Autonomous Data Engineering for Machine Learning",
+          "authors": [
+            "Yaxin Du",
+            "Xiyuan Yang",
+            "Zhifan Zhou",
+            "Wanxu Liu",
+            "Zixing Lei"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "DataMaster introduces an autonomous agent framework for data engineering to improve machine learning performance without altering the core learning algorithm. It addresses the complex data optimization space by integrating tree-structured search, shared candidate data, and a refinement mechanism. The core contribution is enabling automated, task-conditioned data discovery, selection, cleaning, and transformation to achieve stronger downstream ML solutions.",
+          "url": "http://arxiv.org/abs/2605.10906v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10906v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.10906v1/x1.png",
+          "figure_caption": "Overview of DataMaster . DataMaster organizes autonomous data engineering as a DataTree , where red nodes broaden the search by discovering external datasets and writing them into a shared Data Pool , while black nodes exploit available candidates to construct executable data states and obtain downstream training feedback. Global Memory stores reusable artifacts, node outcomes, and prior findings, enabling later nodes to reuse discovered data, avoid repeated failures, and coordinate search across branches under a limited budget.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.10907v1",
+          "title": "Engineering Robustness into Personal Agents with the AI Workflow Store",
+          "authors": [
+            "Roxana Geambasu",
+            "Mariana Raykova",
+            "Pierre Tholoniat",
+            "Trishita Tiwari",
+            "Lillian Tsai"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "This paper argues that the current \"on-the-fly\" synthesis paradigm for AI agents bypasses crucial software engineering (SE) discipline, leading to brittle and potentially insecure systems. The core method proposes integrating rigorous SE processes—like iterative design and testing—to create hardened, deterministically-constrained **AI agent workflows**. This shift aims to produce robust, production-grade agents that outperform improvised, real-time synthesis, especially for high-stakes applications.",
+          "url": "http://arxiv.org/abs/2605.10907v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10907v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.10907v1/x1.png",
+          "figure_caption": "Problem: The Agentic AI code-and-execute loop short-circuits well-trodden SE processes that are the foundations of the relatively reliable and secure programs and services we enjoy today.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.10870v1",
+          "title": "Remember the Decision, Not the Description: A Rate-Distortion Framework for Agent Memory",
+          "authors": [
+            "Mingxi Zou",
+            "Zhihan Guo",
+            "Langzhang Liang",
+            "Zhuo Wang",
+            "Qifan Wang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper reframes agent memory as a decision-centric rate-distortion problem, arguing that memory should preserve distinctions crucial for future choices rather than descriptive fidelity. The core method measures memory quality by the loss in achievable decision quality due to compression, establishing an optimal tradeoff frontier between memory budget and decision performance. This leads to the DeMem algorithm, which selectively refines memory partitions only when shared states risk inducing decision conflict.",
+          "url": "http://arxiv.org/abs/2605.10870v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10870v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.10870v1/x1.png",
+          "figure_caption": "DeMem routes histories into bounded slots and splits only on certified conflict.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.10848v1",
+          "title": "Rethinking Agentic Search with Pi-Serini: Is Lexical Retrieval Sufficient?",
+          "authors": [
+            "Tz-Huan Hsu",
+            "Jheng-Hong Yang",
+            "Jimmy Lin"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.IR"
+          ],
+          "abstract": "This paper investigates whether a simple lexical retriever (BM25) is sufficient for agentic search when paired with advanced LLMs. The authors introduce **Pi-Serini**, a search agent utilizing BM25 alongside tools for retrieval, browsing, and reading. Their core contribution is demonstrating that a well-tuned lexical retriever, with sufficient depth, can effectively support deep research, achieving high accuracy and outperforming agents using dense retrievers on the BrowseComp-Plus benchmark.",
+          "url": "http://arxiv.org/abs/2605.10848v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10848v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.10851v1",
+          "title": "The Generalized Turing Test: A Foundation for Comparing Intelligence",
+          "authors": [
+            "Daniel Mitropolsky",
+            "Susan S. Hong",
+            "Riccardo Neumarker",
+            "Emanuele Rimoldi",
+            "Tomaso Poggio"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "The paper introduces the **Generalized Turing Test (GTT)**, a formal framework for comparing the intelligence of arbitrary agents based on their indistinguishability from a reference agent by a designated distinguisher. The core method defines $A \\geq B$ if $B$ cannot reliably distinguish interactions with $A$ (imitating $B$) from interactions with $B$ itself. This provides a task-agnostic measure of relative capability, which the authors then empirically validate across modern models, finding results consistent with existing intelligence rankings.",
+          "url": "http://arxiv.org/abs/2605.10851v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10851v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.10851v1/figures/chat1new.png",
+          "figure_caption": "An example transcript from a GTT between Gemini 3.1 Pro as actor and Claude Opus 4.6 as distinguisher illustrating the self-referential nature of the task.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.10843v1",
+          "title": "Training-Free Cultural Alignment of Large Language Models via Persona Disagreement",
+          "authors": [
+            "Huynh Trung Kiet",
+            "Dao Sy Duy Minh",
+            "Tuan Nguyen",
+            "Chi-Nguyen Tran",
+            "Phu-Hoa Pham"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CY"
+          ],
+          "abstract": "This paper introduces DISCA, a training-free method for culturally aligning black-box Large Language Models (LLMs) using only public data. DISCA leverages sociodemographic disagreement within a country, modeled as a panel of World Values Survey-grounded personas, to generate a bounded logit correction during inference. This approach effectively reduces cultural misalignment across numerous countries and LLM backbones without requiring fine-tuning or internal model access.",
+          "url": "http://arxiv.org/abs/2605.10843v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10843v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.10843v1/x1.png",
+          "figure_caption": "DISCA overview. Stage 1 builds WVS-grounded persona prompts for a trolley scenario in country c c ; Stage 2 runs a frozen large language model (LLM) on the base prompt and each persona, aggregates persona-level signals in logit space, and applies Prospect-Theory importance sampling (PT–IS) together with a dual-pass reliability gate to obtain the final sparing probability. Pseudocode and the six MultiTP attribute–temperature pairs provided in App. A1 .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.10889v1",
+          "title": "Unmasking On-Policy Distillation: Where It Helps, Where It Hurts, and Why",
+          "authors": [
+            "Mohammadreza Armandpour",
+            "Fatih Ilhan",
+            "David Harrison",
+            "Ajay Jaiswal",
+            "Duc N. M Hoang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces a training-free diagnostic framework to analyze the effectiveness of on-policy distillation at the granular, per-token level. The core method involves estimating an \"ideal per-node gradient\" that maximizes student success probability, using a scalable targeted-rollout algorithm. This allows researchers to precisely determine when and why on-policy distillation helps or hurts, guiding the selection of optimal teacher models and supervisory contexts.",
+          "url": "http://arxiv.org/abs/2605.10889v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10889v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.10896v1",
+          "title": "V4FinBench: Benchmarking Tabular Foundation Models, LLMs, and Standard Methods on Corporate Bankruptcy Prediction",
+          "authors": [
+            "Marcin Kostrzewa",
+            "Sebastian Tomczak",
+            "Roman Furman",
+            "Anna Poberezhna",
+            "Michał Furgała"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "The paper introduces **V4FinBench**, a large-scale benchmark dataset of over one million company-year records from Visegràd Group economies for corporate bankruptcy prediction, addressing the scarcity of public, large-scale financial data. Its core contribution is providing a robust evaluation platform featuring severe class imbalance and multi-horizon forecasting demands. The authors benchmark standard methods, TabPFN, and Llama-3-8B on this new resource.",
+          "url": "http://arxiv.org/abs/2605.10896v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10896v1",
+          "score": 8.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.10863v1",
+          "title": "DGPO: Beyond Pairwise Preferences with Directional Consistent Groupwise Optimization",
+          "authors": [
+            "Mengyi Deng",
+            "Zhiwei Li",
+            "Xin Li",
+            "Tingyu Zhu",
+            "Yulan Yuan"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "DGPO introduces a lightweight framework for LLM alignment that moves beyond pairwise preferences by aggregating supervision signals at the group level. It explicitly models direction-aware alignment by structuring forward and reverse question-answer instances and optimizing a margin-based objective. This group-wise approach captures richer relative information, significantly improving directional consistency across diverse reasoning pathways.",
+          "url": "http://arxiv.org/abs/2605.10863v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10863v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.10863v1/main-framework2.png",
+          "figure_caption": "An overview of the DGPO training framework. The process begins with forward problems ( x f x_{f} ), each of which can be paired with a reverse question ( x r x_{r} ) formulated in the opposite reasoning direction. A teacher model then produces multiple candidate solutions for each problem type ( { y f ​ i } i = 1 3 \\{y_{fi}\\}_{i=1}^{3} for x f x_{f} and { y r ​ i } i = 1 3 \\{y_{ri}\\}_{i=1}^{3} for x r x_{r} ). The solutions are subsequently structured into direction-consistent ( 𝒢 + \\( \\mathcal{G}^{+} \\) ) and direction-divergent ( 𝒢 − \\( \\mathcal{G}^{-} \\) ) groups, wherein consistency is determined by matching a prompt’s directionality with its corresponding solutions (e.g., x f x_{f} with { y f ​ i } i = 1 3 \\{y_{fi}\\}_{i=1}^{3} ). DGPO is trained on this structured supervision, incorporating directional modeling and uncertainty-based regulation to enhance alignment stability.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.10853v1",
+          "title": "Grounded Satirical Generation with RAG",
+          "authors": [
+            "Oona Itkonen",
+            "Yuxin Su",
+            "Linyao Du",
+            "Ona De Gibert"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces a novel pipeline for grounded satirical definition generation, leveraging Retrieval-Augmented Generation (RAG) over current news to provide contextually relevant Finnish satire. The core contribution is demonstrating that RAG and topic-based word selection improve the *political relevance* of the generated satire, though they do not significantly enhance perceived humor. The authors also provide a new task-specific evaluation framework validated by human annotators.",
+          "url": "http://arxiv.org/abs/2605.10853v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10853v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.10853v1/x1.png",
+          "figure_caption": "Overview of our generation pipeline for satirical dictionary definitions with RAG.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.10862v1",
+          "title": "RUBEN: Rule-Based Explanations for Retrieval-Augmented LLM Systems",
+          "authors": [
+            "Joel Rorseth",
+            "Parke Godfrey",
+            "Lukasz Golab",
+            "Divesh Srivastava",
+            "Jarek Szlichta"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "RUBEN is an interactive tool that uses novel pruning strategies to efficiently discover the minimal set of rules explaining the outputs of retrieval-augmented LLMs. The core contribution is providing these concise, data-driven explanations, which are then applied to test and enhance LLM safety by assessing resiliency against adversarial prompt injections.",
+          "url": "http://arxiv.org/abs/2605.10862v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10862v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.10862v1/teaser.png",
+          "figure_caption": "Using 𝖱𝖴𝖡𝖤𝖭 \\( \\sf{RUBEN} \\) to test adversarial prompt injections against an LLM’s safety training.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.10832v1",
+          "title": "Towards On-Policy Data Evolution for Visual-Native Multimodal Deep Search Agents",
+          "authors": [
+            "Shijue Huang",
+            "Hangyu Guo",
+            "Chenxin Li",
+            "Junting Lu",
+            "Xinyu Geng"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces a novel framework for visual-native multimodal deep search agents that overcomes limitations in handling intermediate visual evidence and static training data. The core method involves a **visual-native agent harness** using an **image bank reference protocol** to make all tool-returned images addressable and reusable. Building on this, **On-policy Data Evolution (ODE)** creates a closed-loop data generator that continuously refines its training data based on the performance of the agent being trained, ensuring the data evolves with the agent's capabilities.",
+          "url": "http://arxiv.org/abs/2605.10832v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10832v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.10832v1/x1.png",
+          "figure_caption": "Overview of our framework. Left: The visual-native agent harness unifies 9 tools in a shared workspace and enables reusable visual state through the image bank reference protocol. Right: ODE constructs data with a closed loop over the harness: the forward pipeline synthesizes grounded tasks, and the backward pipeline uses rollout traces to refine the next generation configuration.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.10913v1",
+          "title": "Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace",
+          "authors": [
+            "Simon Yu",
+            "Derek Chong",
+            "Ananjan Nandi",
+            "Dilara Soylu",
+            "Jiuding Sun"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.PL",
+            "cs.SE"
+          ],
+          "abstract": "Shepherd introduces a functional programming model that formalizes meta-agent operations as functions, with core logic verified in Lean. Its key contribution is an efficient, Git-like execution trace that records all agent interactions, allowing past states to be forked and replayed significantly faster than Docker. This infrastructure enables powerful applications like runtime intervention, counterfactual meta-optimization, and efficient reinforcement learning training.",
+          "url": "http://arxiv.org/abs/2605.10913v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10913v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.10913v1/x1.png",
+          "figure_caption": "Shepherd meta-agents. Top: A supervisor meta-agent manages code repair agents. Bottom: Results from three meta-agents: (A) live supervision; (B) meta-optimization; (C) Tree GRPO",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.10831v1",
+          "title": "SLIM: Sparse Latent Steering for Interpretable and Property-Directed LLM-Based Molecular Editing",
+          "authors": [
+            "Mingxu Zhang",
+            "Yuhan Li",
+            "Lujundong Li",
+            "Dazhong Shen",
+            "Hui Xiong"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.CE"
+          ],
+          "abstract": "SLIM introduces a plug-and-play framework that uses a Sparse Autoencoder with importance gates to decompose LLM hidden states into sparse, property-aligned features. This allows for explicit steering in the latent space, precisely activating property-relevant dimensions to improve molecular editing success rates without altering the underlying LLM parameters. The method consistently improves editing performance across various models and properties while also enabling interpretable analysis of the editing process.",
+          "url": "http://arxiv.org/abs/2605.10831v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.10831v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.10831v1/x1.png",
+          "figure_caption": "Overview of the SLIM framework. Stage 1 : Ridge probes scan all layers to identify the optimal intervention point l ∗ l^{*} . Stage 2 : A task-oriented SAE is trained at layer l ∗ l^{*} with four objectives: (A) sparse reconstruction, (B) supervised property prediction via per-property Importance Gates, (C) contrastive alignment of importance-gated sparse codes, and (D) gradient alignment to ensure the SAE basis faithfully represents causal steering directions. Stage 3 : At inference time, a sparse steering vector is added to the residual stream at layer l ∗ l^{*} , directing the model toward improved molecular properties without modifying model parameters.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 35,
+        "papers_after_llm_filter": 23,
+        "count": 20
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48100433,
+          "title": "If AI writes your code, why use Python?",
+          "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+          "score": 547,
+          "created_at": "2026-05-11T20:45:55Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48100433",
+          "summary": "The article questions the continued necessity of using Python for coding when AI tools can generate code in various languages, suggesting a shift in language relevance."
+        },
+        {
+          "id": 48100524,
+          "title": "Interaction Models",
+          "url": "https://thinkingmachines.ai/blog/interaction-models/",
+          "score": 233,
+          "created_at": "2026-05-11T20:53:37Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48100524",
+          "summary": "The article explores various interaction models used in AI and machine learning, focusing on how humans and systems communicate and collaborate."
+        },
+        {
+          "id": 48094641,
+          "title": "Google says criminal hackers used AI to find a major software flaw",
+          "url": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+          "score": 196,
+          "created_at": "2026-05-11T13:20:14Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48094641",
+          "summary": "Google reported that malicious actors exploited artificial intelligence to discover a significant vulnerability in widely used software."
+        },
+        {
+          "id": 48100662,
+          "title": "I let AI build a tool to help me figure out what was waking me up at night",
+          "url": "https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/",
+          "score": 195,
+          "created_at": "2026-05-11T21:04:10Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48100662",
+          "summary": "A developer used AI to create a custom tool designed to analyze data and identify the specific causes of their nighttime awakenings."
+        },
+        {
+          "id": 48096674,
+          "title": "Students boo commencement speaker after she calls AI next industrial revolution",
+          "url": "https://www.404media.co/ucf-ai-commencement-speaker-booed/",
+          "score": 164,
+          "created_at": "2026-05-11T15:53:23Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48096674",
+          "summary": "Students at a UCF commencement ceremony booed the speaker after she declared artificial intelligence to be the next industrial revolution."
+        },
+        {
+          "id": 48097078,
+          "title": "Interfaze: A new model architecture built for high accuracy at scale",
+          "url": "https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale",
+          "score": 152,
+          "created_at": "2026-05-11T16:22:31Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48097078",
+          "summary": "Interfaze introduces a novel model architecture designed to achieve high accuracy while efficiently scaling for large-scale applications."
+        }
+      ],
+      "meta": {
+        "count": 6
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Postdoctoral Research Fellow",
+          "url": "https://www.jobs.ac.uk/job/DRM908/postdoctoral-research-fellow/",
+          "description": "Full-time: 35 hours per week Fixed-term: for 2 years Where passion meets purpose. Be part of something bigger. The Opportunity: We are seeking a highly skilled and motivated Postdoctoral Researcher to join our Translational Cerebral Amyloid Angiopathy (CAA) Research Lab at the BHF-UK DRI Centre for Vascular Dementia Research. This role is ideal for someone with a strong technical and computational and background who is passionate about applying advanced data analysis to complex biological systems. As a Postdoctoral Researcher, you will be performing in vivo optical microscopy experiments in rodent models. You will play a central role in developing and implementing computational approaches for the acquisition and analysis of high-resolution optical imaging data. Working with state-of-the-art in vivo two-photon microscopy datasets, you will design analysis pipelines, develop code, and extract meaningful insights from large, multidimensional imaging datasets. Your work will directly contribute to understanding the mechanisms underlying CAA and vascular dysfunction in neurodegenerative disease. Alongside your computational focus, you will contribute to experimental workflows, including in vivo imaging studies and ex vivo tissue analysis, ensuring strong integration between data acquisition and analysis. This is a collaborative and interdisciplinary environment, where you will work closely with experimental researchers while leading on computational strategy and innovation. We are looking for someone with strong programming skills (e.g. Python, MATLAB), experience in image processing and analysis, and the ability to handle complex datasets with precision and creativity. A proactive mindset, attention to detail, and enthusiasm for developing new computational methods are essential. We are committed to supporting your development. As part of the BHF-UK DRI Centre for Vascular Dementia Research, you will be embedded in a world-class research environment with access to cutting-edge technologies and opportunities to expand your computational and scientific expertise. This is a full-time (35 hours per week) and 100% on campus. Apply Before : 08/06/2026, 23:59 £41,064 to £48,822 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk CS",
+          "deadline": "2026-06-08T00:00:00+00:00",
+          "requirements": "Research Area: Translational Cerebral Amyloid Angiopathy (CAA) Research, Vascular Dementia Research, in vivo optical microscopy data analysis.\nKey Requirements: Strong technical and computational background, experience with in vivo optical microscopy (especially two-photon microscopy) in rodent models, strong programming skills (Python, MATLAB), experience in image processing and analysis, ability to handle complex, multidimensional imaging datasets.\nApplication Info: deadline/start date, required materials, contact (if any): Deadline: 2026-06-08T00:00:00+00:00. Required materials and contact information are not explicitly listed.\nPosition Details: location, contract type, workload, salary: Location: Edinburgh, Scotland, United Kingdom. Contract Type: Fixed-Term/Contract (for 2 years). Workload: Full Time (35 hours per week). Salary: GBP41064.00-GBP48822.00 YEAR.\nOne-line Advice: Focus CV on advanced computational methods, high-resolution optical imaging data analysis (two-photon), and strong programming proficiency in Python/MATLAB relevant to biological systems.",
+          "relevance_score": 8.0,
+          "institution": "The University of Edinburgh",
+          "location": "Edinburgh, Scotland, United Kingdom",
+          "salary": "GBP41064.00-GBP48822.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "11th May 2026",
+          "job_ref": "14124"
+        },
+        {
+          "title": "Postdoctoral Researcher in Industrial AI Algorithm and Autonomous Decision-Making Systems",
+          "url": "https://www.jobs.ac.uk/job/DRM575/postdoctoral-researcher-in-industrial-ai-algorithm-and-autonomous-decision-making-systems/",
+          "description": "Xi&#039;an Jiaotong - Liverpool University - School of Intelligent Manufacturing Ecosystem&lt;br /&gt;Salary: Competitive",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "",
+          "requirements": "Research Area: Industrial AI Algorithm and Autonomous Decision-Making Systems\nKey Requirements: Expertise in Industrial AI Algorithm and Autonomous Decision-Making Systems (Specific technical skills not detailed)\nApplication Info: deadline/start date: N/A, required materials: N/A, contact (if any): N/A\nPosition Details: location: Suzhou - China, contract type: Fixed-Term/Contract, workload: Full Time, salary: Competitive\nOne-line Advice: Focus CV on industrial applications, real-time decision systems, and relevant AI/ML frameworks.",
+          "relevance_score": 8.0,
+          "institution": "",
+          "location": "Suzhou - China",
+          "salary": "Competitive",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "10th May 2026",
+          "job_ref": ""
+        },
+        {
+          "title": "PhD Studentship: Cracks and Code: From High-Fidelity Simulations to Fast Scientific Machine Learning Models",
+          "url": "https://www.jobs.ac.uk/job/DRM429/phd-studentship-cracks-and-code-from-high-fidelity-simulations-to-fast-scientific-machine-learning-models/",
+          "description": "About the project: Cracks and Code: From High-Fidelity Simulations to Fast Scientific Machine Learning Models Supervisor: Dr Emmanouil Kakouris, University of Warwick Are you ready for your next challenge? If you’re looking to move beyond a traditional PhD and gain real-world experience alongside world-leading research, this could be the opportunity for you. The HetSys Centre for Doctoral Training at the University of Warwick is offering an exciting PhD studentship that puts you at the intersection of cutting-edge modelling and industry impact. A project for the curious When metals experience extreme events, such as shock waves, high-speed impacts, or rapid deformation, they can fail suddenly in ways that remain difficult to predict. In this project, you will investigate how cracks initiate and grow in metals under these high-rate conditions. You will use large-scale simulations (both atomistic and continuum) to study how damage forms and localises, and then develop scientific machine-learning models that can reproduce these processes far more efficiently. Why this PhD is different This isn’t just about writing a thesis. It’s about developing the skills, experience, and confidence to shape your future career. Work closely with a leading industry partner, AWE-NST , applying your research to real challenges Gain hands-on experience that enhances your employability Be part of a vibrant, supportive cohort of doctoral researchers Develop both deep technical expertise and transferable skills in communication, teamwork and problem-solving Funded to support your focus A tax-free stipend to support your living costs Full tuition fees paid for the duration of the programme Your research, your impact You’ll tackle meaningful research questions that matter beyond academia – contributing to solutions that industry genuinely needs. Alongside academic supervision from Warwick, you’ll benefit from industry insight, mentorship and exposure to real-world applications of your work. Career-ready from the start HetSys is designed to prepare you for life after your PhD, whether that’s in industry, academia or beyond. Our structured training programme will help you: Build advanced computational and analytical skills Understand how research translates into practice Develop professional networks and industry connections Grow in confidence as an independent researcher Who we’re looking for We’re looking for students excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs £21805 (equivalent to national living wage)",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "2026-08-01T00:00:00+00:00",
+          "requirements": "Research Area: High-Fidelity Simulations (atomistic and continuum) of crack initiation and growth in metals under high-rate conditions, leading to the development of fast Scientific Machine Learning Models.\nKey Requirements: Ability to work at the intersection of cutting-edge modelling and industry impact; experience/interest in large-scale simulations and scientific machine learning model development.\nApplication Info: deadline/start date, required materials, contact (if any): Deadline 2026-08-01. Contact: Dr Emmanouil Kakouris (Supervisor). Required materials not explicitly listed beyond standard PhD application expectations.\nPosition Details: location, contract type, workload, salary: Location University of Warwick, Coventry, England, UK. Contract type N/A (PhD Studentship). Workload Full Time. Salary Tax-free stipend provided; Full tuition fees paid.\nOne-line Advice: Focus CV on computational mechanics, materials science simulation (atomistic/continuum), and scientific machine learning applications.",
+          "relevance_score": 7.0,
+          "institution": "University of Warwick",
+          "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+          "salary": "",
+          "hours": "Full Time",
+          "contract_type": "",
+          "placed_on": "9th May 2026",
+          "job_ref": ""
+        },
+        {
+          "title": "PhD Studentship: Extreme Weather Storylines via Generative AI",
+          "url": "https://www.jobs.ac.uk/job/DRM434/phd-studentship-extreme-weather-storylines-via-generative-ai/",
+          "description": "About the project: Extreme Weather Storylines via Generative AI Supervisor: Dr Tobias Grafke, University of Warwick Generative machine learning techniques, as known for example from large language models or image generation, have recently also taken the atmospheric dynamics and weather forecast communities by storm. At the same time, due to anthropogenetic climate change, society faces elevated risk from extreme weather events such as flash floods, heatwaves, or tropical cyclones. This project aims to combine generative weather prediction models with rare event techniques to generate plausible trajectories of the weather system exhibiting extreme weather events. The ECMWF machine learning division has agreed to provide data and support the project in adapting their in-house intermediate-resolution generative weather model. About HetSys: Harnessing Data, Modelling and Simulation for Real‑World Impact HetSys (Centre for Doctoral Training in Modelling of Heterogeneous Systems ) at the University of Warwick is an innovative, interdisciplinary fully funded PhD programme that brings together science, engineering, and mathematics to tackle some of the most pressing challenges of our time. Big Questions, Real Impact – From climate modelling and sustainable energy to advanced materials and biomedical systems, HetSys projects apply cutting‑edge computational and mathematical techniques to problems with global significance. Interdisciplinary Training – Students gain expertise across physics, engineering, computer science, and applied mathematics, developing versatile skills that open doors to both academia and industry. Collaborative Environment – Work alongside leading researchers and industry partners in a supportive, vibrant community that values curiosity, creativity, and collaboration. Future‑Focused Careers – HetSys graduates are equipped with highly sought‑after skills in modelling, simulation, and data science, preparing them for impactful careers in research, technology, and beyond. If you’re excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs (standard UKRI rate £21,805 in 26/27 - equivalent to national living wage)",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "2026-08-28T00:00:00+00:00",
+          "requirements": "Research Area: Extreme Weather Storylines via Generative AI, Generative machine learning, atmospheric dynamics, weather forecast models, rare event techniques.\nKey Requirements: Familiarity with generative machine learning techniques (e.g., LLMs, image generation) relevant to atmospheric dynamics/weather forecasting; willingness to work with generative weather prediction models and rare event techniques.\nApplication Info: deadline: 2026-08-28T00:00:00+00:00, required materials: N/A, contact: Dr Tobias Grafke (Supervisor).\nPosition Details: location: Coventry, England, United Kingdom / University of Warwick, England, United Kingdom, contract type: N/A (PhD Programme), workload: Full Time, salary: N/A.\nOne-line Advice: Focus CV on generative AI/ML applied to physical systems or complex data modeling; medical imaging experience is less directly relevant unless transferable ML skills are highlighted.",
+          "relevance_score": 7.0,
+          "institution": "University of Warwick",
+          "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+          "salary": "",
+          "hours": "Full Time",
+          "contract_type": "",
+          "placed_on": "9th May 2026",
+          "job_ref": ""
+        },
+        {
+          "title": "PhD Studentship: The Thinnest Sensors: 2D Materials in Liquid Solution",
+          "url": "https://www.jobs.ac.uk/job/DRM448/phd-studentship-the-thinnest-sensors-2d-materials-in-liquid-solution/",
+          "description": "About the project: The thinnest sensors: 2D materials in liquid solution Supervisor: Dr Peter Brommer, University of Warwick Two-dimensional materials, such as graphene, could be used in molecular sensors - if we can control and tune their properties. You will develop and use top-of-the-line machine learning models to predict the sensor response of these materials under realistic conditions, including in liquids. Combining quantum mechanics and atomic simulation with AI-driven sampling techniques, you will determine terahertz and Raman spectrograms to directly compare to measurements obtained in the THz labs at Warwick and by our collaborators at the Institute of Saint-Louis (ISL). By suggesting design modifications to the molecular structures, your work will improve the next generation of molecular sensors. About HetSys: Harnessing Data, Modelling and Simulation for Real‑World Impact HetSys (Centre for Doctoral Training in Modelling of Heterogeneous Systems ) at the University of Warwick is an innovative, interdisciplinary fully funded PhD programme that brings together science, engineering, and mathematics to tackle some of the most pressing challenges of our time. Big Questions, Real Impact – From climate modelling and sustainable energy to advanced materials and biomedical systems, HetSys projects apply cutting‑edge computational and mathematical techniques to problems with global significance. Interdisciplinary Training – Students gain expertise across physics, engineering, computer science, and applied mathematics, developing versatile skills that open doors to both academia and industry. Collaborative Environment – Work alongside leading researchers and industry partners in a supportive, vibrant community that values curiosity, creativity, and collaboration. Future‑Focused Careers – HetSys graduates are equipped with highly sought‑after skills in modelling, simulation, and data science, preparing them for impactful careers in research, technology, and beyond. If you’re excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs (standard UKRI rate £21,805 in 26/27 - equivalent to national living wage)",
+          "posted_date": "",
+          "source": "jobs.ac.uk Mathematics",
+          "deadline": "2026-08-28T00:00:00+00:00",
+          "requirements": "Research Area: 2D Materials (graphene) for molecular sensors, utilizing quantum mechanics, atomic simulation, and AI/machine learning for predicting sensor response and terahertz/Raman spectrograms.\nKey Requirements: Ability to develop and use top-of-the-line machine learning models; familiarity with combining quantum mechanics/atomic simulation with AI-driven sampling techniques.\nApplication Info: deadline/start date, required materials, contact (if any): Deadline: 2026-08-28T00:00:00+00:00. Materials/Contact: N/A.\nPosition Details: location, contract type, workload, salary: Location: University of Warwick, Coventry, England, United Kingdom. Contract: N/A. Workload: Full Time. Salary: N/A.\nOne-line Advice: Focus CV on machine learning application to physical/chemical simulation data, emphasizing predictive modeling over pure medical imaging or LLM expertise.",
+          "relevance_score": 7.0,
+          "institution": "University of Warwick",
+          "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+          "salary": "",
+          "hours": "Full Time",
+          "contract_type": "",
+          "placed_on": "9th May 2026",
+          "job_ref": ""
+        },
+        {
+          "title": "Postdoctoral Training Fellow - Artificial Intelligence for Radiotherapy",
+          "url": "https://www.findapostdoc.com/search/Job-Details.aspx?jobcode=12657",
+          "description": "Under the guidance of Dr Matthew Blackledge, we are seeking to recruit a Postdoctoral Training Fellow to contribute to deliver treatment-integrated, multimodal agentic AI to drive a step-change in clinical radiotherapy by i) improving patient outcomes for cancers of unmet clinical need; and ii) increasing the efficiency of RT by enabling safe ultra-hypofractionated treatments.",
+          "institution": "The Institute of Cancer Research, Radiotherapy & Imaging",
+          "posted_date": "17 April 2026",
+          "deadline": "15 May 2026",
+          "source": "FindAPostDoc AI",
+          "requirements": "Research Area: Artificial Intelligence for Radiotherapy, specifically treatment-integrated, multimodal agentic AI.\nKey Requirements: Ability to contribute to improving patient outcomes for cancers of unmet clinical need and increasing RT efficiency via ultra-hypofractionated treatments.\nApplication Info: deadline: 15 May 2026, required materials: N/A, contact: Dr Matthew Blackledge (implied supervisor).\nPosition Details: location: N/A, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: Focus CV on AI/ML applications relevant to medical imaging and treatment planning/delivery in oncology.",
+          "relevance_score": 9.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        },
+        {
+          "title": "MSCA Postdoctoral Fellowship Hosting Offer Optimising Home Hospitalisation Pathways through AI and Operations Research",
+          "url": "https://euraxess.ec.europa.eu/jobs/435630",
+          "description": "HOSTING OFFER INFORMATION Type of opportunity: Expression of interest for an MSCA-PF applicationAffiliation : LASPI – Laboratory of Signal Analysis and Industrial Processes, Université Jean Monnet (UJM), St. Étienne, FranceApplication deadline: 1 June 2026MSCA-PF call deadline: 9 September 2026... * Work Locations: Number of offers: 1, European Union, Université Jean Monnet - Saint-Etienne , SAINT-ETIENNE CEDEX 2, 42023, France, 10 RUE Tréfilerie Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Other EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A6053) Application Deadline: 1 Jun 2026 - 12:00 (Africa/Abidjan) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France * [Université Jean Monnet](https://euraxess.ec.europa.eu/partnering/organisations/profile/universite-jean-monnet-0) * [Field: Medical sciences]",
+          "institution": "",
+          "posted_date": "12 May 2026",
+          "deadline": "1 June 2026MSCA-PF call deadline: 9 September 2026",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Medical sciences, focusing on Optimising Home Hospitalisation Pathways through AI and Operations Research.\nKey Requirements: Must fit the MSCA Postdoctoral Fellowship (MSCA-PF) criteria for a First Stage Researcher (R1).\nApplication Info: Expression of interest deadline: 1 June 2026; MSCA-PF call deadline: 9 September 2026. Required materials are not explicitly listed beyond the EOI. Contact information is not provided.\nPosition Details: Location: Université Jean Monnet (UJM), St. Étienne, France. Contract type: MSCA Postdoctoral Fellowship (hosting offer). Workload/Salary: N/A.\nOne-line Advice: Focus CV on AI/Operations Research applications within Medical Sciences/Healthcare pathways, as LLM relevance is not explicitly mentioned.",
+          "relevance_score": 8.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 7
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 35,
+    "papers_after_llm_filter": 23,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 164
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2605.10938v1",
+      "title": "ELF: Embedded Language Flows",
+      "authors": [
+        "Keya Hu",
+        "Linlu Qiu",
+        "Yiyang Lu",
+        "Hanhong Zhao",
+        "Tianhong Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "ELF (Embedded Language Flows) proposes a continuous diffusion model for language generation that operates primarily in the continuous embedding space, unlike most existing discrete diffusion language models. It leverages continuous-time Flow Matching and maps to discrete tokens only at the final step using a shared-weight network. This continuous approach allows for straightforward adaptation of successful image-domain diffusion techniques like classifier-free guidance, leading to superior performance.",
+      "url": "http://arxiv.org/abs/2605.10938v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10938v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.10938v1/x1.png",
+      "figure_caption": "ELF achieves lower generative perplexity with fewer sampling steps than prior DLMs, without using distillation. ELF achieves this while using 10 × 10\\( \\times \\) fewer training tokens. (Model size: 105M for ELF and 170M for others; dataset: OWT. Detailed comparison in Fig. 7 .)",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10828v1",
+      "title": "The First Drop of Ink: Nonlinear Impact of Misleading Information in Long-Context Reasoning",
+      "authors": [
+        "Muhan Gao",
+        "Zih-Ching Chen",
+        "Kuan-Hao Huang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces and investigates the \"First Drop of Ink\" effect, revealing a nonlinear degradation in LLM performance during long-context reasoning as the proportion of misleading information increases. The core finding is that performance drops sharply with only a small initial fraction of hard distractors, after which further increases yield only marginal additional decline. This effect is attributed to hard distractors capturing disproportionate attention, even when scarce.",
+      "url": "http://arxiv.org/abs/2605.10828v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10828v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.10828v1/x1.png",
+      "figure_caption": "The First Drop of Ink effect. Left: Conventional linear assumption (top, red dashed line) versus empirically observed nonlinear degradation (bottom, blue curve): a small fraction of hard distractors is sufficient to severely degrade accuracy. Middle: Hard distractors receive similar attention logits as gold documents ( 8 ≈ 9 ≫ 1 8\\( \\approx \\) 9\\( \\gg \\) 1 ), dominating the softmax competition even at low proportions. Right: With 100 distractor documents, attention on gold drops 76% by adding only 10% hard distractors. This convex relationship explains The First Drop of Ink .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10923v1",
+      "title": "Dynamic Skill Lifecycle Management for Agentic Reinforcement Learning",
+      "authors": [
+        "Junhao Shen",
+        "Teng Zhang",
+        "Xiaoyan Zhao",
+        "Hong Cheng"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces SLIM, a framework for dynamic Skill Lifecycle Management in agentic reinforcement learning. SLIM treats the set of active external skills as a dynamic variable, optimizing it alongside policy learning. The core method involves estimating each skill's marginal contribution via leave-one-skill-out validation to decide whether to retain, retire, or acquire new skills, addressing the limitations of static skill management.",
+      "url": "http://arxiv.org/abs/2605.10923v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10923v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.10923v1/x1.png",
+      "figure_caption": "The reinforcement learning dynamics on ALFWorld. We plot validation success rate against the number of skills in active set during training. SkillRL accumulates external skills, whereas Skill0 progressively eliminates them. SLIM instead performs retain–retire–expand lifecycle management, converging to a non-empty skill set with higher validation success. This suggests that the effective endpoint is a learned external skill boundary rather than full accumulation or forced elimination.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.10893v1",
+      "title": "Grounded or Guessing? LVLM Confidence Estimation via Blind-Image Contrastive Ranking",
+      "authors": [
+        "Reza Khanmohammadi",
+        "Erfan Miahi",
+        "Simerjot Kaur",
+        "Charese H. Smiley",
+        "Ivan Brugere"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces **BICR (Blind-Image Contrastive Ranking)**, a model-agnostic framework to estimate Large Vision-Language Model (LVLM) confidence by detecting visual ungroundedness. BICR trains a lightweight probe to rank the hidden states derived from the real image-question pair higher than those from a blacked-out image with the same question. This contrastive regularization explicitly teaches the model to associate higher reliability with predictions shaped by actual visual input.",
+      "url": "http://arxiv.org/abs/2605.10893v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10893v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.10893v1/figures/BICR-main-figure.png",
+      "figure_caption": "Overview of our method ( BICR ) and headline results. (A) BICR pairs each question with two views, the real image and a blank counterfactual, and trains a shared probe on top of a frozen large vision-language model (LVLM). The ranking loss ℒ r ​ a ​ n ​ k \\( \\mathcal{L}_{rank} \\) enforces that the real-view confidence c b ​ a ​ s ​ e c_{base} exceeds the blank-view confidence c b ​ l ​ a ​ n ​ k c_{blank} by a margin \\( \\gamma \\) , teaching the probe that confidence must be grounded in the visual input. Only the base view is used at inference. (B) Each marker is one confidence estimator’s cross-LVLM average across our 5 LVLMs and 7 datasets, plotting calibration quality, 1 − ECE 1-\\( \\mathrm{ECE} \\) (Expected Calibration Error), against discrimination quality, AUROC (Area Under the ROC Curve). BICR (red star) is the only method in the upper-right region, achieving both high calibration and high discrimination simultaneously.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.10912v1",
+      "title": "WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation",
+      "authors": [
+        "Shuangrui Ding",
+        "Xuanlang Dai",
+        "Long Xing",
+        "Shengyuan Ding",
+        "Ziyu Liu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "WildClawBench introduces a novel benchmark designed to evaluate real-world, long-horizon agent performance by executing tasks within a native runtime environment using actual command-line tools inside reproducible Docker containers. Its core contribution is providing a challenging, realistic evaluation suite of 60 multimodal tasks, averaging eight minutes and many tool calls, to bridge the gap between synthetic benchmarks and practical agent deployment. Evaluation employs a hybrid grading system combining rule-based checks, environment auditing, and LLM/VLM judges for comprehensive assessment.",
+      "url": "http://arxiv.org/abs/2605.10912v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10912v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.10912v1/x1.png",
+      "figure_caption": "Comparison with previous agent benchmarks and WildClawBench. (a) Prior benchmarks evaluate short-horizon, single-step tasks with toy APIs in controlled sandboxes, whereas (b) WildClawBench evaluates long-horizon multimodal workflows with real tools in open-world environments. (c) The benchmark spans six categories and is compatible with multiple agent harnesses. (d) A summary of key differences across environment, task horizon, tool use, and evaluation.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.10876v1",
+      "title": "AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents",
+      "authors": [
+        "Edward De Brouwer",
+        "Carl Edwards",
+        "Alexander Wu",
+        "Jenna Collier",
+        "Graham Heimberg"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "q-bio.QM"
+      ],
+      "abstract": "AssayBench is introduced as the first standard benchmark specifically designed to evaluate Large Language Models (LLMs) and agents on predicting cellular phenotypic screens. It leverages 1,920 publicly available CRISPR screens across five phenotype classes to test models on complex tasks combining heterogeneous text inputs with diverse phenotypic outputs, addressing a gap in current biological evaluation tools.",
+      "url": "http://arxiv.org/abs/2605.10876v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10876v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10876v1/x1.png",
+      "figure_caption": "Overview of the AssayBench benchmark creation. ( A ) Starting from 1971 human CRISPR screens, we perform data quality filtering, replicate merging, and data augmentation to obtain 1920 high quality screens. ( B ) Phenotype composition of the database and its four splits. A realistic but challenging temporal split was used. ( C ) Given a description of the screen and a gene ranking criteria, a model must provide a ranked list of 100 genes.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10906v1",
+      "title": "DataMaster: Towards Autonomous Data Engineering for Machine Learning",
+      "authors": [
+        "Yaxin Du",
+        "Xiyuan Yang",
+        "Zhifan Zhou",
+        "Wanxu Liu",
+        "Zixing Lei"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "DataMaster introduces an autonomous agent framework for data engineering to improve machine learning performance without altering the core learning algorithm. It addresses the complex data optimization space by integrating tree-structured search, shared candidate data, and a refinement mechanism. The core contribution is enabling automated, task-conditioned data discovery, selection, cleaning, and transformation to achieve stronger downstream ML solutions.",
+      "url": "http://arxiv.org/abs/2605.10906v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10906v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10906v1/x1.png",
+      "figure_caption": "Overview of DataMaster . DataMaster organizes autonomous data engineering as a DataTree , where red nodes broaden the search by discovering external datasets and writing them into a shared Data Pool , while black nodes exploit available candidates to construct executable data states and obtain downstream training feedback. Global Memory stores reusable artifacts, node outcomes, and prior findings, enabling later nodes to reuse discovered data, avoid repeated failures, and coordinate search across branches under a limited budget.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10907v1",
+      "title": "Engineering Robustness into Personal Agents with the AI Workflow Store",
+      "authors": [
+        "Roxana Geambasu",
+        "Mariana Raykova",
+        "Pierre Tholoniat",
+        "Trishita Tiwari",
+        "Lillian Tsai"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper argues that the current \"on-the-fly\" synthesis paradigm for AI agents bypasses crucial software engineering (SE) discipline, leading to brittle and potentially insecure systems. The core method proposes integrating rigorous SE processes—like iterative design and testing—to create hardened, deterministically-constrained **AI agent workflows**. This shift aims to produce robust, production-grade agents that outperform improvised, real-time synthesis, especially for high-stakes applications.",
+      "url": "http://arxiv.org/abs/2605.10907v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10907v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10907v1/x1.png",
+      "figure_caption": "Problem: The Agentic AI code-and-execute loop short-circuits well-trodden SE processes that are the foundations of the relatively reliable and secure programs and services we enjoy today.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10870v1",
+      "title": "Remember the Decision, Not the Description: A Rate-Distortion Framework for Agent Memory",
+      "authors": [
+        "Mingxi Zou",
+        "Zhihan Guo",
+        "Langzhang Liang",
+        "Zhuo Wang",
+        "Qifan Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper reframes agent memory as a decision-centric rate-distortion problem, arguing that memory should preserve distinctions crucial for future choices rather than descriptive fidelity. The core method measures memory quality by the loss in achievable decision quality due to compression, establishing an optimal tradeoff frontier between memory budget and decision performance. This leads to the DeMem algorithm, which selectively refines memory partitions only when shared states risk inducing decision conflict.",
+      "url": "http://arxiv.org/abs/2605.10870v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10870v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10870v1/x1.png",
+      "figure_caption": "DeMem routes histories into bounded slots and splits only on certified conflict.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10848v1",
+      "title": "Rethinking Agentic Search with Pi-Serini: Is Lexical Retrieval Sufficient?",
+      "authors": [
+        "Tz-Huan Hsu",
+        "Jheng-Hong Yang",
+        "Jimmy Lin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.IR"
+      ],
+      "abstract": "This paper investigates whether a simple lexical retriever (BM25) is sufficient for agentic search when paired with advanced LLMs. The authors introduce **Pi-Serini**, a search agent utilizing BM25 alongside tools for retrieval, browsing, and reading. Their core contribution is demonstrating that a well-tuned lexical retriever, with sufficient depth, can effectively support deep research, achieving high accuracy and outperforming agents using dense retrievers on the BrowseComp-Plus benchmark.",
+      "url": "http://arxiv.org/abs/2605.10848v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10848v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10851v1",
+      "title": "The Generalized Turing Test: A Foundation for Comparing Intelligence",
+      "authors": [
+        "Daniel Mitropolsky",
+        "Susan S. Hong",
+        "Riccardo Neumarker",
+        "Emanuele Rimoldi",
+        "Tomaso Poggio"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "The paper introduces the **Generalized Turing Test (GTT)**, a formal framework for comparing the intelligence of arbitrary agents based on their indistinguishability from a reference agent by a designated distinguisher. The core method defines $A \\geq B$ if $B$ cannot reliably distinguish interactions with $A$ (imitating $B$) from interactions with $B$ itself. This provides a task-agnostic measure of relative capability, which the authors then empirically validate across modern models, finding results consistent with existing intelligence rankings.",
+      "url": "http://arxiv.org/abs/2605.10851v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10851v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10851v1/figures/chat1new.png",
+      "figure_caption": "An example transcript from a GTT between Gemini 3.1 Pro as actor and Claude Opus 4.6 as distinguisher illustrating the self-referential nature of the task.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10843v1",
+      "title": "Training-Free Cultural Alignment of Large Language Models via Persona Disagreement",
+      "authors": [
+        "Huynh Trung Kiet",
+        "Dao Sy Duy Minh",
+        "Tuan Nguyen",
+        "Chi-Nguyen Tran",
+        "Phu-Hoa Pham"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "abstract": "This paper introduces DISCA, a training-free method for culturally aligning black-box Large Language Models (LLMs) using only public data. DISCA leverages sociodemographic disagreement within a country, modeled as a panel of World Values Survey-grounded personas, to generate a bounded logit correction during inference. This approach effectively reduces cultural misalignment across numerous countries and LLM backbones without requiring fine-tuning or internal model access.",
+      "url": "http://arxiv.org/abs/2605.10843v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10843v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10843v1/x1.png",
+      "figure_caption": "DISCA overview. Stage 1 builds WVS-grounded persona prompts for a trolley scenario in country c c ; Stage 2 runs a frozen large language model (LLM) on the base prompt and each persona, aggregates persona-level signals in logit space, and applies Prospect-Theory importance sampling (PT–IS) together with a dual-pass reliability gate to obtain the final sparing probability. Pseudocode and the six MultiTP attribute–temperature pairs provided in App. A1 .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10889v1",
+      "title": "Unmasking On-Policy Distillation: Where It Helps, Where It Hurts, and Why",
+      "authors": [
+        "Mohammadreza Armandpour",
+        "Fatih Ilhan",
+        "David Harrison",
+        "Ajay Jaiswal",
+        "Duc N. M Hoang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces a training-free diagnostic framework to analyze the effectiveness of on-policy distillation at the granular, per-token level. The core method involves estimating an \"ideal per-node gradient\" that maximizes student success probability, using a scalable targeted-rollout algorithm. This allows researchers to precisely determine when and why on-policy distillation helps or hurts, guiding the selection of optimal teacher models and supervisory contexts.",
+      "url": "http://arxiv.org/abs/2605.10889v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10889v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10896v1",
+      "title": "V4FinBench: Benchmarking Tabular Foundation Models, LLMs, and Standard Methods on Corporate Bankruptcy Prediction",
+      "authors": [
+        "Marcin Kostrzewa",
+        "Sebastian Tomczak",
+        "Roman Furman",
+        "Anna Poberezhna",
+        "Michał Furgała"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "The paper introduces **V4FinBench**, a large-scale benchmark dataset of over one million company-year records from Visegràd Group economies for corporate bankruptcy prediction, addressing the scarcity of public, large-scale financial data. Its core contribution is providing a robust evaluation platform featuring severe class imbalance and multi-horizon forecasting demands. The authors benchmark standard methods, TabPFN, and Llama-3-8B on this new resource.",
+      "url": "http://arxiv.org/abs/2605.10896v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10896v1",
+      "score": 8.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.10863v1",
+      "title": "DGPO: Beyond Pairwise Preferences with Directional Consistent Groupwise Optimization",
+      "authors": [
+        "Mengyi Deng",
+        "Zhiwei Li",
+        "Xin Li",
+        "Tingyu Zhu",
+        "Yulan Yuan"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "DGPO introduces a lightweight framework for LLM alignment that moves beyond pairwise preferences by aggregating supervision signals at the group level. It explicitly models direction-aware alignment by structuring forward and reverse question-answer instances and optimizing a margin-based objective. This group-wise approach captures richer relative information, significantly improving directional consistency across diverse reasoning pathways.",
+      "url": "http://arxiv.org/abs/2605.10863v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10863v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10863v1/main-framework2.png",
+      "figure_caption": "An overview of the DGPO training framework. The process begins with forward problems ( x f x_{f} ), each of which can be paired with a reverse question ( x r x_{r} ) formulated in the opposite reasoning direction. A teacher model then produces multiple candidate solutions for each problem type ( { y f ​ i } i = 1 3 \\{y_{fi}\\}_{i=1}^{3} for x f x_{f} and { y r ​ i } i = 1 3 \\{y_{ri}\\}_{i=1}^{3} for x r x_{r} ). The solutions are subsequently structured into direction-consistent ( 𝒢 + \\( \\mathcal{G}^{+} \\) ) and direction-divergent ( 𝒢 − \\( \\mathcal{G}^{-} \\) ) groups, wherein consistency is determined by matching a prompt’s directionality with its corresponding solutions (e.g., x f x_{f} with { y f ​ i } i = 1 3 \\{y_{fi}\\}_{i=1}^{3} ). DGPO is trained on this structured supervision, incorporating directional modeling and uncertainty-based regulation to enhance alignment stability.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.10853v1",
+      "title": "Grounded Satirical Generation with RAG",
+      "authors": [
+        "Oona Itkonen",
+        "Yuxin Su",
+        "Linyao Du",
+        "Ona De Gibert"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a novel pipeline for grounded satirical definition generation, leveraging Retrieval-Augmented Generation (RAG) over current news to provide contextually relevant Finnish satire. The core contribution is demonstrating that RAG and topic-based word selection improve the *political relevance* of the generated satire, though they do not significantly enhance perceived humor. The authors also provide a new task-specific evaluation framework validated by human annotators.",
+      "url": "http://arxiv.org/abs/2605.10853v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10853v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10853v1/x1.png",
+      "figure_caption": "Overview of our generation pipeline for satirical dictionary definitions with RAG.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.10862v1",
+      "title": "RUBEN: Rule-Based Explanations for Retrieval-Augmented LLM Systems",
+      "authors": [
+        "Joel Rorseth",
+        "Parke Godfrey",
+        "Lukasz Golab",
+        "Divesh Srivastava",
+        "Jarek Szlichta"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "RUBEN is an interactive tool that uses novel pruning strategies to efficiently discover the minimal set of rules explaining the outputs of retrieval-augmented LLMs. The core contribution is providing these concise, data-driven explanations, which are then applied to test and enhance LLM safety by assessing resiliency against adversarial prompt injections.",
+      "url": "http://arxiv.org/abs/2605.10862v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10862v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10862v1/teaser.png",
+      "figure_caption": "Using 𝖱𝖴𝖡𝖤𝖭 \\( \\sf{RUBEN} \\) to test adversarial prompt injections against an LLM’s safety training.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.10832v1",
+      "title": "Towards On-Policy Data Evolution for Visual-Native Multimodal Deep Search Agents",
+      "authors": [
+        "Shijue Huang",
+        "Hangyu Guo",
+        "Chenxin Li",
+        "Junting Lu",
+        "Xinyu Geng"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a novel framework for visual-native multimodal deep search agents that overcomes limitations in handling intermediate visual evidence and static training data. The core method involves a **visual-native agent harness** using an **image bank reference protocol** to make all tool-returned images addressable and reusable. Building on this, **On-policy Data Evolution (ODE)** creates a closed-loop data generator that continuously refines its training data based on the performance of the agent being trained, ensuring the data evolves with the agent's capabilities.",
+      "url": "http://arxiv.org/abs/2605.10832v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10832v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10832v1/x1.png",
+      "figure_caption": "Overview of our framework. Left: The visual-native agent harness unifies 9 tools in a shared workspace and enables reusable visual state through the image bank reference protocol. Right: ODE constructs data with a closed loop over the harness: the forward pipeline synthesizes grounded tasks, and the backward pipeline uses rollout traces to refine the next generation configuration.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.10913v1",
+      "title": "Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace",
+      "authors": [
+        "Simon Yu",
+        "Derek Chong",
+        "Ananjan Nandi",
+        "Dilara Soylu",
+        "Jiuding Sun"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.PL",
+        "cs.SE"
+      ],
+      "abstract": "Shepherd introduces a functional programming model that formalizes meta-agent operations as functions, with core logic verified in Lean. Its key contribution is an efficient, Git-like execution trace that records all agent interactions, allowing past states to be forked and replayed significantly faster than Docker. This infrastructure enables powerful applications like runtime intervention, counterfactual meta-optimization, and efficient reinforcement learning training.",
+      "url": "http://arxiv.org/abs/2605.10913v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10913v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.10913v1/x1.png",
+      "figure_caption": "Shepherd meta-agents. Top: A supervisor meta-agent manages code repair agents. Bottom: Results from three meta-agents: (A) live supervision; (B) meta-optimization; (C) Tree GRPO",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10831v1",
+      "title": "SLIM: Sparse Latent Steering for Interpretable and Property-Directed LLM-Based Molecular Editing",
+      "authors": [
+        "Mingxu Zhang",
+        "Yuhan Li",
+        "Lujundong Li",
+        "Dazhong Shen",
+        "Hui Xiong"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CE"
+      ],
+      "abstract": "SLIM introduces a plug-and-play framework that uses a Sparse Autoencoder with importance gates to decompose LLM hidden states into sparse, property-aligned features. This allows for explicit steering in the latent space, precisely activating property-relevant dimensions to improve molecular editing success rates without altering the underlying LLM parameters. The method consistently improves editing performance across various models and properties while also enabling interpretable analysis of the editing process.",
+      "url": "http://arxiv.org/abs/2605.10831v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10831v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.10831v1/x1.png",
+      "figure_caption": "Overview of the SLIM framework. Stage 1 : Ridge probes scan all layers to identify the optimal intervention point l ∗ l^{*} . Stage 2 : A task-oriented SAE is trained at layer l ∗ l^{*} with four objectives: (A) sparse reconstruction, (B) supervised property prediction via per-property Importance Gates, (C) contrastive alignment of importance-gated sparse codes, and (D) gradient alignment to ensure the SAE basis faithfully represents causal steering directions. Stage 3 : At inference time, a sparse steering vector is added to the residual stream at layer l ∗ l^{*} , directing the model toward improved molecular properties without modifying model parameters.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "papers": [
+    {
+      "id": "2605.10938v1",
+      "title": "ELF: Embedded Language Flows",
+      "authors": [
+        "Keya Hu",
+        "Linlu Qiu",
+        "Yiyang Lu",
+        "Hanhong Zhao",
+        "Tianhong Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "ELF (Embedded Language Flows) proposes a continuous diffusion model for language generation that operates primarily in the continuous embedding space, unlike most existing discrete diffusion language models. It leverages continuous-time Flow Matching and maps to discrete tokens only at the final step using a shared-weight network. This continuous approach allows for straightforward adaptation of successful image-domain diffusion techniques like classifier-free guidance, leading to superior performance.",
+      "url": "http://arxiv.org/abs/2605.10938v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10938v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.10938v1/x1.png",
+      "figure_caption": "ELF achieves lower generative perplexity with fewer sampling steps than prior DLMs, without using distillation. ELF achieves this while using 10 × 10\\( \\times \\) fewer training tokens. (Model size: 105M for ELF and 170M for others; dataset: OWT. Detailed comparison in Fig. 7 .)",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10828v1",
+      "title": "The First Drop of Ink: Nonlinear Impact of Misleading Information in Long-Context Reasoning",
+      "authors": [
+        "Muhan Gao",
+        "Zih-Ching Chen",
+        "Kuan-Hao Huang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces and investigates the \"First Drop of Ink\" effect, revealing a nonlinear degradation in LLM performance during long-context reasoning as the proportion of misleading information increases. The core finding is that performance drops sharply with only a small initial fraction of hard distractors, after which further increases yield only marginal additional decline. This effect is attributed to hard distractors capturing disproportionate attention, even when scarce.",
+      "url": "http://arxiv.org/abs/2605.10828v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10828v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.10828v1/x1.png",
+      "figure_caption": "The First Drop of Ink effect. Left: Conventional linear assumption (top, red dashed line) versus empirically observed nonlinear degradation (bottom, blue curve): a small fraction of hard distractors is sufficient to severely degrade accuracy. Middle: Hard distractors receive similar attention logits as gold documents ( 8 ≈ 9 ≫ 1 8\\( \\approx \\) 9\\( \\gg \\) 1 ), dominating the softmax competition even at low proportions. Right: With 100 distractor documents, attention on gold drops 76% by adding only 10% hard distractors. This convex relationship explains The First Drop of Ink .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10923v1",
+      "title": "Dynamic Skill Lifecycle Management for Agentic Reinforcement Learning",
+      "authors": [
+        "Junhao Shen",
+        "Teng Zhang",
+        "Xiaoyan Zhao",
+        "Hong Cheng"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces SLIM, a framework for dynamic Skill Lifecycle Management in agentic reinforcement learning. SLIM treats the set of active external skills as a dynamic variable, optimizing it alongside policy learning. The core method involves estimating each skill's marginal contribution via leave-one-skill-out validation to decide whether to retain, retire, or acquire new skills, addressing the limitations of static skill management.",
+      "url": "http://arxiv.org/abs/2605.10923v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10923v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.10923v1/x1.png",
+      "figure_caption": "The reinforcement learning dynamics on ALFWorld. We plot validation success rate against the number of skills in active set during training. SkillRL accumulates external skills, whereas Skill0 progressively eliminates them. SLIM instead performs retain–retire–expand lifecycle management, converging to a non-empty skill set with higher validation success. This suggests that the effective endpoint is a learned external skill boundary rather than full accumulation or forced elimination.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.10893v1",
+      "title": "Grounded or Guessing? LVLM Confidence Estimation via Blind-Image Contrastive Ranking",
+      "authors": [
+        "Reza Khanmohammadi",
+        "Erfan Miahi",
+        "Simerjot Kaur",
+        "Charese H. Smiley",
+        "Ivan Brugere"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces **BICR (Blind-Image Contrastive Ranking)**, a model-agnostic framework to estimate Large Vision-Language Model (LVLM) confidence by detecting visual ungroundedness. BICR trains a lightweight probe to rank the hidden states derived from the real image-question pair higher than those from a blacked-out image with the same question. This contrastive regularization explicitly teaches the model to associate higher reliability with predictions shaped by actual visual input.",
+      "url": "http://arxiv.org/abs/2605.10893v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10893v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.10893v1/figures/BICR-main-figure.png",
+      "figure_caption": "Overview of our method ( BICR ) and headline results. (A) BICR pairs each question with two views, the real image and a blank counterfactual, and trains a shared probe on top of a frozen large vision-language model (LVLM). The ranking loss ℒ r ​ a ​ n ​ k \\( \\mathcal{L}_{rank} \\) enforces that the real-view confidence c b ​ a ​ s ​ e c_{base} exceeds the blank-view confidence c b ​ l ​ a ​ n ​ k c_{blank} by a margin \\( \\gamma \\) , teaching the probe that confidence must be grounded in the visual input. Only the base view is used at inference. (B) Each marker is one confidence estimator’s cross-LVLM average across our 5 LVLMs and 7 datasets, plotting calibration quality, 1 − ECE 1-\\( \\mathrm{ECE} \\) (Expected Calibration Error), against discrimination quality, AUROC (Area Under the ROC Curve). BICR (red star) is the only method in the upper-right region, achieving both high calibration and high discrimination simultaneously.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.10912v1",
+      "title": "WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation",
+      "authors": [
+        "Shuangrui Ding",
+        "Xuanlang Dai",
+        "Long Xing",
+        "Shengyuan Ding",
+        "Ziyu Liu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "WildClawBench introduces a novel benchmark designed to evaluate real-world, long-horizon agent performance by executing tasks within a native runtime environment using actual command-line tools inside reproducible Docker containers. Its core contribution is providing a challenging, realistic evaluation suite of 60 multimodal tasks, averaging eight minutes and many tool calls, to bridge the gap between synthetic benchmarks and practical agent deployment. Evaluation employs a hybrid grading system combining rule-based checks, environment auditing, and LLM/VLM judges for comprehensive assessment.",
+      "url": "http://arxiv.org/abs/2605.10912v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10912v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.10912v1/x1.png",
+      "figure_caption": "Comparison with previous agent benchmarks and WildClawBench. (a) Prior benchmarks evaluate short-horizon, single-step tasks with toy APIs in controlled sandboxes, whereas (b) WildClawBench evaluates long-horizon multimodal workflows with real tools in open-world environments. (c) The benchmark spans six categories and is compatible with multiple agent harnesses. (d) A summary of key differences across environment, task horizon, tool use, and evaluation.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.10876v1",
+      "title": "AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents",
+      "authors": [
+        "Edward De Brouwer",
+        "Carl Edwards",
+        "Alexander Wu",
+        "Jenna Collier",
+        "Graham Heimberg"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "q-bio.QM"
+      ],
+      "abstract": "AssayBench is introduced as the first standard benchmark specifically designed to evaluate Large Language Models (LLMs) and agents on predicting cellular phenotypic screens. It leverages 1,920 publicly available CRISPR screens across five phenotype classes to test models on complex tasks combining heterogeneous text inputs with diverse phenotypic outputs, addressing a gap in current biological evaluation tools.",
+      "url": "http://arxiv.org/abs/2605.10876v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10876v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10876v1/x1.png",
+      "figure_caption": "Overview of the AssayBench benchmark creation. ( A ) Starting from 1971 human CRISPR screens, we perform data quality filtering, replicate merging, and data augmentation to obtain 1920 high quality screens. ( B ) Phenotype composition of the database and its four splits. A realistic but challenging temporal split was used. ( C ) Given a description of the screen and a gene ranking criteria, a model must provide a ranked list of 100 genes.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10906v1",
+      "title": "DataMaster: Towards Autonomous Data Engineering for Machine Learning",
+      "authors": [
+        "Yaxin Du",
+        "Xiyuan Yang",
+        "Zhifan Zhou",
+        "Wanxu Liu",
+        "Zixing Lei"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "DataMaster introduces an autonomous agent framework for data engineering to improve machine learning performance without altering the core learning algorithm. It addresses the complex data optimization space by integrating tree-structured search, shared candidate data, and a refinement mechanism. The core contribution is enabling automated, task-conditioned data discovery, selection, cleaning, and transformation to achieve stronger downstream ML solutions.",
+      "url": "http://arxiv.org/abs/2605.10906v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10906v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10906v1/x1.png",
+      "figure_caption": "Overview of DataMaster . DataMaster organizes autonomous data engineering as a DataTree , where red nodes broaden the search by discovering external datasets and writing them into a shared Data Pool , while black nodes exploit available candidates to construct executable data states and obtain downstream training feedback. Global Memory stores reusable artifacts, node outcomes, and prior findings, enabling later nodes to reuse discovered data, avoid repeated failures, and coordinate search across branches under a limited budget.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10907v1",
+      "title": "Engineering Robustness into Personal Agents with the AI Workflow Store",
+      "authors": [
+        "Roxana Geambasu",
+        "Mariana Raykova",
+        "Pierre Tholoniat",
+        "Trishita Tiwari",
+        "Lillian Tsai"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper argues that the current \"on-the-fly\" synthesis paradigm for AI agents bypasses crucial software engineering (SE) discipline, leading to brittle and potentially insecure systems. The core method proposes integrating rigorous SE processes—like iterative design and testing—to create hardened, deterministically-constrained **AI agent workflows**. This shift aims to produce robust, production-grade agents that outperform improvised, real-time synthesis, especially for high-stakes applications.",
+      "url": "http://arxiv.org/abs/2605.10907v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10907v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10907v1/x1.png",
+      "figure_caption": "Problem: The Agentic AI code-and-execute loop short-circuits well-trodden SE processes that are the foundations of the relatively reliable and secure programs and services we enjoy today.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10870v1",
+      "title": "Remember the Decision, Not the Description: A Rate-Distortion Framework for Agent Memory",
+      "authors": [
+        "Mingxi Zou",
+        "Zhihan Guo",
+        "Langzhang Liang",
+        "Zhuo Wang",
+        "Qifan Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper reframes agent memory as a decision-centric rate-distortion problem, arguing that memory should preserve distinctions crucial for future choices rather than descriptive fidelity. The core method measures memory quality by the loss in achievable decision quality due to compression, establishing an optimal tradeoff frontier between memory budget and decision performance. This leads to the DeMem algorithm, which selectively refines memory partitions only when shared states risk inducing decision conflict.",
+      "url": "http://arxiv.org/abs/2605.10870v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10870v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10870v1/x1.png",
+      "figure_caption": "DeMem routes histories into bounded slots and splits only on certified conflict.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10848v1",
+      "title": "Rethinking Agentic Search with Pi-Serini: Is Lexical Retrieval Sufficient?",
+      "authors": [
+        "Tz-Huan Hsu",
+        "Jheng-Hong Yang",
+        "Jimmy Lin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.IR"
+      ],
+      "abstract": "This paper investigates whether a simple lexical retriever (BM25) is sufficient for agentic search when paired with advanced LLMs. The authors introduce **Pi-Serini**, a search agent utilizing BM25 alongside tools for retrieval, browsing, and reading. Their core contribution is demonstrating that a well-tuned lexical retriever, with sufficient depth, can effectively support deep research, achieving high accuracy and outperforming agents using dense retrievers on the BrowseComp-Plus benchmark.",
+      "url": "http://arxiv.org/abs/2605.10848v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10848v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10851v1",
+      "title": "The Generalized Turing Test: A Foundation for Comparing Intelligence",
+      "authors": [
+        "Daniel Mitropolsky",
+        "Susan S. Hong",
+        "Riccardo Neumarker",
+        "Emanuele Rimoldi",
+        "Tomaso Poggio"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "The paper introduces the **Generalized Turing Test (GTT)**, a formal framework for comparing the intelligence of arbitrary agents based on their indistinguishability from a reference agent by a designated distinguisher. The core method defines $A \\geq B$ if $B$ cannot reliably distinguish interactions with $A$ (imitating $B$) from interactions with $B$ itself. This provides a task-agnostic measure of relative capability, which the authors then empirically validate across modern models, finding results consistent with existing intelligence rankings.",
+      "url": "http://arxiv.org/abs/2605.10851v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10851v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10851v1/figures/chat1new.png",
+      "figure_caption": "An example transcript from a GTT between Gemini 3.1 Pro as actor and Claude Opus 4.6 as distinguisher illustrating the self-referential nature of the task.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10843v1",
+      "title": "Training-Free Cultural Alignment of Large Language Models via Persona Disagreement",
+      "authors": [
+        "Huynh Trung Kiet",
+        "Dao Sy Duy Minh",
+        "Tuan Nguyen",
+        "Chi-Nguyen Tran",
+        "Phu-Hoa Pham"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "abstract": "This paper introduces DISCA, a training-free method for culturally aligning black-box Large Language Models (LLMs) using only public data. DISCA leverages sociodemographic disagreement within a country, modeled as a panel of World Values Survey-grounded personas, to generate a bounded logit correction during inference. This approach effectively reduces cultural misalignment across numerous countries and LLM backbones without requiring fine-tuning or internal model access.",
+      "url": "http://arxiv.org/abs/2605.10843v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10843v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10843v1/x1.png",
+      "figure_caption": "DISCA overview. Stage 1 builds WVS-grounded persona prompts for a trolley scenario in country c c ; Stage 2 runs a frozen large language model (LLM) on the base prompt and each persona, aggregates persona-level signals in logit space, and applies Prospect-Theory importance sampling (PT–IS) together with a dual-pass reliability gate to obtain the final sparing probability. Pseudocode and the six MultiTP attribute–temperature pairs provided in App. A1 .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10889v1",
+      "title": "Unmasking On-Policy Distillation: Where It Helps, Where It Hurts, and Why",
+      "authors": [
+        "Mohammadreza Armandpour",
+        "Fatih Ilhan",
+        "David Harrison",
+        "Ajay Jaiswal",
+        "Duc N. M Hoang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces a training-free diagnostic framework to analyze the effectiveness of on-policy distillation at the granular, per-token level. The core method involves estimating an \"ideal per-node gradient\" that maximizes student success probability, using a scalable targeted-rollout algorithm. This allows researchers to precisely determine when and why on-policy distillation helps or hurts, guiding the selection of optimal teacher models and supervisory contexts.",
+      "url": "http://arxiv.org/abs/2605.10889v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10889v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10896v1",
+      "title": "V4FinBench: Benchmarking Tabular Foundation Models, LLMs, and Standard Methods on Corporate Bankruptcy Prediction",
+      "authors": [
+        "Marcin Kostrzewa",
+        "Sebastian Tomczak",
+        "Roman Furman",
+        "Anna Poberezhna",
+        "Michał Furgała"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "The paper introduces **V4FinBench**, a large-scale benchmark dataset of over one million company-year records from Visegràd Group economies for corporate bankruptcy prediction, addressing the scarcity of public, large-scale financial data. Its core contribution is providing a robust evaluation platform featuring severe class imbalance and multi-horizon forecasting demands. The authors benchmark standard methods, TabPFN, and Llama-3-8B on this new resource.",
+      "url": "http://arxiv.org/abs/2605.10896v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10896v1",
+      "score": 8.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.10863v1",
+      "title": "DGPO: Beyond Pairwise Preferences with Directional Consistent Groupwise Optimization",
+      "authors": [
+        "Mengyi Deng",
+        "Zhiwei Li",
+        "Xin Li",
+        "Tingyu Zhu",
+        "Yulan Yuan"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "DGPO introduces a lightweight framework for LLM alignment that moves beyond pairwise preferences by aggregating supervision signals at the group level. It explicitly models direction-aware alignment by structuring forward and reverse question-answer instances and optimizing a margin-based objective. This group-wise approach captures richer relative information, significantly improving directional consistency across diverse reasoning pathways.",
+      "url": "http://arxiv.org/abs/2605.10863v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10863v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10863v1/main-framework2.png",
+      "figure_caption": "An overview of the DGPO training framework. The process begins with forward problems ( x f x_{f} ), each of which can be paired with a reverse question ( x r x_{r} ) formulated in the opposite reasoning direction. A teacher model then produces multiple candidate solutions for each problem type ( { y f ​ i } i = 1 3 \\{y_{fi}\\}_{i=1}^{3} for x f x_{f} and { y r ​ i } i = 1 3 \\{y_{ri}\\}_{i=1}^{3} for x r x_{r} ). The solutions are subsequently structured into direction-consistent ( 𝒢 + \\( \\mathcal{G}^{+} \\) ) and direction-divergent ( 𝒢 − \\( \\mathcal{G}^{-} \\) ) groups, wherein consistency is determined by matching a prompt’s directionality with its corresponding solutions (e.g., x f x_{f} with { y f ​ i } i = 1 3 \\{y_{fi}\\}_{i=1}^{3} ). DGPO is trained on this structured supervision, incorporating directional modeling and uncertainty-based regulation to enhance alignment stability.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.10853v1",
+      "title": "Grounded Satirical Generation with RAG",
+      "authors": [
+        "Oona Itkonen",
+        "Yuxin Su",
+        "Linyao Du",
+        "Ona De Gibert"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a novel pipeline for grounded satirical definition generation, leveraging Retrieval-Augmented Generation (RAG) over current news to provide contextually relevant Finnish satire. The core contribution is demonstrating that RAG and topic-based word selection improve the *political relevance* of the generated satire, though they do not significantly enhance perceived humor. The authors also provide a new task-specific evaluation framework validated by human annotators.",
+      "url": "http://arxiv.org/abs/2605.10853v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10853v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10853v1/x1.png",
+      "figure_caption": "Overview of our generation pipeline for satirical dictionary definitions with RAG.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.10862v1",
+      "title": "RUBEN: Rule-Based Explanations for Retrieval-Augmented LLM Systems",
+      "authors": [
+        "Joel Rorseth",
+        "Parke Godfrey",
+        "Lukasz Golab",
+        "Divesh Srivastava",
+        "Jarek Szlichta"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "RUBEN is an interactive tool that uses novel pruning strategies to efficiently discover the minimal set of rules explaining the outputs of retrieval-augmented LLMs. The core contribution is providing these concise, data-driven explanations, which are then applied to test and enhance LLM safety by assessing resiliency against adversarial prompt injections.",
+      "url": "http://arxiv.org/abs/2605.10862v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10862v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10862v1/teaser.png",
+      "figure_caption": "Using 𝖱𝖴𝖡𝖤𝖭 \\( \\sf{RUBEN} \\) to test adversarial prompt injections against an LLM’s safety training.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.10832v1",
+      "title": "Towards On-Policy Data Evolution for Visual-Native Multimodal Deep Search Agents",
+      "authors": [
+        "Shijue Huang",
+        "Hangyu Guo",
+        "Chenxin Li",
+        "Junting Lu",
+        "Xinyu Geng"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a novel framework for visual-native multimodal deep search agents that overcomes limitations in handling intermediate visual evidence and static training data. The core method involves a **visual-native agent harness** using an **image bank reference protocol** to make all tool-returned images addressable and reusable. Building on this, **On-policy Data Evolution (ODE)** creates a closed-loop data generator that continuously refines its training data based on the performance of the agent being trained, ensuring the data evolves with the agent's capabilities.",
+      "url": "http://arxiv.org/abs/2605.10832v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10832v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.10832v1/x1.png",
+      "figure_caption": "Overview of our framework. Left: The visual-native agent harness unifies 9 tools in a shared workspace and enables reusable visual state through the image bank reference protocol. Right: ODE constructs data with a closed loop over the harness: the forward pipeline synthesizes grounded tasks, and the backward pipeline uses rollout traces to refine the next generation configuration.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.10913v1",
+      "title": "Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace",
+      "authors": [
+        "Simon Yu",
+        "Derek Chong",
+        "Ananjan Nandi",
+        "Dilara Soylu",
+        "Jiuding Sun"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.PL",
+        "cs.SE"
+      ],
+      "abstract": "Shepherd introduces a functional programming model that formalizes meta-agent operations as functions, with core logic verified in Lean. Its key contribution is an efficient, Git-like execution trace that records all agent interactions, allowing past states to be forked and replayed significantly faster than Docker. This infrastructure enables powerful applications like runtime intervention, counterfactual meta-optimization, and efficient reinforcement learning training.",
+      "url": "http://arxiv.org/abs/2605.10913v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10913v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.10913v1/x1.png",
+      "figure_caption": "Shepherd meta-agents. Top: A supervisor meta-agent manages code repair agents. Bottom: Results from three meta-agents: (A) live supervision; (B) meta-optimization; (C) Tree GRPO",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.10831v1",
+      "title": "SLIM: Sparse Latent Steering for Interpretable and Property-Directed LLM-Based Molecular Editing",
+      "authors": [
+        "Mingxu Zhang",
+        "Yuhan Li",
+        "Lujundong Li",
+        "Dazhong Shen",
+        "Hui Xiong"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CE"
+      ],
+      "abstract": "SLIM introduces a plug-and-play framework that uses a Sparse Autoencoder with importance gates to decompose LLM hidden states into sparse, property-aligned features. This allows for explicit steering in the latent space, precisely activating property-relevant dimensions to improve molecular editing success rates without altering the underlying LLM parameters. The method consistently improves editing performance across various models and properties while also enabling interpretable analysis of the editing process.",
+      "url": "http://arxiv.org/abs/2605.10831v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10831v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.10831v1/x1.png",
+      "figure_caption": "Overview of the SLIM framework. Stage 1 : Ridge probes scan all layers to identify the optimal intervention point l ∗ l^{*} . Stage 2 : A task-oriented SAE is trained at layer l ∗ l^{*} with four objectives: (A) sparse reconstruction, (B) supervised property prediction via per-property Importance Gates, (C) contrastive alignment of importance-gated sparse codes, and (D) gradient alignment to ensure the SAE basis faithfully represents causal steering directions. Stage 3 : At inference time, a sparse steering vector is added to the residual stream at layer l ∗ l^{*} , directing the model toward improved molecular properties without modifying model parameters.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "hacker_news": [
+    {
+      "id": 48100433,
+      "title": "If AI writes your code, why use Python?",
+      "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+      "score": 547,
+      "created_at": "2026-05-11T20:45:55Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48100433",
+      "summary": "The article questions the continued necessity of using Python for coding when AI tools can generate code in various languages, suggesting a shift in language relevance."
+    },
+    {
+      "id": 48100524,
+      "title": "Interaction Models",
+      "url": "https://thinkingmachines.ai/blog/interaction-models/",
+      "score": 233,
+      "created_at": "2026-05-11T20:53:37Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48100524",
+      "summary": "The article explores various interaction models used in AI and machine learning, focusing on how humans and systems communicate and collaborate."
+    },
+    {
+      "id": 48094641,
+      "title": "Google says criminal hackers used AI to find a major software flaw",
+      "url": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+      "score": 196,
+      "created_at": "2026-05-11T13:20:14Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48094641",
+      "summary": "Google reported that malicious actors exploited artificial intelligence to discover a significant vulnerability in widely used software."
+    },
+    {
+      "id": 48100662,
+      "title": "I let AI build a tool to help me figure out what was waking me up at night",
+      "url": "https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/",
+      "score": 195,
+      "created_at": "2026-05-11T21:04:10Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48100662",
+      "summary": "A developer used AI to create a custom tool designed to analyze data and identify the specific causes of their nighttime awakenings."
+    },
+    {
+      "id": 48096674,
+      "title": "Students boo commencement speaker after she calls AI next industrial revolution",
+      "url": "https://www.404media.co/ucf-ai-commencement-speaker-booed/",
+      "score": 164,
+      "created_at": "2026-05-11T15:53:23Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48096674",
+      "summary": "Students at a UCF commencement ceremony booed the speaker after she declared artificial intelligence to be the next industrial revolution."
+    },
+    {
+      "id": 48097078,
+      "title": "Interfaze: A new model architecture built for high accuracy at scale",
+      "url": "https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale",
+      "score": 152,
+      "created_at": "2026-05-11T16:22:31Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48097078",
+      "summary": "Interfaze introduces a novel model architecture designed to achieve high accuracy while efficiently scaling for large-scale applications."
+    }
+  ],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Postdoctoral Research Fellow",
+      "url": "https://www.jobs.ac.uk/job/DRM908/postdoctoral-research-fellow/",
+      "description": "Full-time: 35 hours per week Fixed-term: for 2 years Where passion meets purpose. Be part of something bigger. The Opportunity: We are seeking a highly skilled and motivated Postdoctoral Researcher to join our Translational Cerebral Amyloid Angiopathy (CAA) Research Lab at the BHF-UK DRI Centre for Vascular Dementia Research. This role is ideal for someone with a strong technical and computational and background who is passionate about applying advanced data analysis to complex biological systems. As a Postdoctoral Researcher, you will be performing in vivo optical microscopy experiments in rodent models. You will play a central role in developing and implementing computational approaches for the acquisition and analysis of high-resolution optical imaging data. Working with state-of-the-art in vivo two-photon microscopy datasets, you will design analysis pipelines, develop code, and extract meaningful insights from large, multidimensional imaging datasets. Your work will directly contribute to understanding the mechanisms underlying CAA and vascular dysfunction in neurodegenerative disease. Alongside your computational focus, you will contribute to experimental workflows, including in vivo imaging studies and ex vivo tissue analysis, ensuring strong integration between data acquisition and analysis. This is a collaborative and interdisciplinary environment, where you will work closely with experimental researchers while leading on computational strategy and innovation. We are looking for someone with strong programming skills (e.g. Python, MATLAB), experience in image processing and analysis, and the ability to handle complex datasets with precision and creativity. A proactive mindset, attention to detail, and enthusiasm for developing new computational methods are essential. We are committed to supporting your development. As part of the BHF-UK DRI Centre for Vascular Dementia Research, you will be embedded in a world-class research environment with access to cutting-edge technologies and opportunities to expand your computational and scientific expertise. This is a full-time (35 hours per week) and 100% on campus. Apply Before : 08/06/2026, 23:59 £41,064 to £48,822 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-08T00:00:00+00:00",
+      "requirements": "Research Area: Translational Cerebral Amyloid Angiopathy (CAA) Research, Vascular Dementia Research, in vivo optical microscopy data analysis.\nKey Requirements: Strong technical and computational background, experience with in vivo optical microscopy (especially two-photon microscopy) in rodent models, strong programming skills (Python, MATLAB), experience in image processing and analysis, ability to handle complex, multidimensional imaging datasets.\nApplication Info: deadline/start date, required materials, contact (if any): Deadline: 2026-06-08T00:00:00+00:00. Required materials and contact information are not explicitly listed.\nPosition Details: location, contract type, workload, salary: Location: Edinburgh, Scotland, United Kingdom. Contract Type: Fixed-Term/Contract (for 2 years). Workload: Full Time (35 hours per week). Salary: GBP41064.00-GBP48822.00 YEAR.\nOne-line Advice: Focus CV on advanced computational methods, high-resolution optical imaging data analysis (two-photon), and strong programming proficiency in Python/MATLAB relevant to biological systems.",
+      "relevance_score": 8.0,
+      "institution": "The University of Edinburgh",
+      "location": "Edinburgh, Scotland, United Kingdom",
+      "salary": "GBP41064.00-GBP48822.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "11th May 2026",
+      "job_ref": "14124"
+    },
+    {
+      "title": "Postdoctoral Researcher in Industrial AI Algorithm and Autonomous Decision-Making Systems",
+      "url": "https://www.jobs.ac.uk/job/DRM575/postdoctoral-researcher-in-industrial-ai-algorithm-and-autonomous-decision-making-systems/",
+      "description": "Xi&#039;an Jiaotong - Liverpool University - School of Intelligent Manufacturing Ecosystem&lt;br /&gt;Salary: Competitive",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "",
+      "requirements": "Research Area: Industrial AI Algorithm and Autonomous Decision-Making Systems\nKey Requirements: Expertise in Industrial AI Algorithm and Autonomous Decision-Making Systems (Specific technical skills not detailed)\nApplication Info: deadline/start date: N/A, required materials: N/A, contact (if any): N/A\nPosition Details: location: Suzhou - China, contract type: Fixed-Term/Contract, workload: Full Time, salary: Competitive\nOne-line Advice: Focus CV on industrial applications, real-time decision systems, and relevant AI/ML frameworks.",
+      "relevance_score": 8.0,
+      "institution": "",
+      "location": "Suzhou - China",
+      "salary": "Competitive",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "10th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "PhD Studentship: Cracks and Code: From High-Fidelity Simulations to Fast Scientific Machine Learning Models",
+      "url": "https://www.jobs.ac.uk/job/DRM429/phd-studentship-cracks-and-code-from-high-fidelity-simulations-to-fast-scientific-machine-learning-models/",
+      "description": "About the project: Cracks and Code: From High-Fidelity Simulations to Fast Scientific Machine Learning Models Supervisor: Dr Emmanouil Kakouris, University of Warwick Are you ready for your next challenge? If you’re looking to move beyond a traditional PhD and gain real-world experience alongside world-leading research, this could be the opportunity for you. The HetSys Centre for Doctoral Training at the University of Warwick is offering an exciting PhD studentship that puts you at the intersection of cutting-edge modelling and industry impact. A project for the curious When metals experience extreme events, such as shock waves, high-speed impacts, or rapid deformation, they can fail suddenly in ways that remain difficult to predict. In this project, you will investigate how cracks initiate and grow in metals under these high-rate conditions. You will use large-scale simulations (both atomistic and continuum) to study how damage forms and localises, and then develop scientific machine-learning models that can reproduce these processes far more efficiently. Why this PhD is different This isn’t just about writing a thesis. It’s about developing the skills, experience, and confidence to shape your future career. Work closely with a leading industry partner, AWE-NST , applying your research to real challenges Gain hands-on experience that enhances your employability Be part of a vibrant, supportive cohort of doctoral researchers Develop both deep technical expertise and transferable skills in communication, teamwork and problem-solving Funded to support your focus A tax-free stipend to support your living costs Full tuition fees paid for the duration of the programme Your research, your impact You’ll tackle meaningful research questions that matter beyond academia – contributing to solutions that industry genuinely needs. Alongside academic supervision from Warwick, you’ll benefit from industry insight, mentorship and exposure to real-world applications of your work. Career-ready from the start HetSys is designed to prepare you for life after your PhD, whether that’s in industry, academia or beyond. Our structured training programme will help you: Build advanced computational and analytical skills Understand how research translates into practice Develop professional networks and industry connections Grow in confidence as an independent researcher Who we’re looking for We’re looking for students excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs £21805 (equivalent to national living wage)",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-08-01T00:00:00+00:00",
+      "requirements": "Research Area: High-Fidelity Simulations (atomistic and continuum) of crack initiation and growth in metals under high-rate conditions, leading to the development of fast Scientific Machine Learning Models.\nKey Requirements: Ability to work at the intersection of cutting-edge modelling and industry impact; experience/interest in large-scale simulations and scientific machine learning model development.\nApplication Info: deadline/start date, required materials, contact (if any): Deadline 2026-08-01. Contact: Dr Emmanouil Kakouris (Supervisor). Required materials not explicitly listed beyond standard PhD application expectations.\nPosition Details: location, contract type, workload, salary: Location University of Warwick, Coventry, England, UK. Contract type N/A (PhD Studentship). Workload Full Time. Salary Tax-free stipend provided; Full tuition fees paid.\nOne-line Advice: Focus CV on computational mechanics, materials science simulation (atomistic/continuum), and scientific machine learning applications.",
+      "relevance_score": 7.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "",
+      "hours": "Full Time",
+      "contract_type": "",
+      "placed_on": "9th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "PhD Studentship: Extreme Weather Storylines via Generative AI",
+      "url": "https://www.jobs.ac.uk/job/DRM434/phd-studentship-extreme-weather-storylines-via-generative-ai/",
+      "description": "About the project: Extreme Weather Storylines via Generative AI Supervisor: Dr Tobias Grafke, University of Warwick Generative machine learning techniques, as known for example from large language models or image generation, have recently also taken the atmospheric dynamics and weather forecast communities by storm. At the same time, due to anthropogenetic climate change, society faces elevated risk from extreme weather events such as flash floods, heatwaves, or tropical cyclones. This project aims to combine generative weather prediction models with rare event techniques to generate plausible trajectories of the weather system exhibiting extreme weather events. The ECMWF machine learning division has agreed to provide data and support the project in adapting their in-house intermediate-resolution generative weather model. About HetSys: Harnessing Data, Modelling and Simulation for Real‑World Impact HetSys (Centre for Doctoral Training in Modelling of Heterogeneous Systems ) at the University of Warwick is an innovative, interdisciplinary fully funded PhD programme that brings together science, engineering, and mathematics to tackle some of the most pressing challenges of our time. Big Questions, Real Impact – From climate modelling and sustainable energy to advanced materials and biomedical systems, HetSys projects apply cutting‑edge computational and mathematical techniques to problems with global significance. Interdisciplinary Training – Students gain expertise across physics, engineering, computer science, and applied mathematics, developing versatile skills that open doors to both academia and industry. Collaborative Environment – Work alongside leading researchers and industry partners in a supportive, vibrant community that values curiosity, creativity, and collaboration. Future‑Focused Careers – HetSys graduates are equipped with highly sought‑after skills in modelling, simulation, and data science, preparing them for impactful careers in research, technology, and beyond. If you’re excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs (standard UKRI rate £21,805 in 26/27 - equivalent to national living wage)",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-08-28T00:00:00+00:00",
+      "requirements": "Research Area: Extreme Weather Storylines via Generative AI, Generative machine learning, atmospheric dynamics, weather forecast models, rare event techniques.\nKey Requirements: Familiarity with generative machine learning techniques (e.g., LLMs, image generation) relevant to atmospheric dynamics/weather forecasting; willingness to work with generative weather prediction models and rare event techniques.\nApplication Info: deadline: 2026-08-28T00:00:00+00:00, required materials: N/A, contact: Dr Tobias Grafke (Supervisor).\nPosition Details: location: Coventry, England, United Kingdom / University of Warwick, England, United Kingdom, contract type: N/A (PhD Programme), workload: Full Time, salary: N/A.\nOne-line Advice: Focus CV on generative AI/ML applied to physical systems or complex data modeling; medical imaging experience is less directly relevant unless transferable ML skills are highlighted.",
+      "relevance_score": 7.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "",
+      "hours": "Full Time",
+      "contract_type": "",
+      "placed_on": "9th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "PhD Studentship: The Thinnest Sensors: 2D Materials in Liquid Solution",
+      "url": "https://www.jobs.ac.uk/job/DRM448/phd-studentship-the-thinnest-sensors-2d-materials-in-liquid-solution/",
+      "description": "About the project: The thinnest sensors: 2D materials in liquid solution Supervisor: Dr Peter Brommer, University of Warwick Two-dimensional materials, such as graphene, could be used in molecular sensors - if we can control and tune their properties. You will develop and use top-of-the-line machine learning models to predict the sensor response of these materials under realistic conditions, including in liquids. Combining quantum mechanics and atomic simulation with AI-driven sampling techniques, you will determine terahertz and Raman spectrograms to directly compare to measurements obtained in the THz labs at Warwick and by our collaborators at the Institute of Saint-Louis (ISL). By suggesting design modifications to the molecular structures, your work will improve the next generation of molecular sensors. About HetSys: Harnessing Data, Modelling and Simulation for Real‑World Impact HetSys (Centre for Doctoral Training in Modelling of Heterogeneous Systems ) at the University of Warwick is an innovative, interdisciplinary fully funded PhD programme that brings together science, engineering, and mathematics to tackle some of the most pressing challenges of our time. Big Questions, Real Impact – From climate modelling and sustainable energy to advanced materials and biomedical systems, HetSys projects apply cutting‑edge computational and mathematical techniques to problems with global significance. Interdisciplinary Training – Students gain expertise across physics, engineering, computer science, and applied mathematics, developing versatile skills that open doors to both academia and industry. Collaborative Environment – Work alongside leading researchers and industry partners in a supportive, vibrant community that values curiosity, creativity, and collaboration. Future‑Focused Careers – HetSys graduates are equipped with highly sought‑after skills in modelling, simulation, and data science, preparing them for impactful careers in research, technology, and beyond. If you’re excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs (standard UKRI rate £21,805 in 26/27 - equivalent to national living wage)",
+      "posted_date": "",
+      "source": "jobs.ac.uk Mathematics",
+      "deadline": "2026-08-28T00:00:00+00:00",
+      "requirements": "Research Area: 2D Materials (graphene) for molecular sensors, utilizing quantum mechanics, atomic simulation, and AI/machine learning for predicting sensor response and terahertz/Raman spectrograms.\nKey Requirements: Ability to develop and use top-of-the-line machine learning models; familiarity with combining quantum mechanics/atomic simulation with AI-driven sampling techniques.\nApplication Info: deadline/start date, required materials, contact (if any): Deadline: 2026-08-28T00:00:00+00:00. Materials/Contact: N/A.\nPosition Details: location, contract type, workload, salary: Location: University of Warwick, Coventry, England, United Kingdom. Contract: N/A. Workload: Full Time. Salary: N/A.\nOne-line Advice: Focus CV on machine learning application to physical/chemical simulation data, emphasizing predictive modeling over pure medical imaging or LLM expertise.",
+      "relevance_score": 7.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "",
+      "hours": "Full Time",
+      "contract_type": "",
+      "placed_on": "9th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "Postdoctoral Training Fellow - Artificial Intelligence for Radiotherapy",
+      "url": "https://www.findapostdoc.com/search/Job-Details.aspx?jobcode=12657",
+      "description": "Under the guidance of Dr Matthew Blackledge, we are seeking to recruit a Postdoctoral Training Fellow to contribute to deliver treatment-integrated, multimodal agentic AI to drive a step-change in clinical radiotherapy by i) improving patient outcomes for cancers of unmet clinical need; and ii) increasing the efficiency of RT by enabling safe ultra-hypofractionated treatments.",
+      "institution": "The Institute of Cancer Research, Radiotherapy & Imaging",
+      "posted_date": "17 April 2026",
+      "deadline": "15 May 2026",
+      "source": "FindAPostDoc AI",
+      "requirements": "Research Area: Artificial Intelligence for Radiotherapy, specifically treatment-integrated, multimodal agentic AI.\nKey Requirements: Ability to contribute to improving patient outcomes for cancers of unmet clinical need and increasing RT efficiency via ultra-hypofractionated treatments.\nApplication Info: deadline: 15 May 2026, required materials: N/A, contact: Dr Matthew Blackledge (implied supervisor).\nPosition Details: location: N/A, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: Focus CV on AI/ML applications relevant to medical imaging and treatment planning/delivery in oncology.",
+      "relevance_score": 9.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "MSCA Postdoctoral Fellowship Hosting Offer Optimising Home Hospitalisation Pathways through AI and Operations Research",
+      "url": "https://euraxess.ec.europa.eu/jobs/435630",
+      "description": "HOSTING OFFER INFORMATION Type of opportunity: Expression of interest for an MSCA-PF applicationAffiliation : LASPI – Laboratory of Signal Analysis and Industrial Processes, Université Jean Monnet (UJM), St. Étienne, FranceApplication deadline: 1 June 2026MSCA-PF call deadline: 9 September 2026... * Work Locations: Number of offers: 1, European Union, Université Jean Monnet - Saint-Etienne , SAINT-ETIENNE CEDEX 2, 42023, France, 10 RUE Tréfilerie Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Other EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A6053) Application Deadline: 1 Jun 2026 - 12:00 (Africa/Abidjan) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France * [Université Jean Monnet](https://euraxess.ec.europa.eu/partnering/organisations/profile/universite-jean-monnet-0) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "12 May 2026",
+      "deadline": "1 June 2026MSCA-PF call deadline: 9 September 2026",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Medical sciences, focusing on Optimising Home Hospitalisation Pathways through AI and Operations Research.\nKey Requirements: Must fit the MSCA Postdoctoral Fellowship (MSCA-PF) criteria for a First Stage Researcher (R1).\nApplication Info: Expression of interest deadline: 1 June 2026; MSCA-PF call deadline: 9 September 2026. Required materials are not explicitly listed beyond the EOI. Contact information is not provided.\nPosition Details: Location: Université Jean Monnet (UJM), St. Étienne, France. Contract type: MSCA Postdoctoral Fellowship (hosting offer). Workload/Salary: N/A.\nOne-line Advice: Focus CV on AI/Operations Research applications within Medical Sciences/Healthcare pathways, as LLM relevance is not explicitly mentioned.",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Postdoctoral Research Fellow",
+      "url": "https://www.jobs.ac.uk/job/DRM908/postdoctoral-research-fellow/",
+      "description": "Full-time: 35 hours per week Fixed-term: for 2 years Where passion meets purpose. Be part of something bigger. The Opportunity: We are seeking a highly skilled and motivated Postdoctoral Researcher to join our Translational Cerebral Amyloid Angiopathy (CAA) Research Lab at the BHF-UK DRI Centre for Vascular Dementia Research. This role is ideal for someone with a strong technical and computational and background who is passionate about applying advanced data analysis to complex biological systems. As a Postdoctoral Researcher, you will be performing in vivo optical microscopy experiments in rodent models. You will play a central role in developing and implementing computational approaches for the acquisition and analysis of high-resolution optical imaging data. Working with state-of-the-art in vivo two-photon microscopy datasets, you will design analysis pipelines, develop code, and extract meaningful insights from large, multidimensional imaging datasets. Your work will directly contribute to understanding the mechanisms underlying CAA and vascular dysfunction in neurodegenerative disease. Alongside your computational focus, you will contribute to experimental workflows, including in vivo imaging studies and ex vivo tissue analysis, ensuring strong integration between data acquisition and analysis. This is a collaborative and interdisciplinary environment, where you will work closely with experimental researchers while leading on computational strategy and innovation. We are looking for someone with strong programming skills (e.g. Python, MATLAB), experience in image processing and analysis, and the ability to handle complex datasets with precision and creativity. A proactive mindset, attention to detail, and enthusiasm for developing new computational methods are essential. We are committed to supporting your development. As part of the BHF-UK DRI Centre for Vascular Dementia Research, you will be embedded in a world-class research environment with access to cutting-edge technologies and opportunities to expand your computational and scientific expertise. This is a full-time (35 hours per week) and 100% on campus. Apply Before : 08/06/2026, 23:59 £41,064 to £48,822 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-08T00:00:00+00:00",
+      "requirements": "Research Area: Translational Cerebral Amyloid Angiopathy (CAA) Research, Vascular Dementia Research, in vivo optical microscopy data analysis.\nKey Requirements: Strong technical and computational background, experience with in vivo optical microscopy (especially two-photon microscopy) in rodent models, strong programming skills (Python, MATLAB), experience in image processing and analysis, ability to handle complex, multidimensional imaging datasets.\nApplication Info: deadline/start date, required materials, contact (if any): Deadline: 2026-06-08T00:00:00+00:00. Required materials and contact information are not explicitly listed.\nPosition Details: location, contract type, workload, salary: Location: Edinburgh, Scotland, United Kingdom. Contract Type: Fixed-Term/Contract (for 2 years). Workload: Full Time (35 hours per week). Salary: GBP41064.00-GBP48822.00 YEAR.\nOne-line Advice: Focus CV on advanced computational methods, high-resolution optical imaging data analysis (two-photon), and strong programming proficiency in Python/MATLAB relevant to biological systems.",
+      "relevance_score": 8.0,
+      "institution": "The University of Edinburgh",
+      "location": "Edinburgh, Scotland, United Kingdom",
+      "salary": "GBP41064.00-GBP48822.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "11th May 2026",
+      "job_ref": "14124"
+    },
+    {
+      "title": "Postdoctoral Researcher in Industrial AI Algorithm and Autonomous Decision-Making Systems",
+      "url": "https://www.jobs.ac.uk/job/DRM575/postdoctoral-researcher-in-industrial-ai-algorithm-and-autonomous-decision-making-systems/",
+      "description": "Xi&#039;an Jiaotong - Liverpool University - School of Intelligent Manufacturing Ecosystem&lt;br /&gt;Salary: Competitive",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "",
+      "requirements": "Research Area: Industrial AI Algorithm and Autonomous Decision-Making Systems\nKey Requirements: Expertise in Industrial AI Algorithm and Autonomous Decision-Making Systems (Specific technical skills not detailed)\nApplication Info: deadline/start date: N/A, required materials: N/A, contact (if any): N/A\nPosition Details: location: Suzhou - China, contract type: Fixed-Term/Contract, workload: Full Time, salary: Competitive\nOne-line Advice: Focus CV on industrial applications, real-time decision systems, and relevant AI/ML frameworks.",
+      "relevance_score": 8.0,
+      "institution": "",
+      "location": "Suzhou - China",
+      "salary": "Competitive",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "10th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "PhD Studentship: Cracks and Code: From High-Fidelity Simulations to Fast Scientific Machine Learning Models",
+      "url": "https://www.jobs.ac.uk/job/DRM429/phd-studentship-cracks-and-code-from-high-fidelity-simulations-to-fast-scientific-machine-learning-models/",
+      "description": "About the project: Cracks and Code: From High-Fidelity Simulations to Fast Scientific Machine Learning Models Supervisor: Dr Emmanouil Kakouris, University of Warwick Are you ready for your next challenge? If you’re looking to move beyond a traditional PhD and gain real-world experience alongside world-leading research, this could be the opportunity for you. The HetSys Centre for Doctoral Training at the University of Warwick is offering an exciting PhD studentship that puts you at the intersection of cutting-edge modelling and industry impact. A project for the curious When metals experience extreme events, such as shock waves, high-speed impacts, or rapid deformation, they can fail suddenly in ways that remain difficult to predict. In this project, you will investigate how cracks initiate and grow in metals under these high-rate conditions. You will use large-scale simulations (both atomistic and continuum) to study how damage forms and localises, and then develop scientific machine-learning models that can reproduce these processes far more efficiently. Why this PhD is different This isn’t just about writing a thesis. It’s about developing the skills, experience, and confidence to shape your future career. Work closely with a leading industry partner, AWE-NST , applying your research to real challenges Gain hands-on experience that enhances your employability Be part of a vibrant, supportive cohort of doctoral researchers Develop both deep technical expertise and transferable skills in communication, teamwork and problem-solving Funded to support your focus A tax-free stipend to support your living costs Full tuition fees paid for the duration of the programme Your research, your impact You’ll tackle meaningful research questions that matter beyond academia – contributing to solutions that industry genuinely needs. Alongside academic supervision from Warwick, you’ll benefit from industry insight, mentorship and exposure to real-world applications of your work. Career-ready from the start HetSys is designed to prepare you for life after your PhD, whether that’s in industry, academia or beyond. Our structured training programme will help you: Build advanced computational and analytical skills Understand how research translates into practice Develop professional networks and industry connections Grow in confidence as an independent researcher Who we’re looking for We’re looking for students excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs £21805 (equivalent to national living wage)",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-08-01T00:00:00+00:00",
+      "requirements": "Research Area: High-Fidelity Simulations (atomistic and continuum) of crack initiation and growth in metals under high-rate conditions, leading to the development of fast Scientific Machine Learning Models.\nKey Requirements: Ability to work at the intersection of cutting-edge modelling and industry impact; experience/interest in large-scale simulations and scientific machine learning model development.\nApplication Info: deadline/start date, required materials, contact (if any): Deadline 2026-08-01. Contact: Dr Emmanouil Kakouris (Supervisor). Required materials not explicitly listed beyond standard PhD application expectations.\nPosition Details: location, contract type, workload, salary: Location University of Warwick, Coventry, England, UK. Contract type N/A (PhD Studentship). Workload Full Time. Salary Tax-free stipend provided; Full tuition fees paid.\nOne-line Advice: Focus CV on computational mechanics, materials science simulation (atomistic/continuum), and scientific machine learning applications.",
+      "relevance_score": 7.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "",
+      "hours": "Full Time",
+      "contract_type": "",
+      "placed_on": "9th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "PhD Studentship: Extreme Weather Storylines via Generative AI",
+      "url": "https://www.jobs.ac.uk/job/DRM434/phd-studentship-extreme-weather-storylines-via-generative-ai/",
+      "description": "About the project: Extreme Weather Storylines via Generative AI Supervisor: Dr Tobias Grafke, University of Warwick Generative machine learning techniques, as known for example from large language models or image generation, have recently also taken the atmospheric dynamics and weather forecast communities by storm. At the same time, due to anthropogenetic climate change, society faces elevated risk from extreme weather events such as flash floods, heatwaves, or tropical cyclones. This project aims to combine generative weather prediction models with rare event techniques to generate plausible trajectories of the weather system exhibiting extreme weather events. The ECMWF machine learning division has agreed to provide data and support the project in adapting their in-house intermediate-resolution generative weather model. About HetSys: Harnessing Data, Modelling and Simulation for Real‑World Impact HetSys (Centre for Doctoral Training in Modelling of Heterogeneous Systems ) at the University of Warwick is an innovative, interdisciplinary fully funded PhD programme that brings together science, engineering, and mathematics to tackle some of the most pressing challenges of our time. Big Questions, Real Impact – From climate modelling and sustainable energy to advanced materials and biomedical systems, HetSys projects apply cutting‑edge computational and mathematical techniques to problems with global significance. Interdisciplinary Training – Students gain expertise across physics, engineering, computer science, and applied mathematics, developing versatile skills that open doors to both academia and industry. Collaborative Environment – Work alongside leading researchers and industry partners in a supportive, vibrant community that values curiosity, creativity, and collaboration. Future‑Focused Careers – HetSys graduates are equipped with highly sought‑after skills in modelling, simulation, and data science, preparing them for impactful careers in research, technology, and beyond. If you’re excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs (standard UKRI rate £21,805 in 26/27 - equivalent to national living wage)",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-08-28T00:00:00+00:00",
+      "requirements": "Research Area: Extreme Weather Storylines via Generative AI, Generative machine learning, atmospheric dynamics, weather forecast models, rare event techniques.\nKey Requirements: Familiarity with generative machine learning techniques (e.g., LLMs, image generation) relevant to atmospheric dynamics/weather forecasting; willingness to work with generative weather prediction models and rare event techniques.\nApplication Info: deadline: 2026-08-28T00:00:00+00:00, required materials: N/A, contact: Dr Tobias Grafke (Supervisor).\nPosition Details: location: Coventry, England, United Kingdom / University of Warwick, England, United Kingdom, contract type: N/A (PhD Programme), workload: Full Time, salary: N/A.\nOne-line Advice: Focus CV on generative AI/ML applied to physical systems or complex data modeling; medical imaging experience is less directly relevant unless transferable ML skills are highlighted.",
+      "relevance_score": 7.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "",
+      "hours": "Full Time",
+      "contract_type": "",
+      "placed_on": "9th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "PhD Studentship: The Thinnest Sensors: 2D Materials in Liquid Solution",
+      "url": "https://www.jobs.ac.uk/job/DRM448/phd-studentship-the-thinnest-sensors-2d-materials-in-liquid-solution/",
+      "description": "About the project: The thinnest sensors: 2D materials in liquid solution Supervisor: Dr Peter Brommer, University of Warwick Two-dimensional materials, such as graphene, could be used in molecular sensors - if we can control and tune their properties. You will develop and use top-of-the-line machine learning models to predict the sensor response of these materials under realistic conditions, including in liquids. Combining quantum mechanics and atomic simulation with AI-driven sampling techniques, you will determine terahertz and Raman spectrograms to directly compare to measurements obtained in the THz labs at Warwick and by our collaborators at the Institute of Saint-Louis (ISL). By suggesting design modifications to the molecular structures, your work will improve the next generation of molecular sensors. About HetSys: Harnessing Data, Modelling and Simulation for Real‑World Impact HetSys (Centre for Doctoral Training in Modelling of Heterogeneous Systems ) at the University of Warwick is an innovative, interdisciplinary fully funded PhD programme that brings together science, engineering, and mathematics to tackle some of the most pressing challenges of our time. Big Questions, Real Impact – From climate modelling and sustainable energy to advanced materials and biomedical systems, HetSys projects apply cutting‑edge computational and mathematical techniques to problems with global significance. Interdisciplinary Training – Students gain expertise across physics, engineering, computer science, and applied mathematics, developing versatile skills that open doors to both academia and industry. Collaborative Environment – Work alongside leading researchers and industry partners in a supportive, vibrant community that values curiosity, creativity, and collaboration. Future‑Focused Careers – HetSys graduates are equipped with highly sought‑after skills in modelling, simulation, and data science, preparing them for impactful careers in research, technology, and beyond. If you’re excited by the idea of using advanced modelling and simulation to solve complex, real‑world problems, HetSys offers the perfect environment to push boundaries and make a difference. Awards for UK applicants cover full University fees, give a research training budget and a tax-free stipend to cover living costs (standard UKRI rate £21,805 in 26/27 - equivalent to national living wage)",
+      "posted_date": "",
+      "source": "jobs.ac.uk Mathematics",
+      "deadline": "2026-08-28T00:00:00+00:00",
+      "requirements": "Research Area: 2D Materials (graphene) for molecular sensors, utilizing quantum mechanics, atomic simulation, and AI/machine learning for predicting sensor response and terahertz/Raman spectrograms.\nKey Requirements: Ability to develop and use top-of-the-line machine learning models; familiarity with combining quantum mechanics/atomic simulation with AI-driven sampling techniques.\nApplication Info: deadline/start date, required materials, contact (if any): Deadline: 2026-08-28T00:00:00+00:00. Materials/Contact: N/A.\nPosition Details: location, contract type, workload, salary: Location: University of Warwick, Coventry, England, United Kingdom. Contract: N/A. Workload: Full Time. Salary: N/A.\nOne-line Advice: Focus CV on machine learning application to physical/chemical simulation data, emphasizing predictive modeling over pure medical imaging or LLM expertise.",
+      "relevance_score": 7.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "",
+      "hours": "Full Time",
+      "contract_type": "",
+      "placed_on": "9th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "Postdoctoral Training Fellow - Artificial Intelligence for Radiotherapy",
+      "url": "https://www.findapostdoc.com/search/Job-Details.aspx?jobcode=12657",
+      "description": "Under the guidance of Dr Matthew Blackledge, we are seeking to recruit a Postdoctoral Training Fellow to contribute to deliver treatment-integrated, multimodal agentic AI to drive a step-change in clinical radiotherapy by i) improving patient outcomes for cancers of unmet clinical need; and ii) increasing the efficiency of RT by enabling safe ultra-hypofractionated treatments.",
+      "institution": "The Institute of Cancer Research, Radiotherapy & Imaging",
+      "posted_date": "17 April 2026",
+      "deadline": "15 May 2026",
+      "source": "FindAPostDoc AI",
+      "requirements": "Research Area: Artificial Intelligence for Radiotherapy, specifically treatment-integrated, multimodal agentic AI.\nKey Requirements: Ability to contribute to improving patient outcomes for cancers of unmet clinical need and increasing RT efficiency via ultra-hypofractionated treatments.\nApplication Info: deadline: 15 May 2026, required materials: N/A, contact: Dr Matthew Blackledge (implied supervisor).\nPosition Details: location: N/A, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: Focus CV on AI/ML applications relevant to medical imaging and treatment planning/delivery in oncology.",
+      "relevance_score": 9.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "MSCA Postdoctoral Fellowship Hosting Offer Optimising Home Hospitalisation Pathways through AI and Operations Research",
+      "url": "https://euraxess.ec.europa.eu/jobs/435630",
+      "description": "HOSTING OFFER INFORMATION Type of opportunity: Expression of interest for an MSCA-PF applicationAffiliation : LASPI – Laboratory of Signal Analysis and Industrial Processes, Université Jean Monnet (UJM), St. Étienne, FranceApplication deadline: 1 June 2026MSCA-PF call deadline: 9 September 2026... * Work Locations: Number of offers: 1, European Union, Université Jean Monnet - Saint-Etienne , SAINT-ETIENNE CEDEX 2, 42023, France, 10 RUE Tréfilerie Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Other EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A6053) Application Deadline: 1 Jun 2026 - 12:00 (Africa/Abidjan) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France * [Université Jean Monnet](https://euraxess.ec.europa.eu/partnering/organisations/profile/universite-jean-monnet-0) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "12 May 2026",
+      "deadline": "1 June 2026MSCA-PF call deadline: 9 September 2026",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Medical sciences, focusing on Optimising Home Hospitalisation Pathways through AI and Operations Research.\nKey Requirements: Must fit the MSCA Postdoctoral Fellowship (MSCA-PF) criteria for a First Stage Researcher (R1).\nApplication Info: Expression of interest deadline: 1 June 2026; MSCA-PF call deadline: 9 September 2026. Required materials are not explicitly listed beyond the EOI. Contact information is not provided.\nPosition Details: Location: Université Jean Monnet (UJM), St. Étienne, France. Contract type: MSCA Postdoctoral Fellowship (hosting offer). Workload/Salary: N/A.\nOne-line Advice: Focus CV on AI/Operations Research applications within Medical Sciences/Healthcare pathways, as LLM relevance is not explicitly mentioned.",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
