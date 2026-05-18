@@ -1,0 +1,940 @@
+{
+  "date": "2026-05-18",
+  "generated_at": "2026-05-18T12:52:41.223569+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2605.16217v1",
+          "title": "Argus: Evidence Assembly for Scalable Deep Research Agents",
+          "authors": [
+            "Zhen Zhang",
+            "Liangcai Su",
+            "Zhuo Chen",
+            "Xiang Lin",
+            "Haotian Xu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.IR"
+          ],
+          "abstract": "Argus addresses the inefficiency of parallel search in deep research agents by framing the task as assembling complementary evidence, like a jigsaw puzzle. Its core method involves a Searcher gathering evidence traces and a Navigator managing an evidence graph to identify and acquire missing pieces, ultimately producing a source-traced answer. This approach avoids redundant evidence collection and optimizes resource usage for scalable deep research.",
+          "url": "http://arxiv.org/abs/2605.16217v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.16217v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.16217v1/x1.png",
+          "figure_caption": "Argus operating modes. (a) Standalone Searcher, single path. (b) Navigator identifies unfilled pieces and dispatches targeted queries. (c) Parallel Searchers each target a distinct piece.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.16205v1",
+          "title": "Context, Reasoning, and Hierarchy: A Cost-Performance Study of Compound LLM Agent Design in an Adversarial POMDP",
+          "authors": [
+            "Igor Bogdanov",
+            "Chung-Horng Lung",
+            "Thomas Kunz",
+            "Jie Gao",
+            "Adrian Taylor"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.MA",
+            "eess.SY"
+          ],
+          "abstract": "This paper investigates how to design effective compound LLM agents for complex, adversarial environments. It systematically studies the impact of different observation representations, reasoning strategies (like self-questioning), and task decomposition methods on performance and cost. The core contribution is providing empirical guidance for practitioners on balancing agent capabilities with computational expenses in challenging sequential decision-making scenarios.",
+          "url": "http://arxiv.org/abs/2605.16205v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.16205v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.16205v1/system_v3.png",
+          "figure_caption": "Figure 1. End-to-end system architecture. The deterministic layer (left) compiles structured context from CybORG observations and assembles the agent prompt. The Planner (right) executes a ReAct loop, optionally delegating to Analyst and ActionChooser sub-agents, before emitting a validated action back to the environment.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.16113v1",
+          "title": "DebiasRAG: A Tuning-Free Path to Fair Generation in Large Language Models through Retrieval-Augmented Generation",
+          "authors": [
+            "Rui Chu",
+            "Bingyin Zhao",
+            "Thanh Quoc Hung Le",
+            "Duy Cao Hoang",
+            "Huawei Lin"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "DebiasRAG is a novel, tuning-free framework that leverages retrieval-augmented generation (RAG) to mitigate social biases in LLMs. It dynamically debiases LLM outputs by retrieving relevant, unbiased information at inference time, thus improving fairness without requiring additional training or compromising the LLM's original capabilities.",
+          "url": "http://arxiv.org/abs/2605.16113v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.16113v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.16113v1/DebaisRAGfinalpng.png",
+          "figure_caption": "Figure 1 . System workflow of DebiasRAG. The workflow consists of three main components. The first stage (Upper Block) involves document preparation and preprocessing, including management of the Avoid Document Repo, along with user-provided input documents (Optional). The second stage (Middle Block) performs reverse-generation of debiasing performance based on the user’s input to establish a baseline for effective real-time operation. For the third stage (Lower Block), real-time debias-guided reranking optimization, integrates embedding retrieval, gradient-based reranking, and generation, working dynamically to debias the reasoning and output process of large language models.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.16233v1",
+          "title": "FORGE: Self-Evolving Agent Memory With No Weight Updates via Population Broadcast",
+          "authors": [
+            "Igor Bogdanov",
+            "Chung-Horng Lung",
+            "Thomas Kunz",
+            "Jie Gao",
+            "Adrian Taylor"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.MA",
+            "eess.SY"
+          ],
+          "abstract": "FORGE is a novel method for improving LLM agent decision-making by evolving natural-language memory without gradient updates. It uses a population-based approach where failed experiences are converted into reusable knowledge artifacts (heuristics or demonstrations) and propagated among agents. This self-evolving memory allows agents to learn and adapt, significantly improving performance on complex tasks like network defense.",
+          "url": "http://arxiv.org/abs/2605.16233v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.16233v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.16233v1/eval_learning_loop_updated.png",
+          "figure_caption": "Figure 1. System Overview. (Left) Hierarchical ReAct agent with dynamic memory injection. (Right) Reflexion learning loop: upon a reward below threshold, a dedicated Reflector or Exemplifier agent analyzes the full trajectory and synthesizes knowledge artifacts that are injected back into the agent’s memory.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.16198v1",
+          "title": "Formal Methods Meet LLMs: Auditing, Monitoring, and Intervention for Compliance of Advanced AI Systems",
+          "authors": [
+            "Parand A. Alamdari",
+            "Toryn Q. Klassen",
+            "Sheila A. McIlraith"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CY",
+            "cs.LO"
+          ],
+          "abstract": "This paper integrates formal methods with machine learning to audit and monitor advanced AI systems, particularly LLMs, for compliance with behavioral constraints. It introduces techniques for both offline auditing and runtime monitoring, including predictive monitoring and intervention mechanisms to prevent violations. The core contribution lies in providing practical, formal methods to ensure the safety and regulatory adherence of complex AI systems throughout their lifecycle.",
+          "url": "http://arxiv.org/abs/2605.16198v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.16198v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.16198v1/x1.png",
+          "figure_caption": "Figure 1 . Overview of Temporal Rule Assessment and Compliance (TRAC) : This figure depicts the base TRAC algorithm (inner green box) and TRAC with predictive and intervening capabilities ( TRAC P+I \\( \\text{TRAC} \\)_{\\( \\text{P+I} \\)} ) (outer blue box). An AI agent interacts with an environment over time, producing a sequence of inputs (from the environment) and outputs (from the agent). The Labeler extracts atomic propositions from the sequence of inputs and outputs so far, which then are used by the Monitor to progressively evaluate the monitoring objective (i.e., a behavioral pattern represented as an LTL formula). The Predictor estimates the risk of future violations, enabling the Intervenor to modify the agent’s inputs or substitute its outputs before an undesirable outcome occurs.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.16143v1",
+          "title": "Look Before You Leap: Autonomous Exploration for LLM Agents",
+          "authors": [
+            "Ziang Ye",
+            "Wentao Shi",
+            "Yuxin Liu",
+            "Yu Wang",
+            "Zhengzhou Cai"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper addresses LLM agents' tendency to act prematurely in new environments. It introduces \"Exploration Checkpoint Coverage\" as a metric to quantify exploration breadth and proposes an \"Explore-then-Act\" paradigm. This paradigm interleaves task-execution and exploration rollouts, optimizing each with distinct rewards, to enable agents to gather sufficient environmental information before acting.",
+          "url": "http://arxiv.org/abs/2605.16143v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.16143v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.16143v1/x1.png",
+          "figure_caption": "Task-oriented training fails to produce autonomous exploration capabilities, resulting in agents that prematurely exploit familiar patterns and acquire limited environment knowledge. We explicitly optimize for exploration through ECC rewards, enabling agents to systematically discover environment structure, objects, and affordances. The resulting Explore-then-Act paradigm decouples information gathering from task execution: agents first explore to acquire grounded knowledge, then leverage it to solve downstream tasks.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.16117v1",
+          "title": "SGR: A Stepwise Reasoning Framework for LLMs with External Subgraph Generation",
+          "authors": [
+            "Xin Zhang",
+            "Yang Cao",
+            "Baoxing Wu",
+            "Kai Song",
+            "Siying Li"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "SGR is a framework that enhances Large Language Model (LLM) reasoning by generating query-specific subgraphs from external knowledge bases. This allows LLMs to perform multi-step inference by grounding intermediate reasoning steps in structured external knowledge, improving focus on relevant entities and evidence. The core contribution is a method to mitigate LLM limitations in complex reasoning tasks by leveraging external structured knowledge.",
+          "url": "http://arxiv.org/abs/2605.16117v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.16117v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.16117v1/Fig1.png",
+          "figure_caption": "Pipeline of SGR framework.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.16207v1",
+          "title": "Confirming Correct, Missing the Rest: LLM Tutoring Agents Struggle Where Feedback Matters Most",
+          "authors": [
+            "Tahreem Yasir",
+            "Wenbo Li",
+            "Sam Gilson",
+            "Sutapa Dey Tithi",
+            "Xiaoyi Tian"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper evaluates LLM tutoring agents' ability to distinguish between correct, suboptimal, and incorrect student reasoning in propositional logic. The core method involves a benchmark of seven LLM feedback agents tested against knowledge-graph-derived ground truth. The key contribution is demonstrating that LLMs excel at identifying optimal steps but systematically fail to accurately diagnose suboptimal or incorrect reasoning, precisely where adaptive tutoring is most crucial.",
+          "url": "http://arxiv.org/abs/2605.16207v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.16207v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.16207v1/4.4-optimal.drawio.png",
+          "figure_caption": "Optimal and valid-alternative solutions (blue nodes represent abbreviated inference rule names, explained in Table 4 )",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.16194v1",
+          "title": "paper.json: A Coordination Convention for LLM-Agent-Actionable Papers",
+          "authors": [
+            "Arquimedes Canedo"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.DL",
+            "cs.IR",
+            "cs.MA"
+          ],
+          "abstract": "This paper introduces `paper.json`, a companion JSON file to academic PDFs, designed to improve LLM agent comprehension and actionability. Its core method involves adding structured metadata like stable claim IDs and explicit \"does-not-claim\" lists to address LLM failures in understanding paper scope and reproducibility. The main contribution is a lightweight, easily implementable convention that enables LLM agents to more reliably extract and act upon information within academic papers.",
+          "url": "http://arxiv.org/abs/2605.16194v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.16194v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.16238v1",
+          "title": "Prospective multi-pathogen disease forecasting using autonomous LLM-guided tree search",
+          "authors": [
+            "Sarah Martinson",
+            "Michael P. Brenner",
+            "Martyna Plomecka",
+            "Brian P. Williams",
+            "Nicholas G. Reich"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces an autonomous system that uses Large Language Models (LLMs) to guide a tree search for generating and optimizing infectious disease forecasting models. The LLM-guided approach allows for rapid, scalable development of diverse models, outperforming human-curated ensembles and effectively handling data-scarce situations. This significantly advances prospective disease forecasting by automating the complex and time-consuming model curation process.",
+          "url": "http://arxiv.org/abs/2605.16238v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.16238v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.16154v1",
+          "title": "Learn Where Outcomes Diverge: Efficient VLA RL via Probabilistic Chunk Masking",
+          "authors": [
+            "Vaidehi Bagaria",
+            "Nikshep Grampurohit",
+            "Pulkit Verma"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.RO"
+          ],
+          "abstract": "This paper proposes Probabilistic Chunk Masking to improve the efficiency of Vision-Language-Action Reinforcement Learning (VLA RL). The core method identifies and masks \"non-divergent\" trajectory segments that offer little learning signal, focusing computational resources on crucial phases where successful and failed outcomes diverge. This significantly reduces gradient computation costs, leading to faster and more efficient policy updates.",
+          "url": "http://arxiv.org/abs/2605.16154v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.16154v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.16154v1/cc.png",
+          "figure_caption": "Left: per-phase success–failure action variance ( C c C_{c} ) concentrates on decision-critical phases. Right: gradient computation dominates wall-clock training cost in simulator-based GRPO with 10 rollouts per prompt. Remaining ∼ \\( \\sim \\) 1% is logging, evaluation, and inter-step overhead.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 20,
+        "papers_after_llm_filter": 11,
+        "count": 11
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Research Associate - Surgical Vision and AI",
+          "url": "https://www.jobs.ac.uk/job/DRO676/research-associate-surgical-vision-and-ai/",
+          "description": "About the role Applicants are invited to apply for a new vacancy at Postdoctoral Research Associate level in Surgical Vision and Artificial Intelligence (AI) for intraoperative Mixed Reality surgical guidance. The post is based within the Hamlyn Centre at Imperial College London and the appointed applicant will carry out research at the South Kensington laboratories and at the Royal Marsden Hospital. The Hamlyn Centre is dedicated to developing safe, effective and accessible imaging, sensing and robotics technologies that can reshape the future of healthcare for both developing and developed countries. The Hamlyn Centre is part of the Institute of Global Health Innovation and is supported by two stake-holding departments, Mechanical Engineering, and Surgery & Cancer. The postholder will play a pivotal role in the development of an AI-powered Mixed Reality surgical guidance system for clinical validation. The aim is to de-risk the technology and make it ready for a first in human feasibility trial and follow-on clinical trials. This technology will enhance surgical accuracy, safety, efficiency, and operative time. It supports precise navigation in complex procedures, lowering risks of injury to critical structures. This could lead to fewer surgical complications, shorter hospital stays, and improved theatre utilization. Initial focus is on breast and melanoma operations, impacting over 70,000 UK patients annually. However, wider application for other surgical indications and clinical fields is anticipated. To this effect, the role focuses on the integration of the following elements: Computer vision for real-time 3D surgical scene reconstruction; AI for markerless Hologram registration to the surgical scene. The post is funded by the NIHR i4i grant “HOLO-AIM: Holographic surgical guidance using Artificial Intelligence and Mixed reality for safer and more efficient Surgery” led by Mr Myles Smith, surgical oncology consultant at the Royal Marsden Hospital and reader at the Institute of Cancer Research. What you would be doing Key responsibilities include the development of a platform that integrates Computer Vision and AI for automated, markerless registration of the intraoperative surgical scene with preoperative holographic models. The aim is to de-risk the technology and make it ready for a first in human feasibility trial and follow-on clinical trials. What we are looking for We are looking for high calibre applicants with expertise in at least a few from the following areas: Programming (C++, Python, etc) Machine Learning / AI Computer Vision Medical Image Analysis Prior experience in medical applications and medical data processing will be an advantage. What we can offer you The opportunity to continue your career at a world-leading institution and be part of our mission to continue science for humanity. Grow your career: gain access to Imperial’s sector-leading dedicated career support for researchers as well as opportunities for promotion and progression. Sector-leading salary and remuneration package (including 41 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further information This is a full-time post (35 hours per week), this role is for a fixed-term contract for 12 months based at South Kensington. If you require any further details about the role, please contact: Kathy Lewis kathy.lewis@imperial.ac.uk Available documents Attached documents are available under links. download: Research Associate - SUrgical Vision and AI - Imperial Job Description.pdf download: Employee Benefits Booklet.pdf £49,017 to £50,893 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk CS",
+          "deadline": "2026-06-15T00:00:00+00:00",
+          "requirements": "Research Area: Surgical Vision and Artificial Intelligence (AI) for intraoperative Mixed Reality surgical guidance, Computer vision for real-time 3D surgical scene reconstruction, AI for markerless Hologram registration to the surgical scene.\nKey Requirements: Postdoctoral Research Associate level experience, expertise in Surgical Vision and AI, Computer Vision, Mixed Reality, and ideally experience with clinical validation and surgical guidance systems.\nApplication Info: deadline/start date: 2026-06-15T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom (South Kensington laboratories and Royal Marsden Hospital), contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP50893.00 YEAR\nOne-line Advice: CVs demonstrating strong computer vision and AI expertise, particularly in 3D reconstruction and registration, will be highly relevant; medical imaging experience is a plus.",
+          "relevance_score": 10.0,
+          "institution": "Imperial College London",
+          "location": "London, England, United Kingdom",
+          "salary": "GBP49017.00-GBP50893.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "15th May 2026",
+          "job_ref": "MED05655"
+        },
+        {
+          "title": "Postdoctoral Research Associate",
+          "url": "https://www.jobs.ac.uk/job/DRO979/postdoctoral-research-associate/",
+          "description": "About us The Label-free Bioimaging Laboratory at King’s College London, is part of a world-leading centre for research and clinical translation. FoDOCS integrates expertise across bioscience, biomedical and optical engineering, clinical practice, and data science, enabling translation from fundamental discovery to patient care. Our laboratory focuses on advanced label-free optical technologies for disease detection and characterisation. We develop fibre-optic and multimodal imaging systems, integrate device engineering with clinical workflows, and apply artificial intelligence and machine learning for automated image and signal analysis, tissue classification, and real-time diagnostics. Researchers benefit from state-of-the-art optics and prototyping facilities, high-performance computing for AI-driven analysis, and direct access to clinical environments. This multidisciplinary ecosystem accelerates the development, validation, and translation of next-generation, minimally invasive diagnostic technologies. About the role The appointed PDRA will play a central role within the CRUK-funded research programme, contributing both technical leadership and conceptual innovation. As a core member of the Label-free Bioimaging Laboratory, the PDRA will be responsible for delivering high-quality, internationally competitive research outputs, while providing intellectual input into experimental design, technology development, and translational strategy. Working closely with the Principal Investigator and collaborators, the PDRA will lead the design, development, optimisation, and validation of advanced fibre-optic and optical imaging platforms. Within the scope of the CRUK project, the PDRA will drive forward the development of next-generation label-free optical technologies aimed at enabling real-time, in vivo cancer diagnosis. This will involve multiphoton imaging, micromanufacturing and integrating advancing device engineering for clinical compatibility, and translating laboratory prototypes toward practical biomedical application. The role will require independent problem-solving, cross-disciplinary collaboration, and a highly proactive approach to innovation, with opportunities to supervise students and contribute to grant writing and research planning. The successful applicant will join a vibrant and highly collaborative multidisciplinary team within a fully equipped (and new refurbished), state-of-the-art optics laboratory at King’s College London. The group works at the intersection of optical microscopy, fiber-optics disease characterisation, biomedical engineering, and translational biophotonics, offering an excellent environment that bridges fundamental photonics research with impactful clinical translation. This is a full time (35 hours), fixed term appointment until 30th June 2027. £45,031 to £48,607 per annum including London Weighting Allowance",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "2026-06-07T00:00:00+00:00",
+          "requirements": "Research Area: Label-free optical technologies for disease detection and characterisation, fibre-optic and multimodal imaging systems, AI/ML for automated image and signal analysis, tissue classification, and real-time diagnostics.\nKey Requirements: PhD in a relevant field, experience in experimental design, technology development, translational strategy, design, development, optimisation, and validation of advanced fibre-optic and optical imaging platforms.\nApplication Info: deadline/start date: 2026-06-07T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP45031.00-GBP48607.00 YEAR\nOne-line Advice: CVs focusing on optical imaging, AI/ML for image analysis, and experience with fibre optics would be most relevant.",
+          "relevance_score": 8.0,
+          "institution": "King's College London",
+          "location": "London, England, United Kingdom",
+          "salary": "GBP45031.00-GBP48607.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "18th May 2026",
+          "job_ref": "146807"
+        }
+      ],
+      "meta": {
+        "count": 2
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 20,
+    "papers_after_llm_filter": 11,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 55
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2605.16217v1",
+      "title": "Argus: Evidence Assembly for Scalable Deep Research Agents",
+      "authors": [
+        "Zhen Zhang",
+        "Liangcai Su",
+        "Zhuo Chen",
+        "Xiang Lin",
+        "Haotian Xu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.IR"
+      ],
+      "abstract": "Argus addresses the inefficiency of parallel search in deep research agents by framing the task as assembling complementary evidence, like a jigsaw puzzle. Its core method involves a Searcher gathering evidence traces and a Navigator managing an evidence graph to identify and acquire missing pieces, ultimately producing a source-traced answer. This approach avoids redundant evidence collection and optimizes resource usage for scalable deep research.",
+      "url": "http://arxiv.org/abs/2605.16217v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16217v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.16217v1/x1.png",
+      "figure_caption": "Argus operating modes. (a) Standalone Searcher, single path. (b) Navigator identifies unfilled pieces and dispatches targeted queries. (c) Parallel Searchers each target a distinct piece.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16205v1",
+      "title": "Context, Reasoning, and Hierarchy: A Cost-Performance Study of Compound LLM Agent Design in an Adversarial POMDP",
+      "authors": [
+        "Igor Bogdanov",
+        "Chung-Horng Lung",
+        "Thomas Kunz",
+        "Jie Gao",
+        "Adrian Taylor"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.MA",
+        "eess.SY"
+      ],
+      "abstract": "This paper investigates how to design effective compound LLM agents for complex, adversarial environments. It systematically studies the impact of different observation representations, reasoning strategies (like self-questioning), and task decomposition methods on performance and cost. The core contribution is providing empirical guidance for practitioners on balancing agent capabilities with computational expenses in challenging sequential decision-making scenarios.",
+      "url": "http://arxiv.org/abs/2605.16205v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16205v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.16205v1/system_v3.png",
+      "figure_caption": "Figure 1. End-to-end system architecture. The deterministic layer (left) compiles structured context from CybORG observations and assembles the agent prompt. The Planner (right) executes a ReAct loop, optionally delegating to Analyst and ActionChooser sub-agents, before emitting a validated action back to the environment.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16113v1",
+      "title": "DebiasRAG: A Tuning-Free Path to Fair Generation in Large Language Models through Retrieval-Augmented Generation",
+      "authors": [
+        "Rui Chu",
+        "Bingyin Zhao",
+        "Thanh Quoc Hung Le",
+        "Duy Cao Hoang",
+        "Huawei Lin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "DebiasRAG is a novel, tuning-free framework that leverages retrieval-augmented generation (RAG) to mitigate social biases in LLMs. It dynamically debiases LLM outputs by retrieving relevant, unbiased information at inference time, thus improving fairness without requiring additional training or compromising the LLM's original capabilities.",
+      "url": "http://arxiv.org/abs/2605.16113v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16113v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.16113v1/DebaisRAGfinalpng.png",
+      "figure_caption": "Figure 1 . System workflow of DebiasRAG. The workflow consists of three main components. The first stage (Upper Block) involves document preparation and preprocessing, including management of the Avoid Document Repo, along with user-provided input documents (Optional). The second stage (Middle Block) performs reverse-generation of debiasing performance based on the user’s input to establish a baseline for effective real-time operation. For the third stage (Lower Block), real-time debias-guided reranking optimization, integrates embedding retrieval, gradient-based reranking, and generation, working dynamically to debias the reasoning and output process of large language models.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16233v1",
+      "title": "FORGE: Self-Evolving Agent Memory With No Weight Updates via Population Broadcast",
+      "authors": [
+        "Igor Bogdanov",
+        "Chung-Horng Lung",
+        "Thomas Kunz",
+        "Jie Gao",
+        "Adrian Taylor"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.MA",
+        "eess.SY"
+      ],
+      "abstract": "FORGE is a novel method for improving LLM agent decision-making by evolving natural-language memory without gradient updates. It uses a population-based approach where failed experiences are converted into reusable knowledge artifacts (heuristics or demonstrations) and propagated among agents. This self-evolving memory allows agents to learn and adapt, significantly improving performance on complex tasks like network defense.",
+      "url": "http://arxiv.org/abs/2605.16233v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16233v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.16233v1/eval_learning_loop_updated.png",
+      "figure_caption": "Figure 1. System Overview. (Left) Hierarchical ReAct agent with dynamic memory injection. (Right) Reflexion learning loop: upon a reward below threshold, a dedicated Reflector or Exemplifier agent analyzes the full trajectory and synthesizes knowledge artifacts that are injected back into the agent’s memory.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16198v1",
+      "title": "Formal Methods Meet LLMs: Auditing, Monitoring, and Intervention for Compliance of Advanced AI Systems",
+      "authors": [
+        "Parand A. Alamdari",
+        "Toryn Q. Klassen",
+        "Sheila A. McIlraith"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CY",
+        "cs.LO"
+      ],
+      "abstract": "This paper integrates formal methods with machine learning to audit and monitor advanced AI systems, particularly LLMs, for compliance with behavioral constraints. It introduces techniques for both offline auditing and runtime monitoring, including predictive monitoring and intervention mechanisms to prevent violations. The core contribution lies in providing practical, formal methods to ensure the safety and regulatory adherence of complex AI systems throughout their lifecycle.",
+      "url": "http://arxiv.org/abs/2605.16198v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16198v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.16198v1/x1.png",
+      "figure_caption": "Figure 1 . Overview of Temporal Rule Assessment and Compliance (TRAC) : This figure depicts the base TRAC algorithm (inner green box) and TRAC with predictive and intervening capabilities ( TRAC P+I \\( \\text{TRAC} \\)_{\\( \\text{P+I} \\)} ) (outer blue box). An AI agent interacts with an environment over time, producing a sequence of inputs (from the environment) and outputs (from the agent). The Labeler extracts atomic propositions from the sequence of inputs and outputs so far, which then are used by the Monitor to progressively evaluate the monitoring objective (i.e., a behavioral pattern represented as an LTL formula). The Predictor estimates the risk of future violations, enabling the Intervenor to modify the agent’s inputs or substitute its outputs before an undesirable outcome occurs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16143v1",
+      "title": "Look Before You Leap: Autonomous Exploration for LLM Agents",
+      "authors": [
+        "Ziang Ye",
+        "Wentao Shi",
+        "Yuxin Liu",
+        "Yu Wang",
+        "Zhengzhou Cai"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses LLM agents' tendency to act prematurely in new environments. It introduces \"Exploration Checkpoint Coverage\" as a metric to quantify exploration breadth and proposes an \"Explore-then-Act\" paradigm. This paradigm interleaves task-execution and exploration rollouts, optimizing each with distinct rewards, to enable agents to gather sufficient environmental information before acting.",
+      "url": "http://arxiv.org/abs/2605.16143v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16143v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.16143v1/x1.png",
+      "figure_caption": "Task-oriented training fails to produce autonomous exploration capabilities, resulting in agents that prematurely exploit familiar patterns and acquire limited environment knowledge. We explicitly optimize for exploration through ECC rewards, enabling agents to systematically discover environment structure, objects, and affordances. The resulting Explore-then-Act paradigm decouples information gathering from task execution: agents first explore to acquire grounded knowledge, then leverage it to solve downstream tasks.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16117v1",
+      "title": "SGR: A Stepwise Reasoning Framework for LLMs with External Subgraph Generation",
+      "authors": [
+        "Xin Zhang",
+        "Yang Cao",
+        "Baoxing Wu",
+        "Kai Song",
+        "Siying Li"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "SGR is a framework that enhances Large Language Model (LLM) reasoning by generating query-specific subgraphs from external knowledge bases. This allows LLMs to perform multi-step inference by grounding intermediate reasoning steps in structured external knowledge, improving focus on relevant entities and evidence. The core contribution is a method to mitigate LLM limitations in complex reasoning tasks by leveraging external structured knowledge.",
+      "url": "http://arxiv.org/abs/2605.16117v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16117v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.16117v1/Fig1.png",
+      "figure_caption": "Pipeline of SGR framework.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.16207v1",
+      "title": "Confirming Correct, Missing the Rest: LLM Tutoring Agents Struggle Where Feedback Matters Most",
+      "authors": [
+        "Tahreem Yasir",
+        "Wenbo Li",
+        "Sam Gilson",
+        "Sutapa Dey Tithi",
+        "Xiaoyi Tian"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper evaluates LLM tutoring agents' ability to distinguish between correct, suboptimal, and incorrect student reasoning in propositional logic. The core method involves a benchmark of seven LLM feedback agents tested against knowledge-graph-derived ground truth. The key contribution is demonstrating that LLMs excel at identifying optimal steps but systematically fail to accurately diagnose suboptimal or incorrect reasoning, precisely where adaptive tutoring is most crucial.",
+      "url": "http://arxiv.org/abs/2605.16207v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16207v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.16207v1/4.4-optimal.drawio.png",
+      "figure_caption": "Optimal and valid-alternative solutions (blue nodes represent abbreviated inference rule names, explained in Table 4 )",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16194v1",
+      "title": "paper.json: A Coordination Convention for LLM-Agent-Actionable Papers",
+      "authors": [
+        "Arquimedes Canedo"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.DL",
+        "cs.IR",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces `paper.json`, a companion JSON file to academic PDFs, designed to improve LLM agent comprehension and actionability. Its core method involves adding structured metadata like stable claim IDs and explicit \"does-not-claim\" lists to address LLM failures in understanding paper scope and reproducibility. The main contribution is a lightweight, easily implementable convention that enables LLM agents to more reliably extract and act upon information within academic papers.",
+      "url": "http://arxiv.org/abs/2605.16194v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16194v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16238v1",
+      "title": "Prospective multi-pathogen disease forecasting using autonomous LLM-guided tree search",
+      "authors": [
+        "Sarah Martinson",
+        "Michael P. Brenner",
+        "Martyna Plomecka",
+        "Brian P. Williams",
+        "Nicholas G. Reich"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces an autonomous system that uses Large Language Models (LLMs) to guide a tree search for generating and optimizing infectious disease forecasting models. The LLM-guided approach allows for rapid, scalable development of diverse models, outperforming human-curated ensembles and effectively handling data-scarce situations. This significantly advances prospective disease forecasting by automating the complex and time-consuming model curation process.",
+      "url": "http://arxiv.org/abs/2605.16238v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16238v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16154v1",
+      "title": "Learn Where Outcomes Diverge: Efficient VLA RL via Probabilistic Chunk Masking",
+      "authors": [
+        "Vaidehi Bagaria",
+        "Nikshep Grampurohit",
+        "Pulkit Verma"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "abstract": "This paper proposes Probabilistic Chunk Masking to improve the efficiency of Vision-Language-Action Reinforcement Learning (VLA RL). The core method identifies and masks \"non-divergent\" trajectory segments that offer little learning signal, focusing computational resources on crucial phases where successful and failed outcomes diverge. This significantly reduces gradient computation costs, leading to faster and more efficient policy updates.",
+      "url": "http://arxiv.org/abs/2605.16154v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16154v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.16154v1/cc.png",
+      "figure_caption": "Left: per-phase success–failure action variance ( C c C_{c} ) concentrates on decision-critical phases. Right: gradient computation dominates wall-clock training cost in simulator-based GRPO with 10 rollouts per prompt. Remaining ∼ \\( \\sim \\) 1% is logging, evaluation, and inter-step overhead.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "papers": [
+    {
+      "id": "2605.16217v1",
+      "title": "Argus: Evidence Assembly for Scalable Deep Research Agents",
+      "authors": [
+        "Zhen Zhang",
+        "Liangcai Su",
+        "Zhuo Chen",
+        "Xiang Lin",
+        "Haotian Xu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.IR"
+      ],
+      "abstract": "Argus addresses the inefficiency of parallel search in deep research agents by framing the task as assembling complementary evidence, like a jigsaw puzzle. Its core method involves a Searcher gathering evidence traces and a Navigator managing an evidence graph to identify and acquire missing pieces, ultimately producing a source-traced answer. This approach avoids redundant evidence collection and optimizes resource usage for scalable deep research.",
+      "url": "http://arxiv.org/abs/2605.16217v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16217v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.16217v1/x1.png",
+      "figure_caption": "Argus operating modes. (a) Standalone Searcher, single path. (b) Navigator identifies unfilled pieces and dispatches targeted queries. (c) Parallel Searchers each target a distinct piece.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16205v1",
+      "title": "Context, Reasoning, and Hierarchy: A Cost-Performance Study of Compound LLM Agent Design in an Adversarial POMDP",
+      "authors": [
+        "Igor Bogdanov",
+        "Chung-Horng Lung",
+        "Thomas Kunz",
+        "Jie Gao",
+        "Adrian Taylor"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.MA",
+        "eess.SY"
+      ],
+      "abstract": "This paper investigates how to design effective compound LLM agents for complex, adversarial environments. It systematically studies the impact of different observation representations, reasoning strategies (like self-questioning), and task decomposition methods on performance and cost. The core contribution is providing empirical guidance for practitioners on balancing agent capabilities with computational expenses in challenging sequential decision-making scenarios.",
+      "url": "http://arxiv.org/abs/2605.16205v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16205v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.16205v1/system_v3.png",
+      "figure_caption": "Figure 1. End-to-end system architecture. The deterministic layer (left) compiles structured context from CybORG observations and assembles the agent prompt. The Planner (right) executes a ReAct loop, optionally delegating to Analyst and ActionChooser sub-agents, before emitting a validated action back to the environment.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16113v1",
+      "title": "DebiasRAG: A Tuning-Free Path to Fair Generation in Large Language Models through Retrieval-Augmented Generation",
+      "authors": [
+        "Rui Chu",
+        "Bingyin Zhao",
+        "Thanh Quoc Hung Le",
+        "Duy Cao Hoang",
+        "Huawei Lin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "DebiasRAG is a novel, tuning-free framework that leverages retrieval-augmented generation (RAG) to mitigate social biases in LLMs. It dynamically debiases LLM outputs by retrieving relevant, unbiased information at inference time, thus improving fairness without requiring additional training or compromising the LLM's original capabilities.",
+      "url": "http://arxiv.org/abs/2605.16113v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16113v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.16113v1/DebaisRAGfinalpng.png",
+      "figure_caption": "Figure 1 . System workflow of DebiasRAG. The workflow consists of three main components. The first stage (Upper Block) involves document preparation and preprocessing, including management of the Avoid Document Repo, along with user-provided input documents (Optional). The second stage (Middle Block) performs reverse-generation of debiasing performance based on the user’s input to establish a baseline for effective real-time operation. For the third stage (Lower Block), real-time debias-guided reranking optimization, integrates embedding retrieval, gradient-based reranking, and generation, working dynamically to debias the reasoning and output process of large language models.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16233v1",
+      "title": "FORGE: Self-Evolving Agent Memory With No Weight Updates via Population Broadcast",
+      "authors": [
+        "Igor Bogdanov",
+        "Chung-Horng Lung",
+        "Thomas Kunz",
+        "Jie Gao",
+        "Adrian Taylor"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.MA",
+        "eess.SY"
+      ],
+      "abstract": "FORGE is a novel method for improving LLM agent decision-making by evolving natural-language memory without gradient updates. It uses a population-based approach where failed experiences are converted into reusable knowledge artifacts (heuristics or demonstrations) and propagated among agents. This self-evolving memory allows agents to learn and adapt, significantly improving performance on complex tasks like network defense.",
+      "url": "http://arxiv.org/abs/2605.16233v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16233v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.16233v1/eval_learning_loop_updated.png",
+      "figure_caption": "Figure 1. System Overview. (Left) Hierarchical ReAct agent with dynamic memory injection. (Right) Reflexion learning loop: upon a reward below threshold, a dedicated Reflector or Exemplifier agent analyzes the full trajectory and synthesizes knowledge artifacts that are injected back into the agent’s memory.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16198v1",
+      "title": "Formal Methods Meet LLMs: Auditing, Monitoring, and Intervention for Compliance of Advanced AI Systems",
+      "authors": [
+        "Parand A. Alamdari",
+        "Toryn Q. Klassen",
+        "Sheila A. McIlraith"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CY",
+        "cs.LO"
+      ],
+      "abstract": "This paper integrates formal methods with machine learning to audit and monitor advanced AI systems, particularly LLMs, for compliance with behavioral constraints. It introduces techniques for both offline auditing and runtime monitoring, including predictive monitoring and intervention mechanisms to prevent violations. The core contribution lies in providing practical, formal methods to ensure the safety and regulatory adherence of complex AI systems throughout their lifecycle.",
+      "url": "http://arxiv.org/abs/2605.16198v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16198v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.16198v1/x1.png",
+      "figure_caption": "Figure 1 . Overview of Temporal Rule Assessment and Compliance (TRAC) : This figure depicts the base TRAC algorithm (inner green box) and TRAC with predictive and intervening capabilities ( TRAC P+I \\( \\text{TRAC} \\)_{\\( \\text{P+I} \\)} ) (outer blue box). An AI agent interacts with an environment over time, producing a sequence of inputs (from the environment) and outputs (from the agent). The Labeler extracts atomic propositions from the sequence of inputs and outputs so far, which then are used by the Monitor to progressively evaluate the monitoring objective (i.e., a behavioral pattern represented as an LTL formula). The Predictor estimates the risk of future violations, enabling the Intervenor to modify the agent’s inputs or substitute its outputs before an undesirable outcome occurs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16143v1",
+      "title": "Look Before You Leap: Autonomous Exploration for LLM Agents",
+      "authors": [
+        "Ziang Ye",
+        "Wentao Shi",
+        "Yuxin Liu",
+        "Yu Wang",
+        "Zhengzhou Cai"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses LLM agents' tendency to act prematurely in new environments. It introduces \"Exploration Checkpoint Coverage\" as a metric to quantify exploration breadth and proposes an \"Explore-then-Act\" paradigm. This paradigm interleaves task-execution and exploration rollouts, optimizing each with distinct rewards, to enable agents to gather sufficient environmental information before acting.",
+      "url": "http://arxiv.org/abs/2605.16143v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16143v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.16143v1/x1.png",
+      "figure_caption": "Task-oriented training fails to produce autonomous exploration capabilities, resulting in agents that prematurely exploit familiar patterns and acquire limited environment knowledge. We explicitly optimize for exploration through ECC rewards, enabling agents to systematically discover environment structure, objects, and affordances. The resulting Explore-then-Act paradigm decouples information gathering from task execution: agents first explore to acquire grounded knowledge, then leverage it to solve downstream tasks.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16117v1",
+      "title": "SGR: A Stepwise Reasoning Framework for LLMs with External Subgraph Generation",
+      "authors": [
+        "Xin Zhang",
+        "Yang Cao",
+        "Baoxing Wu",
+        "Kai Song",
+        "Siying Li"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "SGR is a framework that enhances Large Language Model (LLM) reasoning by generating query-specific subgraphs from external knowledge bases. This allows LLMs to perform multi-step inference by grounding intermediate reasoning steps in structured external knowledge, improving focus on relevant entities and evidence. The core contribution is a method to mitigate LLM limitations in complex reasoning tasks by leveraging external structured knowledge.",
+      "url": "http://arxiv.org/abs/2605.16117v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16117v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.16117v1/Fig1.png",
+      "figure_caption": "Pipeline of SGR framework.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.16207v1",
+      "title": "Confirming Correct, Missing the Rest: LLM Tutoring Agents Struggle Where Feedback Matters Most",
+      "authors": [
+        "Tahreem Yasir",
+        "Wenbo Li",
+        "Sam Gilson",
+        "Sutapa Dey Tithi",
+        "Xiaoyi Tian"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper evaluates LLM tutoring agents' ability to distinguish between correct, suboptimal, and incorrect student reasoning in propositional logic. The core method involves a benchmark of seven LLM feedback agents tested against knowledge-graph-derived ground truth. The key contribution is demonstrating that LLMs excel at identifying optimal steps but systematically fail to accurately diagnose suboptimal or incorrect reasoning, precisely where adaptive tutoring is most crucial.",
+      "url": "http://arxiv.org/abs/2605.16207v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16207v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.16207v1/4.4-optimal.drawio.png",
+      "figure_caption": "Optimal and valid-alternative solutions (blue nodes represent abbreviated inference rule names, explained in Table 4 )",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16194v1",
+      "title": "paper.json: A Coordination Convention for LLM-Agent-Actionable Papers",
+      "authors": [
+        "Arquimedes Canedo"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.DL",
+        "cs.IR",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces `paper.json`, a companion JSON file to academic PDFs, designed to improve LLM agent comprehension and actionability. Its core method involves adding structured metadata like stable claim IDs and explicit \"does-not-claim\" lists to address LLM failures in understanding paper scope and reproducibility. The main contribution is a lightweight, easily implementable convention that enables LLM agents to more reliably extract and act upon information within academic papers.",
+      "url": "http://arxiv.org/abs/2605.16194v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16194v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16238v1",
+      "title": "Prospective multi-pathogen disease forecasting using autonomous LLM-guided tree search",
+      "authors": [
+        "Sarah Martinson",
+        "Michael P. Brenner",
+        "Martyna Plomecka",
+        "Brian P. Williams",
+        "Nicholas G. Reich"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces an autonomous system that uses Large Language Models (LLMs) to guide a tree search for generating and optimizing infectious disease forecasting models. The LLM-guided approach allows for rapid, scalable development of diverse models, outperforming human-curated ensembles and effectively handling data-scarce situations. This significantly advances prospective disease forecasting by automating the complex and time-consuming model curation process.",
+      "url": "http://arxiv.org/abs/2605.16238v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16238v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.16154v1",
+      "title": "Learn Where Outcomes Diverge: Efficient VLA RL via Probabilistic Chunk Masking",
+      "authors": [
+        "Vaidehi Bagaria",
+        "Nikshep Grampurohit",
+        "Pulkit Verma"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "abstract": "This paper proposes Probabilistic Chunk Masking to improve the efficiency of Vision-Language-Action Reinforcement Learning (VLA RL). The core method identifies and masks \"non-divergent\" trajectory segments that offer little learning signal, focusing computational resources on crucial phases where successful and failed outcomes diverge. This significantly reduces gradient computation costs, leading to faster and more efficient policy updates.",
+      "url": "http://arxiv.org/abs/2605.16154v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16154v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.16154v1/cc.png",
+      "figure_caption": "Left: per-phase success–failure action variance ( C c C_{c} ) concentrates on decision-critical phases. Right: gradient computation dominates wall-clock training cost in simulator-based GRPO with 10 rollouts per prompt. Remaining ∼ \\( \\sim \\) 1% is logging, evaluation, and inter-step overhead.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Research Associate - Surgical Vision and AI",
+      "url": "https://www.jobs.ac.uk/job/DRO676/research-associate-surgical-vision-and-ai/",
+      "description": "About the role Applicants are invited to apply for a new vacancy at Postdoctoral Research Associate level in Surgical Vision and Artificial Intelligence (AI) for intraoperative Mixed Reality surgical guidance. The post is based within the Hamlyn Centre at Imperial College London and the appointed applicant will carry out research at the South Kensington laboratories and at the Royal Marsden Hospital. The Hamlyn Centre is dedicated to developing safe, effective and accessible imaging, sensing and robotics technologies that can reshape the future of healthcare for both developing and developed countries. The Hamlyn Centre is part of the Institute of Global Health Innovation and is supported by two stake-holding departments, Mechanical Engineering, and Surgery & Cancer. The postholder will play a pivotal role in the development of an AI-powered Mixed Reality surgical guidance system for clinical validation. The aim is to de-risk the technology and make it ready for a first in human feasibility trial and follow-on clinical trials. This technology will enhance surgical accuracy, safety, efficiency, and operative time. It supports precise navigation in complex procedures, lowering risks of injury to critical structures. This could lead to fewer surgical complications, shorter hospital stays, and improved theatre utilization. Initial focus is on breast and melanoma operations, impacting over 70,000 UK patients annually. However, wider application for other surgical indications and clinical fields is anticipated. To this effect, the role focuses on the integration of the following elements: Computer vision for real-time 3D surgical scene reconstruction; AI for markerless Hologram registration to the surgical scene. The post is funded by the NIHR i4i grant “HOLO-AIM: Holographic surgical guidance using Artificial Intelligence and Mixed reality for safer and more efficient Surgery” led by Mr Myles Smith, surgical oncology consultant at the Royal Marsden Hospital and reader at the Institute of Cancer Research. What you would be doing Key responsibilities include the development of a platform that integrates Computer Vision and AI for automated, markerless registration of the intraoperative surgical scene with preoperative holographic models. The aim is to de-risk the technology and make it ready for a first in human feasibility trial and follow-on clinical trials. What we are looking for We are looking for high calibre applicants with expertise in at least a few from the following areas: Programming (C++, Python, etc) Machine Learning / AI Computer Vision Medical Image Analysis Prior experience in medical applications and medical data processing will be an advantage. What we can offer you The opportunity to continue your career at a world-leading institution and be part of our mission to continue science for humanity. Grow your career: gain access to Imperial’s sector-leading dedicated career support for researchers as well as opportunities for promotion and progression. Sector-leading salary and remuneration package (including 41 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further information This is a full-time post (35 hours per week), this role is for a fixed-term contract for 12 months based at South Kensington. If you require any further details about the role, please contact: Kathy Lewis kathy.lewis@imperial.ac.uk Available documents Attached documents are available under links. download: Research Associate - SUrgical Vision and AI - Imperial Job Description.pdf download: Employee Benefits Booklet.pdf £49,017 to £50,893 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-15T00:00:00+00:00",
+      "requirements": "Research Area: Surgical Vision and Artificial Intelligence (AI) for intraoperative Mixed Reality surgical guidance, Computer vision for real-time 3D surgical scene reconstruction, AI for markerless Hologram registration to the surgical scene.\nKey Requirements: Postdoctoral Research Associate level experience, expertise in Surgical Vision and AI, Computer Vision, Mixed Reality, and ideally experience with clinical validation and surgical guidance systems.\nApplication Info: deadline/start date: 2026-06-15T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom (South Kensington laboratories and Royal Marsden Hospital), contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP50893.00 YEAR\nOne-line Advice: CVs demonstrating strong computer vision and AI expertise, particularly in 3D reconstruction and registration, will be highly relevant; medical imaging experience is a plus.",
+      "relevance_score": 10.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP49017.00-GBP50893.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "15th May 2026",
+      "job_ref": "MED05655"
+    },
+    {
+      "title": "Postdoctoral Research Associate",
+      "url": "https://www.jobs.ac.uk/job/DRO979/postdoctoral-research-associate/",
+      "description": "About us The Label-free Bioimaging Laboratory at King’s College London, is part of a world-leading centre for research and clinical translation. FoDOCS integrates expertise across bioscience, biomedical and optical engineering, clinical practice, and data science, enabling translation from fundamental discovery to patient care. Our laboratory focuses on advanced label-free optical technologies for disease detection and characterisation. We develop fibre-optic and multimodal imaging systems, integrate device engineering with clinical workflows, and apply artificial intelligence and machine learning for automated image and signal analysis, tissue classification, and real-time diagnostics. Researchers benefit from state-of-the-art optics and prototyping facilities, high-performance computing for AI-driven analysis, and direct access to clinical environments. This multidisciplinary ecosystem accelerates the development, validation, and translation of next-generation, minimally invasive diagnostic technologies. About the role The appointed PDRA will play a central role within the CRUK-funded research programme, contributing both technical leadership and conceptual innovation. As a core member of the Label-free Bioimaging Laboratory, the PDRA will be responsible for delivering high-quality, internationally competitive research outputs, while providing intellectual input into experimental design, technology development, and translational strategy. Working closely with the Principal Investigator and collaborators, the PDRA will lead the design, development, optimisation, and validation of advanced fibre-optic and optical imaging platforms. Within the scope of the CRUK project, the PDRA will drive forward the development of next-generation label-free optical technologies aimed at enabling real-time, in vivo cancer diagnosis. This will involve multiphoton imaging, micromanufacturing and integrating advancing device engineering for clinical compatibility, and translating laboratory prototypes toward practical biomedical application. The role will require independent problem-solving, cross-disciplinary collaboration, and a highly proactive approach to innovation, with opportunities to supervise students and contribute to grant writing and research planning. The successful applicant will join a vibrant and highly collaborative multidisciplinary team within a fully equipped (and new refurbished), state-of-the-art optics laboratory at King’s College London. The group works at the intersection of optical microscopy, fiber-optics disease characterisation, biomedical engineering, and translational biophotonics, offering an excellent environment that bridges fundamental photonics research with impactful clinical translation. This is a full time (35 hours), fixed term appointment until 30th June 2027. £45,031 to £48,607 per annum including London Weighting Allowance",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-07T00:00:00+00:00",
+      "requirements": "Research Area: Label-free optical technologies for disease detection and characterisation, fibre-optic and multimodal imaging systems, AI/ML for automated image and signal analysis, tissue classification, and real-time diagnostics.\nKey Requirements: PhD in a relevant field, experience in experimental design, technology development, translational strategy, design, development, optimisation, and validation of advanced fibre-optic and optical imaging platforms.\nApplication Info: deadline/start date: 2026-06-07T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP45031.00-GBP48607.00 YEAR\nOne-line Advice: CVs focusing on optical imaging, AI/ML for image analysis, and experience with fibre optics would be most relevant.",
+      "relevance_score": 8.0,
+      "institution": "King's College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP45031.00-GBP48607.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "18th May 2026",
+      "job_ref": "146807"
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Research Associate - Surgical Vision and AI",
+      "url": "https://www.jobs.ac.uk/job/DRO676/research-associate-surgical-vision-and-ai/",
+      "description": "About the role Applicants are invited to apply for a new vacancy at Postdoctoral Research Associate level in Surgical Vision and Artificial Intelligence (AI) for intraoperative Mixed Reality surgical guidance. The post is based within the Hamlyn Centre at Imperial College London and the appointed applicant will carry out research at the South Kensington laboratories and at the Royal Marsden Hospital. The Hamlyn Centre is dedicated to developing safe, effective and accessible imaging, sensing and robotics technologies that can reshape the future of healthcare for both developing and developed countries. The Hamlyn Centre is part of the Institute of Global Health Innovation and is supported by two stake-holding departments, Mechanical Engineering, and Surgery & Cancer. The postholder will play a pivotal role in the development of an AI-powered Mixed Reality surgical guidance system for clinical validation. The aim is to de-risk the technology and make it ready for a first in human feasibility trial and follow-on clinical trials. This technology will enhance surgical accuracy, safety, efficiency, and operative time. It supports precise navigation in complex procedures, lowering risks of injury to critical structures. This could lead to fewer surgical complications, shorter hospital stays, and improved theatre utilization. Initial focus is on breast and melanoma operations, impacting over 70,000 UK patients annually. However, wider application for other surgical indications and clinical fields is anticipated. To this effect, the role focuses on the integration of the following elements: Computer vision for real-time 3D surgical scene reconstruction; AI for markerless Hologram registration to the surgical scene. The post is funded by the NIHR i4i grant “HOLO-AIM: Holographic surgical guidance using Artificial Intelligence and Mixed reality for safer and more efficient Surgery” led by Mr Myles Smith, surgical oncology consultant at the Royal Marsden Hospital and reader at the Institute of Cancer Research. What you would be doing Key responsibilities include the development of a platform that integrates Computer Vision and AI for automated, markerless registration of the intraoperative surgical scene with preoperative holographic models. The aim is to de-risk the technology and make it ready for a first in human feasibility trial and follow-on clinical trials. What we are looking for We are looking for high calibre applicants with expertise in at least a few from the following areas: Programming (C++, Python, etc) Machine Learning / AI Computer Vision Medical Image Analysis Prior experience in medical applications and medical data processing will be an advantage. What we can offer you The opportunity to continue your career at a world-leading institution and be part of our mission to continue science for humanity. Grow your career: gain access to Imperial’s sector-leading dedicated career support for researchers as well as opportunities for promotion and progression. Sector-leading salary and remuneration package (including 41 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further information This is a full-time post (35 hours per week), this role is for a fixed-term contract for 12 months based at South Kensington. If you require any further details about the role, please contact: Kathy Lewis kathy.lewis@imperial.ac.uk Available documents Attached documents are available under links. download: Research Associate - SUrgical Vision and AI - Imperial Job Description.pdf download: Employee Benefits Booklet.pdf £49,017 to £50,893 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-15T00:00:00+00:00",
+      "requirements": "Research Area: Surgical Vision and Artificial Intelligence (AI) for intraoperative Mixed Reality surgical guidance, Computer vision for real-time 3D surgical scene reconstruction, AI for markerless Hologram registration to the surgical scene.\nKey Requirements: Postdoctoral Research Associate level experience, expertise in Surgical Vision and AI, Computer Vision, Mixed Reality, and ideally experience with clinical validation and surgical guidance systems.\nApplication Info: deadline/start date: 2026-06-15T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom (South Kensington laboratories and Royal Marsden Hospital), contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP50893.00 YEAR\nOne-line Advice: CVs demonstrating strong computer vision and AI expertise, particularly in 3D reconstruction and registration, will be highly relevant; medical imaging experience is a plus.",
+      "relevance_score": 10.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP49017.00-GBP50893.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "15th May 2026",
+      "job_ref": "MED05655"
+    },
+    {
+      "title": "Postdoctoral Research Associate",
+      "url": "https://www.jobs.ac.uk/job/DRO979/postdoctoral-research-associate/",
+      "description": "About us The Label-free Bioimaging Laboratory at King’s College London, is part of a world-leading centre for research and clinical translation. FoDOCS integrates expertise across bioscience, biomedical and optical engineering, clinical practice, and data science, enabling translation from fundamental discovery to patient care. Our laboratory focuses on advanced label-free optical technologies for disease detection and characterisation. We develop fibre-optic and multimodal imaging systems, integrate device engineering with clinical workflows, and apply artificial intelligence and machine learning for automated image and signal analysis, tissue classification, and real-time diagnostics. Researchers benefit from state-of-the-art optics and prototyping facilities, high-performance computing for AI-driven analysis, and direct access to clinical environments. This multidisciplinary ecosystem accelerates the development, validation, and translation of next-generation, minimally invasive diagnostic technologies. About the role The appointed PDRA will play a central role within the CRUK-funded research programme, contributing both technical leadership and conceptual innovation. As a core member of the Label-free Bioimaging Laboratory, the PDRA will be responsible for delivering high-quality, internationally competitive research outputs, while providing intellectual input into experimental design, technology development, and translational strategy. Working closely with the Principal Investigator and collaborators, the PDRA will lead the design, development, optimisation, and validation of advanced fibre-optic and optical imaging platforms. Within the scope of the CRUK project, the PDRA will drive forward the development of next-generation label-free optical technologies aimed at enabling real-time, in vivo cancer diagnosis. This will involve multiphoton imaging, micromanufacturing and integrating advancing device engineering for clinical compatibility, and translating laboratory prototypes toward practical biomedical application. The role will require independent problem-solving, cross-disciplinary collaboration, and a highly proactive approach to innovation, with opportunities to supervise students and contribute to grant writing and research planning. The successful applicant will join a vibrant and highly collaborative multidisciplinary team within a fully equipped (and new refurbished), state-of-the-art optics laboratory at King’s College London. The group works at the intersection of optical microscopy, fiber-optics disease characterisation, biomedical engineering, and translational biophotonics, offering an excellent environment that bridges fundamental photonics research with impactful clinical translation. This is a full time (35 hours), fixed term appointment until 30th June 2027. £45,031 to £48,607 per annum including London Weighting Allowance",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-07T00:00:00+00:00",
+      "requirements": "Research Area: Label-free optical technologies for disease detection and characterisation, fibre-optic and multimodal imaging systems, AI/ML for automated image and signal analysis, tissue classification, and real-time diagnostics.\nKey Requirements: PhD in a relevant field, experience in experimental design, technology development, translational strategy, design, development, optimisation, and validation of advanced fibre-optic and optical imaging platforms.\nApplication Info: deadline/start date: 2026-06-07T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP45031.00-GBP48607.00 YEAR\nOne-line Advice: CVs focusing on optical imaging, AI/ML for image analysis, and experience with fibre optics would be most relevant.",
+      "relevance_score": 8.0,
+      "institution": "King's College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP45031.00-GBP48607.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "18th May 2026",
+      "job_ref": "146807"
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
