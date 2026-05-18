@@ -18,7 +18,7 @@ arxiv:
   enabled: true
 
 us_stocks:
-  enabled: true
+  enabled: false
   mode: premarket
   max_items: 12
   max_symbols: 18
