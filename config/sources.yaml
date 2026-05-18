@@ -3,7 +3,6 @@
 display_order:
   - arxiv
   - postdoc_jobs
-  - us_stocks
 
 hitokoto:
   enabled: false
