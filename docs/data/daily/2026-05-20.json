@@ -1,0 +1,1075 @@
+{
+  "date": "2026-05-20",
+  "generated_at": "2026-05-20T12:10:38.762040+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2605.20176v1",
+          "title": "ClinSeekAgent: Automating Multimodal Evidence Seeking for Agentic Clinical Reasoning",
+          "authors": [
+            "Juncheng Wu",
+            "Letian Zhang",
+            "Yuhan Wang",
+            "Haoqin Tu",
+            "Hardy Chen"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "ClinSeekAgent is an automated framework that empowers LLMs to actively seek and synthesize multimodal clinical evidence from diverse sources like knowledge bases, EHRs, and imaging tools. Its core method involves iterative planning and hypothesis refinement, moving beyond passive evidence consumption to dynamic evidence acquisition. The contribution is a paradigm shift towards agentic clinical reasoning that can operate with raw data, enabling more grounded and comprehensive decision support.",
+          "url": "http://arxiv.org/abs/2605.20176v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.20176v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.20176v1/figure/teaser.png",
+          "figure_caption": "ClinSeekAgent Overview. ClinSeekAgent is an automated agentic evidence-seeking pipeline. It interacts with heterogeneous data sources to enable multimodal evidence seeking for clinical decision support. Compared with prior user-curated context settings, ClinSeekAgent is more flexible by acquiring richer information and knowledge from diverse tools.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.20170v1",
+          "title": "KoRe: Compact Knowledge Representations for Large Language Models",
+          "authors": [
+            "Davide Cavicchini",
+            "Fausto Giunchiglia",
+            "Jacopo Staiano"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "KoRe introduces a method to encode 1-hop knowledge graph subgraphs into compact, discrete tokens. These tokens are then injected into a Large Language Model (LLM) backbone, allowing for efficient integration of external knowledge without extensive retraining. This approach aims to overcome the opacity and update difficulties of LLM-internal knowledge by leveraging the readability and editability of knowledge graphs.",
+          "url": "http://arxiv.org/abs/2605.20170v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.20170v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.20170v1/x1.png",
+          "figure_caption": "Taxonomy of Knowledge Augmentation Approaches for LLMs",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.20179v1",
+          "title": "TIDE: Efficient and Lossless MoE Diffusion LLM Inference with I/O-aware Expert Offload",
+          "authors": [
+            "Zhiben Chen",
+            "Youpeng Zhao",
+            "Yang Sui",
+            "Jun Wang",
+            "Yuzhang Shang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "TIDE addresses the challenge of efficiently inferring large Mixture-of-Experts (MoE) diffusion LLMs on resource-constrained devices. Its core method is an I/O-aware expert offload strategy that exploits the temporal stability of expert activations during the diffusion process. This allows for efficient expert placement and refresh, minimizing I/O overhead and compute bottlenecks, thus enabling lossless and efficient MoE dLLM inference.",
+          "url": "http://arxiv.org/abs/2605.20179v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.20179v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.20179v1/figures/figure1.png",
+          "figure_caption": "(a) Similarity heatmap of expert routing across denoising steps within a block. Expert routing remains highly similar for nearby steps, and the diagonal bands show that this stability extends beyond immediate neighbors: step pairs separated by five denoising steps retain cosine similarity near 0.95 0.95 . (b) Overview of TIDE . At refresh steps , the system intelligently swaps the GPU and CPU experts based on token hit counts (number of tokens each expert has processed). At skipped steps , the system continues decoding with the current expert placement and does not migrate experts. By exploiting routing stability across adjacent steps, TIDE avoids unnecessary GPU-CPU I/O overhead and maintains high GPU utilization. (c) Throughput comparison of TIDE against state-of-the-art MoE inference solutions [Kamahori et al. , 2024 , Eliseev and Mazur, 2023 ] for LLaDA2.0 in a single GPU-CPU setting.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.20084v1",
+          "title": "BalanceRAG: Joint Risk Calibration for Cascaded Retrieval-Augmented Generation",
+          "authors": [
+            "Zijun Jia",
+            "Yuanchang Ye",
+            "Sen Jia",
+            "Yiyao Qian",
+            "Haoning Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "BalanceRAG addresses the challenge of calibrating cascaded Retrieval-Augmented Generation (RAG) systems. Its core method involves jointly calibrating uncertainty thresholds for both the LLM-only and RAG branches, treating threshold pairs as operating points on a 2D lattice. The contribution is a risk-adaptive approach that certifies threshold pairs at a target risk level, enabling better control of system-level error rates and retaining more valid examples compared to stage-by-stage calibration.",
+          "url": "http://arxiv.org/abs/2605.20084v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.20084v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.20084v1/x1.png",
+          "figure_caption": "Distribution of the per-example score differences between RAG and LLM-only. S LLM ​ - ​ RAG S_{\\( \\mathrm \\){LLM\\( \\text{-} \\)RAG}} and S LLM ​ - ​ only S_{\\( \\mathrm \\){LLM\\( \\text{-} \\)only}} are the similarity scores between each path’s prediction and the ground-truth answer. The x-axis reports S LLM ​ - ​ RAG − S LLM ​ - ​ only S_{\\( \\mathrm \\){LLM\\( \\text{-} \\)RAG}}-S_{\\( \\mathrm \\){LLM\\( \\text{-} \\)only}} , with positive values favoring RAG and negative values favoring LLM-only, while the y-axis reports the number of examples. Colors distinguish whether both branches are correct, both are wrong, or only one branch is correct.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.20087v1",
+          "title": "ThoughtTrace: Understanding User Thoughts in Real-World LLM Interactions",
+          "authors": [
+            "Chuanyang Jin",
+            "Binze Li",
+            "Haopeng Xie",
+            "Cathy Mengying Fang",
+            "Tianjian Li"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces ThoughtTrace, the first large-scale dataset pairing real-world human-AI conversations with users' self-reported thoughts. The core contribution is capturing users' underlying reasoning and reactions, which are distinct from their messages and difficult for current LLMs to infer. ThoughtTrace enables better user behavior prediction and fine-grained alignment for personalized assistant training.",
+          "url": "http://arxiv.org/abs/2605.20087v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.20087v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.20087v1/x1.png",
+          "figure_caption": "A representative example from ThoughtTrace . A user interacts with a chatbot to complete daily tasks through multi-turn conversations (top), while annotating their latent thoughts during the conversations (bottom). Thoughts take two forms: reasons for sending user prompts and reactions to assistant responses, which can be categorized into several types (e.g., task motivation , style expectation ). Latent thoughts reveal users’ thought traces that drive the human-AI interactions in multi-turn conversations, providing valuable signals for user modeling and improving AI assistance.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.20173v1",
+          "title": "A Methodology for Selecting and Composing Runtime Architecture Patterns for Production LLM Agents",
+          "authors": [
+            "Vasundra Srinivasan"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.SE"
+          ],
+          "abstract": "This paper introduces the \"stochastic-deterministic boundary\" (SDB) as a core architectural primitive for production LLM agents, defining a four-part contract for integrating LLM outputs into system actions. It then proposes six runtime patterns, organized around Coordination, State, and Control, to compose this SDB for various agent types, adapting distributed systems concepts to the stochastic nature of LLMs. The contribution lies in providing a structured methodology and reusable patterns for building robust LLM agent runtimes.",
+          "url": "http://arxiv.org/abs/2605.20173v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.20173v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.20075v1",
+          "title": "CopT: Contrastive On-Policy Thinking with Continuous Spaces for General and Agentic Reasoning",
+          "authors": [
+            "Dachuan Shi",
+            "Hanlin Zhu",
+            "Xiangchi Yuan",
+            "Wanjia Zhao",
+            "Kejing Xia"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "CopT reverses the traditional Chain-of-Thought approach by first generating a draft answer and then performing \"on-policy thinking\" to reflect and correct it. It uses continuous embeddings as contrastive verifiers to assess the trustworthiness of the draft answer by comparing token support under discrete and continuous inputs. This method aims to improve reasoning efficiency and accuracy by allowing for earlier access to plausible answers and more targeted refinement.",
+          "url": "http://arxiv.org/abs/2605.20075v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.20075v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.20075v1/x1.png",
+          "figure_caption": "(a) Conceptual comparison between CoT thinking and CopT on-policy thinking. (b) CopT contrasts the output distributions under discrete and continuous inputs. (c) CopT improves peak accuracy, marked by ∗ , across mathematics, coding, and agentic reasoning tasks and nearly halves token usage at matched accuracy.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.20149v1",
+          "title": "Less Back-and-Forth: A Comparative Study of Structured Prompting",
+          "authors": [
+            "Saurav Ghosh",
+            "Gabriella Polach",
+            "Abdou Sow"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.HC"
+          ],
+          "abstract": "This paper investigates how structured prompts affect Large Language Model (LLM) performance. It compares raw prompts, checklist-improved prompts, and clarifying-question prompts across various tasks and LLM systems. The core contribution is demonstrating that checklist-improved prompts significantly enhance response quality and efficiency, achieving the highest scores and best quality-effort tradeoff.",
+          "url": "http://arxiv.org/abs/2605.20149v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.20149v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.20149v1/architecture2.png",
+          "figure_caption": "Study design overview. For each task, a raw prompt is evaluated alongside a checklist-improved prompt and a clarifying-question prompt. Each prompt condition is tested across multiple LLMs, and the resulting outputs are scored using the same rubric.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.20072v1",
+          "title": "Probing Embodied LLMs: When Higher Observation Fidelity Hurts Problem Solving",
+          "authors": [
+            "Oussama Zenkri",
+            "Oliver Brock"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.RO"
+          ],
+          "abstract": "This paper investigates how observation fidelity impacts embodied Large Language Models (LLMs) in robotic tasks. The core method involves empirically testing LLM agents on a mechanical puzzle with varying levels of visual and symbolic information. The surprising contribution is that LLMs perform *better* with less precise, raw RGB input than with perfect ground-truth observations, suggesting that moderate noise can actually enhance their problem-solving abilities by making them more robust to uncertainty.",
+          "url": "http://arxiv.org/abs/2605.20072v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.20072v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.20072v1/x1.png",
+          "figure_caption": "Our robotic system manipulating the Lockbox. Our Lockbox comprises two prismatic joints (sliding bars in the middle) and two revolute joints. The Lockbox is unlocked when the leftmost revolute joint, which we refer to as the target joint, is pulled. The robot employs a soft-hand end effector for manipulating the joints, an RGB-D camera for acquiring visual data, and a force-torque sensor for assessing the joint movability and guiding their manipulation.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.20086v1",
+          "title": "What Do Evolutionary Coding Agents Evolve?",
+          "authors": [
+            "Nico Pelleriti",
+            "Sree Harsha Nelaturu",
+            "Zhanke Zhou",
+            "Zongze Li",
+            "Max Zimmer"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.NE"
+          ],
+          "abstract": "This paper introduces EvoTrace, a dataset of evolutionary coding traces, to address the question of what these systems actually evolve. Their core method, EvoReplay, analyzes these traces to distinguish between genuine algorithmic innovation and other mechanisms like re-tuning or overfitting. The contribution is a novel methodology and dataset for understanding the internal workings of evolutionary coding agents.",
+          "url": "http://arxiv.org/abs/2605.20086v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.20086v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.20086v1/x1.png",
+          "figure_caption": "A taxonomy of edits performed by evolutionary coding agents. Each panel shows a representative parent–child diff (added lines in green, deleted lines in red) drawn from EvoTrace runs and labeled with one of nine recurring categories: Bug fix , External dependency , Architectural change , Composition , Local refinement , Pruning , Refactor , Efficiency , and Hyperparameter tuning . The categories range from minimal numeric edits (a single literal change) to structural rewrites (replacing a 14-gon with two concentric heptagons), and they form the basis of the LLM-as-judge edit annotation used throughout the paper. Edits are typically multi-label; we examine prevalence and per-edit utility in § 5.1 .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.20128v1",
+          "title": "MixRea: Benchmarking Explicit-Implicit Reasoning in Large Language Models",
+          "authors": [
+            "Yuanqing Cai",
+            "Ziyi Huang",
+            "Minhao Liu",
+            "Lixin Duan",
+            "Wen Li"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces \"explicit-implicit reasoning\" to benchmark LLMs' ability to attend to subtle cues, inspired by human inattentional blindness. They created the MixRea benchmark and found even top LLMs struggle with this, exhibiting widespread inattentional blindness. To address this, they propose Potential Relation Completion Prompting (PRCP), a method that improves reasoning by recovering overlooked causal relations.",
+          "url": "http://arxiv.org/abs/2605.20128v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.20128v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.20128v1/x1.png",
+          "figure_caption": "An explicit-implicit reasoning example from our MixRea benchmark. When reasoning about explicitly stated information in the question, LLMs must leverage distinctions among events presented in the options to identify and infer relevant implicit information from the story context. They then integrate these reasoning results to derive the optimal event set.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.20061v1",
+          "title": "Rewarding Beliefs, Not Actions: Consistency-Guided Credit Assignment for Long-Horizon Agents",
+          "authors": [
+            "Wenjie Tang",
+            "Minne Li",
+            "Sijie Huang",
+            "Liquan Xiao",
+            "Yuan Zhou"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces ReBel, a reinforcement learning algorithm for long-horizon tasks where agents learn from verifiable rewards. ReBel addresses challenges in partially observable environments by explicitly modeling and updating agent beliefs. Its core contribution is a belief-consistency supervision mechanism that generates dense self-supervised signals from belief discrepancies, leading to more robust credit assignment without external annotations.",
+          "url": "http://arxiv.org/abs/2605.20061v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.20061v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.20061v1/figures/main1.png",
+          "figure_caption": "Overview of ReBel. ReBel learns belief-aware policies for partially observable long-horizon tasks by making latent belief explicit and decomposing policy generation into belief, think, and action. It turns sparse terminal rewards into step-wise belief consistency feedback and performs belief-anchor grouping to support stable step-level advantage estimation.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 23,
+        "papers_after_llm_filter": 12,
+        "count": 12
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Research Associate in Machine Learning and Computational Psychiatry for Digital Mental Health Interventions",
+          "url": "https://www.jobs.ac.uk/job/DRP414/research-associate-in-machine-learning-and-computational-psychiatry-for-digital-mental-health-interventions/",
+          "description": "About the role : Are you a researcher who wants to do serious machine learning in a domain that matters? We are seeking an exceptional Postdoctoral Research Associate to join MindCraft, an innovative programme at Imperial College London developing AI-guided smartphone-based mental health interventions for adolescents. You will work at the intersection of machine learning, computational psychiatry, digital phenotyping, and real-world intervention research — building mathematically grounded, personalised AI systems that can infer mental state from multimodal behavioural data and learn to deliver the right intervention at the right time. What you would be doing : You will play a central role in developing the project’s computational and machine learning core. Your work will include: Developing multimodal models of adolescent mental state from longitudinal mobile and self-report data Designing latent-state, state-space, probabilistic, or representation-learning approaches for modelling mental health trajectories Building personalised digital twin models integrating behavioural, contextual, and questionnaire-derived information Developing reinforcement learning, contextual bandit, or sequential decision-making models for adaptive intervention delivery Tackling core challenges such as partial observability, uncertainty, missingness, delayed rewards, and non-stationarity Contributing to the prospective deployment and evaluation of AI-driven interventions within a real-world school-based study Depending on your strengths, the role may lean more heavily toward probabilistic and dynamical modelling, reinforcement learning, multimodal representation learning, or computational behavioural modelling. What we are looking for : We are especially interested in candidates who combine mathematical maturity, serious implementation ability, and scientific curiosity about mind and behaviour. You should hold, or be close to completing, a PhD in machine learning, computer science, computational neuroscience, computational psychiatry, applied mathematics, statistics, engineering, physics, or a related quantitative discipline. You should have expertise in one or more of: probabilistic modelling, time-series modelling, latent-variable models, state-space models, reinforcement learning, sequential decision-making, representation learning, Bayesian methods, or computational models of behaviour. Strong Python and deep learning framework skills (PyTorch, JAX, or TensorFlow) are essential. Experience with healthcare, mental health, or mobile sensing data is highly desirable but not required. What we can offer you : The opportunity to work on hard machine learning problems with genuine scientific depth and real-world clinical consequence, not just pipeline engineering. Access to rich longitudinal data from an ongoing adolescent mental health study involving 700+ participants, with a rare opportunity to move beyond offline modelling into prospective, real-world adaptive intervention. https://www.imperial.ac.uk/early-career-researcher-institute A highly interdisciplinary research environment working closely with clinicians, psychiatrists, and behavioural scientists, with a clear route toward meaningful clinical impact for adolescent mental health. Sector-leading salary and remuneration package (including 41 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further Information *Please note that this is a PhD level role but candidates who have not yet been officially awarded will be appointed as a Research Assistant (£43,863 - £47,223) MindCraft sits within the Departments of Computing and Bioengineering at Imperial College London, in close collaboration with the Department of Brain Sciences. The project is embedded in an ethically approved trial infrastructure, creating a rare opportunity to develop and evaluate computationally principled adaptive digital mental health systems with a clear route toward meaningful clinical impact. This is a full-time, fixed-term post 36 months. (35 hours per week). If you require any further details about the role, please contact: [Professor Aldo Faisal] – [ a.faisal@imperial.ac.uk ]. £49,017 to £57,472 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk CS",
+          "deadline": "2026-05-31T00:00:00+00:00",
+          "requirements": "Research Area: Machine Learning, Computational Psychiatry, Digital Mental Health Interventions, Digital Phenotyping, AI-guided smartphone-based interventions, multimodal behavioural data analysis, mental state inference, adaptive intervention delivery.\nKey Requirements: Experience in machine learning, computational psychiatry, digital phenotyping, and real-world intervention research. Ability to develop mathematically grounded, personalised AI systems. Experience with multimodal data. Potential strengths in probabilistic/dynamical modelling, reinforcement learning, multimodal representation learning, or computational behavioural modelling.\nApplication Info: deadline: 2026-05-31, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57472.00 YEAR\nOne-line Advice: Strong match for CV/medical imaging applicants with ML expertise; LLM applicants may need to highlight multimodal data and sequential decision-making experience.",
+          "relevance_score": 7.0,
+          "institution": "Imperial College London",
+          "location": "London, England, United Kingdom",
+          "salary": "GBP49017.00-GBP57472.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "20th May 2026",
+          "job_ref": "ENG03894"
+        },
+        {
+          "title": "Assistant or Associate Professor in Applied Artificial Intelligence (53294-0526)",
+          "url": "https://www.jobs.ac.uk/job/DRO402/assistant-or-associate-professor-in-applied-artificial-intelligence-53294-0526/",
+          "description": "Informal Queries For informal queries, please contact Kurt Debattista (Professor) at K.Debattista@warwick.ac.uk . Flexible Working We will consider applications for employment on a part-time or other flexible working basis (e.g. job share), despite the position being advertised as full-time. Operation Requirements The successful applicant will be required to work the majority of their time on campus. WMG at the University of Warwick is undertaking a significant investment in Research & Teaching academic recruitment across several strategically important growth areas. As part of this coordinated campaign, we are seeking to appoint an Assistant Professor or Associate Professor in Applied Artificial Intelligence to contribute to internationally leading research, innovation, and teaching within WMG’s collaborative and industry-focused environment. This role offers an exciting opportunity to contribute to the development and application of artificial intelligence technologies that address complex real-world challenges across manufacturing, mobility, engineering systems, creative technologies, simulation, and digital environments. Working closely with academic, industrial, and international partners, the successful candidate will help develop innovative AI-driven solutions with clear real-world impact. The successful candidate will contribute to high-quality research, collaborative funding activity, postgraduate supervision, and research-informed teaching across areas including machine learning, deep learning, generative AI, visual computing, intelligent systems, digital twinning, and human-AI interaction. WMG offers a highly interdisciplinary environment with strong industrial engagement, access to world-class facilities, and extensive opportunities to collaborate across advanced manufacturing, automation, transport, simulation, and digital engineering domains. Appointments will be considered at either Assistant Professor or Associate Professor level depending on experience, research profile, leadership trajectory, and funding track record. About You You will hold a PhD in Artificial Intelligence, Computer Science, Engineering, or a closely related discipline and demonstrate expertise aligned to applied AI research and innovation. We are particularly interested in candidates with expertise in one or more of: machine learning and deep learning generative AI visual computing and simulation intelligent engineering systems digital twinning human–AI interaction AI for manufacturing and industrial systems AI for transport and intelligent mobility You should demonstrate the ability, or strong potential, to develop internationally recognised research through publications, collaborative projects, funding activity, and engagement with industrial and academic partners. Candidates applying at Associate Professor level should demonstrate an established research profile and evidence of academic leadership, while Assistant Professor candidates should demonstrate strong potential to develop an independent and impactful research trajectory within a collaborative environment. We particularly welcome candidates who are enthusiastic about interdisciplinary working, industry engagement, and translating research into meaningful real-world impact. For details on the experience and skills required, please refer to the job description attached as a PDF below. About the Department The Warwick Manufacturing Group (WMG) is the largest department at the University of Warwick, with over 800 staff and nearly 3,000 students across undergraduate and postgraduate programmes in management, technology, and applied engineering. We are globally recognised for our world-class research, innovative industry partnerships, and teaching excellence, and we are proud holders of the Athena SWAN Silver Award and the Institutional Silver Award. Find out more about the High Value Manufacturing Catapult centre . Find out more about the Energy Innovation Centre . Find out more about our range of undergraduate and apprenticeship degrees here . About the University We are a world-leading research-intensive university founded in 1965. We are ranked 74th in the world and 9th in the UK. * Additionally, 92% of our research is rated world-leading or internationally excellent .** Find out more about us at warwick.ac.uk/about/ . * World University Ranking 2026 , Complete University Guide 2026 ** Research Excellence Framework 2021 How to Apply CLOSING DEADLINE : Thursday 18 June 2026 at 11:55pm (UK Time) To apply, please click APPLY below and submit your application by the closing deadline. You will be asked to include a CV and cover letter. Within these documents, please: 1. Outline your employment and education history (including your most recent employment). 2. Outline the reasons for your interest in this position. 3. Demonstrate how you meet the requirements of the role with clear reference to each of the essential and desirable criteria in the Job Description (PDF attached below). Interview Date: To be confirmed Start Date: To be confirmed Applications must be submitted by the closing deadline. Only applications submitted through our Careers Portal will be considered. You are welcome to include any careers breaks you may have taken (e.g. parental/caring/long-term sick leave). Please note that if you do not evidence the essential criteria, the hiring panel may not be able to shortlist your application. For guidance on how to format a cover letter, see here . What we Offer We provide a comprehensive range of benefits, including: An attractive pension scheme. 30 days holiday plus University Christmas closure. Generous parental/adoption leave policy. Onsite childcare facilities. Excellent learning and development opportunities. We recognise the importance of a healthy work/life balance and offer access to flexible working arrangements. For more information, see here . We are proud to be a Living Wage employer . Our Commitment to Inclusion Equality, Diversity, & Inclusion Warwick is committed to fostering a diverse, inclusive and respectful community where everyone can thrive. We welcome applications from all backgrounds, cultures, and communities, and actively encourage candidates from underrepresented groups to apply. Find out more about our Social Inclusion work at Warwick . Find out more about our awards and accreditations . We are also one of the six founder institutions of the EUTOPIA European University Alliance . Safeguarding & DBS The University of Warwick is committed to safeguarding and promoting the welfare of all those we work with. Roles involving regulated activity are subject to a Disclosure and Barring Service (DBS) check at the appropriate level, in line with the DBS Code of Practice. The University will ensure that anyone subject to a barring order does not undertake any work with the barred group (children and/or adults). All employees, volunteers, and partners are expected to share our commitment to safeguarding. Rehabilitation of Ex-Offenders The University will not discriminate against applicants who make a disclosure relating to a conviction. Disclosures at application stage are only visible to the DBS team, not to hiring panels. This ensures fairness and removes bias from the shortlisting process. Job Description JD - Assistant or Associate Professor in Applied Artificial Intelligence (53294, 111517).pdf – 127KB Opens in a new window Right to Work in the UK If you do not yet have the right to work in the UK and/or are seeking sponsorship for a Skilled Worker visa, please follow this link which contains further information about obtaining the right to work in the UK. £47,389 to £67,468 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk CS",
+          "deadline": "2026-06-18T00:00:00+00:00",
+          "requirements": "Research Area: Applied Artificial Intelligence (Machine Learning, Deep Learning, Generative AI, Visual Computing, Intelligent Systems, Digital Twinning, Human-AI Interaction)\nKey Requirements: Contribute to research, innovation, and teaching in AI technologies for manufacturing, mobility, engineering systems, creative technologies, simulation, and digital environments.\nApplication Info: deadline: 2026-06-18, required materials: N/A, contact: K.Debattista@warwick.ac.uk\nPosition Details: University of Warwick, Coventry, England, United Kingdom; Permanent, Full Time; Salary: GBP47389.00-GBP67468.00 YEAR\nOne-line Advice: Strong alignment for CV/medical imaging/LLM applicants with focus on applied AI and real-world impact.",
+          "relevance_score": 8.0,
+          "institution": "University of Warwick",
+          "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+          "salary": "GBP47389.00-GBP67468.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Permanent",
+          "placed_on": "19th May 2026",
+          "job_ref": "(53294-0526)"
+        },
+        {
+          "title": "Research Associate - AIWearable Technology Specialist (0.5 FTE)",
+          "url": "https://www.jobs.ac.uk/job/DRP577/research-associate-aiwearable-technology-specialist-05-fte/",
+          "description": "Job Title: Research Associate - AI/Wearable Technology Specialist (PD-LIFE) School: School of Computing, Engineering and Intelligent Systems Campus: Derry~Londonderry Salary: Research Grade 6/7 - £33,020 - £39,975 per annum, pro rata Closing Date: 02 June 2026 Reference Number: 042386 (Fixed term until 31 August 2029 / Part-time 0.5 FTE (17.5 hours per week)) - ABOUT US - We are a university with a national and international reputation for excellence, innovation and regional engagement, making a major contribution to the economic, social and cultural development of Northern Ireland. Our core business activities are teaching and learning, widening access to education, research and innovation and technology and knowledge transfer. - THE ROLE - The PD-LIFE project is an all-island emerging hub of excellence that unites researchers, clinicians, people with Parkinson's, and advocacy partners to transform the understanding and care of Parkinson's disease (PD) across Ireland. The postholder will be an integral part of a dynamic team, responsible for providing expertise in wearable technology and AI, and conducting high-quality research for the project stakeholders. The project is supported by the North South Research Programme through the Shared Island Fund and administered by the Higher Education Authority. - ABOUT YOU 1. You will hold a PhD, completed or near completion, with a thesis submitted in the area of Computer Science or a closely related discipline. 2. You will hold a degree in Computer Science, Data Analytics or a closely related science-based discipline. 3. You will have practical experience with wearable technologies such as IMU sensors, as well as analysing and pre-processing resultant datasets. Please find our employee benefits on our website. Ulster University holds a Silver Athena SWAN award in recognition of our commitment to advancing Gender equality in higher education. You can read more about what this means on our University website. The University has a range of initiatives to support a family friendly working environment, including flexible working. The University is an equal opportunities employer and welcomes applicants from all sections of the community, particularly from those with disabilities. Appointment will be made on merit. £33,020 to £39,975. Grade 6/7 pro rata",
+          "posted_date": "",
+          "source": "jobs.ac.uk CS",
+          "deadline": "2026-06-02T00:00:00+00:00",
+          "requirements": "Research Area: AI and Wearable Technology for Parkinson's Disease research (PD-LIFE project)\nKey Requirements: PhD in Computer Science or related field, degree in Computer Science/Data Analytics or related science, practical experience with wearable technologies (e.g., IMU sensors) and data analysis/pre-processing.\nApplication Info: deadline: 2026-06-02T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: Londonderry, Northern Ireland, United Kingdom, Fixed-Term/Contract (until 31 August 2029), Part Time (0.5 FTE / 17.5 hours per week), GBP33020.00-GBP39975.00 YEAR (pro rata)\nOne-line Advice: CVs should highlight experience with wearable sensor data analysis and AI techniques relevant to health monitoring.",
+          "relevance_score": 7.0,
+          "institution": "Ulster University",
+          "location": "Londonderry, Northern Ireland, United Kingdom",
+          "salary": "GBP33020.00-GBP39975.00 YEAR",
+          "hours": "Part Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "19th May 2026",
+          "job_ref": "042386"
+        },
+        {
+          "title": "Postdoctoral Research Associate in Multimodal Foundation Models for Healthcare (Two Posts)",
+          "url": "https://www.jobs.ac.uk/job/DRP608/postdoctoral-research-associate-in-multimodal-foundation-models-for-healthcare-two-posts/",
+          "description": "Location : South Kensington Campus, London About the role : Are you an ambitious researcher ready to shape the future of AI for healthcare? Nightingale AI at Imperial College London is seeking two outstanding Postdoctoral Research Associates to help build next-generation multimodal foundation models that can learn from the full richness of health data — from biosignals and electronic health records to imaging, wearables, and biomedical knowledge. These posts offer a rare opportunity to work on frontier AI with real clinical and biomedical consequence. What you would be doing : You will join Nightingale AI, an interdisciplinary programme spanning machine learning, medicine, neuroscience, engineering, and translational healthcare. Depending on your expertise and interests, your research may focus on one or more of the following areas: Multimodal foundation models for biosignals and population-scale health data, including self-supervised learning, time-series modelling, and cross-modal representation learning. Scalable generative health AI, knowledge-graph-enhanced modelling, retrieval-augmented generation, and architectures that improve faithfulness and scientific coherence. Theory of unified multimodal foundation models, including representation structure, scaling behaviour, modality alignment, and mathematically principled approaches to heterogeneous data integration. We are particularly interested in applicants who can help define the scientific direction of the programme, rather than simply execute a pre-specified agenda. What we are looking for : You should hold, or be close to completing, a PhD in machine learning, artificial intelligence, computer science, statistics, mathematics, computational biology, biomedical engineering, or a closely related quantitative discipline. We are looking for candidates with a strong track record and expertise in several of the following: Multimodal learning, self-supervised or representation learning • Biosignal or time-series modelling • Large-scale or generative foundation models • Knowledge graphs, graph learning, or retrieval-augmented methods • Machine learning theory, scaling laws, or generalisation in deep learning • Distributed training and large-scale experimental ML Experience with healthcare or biomedical data is highly desirable, but exceptional candidates from adjacent AI fields with a strong motivation to work in health are also encouraged to apply. What we can offer you : The opportunity to work on AI intended to matter in practice, not only on benchmark problems, as part of an ambitious programme building a new class of unified health AI systems. Access to uniquely rich, nation-scale healthcare and biomedical data resources, and millions of GPU hours on national AI compute infrastructure for ambitious large-scale experiments. https://www.imperial.ac.uk/early-career-researcher-institute Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further Information *Please note that this is a PhD level role but candidates who have not yet been officially awarded will be appointed as a Research Assistant (£43,863 - £47,223) Nightingale AI sits within the Departments of Computing and Bioengineering at Imperial College London, spanning a wider ecosystem of partnerships in healthcare, biomedical research, and real-world deployment. For the right candidates, these roles offer the chance to help build not just models, but an entire new scientific and technological capability for healthcare AI. This is a full-time, fixed post for 24 months (35 hours per week). If you require any further details about the role, please contact: Professor Aldo Faisal – a.faisal@imperial.ac.uk £49,017 to £57,472 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "2026-06-16T00:00:00+00:00",
+          "requirements": "Research Area: Multimodal Foundation Models for Healthcare (biosignals, electronic health records, imaging, wearables, biomedical knowledge), Self-supervised learning, Time-series modelling, Cross-modal representation learning, Scalable generative health AI, Knowledge-graph-enhanced modelling, Retrieval-augmented generation, Unified multimodal foundation models, Representation structure, Scaling behaviour, Modality alignment, Heterogeneous data integration.\nKey Requirements: PhD in machine learning, artificial intelligence, computer science, statistics, mathematics, computational biology, biomedical engineering, or a closely related quantitative discipline. Ability to define scientific direction.\nApplication Info: deadline/start date: 2026-06-16T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: South Kensington Campus, London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57472.00 YEAR\nOne-line Advice: CVs should highlight experience with multimodal data integration and foundation model development; medical imaging experience is a plus but not explicitly required; LLM expertise is relevant for generative AI aspects.",
+          "relevance_score": 10.0,
+          "institution": "Imperial College London",
+          "location": "London, England, United Kingdom",
+          "salary": "GBP49017.00-GBP57472.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "19th May 2026",
+          "job_ref": "ENG03884"
+        }
+      ],
+      "meta": {
+        "count": 4
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 23,
+    "papers_after_llm_filter": 12,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 86
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2605.20176v1",
+      "title": "ClinSeekAgent: Automating Multimodal Evidence Seeking for Agentic Clinical Reasoning",
+      "authors": [
+        "Juncheng Wu",
+        "Letian Zhang",
+        "Yuhan Wang",
+        "Haoqin Tu",
+        "Hardy Chen"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "ClinSeekAgent is an automated framework that empowers LLMs to actively seek and synthesize multimodal clinical evidence from diverse sources like knowledge bases, EHRs, and imaging tools. Its core method involves iterative planning and hypothesis refinement, moving beyond passive evidence consumption to dynamic evidence acquisition. The contribution is a paradigm shift towards agentic clinical reasoning that can operate with raw data, enabling more grounded and comprehensive decision support.",
+      "url": "http://arxiv.org/abs/2605.20176v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20176v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.20176v1/figure/teaser.png",
+      "figure_caption": "ClinSeekAgent Overview. ClinSeekAgent is an automated agentic evidence-seeking pipeline. It interacts with heterogeneous data sources to enable multimodal evidence seeking for clinical decision support. Compared with prior user-curated context settings, ClinSeekAgent is more flexible by acquiring richer information and knowledge from diverse tools.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.20170v1",
+      "title": "KoRe: Compact Knowledge Representations for Large Language Models",
+      "authors": [
+        "Davide Cavicchini",
+        "Fausto Giunchiglia",
+        "Jacopo Staiano"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "KoRe introduces a method to encode 1-hop knowledge graph subgraphs into compact, discrete tokens. These tokens are then injected into a Large Language Model (LLM) backbone, allowing for efficient integration of external knowledge without extensive retraining. This approach aims to overcome the opacity and update difficulties of LLM-internal knowledge by leveraging the readability and editability of knowledge graphs.",
+      "url": "http://arxiv.org/abs/2605.20170v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20170v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.20170v1/x1.png",
+      "figure_caption": "Taxonomy of Knowledge Augmentation Approaches for LLMs",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.20179v1",
+      "title": "TIDE: Efficient and Lossless MoE Diffusion LLM Inference with I/O-aware Expert Offload",
+      "authors": [
+        "Zhiben Chen",
+        "Youpeng Zhao",
+        "Yang Sui",
+        "Jun Wang",
+        "Yuzhang Shang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "TIDE addresses the challenge of efficiently inferring large Mixture-of-Experts (MoE) diffusion LLMs on resource-constrained devices. Its core method is an I/O-aware expert offload strategy that exploits the temporal stability of expert activations during the diffusion process. This allows for efficient expert placement and refresh, minimizing I/O overhead and compute bottlenecks, thus enabling lossless and efficient MoE dLLM inference.",
+      "url": "http://arxiv.org/abs/2605.20179v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20179v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.20179v1/figures/figure1.png",
+      "figure_caption": "(a) Similarity heatmap of expert routing across denoising steps within a block. Expert routing remains highly similar for nearby steps, and the diagonal bands show that this stability extends beyond immediate neighbors: step pairs separated by five denoising steps retain cosine similarity near 0.95 0.95 . (b) Overview of TIDE . At refresh steps , the system intelligently swaps the GPU and CPU experts based on token hit counts (number of tokens each expert has processed). At skipped steps , the system continues decoding with the current expert placement and does not migrate experts. By exploiting routing stability across adjacent steps, TIDE avoids unnecessary GPU-CPU I/O overhead and maintains high GPU utilization. (c) Throughput comparison of TIDE against state-of-the-art MoE inference solutions [Kamahori et al. , 2024 , Eliseev and Mazur, 2023 ] for LLaDA2.0 in a single GPU-CPU setting.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.20084v1",
+      "title": "BalanceRAG: Joint Risk Calibration for Cascaded Retrieval-Augmented Generation",
+      "authors": [
+        "Zijun Jia",
+        "Yuanchang Ye",
+        "Sen Jia",
+        "Yiyao Qian",
+        "Haoning Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "BalanceRAG addresses the challenge of calibrating cascaded Retrieval-Augmented Generation (RAG) systems. Its core method involves jointly calibrating uncertainty thresholds for both the LLM-only and RAG branches, treating threshold pairs as operating points on a 2D lattice. The contribution is a risk-adaptive approach that certifies threshold pairs at a target risk level, enabling better control of system-level error rates and retaining more valid examples compared to stage-by-stage calibration.",
+      "url": "http://arxiv.org/abs/2605.20084v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20084v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.20084v1/x1.png",
+      "figure_caption": "Distribution of the per-example score differences between RAG and LLM-only. S LLM ​ - ​ RAG S_{\\( \\mathrm \\){LLM\\( \\text{-} \\)RAG}} and S LLM ​ - ​ only S_{\\( \\mathrm \\){LLM\\( \\text{-} \\)only}} are the similarity scores between each path’s prediction and the ground-truth answer. The x-axis reports S LLM ​ - ​ RAG − S LLM ​ - ​ only S_{\\( \\mathrm \\){LLM\\( \\text{-} \\)RAG}}-S_{\\( \\mathrm \\){LLM\\( \\text{-} \\)only}} , with positive values favoring RAG and negative values favoring LLM-only, while the y-axis reports the number of examples. Colors distinguish whether both branches are correct, both are wrong, or only one branch is correct.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.20087v1",
+      "title": "ThoughtTrace: Understanding User Thoughts in Real-World LLM Interactions",
+      "authors": [
+        "Chuanyang Jin",
+        "Binze Li",
+        "Haopeng Xie",
+        "Cathy Mengying Fang",
+        "Tianjian Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ThoughtTrace, the first large-scale dataset pairing real-world human-AI conversations with users' self-reported thoughts. The core contribution is capturing users' underlying reasoning and reactions, which are distinct from their messages and difficult for current LLMs to infer. ThoughtTrace enables better user behavior prediction and fine-grained alignment for personalized assistant training.",
+      "url": "http://arxiv.org/abs/2605.20087v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20087v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.20087v1/x1.png",
+      "figure_caption": "A representative example from ThoughtTrace . A user interacts with a chatbot to complete daily tasks through multi-turn conversations (top), while annotating their latent thoughts during the conversations (bottom). Thoughts take two forms: reasons for sending user prompts and reactions to assistant responses, which can be categorized into several types (e.g., task motivation , style expectation ). Latent thoughts reveal users’ thought traces that drive the human-AI interactions in multi-turn conversations, providing valuable signals for user modeling and improving AI assistance.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.20173v1",
+      "title": "A Methodology for Selecting and Composing Runtime Architecture Patterns for Production LLM Agents",
+      "authors": [
+        "Vasundra Srinivasan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces the \"stochastic-deterministic boundary\" (SDB) as a core architectural primitive for production LLM agents, defining a four-part contract for integrating LLM outputs into system actions. It then proposes six runtime patterns, organized around Coordination, State, and Control, to compose this SDB for various agent types, adapting distributed systems concepts to the stochastic nature of LLMs. The contribution lies in providing a structured methodology and reusable patterns for building robust LLM agent runtimes.",
+      "url": "http://arxiv.org/abs/2605.20173v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20173v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.20075v1",
+      "title": "CopT: Contrastive On-Policy Thinking with Continuous Spaces for General and Agentic Reasoning",
+      "authors": [
+        "Dachuan Shi",
+        "Hanlin Zhu",
+        "Xiangchi Yuan",
+        "Wanjia Zhao",
+        "Kejing Xia"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "CopT reverses the traditional Chain-of-Thought approach by first generating a draft answer and then performing \"on-policy thinking\" to reflect and correct it. It uses continuous embeddings as contrastive verifiers to assess the trustworthiness of the draft answer by comparing token support under discrete and continuous inputs. This method aims to improve reasoning efficiency and accuracy by allowing for earlier access to plausible answers and more targeted refinement.",
+      "url": "http://arxiv.org/abs/2605.20075v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20075v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.20075v1/x1.png",
+      "figure_caption": "(a) Conceptual comparison between CoT thinking and CopT on-policy thinking. (b) CopT contrasts the output distributions under discrete and continuous inputs. (c) CopT improves peak accuracy, marked by ∗ , across mathematics, coding, and agentic reasoning tasks and nearly halves token usage at matched accuracy.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.20149v1",
+      "title": "Less Back-and-Forth: A Comparative Study of Structured Prompting",
+      "authors": [
+        "Saurav Ghosh",
+        "Gabriella Polach",
+        "Abdou Sow"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "abstract": "This paper investigates how structured prompts affect Large Language Model (LLM) performance. It compares raw prompts, checklist-improved prompts, and clarifying-question prompts across various tasks and LLM systems. The core contribution is demonstrating that checklist-improved prompts significantly enhance response quality and efficiency, achieving the highest scores and best quality-effort tradeoff.",
+      "url": "http://arxiv.org/abs/2605.20149v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20149v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.20149v1/architecture2.png",
+      "figure_caption": "Study design overview. For each task, a raw prompt is evaluated alongside a checklist-improved prompt and a clarifying-question prompt. Each prompt condition is tested across multiple LLMs, and the resulting outputs are scored using the same rubric.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.20072v1",
+      "title": "Probing Embodied LLMs: When Higher Observation Fidelity Hurts Problem Solving",
+      "authors": [
+        "Oussama Zenkri",
+        "Oliver Brock"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper investigates how observation fidelity impacts embodied Large Language Models (LLMs) in robotic tasks. The core method involves empirically testing LLM agents on a mechanical puzzle with varying levels of visual and symbolic information. The surprising contribution is that LLMs perform *better* with less precise, raw RGB input than with perfect ground-truth observations, suggesting that moderate noise can actually enhance their problem-solving abilities by making them more robust to uncertainty.",
+      "url": "http://arxiv.org/abs/2605.20072v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20072v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.20072v1/x1.png",
+      "figure_caption": "Our robotic system manipulating the Lockbox. Our Lockbox comprises two prismatic joints (sliding bars in the middle) and two revolute joints. The Lockbox is unlocked when the leftmost revolute joint, which we refer to as the target joint, is pulled. The robot employs a soft-hand end effector for manipulating the joints, an RGB-D camera for acquiring visual data, and a force-torque sensor for assessing the joint movability and guiding their manipulation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.20086v1",
+      "title": "What Do Evolutionary Coding Agents Evolve?",
+      "authors": [
+        "Nico Pelleriti",
+        "Sree Harsha Nelaturu",
+        "Zhanke Zhou",
+        "Zongze Li",
+        "Max Zimmer"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.NE"
+      ],
+      "abstract": "This paper introduces EvoTrace, a dataset of evolutionary coding traces, to address the question of what these systems actually evolve. Their core method, EvoReplay, analyzes these traces to distinguish between genuine algorithmic innovation and other mechanisms like re-tuning or overfitting. The contribution is a novel methodology and dataset for understanding the internal workings of evolutionary coding agents.",
+      "url": "http://arxiv.org/abs/2605.20086v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20086v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.20086v1/x1.png",
+      "figure_caption": "A taxonomy of edits performed by evolutionary coding agents. Each panel shows a representative parent–child diff (added lines in green, deleted lines in red) drawn from EvoTrace runs and labeled with one of nine recurring categories: Bug fix , External dependency , Architectural change , Composition , Local refinement , Pruning , Refactor , Efficiency , and Hyperparameter tuning . The categories range from minimal numeric edits (a single literal change) to structural rewrites (replacing a 14-gon with two concentric heptagons), and they form the basis of the LLM-as-judge edit annotation used throughout the paper. Edits are typically multi-label; we examine prevalence and per-edit utility in § 5.1 .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.20128v1",
+      "title": "MixRea: Benchmarking Explicit-Implicit Reasoning in Large Language Models",
+      "authors": [
+        "Yuanqing Cai",
+        "Ziyi Huang",
+        "Minhao Liu",
+        "Lixin Duan",
+        "Wen Li"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces \"explicit-implicit reasoning\" to benchmark LLMs' ability to attend to subtle cues, inspired by human inattentional blindness. They created the MixRea benchmark and found even top LLMs struggle with this, exhibiting widespread inattentional blindness. To address this, they propose Potential Relation Completion Prompting (PRCP), a method that improves reasoning by recovering overlooked causal relations.",
+      "url": "http://arxiv.org/abs/2605.20128v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20128v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.20128v1/x1.png",
+      "figure_caption": "An explicit-implicit reasoning example from our MixRea benchmark. When reasoning about explicitly stated information in the question, LLMs must leverage distinctions among events presented in the options to identify and infer relevant implicit information from the story context. They then integrate these reasoning results to derive the optimal event set.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.20061v1",
+      "title": "Rewarding Beliefs, Not Actions: Consistency-Guided Credit Assignment for Long-Horizon Agents",
+      "authors": [
+        "Wenjie Tang",
+        "Minne Li",
+        "Sijie Huang",
+        "Liquan Xiao",
+        "Yuan Zhou"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ReBel, a reinforcement learning algorithm for long-horizon tasks where agents learn from verifiable rewards. ReBel addresses challenges in partially observable environments by explicitly modeling and updating agent beliefs. Its core contribution is a belief-consistency supervision mechanism that generates dense self-supervised signals from belief discrepancies, leading to more robust credit assignment without external annotations.",
+      "url": "http://arxiv.org/abs/2605.20061v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20061v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.20061v1/figures/main1.png",
+      "figure_caption": "Overview of ReBel. ReBel learns belief-aware policies for partially observable long-horizon tasks by making latent belief explicit and decomposing policy generation into belief, think, and action. It turns sparse terminal rewards into step-wise belief consistency feedback and performs belief-anchor grouping to support stable step-level advantage estimation.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2605.20176v1",
+      "title": "ClinSeekAgent: Automating Multimodal Evidence Seeking for Agentic Clinical Reasoning",
+      "authors": [
+        "Juncheng Wu",
+        "Letian Zhang",
+        "Yuhan Wang",
+        "Haoqin Tu",
+        "Hardy Chen"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "ClinSeekAgent is an automated framework that empowers LLMs to actively seek and synthesize multimodal clinical evidence from diverse sources like knowledge bases, EHRs, and imaging tools. Its core method involves iterative planning and hypothesis refinement, moving beyond passive evidence consumption to dynamic evidence acquisition. The contribution is a paradigm shift towards agentic clinical reasoning that can operate with raw data, enabling more grounded and comprehensive decision support.",
+      "url": "http://arxiv.org/abs/2605.20176v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20176v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.20176v1/figure/teaser.png",
+      "figure_caption": "ClinSeekAgent Overview. ClinSeekAgent is an automated agentic evidence-seeking pipeline. It interacts with heterogeneous data sources to enable multimodal evidence seeking for clinical decision support. Compared with prior user-curated context settings, ClinSeekAgent is more flexible by acquiring richer information and knowledge from diverse tools.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.20170v1",
+      "title": "KoRe: Compact Knowledge Representations for Large Language Models",
+      "authors": [
+        "Davide Cavicchini",
+        "Fausto Giunchiglia",
+        "Jacopo Staiano"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "KoRe introduces a method to encode 1-hop knowledge graph subgraphs into compact, discrete tokens. These tokens are then injected into a Large Language Model (LLM) backbone, allowing for efficient integration of external knowledge without extensive retraining. This approach aims to overcome the opacity and update difficulties of LLM-internal knowledge by leveraging the readability and editability of knowledge graphs.",
+      "url": "http://arxiv.org/abs/2605.20170v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20170v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.20170v1/x1.png",
+      "figure_caption": "Taxonomy of Knowledge Augmentation Approaches for LLMs",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.20179v1",
+      "title": "TIDE: Efficient and Lossless MoE Diffusion LLM Inference with I/O-aware Expert Offload",
+      "authors": [
+        "Zhiben Chen",
+        "Youpeng Zhao",
+        "Yang Sui",
+        "Jun Wang",
+        "Yuzhang Shang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "TIDE addresses the challenge of efficiently inferring large Mixture-of-Experts (MoE) diffusion LLMs on resource-constrained devices. Its core method is an I/O-aware expert offload strategy that exploits the temporal stability of expert activations during the diffusion process. This allows for efficient expert placement and refresh, minimizing I/O overhead and compute bottlenecks, thus enabling lossless and efficient MoE dLLM inference.",
+      "url": "http://arxiv.org/abs/2605.20179v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20179v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.20179v1/figures/figure1.png",
+      "figure_caption": "(a) Similarity heatmap of expert routing across denoising steps within a block. Expert routing remains highly similar for nearby steps, and the diagonal bands show that this stability extends beyond immediate neighbors: step pairs separated by five denoising steps retain cosine similarity near 0.95 0.95 . (b) Overview of TIDE . At refresh steps , the system intelligently swaps the GPU and CPU experts based on token hit counts (number of tokens each expert has processed). At skipped steps , the system continues decoding with the current expert placement and does not migrate experts. By exploiting routing stability across adjacent steps, TIDE avoids unnecessary GPU-CPU I/O overhead and maintains high GPU utilization. (c) Throughput comparison of TIDE against state-of-the-art MoE inference solutions [Kamahori et al. , 2024 , Eliseev and Mazur, 2023 ] for LLaDA2.0 in a single GPU-CPU setting.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.20084v1",
+      "title": "BalanceRAG: Joint Risk Calibration for Cascaded Retrieval-Augmented Generation",
+      "authors": [
+        "Zijun Jia",
+        "Yuanchang Ye",
+        "Sen Jia",
+        "Yiyao Qian",
+        "Haoning Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "BalanceRAG addresses the challenge of calibrating cascaded Retrieval-Augmented Generation (RAG) systems. Its core method involves jointly calibrating uncertainty thresholds for both the LLM-only and RAG branches, treating threshold pairs as operating points on a 2D lattice. The contribution is a risk-adaptive approach that certifies threshold pairs at a target risk level, enabling better control of system-level error rates and retaining more valid examples compared to stage-by-stage calibration.",
+      "url": "http://arxiv.org/abs/2605.20084v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20084v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.20084v1/x1.png",
+      "figure_caption": "Distribution of the per-example score differences between RAG and LLM-only. S LLM ​ - ​ RAG S_{\\( \\mathrm \\){LLM\\( \\text{-} \\)RAG}} and S LLM ​ - ​ only S_{\\( \\mathrm \\){LLM\\( \\text{-} \\)only}} are the similarity scores between each path’s prediction and the ground-truth answer. The x-axis reports S LLM ​ - ​ RAG − S LLM ​ - ​ only S_{\\( \\mathrm \\){LLM\\( \\text{-} \\)RAG}}-S_{\\( \\mathrm \\){LLM\\( \\text{-} \\)only}} , with positive values favoring RAG and negative values favoring LLM-only, while the y-axis reports the number of examples. Colors distinguish whether both branches are correct, both are wrong, or only one branch is correct.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.20087v1",
+      "title": "ThoughtTrace: Understanding User Thoughts in Real-World LLM Interactions",
+      "authors": [
+        "Chuanyang Jin",
+        "Binze Li",
+        "Haopeng Xie",
+        "Cathy Mengying Fang",
+        "Tianjian Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ThoughtTrace, the first large-scale dataset pairing real-world human-AI conversations with users' self-reported thoughts. The core contribution is capturing users' underlying reasoning and reactions, which are distinct from their messages and difficult for current LLMs to infer. ThoughtTrace enables better user behavior prediction and fine-grained alignment for personalized assistant training.",
+      "url": "http://arxiv.org/abs/2605.20087v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20087v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.20087v1/x1.png",
+      "figure_caption": "A representative example from ThoughtTrace . A user interacts with a chatbot to complete daily tasks through multi-turn conversations (top), while annotating their latent thoughts during the conversations (bottom). Thoughts take two forms: reasons for sending user prompts and reactions to assistant responses, which can be categorized into several types (e.g., task motivation , style expectation ). Latent thoughts reveal users’ thought traces that drive the human-AI interactions in multi-turn conversations, providing valuable signals for user modeling and improving AI assistance.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.20173v1",
+      "title": "A Methodology for Selecting and Composing Runtime Architecture Patterns for Production LLM Agents",
+      "authors": [
+        "Vasundra Srinivasan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces the \"stochastic-deterministic boundary\" (SDB) as a core architectural primitive for production LLM agents, defining a four-part contract for integrating LLM outputs into system actions. It then proposes six runtime patterns, organized around Coordination, State, and Control, to compose this SDB for various agent types, adapting distributed systems concepts to the stochastic nature of LLMs. The contribution lies in providing a structured methodology and reusable patterns for building robust LLM agent runtimes.",
+      "url": "http://arxiv.org/abs/2605.20173v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20173v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.20075v1",
+      "title": "CopT: Contrastive On-Policy Thinking with Continuous Spaces for General and Agentic Reasoning",
+      "authors": [
+        "Dachuan Shi",
+        "Hanlin Zhu",
+        "Xiangchi Yuan",
+        "Wanjia Zhao",
+        "Kejing Xia"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "CopT reverses the traditional Chain-of-Thought approach by first generating a draft answer and then performing \"on-policy thinking\" to reflect and correct it. It uses continuous embeddings as contrastive verifiers to assess the trustworthiness of the draft answer by comparing token support under discrete and continuous inputs. This method aims to improve reasoning efficiency and accuracy by allowing for earlier access to plausible answers and more targeted refinement.",
+      "url": "http://arxiv.org/abs/2605.20075v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20075v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.20075v1/x1.png",
+      "figure_caption": "(a) Conceptual comparison between CoT thinking and CopT on-policy thinking. (b) CopT contrasts the output distributions under discrete and continuous inputs. (c) CopT improves peak accuracy, marked by ∗ , across mathematics, coding, and agentic reasoning tasks and nearly halves token usage at matched accuracy.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.20149v1",
+      "title": "Less Back-and-Forth: A Comparative Study of Structured Prompting",
+      "authors": [
+        "Saurav Ghosh",
+        "Gabriella Polach",
+        "Abdou Sow"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "abstract": "This paper investigates how structured prompts affect Large Language Model (LLM) performance. It compares raw prompts, checklist-improved prompts, and clarifying-question prompts across various tasks and LLM systems. The core contribution is demonstrating that checklist-improved prompts significantly enhance response quality and efficiency, achieving the highest scores and best quality-effort tradeoff.",
+      "url": "http://arxiv.org/abs/2605.20149v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20149v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.20149v1/architecture2.png",
+      "figure_caption": "Study design overview. For each task, a raw prompt is evaluated alongside a checklist-improved prompt and a clarifying-question prompt. Each prompt condition is tested across multiple LLMs, and the resulting outputs are scored using the same rubric.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.20072v1",
+      "title": "Probing Embodied LLMs: When Higher Observation Fidelity Hurts Problem Solving",
+      "authors": [
+        "Oussama Zenkri",
+        "Oliver Brock"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper investigates how observation fidelity impacts embodied Large Language Models (LLMs) in robotic tasks. The core method involves empirically testing LLM agents on a mechanical puzzle with varying levels of visual and symbolic information. The surprising contribution is that LLMs perform *better* with less precise, raw RGB input than with perfect ground-truth observations, suggesting that moderate noise can actually enhance their problem-solving abilities by making them more robust to uncertainty.",
+      "url": "http://arxiv.org/abs/2605.20072v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20072v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.20072v1/x1.png",
+      "figure_caption": "Our robotic system manipulating the Lockbox. Our Lockbox comprises two prismatic joints (sliding bars in the middle) and two revolute joints. The Lockbox is unlocked when the leftmost revolute joint, which we refer to as the target joint, is pulled. The robot employs a soft-hand end effector for manipulating the joints, an RGB-D camera for acquiring visual data, and a force-torque sensor for assessing the joint movability and guiding their manipulation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.20086v1",
+      "title": "What Do Evolutionary Coding Agents Evolve?",
+      "authors": [
+        "Nico Pelleriti",
+        "Sree Harsha Nelaturu",
+        "Zhanke Zhou",
+        "Zongze Li",
+        "Max Zimmer"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.NE"
+      ],
+      "abstract": "This paper introduces EvoTrace, a dataset of evolutionary coding traces, to address the question of what these systems actually evolve. Their core method, EvoReplay, analyzes these traces to distinguish between genuine algorithmic innovation and other mechanisms like re-tuning or overfitting. The contribution is a novel methodology and dataset for understanding the internal workings of evolutionary coding agents.",
+      "url": "http://arxiv.org/abs/2605.20086v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20086v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.20086v1/x1.png",
+      "figure_caption": "A taxonomy of edits performed by evolutionary coding agents. Each panel shows a representative parent–child diff (added lines in green, deleted lines in red) drawn from EvoTrace runs and labeled with one of nine recurring categories: Bug fix , External dependency , Architectural change , Composition , Local refinement , Pruning , Refactor , Efficiency , and Hyperparameter tuning . The categories range from minimal numeric edits (a single literal change) to structural rewrites (replacing a 14-gon with two concentric heptagons), and they form the basis of the LLM-as-judge edit annotation used throughout the paper. Edits are typically multi-label; we examine prevalence and per-edit utility in § 5.1 .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.20128v1",
+      "title": "MixRea: Benchmarking Explicit-Implicit Reasoning in Large Language Models",
+      "authors": [
+        "Yuanqing Cai",
+        "Ziyi Huang",
+        "Minhao Liu",
+        "Lixin Duan",
+        "Wen Li"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces \"explicit-implicit reasoning\" to benchmark LLMs' ability to attend to subtle cues, inspired by human inattentional blindness. They created the MixRea benchmark and found even top LLMs struggle with this, exhibiting widespread inattentional blindness. To address this, they propose Potential Relation Completion Prompting (PRCP), a method that improves reasoning by recovering overlooked causal relations.",
+      "url": "http://arxiv.org/abs/2605.20128v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20128v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.20128v1/x1.png",
+      "figure_caption": "An explicit-implicit reasoning example from our MixRea benchmark. When reasoning about explicitly stated information in the question, LLMs must leverage distinctions among events presented in the options to identify and infer relevant implicit information from the story context. They then integrate these reasoning results to derive the optimal event set.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.20061v1",
+      "title": "Rewarding Beliefs, Not Actions: Consistency-Guided Credit Assignment for Long-Horizon Agents",
+      "authors": [
+        "Wenjie Tang",
+        "Minne Li",
+        "Sijie Huang",
+        "Liquan Xiao",
+        "Yuan Zhou"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ReBel, a reinforcement learning algorithm for long-horizon tasks where agents learn from verifiable rewards. ReBel addresses challenges in partially observable environments by explicitly modeling and updating agent beliefs. Its core contribution is a belief-consistency supervision mechanism that generates dense self-supervised signals from belief discrepancies, leading to more robust credit assignment without external annotations.",
+      "url": "http://arxiv.org/abs/2605.20061v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20061v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.20061v1/figures/main1.png",
+      "figure_caption": "Overview of ReBel. ReBel learns belief-aware policies for partially observable long-horizon tasks by making latent belief explicit and decomposing policy generation into belief, think, and action. It turns sparse terminal rewards into step-wise belief consistency feedback and performs belief-anchor grouping to support stable step-level advantage estimation.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Research Associate in Machine Learning and Computational Psychiatry for Digital Mental Health Interventions",
+      "url": "https://www.jobs.ac.uk/job/DRP414/research-associate-in-machine-learning-and-computational-psychiatry-for-digital-mental-health-interventions/",
+      "description": "About the role : Are you a researcher who wants to do serious machine learning in a domain that matters? We are seeking an exceptional Postdoctoral Research Associate to join MindCraft, an innovative programme at Imperial College London developing AI-guided smartphone-based mental health interventions for adolescents. You will work at the intersection of machine learning, computational psychiatry, digital phenotyping, and real-world intervention research — building mathematically grounded, personalised AI systems that can infer mental state from multimodal behavioural data and learn to deliver the right intervention at the right time. What you would be doing : You will play a central role in developing the project’s computational and machine learning core. Your work will include: Developing multimodal models of adolescent mental state from longitudinal mobile and self-report data Designing latent-state, state-space, probabilistic, or representation-learning approaches for modelling mental health trajectories Building personalised digital twin models integrating behavioural, contextual, and questionnaire-derived information Developing reinforcement learning, contextual bandit, or sequential decision-making models for adaptive intervention delivery Tackling core challenges such as partial observability, uncertainty, missingness, delayed rewards, and non-stationarity Contributing to the prospective deployment and evaluation of AI-driven interventions within a real-world school-based study Depending on your strengths, the role may lean more heavily toward probabilistic and dynamical modelling, reinforcement learning, multimodal representation learning, or computational behavioural modelling. What we are looking for : We are especially interested in candidates who combine mathematical maturity, serious implementation ability, and scientific curiosity about mind and behaviour. You should hold, or be close to completing, a PhD in machine learning, computer science, computational neuroscience, computational psychiatry, applied mathematics, statistics, engineering, physics, or a related quantitative discipline. You should have expertise in one or more of: probabilistic modelling, time-series modelling, latent-variable models, state-space models, reinforcement learning, sequential decision-making, representation learning, Bayesian methods, or computational models of behaviour. Strong Python and deep learning framework skills (PyTorch, JAX, or TensorFlow) are essential. Experience with healthcare, mental health, or mobile sensing data is highly desirable but not required. What we can offer you : The opportunity to work on hard machine learning problems with genuine scientific depth and real-world clinical consequence, not just pipeline engineering. Access to rich longitudinal data from an ongoing adolescent mental health study involving 700+ participants, with a rare opportunity to move beyond offline modelling into prospective, real-world adaptive intervention. https://www.imperial.ac.uk/early-career-researcher-institute A highly interdisciplinary research environment working closely with clinicians, psychiatrists, and behavioural scientists, with a clear route toward meaningful clinical impact for adolescent mental health. Sector-leading salary and remuneration package (including 41 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further Information *Please note that this is a PhD level role but candidates who have not yet been officially awarded will be appointed as a Research Assistant (£43,863 - £47,223) MindCraft sits within the Departments of Computing and Bioengineering at Imperial College London, in close collaboration with the Department of Brain Sciences. The project is embedded in an ethically approved trial infrastructure, creating a rare opportunity to develop and evaluate computationally principled adaptive digital mental health systems with a clear route toward meaningful clinical impact. This is a full-time, fixed-term post 36 months. (35 hours per week). If you require any further details about the role, please contact: [Professor Aldo Faisal] – [ a.faisal@imperial.ac.uk ]. £49,017 to £57,472 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-05-31T00:00:00+00:00",
+      "requirements": "Research Area: Machine Learning, Computational Psychiatry, Digital Mental Health Interventions, Digital Phenotyping, AI-guided smartphone-based interventions, multimodal behavioural data analysis, mental state inference, adaptive intervention delivery.\nKey Requirements: Experience in machine learning, computational psychiatry, digital phenotyping, and real-world intervention research. Ability to develop mathematically grounded, personalised AI systems. Experience with multimodal data. Potential strengths in probabilistic/dynamical modelling, reinforcement learning, multimodal representation learning, or computational behavioural modelling.\nApplication Info: deadline: 2026-05-31, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57472.00 YEAR\nOne-line Advice: Strong match for CV/medical imaging applicants with ML expertise; LLM applicants may need to highlight multimodal data and sequential decision-making experience.",
+      "relevance_score": 7.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP49017.00-GBP57472.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "20th May 2026",
+      "job_ref": "ENG03894"
+    },
+    {
+      "title": "Assistant or Associate Professor in Applied Artificial Intelligence (53294-0526)",
+      "url": "https://www.jobs.ac.uk/job/DRO402/assistant-or-associate-professor-in-applied-artificial-intelligence-53294-0526/",
+      "description": "Informal Queries For informal queries, please contact Kurt Debattista (Professor) at K.Debattista@warwick.ac.uk . Flexible Working We will consider applications for employment on a part-time or other flexible working basis (e.g. job share), despite the position being advertised as full-time. Operation Requirements The successful applicant will be required to work the majority of their time on campus. WMG at the University of Warwick is undertaking a significant investment in Research & Teaching academic recruitment across several strategically important growth areas. As part of this coordinated campaign, we are seeking to appoint an Assistant Professor or Associate Professor in Applied Artificial Intelligence to contribute to internationally leading research, innovation, and teaching within WMG’s collaborative and industry-focused environment. This role offers an exciting opportunity to contribute to the development and application of artificial intelligence technologies that address complex real-world challenges across manufacturing, mobility, engineering systems, creative technologies, simulation, and digital environments. Working closely with academic, industrial, and international partners, the successful candidate will help develop innovative AI-driven solutions with clear real-world impact. The successful candidate will contribute to high-quality research, collaborative funding activity, postgraduate supervision, and research-informed teaching across areas including machine learning, deep learning, generative AI, visual computing, intelligent systems, digital twinning, and human-AI interaction. WMG offers a highly interdisciplinary environment with strong industrial engagement, access to world-class facilities, and extensive opportunities to collaborate across advanced manufacturing, automation, transport, simulation, and digital engineering domains. Appointments will be considered at either Assistant Professor or Associate Professor level depending on experience, research profile, leadership trajectory, and funding track record. About You You will hold a PhD in Artificial Intelligence, Computer Science, Engineering, or a closely related discipline and demonstrate expertise aligned to applied AI research and innovation. We are particularly interested in candidates with expertise in one or more of: machine learning and deep learning generative AI visual computing and simulation intelligent engineering systems digital twinning human–AI interaction AI for manufacturing and industrial systems AI for transport and intelligent mobility You should demonstrate the ability, or strong potential, to develop internationally recognised research through publications, collaborative projects, funding activity, and engagement with industrial and academic partners. Candidates applying at Associate Professor level should demonstrate an established research profile and evidence of academic leadership, while Assistant Professor candidates should demonstrate strong potential to develop an independent and impactful research trajectory within a collaborative environment. We particularly welcome candidates who are enthusiastic about interdisciplinary working, industry engagement, and translating research into meaningful real-world impact. For details on the experience and skills required, please refer to the job description attached as a PDF below. About the Department The Warwick Manufacturing Group (WMG) is the largest department at the University of Warwick, with over 800 staff and nearly 3,000 students across undergraduate and postgraduate programmes in management, technology, and applied engineering. We are globally recognised for our world-class research, innovative industry partnerships, and teaching excellence, and we are proud holders of the Athena SWAN Silver Award and the Institutional Silver Award. Find out more about the High Value Manufacturing Catapult centre . Find out more about the Energy Innovation Centre . Find out more about our range of undergraduate and apprenticeship degrees here . About the University We are a world-leading research-intensive university founded in 1965. We are ranked 74th in the world and 9th in the UK. * Additionally, 92% of our research is rated world-leading or internationally excellent .** Find out more about us at warwick.ac.uk/about/ . * World University Ranking 2026 , Complete University Guide 2026 ** Research Excellence Framework 2021 How to Apply CLOSING DEADLINE : Thursday 18 June 2026 at 11:55pm (UK Time) To apply, please click APPLY below and submit your application by the closing deadline. You will be asked to include a CV and cover letter. Within these documents, please: 1. Outline your employment and education history (including your most recent employment). 2. Outline the reasons for your interest in this position. 3. Demonstrate how you meet the requirements of the role with clear reference to each of the essential and desirable criteria in the Job Description (PDF attached below). Interview Date: To be confirmed Start Date: To be confirmed Applications must be submitted by the closing deadline. Only applications submitted through our Careers Portal will be considered. You are welcome to include any careers breaks you may have taken (e.g. parental/caring/long-term sick leave). Please note that if you do not evidence the essential criteria, the hiring panel may not be able to shortlist your application. For guidance on how to format a cover letter, see here . What we Offer We provide a comprehensive range of benefits, including: An attractive pension scheme. 30 days holiday plus University Christmas closure. Generous parental/adoption leave policy. Onsite childcare facilities. Excellent learning and development opportunities. We recognise the importance of a healthy work/life balance and offer access to flexible working arrangements. For more information, see here . We are proud to be a Living Wage employer . Our Commitment to Inclusion Equality, Diversity, & Inclusion Warwick is committed to fostering a diverse, inclusive and respectful community where everyone can thrive. We welcome applications from all backgrounds, cultures, and communities, and actively encourage candidates from underrepresented groups to apply. Find out more about our Social Inclusion work at Warwick . Find out more about our awards and accreditations . We are also one of the six founder institutions of the EUTOPIA European University Alliance . Safeguarding & DBS The University of Warwick is committed to safeguarding and promoting the welfare of all those we work with. Roles involving regulated activity are subject to a Disclosure and Barring Service (DBS) check at the appropriate level, in line with the DBS Code of Practice. The University will ensure that anyone subject to a barring order does not undertake any work with the barred group (children and/or adults). All employees, volunteers, and partners are expected to share our commitment to safeguarding. Rehabilitation of Ex-Offenders The University will not discriminate against applicants who make a disclosure relating to a conviction. Disclosures at application stage are only visible to the DBS team, not to hiring panels. This ensures fairness and removes bias from the shortlisting process. Job Description JD - Assistant or Associate Professor in Applied Artificial Intelligence (53294, 111517).pdf – 127KB Opens in a new window Right to Work in the UK If you do not yet have the right to work in the UK and/or are seeking sponsorship for a Skilled Worker visa, please follow this link which contains further information about obtaining the right to work in the UK. £47,389 to £67,468 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-18T00:00:00+00:00",
+      "requirements": "Research Area: Applied Artificial Intelligence (Machine Learning, Deep Learning, Generative AI, Visual Computing, Intelligent Systems, Digital Twinning, Human-AI Interaction)\nKey Requirements: Contribute to research, innovation, and teaching in AI technologies for manufacturing, mobility, engineering systems, creative technologies, simulation, and digital environments.\nApplication Info: deadline: 2026-06-18, required materials: N/A, contact: K.Debattista@warwick.ac.uk\nPosition Details: University of Warwick, Coventry, England, United Kingdom; Permanent, Full Time; Salary: GBP47389.00-GBP67468.00 YEAR\nOne-line Advice: Strong alignment for CV/medical imaging/LLM applicants with focus on applied AI and real-world impact.",
+      "relevance_score": 8.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "GBP47389.00-GBP67468.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Permanent",
+      "placed_on": "19th May 2026",
+      "job_ref": "(53294-0526)"
+    },
+    {
+      "title": "Research Associate - AIWearable Technology Specialist (0.5 FTE)",
+      "url": "https://www.jobs.ac.uk/job/DRP577/research-associate-aiwearable-technology-specialist-05-fte/",
+      "description": "Job Title: Research Associate - AI/Wearable Technology Specialist (PD-LIFE) School: School of Computing, Engineering and Intelligent Systems Campus: Derry~Londonderry Salary: Research Grade 6/7 - £33,020 - £39,975 per annum, pro rata Closing Date: 02 June 2026 Reference Number: 042386 (Fixed term until 31 August 2029 / Part-time 0.5 FTE (17.5 hours per week)) - ABOUT US - We are a university with a national and international reputation for excellence, innovation and regional engagement, making a major contribution to the economic, social and cultural development of Northern Ireland. Our core business activities are teaching and learning, widening access to education, research and innovation and technology and knowledge transfer. - THE ROLE - The PD-LIFE project is an all-island emerging hub of excellence that unites researchers, clinicians, people with Parkinson's, and advocacy partners to transform the understanding and care of Parkinson's disease (PD) across Ireland. The postholder will be an integral part of a dynamic team, responsible for providing expertise in wearable technology and AI, and conducting high-quality research for the project stakeholders. The project is supported by the North South Research Programme through the Shared Island Fund and administered by the Higher Education Authority. - ABOUT YOU 1. You will hold a PhD, completed or near completion, with a thesis submitted in the area of Computer Science or a closely related discipline. 2. You will hold a degree in Computer Science, Data Analytics or a closely related science-based discipline. 3. You will have practical experience with wearable technologies such as IMU sensors, as well as analysing and pre-processing resultant datasets. Please find our employee benefits on our website. Ulster University holds a Silver Athena SWAN award in recognition of our commitment to advancing Gender equality in higher education. You can read more about what this means on our University website. The University has a range of initiatives to support a family friendly working environment, including flexible working. The University is an equal opportunities employer and welcomes applicants from all sections of the community, particularly from those with disabilities. Appointment will be made on merit. £33,020 to £39,975. Grade 6/7 pro rata",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-02T00:00:00+00:00",
+      "requirements": "Research Area: AI and Wearable Technology for Parkinson's Disease research (PD-LIFE project)\nKey Requirements: PhD in Computer Science or related field, degree in Computer Science/Data Analytics or related science, practical experience with wearable technologies (e.g., IMU sensors) and data analysis/pre-processing.\nApplication Info: deadline: 2026-06-02T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: Londonderry, Northern Ireland, United Kingdom, Fixed-Term/Contract (until 31 August 2029), Part Time (0.5 FTE / 17.5 hours per week), GBP33020.00-GBP39975.00 YEAR (pro rata)\nOne-line Advice: CVs should highlight experience with wearable sensor data analysis and AI techniques relevant to health monitoring.",
+      "relevance_score": 7.0,
+      "institution": "Ulster University",
+      "location": "Londonderry, Northern Ireland, United Kingdom",
+      "salary": "GBP33020.00-GBP39975.00 YEAR",
+      "hours": "Part Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "19th May 2026",
+      "job_ref": "042386"
+    },
+    {
+      "title": "Postdoctoral Research Associate in Multimodal Foundation Models for Healthcare (Two Posts)",
+      "url": "https://www.jobs.ac.uk/job/DRP608/postdoctoral-research-associate-in-multimodal-foundation-models-for-healthcare-two-posts/",
+      "description": "Location : South Kensington Campus, London About the role : Are you an ambitious researcher ready to shape the future of AI for healthcare? Nightingale AI at Imperial College London is seeking two outstanding Postdoctoral Research Associates to help build next-generation multimodal foundation models that can learn from the full richness of health data — from biosignals and electronic health records to imaging, wearables, and biomedical knowledge. These posts offer a rare opportunity to work on frontier AI with real clinical and biomedical consequence. What you would be doing : You will join Nightingale AI, an interdisciplinary programme spanning machine learning, medicine, neuroscience, engineering, and translational healthcare. Depending on your expertise and interests, your research may focus on one or more of the following areas: Multimodal foundation models for biosignals and population-scale health data, including self-supervised learning, time-series modelling, and cross-modal representation learning. Scalable generative health AI, knowledge-graph-enhanced modelling, retrieval-augmented generation, and architectures that improve faithfulness and scientific coherence. Theory of unified multimodal foundation models, including representation structure, scaling behaviour, modality alignment, and mathematically principled approaches to heterogeneous data integration. We are particularly interested in applicants who can help define the scientific direction of the programme, rather than simply execute a pre-specified agenda. What we are looking for : You should hold, or be close to completing, a PhD in machine learning, artificial intelligence, computer science, statistics, mathematics, computational biology, biomedical engineering, or a closely related quantitative discipline. We are looking for candidates with a strong track record and expertise in several of the following: Multimodal learning, self-supervised or representation learning • Biosignal or time-series modelling • Large-scale or generative foundation models • Knowledge graphs, graph learning, or retrieval-augmented methods • Machine learning theory, scaling laws, or generalisation in deep learning • Distributed training and large-scale experimental ML Experience with healthcare or biomedical data is highly desirable, but exceptional candidates from adjacent AI fields with a strong motivation to work in health are also encouraged to apply. What we can offer you : The opportunity to work on AI intended to matter in practice, not only on benchmark problems, as part of an ambitious programme building a new class of unified health AI systems. Access to uniquely rich, nation-scale healthcare and biomedical data resources, and millions of GPU hours on national AI compute infrastructure for ambitious large-scale experiments. https://www.imperial.ac.uk/early-career-researcher-institute Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further Information *Please note that this is a PhD level role but candidates who have not yet been officially awarded will be appointed as a Research Assistant (£43,863 - £47,223) Nightingale AI sits within the Departments of Computing and Bioengineering at Imperial College London, spanning a wider ecosystem of partnerships in healthcare, biomedical research, and real-world deployment. For the right candidates, these roles offer the chance to help build not just models, but an entire new scientific and technological capability for healthcare AI. This is a full-time, fixed post for 24 months (35 hours per week). If you require any further details about the role, please contact: Professor Aldo Faisal – a.faisal@imperial.ac.uk £49,017 to £57,472 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-16T00:00:00+00:00",
+      "requirements": "Research Area: Multimodal Foundation Models for Healthcare (biosignals, electronic health records, imaging, wearables, biomedical knowledge), Self-supervised learning, Time-series modelling, Cross-modal representation learning, Scalable generative health AI, Knowledge-graph-enhanced modelling, Retrieval-augmented generation, Unified multimodal foundation models, Representation structure, Scaling behaviour, Modality alignment, Heterogeneous data integration.\nKey Requirements: PhD in machine learning, artificial intelligence, computer science, statistics, mathematics, computational biology, biomedical engineering, or a closely related quantitative discipline. Ability to define scientific direction.\nApplication Info: deadline/start date: 2026-06-16T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: South Kensington Campus, London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57472.00 YEAR\nOne-line Advice: CVs should highlight experience with multimodal data integration and foundation model development; medical imaging experience is a plus but not explicitly required; LLM expertise is relevant for generative AI aspects.",
+      "relevance_score": 10.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP49017.00-GBP57472.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "19th May 2026",
+      "job_ref": "ENG03884"
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Research Associate in Machine Learning and Computational Psychiatry for Digital Mental Health Interventions",
+      "url": "https://www.jobs.ac.uk/job/DRP414/research-associate-in-machine-learning-and-computational-psychiatry-for-digital-mental-health-interventions/",
+      "description": "About the role : Are you a researcher who wants to do serious machine learning in a domain that matters? We are seeking an exceptional Postdoctoral Research Associate to join MindCraft, an innovative programme at Imperial College London developing AI-guided smartphone-based mental health interventions for adolescents. You will work at the intersection of machine learning, computational psychiatry, digital phenotyping, and real-world intervention research — building mathematically grounded, personalised AI systems that can infer mental state from multimodal behavioural data and learn to deliver the right intervention at the right time. What you would be doing : You will play a central role in developing the project’s computational and machine learning core. Your work will include: Developing multimodal models of adolescent mental state from longitudinal mobile and self-report data Designing latent-state, state-space, probabilistic, or representation-learning approaches for modelling mental health trajectories Building personalised digital twin models integrating behavioural, contextual, and questionnaire-derived information Developing reinforcement learning, contextual bandit, or sequential decision-making models for adaptive intervention delivery Tackling core challenges such as partial observability, uncertainty, missingness, delayed rewards, and non-stationarity Contributing to the prospective deployment and evaluation of AI-driven interventions within a real-world school-based study Depending on your strengths, the role may lean more heavily toward probabilistic and dynamical modelling, reinforcement learning, multimodal representation learning, or computational behavioural modelling. What we are looking for : We are especially interested in candidates who combine mathematical maturity, serious implementation ability, and scientific curiosity about mind and behaviour. You should hold, or be close to completing, a PhD in machine learning, computer science, computational neuroscience, computational psychiatry, applied mathematics, statistics, engineering, physics, or a related quantitative discipline. You should have expertise in one or more of: probabilistic modelling, time-series modelling, latent-variable models, state-space models, reinforcement learning, sequential decision-making, representation learning, Bayesian methods, or computational models of behaviour. Strong Python and deep learning framework skills (PyTorch, JAX, or TensorFlow) are essential. Experience with healthcare, mental health, or mobile sensing data is highly desirable but not required. What we can offer you : The opportunity to work on hard machine learning problems with genuine scientific depth and real-world clinical consequence, not just pipeline engineering. Access to rich longitudinal data from an ongoing adolescent mental health study involving 700+ participants, with a rare opportunity to move beyond offline modelling into prospective, real-world adaptive intervention. https://www.imperial.ac.uk/early-career-researcher-institute A highly interdisciplinary research environment working closely with clinicians, psychiatrists, and behavioural scientists, with a clear route toward meaningful clinical impact for adolescent mental health. Sector-leading salary and remuneration package (including 41 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further Information *Please note that this is a PhD level role but candidates who have not yet been officially awarded will be appointed as a Research Assistant (£43,863 - £47,223) MindCraft sits within the Departments of Computing and Bioengineering at Imperial College London, in close collaboration with the Department of Brain Sciences. The project is embedded in an ethically approved trial infrastructure, creating a rare opportunity to develop and evaluate computationally principled adaptive digital mental health systems with a clear route toward meaningful clinical impact. This is a full-time, fixed-term post 36 months. (35 hours per week). If you require any further details about the role, please contact: [Professor Aldo Faisal] – [ a.faisal@imperial.ac.uk ]. £49,017 to £57,472 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-05-31T00:00:00+00:00",
+      "requirements": "Research Area: Machine Learning, Computational Psychiatry, Digital Mental Health Interventions, Digital Phenotyping, AI-guided smartphone-based interventions, multimodal behavioural data analysis, mental state inference, adaptive intervention delivery.\nKey Requirements: Experience in machine learning, computational psychiatry, digital phenotyping, and real-world intervention research. Ability to develop mathematically grounded, personalised AI systems. Experience with multimodal data. Potential strengths in probabilistic/dynamical modelling, reinforcement learning, multimodal representation learning, or computational behavioural modelling.\nApplication Info: deadline: 2026-05-31, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57472.00 YEAR\nOne-line Advice: Strong match for CV/medical imaging applicants with ML expertise; LLM applicants may need to highlight multimodal data and sequential decision-making experience.",
+      "relevance_score": 7.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP49017.00-GBP57472.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "20th May 2026",
+      "job_ref": "ENG03894"
+    },
+    {
+      "title": "Assistant or Associate Professor in Applied Artificial Intelligence (53294-0526)",
+      "url": "https://www.jobs.ac.uk/job/DRO402/assistant-or-associate-professor-in-applied-artificial-intelligence-53294-0526/",
+      "description": "Informal Queries For informal queries, please contact Kurt Debattista (Professor) at K.Debattista@warwick.ac.uk . Flexible Working We will consider applications for employment on a part-time or other flexible working basis (e.g. job share), despite the position being advertised as full-time. Operation Requirements The successful applicant will be required to work the majority of their time on campus. WMG at the University of Warwick is undertaking a significant investment in Research & Teaching academic recruitment across several strategically important growth areas. As part of this coordinated campaign, we are seeking to appoint an Assistant Professor or Associate Professor in Applied Artificial Intelligence to contribute to internationally leading research, innovation, and teaching within WMG’s collaborative and industry-focused environment. This role offers an exciting opportunity to contribute to the development and application of artificial intelligence technologies that address complex real-world challenges across manufacturing, mobility, engineering systems, creative technologies, simulation, and digital environments. Working closely with academic, industrial, and international partners, the successful candidate will help develop innovative AI-driven solutions with clear real-world impact. The successful candidate will contribute to high-quality research, collaborative funding activity, postgraduate supervision, and research-informed teaching across areas including machine learning, deep learning, generative AI, visual computing, intelligent systems, digital twinning, and human-AI interaction. WMG offers a highly interdisciplinary environment with strong industrial engagement, access to world-class facilities, and extensive opportunities to collaborate across advanced manufacturing, automation, transport, simulation, and digital engineering domains. Appointments will be considered at either Assistant Professor or Associate Professor level depending on experience, research profile, leadership trajectory, and funding track record. About You You will hold a PhD in Artificial Intelligence, Computer Science, Engineering, or a closely related discipline and demonstrate expertise aligned to applied AI research and innovation. We are particularly interested in candidates with expertise in one or more of: machine learning and deep learning generative AI visual computing and simulation intelligent engineering systems digital twinning human–AI interaction AI for manufacturing and industrial systems AI for transport and intelligent mobility You should demonstrate the ability, or strong potential, to develop internationally recognised research through publications, collaborative projects, funding activity, and engagement with industrial and academic partners. Candidates applying at Associate Professor level should demonstrate an established research profile and evidence of academic leadership, while Assistant Professor candidates should demonstrate strong potential to develop an independent and impactful research trajectory within a collaborative environment. We particularly welcome candidates who are enthusiastic about interdisciplinary working, industry engagement, and translating research into meaningful real-world impact. For details on the experience and skills required, please refer to the job description attached as a PDF below. About the Department The Warwick Manufacturing Group (WMG) is the largest department at the University of Warwick, with over 800 staff and nearly 3,000 students across undergraduate and postgraduate programmes in management, technology, and applied engineering. We are globally recognised for our world-class research, innovative industry partnerships, and teaching excellence, and we are proud holders of the Athena SWAN Silver Award and the Institutional Silver Award. Find out more about the High Value Manufacturing Catapult centre . Find out more about the Energy Innovation Centre . Find out more about our range of undergraduate and apprenticeship degrees here . About the University We are a world-leading research-intensive university founded in 1965. We are ranked 74th in the world and 9th in the UK. * Additionally, 92% of our research is rated world-leading or internationally excellent .** Find out more about us at warwick.ac.uk/about/ . * World University Ranking 2026 , Complete University Guide 2026 ** Research Excellence Framework 2021 How to Apply CLOSING DEADLINE : Thursday 18 June 2026 at 11:55pm (UK Time) To apply, please click APPLY below and submit your application by the closing deadline. You will be asked to include a CV and cover letter. Within these documents, please: 1. Outline your employment and education history (including your most recent employment). 2. Outline the reasons for your interest in this position. 3. Demonstrate how you meet the requirements of the role with clear reference to each of the essential and desirable criteria in the Job Description (PDF attached below). Interview Date: To be confirmed Start Date: To be confirmed Applications must be submitted by the closing deadline. Only applications submitted through our Careers Portal will be considered. You are welcome to include any careers breaks you may have taken (e.g. parental/caring/long-term sick leave). Please note that if you do not evidence the essential criteria, the hiring panel may not be able to shortlist your application. For guidance on how to format a cover letter, see here . What we Offer We provide a comprehensive range of benefits, including: An attractive pension scheme. 30 days holiday plus University Christmas closure. Generous parental/adoption leave policy. Onsite childcare facilities. Excellent learning and development opportunities. We recognise the importance of a healthy work/life balance and offer access to flexible working arrangements. For more information, see here . We are proud to be a Living Wage employer . Our Commitment to Inclusion Equality, Diversity, & Inclusion Warwick is committed to fostering a diverse, inclusive and respectful community where everyone can thrive. We welcome applications from all backgrounds, cultures, and communities, and actively encourage candidates from underrepresented groups to apply. Find out more about our Social Inclusion work at Warwick . Find out more about our awards and accreditations . We are also one of the six founder institutions of the EUTOPIA European University Alliance . Safeguarding & DBS The University of Warwick is committed to safeguarding and promoting the welfare of all those we work with. Roles involving regulated activity are subject to a Disclosure and Barring Service (DBS) check at the appropriate level, in line with the DBS Code of Practice. The University will ensure that anyone subject to a barring order does not undertake any work with the barred group (children and/or adults). All employees, volunteers, and partners are expected to share our commitment to safeguarding. Rehabilitation of Ex-Offenders The University will not discriminate against applicants who make a disclosure relating to a conviction. Disclosures at application stage are only visible to the DBS team, not to hiring panels. This ensures fairness and removes bias from the shortlisting process. Job Description JD - Assistant or Associate Professor in Applied Artificial Intelligence (53294, 111517).pdf – 127KB Opens in a new window Right to Work in the UK If you do not yet have the right to work in the UK and/or are seeking sponsorship for a Skilled Worker visa, please follow this link which contains further information about obtaining the right to work in the UK. £47,389 to £67,468 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-18T00:00:00+00:00",
+      "requirements": "Research Area: Applied Artificial Intelligence (Machine Learning, Deep Learning, Generative AI, Visual Computing, Intelligent Systems, Digital Twinning, Human-AI Interaction)\nKey Requirements: Contribute to research, innovation, and teaching in AI technologies for manufacturing, mobility, engineering systems, creative technologies, simulation, and digital environments.\nApplication Info: deadline: 2026-06-18, required materials: N/A, contact: K.Debattista@warwick.ac.uk\nPosition Details: University of Warwick, Coventry, England, United Kingdom; Permanent, Full Time; Salary: GBP47389.00-GBP67468.00 YEAR\nOne-line Advice: Strong alignment for CV/medical imaging/LLM applicants with focus on applied AI and real-world impact.",
+      "relevance_score": 8.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "GBP47389.00-GBP67468.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Permanent",
+      "placed_on": "19th May 2026",
+      "job_ref": "(53294-0526)"
+    },
+    {
+      "title": "Research Associate - AIWearable Technology Specialist (0.5 FTE)",
+      "url": "https://www.jobs.ac.uk/job/DRP577/research-associate-aiwearable-technology-specialist-05-fte/",
+      "description": "Job Title: Research Associate - AI/Wearable Technology Specialist (PD-LIFE) School: School of Computing, Engineering and Intelligent Systems Campus: Derry~Londonderry Salary: Research Grade 6/7 - £33,020 - £39,975 per annum, pro rata Closing Date: 02 June 2026 Reference Number: 042386 (Fixed term until 31 August 2029 / Part-time 0.5 FTE (17.5 hours per week)) - ABOUT US - We are a university with a national and international reputation for excellence, innovation and regional engagement, making a major contribution to the economic, social and cultural development of Northern Ireland. Our core business activities are teaching and learning, widening access to education, research and innovation and technology and knowledge transfer. - THE ROLE - The PD-LIFE project is an all-island emerging hub of excellence that unites researchers, clinicians, people with Parkinson's, and advocacy partners to transform the understanding and care of Parkinson's disease (PD) across Ireland. The postholder will be an integral part of a dynamic team, responsible for providing expertise in wearable technology and AI, and conducting high-quality research for the project stakeholders. The project is supported by the North South Research Programme through the Shared Island Fund and administered by the Higher Education Authority. - ABOUT YOU 1. You will hold a PhD, completed or near completion, with a thesis submitted in the area of Computer Science or a closely related discipline. 2. You will hold a degree in Computer Science, Data Analytics or a closely related science-based discipline. 3. You will have practical experience with wearable technologies such as IMU sensors, as well as analysing and pre-processing resultant datasets. Please find our employee benefits on our website. Ulster University holds a Silver Athena SWAN award in recognition of our commitment to advancing Gender equality in higher education. You can read more about what this means on our University website. The University has a range of initiatives to support a family friendly working environment, including flexible working. The University is an equal opportunities employer and welcomes applicants from all sections of the community, particularly from those with disabilities. Appointment will be made on merit. £33,020 to £39,975. Grade 6/7 pro rata",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-02T00:00:00+00:00",
+      "requirements": "Research Area: AI and Wearable Technology for Parkinson's Disease research (PD-LIFE project)\nKey Requirements: PhD in Computer Science or related field, degree in Computer Science/Data Analytics or related science, practical experience with wearable technologies (e.g., IMU sensors) and data analysis/pre-processing.\nApplication Info: deadline: 2026-06-02T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: Londonderry, Northern Ireland, United Kingdom, Fixed-Term/Contract (until 31 August 2029), Part Time (0.5 FTE / 17.5 hours per week), GBP33020.00-GBP39975.00 YEAR (pro rata)\nOne-line Advice: CVs should highlight experience with wearable sensor data analysis and AI techniques relevant to health monitoring.",
+      "relevance_score": 7.0,
+      "institution": "Ulster University",
+      "location": "Londonderry, Northern Ireland, United Kingdom",
+      "salary": "GBP33020.00-GBP39975.00 YEAR",
+      "hours": "Part Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "19th May 2026",
+      "job_ref": "042386"
+    },
+    {
+      "title": "Postdoctoral Research Associate in Multimodal Foundation Models for Healthcare (Two Posts)",
+      "url": "https://www.jobs.ac.uk/job/DRP608/postdoctoral-research-associate-in-multimodal-foundation-models-for-healthcare-two-posts/",
+      "description": "Location : South Kensington Campus, London About the role : Are you an ambitious researcher ready to shape the future of AI for healthcare? Nightingale AI at Imperial College London is seeking two outstanding Postdoctoral Research Associates to help build next-generation multimodal foundation models that can learn from the full richness of health data — from biosignals and electronic health records to imaging, wearables, and biomedical knowledge. These posts offer a rare opportunity to work on frontier AI with real clinical and biomedical consequence. What you would be doing : You will join Nightingale AI, an interdisciplinary programme spanning machine learning, medicine, neuroscience, engineering, and translational healthcare. Depending on your expertise and interests, your research may focus on one or more of the following areas: Multimodal foundation models for biosignals and population-scale health data, including self-supervised learning, time-series modelling, and cross-modal representation learning. Scalable generative health AI, knowledge-graph-enhanced modelling, retrieval-augmented generation, and architectures that improve faithfulness and scientific coherence. Theory of unified multimodal foundation models, including representation structure, scaling behaviour, modality alignment, and mathematically principled approaches to heterogeneous data integration. We are particularly interested in applicants who can help define the scientific direction of the programme, rather than simply execute a pre-specified agenda. What we are looking for : You should hold, or be close to completing, a PhD in machine learning, artificial intelligence, computer science, statistics, mathematics, computational biology, biomedical engineering, or a closely related quantitative discipline. We are looking for candidates with a strong track record and expertise in several of the following: Multimodal learning, self-supervised or representation learning • Biosignal or time-series modelling • Large-scale or generative foundation models • Knowledge graphs, graph learning, or retrieval-augmented methods • Machine learning theory, scaling laws, or generalisation in deep learning • Distributed training and large-scale experimental ML Experience with healthcare or biomedical data is highly desirable, but exceptional candidates from adjacent AI fields with a strong motivation to work in health are also encouraged to apply. What we can offer you : The opportunity to work on AI intended to matter in practice, not only on benchmark problems, as part of an ambitious programme building a new class of unified health AI systems. Access to uniquely rich, nation-scale healthcare and biomedical data resources, and millions of GPU hours on national AI compute infrastructure for ambitious large-scale experiments. https://www.imperial.ac.uk/early-career-researcher-institute Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further Information *Please note that this is a PhD level role but candidates who have not yet been officially awarded will be appointed as a Research Assistant (£43,863 - £47,223) Nightingale AI sits within the Departments of Computing and Bioengineering at Imperial College London, spanning a wider ecosystem of partnerships in healthcare, biomedical research, and real-world deployment. For the right candidates, these roles offer the chance to help build not just models, but an entire new scientific and technological capability for healthcare AI. This is a full-time, fixed post for 24 months (35 hours per week). If you require any further details about the role, please contact: Professor Aldo Faisal – a.faisal@imperial.ac.uk £49,017 to £57,472 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-16T00:00:00+00:00",
+      "requirements": "Research Area: Multimodal Foundation Models for Healthcare (biosignals, electronic health records, imaging, wearables, biomedical knowledge), Self-supervised learning, Time-series modelling, Cross-modal representation learning, Scalable generative health AI, Knowledge-graph-enhanced modelling, Retrieval-augmented generation, Unified multimodal foundation models, Representation structure, Scaling behaviour, Modality alignment, Heterogeneous data integration.\nKey Requirements: PhD in machine learning, artificial intelligence, computer science, statistics, mathematics, computational biology, biomedical engineering, or a closely related quantitative discipline. Ability to define scientific direction.\nApplication Info: deadline/start date: 2026-06-16T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: South Kensington Campus, London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57472.00 YEAR\nOne-line Advice: CVs should highlight experience with multimodal data integration and foundation model development; medical imaging experience is a plus but not explicitly required; LLM expertise is relevant for generative AI aspects.",
+      "relevance_score": 10.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP49017.00-GBP57472.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "19th May 2026",
+      "job_ref": "ENG03884"
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
