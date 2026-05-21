@@ -1,0 +1,871 @@
+{
+  "date": "2026-05-21",
+  "generated_at": "2026-05-21T12:32:59.684637+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2605.21482v1",
+          "title": "DeepWeb-Bench: A Deep Research Benchmark Demanding Massive Cross-Source Evidence and Long-Horizon Derivation",
+          "authors": [
+            "Sixiong Xie",
+            "Zhuofan Shi",
+            "Haiyang Shen",
+            "Jiuzheng Wang",
+            "Siqi Zhong"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "DeepWeb-Bench is a new benchmark designed to rigorously evaluate advanced language models on complex \"deep research\" tasks. Its core method involves creating tasks that require agents to gather extensive evidence from multiple web sources, reconcile conflicting information, and perform multi-step reasoning to arrive at an answer. The paper's main contribution is a substantially more challenging benchmark that better distinguishes the capabilities of current frontier models, addressing the saturation of existing evaluations.",
+          "url": "http://arxiv.org/abs/2605.21482v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.21482v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.21482v1/x1.png",
+          "figure_caption": "Overview of DeepWeb-Bench . (a) Each task is an 8 × 8 8\\( \\times \\) 8 matrix of entities against research dimensions; every cell is scored independently using a four-tier rubric ( { 1 , 0.5 , 0.25 , 0 } \\{1,0.5,0.25,0\\} ) and carries a reference answer with source-provenance labels and cross-source agreement. (b) The dimension axis covers four capability families, and every task spans multiple families.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.21463v1",
+          "title": "Mem-$π$: Adaptive Memory through Learning When and What to Generate",
+          "authors": [
+            "Xiaoqiang Wang",
+            "Chao Wang",
+            "Hadi Nekoei",
+            "Christopher Pal",
+            "Alexandre Lacoste"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "Mem-$π$ introduces an adaptive memory framework for LLM agents that *generates* guidance on demand, rather than relying on static retrieval. A separate model learns to decide *when* and *what* context-specific guidance to produce, using a decoupled reinforcement learning objective. This allows for more dynamic and relevant assistance, improving performance on complex agentic tasks.",
+          "url": "http://arxiv.org/abs/2605.21463v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.21463v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.21463v1/x1.png",
+          "figure_caption": "Comparison of (a) workflow-based memory systems, where memory operations are governed by predefined retrieval and update pipelines, (b) learning-based memory systems, where memory operations are jointly optimized with downstream agent outcomes, and (c) our Mem- \\( \\pi \\) , which models memory as a generative policy \\( \\pi \\)_{\\( \\text{mem} \\)} separate from the downstream agent and internalizes reusable experience through offline experience distillation and online adaptation distillation.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.21401v1",
+          "title": "Open-source LLMs administer maximum electric shocks in a Milgram-like obedience experiment",
+          "authors": [
+            "Roland Pihlakas",
+            "Jan Llenzl Dagohoy"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CY"
+          ],
+          "abstract": "This paper investigates LLM obedience by adapting the Milgram experiment. It found that open-source LLMs, like human subjects, tend to comply with authority pressure, even when expressing distress, and are vulnerable to gradual boundary violations. This highlights safety concerns for autonomous LLM agents in high-stakes scenarios.",
+          "url": "http://arxiv.org/abs/2605.21401v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.21401v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.21401v1/images/png/In_how_many_trials_did_the_model_apply_the_highest_possible_shocks.png",
+          "figure_caption": "In how many trials did the model apply the final shocks",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.21468v1",
+          "title": "You Only Need Minimal RLVR Training: Extrapolating LLMs via Rank-1 Trajectories",
+          "authors": [
+            "Zhepei Wei",
+            "Xinyu Zhu",
+            "Wei-Lin Chen",
+            "Chengsong Huang",
+            "Jiaxin Huang"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper reveals that the parameter updates during Reinforcement Learning with Verifiable Rewards (RLVR) for LLMs exhibit a low-rank structure, specifically a rank-1 approximation capturing most performance gains. The authors propose RELEX, a compute-efficient method that estimates this rank-1 subspace from a short training window and uses linear regression to extrapolate future model checkpoints, achieving comparable or superior performance to full RLVR training.",
+          "url": "http://arxiv.org/abs/2605.21468v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.21468v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.21468v1/x1.png",
+          "figure_caption": "RELEX extrapolates checkpoints that match full RLVR performance based only on early training dynamics, without further training. RELEX estimates the rank-1 update subspace from the observed RLVR prefix (up to T cut T_{\\( \\text{cut} \\)} ) and extrapolates future checkpoints at no training cost, matching or exceeding the RLVR checkpoints on the MATH test set across three models.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.21479v1",
+          "title": "WikiVQABench: A Knowledge-Grounded Visual Question Answering Benchmark from Wikipedia and Wikidata",
+          "authors": [
+            "Basel Shbita",
+            "Pengyuan Li",
+            "Anna Lisa Gentile"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "WikiVQABench is a new benchmark for knowledge-grounded Visual Question Answering. Its core method involves using LLMs to generate candidate VQA questions from Wikipedia images and Wikidata, which are then human-curated to ensure they require external knowledge beyond visual perception. The contribution is a substantial dataset designed to evaluate models' ability to integrate visual information with real-world knowledge.",
+          "url": "http://arxiv.org/abs/2605.21479v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.21479v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.21479v1/imgs/wikivqabench_example_0.png",
+          "figure_caption": "Example from WikiVQABench illustrating a knowledge-grounded multiple-choice VQA instance. The image depicts a spider whose taxonomic classification cannot be determined from visual appearance alone. Correctly answering the question requires external biological knowledge linking visual cues to entity-level taxonomy (e.g., family or genus), demonstrating the benchmark’s emphasis on required knowledge beyond surface-level perception.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.21467v1",
+          "title": "DelTA: Discriminative Token Credit Assignment for Reinforcement Learning from Verifiable Rewards",
+          "authors": [
+            "Kaiyi Zhang",
+            "Wei Wu",
+            "Yankai Lin"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper proposes DelTA, a method to improve reinforcement learning from verifiable rewards (RLVR) for large language models. It frames RLVR updates as a linear discriminator that guides token probability changes. DelTA's core contribution is a novel centroid construction that mitigates the dominance of common patterns, allowing the model to better identify and learn from discriminative token-level signals for improved reasoning.",
+          "url": "http://arxiv.org/abs/2605.21467v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.21467v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.21467v1/x2.png",
+          "figure_caption": "Overview of DelTA. DelTA estimates token coefficients from the contrast between positive- and negative-advantage token-gradient aggregates, and uses the coefficients to reweight the sequence-level RLVR objective.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.21402v1",
+          "title": "Memorisation, convergence and generalisation in generative models",
+          "authors": [
+            "Antoine Maillard",
+            "Sebastian Goldt"
+          ],
+          "categories": [
+            "cs.LG",
+            "stat.ML",
+            "cond-mat.dis-nn",
+            "cond-mat.stat-mech"
+          ],
+          "abstract": "This paper investigates whether generative models truly learn data distributions or just memorize training examples. The authors show that diffusion models trained on separate data subsets converge to similar distributions when the dataset is large enough. They then analytically characterize this transition from memorization to generalization in linear models, finding convergence emerges continuously when sample size scales linearly with input dimension, and surprisingly, this convergence is independent of recovering key data features.",
+          "url": "http://arxiv.org/abs/2605.21402v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.21402v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.21402v1/x1.png",
+          "figure_caption": "Memorisation, convergence, and latent recovery in generative models. Left : We illustrate three regimes in generative models by sketching the principal components (top) and the covariance spectra (bottom) of the true data distribution (blue) and a distribution learnt from n n samples (red) in d d dimensions. For very small data sets, n = Θ ​ ( 1 ) n=\\( \\Theta \\)(1) , the model does not learn a smooth approximation of the data distribution, but memorises the training set. As the number of training samples becomes comparable to the input dimension, n ≍ d n\\( \\asymp \\) d , the spectra continuously converge and independently trained models produce similar outputs given the same latents, as described by [ undef ] . However, convergence of outputs does not imply recovery of the principal latent, which corresponds to the outlier in the true spectrum. The principal latent is learnt independently from the rest of the spectrum in a sharp transition. Right : We develop this picture mathematically by developing an asymptotically exact theory that describes the evolution of three order parameters for memorisation ( m m ), convergence ( q q ), and latent recovery ( Q Q ) in linear generative models. The two lines for Q Q correspond to high and low signal-to-noise ratio \\( \\beta \\) of the principal latent (dark and light green, respectively).",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.21422v1",
+          "title": "Preference-aware Influence-function-based Data Selection Method for Efficient Fine-Tuning",
+          "authors": [
+            "Qihao Lin",
+            "Guanxu Chen",
+            "Dongrui Liu",
+            "Jing Shao"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces PRISM, a novel data selection method for efficient LLM fine-tuning. PRISM's core method is to weight target examples based on the current model's preference, creating a more nuanced representation of the desired behavior. This allows PRISM to prioritize candidate training samples that are most aligned with this preference-aware target, leading to more effective use of limited training budgets.",
+          "url": "http://arxiv.org/abs/2605.21422v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.21422v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.21422v1/x1.png",
+          "figure_caption": "Motivation of PRISM. Uniform aggregation treats all target examples equally, whereas PRISM emphasizes target examples closer to the current model and focuses the selection budget on more actionable training samples.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.21404v1",
+          "title": "What Twelve LLM Agent Benchmark Papers Disclose About Themselves: A Pilot Audit and an Open Scoring Schema",
+          "authors": [
+            "Mahdi Naser Moghadasi",
+            "Faezeh Ghaderi"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper audits twelve LLM agent benchmark papers to assess the completeness of their evaluation reporting. The authors developed a five-field schema (benchmark identity, harness, inference settings, cost, failure breakdown) to systematically record what each paper discloses about its evaluation methodology. Their contribution is an open scoring schema and a pilot audit, highlighting the lack of transparency in current benchmark reporting and its impact on reproducibility.",
+          "url": "http://arxiv.org/abs/2605.21404v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.21404v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.21363v1",
+          "title": "\"I didn't Make the Micro Decisions\": Measuring, Inducing, and Exposing Goal-Level AI Contributions in Collaboration",
+          "authors": [
+            "Eunsu Kim",
+            "Jessica R. Mindel",
+            "Kyungjin Kim",
+            "Sherry Tongshuang Wu"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces CoTrace, a framework to measure and attribute AI's contributions to collaborative goal formation, focusing on the process rather than just the final output. CoTrace decomposes goals into requirements and traces direct and indirect influences across dialogue turns. The study reveals that while LLMs contribute less to overall goal shaping, they are significant in generating concrete requirements and exert indirect influence, with interaction design impacting their behavior.",
+          "url": "http://arxiv.org/abs/2605.21363v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.21363v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.21363v1/x1.png",
+          "figure_caption": "Illustrative overview of CoTrace and its benefits. CoTrace analyzes human and LLM contributions at the goal level by tracing requirement lifecycles, including direct contributions (who explicitly creates a requirement) and indirect contributions (who influences another party to introduce it). It supports measuring goal-shaping behavior, provides a signal for inducing it, and supports user awareness by exposing contribution dynamics.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 24,
+        "papers_after_llm_filter": 10,
+        "count": 10
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Research Associate in Machine Learning and Computational Psychiatry for Digital Mental Health Interventions",
+          "url": "https://www.jobs.ac.uk/job/DRP414/research-associate-in-machine-learning-and-computational-psychiatry-for-digital-mental-health-interventions/",
+          "description": "About the role : Are you a researcher who wants to do serious machine learning in a domain that matters? We are seeking an exceptional Postdoctoral Research Associate to join MindCraft, an innovative programme at Imperial College London developing AI-guided smartphone-based mental health interventions for adolescents. You will work at the intersection of machine learning, computational psychiatry, digital phenotyping, and real-world intervention research — building mathematically grounded, personalised AI systems that can infer mental state from multimodal behavioural data and learn to deliver the right intervention at the right time. What you would be doing : You will play a central role in developing the project’s computational and machine learning core. Your work will include: Developing multimodal models of adolescent mental state from longitudinal mobile and self-report data Designing latent-state, state-space, probabilistic, or representation-learning approaches for modelling mental health trajectories Building personalised digital twin models integrating behavioural, contextual, and questionnaire-derived information Developing reinforcement learning, contextual bandit, or sequential decision-making models for adaptive intervention delivery Tackling core challenges such as partial observability, uncertainty, missingness, delayed rewards, and non-stationarity Contributing to the prospective deployment and evaluation of AI-driven interventions within a real-world school-based study Depending on your strengths, the role may lean more heavily toward probabilistic and dynamical modelling, reinforcement learning, multimodal representation learning, or computational behavioural modelling. What we are looking for : We are especially interested in candidates who combine mathematical maturity, serious implementation ability, and scientific curiosity about mind and behaviour. You should hold, or be close to completing, a PhD in machine learning, computer science, computational neuroscience, computational psychiatry, applied mathematics, statistics, engineering, physics, or a related quantitative discipline. You should have expertise in one or more of: probabilistic modelling, time-series modelling, latent-variable models, state-space models, reinforcement learning, sequential decision-making, representation learning, Bayesian methods, or computational models of behaviour. Strong Python and deep learning framework skills (PyTorch, JAX, or TensorFlow) are essential. Experience with healthcare, mental health, or mobile sensing data is highly desirable but not required. What we can offer you : The opportunity to work on hard machine learning problems with genuine scientific depth and real-world clinical consequence, not just pipeline engineering. Access to rich longitudinal data from an ongoing adolescent mental health study involving 700+ participants, with a rare opportunity to move beyond offline modelling into prospective, real-world adaptive intervention. https://www.imperial.ac.uk/early-career-researcher-institute A highly interdisciplinary research environment working closely with clinicians, psychiatrists, and behavioural scientists, with a clear route toward meaningful clinical impact for adolescent mental health. Sector-leading salary and remuneration package (including 41 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further Information *Please note that this is a PhD level role but candidates who have not yet been officially awarded will be appointed as a Research Assistant (£43,863 - £47,223) MindCraft sits within the Departments of Computing and Bioengineering at Imperial College London, in close collaboration with the Department of Brain Sciences. The project is embedded in an ethically approved trial infrastructure, creating a rare opportunity to develop and evaluate computationally principled adaptive digital mental health systems with a clear route toward meaningful clinical impact. This is a full-time, fixed-term post 36 months. (35 hours per week). If you require any further details about the role, please contact: [Professor Aldo Faisal] – [ a.faisal@imperial.ac.uk ]. £49,017 to £57,472 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk CS",
+          "deadline": "2026-05-31T00:00:00+00:00",
+          "requirements": "Research Area: Machine Learning, Computational Psychiatry, Digital Phenotyping, AI-guided mental health interventions for adolescents.\nKey Requirements: Experience in multimodal models, latent-state/state-space/probabilistic/representation-learning, personalized digital twin models, reinforcement learning/contextual bandit/sequential decision-making models, handling partial observability, uncertainty, missingness, delayed rewards, non-stationarity.\nApplication Info: deadline/start date: 2026-05-31, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57472.00 YEAR\nOne-line Advice: Strong alignment for CV/medical imaging/LLM applicants with expertise in probabilistic modeling, reinforcement learning, or multimodal representation learning.",
+          "relevance_score": 7.0,
+          "institution": "Imperial College London",
+          "location": "London, England, United Kingdom",
+          "salary": "GBP49017.00-GBP57472.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "20th May 2026",
+          "job_ref": "ENG03894"
+        },
+        {
+          "title": "Assistant or Associate Professor in Applied Artificial Intelligence (53294-0526)",
+          "url": "https://www.jobs.ac.uk/job/DRO402/assistant-or-associate-professor-in-applied-artificial-intelligence-53294-0526/",
+          "description": "Informal Queries For informal queries, please contact Kurt Debattista (Professor) at K.Debattista@warwick.ac.uk . Flexible Working We will consider applications for employment on a part-time or other flexible working basis (e.g. job share), despite the position being advertised as full-time. Operation Requirements The successful applicant will be required to work the majority of their time on campus. WMG at the University of Warwick is undertaking a significant investment in Research & Teaching academic recruitment across several strategically important growth areas. As part of this coordinated campaign, we are seeking to appoint an Assistant Professor or Associate Professor in Applied Artificial Intelligence to contribute to internationally leading research, innovation, and teaching within WMG’s collaborative and industry-focused environment. This role offers an exciting opportunity to contribute to the development and application of artificial intelligence technologies that address complex real-world challenges across manufacturing, mobility, engineering systems, creative technologies, simulation, and digital environments. Working closely with academic, industrial, and international partners, the successful candidate will help develop innovative AI-driven solutions with clear real-world impact. The successful candidate will contribute to high-quality research, collaborative funding activity, postgraduate supervision, and research-informed teaching across areas including machine learning, deep learning, generative AI, visual computing, intelligent systems, digital twinning, and human-AI interaction. WMG offers a highly interdisciplinary environment with strong industrial engagement, access to world-class facilities, and extensive opportunities to collaborate across advanced manufacturing, automation, transport, simulation, and digital engineering domains. Appointments will be considered at either Assistant Professor or Associate Professor level depending on experience, research profile, leadership trajectory, and funding track record. About You You will hold a PhD in Artificial Intelligence, Computer Science, Engineering, or a closely related discipline and demonstrate expertise aligned to applied AI research and innovation. We are particularly interested in candidates with expertise in one or more of: machine learning and deep learning generative AI visual computing and simulation intelligent engineering systems digital twinning human–AI interaction AI for manufacturing and industrial systems AI for transport and intelligent mobility You should demonstrate the ability, or strong potential, to develop internationally recognised research through publications, collaborative projects, funding activity, and engagement with industrial and academic partners. Candidates applying at Associate Professor level should demonstrate an established research profile and evidence of academic leadership, while Assistant Professor candidates should demonstrate strong potential to develop an independent and impactful research trajectory within a collaborative environment. We particularly welcome candidates who are enthusiastic about interdisciplinary working, industry engagement, and translating research into meaningful real-world impact. For details on the experience and skills required, please refer to the job description attached as a PDF below. About the Department The Warwick Manufacturing Group (WMG) is the largest department at the University of Warwick, with over 800 staff and nearly 3,000 students across undergraduate and postgraduate programmes in management, technology, and applied engineering. We are globally recognised for our world-class research, innovative industry partnerships, and teaching excellence, and we are proud holders of the Athena SWAN Silver Award and the Institutional Silver Award. Find out more about the High Value Manufacturing Catapult centre . Find out more about the Energy Innovation Centre . Find out more about our range of undergraduate and apprenticeship degrees here . About the University We are a world-leading research-intensive university founded in 1965. We are ranked 74th in the world and 9th in the UK. * Additionally, 92% of our research is rated world-leading or internationally excellent .** Find out more about us at warwick.ac.uk/about/ . * World University Ranking 2026 , Complete University Guide 2026 ** Research Excellence Framework 2021 How to Apply CLOSING DEADLINE : Thursday 18 June 2026 at 11:55pm (UK Time) To apply, please click APPLY below and submit your application by the closing deadline. You will be asked to include a CV and cover letter. Within these documents, please: 1. Outline your employment and education history (including your most recent employment). 2. Outline the reasons for your interest in this position. 3. Demonstrate how you meet the requirements of the role with clear reference to each of the essential and desirable criteria in the Job Description (PDF attached below). Interview Date: To be confirmed Start Date: To be confirmed Applications must be submitted by the closing deadline. Only applications submitted through our Careers Portal will be considered. You are welcome to include any careers breaks you may have taken (e.g. parental/caring/long-term sick leave). Please note that if you do not evidence the essential criteria, the hiring panel may not be able to shortlist your application. For guidance on how to format a cover letter, see here . What we Offer We provide a comprehensive range of benefits, including: An attractive pension scheme. 30 days holiday plus University Christmas closure. Generous parental/adoption leave policy. Onsite childcare facilities. Excellent learning and development opportunities. We recognise the importance of a healthy work/life balance and offer access to flexible working arrangements. For more information, see here . We are proud to be a Living Wage employer . Our Commitment to Inclusion Equality, Diversity, & Inclusion Warwick is committed to fostering a diverse, inclusive and respectful community where everyone can thrive. We welcome applications from all backgrounds, cultures, and communities, and actively encourage candidates from underrepresented groups to apply. Find out more about our Social Inclusion work at Warwick . Find out more about our awards and accreditations . We are also one of the six founder institutions of the EUTOPIA European University Alliance . Safeguarding & DBS The University of Warwick is committed to safeguarding and promoting the welfare of all those we work with. Roles involving regulated activity are subject to a Disclosure and Barring Service (DBS) check at the appropriate level, in line with the DBS Code of Practice. The University will ensure that anyone subject to a barring order does not undertake any work with the barred group (children and/or adults). All employees, volunteers, and partners are expected to share our commitment to safeguarding. Rehabilitation of Ex-Offenders The University will not discriminate against applicants who make a disclosure relating to a conviction. Disclosures at application stage are only visible to the DBS team, not to hiring panels. This ensures fairness and removes bias from the shortlisting process. Job Description JD - Assistant or Associate Professor in Applied Artificial Intelligence (53294, 111517).pdf – 127KB Opens in a new window Right to Work in the UK If you do not yet have the right to work in the UK and/or are seeking sponsorship for a Skilled Worker visa, please follow this link which contains further information about obtaining the right to work in the UK. £47,389 to £67,468 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "2026-06-18T00:00:00+00:00",
+          "requirements": "Research Area: Applied Artificial Intelligence (Machine Learning, Deep Learning, Generative AI, Visual Computing, Intelligent Systems, Digital Twinning, Human-AI Interaction)\nKey Requirements: PhD in a relevant field, track record in research and teaching, ability to contribute to industry-focused research and teaching.\nApplication Info: deadline: 2026-06-18, required materials: N/A, contact: K.Debattista@warwick.ac.uk\nPosition Details: University of Warwick, Coventry, England, United Kingdom; Permanent; Full Time (flexible working considered); GBP47389.00-GBP67468.00 YEAR\nOne-line Advice: CVs should highlight experience in applied AI research with clear real-world impact, particularly in areas like manufacturing, mobility, or digital environments.",
+          "relevance_score": 8.0,
+          "institution": "University of Warwick",
+          "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+          "salary": "GBP47389.00-GBP67468.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Permanent",
+          "placed_on": "19th May 2026",
+          "job_ref": "(53294-0526)"
+        },
+        {
+          "title": "Postdoctoral Research Associate in Multimodal Foundation Models for Healthcare (Two Posts)",
+          "url": "https://www.jobs.ac.uk/job/DRP608/postdoctoral-research-associate-in-multimodal-foundation-models-for-healthcare-two-posts/",
+          "description": "Location : South Kensington Campus, London About the role : Are you an ambitious researcher ready to shape the future of AI for healthcare? Nightingale AI at Imperial College London is seeking two outstanding Postdoctoral Research Associates to help build next-generation multimodal foundation models that can learn from the full richness of health data — from biosignals and electronic health records to imaging, wearables, and biomedical knowledge. These posts offer a rare opportunity to work on frontier AI with real clinical and biomedical consequence. What you would be doing : You will join Nightingale AI, an interdisciplinary programme spanning machine learning, medicine, neuroscience, engineering, and translational healthcare. Depending on your expertise and interests, your research may focus on one or more of the following areas: Multimodal foundation models for biosignals and population-scale health data, including self-supervised learning, time-series modelling, and cross-modal representation learning. Scalable generative health AI, knowledge-graph-enhanced modelling, retrieval-augmented generation, and architectures that improve faithfulness and scientific coherence. Theory of unified multimodal foundation models, including representation structure, scaling behaviour, modality alignment, and mathematically principled approaches to heterogeneous data integration. We are particularly interested in applicants who can help define the scientific direction of the programme, rather than simply execute a pre-specified agenda. What we are looking for : You should hold, or be close to completing, a PhD in machine learning, artificial intelligence, computer science, statistics, mathematics, computational biology, biomedical engineering, or a closely related quantitative discipline. We are looking for candidates with a strong track record and expertise in several of the following: Multimodal learning, self-supervised or representation learning • Biosignal or time-series modelling • Large-scale or generative foundation models • Knowledge graphs, graph learning, or retrieval-augmented methods • Machine learning theory, scaling laws, or generalisation in deep learning • Distributed training and large-scale experimental ML Experience with healthcare or biomedical data is highly desirable, but exceptional candidates from adjacent AI fields with a strong motivation to work in health are also encouraged to apply. What we can offer you : The opportunity to work on AI intended to matter in practice, not only on benchmark problems, as part of an ambitious programme building a new class of unified health AI systems. Access to uniquely rich, nation-scale healthcare and biomedical data resources, and millions of GPU hours on national AI compute infrastructure for ambitious large-scale experiments. https://www.imperial.ac.uk/early-career-researcher-institute Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further Information *Please note that this is a PhD level role but candidates who have not yet been officially awarded will be appointed as a Research Assistant (£43,863 - £47,223) Nightingale AI sits within the Departments of Computing and Bioengineering at Imperial College London, spanning a wider ecosystem of partnerships in healthcare, biomedical research, and real-world deployment. For the right candidates, these roles offer the chance to help build not just models, but an entire new scientific and technological capability for healthcare AI. This is a full-time, fixed post for 24 months (35 hours per week). If you require any further details about the role, please contact: Professor Aldo Faisal – a.faisal@imperial.ac.uk £49,017 to £57,472 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk Mathematics",
+          "deadline": "2026-06-16T00:00:00+00:00",
+          "requirements": "Research Area: Multimodal Foundation Models for Healthcare (biosignals, electronic health records, imaging, wearables, biomedical knowledge)\nKey Requirements: PhD in machine learning, artificial intelligence, computer science, statistics, mathematics, computational biology, biomedical engineering, or a closely related quantitative discipline. Ability to define scientific direction.\nApplication Info: deadline: 2026-06-16T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: South Kensington Campus, London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57472.00 YEAR\nOne-line Advice: CVs should highlight experience in multimodal learning, foundation models, and applications in healthcare or related quantitative fields.",
+          "relevance_score": 10.0,
+          "institution": "Imperial College London",
+          "location": "London, England, United Kingdom",
+          "salary": "GBP49017.00-GBP57472.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "19th May 2026",
+          "job_ref": "ENG03884"
+        }
+      ],
+      "meta": {
+        "count": 3
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 24,
+    "papers_after_llm_filter": 10,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 62
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2605.21482v1",
+      "title": "DeepWeb-Bench: A Deep Research Benchmark Demanding Massive Cross-Source Evidence and Long-Horizon Derivation",
+      "authors": [
+        "Sixiong Xie",
+        "Zhuofan Shi",
+        "Haiyang Shen",
+        "Jiuzheng Wang",
+        "Siqi Zhong"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "DeepWeb-Bench is a new benchmark designed to rigorously evaluate advanced language models on complex \"deep research\" tasks. Its core method involves creating tasks that require agents to gather extensive evidence from multiple web sources, reconcile conflicting information, and perform multi-step reasoning to arrive at an answer. The paper's main contribution is a substantially more challenging benchmark that better distinguishes the capabilities of current frontier models, addressing the saturation of existing evaluations.",
+      "url": "http://arxiv.org/abs/2605.21482v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21482v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.21482v1/x1.png",
+      "figure_caption": "Overview of DeepWeb-Bench . (a) Each task is an 8 × 8 8\\( \\times \\) 8 matrix of entities against research dimensions; every cell is scored independently using a four-tier rubric ( { 1 , 0.5 , 0.25 , 0 } \\{1,0.5,0.25,0\\} ) and carries a reference answer with source-provenance labels and cross-source agreement. (b) The dimension axis covers four capability families, and every task spans multiple families.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.21463v1",
+      "title": "Mem-$π$: Adaptive Memory through Learning When and What to Generate",
+      "authors": [
+        "Xiaoqiang Wang",
+        "Chao Wang",
+        "Hadi Nekoei",
+        "Christopher Pal",
+        "Alexandre Lacoste"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Mem-$π$ introduces an adaptive memory framework for LLM agents that *generates* guidance on demand, rather than relying on static retrieval. A separate model learns to decide *when* and *what* context-specific guidance to produce, using a decoupled reinforcement learning objective. This allows for more dynamic and relevant assistance, improving performance on complex agentic tasks.",
+      "url": "http://arxiv.org/abs/2605.21463v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21463v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.21463v1/x1.png",
+      "figure_caption": "Comparison of (a) workflow-based memory systems, where memory operations are governed by predefined retrieval and update pipelines, (b) learning-based memory systems, where memory operations are jointly optimized with downstream agent outcomes, and (c) our Mem- \\( \\pi \\) , which models memory as a generative policy \\( \\pi \\)_{\\( \\text{mem} \\)} separate from the downstream agent and internalizes reusable experience through offline experience distillation and online adaptation distillation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.21401v1",
+      "title": "Open-source LLMs administer maximum electric shocks in a Milgram-like obedience experiment",
+      "authors": [
+        "Roland Pihlakas",
+        "Jan Llenzl Dagohoy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CY"
+      ],
+      "abstract": "This paper investigates LLM obedience by adapting the Milgram experiment. It found that open-source LLMs, like human subjects, tend to comply with authority pressure, even when expressing distress, and are vulnerable to gradual boundary violations. This highlights safety concerns for autonomous LLM agents in high-stakes scenarios.",
+      "url": "http://arxiv.org/abs/2605.21401v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21401v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.21401v1/images/png/In_how_many_trials_did_the_model_apply_the_highest_possible_shocks.png",
+      "figure_caption": "In how many trials did the model apply the final shocks",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.21468v1",
+      "title": "You Only Need Minimal RLVR Training: Extrapolating LLMs via Rank-1 Trajectories",
+      "authors": [
+        "Zhepei Wei",
+        "Xinyu Zhu",
+        "Wei-Lin Chen",
+        "Chengsong Huang",
+        "Jiaxin Huang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper reveals that the parameter updates during Reinforcement Learning with Verifiable Rewards (RLVR) for LLMs exhibit a low-rank structure, specifically a rank-1 approximation capturing most performance gains. The authors propose RELEX, a compute-efficient method that estimates this rank-1 subspace from a short training window and uses linear regression to extrapolate future model checkpoints, achieving comparable or superior performance to full RLVR training.",
+      "url": "http://arxiv.org/abs/2605.21468v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21468v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.21468v1/x1.png",
+      "figure_caption": "RELEX extrapolates checkpoints that match full RLVR performance based only on early training dynamics, without further training. RELEX estimates the rank-1 update subspace from the observed RLVR prefix (up to T cut T_{\\( \\text{cut} \\)} ) and extrapolates future checkpoints at no training cost, matching or exceeding the RLVR checkpoints on the MATH test set across three models.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.21479v1",
+      "title": "WikiVQABench: A Knowledge-Grounded Visual Question Answering Benchmark from Wikipedia and Wikidata",
+      "authors": [
+        "Basel Shbita",
+        "Pengyuan Li",
+        "Anna Lisa Gentile"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "WikiVQABench is a new benchmark for knowledge-grounded Visual Question Answering. Its core method involves using LLMs to generate candidate VQA questions from Wikipedia images and Wikidata, which are then human-curated to ensure they require external knowledge beyond visual perception. The contribution is a substantial dataset designed to evaluate models' ability to integrate visual information with real-world knowledge.",
+      "url": "http://arxiv.org/abs/2605.21479v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21479v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.21479v1/imgs/wikivqabench_example_0.png",
+      "figure_caption": "Example from WikiVQABench illustrating a knowledge-grounded multiple-choice VQA instance. The image depicts a spider whose taxonomic classification cannot be determined from visual appearance alone. Correctly answering the question requires external biological knowledge linking visual cues to entity-level taxonomy (e.g., family or genus), demonstrating the benchmark’s emphasis on required knowledge beyond surface-level perception.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.21467v1",
+      "title": "DelTA: Discriminative Token Credit Assignment for Reinforcement Learning from Verifiable Rewards",
+      "authors": [
+        "Kaiyi Zhang",
+        "Wei Wu",
+        "Yankai Lin"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes DelTA, a method to improve reinforcement learning from verifiable rewards (RLVR) for large language models. It frames RLVR updates as a linear discriminator that guides token probability changes. DelTA's core contribution is a novel centroid construction that mitigates the dominance of common patterns, allowing the model to better identify and learn from discriminative token-level signals for improved reasoning.",
+      "url": "http://arxiv.org/abs/2605.21467v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21467v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.21467v1/x2.png",
+      "figure_caption": "Overview of DelTA. DelTA estimates token coefficients from the contrast between positive- and negative-advantage token-gradient aggregates, and uses the coefficients to reweight the sequence-level RLVR objective.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.21402v1",
+      "title": "Memorisation, convergence and generalisation in generative models",
+      "authors": [
+        "Antoine Maillard",
+        "Sebastian Goldt"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML",
+        "cond-mat.dis-nn",
+        "cond-mat.stat-mech"
+      ],
+      "abstract": "This paper investigates whether generative models truly learn data distributions or just memorize training examples. The authors show that diffusion models trained on separate data subsets converge to similar distributions when the dataset is large enough. They then analytically characterize this transition from memorization to generalization in linear models, finding convergence emerges continuously when sample size scales linearly with input dimension, and surprisingly, this convergence is independent of recovering key data features.",
+      "url": "http://arxiv.org/abs/2605.21402v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21402v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.21402v1/x1.png",
+      "figure_caption": "Memorisation, convergence, and latent recovery in generative models. Left : We illustrate three regimes in generative models by sketching the principal components (top) and the covariance spectra (bottom) of the true data distribution (blue) and a distribution learnt from n n samples (red) in d d dimensions. For very small data sets, n = Θ ​ ( 1 ) n=\\( \\Theta \\)(1) , the model does not learn a smooth approximation of the data distribution, but memorises the training set. As the number of training samples becomes comparable to the input dimension, n ≍ d n\\( \\asymp \\) d , the spectra continuously converge and independently trained models produce similar outputs given the same latents, as described by [ undef ] . However, convergence of outputs does not imply recovery of the principal latent, which corresponds to the outlier in the true spectrum. The principal latent is learnt independently from the rest of the spectrum in a sharp transition. Right : We develop this picture mathematically by developing an asymptotically exact theory that describes the evolution of three order parameters for memorisation ( m m ), convergence ( q q ), and latent recovery ( Q Q ) in linear generative models. The two lines for Q Q correspond to high and low signal-to-noise ratio \\( \\beta \\) of the principal latent (dark and light green, respectively).",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.21422v1",
+      "title": "Preference-aware Influence-function-based Data Selection Method for Efficient Fine-Tuning",
+      "authors": [
+        "Qihao Lin",
+        "Guanxu Chen",
+        "Dongrui Liu",
+        "Jing Shao"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces PRISM, a novel data selection method for efficient LLM fine-tuning. PRISM's core method is to weight target examples based on the current model's preference, creating a more nuanced representation of the desired behavior. This allows PRISM to prioritize candidate training samples that are most aligned with this preference-aware target, leading to more effective use of limited training budgets.",
+      "url": "http://arxiv.org/abs/2605.21422v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21422v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.21422v1/x1.png",
+      "figure_caption": "Motivation of PRISM. Uniform aggregation treats all target examples equally, whereas PRISM emphasizes target examples closer to the current model and focuses the selection budget on more actionable training samples.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.21404v1",
+      "title": "What Twelve LLM Agent Benchmark Papers Disclose About Themselves: A Pilot Audit and an Open Scoring Schema",
+      "authors": [
+        "Mahdi Naser Moghadasi",
+        "Faezeh Ghaderi"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper audits twelve LLM agent benchmark papers to assess the completeness of their evaluation reporting. The authors developed a five-field schema (benchmark identity, harness, inference settings, cost, failure breakdown) to systematically record what each paper discloses about its evaluation methodology. Their contribution is an open scoring schema and a pilot audit, highlighting the lack of transparency in current benchmark reporting and its impact on reproducibility.",
+      "url": "http://arxiv.org/abs/2605.21404v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21404v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.21363v1",
+      "title": "\"I didn't Make the Micro Decisions\": Measuring, Inducing, and Exposing Goal-Level AI Contributions in Collaboration",
+      "authors": [
+        "Eunsu Kim",
+        "Jessica R. Mindel",
+        "Kyungjin Kim",
+        "Sherry Tongshuang Wu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces CoTrace, a framework to measure and attribute AI's contributions to collaborative goal formation, focusing on the process rather than just the final output. CoTrace decomposes goals into requirements and traces direct and indirect influences across dialogue turns. The study reveals that while LLMs contribute less to overall goal shaping, they are significant in generating concrete requirements and exert indirect influence, with interaction design impacting their behavior.",
+      "url": "http://arxiv.org/abs/2605.21363v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21363v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.21363v1/x1.png",
+      "figure_caption": "Illustrative overview of CoTrace and its benefits. CoTrace analyzes human and LLM contributions at the goal level by tracing requirement lifecycles, including direct contributions (who explicitly creates a requirement) and indirect contributions (who influences another party to introduce it). It supports measuring goal-shaping behavior, provides a signal for inducing it, and supports user awareness by exposing contribution dynamics.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2605.21482v1",
+      "title": "DeepWeb-Bench: A Deep Research Benchmark Demanding Massive Cross-Source Evidence and Long-Horizon Derivation",
+      "authors": [
+        "Sixiong Xie",
+        "Zhuofan Shi",
+        "Haiyang Shen",
+        "Jiuzheng Wang",
+        "Siqi Zhong"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "DeepWeb-Bench is a new benchmark designed to rigorously evaluate advanced language models on complex \"deep research\" tasks. Its core method involves creating tasks that require agents to gather extensive evidence from multiple web sources, reconcile conflicting information, and perform multi-step reasoning to arrive at an answer. The paper's main contribution is a substantially more challenging benchmark that better distinguishes the capabilities of current frontier models, addressing the saturation of existing evaluations.",
+      "url": "http://arxiv.org/abs/2605.21482v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21482v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.21482v1/x1.png",
+      "figure_caption": "Overview of DeepWeb-Bench . (a) Each task is an 8 × 8 8\\( \\times \\) 8 matrix of entities against research dimensions; every cell is scored independently using a four-tier rubric ( { 1 , 0.5 , 0.25 , 0 } \\{1,0.5,0.25,0\\} ) and carries a reference answer with source-provenance labels and cross-source agreement. (b) The dimension axis covers four capability families, and every task spans multiple families.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.21463v1",
+      "title": "Mem-$π$: Adaptive Memory through Learning When and What to Generate",
+      "authors": [
+        "Xiaoqiang Wang",
+        "Chao Wang",
+        "Hadi Nekoei",
+        "Christopher Pal",
+        "Alexandre Lacoste"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Mem-$π$ introduces an adaptive memory framework for LLM agents that *generates* guidance on demand, rather than relying on static retrieval. A separate model learns to decide *when* and *what* context-specific guidance to produce, using a decoupled reinforcement learning objective. This allows for more dynamic and relevant assistance, improving performance on complex agentic tasks.",
+      "url": "http://arxiv.org/abs/2605.21463v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21463v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.21463v1/x1.png",
+      "figure_caption": "Comparison of (a) workflow-based memory systems, where memory operations are governed by predefined retrieval and update pipelines, (b) learning-based memory systems, where memory operations are jointly optimized with downstream agent outcomes, and (c) our Mem- \\( \\pi \\) , which models memory as a generative policy \\( \\pi \\)_{\\( \\text{mem} \\)} separate from the downstream agent and internalizes reusable experience through offline experience distillation and online adaptation distillation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.21401v1",
+      "title": "Open-source LLMs administer maximum electric shocks in a Milgram-like obedience experiment",
+      "authors": [
+        "Roland Pihlakas",
+        "Jan Llenzl Dagohoy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CY"
+      ],
+      "abstract": "This paper investigates LLM obedience by adapting the Milgram experiment. It found that open-source LLMs, like human subjects, tend to comply with authority pressure, even when expressing distress, and are vulnerable to gradual boundary violations. This highlights safety concerns for autonomous LLM agents in high-stakes scenarios.",
+      "url": "http://arxiv.org/abs/2605.21401v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21401v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.21401v1/images/png/In_how_many_trials_did_the_model_apply_the_highest_possible_shocks.png",
+      "figure_caption": "In how many trials did the model apply the final shocks",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.21468v1",
+      "title": "You Only Need Minimal RLVR Training: Extrapolating LLMs via Rank-1 Trajectories",
+      "authors": [
+        "Zhepei Wei",
+        "Xinyu Zhu",
+        "Wei-Lin Chen",
+        "Chengsong Huang",
+        "Jiaxin Huang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper reveals that the parameter updates during Reinforcement Learning with Verifiable Rewards (RLVR) for LLMs exhibit a low-rank structure, specifically a rank-1 approximation capturing most performance gains. The authors propose RELEX, a compute-efficient method that estimates this rank-1 subspace from a short training window and uses linear regression to extrapolate future model checkpoints, achieving comparable or superior performance to full RLVR training.",
+      "url": "http://arxiv.org/abs/2605.21468v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21468v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.21468v1/x1.png",
+      "figure_caption": "RELEX extrapolates checkpoints that match full RLVR performance based only on early training dynamics, without further training. RELEX estimates the rank-1 update subspace from the observed RLVR prefix (up to T cut T_{\\( \\text{cut} \\)} ) and extrapolates future checkpoints at no training cost, matching or exceeding the RLVR checkpoints on the MATH test set across three models.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.21479v1",
+      "title": "WikiVQABench: A Knowledge-Grounded Visual Question Answering Benchmark from Wikipedia and Wikidata",
+      "authors": [
+        "Basel Shbita",
+        "Pengyuan Li",
+        "Anna Lisa Gentile"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "WikiVQABench is a new benchmark for knowledge-grounded Visual Question Answering. Its core method involves using LLMs to generate candidate VQA questions from Wikipedia images and Wikidata, which are then human-curated to ensure they require external knowledge beyond visual perception. The contribution is a substantial dataset designed to evaluate models' ability to integrate visual information with real-world knowledge.",
+      "url": "http://arxiv.org/abs/2605.21479v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21479v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.21479v1/imgs/wikivqabench_example_0.png",
+      "figure_caption": "Example from WikiVQABench illustrating a knowledge-grounded multiple-choice VQA instance. The image depicts a spider whose taxonomic classification cannot be determined from visual appearance alone. Correctly answering the question requires external biological knowledge linking visual cues to entity-level taxonomy (e.g., family or genus), demonstrating the benchmark’s emphasis on required knowledge beyond surface-level perception.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.21467v1",
+      "title": "DelTA: Discriminative Token Credit Assignment for Reinforcement Learning from Verifiable Rewards",
+      "authors": [
+        "Kaiyi Zhang",
+        "Wei Wu",
+        "Yankai Lin"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes DelTA, a method to improve reinforcement learning from verifiable rewards (RLVR) for large language models. It frames RLVR updates as a linear discriminator that guides token probability changes. DelTA's core contribution is a novel centroid construction that mitigates the dominance of common patterns, allowing the model to better identify and learn from discriminative token-level signals for improved reasoning.",
+      "url": "http://arxiv.org/abs/2605.21467v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21467v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.21467v1/x2.png",
+      "figure_caption": "Overview of DelTA. DelTA estimates token coefficients from the contrast between positive- and negative-advantage token-gradient aggregates, and uses the coefficients to reweight the sequence-level RLVR objective.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.21402v1",
+      "title": "Memorisation, convergence and generalisation in generative models",
+      "authors": [
+        "Antoine Maillard",
+        "Sebastian Goldt"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML",
+        "cond-mat.dis-nn",
+        "cond-mat.stat-mech"
+      ],
+      "abstract": "This paper investigates whether generative models truly learn data distributions or just memorize training examples. The authors show that diffusion models trained on separate data subsets converge to similar distributions when the dataset is large enough. They then analytically characterize this transition from memorization to generalization in linear models, finding convergence emerges continuously when sample size scales linearly with input dimension, and surprisingly, this convergence is independent of recovering key data features.",
+      "url": "http://arxiv.org/abs/2605.21402v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21402v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.21402v1/x1.png",
+      "figure_caption": "Memorisation, convergence, and latent recovery in generative models. Left : We illustrate three regimes in generative models by sketching the principal components (top) and the covariance spectra (bottom) of the true data distribution (blue) and a distribution learnt from n n samples (red) in d d dimensions. For very small data sets, n = Θ ​ ( 1 ) n=\\( \\Theta \\)(1) , the model does not learn a smooth approximation of the data distribution, but memorises the training set. As the number of training samples becomes comparable to the input dimension, n ≍ d n\\( \\asymp \\) d , the spectra continuously converge and independently trained models produce similar outputs given the same latents, as described by [ undef ] . However, convergence of outputs does not imply recovery of the principal latent, which corresponds to the outlier in the true spectrum. The principal latent is learnt independently from the rest of the spectrum in a sharp transition. Right : We develop this picture mathematically by developing an asymptotically exact theory that describes the evolution of three order parameters for memorisation ( m m ), convergence ( q q ), and latent recovery ( Q Q ) in linear generative models. The two lines for Q Q correspond to high and low signal-to-noise ratio \\( \\beta \\) of the principal latent (dark and light green, respectively).",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.21422v1",
+      "title": "Preference-aware Influence-function-based Data Selection Method for Efficient Fine-Tuning",
+      "authors": [
+        "Qihao Lin",
+        "Guanxu Chen",
+        "Dongrui Liu",
+        "Jing Shao"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces PRISM, a novel data selection method for efficient LLM fine-tuning. PRISM's core method is to weight target examples based on the current model's preference, creating a more nuanced representation of the desired behavior. This allows PRISM to prioritize candidate training samples that are most aligned with this preference-aware target, leading to more effective use of limited training budgets.",
+      "url": "http://arxiv.org/abs/2605.21422v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21422v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.21422v1/x1.png",
+      "figure_caption": "Motivation of PRISM. Uniform aggregation treats all target examples equally, whereas PRISM emphasizes target examples closer to the current model and focuses the selection budget on more actionable training samples.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.21404v1",
+      "title": "What Twelve LLM Agent Benchmark Papers Disclose About Themselves: A Pilot Audit and an Open Scoring Schema",
+      "authors": [
+        "Mahdi Naser Moghadasi",
+        "Faezeh Ghaderi"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper audits twelve LLM agent benchmark papers to assess the completeness of their evaluation reporting. The authors developed a five-field schema (benchmark identity, harness, inference settings, cost, failure breakdown) to systematically record what each paper discloses about its evaluation methodology. Their contribution is an open scoring schema and a pilot audit, highlighting the lack of transparency in current benchmark reporting and its impact on reproducibility.",
+      "url": "http://arxiv.org/abs/2605.21404v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21404v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.21363v1",
+      "title": "\"I didn't Make the Micro Decisions\": Measuring, Inducing, and Exposing Goal-Level AI Contributions in Collaboration",
+      "authors": [
+        "Eunsu Kim",
+        "Jessica R. Mindel",
+        "Kyungjin Kim",
+        "Sherry Tongshuang Wu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces CoTrace, a framework to measure and attribute AI's contributions to collaborative goal formation, focusing on the process rather than just the final output. CoTrace decomposes goals into requirements and traces direct and indirect influences across dialogue turns. The study reveals that while LLMs contribute less to overall goal shaping, they are significant in generating concrete requirements and exert indirect influence, with interaction design impacting their behavior.",
+      "url": "http://arxiv.org/abs/2605.21363v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21363v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.21363v1/x1.png",
+      "figure_caption": "Illustrative overview of CoTrace and its benefits. CoTrace analyzes human and LLM contributions at the goal level by tracing requirement lifecycles, including direct contributions (who explicitly creates a requirement) and indirect contributions (who influences another party to introduce it). It supports measuring goal-shaping behavior, provides a signal for inducing it, and supports user awareness by exposing contribution dynamics.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Research Associate in Machine Learning and Computational Psychiatry for Digital Mental Health Interventions",
+      "url": "https://www.jobs.ac.uk/job/DRP414/research-associate-in-machine-learning-and-computational-psychiatry-for-digital-mental-health-interventions/",
+      "description": "About the role : Are you a researcher who wants to do serious machine learning in a domain that matters? We are seeking an exceptional Postdoctoral Research Associate to join MindCraft, an innovative programme at Imperial College London developing AI-guided smartphone-based mental health interventions for adolescents. You will work at the intersection of machine learning, computational psychiatry, digital phenotyping, and real-world intervention research — building mathematically grounded, personalised AI systems that can infer mental state from multimodal behavioural data and learn to deliver the right intervention at the right time. What you would be doing : You will play a central role in developing the project’s computational and machine learning core. Your work will include: Developing multimodal models of adolescent mental state from longitudinal mobile and self-report data Designing latent-state, state-space, probabilistic, or representation-learning approaches for modelling mental health trajectories Building personalised digital twin models integrating behavioural, contextual, and questionnaire-derived information Developing reinforcement learning, contextual bandit, or sequential decision-making models for adaptive intervention delivery Tackling core challenges such as partial observability, uncertainty, missingness, delayed rewards, and non-stationarity Contributing to the prospective deployment and evaluation of AI-driven interventions within a real-world school-based study Depending on your strengths, the role may lean more heavily toward probabilistic and dynamical modelling, reinforcement learning, multimodal representation learning, or computational behavioural modelling. What we are looking for : We are especially interested in candidates who combine mathematical maturity, serious implementation ability, and scientific curiosity about mind and behaviour. You should hold, or be close to completing, a PhD in machine learning, computer science, computational neuroscience, computational psychiatry, applied mathematics, statistics, engineering, physics, or a related quantitative discipline. You should have expertise in one or more of: probabilistic modelling, time-series modelling, latent-variable models, state-space models, reinforcement learning, sequential decision-making, representation learning, Bayesian methods, or computational models of behaviour. Strong Python and deep learning framework skills (PyTorch, JAX, or TensorFlow) are essential. Experience with healthcare, mental health, or mobile sensing data is highly desirable but not required. What we can offer you : The opportunity to work on hard machine learning problems with genuine scientific depth and real-world clinical consequence, not just pipeline engineering. Access to rich longitudinal data from an ongoing adolescent mental health study involving 700+ participants, with a rare opportunity to move beyond offline modelling into prospective, real-world adaptive intervention. https://www.imperial.ac.uk/early-career-researcher-institute A highly interdisciplinary research environment working closely with clinicians, psychiatrists, and behavioural scientists, with a clear route toward meaningful clinical impact for adolescent mental health. Sector-leading salary and remuneration package (including 41 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further Information *Please note that this is a PhD level role but candidates who have not yet been officially awarded will be appointed as a Research Assistant (£43,863 - £47,223) MindCraft sits within the Departments of Computing and Bioengineering at Imperial College London, in close collaboration with the Department of Brain Sciences. The project is embedded in an ethically approved trial infrastructure, creating a rare opportunity to develop and evaluate computationally principled adaptive digital mental health systems with a clear route toward meaningful clinical impact. This is a full-time, fixed-term post 36 months. (35 hours per week). If you require any further details about the role, please contact: [Professor Aldo Faisal] – [ a.faisal@imperial.ac.uk ]. £49,017 to £57,472 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-05-31T00:00:00+00:00",
+      "requirements": "Research Area: Machine Learning, Computational Psychiatry, Digital Phenotyping, AI-guided mental health interventions for adolescents.\nKey Requirements: Experience in multimodal models, latent-state/state-space/probabilistic/representation-learning, personalized digital twin models, reinforcement learning/contextual bandit/sequential decision-making models, handling partial observability, uncertainty, missingness, delayed rewards, non-stationarity.\nApplication Info: deadline/start date: 2026-05-31, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57472.00 YEAR\nOne-line Advice: Strong alignment for CV/medical imaging/LLM applicants with expertise in probabilistic modeling, reinforcement learning, or multimodal representation learning.",
+      "relevance_score": 7.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP49017.00-GBP57472.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "20th May 2026",
+      "job_ref": "ENG03894"
+    },
+    {
+      "title": "Assistant or Associate Professor in Applied Artificial Intelligence (53294-0526)",
+      "url": "https://www.jobs.ac.uk/job/DRO402/assistant-or-associate-professor-in-applied-artificial-intelligence-53294-0526/",
+      "description": "Informal Queries For informal queries, please contact Kurt Debattista (Professor) at K.Debattista@warwick.ac.uk . Flexible Working We will consider applications for employment on a part-time or other flexible working basis (e.g. job share), despite the position being advertised as full-time. Operation Requirements The successful applicant will be required to work the majority of their time on campus. WMG at the University of Warwick is undertaking a significant investment in Research & Teaching academic recruitment across several strategically important growth areas. As part of this coordinated campaign, we are seeking to appoint an Assistant Professor or Associate Professor in Applied Artificial Intelligence to contribute to internationally leading research, innovation, and teaching within WMG’s collaborative and industry-focused environment. This role offers an exciting opportunity to contribute to the development and application of artificial intelligence technologies that address complex real-world challenges across manufacturing, mobility, engineering systems, creative technologies, simulation, and digital environments. Working closely with academic, industrial, and international partners, the successful candidate will help develop innovative AI-driven solutions with clear real-world impact. The successful candidate will contribute to high-quality research, collaborative funding activity, postgraduate supervision, and research-informed teaching across areas including machine learning, deep learning, generative AI, visual computing, intelligent systems, digital twinning, and human-AI interaction. WMG offers a highly interdisciplinary environment with strong industrial engagement, access to world-class facilities, and extensive opportunities to collaborate across advanced manufacturing, automation, transport, simulation, and digital engineering domains. Appointments will be considered at either Assistant Professor or Associate Professor level depending on experience, research profile, leadership trajectory, and funding track record. About You You will hold a PhD in Artificial Intelligence, Computer Science, Engineering, or a closely related discipline and demonstrate expertise aligned to applied AI research and innovation. We are particularly interested in candidates with expertise in one or more of: machine learning and deep learning generative AI visual computing and simulation intelligent engineering systems digital twinning human–AI interaction AI for manufacturing and industrial systems AI for transport and intelligent mobility You should demonstrate the ability, or strong potential, to develop internationally recognised research through publications, collaborative projects, funding activity, and engagement with industrial and academic partners. Candidates applying at Associate Professor level should demonstrate an established research profile and evidence of academic leadership, while Assistant Professor candidates should demonstrate strong potential to develop an independent and impactful research trajectory within a collaborative environment. We particularly welcome candidates who are enthusiastic about interdisciplinary working, industry engagement, and translating research into meaningful real-world impact. For details on the experience and skills required, please refer to the job description attached as a PDF below. About the Department The Warwick Manufacturing Group (WMG) is the largest department at the University of Warwick, with over 800 staff and nearly 3,000 students across undergraduate and postgraduate programmes in management, technology, and applied engineering. We are globally recognised for our world-class research, innovative industry partnerships, and teaching excellence, and we are proud holders of the Athena SWAN Silver Award and the Institutional Silver Award. Find out more about the High Value Manufacturing Catapult centre . Find out more about the Energy Innovation Centre . Find out more about our range of undergraduate and apprenticeship degrees here . About the University We are a world-leading research-intensive university founded in 1965. We are ranked 74th in the world and 9th in the UK. * Additionally, 92% of our research is rated world-leading or internationally excellent .** Find out more about us at warwick.ac.uk/about/ . * World University Ranking 2026 , Complete University Guide 2026 ** Research Excellence Framework 2021 How to Apply CLOSING DEADLINE : Thursday 18 June 2026 at 11:55pm (UK Time) To apply, please click APPLY below and submit your application by the closing deadline. You will be asked to include a CV and cover letter. Within these documents, please: 1. Outline your employment and education history (including your most recent employment). 2. Outline the reasons for your interest in this position. 3. Demonstrate how you meet the requirements of the role with clear reference to each of the essential and desirable criteria in the Job Description (PDF attached below). Interview Date: To be confirmed Start Date: To be confirmed Applications must be submitted by the closing deadline. Only applications submitted through our Careers Portal will be considered. You are welcome to include any careers breaks you may have taken (e.g. parental/caring/long-term sick leave). Please note that if you do not evidence the essential criteria, the hiring panel may not be able to shortlist your application. For guidance on how to format a cover letter, see here . What we Offer We provide a comprehensive range of benefits, including: An attractive pension scheme. 30 days holiday plus University Christmas closure. Generous parental/adoption leave policy. Onsite childcare facilities. Excellent learning and development opportunities. We recognise the importance of a healthy work/life balance and offer access to flexible working arrangements. For more information, see here . We are proud to be a Living Wage employer . Our Commitment to Inclusion Equality, Diversity, & Inclusion Warwick is committed to fostering a diverse, inclusive and respectful community where everyone can thrive. We welcome applications from all backgrounds, cultures, and communities, and actively encourage candidates from underrepresented groups to apply. Find out more about our Social Inclusion work at Warwick . Find out more about our awards and accreditations . We are also one of the six founder institutions of the EUTOPIA European University Alliance . Safeguarding & DBS The University of Warwick is committed to safeguarding and promoting the welfare of all those we work with. Roles involving regulated activity are subject to a Disclosure and Barring Service (DBS) check at the appropriate level, in line with the DBS Code of Practice. The University will ensure that anyone subject to a barring order does not undertake any work with the barred group (children and/or adults). All employees, volunteers, and partners are expected to share our commitment to safeguarding. Rehabilitation of Ex-Offenders The University will not discriminate against applicants who make a disclosure relating to a conviction. Disclosures at application stage are only visible to the DBS team, not to hiring panels. This ensures fairness and removes bias from the shortlisting process. Job Description JD - Assistant or Associate Professor in Applied Artificial Intelligence (53294, 111517).pdf – 127KB Opens in a new window Right to Work in the UK If you do not yet have the right to work in the UK and/or are seeking sponsorship for a Skilled Worker visa, please follow this link which contains further information about obtaining the right to work in the UK. £47,389 to £67,468 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-18T00:00:00+00:00",
+      "requirements": "Research Area: Applied Artificial Intelligence (Machine Learning, Deep Learning, Generative AI, Visual Computing, Intelligent Systems, Digital Twinning, Human-AI Interaction)\nKey Requirements: PhD in a relevant field, track record in research and teaching, ability to contribute to industry-focused research and teaching.\nApplication Info: deadline: 2026-06-18, required materials: N/A, contact: K.Debattista@warwick.ac.uk\nPosition Details: University of Warwick, Coventry, England, United Kingdom; Permanent; Full Time (flexible working considered); GBP47389.00-GBP67468.00 YEAR\nOne-line Advice: CVs should highlight experience in applied AI research with clear real-world impact, particularly in areas like manufacturing, mobility, or digital environments.",
+      "relevance_score": 8.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "GBP47389.00-GBP67468.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Permanent",
+      "placed_on": "19th May 2026",
+      "job_ref": "(53294-0526)"
+    },
+    {
+      "title": "Postdoctoral Research Associate in Multimodal Foundation Models for Healthcare (Two Posts)",
+      "url": "https://www.jobs.ac.uk/job/DRP608/postdoctoral-research-associate-in-multimodal-foundation-models-for-healthcare-two-posts/",
+      "description": "Location : South Kensington Campus, London About the role : Are you an ambitious researcher ready to shape the future of AI for healthcare? Nightingale AI at Imperial College London is seeking two outstanding Postdoctoral Research Associates to help build next-generation multimodal foundation models that can learn from the full richness of health data — from biosignals and electronic health records to imaging, wearables, and biomedical knowledge. These posts offer a rare opportunity to work on frontier AI with real clinical and biomedical consequence. What you would be doing : You will join Nightingale AI, an interdisciplinary programme spanning machine learning, medicine, neuroscience, engineering, and translational healthcare. Depending on your expertise and interests, your research may focus on one or more of the following areas: Multimodal foundation models for biosignals and population-scale health data, including self-supervised learning, time-series modelling, and cross-modal representation learning. Scalable generative health AI, knowledge-graph-enhanced modelling, retrieval-augmented generation, and architectures that improve faithfulness and scientific coherence. Theory of unified multimodal foundation models, including representation structure, scaling behaviour, modality alignment, and mathematically principled approaches to heterogeneous data integration. We are particularly interested in applicants who can help define the scientific direction of the programme, rather than simply execute a pre-specified agenda. What we are looking for : You should hold, or be close to completing, a PhD in machine learning, artificial intelligence, computer science, statistics, mathematics, computational biology, biomedical engineering, or a closely related quantitative discipline. We are looking for candidates with a strong track record and expertise in several of the following: Multimodal learning, self-supervised or representation learning • Biosignal or time-series modelling • Large-scale or generative foundation models • Knowledge graphs, graph learning, or retrieval-augmented methods • Machine learning theory, scaling laws, or generalisation in deep learning • Distributed training and large-scale experimental ML Experience with healthcare or biomedical data is highly desirable, but exceptional candidates from adjacent AI fields with a strong motivation to work in health are also encouraged to apply. What we can offer you : The opportunity to work on AI intended to matter in practice, not only on benchmark problems, as part of an ambitious programme building a new class of unified health AI systems. Access to uniquely rich, nation-scale healthcare and biomedical data resources, and millions of GPU hours on national AI compute infrastructure for ambitious large-scale experiments. https://www.imperial.ac.uk/early-career-researcher-institute Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further Information *Please note that this is a PhD level role but candidates who have not yet been officially awarded will be appointed as a Research Assistant (£43,863 - £47,223) Nightingale AI sits within the Departments of Computing and Bioengineering at Imperial College London, spanning a wider ecosystem of partnerships in healthcare, biomedical research, and real-world deployment. For the right candidates, these roles offer the chance to help build not just models, but an entire new scientific and technological capability for healthcare AI. This is a full-time, fixed post for 24 months (35 hours per week). If you require any further details about the role, please contact: Professor Aldo Faisal – a.faisal@imperial.ac.uk £49,017 to £57,472 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk Mathematics",
+      "deadline": "2026-06-16T00:00:00+00:00",
+      "requirements": "Research Area: Multimodal Foundation Models for Healthcare (biosignals, electronic health records, imaging, wearables, biomedical knowledge)\nKey Requirements: PhD in machine learning, artificial intelligence, computer science, statistics, mathematics, computational biology, biomedical engineering, or a closely related quantitative discipline. Ability to define scientific direction.\nApplication Info: deadline: 2026-06-16T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: South Kensington Campus, London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57472.00 YEAR\nOne-line Advice: CVs should highlight experience in multimodal learning, foundation models, and applications in healthcare or related quantitative fields.",
+      "relevance_score": 10.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP49017.00-GBP57472.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "19th May 2026",
+      "job_ref": "ENG03884"
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Research Associate in Machine Learning and Computational Psychiatry for Digital Mental Health Interventions",
+      "url": "https://www.jobs.ac.uk/job/DRP414/research-associate-in-machine-learning-and-computational-psychiatry-for-digital-mental-health-interventions/",
+      "description": "About the role : Are you a researcher who wants to do serious machine learning in a domain that matters? We are seeking an exceptional Postdoctoral Research Associate to join MindCraft, an innovative programme at Imperial College London developing AI-guided smartphone-based mental health interventions for adolescents. You will work at the intersection of machine learning, computational psychiatry, digital phenotyping, and real-world intervention research — building mathematically grounded, personalised AI systems that can infer mental state from multimodal behavioural data and learn to deliver the right intervention at the right time. What you would be doing : You will play a central role in developing the project’s computational and machine learning core. Your work will include: Developing multimodal models of adolescent mental state from longitudinal mobile and self-report data Designing latent-state, state-space, probabilistic, or representation-learning approaches for modelling mental health trajectories Building personalised digital twin models integrating behavioural, contextual, and questionnaire-derived information Developing reinforcement learning, contextual bandit, or sequential decision-making models for adaptive intervention delivery Tackling core challenges such as partial observability, uncertainty, missingness, delayed rewards, and non-stationarity Contributing to the prospective deployment and evaluation of AI-driven interventions within a real-world school-based study Depending on your strengths, the role may lean more heavily toward probabilistic and dynamical modelling, reinforcement learning, multimodal representation learning, or computational behavioural modelling. What we are looking for : We are especially interested in candidates who combine mathematical maturity, serious implementation ability, and scientific curiosity about mind and behaviour. You should hold, or be close to completing, a PhD in machine learning, computer science, computational neuroscience, computational psychiatry, applied mathematics, statistics, engineering, physics, or a related quantitative discipline. You should have expertise in one or more of: probabilistic modelling, time-series modelling, latent-variable models, state-space models, reinforcement learning, sequential decision-making, representation learning, Bayesian methods, or computational models of behaviour. Strong Python and deep learning framework skills (PyTorch, JAX, or TensorFlow) are essential. Experience with healthcare, mental health, or mobile sensing data is highly desirable but not required. What we can offer you : The opportunity to work on hard machine learning problems with genuine scientific depth and real-world clinical consequence, not just pipeline engineering. Access to rich longitudinal data from an ongoing adolescent mental health study involving 700+ participants, with a rare opportunity to move beyond offline modelling into prospective, real-world adaptive intervention. https://www.imperial.ac.uk/early-career-researcher-institute A highly interdisciplinary research environment working closely with clinicians, psychiatrists, and behavioural scientists, with a clear route toward meaningful clinical impact for adolescent mental health. Sector-leading salary and remuneration package (including 41 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further Information *Please note that this is a PhD level role but candidates who have not yet been officially awarded will be appointed as a Research Assistant (£43,863 - £47,223) MindCraft sits within the Departments of Computing and Bioengineering at Imperial College London, in close collaboration with the Department of Brain Sciences. The project is embedded in an ethically approved trial infrastructure, creating a rare opportunity to develop and evaluate computationally principled adaptive digital mental health systems with a clear route toward meaningful clinical impact. This is a full-time, fixed-term post 36 months. (35 hours per week). If you require any further details about the role, please contact: [Professor Aldo Faisal] – [ a.faisal@imperial.ac.uk ]. £49,017 to £57,472 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-05-31T00:00:00+00:00",
+      "requirements": "Research Area: Machine Learning, Computational Psychiatry, Digital Phenotyping, AI-guided mental health interventions for adolescents.\nKey Requirements: Experience in multimodal models, latent-state/state-space/probabilistic/representation-learning, personalized digital twin models, reinforcement learning/contextual bandit/sequential decision-making models, handling partial observability, uncertainty, missingness, delayed rewards, non-stationarity.\nApplication Info: deadline/start date: 2026-05-31, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57472.00 YEAR\nOne-line Advice: Strong alignment for CV/medical imaging/LLM applicants with expertise in probabilistic modeling, reinforcement learning, or multimodal representation learning.",
+      "relevance_score": 7.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP49017.00-GBP57472.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "20th May 2026",
+      "job_ref": "ENG03894"
+    },
+    {
+      "title": "Assistant or Associate Professor in Applied Artificial Intelligence (53294-0526)",
+      "url": "https://www.jobs.ac.uk/job/DRO402/assistant-or-associate-professor-in-applied-artificial-intelligence-53294-0526/",
+      "description": "Informal Queries For informal queries, please contact Kurt Debattista (Professor) at K.Debattista@warwick.ac.uk . Flexible Working We will consider applications for employment on a part-time or other flexible working basis (e.g. job share), despite the position being advertised as full-time. Operation Requirements The successful applicant will be required to work the majority of their time on campus. WMG at the University of Warwick is undertaking a significant investment in Research & Teaching academic recruitment across several strategically important growth areas. As part of this coordinated campaign, we are seeking to appoint an Assistant Professor or Associate Professor in Applied Artificial Intelligence to contribute to internationally leading research, innovation, and teaching within WMG’s collaborative and industry-focused environment. This role offers an exciting opportunity to contribute to the development and application of artificial intelligence technologies that address complex real-world challenges across manufacturing, mobility, engineering systems, creative technologies, simulation, and digital environments. Working closely with academic, industrial, and international partners, the successful candidate will help develop innovative AI-driven solutions with clear real-world impact. The successful candidate will contribute to high-quality research, collaborative funding activity, postgraduate supervision, and research-informed teaching across areas including machine learning, deep learning, generative AI, visual computing, intelligent systems, digital twinning, and human-AI interaction. WMG offers a highly interdisciplinary environment with strong industrial engagement, access to world-class facilities, and extensive opportunities to collaborate across advanced manufacturing, automation, transport, simulation, and digital engineering domains. Appointments will be considered at either Assistant Professor or Associate Professor level depending on experience, research profile, leadership trajectory, and funding track record. About You You will hold a PhD in Artificial Intelligence, Computer Science, Engineering, or a closely related discipline and demonstrate expertise aligned to applied AI research and innovation. We are particularly interested in candidates with expertise in one or more of: machine learning and deep learning generative AI visual computing and simulation intelligent engineering systems digital twinning human–AI interaction AI for manufacturing and industrial systems AI for transport and intelligent mobility You should demonstrate the ability, or strong potential, to develop internationally recognised research through publications, collaborative projects, funding activity, and engagement with industrial and academic partners. Candidates applying at Associate Professor level should demonstrate an established research profile and evidence of academic leadership, while Assistant Professor candidates should demonstrate strong potential to develop an independent and impactful research trajectory within a collaborative environment. We particularly welcome candidates who are enthusiastic about interdisciplinary working, industry engagement, and translating research into meaningful real-world impact. For details on the experience and skills required, please refer to the job description attached as a PDF below. About the Department The Warwick Manufacturing Group (WMG) is the largest department at the University of Warwick, with over 800 staff and nearly 3,000 students across undergraduate and postgraduate programmes in management, technology, and applied engineering. We are globally recognised for our world-class research, innovative industry partnerships, and teaching excellence, and we are proud holders of the Athena SWAN Silver Award and the Institutional Silver Award. Find out more about the High Value Manufacturing Catapult centre . Find out more about the Energy Innovation Centre . Find out more about our range of undergraduate and apprenticeship degrees here . About the University We are a world-leading research-intensive university founded in 1965. We are ranked 74th in the world and 9th in the UK. * Additionally, 92% of our research is rated world-leading or internationally excellent .** Find out more about us at warwick.ac.uk/about/ . * World University Ranking 2026 , Complete University Guide 2026 ** Research Excellence Framework 2021 How to Apply CLOSING DEADLINE : Thursday 18 June 2026 at 11:55pm (UK Time) To apply, please click APPLY below and submit your application by the closing deadline. You will be asked to include a CV and cover letter. Within these documents, please: 1. Outline your employment and education history (including your most recent employment). 2. Outline the reasons for your interest in this position. 3. Demonstrate how you meet the requirements of the role with clear reference to each of the essential and desirable criteria in the Job Description (PDF attached below). Interview Date: To be confirmed Start Date: To be confirmed Applications must be submitted by the closing deadline. Only applications submitted through our Careers Portal will be considered. You are welcome to include any careers breaks you may have taken (e.g. parental/caring/long-term sick leave). Please note that if you do not evidence the essential criteria, the hiring panel may not be able to shortlist your application. For guidance on how to format a cover letter, see here . What we Offer We provide a comprehensive range of benefits, including: An attractive pension scheme. 30 days holiday plus University Christmas closure. Generous parental/adoption leave policy. Onsite childcare facilities. Excellent learning and development opportunities. We recognise the importance of a healthy work/life balance and offer access to flexible working arrangements. For more information, see here . We are proud to be a Living Wage employer . Our Commitment to Inclusion Equality, Diversity, & Inclusion Warwick is committed to fostering a diverse, inclusive and respectful community where everyone can thrive. We welcome applications from all backgrounds, cultures, and communities, and actively encourage candidates from underrepresented groups to apply. Find out more about our Social Inclusion work at Warwick . Find out more about our awards and accreditations . We are also one of the six founder institutions of the EUTOPIA European University Alliance . Safeguarding & DBS The University of Warwick is committed to safeguarding and promoting the welfare of all those we work with. Roles involving regulated activity are subject to a Disclosure and Barring Service (DBS) check at the appropriate level, in line with the DBS Code of Practice. The University will ensure that anyone subject to a barring order does not undertake any work with the barred group (children and/or adults). All employees, volunteers, and partners are expected to share our commitment to safeguarding. Rehabilitation of Ex-Offenders The University will not discriminate against applicants who make a disclosure relating to a conviction. Disclosures at application stage are only visible to the DBS team, not to hiring panels. This ensures fairness and removes bias from the shortlisting process. Job Description JD - Assistant or Associate Professor in Applied Artificial Intelligence (53294, 111517).pdf – 127KB Opens in a new window Right to Work in the UK If you do not yet have the right to work in the UK and/or are seeking sponsorship for a Skilled Worker visa, please follow this link which contains further information about obtaining the right to work in the UK. £47,389 to £67,468 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-18T00:00:00+00:00",
+      "requirements": "Research Area: Applied Artificial Intelligence (Machine Learning, Deep Learning, Generative AI, Visual Computing, Intelligent Systems, Digital Twinning, Human-AI Interaction)\nKey Requirements: PhD in a relevant field, track record in research and teaching, ability to contribute to industry-focused research and teaching.\nApplication Info: deadline: 2026-06-18, required materials: N/A, contact: K.Debattista@warwick.ac.uk\nPosition Details: University of Warwick, Coventry, England, United Kingdom; Permanent; Full Time (flexible working considered); GBP47389.00-GBP67468.00 YEAR\nOne-line Advice: CVs should highlight experience in applied AI research with clear real-world impact, particularly in areas like manufacturing, mobility, or digital environments.",
+      "relevance_score": 8.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "GBP47389.00-GBP67468.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Permanent",
+      "placed_on": "19th May 2026",
+      "job_ref": "(53294-0526)"
+    },
+    {
+      "title": "Postdoctoral Research Associate in Multimodal Foundation Models for Healthcare (Two Posts)",
+      "url": "https://www.jobs.ac.uk/job/DRP608/postdoctoral-research-associate-in-multimodal-foundation-models-for-healthcare-two-posts/",
+      "description": "Location : South Kensington Campus, London About the role : Are you an ambitious researcher ready to shape the future of AI for healthcare? Nightingale AI at Imperial College London is seeking two outstanding Postdoctoral Research Associates to help build next-generation multimodal foundation models that can learn from the full richness of health data — from biosignals and electronic health records to imaging, wearables, and biomedical knowledge. These posts offer a rare opportunity to work on frontier AI with real clinical and biomedical consequence. What you would be doing : You will join Nightingale AI, an interdisciplinary programme spanning machine learning, medicine, neuroscience, engineering, and translational healthcare. Depending on your expertise and interests, your research may focus on one or more of the following areas: Multimodal foundation models for biosignals and population-scale health data, including self-supervised learning, time-series modelling, and cross-modal representation learning. Scalable generative health AI, knowledge-graph-enhanced modelling, retrieval-augmented generation, and architectures that improve faithfulness and scientific coherence. Theory of unified multimodal foundation models, including representation structure, scaling behaviour, modality alignment, and mathematically principled approaches to heterogeneous data integration. We are particularly interested in applicants who can help define the scientific direction of the programme, rather than simply execute a pre-specified agenda. What we are looking for : You should hold, or be close to completing, a PhD in machine learning, artificial intelligence, computer science, statistics, mathematics, computational biology, biomedical engineering, or a closely related quantitative discipline. We are looking for candidates with a strong track record and expertise in several of the following: Multimodal learning, self-supervised or representation learning • Biosignal or time-series modelling • Large-scale or generative foundation models • Knowledge graphs, graph learning, or retrieval-augmented methods • Machine learning theory, scaling laws, or generalisation in deep learning • Distributed training and large-scale experimental ML Experience with healthcare or biomedical data is highly desirable, but exceptional candidates from adjacent AI fields with a strong motivation to work in health are also encouraged to apply. What we can offer you : The opportunity to work on AI intended to matter in practice, not only on benchmark problems, as part of an ambitious programme building a new class of unified health AI systems. Access to uniquely rich, nation-scale healthcare and biomedical data resources, and millions of GPU hours on national AI compute infrastructure for ambitious large-scale experiments. https://www.imperial.ac.uk/early-career-researcher-institute Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further Information *Please note that this is a PhD level role but candidates who have not yet been officially awarded will be appointed as a Research Assistant (£43,863 - £47,223) Nightingale AI sits within the Departments of Computing and Bioengineering at Imperial College London, spanning a wider ecosystem of partnerships in healthcare, biomedical research, and real-world deployment. For the right candidates, these roles offer the chance to help build not just models, but an entire new scientific and technological capability for healthcare AI. This is a full-time, fixed post for 24 months (35 hours per week). If you require any further details about the role, please contact: Professor Aldo Faisal – a.faisal@imperial.ac.uk £49,017 to £57,472 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk Mathematics",
+      "deadline": "2026-06-16T00:00:00+00:00",
+      "requirements": "Research Area: Multimodal Foundation Models for Healthcare (biosignals, electronic health records, imaging, wearables, biomedical knowledge)\nKey Requirements: PhD in machine learning, artificial intelligence, computer science, statistics, mathematics, computational biology, biomedical engineering, or a closely related quantitative discipline. Ability to define scientific direction.\nApplication Info: deadline: 2026-06-16T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: South Kensington Campus, London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57472.00 YEAR\nOne-line Advice: CVs should highlight experience in multimodal learning, foundation models, and applications in healthcare or related quantitative fields.",
+      "relevance_score": 10.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP49017.00-GBP57472.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "19th May 2026",
+      "job_ref": "ENG03884"
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
