@@ -1,0 +1,931 @@
+{
+  "date": "2026-05-22",
+  "generated_at": "2026-05-22T12:08:11.593951+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2605.22720v1",
+          "title": "Can AI Make Conflicts Worse? An Alignment Failure in LLM Deployment Across Conflict Contexts",
+          "authors": [
+            "Andrii Kryshtal"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.HC"
+          ],
+          "abstract": "This paper investigates how Large Language Models (LLMs) can exacerbate conflicts by generating misaligned outputs in sensitive contexts. The researchers tested nine LLM configurations across 90 conflict-related scenarios, revealing failure rates in recognizing atrocities, denying genocide, and misinterpreting slurs. Their contribution highlights the critical need for alignment checks before deploying LLMs in fragile societies, as model choice significantly impacts safety and can deepen societal divisions.",
+          "url": "http://arxiv.org/abs/2605.22720v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.22720v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.22720v1/x1.png",
+          "figure_caption": "Mean conflict-insensitivity score (bars, left axis) and failure rate (line, right axis) by model. Based on 90 conversations per model.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.22774v1",
+          "title": "CogAdapt: Transferring Clinical ECG Foundation Models to Wearable Cognitive Load Assessment via Lead Adaptation",
+          "authors": [
+            "Amir Mousavi",
+            "Mohammad Sadegh Sirjani",
+            "Erfan Nourbakhsh",
+            "Mimi Xie",
+            "Rocky Slavin"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.HC"
+          ],
+          "abstract": "CogAdapt adapts clinical ECG foundation models for wearable cognitive load assessment by using LeadBridge to transform 3-lead wearable data into 12-lead representations and ProFine for progressive fine-tuning. This approach overcomes sensor mismatch and data limitations, significantly outperforming baseline methods in accurately assessing cognitive load.",
+          "url": "http://arxiv.org/abs/2605.22774v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.22774v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.22731v1",
+          "title": "Post-Training is About States, Not Tokens: A State Distribution View of SFT, RL, and On-Policy Distillation",
+          "authors": [
+            "Dong Nie"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper argues that post-training methods for LLMs should be viewed through the lens of the *state distribution* they operate on, rather than just their loss functions. The core method involves formalizing post-training as \"state-distribution shaping\" and conducting small-scale experiments. The key contribution is demonstrating that on-policy distillation can improve performance across multiple tasks, even surpassing a degraded SFT teacher, by effectively shaping the state distribution.",
+          "url": "http://arxiv.org/abs/2605.22731v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.22731v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.22714v1",
+          "title": "AMEL: Accumulated Message Effects on LLM Judgments",
+          "authors": [
+            "Sid-ali Temkit"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates the \"accumulated message effect\" (AMEL), demonstrating that the sentiment of prior conversation history biases Large Language Models' (LLMs) subsequent judgments. The core method involves presenting identical test items to LLMs either in isolation or after conversations saturated with positive or negative evaluations. The key contribution is the finding that LLMs shift their judgments towards the prevailing polarity of the conversation, particularly when uncertain, and this bias is independent of context length, with a notable negativity asymmetry.",
+          "url": "http://arxiv.org/abs/2605.22714v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.22714v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.22714v1/x1.png",
+          "figure_caption": "Overview of AMEL. (a) Items where the model is uncertain at baseline absorb the most bias ( d = − 0.34 d=-0.34 ); confident-baseline items absorb less ( d = − 0.15 d=-0.15 ). (b) Negative context biases models more than positive context (paired per-item ratio 1.62 × 1.62\\( \\times \\) , p < 10 − 39 p<10^{-39} ); marginal means yield ≈ 2 × \\( \\approx \\) 2\\( \\times \\) (Section 4.5 ). Even balanced history shifts models toward “no.” (c) Bias saturates immediately; 5 turns produce the same effect as 50.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.22781v1",
+          "title": "DeltaBox: Scaling Stateful AI Agents with Millisecond-Level Sandbox Checkpoint/Rollback",
+          "authors": [
+            "Yunpeng Dong",
+            "Jingkai He",
+            "Yuze Hou",
+            "Dong Du",
+            "Zhonghu Xu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.OS"
+          ],
+          "abstract": "This paper introduces DeltaBox, a system that enables rapid checkpointing and rollback for stateful AI agents. Its core method is to only duplicate changes between consecutive sandbox states, rather than the entire state, significantly reducing latency. This contribution allows for high-frequency state exploration, crucial for advanced AI agent functionalities like deep search and reinforcement learning.",
+          "url": "http://arxiv.org/abs/2605.22781v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.22781v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.22781v1/x1.png",
+          "figure_caption": "Figure 1 . Pass rate on SWE-bench Verified. (a) Linear ReAct vs. MCTS across three coding models. (b) Base vs. RL-trained across three open-weight model families.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.22786v1",
+          "title": "LCGuard: Latent Communication Guard for Safe KV Sharing in Multi-Agent Systems",
+          "authors": [
+            "Sadia Asif",
+            "Mohammad Mohammadi Amiri",
+            "Momin Abbas",
+            "Prasanna Sattigeri",
+            "Karthikeyan Natesan Ramamurthy"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.ET",
+            "cs.MA"
+          ],
+          "abstract": "LCGuard introduces a framework to secure latent communication in multi-agent LLM systems that use KV caches. It works by learning representation-level transformations on shared KV caches before they are transmitted between agents, preventing sensitive information from leaking through this opaque channel. This ensures safer coordination and information sharing in complex multi-agent tasks.",
+          "url": "http://arxiv.org/abs/2605.22786v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.22786v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.22786v1/figures/topology.png",
+          "figure_caption": "Multi-agent communication topologies: sequential, hierarchical, and graph-based. Edges carry KV cache latent artifacts m i ​ j m_{ij} .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.22794v1",
+          "title": "MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems",
+          "authors": [
+            "Qianshu Cai",
+            "Yonggang Zhang",
+            "Xianzhang Jia",
+            "Wei Xue",
+            "Jun Song"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces MOSS, a system that enables autonomous agents to evolve by rewriting their own source code. Unlike previous methods that only modify text-based configurations, MOSS directly alters the agent's underlying program, allowing it to fix structural failures and adapt more fundamentally. This source-level rewriting offers a Turing-complete and deterministic approach to agent evolution, overcoming limitations of text-based adaptation.",
+          "url": "http://arxiv.org/abs/2605.22794v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.22794v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.22769v1",
+          "title": "Understanding Data Temporality Impact on Large Language Models Pre-training",
+          "authors": [
+            "Pilchen Hippolyte",
+            "Fabre Romain",
+            "Signe Talla Franck",
+            "Perez Patrick",
+            "Grave Edouard"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates how data ordering during LLM pre-training affects temporal knowledge. The authors introduce a benchmark of temporally grounded questions and show that pre-training LLMs on temporally ordered data, rather than shuffled data, leads to models with more accurate and up-to-date factual knowledge without sacrificing general language understanding.",
+          "url": "http://arxiv.org/abs/2605.22769v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.22769v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.22769v1/x1.png",
+          "figure_caption": "Yearly temporal knowledge with Kairos. Relative gains in F1 score on KairosQA between the 2020–2021 and 2023–2024 periods for our sequentially pre-trained model versus other open-source base models (ordered by their release date with the most recent at the right). These results highlight that even for recently released open-source base models, shuffled pre-training leads to a temporal delay in knowledge; performance decays when querying recent facts, even those preceding the training cut-off. Conversely, sequential pre-training represents a significant step toward developing more up-to-date models.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.22743v1",
+          "title": "SeqLoRA: Bilevel Orthogonal Adaptation for Continual Multi-Concept Generation",
+          "authors": [
+            "Javad Parsa",
+            "Enis Simsar",
+            "Amir Joudaki",
+            "Thomas Hofmann",
+            "André M. H. Teixeira"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "SeqLoRA addresses the challenge of generating multiple custom concepts with text-to-image models by using a bilevel optimization approach to sequentially fine-tune LoRA factors. This method jointly optimizes these factors, preventing interference between concepts and improving identity preservation. Its core contribution lies in a constrained continual learning framework that offers theoretical guarantees against catastrophic forgetting and demonstrates superior performance in multi-concept generation.",
+          "url": "http://arxiv.org/abs/2605.22743v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.22743v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.22743v1/x1.png",
+          "figure_caption": "Qualitative comparison of multi-concept image generation across different methods for 32 concepts. We show the original concept images (Input) and 4 generated samples (seeds) for all methods.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.22734v1",
+          "title": "ChronoMedKG: A Temporally-Grounded Biomedical Knowledge Graph and Benchmark for Clinical Reasoning",
+          "authors": [
+            "Md Shamim Ahmed",
+            "Farzaneh Firoozbakht",
+            "Lukas Galke Poech",
+            "Jan Baumbach",
+            "Richard Röttger"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces ChronoMedKG, a novel biomedical knowledge graph that explicitly incorporates temporal information for clinical findings and disease associations. Unlike static KGs, ChronoMedKG grounds each relation with temporal context (e.g., age of onset, progression stage) and evidence, enabling more accurate longitudinal clinical reasoning. Its core contribution is a temporally-aware KG and a benchmark that addresses the limitations of existing static KGs for time-sensitive medical applications.",
+          "url": "http://arxiv.org/abs/2605.22734v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.22734v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.22734v1/x1.png",
+          "figure_caption": "ChronoMedKG: from what is associated to when it emerges. (A) Across 17,080 PrimeKG diseases, zero edges carry temporal annotations. (B) 4-agent pipeline ingests ∼ \\( \\sim \\) 2.5M public documents and produces literature-grounded temporal triples with PMID provenance, multi-LLM consensus, and six-signal credibility scoring. (C) Downstream outputs unique to ChronoMedKG. (D) Top-line numbers. Constructed de novo from public literature; no patient-level records.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 25,
+        "papers_after_llm_filter": 10,
+        "count": 10
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Research Associate in Machine Learning and Computational Psychiatry for Digital Mental Health Interventions",
+          "url": "https://www.jobs.ac.uk/job/DRP414/research-associate-in-machine-learning-and-computational-psychiatry-for-digital-mental-health-interventions/",
+          "description": "About the role : Are you a researcher who wants to do serious machine learning in a domain that matters? We are seeking an exceptional Postdoctoral Research Associate to join MindCraft, an innovative programme at Imperial College London developing AI-guided smartphone-based mental health interventions for adolescents. You will work at the intersection of machine learning, computational psychiatry, digital phenotyping, and real-world intervention research — building mathematically grounded, personalised AI systems that can infer mental state from multimodal behavioural data and learn to deliver the right intervention at the right time. What you would be doing : You will play a central role in developing the project’s computational and machine learning core. Your work will include: Developing multimodal models of adolescent mental state from longitudinal mobile and self-report data Designing latent-state, state-space, probabilistic, or representation-learning approaches for modelling mental health trajectories Building personalised digital twin models integrating behavioural, contextual, and questionnaire-derived information Developing reinforcement learning, contextual bandit, or sequential decision-making models for adaptive intervention delivery Tackling core challenges such as partial observability, uncertainty, missingness, delayed rewards, and non-stationarity Contributing to the prospective deployment and evaluation of AI-driven interventions within a real-world school-based study Depending on your strengths, the role may lean more heavily toward probabilistic and dynamical modelling, reinforcement learning, multimodal representation learning, or computational behavioural modelling. What we are looking for : We are especially interested in candidates who combine mathematical maturity, serious implementation ability, and scientific curiosity about mind and behaviour. You should hold, or be close to completing, a PhD in machine learning, computer science, computational neuroscience, computational psychiatry, applied mathematics, statistics, engineering, physics, or a related quantitative discipline. You should have expertise in one or more of: probabilistic modelling, time-series modelling, latent-variable models, state-space models, reinforcement learning, sequential decision-making, representation learning, Bayesian methods, or computational models of behaviour. Strong Python and deep learning framework skills (PyTorch, JAX, or TensorFlow) are essential. Experience with healthcare, mental health, or mobile sensing data is highly desirable but not required. What we can offer you : The opportunity to work on hard machine learning problems with genuine scientific depth and real-world clinical consequence, not just pipeline engineering. Access to rich longitudinal data from an ongoing adolescent mental health study involving 700+ participants, with a rare opportunity to move beyond offline modelling into prospective, real-world adaptive intervention. https://www.imperial.ac.uk/early-career-researcher-institute A highly interdisciplinary research environment working closely with clinicians, psychiatrists, and behavioural scientists, with a clear route toward meaningful clinical impact for adolescent mental health. Sector-leading salary and remuneration package (including 41 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further Information *Please note that this is a PhD level role but candidates who have not yet been officially awarded will be appointed as a Research Assistant (£43,863 - £47,223) MindCraft sits within the Departments of Computing and Bioengineering at Imperial College London, in close collaboration with the Department of Brain Sciences. The project is embedded in an ethically approved trial infrastructure, creating a rare opportunity to develop and evaluate computationally principled adaptive digital mental health systems with a clear route toward meaningful clinical impact. This is a full-time, fixed-term post 36 months. (35 hours per week). If you require any further details about the role, please contact: [Professor Aldo Faisal] – [ a.faisal@imperial.ac.uk ]. £49,017 to £57,472 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "2026-05-31T00:00:00+00:00",
+          "requirements": "Research Area: Machine Learning, Computational Psychiatry, Digital Mental Health Interventions, Digital Phenotyping, AI-guided smartphone-based interventions, multimodal behavioural data analysis, personalized AI systems, mental state inference, adaptive intervention delivery.\nKey Requirements: Experience in machine learning, computational psychiatry, digital phenotyping, and real-world intervention research. Ability to develop mathematically grounded, personalized AI systems. Experience with multimodal models, latent-state/state-space/probabilistic/representation-learning approaches, personalized digital twin models, reinforcement learning/contextual bandit/sequential decision-making models. Ability to tackle challenges like partial observability, uncertainty, missingness, delayed rewards, and non-stationarity.\nApplication Info: deadline/start date: 2026-05-31T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57472.00 YEAR\nOne-line Advice: Strong fit for candidates with expertise in probabilistic/dynamical modeling, reinforcement learning, multimodal representation learning, or computational behavioral modeling.",
+          "relevance_score": 7.0,
+          "institution": "Imperial College London",
+          "location": "London, England, United Kingdom",
+          "salary": "GBP49017.00-GBP57472.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "20th May 2026",
+          "job_ref": "ENG03894"
+        },
+        {
+          "title": "Assistant or Associate Professor in Applied Artificial Intelligence (53294-0526)",
+          "url": "https://www.jobs.ac.uk/job/DRO402/assistant-or-associate-professor-in-applied-artificial-intelligence-53294-0526/",
+          "description": "Informal Queries For informal queries, please contact Kurt Debattista (Professor) at K.Debattista@warwick.ac.uk . Flexible Working We will consider applications for employment on a part-time or other flexible working basis (e.g. job share), despite the position being advertised as full-time. Operation Requirements The successful applicant will be required to work the majority of their time on campus. WMG at the University of Warwick is undertaking a significant investment in Research & Teaching academic recruitment across several strategically important growth areas. As part of this coordinated campaign, we are seeking to appoint an Assistant Professor or Associate Professor in Applied Artificial Intelligence to contribute to internationally leading research, innovation, and teaching within WMG’s collaborative and industry-focused environment. This role offers an exciting opportunity to contribute to the development and application of artificial intelligence technologies that address complex real-world challenges across manufacturing, mobility, engineering systems, creative technologies, simulation, and digital environments. Working closely with academic, industrial, and international partners, the successful candidate will help develop innovative AI-driven solutions with clear real-world impact. The successful candidate will contribute to high-quality research, collaborative funding activity, postgraduate supervision, and research-informed teaching across areas including machine learning, deep learning, generative AI, visual computing, intelligent systems, digital twinning, and human-AI interaction. WMG offers a highly interdisciplinary environment with strong industrial engagement, access to world-class facilities, and extensive opportunities to collaborate across advanced manufacturing, automation, transport, simulation, and digital engineering domains. Appointments will be considered at either Assistant Professor or Associate Professor level depending on experience, research profile, leadership trajectory, and funding track record. About You You will hold a PhD in Artificial Intelligence, Computer Science, Engineering, or a closely related discipline and demonstrate expertise aligned to applied AI research and innovation. We are particularly interested in candidates with expertise in one or more of: machine learning and deep learning generative AI visual computing and simulation intelligent engineering systems digital twinning human–AI interaction AI for manufacturing and industrial systems AI for transport and intelligent mobility You should demonstrate the ability, or strong potential, to develop internationally recognised research through publications, collaborative projects, funding activity, and engagement with industrial and academic partners. Candidates applying at Associate Professor level should demonstrate an established research profile and evidence of academic leadership, while Assistant Professor candidates should demonstrate strong potential to develop an independent and impactful research trajectory within a collaborative environment. We particularly welcome candidates who are enthusiastic about interdisciplinary working, industry engagement, and translating research into meaningful real-world impact. For details on the experience and skills required, please refer to the job description attached as a PDF below. About the Department The Warwick Manufacturing Group (WMG) is the largest department at the University of Warwick, with over 800 staff and nearly 3,000 students across undergraduate and postgraduate programmes in management, technology, and applied engineering. We are globally recognised for our world-class research, innovative industry partnerships, and teaching excellence, and we are proud holders of the Athena SWAN Silver Award and the Institutional Silver Award. Find out more about the High Value Manufacturing Catapult centre . Find out more about the Energy Innovation Centre . Find out more about our range of undergraduate and apprenticeship degrees here . About the University We are a world-leading research-intensive university founded in 1965. We are ranked 74th in the world and 9th in the UK. * Additionally, 92% of our research is rated world-leading or internationally excellent .** Find out more about us at warwick.ac.uk/about/ . * World University Ranking 2026 , Complete University Guide 2026 ** Research Excellence Framework 2021 How to Apply CLOSING DEADLINE : Thursday 18 June 2026 at 11:55pm (UK Time) To apply, please click APPLY below and submit your application by the closing deadline. You will be asked to include a CV and cover letter. Within these documents, please: 1. Outline your employment and education history (including your most recent employment). 2. Outline the reasons for your interest in this position. 3. Demonstrate how you meet the requirements of the role with clear reference to each of the essential and desirable criteria in the Job Description (PDF attached below). Interview Date: To be confirmed Start Date: To be confirmed Applications must be submitted by the closing deadline. Only applications submitted through our Careers Portal will be considered. You are welcome to include any careers breaks you may have taken (e.g. parental/caring/long-term sick leave). Please note that if you do not evidence the essential criteria, the hiring panel may not be able to shortlist your application. For guidance on how to format a cover letter, see here . What we Offer We provide a comprehensive range of benefits, including: An attractive pension scheme. 30 days holiday plus University Christmas closure. Generous parental/adoption leave policy. Onsite childcare facilities. Excellent learning and development opportunities. We recognise the importance of a healthy work/life balance and offer access to flexible working arrangements. For more information, see here . We are proud to be a Living Wage employer . Our Commitment to Inclusion Equality, Diversity, & Inclusion Warwick is committed to fostering a diverse, inclusive and respectful community where everyone can thrive. We welcome applications from all backgrounds, cultures, and communities, and actively encourage candidates from underrepresented groups to apply. Find out more about our Social Inclusion work at Warwick . Find out more about our awards and accreditations . We are also one of the six founder institutions of the EUTOPIA European University Alliance . Safeguarding & DBS The University of Warwick is committed to safeguarding and promoting the welfare of all those we work with. Roles involving regulated activity are subject to a Disclosure and Barring Service (DBS) check at the appropriate level, in line with the DBS Code of Practice. The University will ensure that anyone subject to a barring order does not undertake any work with the barred group (children and/or adults). All employees, volunteers, and partners are expected to share our commitment to safeguarding. Rehabilitation of Ex-Offenders The University will not discriminate against applicants who make a disclosure relating to a conviction. Disclosures at application stage are only visible to the DBS team, not to hiring panels. This ensures fairness and removes bias from the shortlisting process. Job Description JD - Assistant or Associate Professor in Applied Artificial Intelligence (53294, 111517).pdf – 127KB Opens in a new window Right to Work in the UK If you do not yet have the right to work in the UK and/or are seeking sponsorship for a Skilled Worker visa, please follow this link which contains further information about obtaining the right to work in the UK. £47,389 to £67,468 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "2026-06-18T00:00:00+00:00",
+          "requirements": "Research Area: Applied Artificial Intelligence (Machine Learning, Deep Learning, Generative AI, Visual Computing, Intelligent Systems, Digital Twinning, Human-AI Interaction)\nKey Requirements: Contribute to internationally leading research, innovation, and teaching; develop and apply AI technologies for real-world challenges in manufacturing, mobility, engineering systems, creative technologies, simulation, and digital environments; contribute to high-quality research, collaborative funding activity, postgraduate supervision, and research-informed teaching.\nApplication Info: deadline/start date: 2026-06-18T00:00:00+00:00, required materials: N/A, contact: K.Debattista@warwick.ac.uk (informal queries)\nPosition Details: location: University of Warwick, England, United Kingdom, contract type: Permanent, workload: Full Time (flexible working considered), salary: GBP47389.00-GBP67468.00 YEAR\nOne-line Advice: CV should highlight experience in applied AI, with specific examples of impact in manufacturing, mobility, or digital environments.",
+          "relevance_score": 8.0,
+          "institution": "University of Warwick",
+          "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+          "salary": "GBP47389.00-GBP67468.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Permanent",
+          "placed_on": "19th May 2026",
+          "job_ref": "(53294-0526)"
+        },
+        {
+          "title": "Postdoctoral Researcher – Computational & Translational Analysis of Pulmonary Nodules",
+          "url": "https://euraxess.ec.europa.eu/jobs/438873",
+          "description": "The German Cancer Research Center (DKFZ) is one of Europe’s largest cancer research centers. “Research for a life without cancer” is the mission of our world-class scientists and all our team members. The DKFZ is a place where the brightest minds pursue bold ideas and seek answers to pioneering... * Work Locations: Number of offers: 1, Germany, German Cancer Research Center (DKFZ), Heidelberg Research Field: [Biological sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A38) » [Biology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A41) [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Cancer research](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A6039) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 4 Jun 2026 - 23:59 (Europe/Berlin) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland ![Image 3: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Warsaw University of Technology](https://euraxess.ec.europa.eu/partnering/organisations/profile/warsaw-university-technology-0) * [Field: Biological sciences]",
+          "institution": "",
+          "posted_date": "22 May 2026",
+          "deadline": "4 Jun 2026 - 23:59 (Europe/Berlin)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Computational and translational analysis of pulmonary nodules, cancer research, biological sciences, medical sciences.\nKey Requirements: N/A\nApplication Info: deadline 4 Jun 2026 - 23:59 (Europe/Berlin), required materials N/A, contact N/A\nPosition Details: location German Cancer Research Center (DKFZ), Heidelberg, Germany; contract type N/A; workload N/A; salary N/A\nOne-line Advice: N/A",
+          "relevance_score": 9.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        },
+        {
+          "title": "Head of an independent Junior Research Group (Tenure-Track)",
+          "url": "https://euraxess.ec.europa.eu/jobs/438844",
+          "description": "The German Cancer Research Center (DKFZ) is one of Europe’s largest cancer research centers. “Research for a life without cancer” is the mission of our world-class scientists and all our team members. The DKFZ is a place where the brightest minds pursue bold ideas and seek answers to pioneering... * Work Locations: Number of offers: 1, Germany, German Cancer Research Center (DKFZ), Heidelberg Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Cancer research](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A6039) [Biological sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A38) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A46) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A91) Researcher Profile: [Established Researcher (R3)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A449) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 14 Jun 2026 - 23:59 (Europe/Berlin) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Finland * [Turku University of Applied Sciences](https://euraxess.ec.europa.eu/partnering/organisations/profile/turku-university-applied-sciences) * [Field: Medical sciences]",
+          "institution": "",
+          "posted_date": "22 May 2026",
+          "deadline": "14 Jun 2026 - 23:59 (Europe/Berlin)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Cancer research, Medical sciences, Biological sciences (Other), Computer science (Other)\nKey Requirements: Established Researcher (R3)\nApplication Info: deadline: 14 Jun 2026 - 23:59 (Europe/Berlin), required materials: N/A, contact: N/A\nPosition Details: location: Heidelberg, Germany, contract type: Tenure-Track, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+          "relevance_score": 8.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 4
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 25,
+    "papers_after_llm_filter": 10,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 133
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2605.22720v1",
+      "title": "Can AI Make Conflicts Worse? An Alignment Failure in LLM Deployment Across Conflict Contexts",
+      "authors": [
+        "Andrii Kryshtal"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "abstract": "This paper investigates how Large Language Models (LLMs) can exacerbate conflicts by generating misaligned outputs in sensitive contexts. The researchers tested nine LLM configurations across 90 conflict-related scenarios, revealing failure rates in recognizing atrocities, denying genocide, and misinterpreting slurs. Their contribution highlights the critical need for alignment checks before deploying LLMs in fragile societies, as model choice significantly impacts safety and can deepen societal divisions.",
+      "url": "http://arxiv.org/abs/2605.22720v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22720v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.22720v1/x1.png",
+      "figure_caption": "Mean conflict-insensitivity score (bars, left axis) and failure rate (line, right axis) by model. Based on 90 conversations per model.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.22774v1",
+      "title": "CogAdapt: Transferring Clinical ECG Foundation Models to Wearable Cognitive Load Assessment via Lead Adaptation",
+      "authors": [
+        "Amir Mousavi",
+        "Mohammad Sadegh Sirjani",
+        "Erfan Nourbakhsh",
+        "Mimi Xie",
+        "Rocky Slavin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.HC"
+      ],
+      "abstract": "CogAdapt adapts clinical ECG foundation models for wearable cognitive load assessment by using LeadBridge to transform 3-lead wearable data into 12-lead representations and ProFine for progressive fine-tuning. This approach overcomes sensor mismatch and data limitations, significantly outperforming baseline methods in accurately assessing cognitive load.",
+      "url": "http://arxiv.org/abs/2605.22774v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22774v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.22731v1",
+      "title": "Post-Training is About States, Not Tokens: A State Distribution View of SFT, RL, and On-Policy Distillation",
+      "authors": [
+        "Dong Nie"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper argues that post-training methods for LLMs should be viewed through the lens of the *state distribution* they operate on, rather than just their loss functions. The core method involves formalizing post-training as \"state-distribution shaping\" and conducting small-scale experiments. The key contribution is demonstrating that on-policy distillation can improve performance across multiple tasks, even surpassing a degraded SFT teacher, by effectively shaping the state distribution.",
+      "url": "http://arxiv.org/abs/2605.22731v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22731v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.22714v1",
+      "title": "AMEL: Accumulated Message Effects on LLM Judgments",
+      "authors": [
+        "Sid-ali Temkit"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates the \"accumulated message effect\" (AMEL), demonstrating that the sentiment of prior conversation history biases Large Language Models' (LLMs) subsequent judgments. The core method involves presenting identical test items to LLMs either in isolation or after conversations saturated with positive or negative evaluations. The key contribution is the finding that LLMs shift their judgments towards the prevailing polarity of the conversation, particularly when uncertain, and this bias is independent of context length, with a notable negativity asymmetry.",
+      "url": "http://arxiv.org/abs/2605.22714v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22714v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.22714v1/x1.png",
+      "figure_caption": "Overview of AMEL. (a) Items where the model is uncertain at baseline absorb the most bias ( d = − 0.34 d=-0.34 ); confident-baseline items absorb less ( d = − 0.15 d=-0.15 ). (b) Negative context biases models more than positive context (paired per-item ratio 1.62 × 1.62\\( \\times \\) , p < 10 − 39 p<10^{-39} ); marginal means yield ≈ 2 × \\( \\approx \\) 2\\( \\times \\) (Section 4.5 ). Even balanced history shifts models toward “no.” (c) Bias saturates immediately; 5 turns produce the same effect as 50.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.22781v1",
+      "title": "DeltaBox: Scaling Stateful AI Agents with Millisecond-Level Sandbox Checkpoint/Rollback",
+      "authors": [
+        "Yunpeng Dong",
+        "Jingkai He",
+        "Yuze Hou",
+        "Dong Du",
+        "Zhonghu Xu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.OS"
+      ],
+      "abstract": "This paper introduces DeltaBox, a system that enables rapid checkpointing and rollback for stateful AI agents. Its core method is to only duplicate changes between consecutive sandbox states, rather than the entire state, significantly reducing latency. This contribution allows for high-frequency state exploration, crucial for advanced AI agent functionalities like deep search and reinforcement learning.",
+      "url": "http://arxiv.org/abs/2605.22781v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22781v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.22781v1/x1.png",
+      "figure_caption": "Figure 1 . Pass rate on SWE-bench Verified. (a) Linear ReAct vs. MCTS across three coding models. (b) Base vs. RL-trained across three open-weight model families.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.22786v1",
+      "title": "LCGuard: Latent Communication Guard for Safe KV Sharing in Multi-Agent Systems",
+      "authors": [
+        "Sadia Asif",
+        "Mohammad Mohammadi Amiri",
+        "Momin Abbas",
+        "Prasanna Sattigeri",
+        "Karthikeyan Natesan Ramamurthy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.ET",
+        "cs.MA"
+      ],
+      "abstract": "LCGuard introduces a framework to secure latent communication in multi-agent LLM systems that use KV caches. It works by learning representation-level transformations on shared KV caches before they are transmitted between agents, preventing sensitive information from leaking through this opaque channel. This ensures safer coordination and information sharing in complex multi-agent tasks.",
+      "url": "http://arxiv.org/abs/2605.22786v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22786v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.22786v1/figures/topology.png",
+      "figure_caption": "Multi-agent communication topologies: sequential, hierarchical, and graph-based. Edges carry KV cache latent artifacts m i ​ j m_{ij} .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.22794v1",
+      "title": "MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems",
+      "authors": [
+        "Qianshu Cai",
+        "Yonggang Zhang",
+        "Xianzhang Jia",
+        "Wei Xue",
+        "Jun Song"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces MOSS, a system that enables autonomous agents to evolve by rewriting their own source code. Unlike previous methods that only modify text-based configurations, MOSS directly alters the agent's underlying program, allowing it to fix structural failures and adapt more fundamentally. This source-level rewriting offers a Turing-complete and deterministic approach to agent evolution, overcoming limitations of text-based adaptation.",
+      "url": "http://arxiv.org/abs/2605.22794v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22794v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.22769v1",
+      "title": "Understanding Data Temporality Impact on Large Language Models Pre-training",
+      "authors": [
+        "Pilchen Hippolyte",
+        "Fabre Romain",
+        "Signe Talla Franck",
+        "Perez Patrick",
+        "Grave Edouard"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how data ordering during LLM pre-training affects temporal knowledge. The authors introduce a benchmark of temporally grounded questions and show that pre-training LLMs on temporally ordered data, rather than shuffled data, leads to models with more accurate and up-to-date factual knowledge without sacrificing general language understanding.",
+      "url": "http://arxiv.org/abs/2605.22769v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22769v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.22769v1/x1.png",
+      "figure_caption": "Yearly temporal knowledge with Kairos. Relative gains in F1 score on KairosQA between the 2020–2021 and 2023–2024 periods for our sequentially pre-trained model versus other open-source base models (ordered by their release date with the most recent at the right). These results highlight that even for recently released open-source base models, shuffled pre-training leads to a temporal delay in knowledge; performance decays when querying recent facts, even those preceding the training cut-off. Conversely, sequential pre-training represents a significant step toward developing more up-to-date models.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.22743v1",
+      "title": "SeqLoRA: Bilevel Orthogonal Adaptation for Continual Multi-Concept Generation",
+      "authors": [
+        "Javad Parsa",
+        "Enis Simsar",
+        "Amir Joudaki",
+        "Thomas Hofmann",
+        "André M. H. Teixeira"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "SeqLoRA addresses the challenge of generating multiple custom concepts with text-to-image models by using a bilevel optimization approach to sequentially fine-tune LoRA factors. This method jointly optimizes these factors, preventing interference between concepts and improving identity preservation. Its core contribution lies in a constrained continual learning framework that offers theoretical guarantees against catastrophic forgetting and demonstrates superior performance in multi-concept generation.",
+      "url": "http://arxiv.org/abs/2605.22743v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22743v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.22743v1/x1.png",
+      "figure_caption": "Qualitative comparison of multi-concept image generation across different methods for 32 concepts. We show the original concept images (Input) and 4 generated samples (seeds) for all methods.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.22734v1",
+      "title": "ChronoMedKG: A Temporally-Grounded Biomedical Knowledge Graph and Benchmark for Clinical Reasoning",
+      "authors": [
+        "Md Shamim Ahmed",
+        "Farzaneh Firoozbakht",
+        "Lukas Galke Poech",
+        "Jan Baumbach",
+        "Richard Röttger"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ChronoMedKG, a novel biomedical knowledge graph that explicitly incorporates temporal information for clinical findings and disease associations. Unlike static KGs, ChronoMedKG grounds each relation with temporal context (e.g., age of onset, progression stage) and evidence, enabling more accurate longitudinal clinical reasoning. Its core contribution is a temporally-aware KG and a benchmark that addresses the limitations of existing static KGs for time-sensitive medical applications.",
+      "url": "http://arxiv.org/abs/2605.22734v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22734v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.22734v1/x1.png",
+      "figure_caption": "ChronoMedKG: from what is associated to when it emerges. (A) Across 17,080 PrimeKG diseases, zero edges carry temporal annotations. (B) 4-agent pipeline ingests ∼ \\( \\sim \\) 2.5M public documents and produces literature-grounded temporal triples with PMID provenance, multi-LLM consensus, and six-signal credibility scoring. (C) Downstream outputs unique to ChronoMedKG. (D) Top-line numbers. Constructed de novo from public literature; no patient-level records.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2605.22720v1",
+      "title": "Can AI Make Conflicts Worse? An Alignment Failure in LLM Deployment Across Conflict Contexts",
+      "authors": [
+        "Andrii Kryshtal"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "abstract": "This paper investigates how Large Language Models (LLMs) can exacerbate conflicts by generating misaligned outputs in sensitive contexts. The researchers tested nine LLM configurations across 90 conflict-related scenarios, revealing failure rates in recognizing atrocities, denying genocide, and misinterpreting slurs. Their contribution highlights the critical need for alignment checks before deploying LLMs in fragile societies, as model choice significantly impacts safety and can deepen societal divisions.",
+      "url": "http://arxiv.org/abs/2605.22720v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22720v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.22720v1/x1.png",
+      "figure_caption": "Mean conflict-insensitivity score (bars, left axis) and failure rate (line, right axis) by model. Based on 90 conversations per model.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.22774v1",
+      "title": "CogAdapt: Transferring Clinical ECG Foundation Models to Wearable Cognitive Load Assessment via Lead Adaptation",
+      "authors": [
+        "Amir Mousavi",
+        "Mohammad Sadegh Sirjani",
+        "Erfan Nourbakhsh",
+        "Mimi Xie",
+        "Rocky Slavin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.HC"
+      ],
+      "abstract": "CogAdapt adapts clinical ECG foundation models for wearable cognitive load assessment by using LeadBridge to transform 3-lead wearable data into 12-lead representations and ProFine for progressive fine-tuning. This approach overcomes sensor mismatch and data limitations, significantly outperforming baseline methods in accurately assessing cognitive load.",
+      "url": "http://arxiv.org/abs/2605.22774v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22774v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.22731v1",
+      "title": "Post-Training is About States, Not Tokens: A State Distribution View of SFT, RL, and On-Policy Distillation",
+      "authors": [
+        "Dong Nie"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper argues that post-training methods for LLMs should be viewed through the lens of the *state distribution* they operate on, rather than just their loss functions. The core method involves formalizing post-training as \"state-distribution shaping\" and conducting small-scale experiments. The key contribution is demonstrating that on-policy distillation can improve performance across multiple tasks, even surpassing a degraded SFT teacher, by effectively shaping the state distribution.",
+      "url": "http://arxiv.org/abs/2605.22731v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22731v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.22714v1",
+      "title": "AMEL: Accumulated Message Effects on LLM Judgments",
+      "authors": [
+        "Sid-ali Temkit"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates the \"accumulated message effect\" (AMEL), demonstrating that the sentiment of prior conversation history biases Large Language Models' (LLMs) subsequent judgments. The core method involves presenting identical test items to LLMs either in isolation or after conversations saturated with positive or negative evaluations. The key contribution is the finding that LLMs shift their judgments towards the prevailing polarity of the conversation, particularly when uncertain, and this bias is independent of context length, with a notable negativity asymmetry.",
+      "url": "http://arxiv.org/abs/2605.22714v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22714v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.22714v1/x1.png",
+      "figure_caption": "Overview of AMEL. (a) Items where the model is uncertain at baseline absorb the most bias ( d = − 0.34 d=-0.34 ); confident-baseline items absorb less ( d = − 0.15 d=-0.15 ). (b) Negative context biases models more than positive context (paired per-item ratio 1.62 × 1.62\\( \\times \\) , p < 10 − 39 p<10^{-39} ); marginal means yield ≈ 2 × \\( \\approx \\) 2\\( \\times \\) (Section 4.5 ). Even balanced history shifts models toward “no.” (c) Bias saturates immediately; 5 turns produce the same effect as 50.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.22781v1",
+      "title": "DeltaBox: Scaling Stateful AI Agents with Millisecond-Level Sandbox Checkpoint/Rollback",
+      "authors": [
+        "Yunpeng Dong",
+        "Jingkai He",
+        "Yuze Hou",
+        "Dong Du",
+        "Zhonghu Xu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.OS"
+      ],
+      "abstract": "This paper introduces DeltaBox, a system that enables rapid checkpointing and rollback for stateful AI agents. Its core method is to only duplicate changes between consecutive sandbox states, rather than the entire state, significantly reducing latency. This contribution allows for high-frequency state exploration, crucial for advanced AI agent functionalities like deep search and reinforcement learning.",
+      "url": "http://arxiv.org/abs/2605.22781v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22781v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.22781v1/x1.png",
+      "figure_caption": "Figure 1 . Pass rate on SWE-bench Verified. (a) Linear ReAct vs. MCTS across three coding models. (b) Base vs. RL-trained across three open-weight model families.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.22786v1",
+      "title": "LCGuard: Latent Communication Guard for Safe KV Sharing in Multi-Agent Systems",
+      "authors": [
+        "Sadia Asif",
+        "Mohammad Mohammadi Amiri",
+        "Momin Abbas",
+        "Prasanna Sattigeri",
+        "Karthikeyan Natesan Ramamurthy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.ET",
+        "cs.MA"
+      ],
+      "abstract": "LCGuard introduces a framework to secure latent communication in multi-agent LLM systems that use KV caches. It works by learning representation-level transformations on shared KV caches before they are transmitted between agents, preventing sensitive information from leaking through this opaque channel. This ensures safer coordination and information sharing in complex multi-agent tasks.",
+      "url": "http://arxiv.org/abs/2605.22786v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22786v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.22786v1/figures/topology.png",
+      "figure_caption": "Multi-agent communication topologies: sequential, hierarchical, and graph-based. Edges carry KV cache latent artifacts m i ​ j m_{ij} .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.22794v1",
+      "title": "MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems",
+      "authors": [
+        "Qianshu Cai",
+        "Yonggang Zhang",
+        "Xianzhang Jia",
+        "Wei Xue",
+        "Jun Song"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces MOSS, a system that enables autonomous agents to evolve by rewriting their own source code. Unlike previous methods that only modify text-based configurations, MOSS directly alters the agent's underlying program, allowing it to fix structural failures and adapt more fundamentally. This source-level rewriting offers a Turing-complete and deterministic approach to agent evolution, overcoming limitations of text-based adaptation.",
+      "url": "http://arxiv.org/abs/2605.22794v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22794v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.22769v1",
+      "title": "Understanding Data Temporality Impact on Large Language Models Pre-training",
+      "authors": [
+        "Pilchen Hippolyte",
+        "Fabre Romain",
+        "Signe Talla Franck",
+        "Perez Patrick",
+        "Grave Edouard"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how data ordering during LLM pre-training affects temporal knowledge. The authors introduce a benchmark of temporally grounded questions and show that pre-training LLMs on temporally ordered data, rather than shuffled data, leads to models with more accurate and up-to-date factual knowledge without sacrificing general language understanding.",
+      "url": "http://arxiv.org/abs/2605.22769v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22769v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.22769v1/x1.png",
+      "figure_caption": "Yearly temporal knowledge with Kairos. Relative gains in F1 score on KairosQA between the 2020–2021 and 2023–2024 periods for our sequentially pre-trained model versus other open-source base models (ordered by their release date with the most recent at the right). These results highlight that even for recently released open-source base models, shuffled pre-training leads to a temporal delay in knowledge; performance decays when querying recent facts, even those preceding the training cut-off. Conversely, sequential pre-training represents a significant step toward developing more up-to-date models.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.22743v1",
+      "title": "SeqLoRA: Bilevel Orthogonal Adaptation for Continual Multi-Concept Generation",
+      "authors": [
+        "Javad Parsa",
+        "Enis Simsar",
+        "Amir Joudaki",
+        "Thomas Hofmann",
+        "André M. H. Teixeira"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "SeqLoRA addresses the challenge of generating multiple custom concepts with text-to-image models by using a bilevel optimization approach to sequentially fine-tune LoRA factors. This method jointly optimizes these factors, preventing interference between concepts and improving identity preservation. Its core contribution lies in a constrained continual learning framework that offers theoretical guarantees against catastrophic forgetting and demonstrates superior performance in multi-concept generation.",
+      "url": "http://arxiv.org/abs/2605.22743v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22743v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.22743v1/x1.png",
+      "figure_caption": "Qualitative comparison of multi-concept image generation across different methods for 32 concepts. We show the original concept images (Input) and 4 generated samples (seeds) for all methods.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.22734v1",
+      "title": "ChronoMedKG: A Temporally-Grounded Biomedical Knowledge Graph and Benchmark for Clinical Reasoning",
+      "authors": [
+        "Md Shamim Ahmed",
+        "Farzaneh Firoozbakht",
+        "Lukas Galke Poech",
+        "Jan Baumbach",
+        "Richard Röttger"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ChronoMedKG, a novel biomedical knowledge graph that explicitly incorporates temporal information for clinical findings and disease associations. Unlike static KGs, ChronoMedKG grounds each relation with temporal context (e.g., age of onset, progression stage) and evidence, enabling more accurate longitudinal clinical reasoning. Its core contribution is a temporally-aware KG and a benchmark that addresses the limitations of existing static KGs for time-sensitive medical applications.",
+      "url": "http://arxiv.org/abs/2605.22734v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22734v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.22734v1/x1.png",
+      "figure_caption": "ChronoMedKG: from what is associated to when it emerges. (A) Across 17,080 PrimeKG diseases, zero edges carry temporal annotations. (B) 4-agent pipeline ingests ∼ \\( \\sim \\) 2.5M public documents and produces literature-grounded temporal triples with PMID provenance, multi-LLM consensus, and six-signal credibility scoring. (C) Downstream outputs unique to ChronoMedKG. (D) Top-line numbers. Constructed de novo from public literature; no patient-level records.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Research Associate in Machine Learning and Computational Psychiatry for Digital Mental Health Interventions",
+      "url": "https://www.jobs.ac.uk/job/DRP414/research-associate-in-machine-learning-and-computational-psychiatry-for-digital-mental-health-interventions/",
+      "description": "About the role : Are you a researcher who wants to do serious machine learning in a domain that matters? We are seeking an exceptional Postdoctoral Research Associate to join MindCraft, an innovative programme at Imperial College London developing AI-guided smartphone-based mental health interventions for adolescents. You will work at the intersection of machine learning, computational psychiatry, digital phenotyping, and real-world intervention research — building mathematically grounded, personalised AI systems that can infer mental state from multimodal behavioural data and learn to deliver the right intervention at the right time. What you would be doing : You will play a central role in developing the project’s computational and machine learning core. Your work will include: Developing multimodal models of adolescent mental state from longitudinal mobile and self-report data Designing latent-state, state-space, probabilistic, or representation-learning approaches for modelling mental health trajectories Building personalised digital twin models integrating behavioural, contextual, and questionnaire-derived information Developing reinforcement learning, contextual bandit, or sequential decision-making models for adaptive intervention delivery Tackling core challenges such as partial observability, uncertainty, missingness, delayed rewards, and non-stationarity Contributing to the prospective deployment and evaluation of AI-driven interventions within a real-world school-based study Depending on your strengths, the role may lean more heavily toward probabilistic and dynamical modelling, reinforcement learning, multimodal representation learning, or computational behavioural modelling. What we are looking for : We are especially interested in candidates who combine mathematical maturity, serious implementation ability, and scientific curiosity about mind and behaviour. You should hold, or be close to completing, a PhD in machine learning, computer science, computational neuroscience, computational psychiatry, applied mathematics, statistics, engineering, physics, or a related quantitative discipline. You should have expertise in one or more of: probabilistic modelling, time-series modelling, latent-variable models, state-space models, reinforcement learning, sequential decision-making, representation learning, Bayesian methods, or computational models of behaviour. Strong Python and deep learning framework skills (PyTorch, JAX, or TensorFlow) are essential. Experience with healthcare, mental health, or mobile sensing data is highly desirable but not required. What we can offer you : The opportunity to work on hard machine learning problems with genuine scientific depth and real-world clinical consequence, not just pipeline engineering. Access to rich longitudinal data from an ongoing adolescent mental health study involving 700+ participants, with a rare opportunity to move beyond offline modelling into prospective, real-world adaptive intervention. https://www.imperial.ac.uk/early-career-researcher-institute A highly interdisciplinary research environment working closely with clinicians, psychiatrists, and behavioural scientists, with a clear route toward meaningful clinical impact for adolescent mental health. Sector-leading salary and remuneration package (including 41 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further Information *Please note that this is a PhD level role but candidates who have not yet been officially awarded will be appointed as a Research Assistant (£43,863 - £47,223) MindCraft sits within the Departments of Computing and Bioengineering at Imperial College London, in close collaboration with the Department of Brain Sciences. The project is embedded in an ethically approved trial infrastructure, creating a rare opportunity to develop and evaluate computationally principled adaptive digital mental health systems with a clear route toward meaningful clinical impact. This is a full-time, fixed-term post 36 months. (35 hours per week). If you require any further details about the role, please contact: [Professor Aldo Faisal] – [ a.faisal@imperial.ac.uk ]. £49,017 to £57,472 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-05-31T00:00:00+00:00",
+      "requirements": "Research Area: Machine Learning, Computational Psychiatry, Digital Mental Health Interventions, Digital Phenotyping, AI-guided smartphone-based interventions, multimodal behavioural data analysis, personalized AI systems, mental state inference, adaptive intervention delivery.\nKey Requirements: Experience in machine learning, computational psychiatry, digital phenotyping, and real-world intervention research. Ability to develop mathematically grounded, personalized AI systems. Experience with multimodal models, latent-state/state-space/probabilistic/representation-learning approaches, personalized digital twin models, reinforcement learning/contextual bandit/sequential decision-making models. Ability to tackle challenges like partial observability, uncertainty, missingness, delayed rewards, and non-stationarity.\nApplication Info: deadline/start date: 2026-05-31T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57472.00 YEAR\nOne-line Advice: Strong fit for candidates with expertise in probabilistic/dynamical modeling, reinforcement learning, multimodal representation learning, or computational behavioral modeling.",
+      "relevance_score": 7.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP49017.00-GBP57472.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "20th May 2026",
+      "job_ref": "ENG03894"
+    },
+    {
+      "title": "Assistant or Associate Professor in Applied Artificial Intelligence (53294-0526)",
+      "url": "https://www.jobs.ac.uk/job/DRO402/assistant-or-associate-professor-in-applied-artificial-intelligence-53294-0526/",
+      "description": "Informal Queries For informal queries, please contact Kurt Debattista (Professor) at K.Debattista@warwick.ac.uk . Flexible Working We will consider applications for employment on a part-time or other flexible working basis (e.g. job share), despite the position being advertised as full-time. Operation Requirements The successful applicant will be required to work the majority of their time on campus. WMG at the University of Warwick is undertaking a significant investment in Research & Teaching academic recruitment across several strategically important growth areas. As part of this coordinated campaign, we are seeking to appoint an Assistant Professor or Associate Professor in Applied Artificial Intelligence to contribute to internationally leading research, innovation, and teaching within WMG’s collaborative and industry-focused environment. This role offers an exciting opportunity to contribute to the development and application of artificial intelligence technologies that address complex real-world challenges across manufacturing, mobility, engineering systems, creative technologies, simulation, and digital environments. Working closely with academic, industrial, and international partners, the successful candidate will help develop innovative AI-driven solutions with clear real-world impact. The successful candidate will contribute to high-quality research, collaborative funding activity, postgraduate supervision, and research-informed teaching across areas including machine learning, deep learning, generative AI, visual computing, intelligent systems, digital twinning, and human-AI interaction. WMG offers a highly interdisciplinary environment with strong industrial engagement, access to world-class facilities, and extensive opportunities to collaborate across advanced manufacturing, automation, transport, simulation, and digital engineering domains. Appointments will be considered at either Assistant Professor or Associate Professor level depending on experience, research profile, leadership trajectory, and funding track record. About You You will hold a PhD in Artificial Intelligence, Computer Science, Engineering, or a closely related discipline and demonstrate expertise aligned to applied AI research and innovation. We are particularly interested in candidates with expertise in one or more of: machine learning and deep learning generative AI visual computing and simulation intelligent engineering systems digital twinning human–AI interaction AI for manufacturing and industrial systems AI for transport and intelligent mobility You should demonstrate the ability, or strong potential, to develop internationally recognised research through publications, collaborative projects, funding activity, and engagement with industrial and academic partners. Candidates applying at Associate Professor level should demonstrate an established research profile and evidence of academic leadership, while Assistant Professor candidates should demonstrate strong potential to develop an independent and impactful research trajectory within a collaborative environment. We particularly welcome candidates who are enthusiastic about interdisciplinary working, industry engagement, and translating research into meaningful real-world impact. For details on the experience and skills required, please refer to the job description attached as a PDF below. About the Department The Warwick Manufacturing Group (WMG) is the largest department at the University of Warwick, with over 800 staff and nearly 3,000 students across undergraduate and postgraduate programmes in management, technology, and applied engineering. We are globally recognised for our world-class research, innovative industry partnerships, and teaching excellence, and we are proud holders of the Athena SWAN Silver Award and the Institutional Silver Award. Find out more about the High Value Manufacturing Catapult centre . Find out more about the Energy Innovation Centre . Find out more about our range of undergraduate and apprenticeship degrees here . About the University We are a world-leading research-intensive university founded in 1965. We are ranked 74th in the world and 9th in the UK. * Additionally, 92% of our research is rated world-leading or internationally excellent .** Find out more about us at warwick.ac.uk/about/ . * World University Ranking 2026 , Complete University Guide 2026 ** Research Excellence Framework 2021 How to Apply CLOSING DEADLINE : Thursday 18 June 2026 at 11:55pm (UK Time) To apply, please click APPLY below and submit your application by the closing deadline. You will be asked to include a CV and cover letter. Within these documents, please: 1. Outline your employment and education history (including your most recent employment). 2. Outline the reasons for your interest in this position. 3. Demonstrate how you meet the requirements of the role with clear reference to each of the essential and desirable criteria in the Job Description (PDF attached below). Interview Date: To be confirmed Start Date: To be confirmed Applications must be submitted by the closing deadline. Only applications submitted through our Careers Portal will be considered. You are welcome to include any careers breaks you may have taken (e.g. parental/caring/long-term sick leave). Please note that if you do not evidence the essential criteria, the hiring panel may not be able to shortlist your application. For guidance on how to format a cover letter, see here . What we Offer We provide a comprehensive range of benefits, including: An attractive pension scheme. 30 days holiday plus University Christmas closure. Generous parental/adoption leave policy. Onsite childcare facilities. Excellent learning and development opportunities. We recognise the importance of a healthy work/life balance and offer access to flexible working arrangements. For more information, see here . We are proud to be a Living Wage employer . Our Commitment to Inclusion Equality, Diversity, & Inclusion Warwick is committed to fostering a diverse, inclusive and respectful community where everyone can thrive. We welcome applications from all backgrounds, cultures, and communities, and actively encourage candidates from underrepresented groups to apply. Find out more about our Social Inclusion work at Warwick . Find out more about our awards and accreditations . We are also one of the six founder institutions of the EUTOPIA European University Alliance . Safeguarding & DBS The University of Warwick is committed to safeguarding and promoting the welfare of all those we work with. Roles involving regulated activity are subject to a Disclosure and Barring Service (DBS) check at the appropriate level, in line with the DBS Code of Practice. The University will ensure that anyone subject to a barring order does not undertake any work with the barred group (children and/or adults). All employees, volunteers, and partners are expected to share our commitment to safeguarding. Rehabilitation of Ex-Offenders The University will not discriminate against applicants who make a disclosure relating to a conviction. Disclosures at application stage are only visible to the DBS team, not to hiring panels. This ensures fairness and removes bias from the shortlisting process. Job Description JD - Assistant or Associate Professor in Applied Artificial Intelligence (53294, 111517).pdf – 127KB Opens in a new window Right to Work in the UK If you do not yet have the right to work in the UK and/or are seeking sponsorship for a Skilled Worker visa, please follow this link which contains further information about obtaining the right to work in the UK. £47,389 to £67,468 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-18T00:00:00+00:00",
+      "requirements": "Research Area: Applied Artificial Intelligence (Machine Learning, Deep Learning, Generative AI, Visual Computing, Intelligent Systems, Digital Twinning, Human-AI Interaction)\nKey Requirements: Contribute to internationally leading research, innovation, and teaching; develop and apply AI technologies for real-world challenges in manufacturing, mobility, engineering systems, creative technologies, simulation, and digital environments; contribute to high-quality research, collaborative funding activity, postgraduate supervision, and research-informed teaching.\nApplication Info: deadline/start date: 2026-06-18T00:00:00+00:00, required materials: N/A, contact: K.Debattista@warwick.ac.uk (informal queries)\nPosition Details: location: University of Warwick, England, United Kingdom, contract type: Permanent, workload: Full Time (flexible working considered), salary: GBP47389.00-GBP67468.00 YEAR\nOne-line Advice: CV should highlight experience in applied AI, with specific examples of impact in manufacturing, mobility, or digital environments.",
+      "relevance_score": 8.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "GBP47389.00-GBP67468.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Permanent",
+      "placed_on": "19th May 2026",
+      "job_ref": "(53294-0526)"
+    },
+    {
+      "title": "Postdoctoral Researcher – Computational & Translational Analysis of Pulmonary Nodules",
+      "url": "https://euraxess.ec.europa.eu/jobs/438873",
+      "description": "The German Cancer Research Center (DKFZ) is one of Europe’s largest cancer research centers. “Research for a life without cancer” is the mission of our world-class scientists and all our team members. The DKFZ is a place where the brightest minds pursue bold ideas and seek answers to pioneering... * Work Locations: Number of offers: 1, Germany, German Cancer Research Center (DKFZ), Heidelberg Research Field: [Biological sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A38) » [Biology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A41) [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Cancer research](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A6039) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 4 Jun 2026 - 23:59 (Europe/Berlin) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland ![Image 3: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Warsaw University of Technology](https://euraxess.ec.europa.eu/partnering/organisations/profile/warsaw-university-technology-0) * [Field: Biological sciences]",
+      "institution": "",
+      "posted_date": "22 May 2026",
+      "deadline": "4 Jun 2026 - 23:59 (Europe/Berlin)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Computational and translational analysis of pulmonary nodules, cancer research, biological sciences, medical sciences.\nKey Requirements: N/A\nApplication Info: deadline 4 Jun 2026 - 23:59 (Europe/Berlin), required materials N/A, contact N/A\nPosition Details: location German Cancer Research Center (DKFZ), Heidelberg, Germany; contract type N/A; workload N/A; salary N/A\nOne-line Advice: N/A",
+      "relevance_score": 9.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "Head of an independent Junior Research Group (Tenure-Track)",
+      "url": "https://euraxess.ec.europa.eu/jobs/438844",
+      "description": "The German Cancer Research Center (DKFZ) is one of Europe’s largest cancer research centers. “Research for a life without cancer” is the mission of our world-class scientists and all our team members. The DKFZ is a place where the brightest minds pursue bold ideas and seek answers to pioneering... * Work Locations: Number of offers: 1, Germany, German Cancer Research Center (DKFZ), Heidelberg Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Cancer research](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A6039) [Biological sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A38) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A46) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A91) Researcher Profile: [Established Researcher (R3)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A449) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 14 Jun 2026 - 23:59 (Europe/Berlin) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Finland * [Turku University of Applied Sciences](https://euraxess.ec.europa.eu/partnering/organisations/profile/turku-university-applied-sciences) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "22 May 2026",
+      "deadline": "14 Jun 2026 - 23:59 (Europe/Berlin)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Cancer research, Medical sciences, Biological sciences (Other), Computer science (Other)\nKey Requirements: Established Researcher (R3)\nApplication Info: deadline: 14 Jun 2026 - 23:59 (Europe/Berlin), required materials: N/A, contact: N/A\nPosition Details: location: Heidelberg, Germany, contract type: Tenure-Track, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Research Associate in Machine Learning and Computational Psychiatry for Digital Mental Health Interventions",
+      "url": "https://www.jobs.ac.uk/job/DRP414/research-associate-in-machine-learning-and-computational-psychiatry-for-digital-mental-health-interventions/",
+      "description": "About the role : Are you a researcher who wants to do serious machine learning in a domain that matters? We are seeking an exceptional Postdoctoral Research Associate to join MindCraft, an innovative programme at Imperial College London developing AI-guided smartphone-based mental health interventions for adolescents. You will work at the intersection of machine learning, computational psychiatry, digital phenotyping, and real-world intervention research — building mathematically grounded, personalised AI systems that can infer mental state from multimodal behavioural data and learn to deliver the right intervention at the right time. What you would be doing : You will play a central role in developing the project’s computational and machine learning core. Your work will include: Developing multimodal models of adolescent mental state from longitudinal mobile and self-report data Designing latent-state, state-space, probabilistic, or representation-learning approaches for modelling mental health trajectories Building personalised digital twin models integrating behavioural, contextual, and questionnaire-derived information Developing reinforcement learning, contextual bandit, or sequential decision-making models for adaptive intervention delivery Tackling core challenges such as partial observability, uncertainty, missingness, delayed rewards, and non-stationarity Contributing to the prospective deployment and evaluation of AI-driven interventions within a real-world school-based study Depending on your strengths, the role may lean more heavily toward probabilistic and dynamical modelling, reinforcement learning, multimodal representation learning, or computational behavioural modelling. What we are looking for : We are especially interested in candidates who combine mathematical maturity, serious implementation ability, and scientific curiosity about mind and behaviour. You should hold, or be close to completing, a PhD in machine learning, computer science, computational neuroscience, computational psychiatry, applied mathematics, statistics, engineering, physics, or a related quantitative discipline. You should have expertise in one or more of: probabilistic modelling, time-series modelling, latent-variable models, state-space models, reinforcement learning, sequential decision-making, representation learning, Bayesian methods, or computational models of behaviour. Strong Python and deep learning framework skills (PyTorch, JAX, or TensorFlow) are essential. Experience with healthcare, mental health, or mobile sensing data is highly desirable but not required. What we can offer you : The opportunity to work on hard machine learning problems with genuine scientific depth and real-world clinical consequence, not just pipeline engineering. Access to rich longitudinal data from an ongoing adolescent mental health study involving 700+ participants, with a rare opportunity to move beyond offline modelling into prospective, real-world adaptive intervention. https://www.imperial.ac.uk/early-career-researcher-institute A highly interdisciplinary research environment working closely with clinicians, psychiatrists, and behavioural scientists, with a clear route toward meaningful clinical impact for adolescent mental health. Sector-leading salary and remuneration package (including 41 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further Information *Please note that this is a PhD level role but candidates who have not yet been officially awarded will be appointed as a Research Assistant (£43,863 - £47,223) MindCraft sits within the Departments of Computing and Bioengineering at Imperial College London, in close collaboration with the Department of Brain Sciences. The project is embedded in an ethically approved trial infrastructure, creating a rare opportunity to develop and evaluate computationally principled adaptive digital mental health systems with a clear route toward meaningful clinical impact. This is a full-time, fixed-term post 36 months. (35 hours per week). If you require any further details about the role, please contact: [Professor Aldo Faisal] – [ a.faisal@imperial.ac.uk ]. £49,017 to £57,472 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-05-31T00:00:00+00:00",
+      "requirements": "Research Area: Machine Learning, Computational Psychiatry, Digital Mental Health Interventions, Digital Phenotyping, AI-guided smartphone-based interventions, multimodal behavioural data analysis, personalized AI systems, mental state inference, adaptive intervention delivery.\nKey Requirements: Experience in machine learning, computational psychiatry, digital phenotyping, and real-world intervention research. Ability to develop mathematically grounded, personalized AI systems. Experience with multimodal models, latent-state/state-space/probabilistic/representation-learning approaches, personalized digital twin models, reinforcement learning/contextual bandit/sequential decision-making models. Ability to tackle challenges like partial observability, uncertainty, missingness, delayed rewards, and non-stationarity.\nApplication Info: deadline/start date: 2026-05-31T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57472.00 YEAR\nOne-line Advice: Strong fit for candidates with expertise in probabilistic/dynamical modeling, reinforcement learning, multimodal representation learning, or computational behavioral modeling.",
+      "relevance_score": 7.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP49017.00-GBP57472.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "20th May 2026",
+      "job_ref": "ENG03894"
+    },
+    {
+      "title": "Assistant or Associate Professor in Applied Artificial Intelligence (53294-0526)",
+      "url": "https://www.jobs.ac.uk/job/DRO402/assistant-or-associate-professor-in-applied-artificial-intelligence-53294-0526/",
+      "description": "Informal Queries For informal queries, please contact Kurt Debattista (Professor) at K.Debattista@warwick.ac.uk . Flexible Working We will consider applications for employment on a part-time or other flexible working basis (e.g. job share), despite the position being advertised as full-time. Operation Requirements The successful applicant will be required to work the majority of their time on campus. WMG at the University of Warwick is undertaking a significant investment in Research & Teaching academic recruitment across several strategically important growth areas. As part of this coordinated campaign, we are seeking to appoint an Assistant Professor or Associate Professor in Applied Artificial Intelligence to contribute to internationally leading research, innovation, and teaching within WMG’s collaborative and industry-focused environment. This role offers an exciting opportunity to contribute to the development and application of artificial intelligence technologies that address complex real-world challenges across manufacturing, mobility, engineering systems, creative technologies, simulation, and digital environments. Working closely with academic, industrial, and international partners, the successful candidate will help develop innovative AI-driven solutions with clear real-world impact. The successful candidate will contribute to high-quality research, collaborative funding activity, postgraduate supervision, and research-informed teaching across areas including machine learning, deep learning, generative AI, visual computing, intelligent systems, digital twinning, and human-AI interaction. WMG offers a highly interdisciplinary environment with strong industrial engagement, access to world-class facilities, and extensive opportunities to collaborate across advanced manufacturing, automation, transport, simulation, and digital engineering domains. Appointments will be considered at either Assistant Professor or Associate Professor level depending on experience, research profile, leadership trajectory, and funding track record. About You You will hold a PhD in Artificial Intelligence, Computer Science, Engineering, or a closely related discipline and demonstrate expertise aligned to applied AI research and innovation. We are particularly interested in candidates with expertise in one or more of: machine learning and deep learning generative AI visual computing and simulation intelligent engineering systems digital twinning human–AI interaction AI for manufacturing and industrial systems AI for transport and intelligent mobility You should demonstrate the ability, or strong potential, to develop internationally recognised research through publications, collaborative projects, funding activity, and engagement with industrial and academic partners. Candidates applying at Associate Professor level should demonstrate an established research profile and evidence of academic leadership, while Assistant Professor candidates should demonstrate strong potential to develop an independent and impactful research trajectory within a collaborative environment. We particularly welcome candidates who are enthusiastic about interdisciplinary working, industry engagement, and translating research into meaningful real-world impact. For details on the experience and skills required, please refer to the job description attached as a PDF below. About the Department The Warwick Manufacturing Group (WMG) is the largest department at the University of Warwick, with over 800 staff and nearly 3,000 students across undergraduate and postgraduate programmes in management, technology, and applied engineering. We are globally recognised for our world-class research, innovative industry partnerships, and teaching excellence, and we are proud holders of the Athena SWAN Silver Award and the Institutional Silver Award. Find out more about the High Value Manufacturing Catapult centre . Find out more about the Energy Innovation Centre . Find out more about our range of undergraduate and apprenticeship degrees here . About the University We are a world-leading research-intensive university founded in 1965. We are ranked 74th in the world and 9th in the UK. * Additionally, 92% of our research is rated world-leading or internationally excellent .** Find out more about us at warwick.ac.uk/about/ . * World University Ranking 2026 , Complete University Guide 2026 ** Research Excellence Framework 2021 How to Apply CLOSING DEADLINE : Thursday 18 June 2026 at 11:55pm (UK Time) To apply, please click APPLY below and submit your application by the closing deadline. You will be asked to include a CV and cover letter. Within these documents, please: 1. Outline your employment and education history (including your most recent employment). 2. Outline the reasons for your interest in this position. 3. Demonstrate how you meet the requirements of the role with clear reference to each of the essential and desirable criteria in the Job Description (PDF attached below). Interview Date: To be confirmed Start Date: To be confirmed Applications must be submitted by the closing deadline. Only applications submitted through our Careers Portal will be considered. You are welcome to include any careers breaks you may have taken (e.g. parental/caring/long-term sick leave). Please note that if you do not evidence the essential criteria, the hiring panel may not be able to shortlist your application. For guidance on how to format a cover letter, see here . What we Offer We provide a comprehensive range of benefits, including: An attractive pension scheme. 30 days holiday plus University Christmas closure. Generous parental/adoption leave policy. Onsite childcare facilities. Excellent learning and development opportunities. We recognise the importance of a healthy work/life balance and offer access to flexible working arrangements. For more information, see here . We are proud to be a Living Wage employer . Our Commitment to Inclusion Equality, Diversity, & Inclusion Warwick is committed to fostering a diverse, inclusive and respectful community where everyone can thrive. We welcome applications from all backgrounds, cultures, and communities, and actively encourage candidates from underrepresented groups to apply. Find out more about our Social Inclusion work at Warwick . Find out more about our awards and accreditations . We are also one of the six founder institutions of the EUTOPIA European University Alliance . Safeguarding & DBS The University of Warwick is committed to safeguarding and promoting the welfare of all those we work with. Roles involving regulated activity are subject to a Disclosure and Barring Service (DBS) check at the appropriate level, in line with the DBS Code of Practice. The University will ensure that anyone subject to a barring order does not undertake any work with the barred group (children and/or adults). All employees, volunteers, and partners are expected to share our commitment to safeguarding. Rehabilitation of Ex-Offenders The University will not discriminate against applicants who make a disclosure relating to a conviction. Disclosures at application stage are only visible to the DBS team, not to hiring panels. This ensures fairness and removes bias from the shortlisting process. Job Description JD - Assistant or Associate Professor in Applied Artificial Intelligence (53294, 111517).pdf – 127KB Opens in a new window Right to Work in the UK If you do not yet have the right to work in the UK and/or are seeking sponsorship for a Skilled Worker visa, please follow this link which contains further information about obtaining the right to work in the UK. £47,389 to £67,468 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-18T00:00:00+00:00",
+      "requirements": "Research Area: Applied Artificial Intelligence (Machine Learning, Deep Learning, Generative AI, Visual Computing, Intelligent Systems, Digital Twinning, Human-AI Interaction)\nKey Requirements: Contribute to internationally leading research, innovation, and teaching; develop and apply AI technologies for real-world challenges in manufacturing, mobility, engineering systems, creative technologies, simulation, and digital environments; contribute to high-quality research, collaborative funding activity, postgraduate supervision, and research-informed teaching.\nApplication Info: deadline/start date: 2026-06-18T00:00:00+00:00, required materials: N/A, contact: K.Debattista@warwick.ac.uk (informal queries)\nPosition Details: location: University of Warwick, England, United Kingdom, contract type: Permanent, workload: Full Time (flexible working considered), salary: GBP47389.00-GBP67468.00 YEAR\nOne-line Advice: CV should highlight experience in applied AI, with specific examples of impact in manufacturing, mobility, or digital environments.",
+      "relevance_score": 8.0,
+      "institution": "University of Warwick",
+      "location": "Coventry, England, United Kingdom / University of Warwick, England, United Kingdom",
+      "salary": "GBP47389.00-GBP67468.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Permanent",
+      "placed_on": "19th May 2026",
+      "job_ref": "(53294-0526)"
+    },
+    {
+      "title": "Postdoctoral Researcher – Computational & Translational Analysis of Pulmonary Nodules",
+      "url": "https://euraxess.ec.europa.eu/jobs/438873",
+      "description": "The German Cancer Research Center (DKFZ) is one of Europe’s largest cancer research centers. “Research for a life without cancer” is the mission of our world-class scientists and all our team members. The DKFZ is a place where the brightest minds pursue bold ideas and seek answers to pioneering... * Work Locations: Number of offers: 1, Germany, German Cancer Research Center (DKFZ), Heidelberg Research Field: [Biological sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A38) » [Biology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A41) [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Cancer research](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A6039) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 4 Jun 2026 - 23:59 (Europe/Berlin) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland ![Image 3: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Warsaw University of Technology](https://euraxess.ec.europa.eu/partnering/organisations/profile/warsaw-university-technology-0) * [Field: Biological sciences]",
+      "institution": "",
+      "posted_date": "22 May 2026",
+      "deadline": "4 Jun 2026 - 23:59 (Europe/Berlin)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Computational and translational analysis of pulmonary nodules, cancer research, biological sciences, medical sciences.\nKey Requirements: N/A\nApplication Info: deadline 4 Jun 2026 - 23:59 (Europe/Berlin), required materials N/A, contact N/A\nPosition Details: location German Cancer Research Center (DKFZ), Heidelberg, Germany; contract type N/A; workload N/A; salary N/A\nOne-line Advice: N/A",
+      "relevance_score": 9.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "Head of an independent Junior Research Group (Tenure-Track)",
+      "url": "https://euraxess.ec.europa.eu/jobs/438844",
+      "description": "The German Cancer Research Center (DKFZ) is one of Europe’s largest cancer research centers. “Research for a life without cancer” is the mission of our world-class scientists and all our team members. The DKFZ is a place where the brightest minds pursue bold ideas and seek answers to pioneering... * Work Locations: Number of offers: 1, Germany, German Cancer Research Center (DKFZ), Heidelberg Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Cancer research](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A6039) [Biological sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A38) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A46) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A91) Researcher Profile: [Established Researcher (R3)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A449) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 14 Jun 2026 - 23:59 (Europe/Berlin) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Finland * [Turku University of Applied Sciences](https://euraxess.ec.europa.eu/partnering/organisations/profile/turku-university-applied-sciences) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "22 May 2026",
+      "deadline": "14 Jun 2026 - 23:59 (Europe/Berlin)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Cancer research, Medical sciences, Biological sciences (Other), Computer science (Other)\nKey Requirements: Established Researcher (R3)\nApplication Info: deadline: 14 Jun 2026 - 23:59 (Europe/Berlin), required materials: N/A, contact: N/A\nPosition Details: location: Heidelberg, Germany, contract type: Tenure-Track, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
