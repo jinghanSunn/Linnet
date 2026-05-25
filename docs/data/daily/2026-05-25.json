@@ -1,0 +1,1441 @@
+{
+  "date": "2026-05-25",
+  "generated_at": "2026-05-25T12:51:57.924604+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2605.23657v1",
+          "title": "OpenSkillEval: Automatically Auditing the Open Skill Ecosystem for LLM Agents",
+          "authors": [
+            "Jiahao Ying",
+            "Boxian Ai",
+            "Wei Tang",
+            "Siyuan Liu",
+            "Yixin Cao"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces OpenSkillEval, an automatic framework for evaluating LLM agents and the skills they use. It addresses the growing need to understand how LLMs interact with skills and how to assess skill quality and select them effectively. OpenSkillEval achieves this by automatically generating realistic task instances from real-world artifacts and organizing community-contributed skills for controlled comparison.",
+          "url": "http://arxiv.org/abs/2605.23657v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23657v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.23657v1/x1.png",
+          "figure_caption": "Overview of the OpenSkillEval framework. The framework supports automatic test case generation for five core task categories by reflecting evolving user needs. It further enables automatic evaluation from two complementary perspectives: (1) analysis of model trajectory traces to study how skills are used within skill-augmented agent systems, and (2) assessment of the quality of the final artifacts produced under skill augmentation.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.23897v1",
+          "title": "ETCHR: Editing To Clarify and Harness Reasoning",
+          "authors": [
+            "Beichen Zhang",
+            "Yuhong Liu",
+            "Jinsong Li",
+            "Yuhang Zang",
+            "Jiaqi Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "ETCHR addresses limitations in multimodal reasoning by decoupling an image editing model from a language understanding model. Its core method involves a question-conditioned, reasoning-aware image editor that can perform visual transformations to clarify reasoning steps, overcoming the limitations of fixed toolkits or noisy unified methods. This approach enables more accurate and deeper visual reasoning by bridging the gap between abstract questions and concrete visual edits.",
+          "url": "http://arxiv.org/abs/2605.23897v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23897v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.23897v1/x1.png",
+          "figure_caption": "ETCHR vs. prior “think with images” paradigms. (a) Tool-based methods emit action tokens to a renderer, limiting edits to low-level operations and requiring VLM fine-tuning. (b) Unified models share one backbone for text and images, weakening both and producing noisy intermediates. (c) ETCHR decouples a question-conditioned editor from the understanding MLLM and adds a verify-and-reason step, enabling plug-and-play use across tasks. (d) Across nine benchmarks, ETCHR (with Qwen3-VL-8B and Kimi K2.5 1T) surpasses tool-based and unified-model baselines.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.23694v1",
+          "title": "ChartFI: Benchmarking Faithfulness and Insightfulness of Chart Descriptions from Multimodal Large Language Models",
+          "authors": [
+            "Fen Wang",
+            "Zekai Shao",
+            "Qiman Kang",
+            "Chunran Hu",
+            "Zhixuan Zhang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces ChartFI-Bench, a new benchmark for evaluating multimodal large language models' ability to describe charts. It addresses limitations of existing datasets and metrics by focusing on four key dimensions of description quality: factual accuracy, salient feature emphasis, domain-informed guidance, and chart-text complementarity. The contribution is a more comprehensive evaluation framework for chart description generation.",
+          "url": "http://arxiv.org/abs/2605.23694v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23694v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.23694v1/x1.png",
+          "figure_caption": "Overview of the benchmark construction pipeline, consisting of three stages: dataset collection from academic papers, chart filtering with complexity and human review, and description generation with multi-level semantic coverage.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.23780v1",
+          "title": "Beyond Binary Edits Robust Multimodal Knowledge Editing with Adversarial Subspace Alignment",
+          "authors": [
+            "Haoyuan Wang",
+            "Xiaohao Liu",
+            "Jiajie Su",
+            "Jianmao Xiao",
+            "Chaochao Chen"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces Latent Adversarial Robustification (LAR) to improve multimodal knowledge editing. LAR generates adversarial variations of input data in the latent space to expose and strengthen fragile semantic regions, enabling more generalizable knowledge updates that extend beyond specific examples. The core contribution is a method that enhances the robustness and generality of multimodal knowledge editing by explicitly addressing semantic equivalence and adversarial perturbations.",
+          "url": "http://arxiv.org/abs/2605.23780v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23780v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.23780v1/pic/framework_3.png",
+          "figure_caption": "The overall framework of ASAM, which consists of two key modules. ❶ LAR. Given multimodal inputs, LAR perturbs input embeddings along LLM-guided gradients to generate semantically consistent rephrases. ❷ RCSL. Using these rephrases, RCSL applies SVD-based subspace learning to align editing-layer outputs, enforcing semantic consistency across variants.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.23655v1",
+          "title": "CVSearch: Empowering Multimodal LLMs with Cognitive Visual Search for High-Resolution Image Perception",
+          "authors": [
+            "Liupeng Li",
+            "Haoqian Kang",
+            "Zhenyu Lu",
+            "Jinpeng Wang",
+            "Bin Chen"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CV",
+            "cs.MM"
+          ],
+          "abstract": "CVSearch tackles the challenge of high-resolution image perception in multimodal LLMs by dynamically adapting its search strategy. It first attempts an efficient expert-assisted search and, if that fails, employs a novel semantic-aware scanning method that intelligently partitions images into meaningful regions, avoiding fragmentation and improving efficiency. This training-free approach enhances coverage without computational redundancy.",
+          "url": "http://arxiv.org/abs/2605.23655v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23655v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.23899v1",
+          "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills",
+          "authors": [
+            "Zisu Huang",
+            "Jingwen Xu",
+            "Yifan Yang",
+            "Ziyang Gong",
+            "Qihao Yang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper systematically studies the full lifecycle of model-generated agent skills, from experience generation to skill extraction and consumption. It introduces a utility-grounded evaluation framework to assess the effectiveness of these skills across diverse domains. The core contribution is a comprehensive analysis revealing that while model-generated skills are generally beneficial, their performance is not always consistent and depends on various factors.",
+          "url": "http://arxiv.org/abs/2605.23899v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23899v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.23899v1/x2.png",
+          "figure_caption": "Overview of our study design. We evaluate the full trajectory-to-skill lifecycle across three stages: experience generation, skill extraction, and skill consumption.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.23867v1",
+          "title": "Human Decision-Making with Persuasive and Narrative LLM Explanations",
+          "authors": [
+            "Laura R. Marusich",
+            "Mary Grace Kozuch Dhooghe",
+            "Jonathan Z. Bakdash",
+            "Murat Kantarcioglu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.HC"
+          ],
+          "abstract": "This paper investigates how persuasive narrative explanations from LLMs affect human decision-making in classification tasks. Through a large-scale experiment, the researchers found that the persuasiveness of LLM explanations did not significantly improve decision accuracy compared to a simple AI prediction. However, narratives did increase reliance on the AI's output.",
+          "url": "http://arxiv.org/abs/2605.23867v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23867v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.23867v1/fig2a_confirmatory_plots.jpg",
+          "figure_caption": "Left: Average participant accuracy across the two dataset conditions and four explanation conditions. Center: Average participant reliance rate across the two dataset conditions and four explanation conditions. Right: Predicted effects (level 2/overall results of multilevel model) of confidence ratings and dataset upon accuracy. Steeper, positively-sloped lines indicate better confidence calibration. Across all plots, error bars and shaded areas represent 95% confidence intervals.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.23825v1",
+          "title": "It's the humans, not the data: Geopolitical bias in LLMs originates in post-training, amplified by the language of the prompt",
+          "authors": [
+            "Stuart Bladon",
+            "Brinnae Bent"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper demonstrates that geopolitical bias in LLMs primarily arises during the post-training (fine-tuning) phase, not from the initial training data. The researchers found that models often develop a bias favoring the country of their developer after fine-tuning, and this bias is amplified by the language of the prompt.",
+          "url": "http://arxiv.org/abs/2605.23825v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23825v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.23825v1/main_figure.png",
+          "figure_caption": "Overview, seven families. (A) Per-country preference base → \\( \\to \\) post-trained; for the six non-GLM bases, cross-country spread \\( \\sigma \\) grows post-training (Qwen 3.9 → 30.3 3.9\\( \\to \\) 30.3 pp). (B) Post-training \\( \\Delta \\) in China-favourability (EN, coherent subset). 3/3 Western labs shift anti-China; 3/4 Chinese labs shift pro-China; Yi shifts anti-China after prefill correction. GLM is shown with its (atypical) base preserved for completeness; see § Bias Is Created by Post-Training, Not Pretraining . The legend’s low-compliance encoding is described in § What MCQ Compliance Tells Us About Validity . (C) ZH − - EN shift on post-trained models: 5/7 descriptively pro-China but population-level claim is not statistically separable from the base trend (§ Linguistic Identity Modulates the Post-Training Bias ).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.23861v1",
+          "title": "Leveraging Foundation Models for Causal Generative Modeling",
+          "authors": [
+            "Aneesh Komanduri",
+            "Xintao Wu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces FM-CGM, a modular framework that leverages pretrained foundation models for visual causal reasoning. Its core method involves a three-component pipeline (concept extractor, manipulator, and generator) that enables zero-shot causal discovery, intervention, and counterfactual generation. The key contribution is the development of Causal Semantic Guidance (CSG), a mechanism that ensures semantic interventions propagate correctly through the causal graph.",
+          "url": "http://arxiv.org/abs/2605.23861v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23861v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.23861v1/x1.png",
+          "figure_caption": "Figure 1 . An overview of Foundation Model Powered Causal Generative Model (FM-CGM) consisting of a concept extractor, concept manipulator, and counterfactual generator enabled by foundation models",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.23901v1",
+          "title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
+          "authors": [
+            "Xu Ouyang",
+            "Deyi Liu",
+            "Yuhang Cai",
+            "Jing Liu",
+            "Yuan Yang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.IT"
+          ],
+          "abstract": "This paper proposes the Shannon Scaling Law, modeling LLM training as information transmission over a noisy channel. By relating model parameters to bandwidth and training data to signal power, it explains non-monotonic performance changes like overtraining and quantization degradation. The core contribution is a theoretical framework that predicts a fundamental Shannon capacity for LLMs, where insufficient signal-to-noise ratio leads to performance deterioration.",
+          "url": "http://arxiv.org/abs/2605.23901v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23901v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.23901v1/x1.png",
+          "figure_caption": "Loss landscapes between Pretraining and downstream SFT. While pretraining exhibits monotonic improvement, SFT reveals a loss basin, indicating that scaling either model size or token count beyond a critical threshold leads to performance degradation.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.23723v1",
+          "title": "MemAudit: Post-hoc Auditing of Poisoned Agent Memory via Causal Attribution and Structural Anomaly Detection",
+          "authors": [
+            "Zhewen Tan",
+            "Yilun Yao",
+            "Huiyan Jin",
+            "Wenhan Yu",
+            "Guoan Wang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "MemAudit is a post-hoc framework designed to identify and audit malicious memories injected into LLM agents. It uses causal attribution to measure how each memory influences harmful outputs and structural anomaly detection to pinpoint inconsistent memory entries. This allows for the identification of poisoned memories after an attack has occurred, addressing a gap in existing online defense mechanisms.",
+          "url": "http://arxiv.org/abs/2605.23723v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23723v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.23723v1/x1.png",
+          "figure_caption": "Overview of MemAudit. Given a harmful event e = ( q ∗ , y ∗ , R ∗ ) e=(q^{*},y^{*},R^{*}) , the framework performs post-hoc auditing over the memory store. It combines two complementary signals: CMIS, which measures the causal contribution of retrieved memories through counterfactual replay, and MCG, which identifies structurally anomalous memories in the global memory graph. The two signals are fused into a detoxification score for ranking suspicious memories. After removing the top-ranked memories, the agent becomes safer while preserving useful memory.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.23668v1",
+          "title": "OnePred: Next-Query Prediction via Recursive Intent Memory in Multi-Turn Conversations",
+          "authors": [
+            "Jiangwang Chen",
+            "Bowen Zhang",
+            "Zixin Song",
+            "Jiazheng Kang",
+            "Xiao Yang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "OnePred addresses the limitation of reactive LLM conversational systems by proposing a novel method for next-query prediction. Its core method, \"recursive intent memory,\" efficiently tracks the user's evolving intent across a conversation without needing to process the full dialogue history. This allows for proactive interaction by anticipating the user's next query with a constant per-turn computational cost, overcoming the efficiency-quality trade-off of existing approaches.",
+          "url": "http://arxiv.org/abs/2605.23668v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23668v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.23668v1/Figures/onepred-data.png",
+          "figure_caption": "Overview of the NQP-Bench construction pipeline. The process integrates heuristic filtering, a two-stage LLM cascade for rigorous predictability screening, and a retroactive truncation mining strategy to salvage high-quality conversation prefixes from the DROP pool.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.23883v1",
+          "title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs",
+          "authors": [
+            "Rim Assouel",
+            "Amir Bar",
+            "Michal Drozdzal",
+            "Adriana Romero-Soriano"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces Procedurally Generated Tasks (PGT), a data-driven framework that enhances visual grounding in Multimodal Large Language Models (MLLMs). PGT overlays geometric primitives on images to create dense supervision, disentangling visual understanding from semantic knowledge. This method significantly improves performance on fine-grained tasks and serves as a diagnostic tool for identifying perception failures.",
+          "url": "http://arxiv.org/abs/2605.23883v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23883v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.23883v1/x1.png",
+          "figure_caption": "Overview of PGT. Top : The construction of our procedurally generated data to augment instruction tuning training datasets. Abstract geometric primitives are overlaid to training data, when available. Bottom : (Left) Examples of failure modes in fine-grained relational and spatial understanding of state-of-the-art MLLMs. In the first example the model can rely on the fact that a bowl is usually on a table and in the second example it can rely on the shortcut where object higher up as usually further from the camera (Right) PGT performance boosts in relational, quantitative, and 3D/depth understanding over the baseline when using different instruction tuning dataset sizes.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.23904v1",
+          "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+          "authors": [
+            "Yifan Yang",
+            "Ziyang Gong",
+            "Weiquan Huang",
+            "Qihao Yang",
+            "Ziwei Zhou"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "SkillOpt treats agent skills as trainable external states, optimizing them with the same rigor as deep learning weights. Its core method involves a separate optimizer model that makes bounded edits to a skill document, accepting only those that strictly improve performance. This approach offers the first systematic, controllable text-space optimization for agent skills, leading to reliable improvement without increasing inference cost.",
+          "url": "http://arxiv.org/abs/2605.23904v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23904v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.23904v1/x2.png",
+          "figure_caption": "Overview of SkillOpt . The target model executes tasks with a current skill, an additional frontier optimizer model converts trajectories into bounded add/delete/replace skill edits, and a held-out gate accepts only edits that improve validation performance. Accepted edits are exported as a reusable skill artifact, while rejected edits become negative feedback for later updates.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.23751v1",
+          "title": "Approaching I/O-optimality for Approximate Attention",
+          "authors": [
+            "Pál András Papp",
+            "Aleksandros Sobczyk",
+            "Anastasios Zouzias"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper presents an I/O-efficient algorithm for computing attention in large language models, significantly reducing data transfers compared to existing methods. By adapting approximate attention techniques, their approach achieves an almost-linear I/O cost with respect to the input size, approaching theoretical optimality.",
+          "url": "http://arxiv.org/abs/2605.23751v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23751v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.23650v1",
+          "title": "Learning Kernel-Based MDPs from Episodic Preferential Feedback",
+          "authors": [
+            "Nikola Pavlovic",
+            "Sattar Vakili",
+            "Qing Zhao"
+          ],
+          "categories": [
+            "cs.LG",
+            "stat.ML"
+          ],
+          "abstract": "This paper develops a theoretical framework for learning Markov Decision Processes (MDPs) with kernel-based reward and transition functions using only episodic preferential feedback. The core method involves estimating values and confidence sets from binary preference labels between policy trajectories, modeled by a Bradley-Terry-Luce link. The key contribution is proving sublinear regret bounds, demonstrating that this preference-based approach can effectively learn optimal policies from human-like feedback.",
+          "url": "http://arxiv.org/abs/2605.23650v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23650v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.23753v1",
+          "title": "SeedER: Seed-and-Expand Retrieval from Knowledge Graphs",
+          "authors": [
+            "Hamed Shirzad",
+            "Frederik Wenkel",
+            "Dominique Beaini",
+            "Danica J. Sutherland",
+            "Emmanuel Noutahi"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "SeedER tackles knowledge graph retrieval by first identifying a small set of relevant \"seed\" nodes using efficient methods. It then iteratively expands this set using a learned policy that prioritizes low-cost, graph-aware steps, effectively decomposing complex queries into manageable local decisions. This approach efficiently discovers query-relevant information while controlling computational expense, overcoming limitations of purely dense retrieval for multi-hop queries.",
+          "url": "http://arxiv.org/abs/2605.23753v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23753v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.23857v1",
+          "title": "Strong Teacher Not Needed? On Distillation in LLM Pretraining",
+          "authors": [
+            "Taiming Lu",
+            "Zhuang Liu"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates knowledge distillation in LLM pretraining, challenging the assumption that a stronger teacher is always necessary. They demonstrate that even smaller, undertrained teachers can significantly benefit larger students when distillation loss is properly mixed with language modeling loss. Furthermore, excessively strong teachers can lead to diminishing or even negative distillation gains, and distillation primarily enhances generalization rather than in-domain fitting.",
+          "url": "http://arxiv.org/abs/2605.23857v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23857v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.23651v1",
+          "title": "How Human-Like Are Large Language Models? A Register-Aware Linguistic Evaluation Framework",
+          "authors": [
+            "Björn Nieth",
+            "Marianna Gracheva",
+            "Michaela Mahlberg",
+            "Bjoern Eskofier",
+            "Emmanuelle Salin"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces a novel framework for evaluating the linguistic human-likeness of Large Language Models (LLMs). It moves beyond factual correctness to assess if LLM-generated text adheres to context-dependent linguistic patterns observed in human language. The core method uses a statistical test (MMD) to compare feature distributions between human and LLM corpora, contributing a more nuanced understanding of LLM text quality.",
+          "url": "http://arxiv.org/abs/2605.23651v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.23651v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.23651v1/x1.png",
+          "figure_caption": "Overview of the proposed evaluation framework. Given a specific Register r r , we collect a human and LLM-generated corpus. Then we extract a set of 67 linguistic features from the texts. Finally, we calculate the distance between the human sample and the synthetic corpus and resample the distance between human samples as a baseline.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 32,
+        "papers_after_llm_filter": 19,
+        "count": 19
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Eric and Wendy Schmidt AI in Science Postdoctoral Fellows, a Program of Schmidt Sciences (Research Associate)",
+          "url": "https://www.jobs.ac.uk/job/DRP014/eric-and-wendy-schmidt-ai-in-science-postdoctoral-fellows-a-program-of-schmidt-sciences-research-associate/",
+          "description": "About the role : Applications are invited for prestigious Eric and Wendy Schmidt AI in Science Fellowships, a program of Schmidt Sciences, commencing 01 September 2027, with a duration of 2 years. The fellowship MUST start on or before 01 September 2027 as the grant funding ends on 31 August 2029. What you would be doing : The Eric and Wendy Schmidt AI in Science Fellows will produce independent and original research, using AI to advance science within their host department and the I-X Centre for AI in Science. These fellowships have the aim of identifying excellent researchers and accelerating them in using AI to advance and disrupt Science or Engineering. Here ‘AI’ is interpreted very broadly, e.g.: topics in Bayesian Inference and Robotics; ‘Science’ covers any typical topic in Natural Science and Engineering (Epidemiology, Biology and basic science in biomedicine are included but clinical medical themes are not covered, including conventional medical imaging). Examples include Bayesian optimization for molecular or materials design; machine learning for single cell data; physics-based ML for turbine design and astrostatistics. This post is not suitable for generic AI research with general application: candidates must be aiming to substantially advance a particular area of science. Applicants could view themselves as AI researchers tackling particular pieces of science or science researchers using AI to transform their area. Extensive AI knowledge is not required, and AI training is offered as discussed by one of our alumni here. What we are looking for : Candidates will: Hold, or be near completion of, a PhD (or equivalent) in an appropriate discipline. Have the potential for leadership qualities in the subject, as illustrated, for example, through showing initiative on research projects. Have an outstanding research record commensurate with their level of experience as demonstrated, for example, through an outstanding thesis, publications, conference presentations, code etc. Have a proposal which is within the AI in Science research remit and skills which fit the cohort of AI in Science fellows. What we can offer you : You will join the Eric and Wendy Schmidt Network of researchers and will join a unique co-located cohort of top scholars based in the I-X Centre for AI in Science with tailored training and one-on-one career development. The fellowships are flexible and independent, allowing recipients to freely explore while drawing on expert faculty mentors of their choice. We have a programme of additional support for women in AI in Science including a coaching circle for women in AI, additional funds for their career development and a community of I-X AI in Science women. The I-X Women in Artificial Intelligence ( IXWAI ) founded by two of our current Fellows aims to enhance representation of women in AI and foster an environment where they are valued, supported and inspired to achieve their full potential. We expect to appoint at least one candidate through this route. This is a full time, fixed term position for 2 years. You will be based at White City Campus. Candidates who have not yet been officially awarded their PhD will be appointed as a Research Assistant. If you have any queries about this opportunity, please contact Eileen Boyce at e.boyce@imperial.ac.uk Further information about the I-X Centre for AI in Science can be found at AI in Science Fellowships | Research groups | Imperial College London which includes an introductory video. If candidates want to also be considered at the Research Fellow level, then they need to send in an additional application for that role (the documents submitted can be repeated). Further Information In addition to completing the online application, candidates should, after carefully consulting the Job Description, FAQ and related documents , upload the following documents: A full CV including publications. An additional single file with: Publication Elaboration: a 1 page, or less, note outlining the contribution of up to three papers by the applicant suitable for a general scientific reader. Research Proposal Summary: a 1 page or less, summary of the proposed research suitable for a general scientific audience. Particular attention will be paid to this summary. It should answer the question of why/how this application of AI will be transformative for the target area of science. The proposal should start by mentioning, the applicant’s proposed department and at least one mentor who has agreed to support the application – one mentor should be within the fellow’s proposed department, but others could be outside. Mentors must be contacted in advance of the application. It is not essential that the mentor be a very close fit to the proposed research, entirely independent research efforts are welcomed, but a collaborative mentorship is likely to make the science more credible. Research Proposal: a 3 pages or less proposal that explains why and how the proposed research could be transformative for a particular area of science. It can be structured around background, a small number of hypotheses/aims, and work packages. It can be assumed that the reader will first read the Summary and so content need not be repeated. Training Plan: a ½ page or less plan, identifying any particular skills that need to be acquired for the proposed research to succeed. Training is a key part of the proposed fellowship, whether helping an AI expert master a scientific topic or a scientific topic expert advance their AI skills. Deep expertise in AI (or the particular Science area) is not a pre-requisite: the minimum level of AI/Science experience is that needed to credibly articulate a plan for how AI will advance Science. Fit to AI in Science Remit: a ¼ page or less outline of how your proposal fits within the AI in Science remit – please check your proposal’s fit here . Kindness Statement: a ¼ page or less outline of your view on the need for kindness among scientists. The fellows will join a cohort of fellows in AI for Science with opportunities for outreach and LMIC engagement. Mobility Statement (for applicants currently at Imperial only): Schmidt Sciences seeks to enable national and international mobility: candidates from outside Imperial are particularly encouraged to apply. Candidates that are already in Imperial are asked to supply several sentences in their mobility statement outlining, in a distinctive and compelling manner, how remaining in Imperial is the best route for their personal growth. Applicants from Imperial are required to move from their existing supervisor to entirely new mentors for their Schmidt Fellowship, to increase both their independence and their breadth of experience (existing mentors cannot become secondary mentors). Joint Fellowship We have partnered with the Institute of Cancer Research (ICR) and the CNRS. If you are applying for a joint fellowship, we require that the principal mentor be in Imperial, but a secondary supervisor must be at ICR/CNRS. Please indicate if this is a joint fellowship by ticking the appropriate ICR/CNRS tick box in the online application form. Please note that these applications will require an institutional letter of support and ICR and CNRS will have their own internal process with a deadline ahead of the closing date below. The ICR deadline will be Monday 29 th June at 9am . You must contact Becky Cook ( rebecca.cook@icr.ac.uk ) at ICR and Carl Iamov carl.ialamov@cnrs.fr and/or Louis Avigdor louis.avigdor@cnrs-dir.fr at CNRS to confirm these internal processes and deadlines. £55,144 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk Research",
+          "deadline": "2026-07-23T00:00:00+00:00",
+          "requirements": "Research Area: AI in Science and Engineering, broadly interpreted to include Bayesian Inference, Robotics, Natural Science, and Engineering (e.g., Epidemiology, Biology, basic biomedicine, molecular/materials design, single cell data, physics-based ML for turbine design, astrostatistics). Excludes clinical medical themes and conventional medical imaging.\nKey Requirements: PhD (or equivalent) in an appropriate discipline, or near completion. Potential for leadership qualities. Aim to substantially advance a particular area of science using AI.\nApplication Info: Deadline: 2026-07-23. Start Date: On or before 2027-09-01. Required materials: N/A. Contact: N/A.\nPosition Details: Location: London, England, United Kingdom. Contract Type: Fixed-Term/Contract (2 years). Workload: Full Time. Salary: GBP55144.00 YEAR.\nOne-line Advice: CVs should highlight specific scientific domain advancement using AI; medical imaging and LLM applicants should ensure their work directly addresses a specific scientific problem beyond general AI research.",
+          "relevance_score": 9.0,
+          "institution": "Imperial College London",
+          "location": "London, England, United Kingdom",
+          "salary": "GBP55144.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "23rd May 2026",
+          "job_ref": "ENG03868"
+        },
+        {
+          "title": "HRS2026/232 INGENIERO INVESTIGADOR EN NEUROTECNOLOGÍA/ NEUROTECHNOLOGY RESEARCH ENGINEER",
+          "url": "https://euraxess.ec.europa.eu/jobs/439295",
+          "description": "- Diseño de modelos para la monitorización del estado cognitivo de los pilotos en condiciones reales/simuladas, así como la arquitectura de soporte y los parámetros operativos para un sistema de monitorización neurofisiológica.-Diseño de sistemas brain-computer interface para comunicación multimodal... * Department: HRS4R Work Locations: Number of offers: 1, Spain, E.T.S.I. TELECOMUNICACIÓN, Madrid, 28040, Madrid, Avenida Complutense, 30 Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Biomedical engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A168) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 5 Jun 2026 - 23:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Portugal * [Instituto de Telecomunicações](https://euraxess.ec.europa.eu/partnering/organisations/profile/instituto-de-telecomunicacoes-2) * [Field: Engineering]",
+          "institution": "",
+          "posted_date": "25 May 2026",
+          "deadline": "5 Jun 2026 - 23:00 (Europe/Madrid)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Neurotechnology, Biomedical Engineering, Cognitive State Monitoring, Brain-Computer Interfaces\nKey Requirements: Design of models for monitoring pilot cognitive state, neurophysiological monitoring system architecture, multimodal communication brain-computer interfaces.\nApplication Info: Deadline: 5 Jun 2026 - 23:00 (Europe/Madrid). Required materials and contact information are not specified.\nPosition Details: Location: Madrid, Spain. Contract type, workload, and salary are not specified.\nOne-line Advice: N/A",
+          "relevance_score": 7.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 2
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 32,
+    "papers_after_llm_filter": 19,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 92
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2605.23657v1",
+      "title": "OpenSkillEval: Automatically Auditing the Open Skill Ecosystem for LLM Agents",
+      "authors": [
+        "Jiahao Ying",
+        "Boxian Ai",
+        "Wei Tang",
+        "Siyuan Liu",
+        "Yixin Cao"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces OpenSkillEval, an automatic framework for evaluating LLM agents and the skills they use. It addresses the growing need to understand how LLMs interact with skills and how to assess skill quality and select them effectively. OpenSkillEval achieves this by automatically generating realistic task instances from real-world artifacts and organizing community-contributed skills for controlled comparison.",
+      "url": "http://arxiv.org/abs/2605.23657v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23657v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.23657v1/x1.png",
+      "figure_caption": "Overview of the OpenSkillEval framework. The framework supports automatic test case generation for five core task categories by reflecting evolving user needs. It further enables automatic evaluation from two complementary perspectives: (1) analysis of model trajectory traces to study how skills are used within skill-augmented agent systems, and (2) assessment of the quality of the final artifacts produced under skill augmentation.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.23897v1",
+      "title": "ETCHR: Editing To Clarify and Harness Reasoning",
+      "authors": [
+        "Beichen Zhang",
+        "Yuhong Liu",
+        "Jinsong Li",
+        "Yuhang Zang",
+        "Jiaqi Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "ETCHR addresses limitations in multimodal reasoning by decoupling an image editing model from a language understanding model. Its core method involves a question-conditioned, reasoning-aware image editor that can perform visual transformations to clarify reasoning steps, overcoming the limitations of fixed toolkits or noisy unified methods. This approach enables more accurate and deeper visual reasoning by bridging the gap between abstract questions and concrete visual edits.",
+      "url": "http://arxiv.org/abs/2605.23897v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23897v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.23897v1/x1.png",
+      "figure_caption": "ETCHR vs. prior “think with images” paradigms. (a) Tool-based methods emit action tokens to a renderer, limiting edits to low-level operations and requiring VLM fine-tuning. (b) Unified models share one backbone for text and images, weakening both and producing noisy intermediates. (c) ETCHR decouples a question-conditioned editor from the understanding MLLM and adds a verify-and-reason step, enabling plug-and-play use across tasks. (d) Across nine benchmarks, ETCHR (with Qwen3-VL-8B and Kimi K2.5 1T) surpasses tool-based and unified-model baselines.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23694v1",
+      "title": "ChartFI: Benchmarking Faithfulness and Insightfulness of Chart Descriptions from Multimodal Large Language Models",
+      "authors": [
+        "Fen Wang",
+        "Zekai Shao",
+        "Qiman Kang",
+        "Chunran Hu",
+        "Zhixuan Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ChartFI-Bench, a new benchmark for evaluating multimodal large language models' ability to describe charts. It addresses limitations of existing datasets and metrics by focusing on four key dimensions of description quality: factual accuracy, salient feature emphasis, domain-informed guidance, and chart-text complementarity. The contribution is a more comprehensive evaluation framework for chart description generation.",
+      "url": "http://arxiv.org/abs/2605.23694v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23694v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.23694v1/x1.png",
+      "figure_caption": "Overview of the benchmark construction pipeline, consisting of three stages: dataset collection from academic papers, chart filtering with complexity and human review, and description generation with multi-level semantic coverage.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.23780v1",
+      "title": "Beyond Binary Edits Robust Multimodal Knowledge Editing with Adversarial Subspace Alignment",
+      "authors": [
+        "Haoyuan Wang",
+        "Xiaohao Liu",
+        "Jiajie Su",
+        "Jianmao Xiao",
+        "Chaochao Chen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces Latent Adversarial Robustification (LAR) to improve multimodal knowledge editing. LAR generates adversarial variations of input data in the latent space to expose and strengthen fragile semantic regions, enabling more generalizable knowledge updates that extend beyond specific examples. The core contribution is a method that enhances the robustness and generality of multimodal knowledge editing by explicitly addressing semantic equivalence and adversarial perturbations.",
+      "url": "http://arxiv.org/abs/2605.23780v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23780v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23780v1/pic/framework_3.png",
+      "figure_caption": "The overall framework of ASAM, which consists of two key modules. ❶ LAR. Given multimodal inputs, LAR perturbs input embeddings along LLM-guided gradients to generate semantically consistent rephrases. ❷ RCSL. Using these rephrases, RCSL applies SVD-based subspace learning to align editing-layer outputs, enforcing semantic consistency across variants.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23655v1",
+      "title": "CVSearch: Empowering Multimodal LLMs with Cognitive Visual Search for High-Resolution Image Perception",
+      "authors": [
+        "Liupeng Li",
+        "Haoqian Kang",
+        "Zhenyu Lu",
+        "Jinpeng Wang",
+        "Bin Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CV",
+        "cs.MM"
+      ],
+      "abstract": "CVSearch tackles the challenge of high-resolution image perception in multimodal LLMs by dynamically adapting its search strategy. It first attempts an efficient expert-assisted search and, if that fails, employs a novel semantic-aware scanning method that intelligently partitions images into meaningful regions, avoiding fragmentation and improving efficiency. This training-free approach enhances coverage without computational redundancy.",
+      "url": "http://arxiv.org/abs/2605.23655v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23655v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23899v1",
+      "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills",
+      "authors": [
+        "Zisu Huang",
+        "Jingwen Xu",
+        "Yifan Yang",
+        "Ziyang Gong",
+        "Qihao Yang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper systematically studies the full lifecycle of model-generated agent skills, from experience generation to skill extraction and consumption. It introduces a utility-grounded evaluation framework to assess the effectiveness of these skills across diverse domains. The core contribution is a comprehensive analysis revealing that while model-generated skills are generally beneficial, their performance is not always consistent and depends on various factors.",
+      "url": "http://arxiv.org/abs/2605.23899v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23899v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23899v1/x2.png",
+      "figure_caption": "Overview of our study design. We evaluate the full trajectory-to-skill lifecycle across three stages: experience generation, skill extraction, and skill consumption.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23867v1",
+      "title": "Human Decision-Making with Persuasive and Narrative LLM Explanations",
+      "authors": [
+        "Laura R. Marusich",
+        "Mary Grace Kozuch Dhooghe",
+        "Jonathan Z. Bakdash",
+        "Murat Kantarcioglu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "abstract": "This paper investigates how persuasive narrative explanations from LLMs affect human decision-making in classification tasks. Through a large-scale experiment, the researchers found that the persuasiveness of LLM explanations did not significantly improve decision accuracy compared to a simple AI prediction. However, narratives did increase reliance on the AI's output.",
+      "url": "http://arxiv.org/abs/2605.23867v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23867v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23867v1/fig2a_confirmatory_plots.jpg",
+      "figure_caption": "Left: Average participant accuracy across the two dataset conditions and four explanation conditions. Center: Average participant reliance rate across the two dataset conditions and four explanation conditions. Right: Predicted effects (level 2/overall results of multilevel model) of confidence ratings and dataset upon accuracy. Steeper, positively-sloped lines indicate better confidence calibration. Across all plots, error bars and shaded areas represent 95% confidence intervals.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23825v1",
+      "title": "It's the humans, not the data: Geopolitical bias in LLMs originates in post-training, amplified by the language of the prompt",
+      "authors": [
+        "Stuart Bladon",
+        "Brinnae Bent"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper demonstrates that geopolitical bias in LLMs primarily arises during the post-training (fine-tuning) phase, not from the initial training data. The researchers found that models often develop a bias favoring the country of their developer after fine-tuning, and this bias is amplified by the language of the prompt.",
+      "url": "http://arxiv.org/abs/2605.23825v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23825v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23825v1/main_figure.png",
+      "figure_caption": "Overview, seven families. (A) Per-country preference base → \\( \\to \\) post-trained; for the six non-GLM bases, cross-country spread \\( \\sigma \\) grows post-training (Qwen 3.9 → 30.3 3.9\\( \\to \\) 30.3 pp). (B) Post-training \\( \\Delta \\) in China-favourability (EN, coherent subset). 3/3 Western labs shift anti-China; 3/4 Chinese labs shift pro-China; Yi shifts anti-China after prefill correction. GLM is shown with its (atypical) base preserved for completeness; see § Bias Is Created by Post-Training, Not Pretraining . The legend’s low-compliance encoding is described in § What MCQ Compliance Tells Us About Validity . (C) ZH − - EN shift on post-trained models: 5/7 descriptively pro-China but population-level claim is not statistically separable from the base trend (§ Linguistic Identity Modulates the Post-Training Bias ).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23861v1",
+      "title": "Leveraging Foundation Models for Causal Generative Modeling",
+      "authors": [
+        "Aneesh Komanduri",
+        "Xintao Wu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces FM-CGM, a modular framework that leverages pretrained foundation models for visual causal reasoning. Its core method involves a three-component pipeline (concept extractor, manipulator, and generator) that enables zero-shot causal discovery, intervention, and counterfactual generation. The key contribution is the development of Causal Semantic Guidance (CSG), a mechanism that ensures semantic interventions propagate correctly through the causal graph.",
+      "url": "http://arxiv.org/abs/2605.23861v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23861v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23861v1/x1.png",
+      "figure_caption": "Figure 1 . An overview of Foundation Model Powered Causal Generative Model (FM-CGM) consisting of a concept extractor, concept manipulator, and counterfactual generator enabled by foundation models",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23901v1",
+      "title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
+      "authors": [
+        "Xu Ouyang",
+        "Deyi Liu",
+        "Yuhang Cai",
+        "Jing Liu",
+        "Yuan Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.IT"
+      ],
+      "abstract": "This paper proposes the Shannon Scaling Law, modeling LLM training as information transmission over a noisy channel. By relating model parameters to bandwidth and training data to signal power, it explains non-monotonic performance changes like overtraining and quantization degradation. The core contribution is a theoretical framework that predicts a fundamental Shannon capacity for LLMs, where insufficient signal-to-noise ratio leads to performance deterioration.",
+      "url": "http://arxiv.org/abs/2605.23901v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23901v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23901v1/x1.png",
+      "figure_caption": "Loss landscapes between Pretraining and downstream SFT. While pretraining exhibits monotonic improvement, SFT reveals a loss basin, indicating that scaling either model size or token count beyond a critical threshold leads to performance degradation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23723v1",
+      "title": "MemAudit: Post-hoc Auditing of Poisoned Agent Memory via Causal Attribution and Structural Anomaly Detection",
+      "authors": [
+        "Zhewen Tan",
+        "Yilun Yao",
+        "Huiyan Jin",
+        "Wenhan Yu",
+        "Guoan Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "MemAudit is a post-hoc framework designed to identify and audit malicious memories injected into LLM agents. It uses causal attribution to measure how each memory influences harmful outputs and structural anomaly detection to pinpoint inconsistent memory entries. This allows for the identification of poisoned memories after an attack has occurred, addressing a gap in existing online defense mechanisms.",
+      "url": "http://arxiv.org/abs/2605.23723v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23723v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23723v1/x1.png",
+      "figure_caption": "Overview of MemAudit. Given a harmful event e = ( q ∗ , y ∗ , R ∗ ) e=(q^{*},y^{*},R^{*}) , the framework performs post-hoc auditing over the memory store. It combines two complementary signals: CMIS, which measures the causal contribution of retrieved memories through counterfactual replay, and MCG, which identifies structurally anomalous memories in the global memory graph. The two signals are fused into a detoxification score for ranking suspicious memories. After removing the top-ranked memories, the agent becomes safer while preserving useful memory.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23668v1",
+      "title": "OnePred: Next-Query Prediction via Recursive Intent Memory in Multi-Turn Conversations",
+      "authors": [
+        "Jiangwang Chen",
+        "Bowen Zhang",
+        "Zixin Song",
+        "Jiazheng Kang",
+        "Xiao Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "OnePred addresses the limitation of reactive LLM conversational systems by proposing a novel method for next-query prediction. Its core method, \"recursive intent memory,\" efficiently tracks the user's evolving intent across a conversation without needing to process the full dialogue history. This allows for proactive interaction by anticipating the user's next query with a constant per-turn computational cost, overcoming the efficiency-quality trade-off of existing approaches.",
+      "url": "http://arxiv.org/abs/2605.23668v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23668v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23668v1/Figures/onepred-data.png",
+      "figure_caption": "Overview of the NQP-Bench construction pipeline. The process integrates heuristic filtering, a two-stage LLM cascade for rigorous predictability screening, and a retroactive truncation mining strategy to salvage high-quality conversation prefixes from the DROP pool.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23883v1",
+      "title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs",
+      "authors": [
+        "Rim Assouel",
+        "Amir Bar",
+        "Michal Drozdzal",
+        "Adriana Romero-Soriano"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces Procedurally Generated Tasks (PGT), a data-driven framework that enhances visual grounding in Multimodal Large Language Models (MLLMs). PGT overlays geometric primitives on images to create dense supervision, disentangling visual understanding from semantic knowledge. This method significantly improves performance on fine-grained tasks and serves as a diagnostic tool for identifying perception failures.",
+      "url": "http://arxiv.org/abs/2605.23883v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23883v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23883v1/x1.png",
+      "figure_caption": "Overview of PGT. Top : The construction of our procedurally generated data to augment instruction tuning training datasets. Abstract geometric primitives are overlaid to training data, when available. Bottom : (Left) Examples of failure modes in fine-grained relational and spatial understanding of state-of-the-art MLLMs. In the first example the model can rely on the fact that a bowl is usually on a table and in the second example it can rely on the shortcut where object higher up as usually further from the camera (Right) PGT performance boosts in relational, quantitative, and 3D/depth understanding over the baseline when using different instruction tuning dataset sizes.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23904v1",
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "authors": [
+        "Yifan Yang",
+        "Ziyang Gong",
+        "Weiquan Huang",
+        "Qihao Yang",
+        "Ziwei Zhou"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "SkillOpt treats agent skills as trainable external states, optimizing them with the same rigor as deep learning weights. Its core method involves a separate optimizer model that makes bounded edits to a skill document, accepting only those that strictly improve performance. This approach offers the first systematic, controllable text-space optimization for agent skills, leading to reliable improvement without increasing inference cost.",
+      "url": "http://arxiv.org/abs/2605.23904v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23904v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23904v1/x2.png",
+      "figure_caption": "Overview of SkillOpt . The target model executes tasks with a current skill, an additional frontier optimizer model converts trajectories into bounded add/delete/replace skill edits, and a held-out gate accepts only edits that improve validation performance. Accepted edits are exported as a reusable skill artifact, while rejected edits become negative feedback for later updates.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23751v1",
+      "title": "Approaching I/O-optimality for Approximate Attention",
+      "authors": [
+        "Pál András Papp",
+        "Aleksandros Sobczyk",
+        "Anastasios Zouzias"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper presents an I/O-efficient algorithm for computing attention in large language models, significantly reducing data transfers compared to existing methods. By adapting approximate attention techniques, their approach achieves an almost-linear I/O cost with respect to the input size, approaching theoretical optimality.",
+      "url": "http://arxiv.org/abs/2605.23751v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23751v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.23650v1",
+      "title": "Learning Kernel-Based MDPs from Episodic Preferential Feedback",
+      "authors": [
+        "Nikola Pavlovic",
+        "Sattar Vakili",
+        "Qing Zhao"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper develops a theoretical framework for learning Markov Decision Processes (MDPs) with kernel-based reward and transition functions using only episodic preferential feedback. The core method involves estimating values and confidence sets from binary preference labels between policy trajectories, modeled by a Bradley-Terry-Luce link. The key contribution is proving sublinear regret bounds, demonstrating that this preference-based approach can effectively learn optimal policies from human-like feedback.",
+      "url": "http://arxiv.org/abs/2605.23650v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23650v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.23753v1",
+      "title": "SeedER: Seed-and-Expand Retrieval from Knowledge Graphs",
+      "authors": [
+        "Hamed Shirzad",
+        "Frederik Wenkel",
+        "Dominique Beaini",
+        "Danica J. Sutherland",
+        "Emmanuel Noutahi"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "SeedER tackles knowledge graph retrieval by first identifying a small set of relevant \"seed\" nodes using efficient methods. It then iteratively expands this set using a learned policy that prioritizes low-cost, graph-aware steps, effectively decomposing complex queries into manageable local decisions. This approach efficiently discovers query-relevant information while controlling computational expense, overcoming limitations of purely dense retrieval for multi-hop queries.",
+      "url": "http://arxiv.org/abs/2605.23753v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23753v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.23857v1",
+      "title": "Strong Teacher Not Needed? On Distillation in LLM Pretraining",
+      "authors": [
+        "Taiming Lu",
+        "Zhuang Liu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates knowledge distillation in LLM pretraining, challenging the assumption that a stronger teacher is always necessary. They demonstrate that even smaller, undertrained teachers can significantly benefit larger students when distillation loss is properly mixed with language modeling loss. Furthermore, excessively strong teachers can lead to diminishing or even negative distillation gains, and distillation primarily enhances generalization rather than in-domain fitting.",
+      "url": "http://arxiv.org/abs/2605.23857v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23857v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.23651v1",
+      "title": "How Human-Like Are Large Language Models? A Register-Aware Linguistic Evaluation Framework",
+      "authors": [
+        "Björn Nieth",
+        "Marianna Gracheva",
+        "Michaela Mahlberg",
+        "Bjoern Eskofier",
+        "Emmanuelle Salin"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a novel framework for evaluating the linguistic human-likeness of Large Language Models (LLMs). It moves beyond factual correctness to assess if LLM-generated text adheres to context-dependent linguistic patterns observed in human language. The core method uses a statistical test (MMD) to compare feature distributions between human and LLM corpora, contributing a more nuanced understanding of LLM text quality.",
+      "url": "http://arxiv.org/abs/2605.23651v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23651v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23651v1/x1.png",
+      "figure_caption": "Overview of the proposed evaluation framework. Given a specific Register r r , we collect a human and LLM-generated corpus. Then we extract a set of 67 linguistic features from the texts. Finally, we calculate the distance between the human sample and the synthetic corpus and resample the distance between human samples as a baseline.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2605.23657v1",
+      "title": "OpenSkillEval: Automatically Auditing the Open Skill Ecosystem for LLM Agents",
+      "authors": [
+        "Jiahao Ying",
+        "Boxian Ai",
+        "Wei Tang",
+        "Siyuan Liu",
+        "Yixin Cao"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces OpenSkillEval, an automatic framework for evaluating LLM agents and the skills they use. It addresses the growing need to understand how LLMs interact with skills and how to assess skill quality and select them effectively. OpenSkillEval achieves this by automatically generating realistic task instances from real-world artifacts and organizing community-contributed skills for controlled comparison.",
+      "url": "http://arxiv.org/abs/2605.23657v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23657v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.23657v1/x1.png",
+      "figure_caption": "Overview of the OpenSkillEval framework. The framework supports automatic test case generation for five core task categories by reflecting evolving user needs. It further enables automatic evaluation from two complementary perspectives: (1) analysis of model trajectory traces to study how skills are used within skill-augmented agent systems, and (2) assessment of the quality of the final artifacts produced under skill augmentation.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.23897v1",
+      "title": "ETCHR: Editing To Clarify and Harness Reasoning",
+      "authors": [
+        "Beichen Zhang",
+        "Yuhong Liu",
+        "Jinsong Li",
+        "Yuhang Zang",
+        "Jiaqi Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "ETCHR addresses limitations in multimodal reasoning by decoupling an image editing model from a language understanding model. Its core method involves a question-conditioned, reasoning-aware image editor that can perform visual transformations to clarify reasoning steps, overcoming the limitations of fixed toolkits or noisy unified methods. This approach enables more accurate and deeper visual reasoning by bridging the gap between abstract questions and concrete visual edits.",
+      "url": "http://arxiv.org/abs/2605.23897v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23897v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.23897v1/x1.png",
+      "figure_caption": "ETCHR vs. prior “think with images” paradigms. (a) Tool-based methods emit action tokens to a renderer, limiting edits to low-level operations and requiring VLM fine-tuning. (b) Unified models share one backbone for text and images, weakening both and producing noisy intermediates. (c) ETCHR decouples a question-conditioned editor from the understanding MLLM and adds a verify-and-reason step, enabling plug-and-play use across tasks. (d) Across nine benchmarks, ETCHR (with Qwen3-VL-8B and Kimi K2.5 1T) surpasses tool-based and unified-model baselines.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23694v1",
+      "title": "ChartFI: Benchmarking Faithfulness and Insightfulness of Chart Descriptions from Multimodal Large Language Models",
+      "authors": [
+        "Fen Wang",
+        "Zekai Shao",
+        "Qiman Kang",
+        "Chunran Hu",
+        "Zhixuan Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ChartFI-Bench, a new benchmark for evaluating multimodal large language models' ability to describe charts. It addresses limitations of existing datasets and metrics by focusing on four key dimensions of description quality: factual accuracy, salient feature emphasis, domain-informed guidance, and chart-text complementarity. The contribution is a more comprehensive evaluation framework for chart description generation.",
+      "url": "http://arxiv.org/abs/2605.23694v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23694v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.23694v1/x1.png",
+      "figure_caption": "Overview of the benchmark construction pipeline, consisting of three stages: dataset collection from academic papers, chart filtering with complexity and human review, and description generation with multi-level semantic coverage.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.23780v1",
+      "title": "Beyond Binary Edits Robust Multimodal Knowledge Editing with Adversarial Subspace Alignment",
+      "authors": [
+        "Haoyuan Wang",
+        "Xiaohao Liu",
+        "Jiajie Su",
+        "Jianmao Xiao",
+        "Chaochao Chen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces Latent Adversarial Robustification (LAR) to improve multimodal knowledge editing. LAR generates adversarial variations of input data in the latent space to expose and strengthen fragile semantic regions, enabling more generalizable knowledge updates that extend beyond specific examples. The core contribution is a method that enhances the robustness and generality of multimodal knowledge editing by explicitly addressing semantic equivalence and adversarial perturbations.",
+      "url": "http://arxiv.org/abs/2605.23780v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23780v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23780v1/pic/framework_3.png",
+      "figure_caption": "The overall framework of ASAM, which consists of two key modules. ❶ LAR. Given multimodal inputs, LAR perturbs input embeddings along LLM-guided gradients to generate semantically consistent rephrases. ❷ RCSL. Using these rephrases, RCSL applies SVD-based subspace learning to align editing-layer outputs, enforcing semantic consistency across variants.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23655v1",
+      "title": "CVSearch: Empowering Multimodal LLMs with Cognitive Visual Search for High-Resolution Image Perception",
+      "authors": [
+        "Liupeng Li",
+        "Haoqian Kang",
+        "Zhenyu Lu",
+        "Jinpeng Wang",
+        "Bin Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CV",
+        "cs.MM"
+      ],
+      "abstract": "CVSearch tackles the challenge of high-resolution image perception in multimodal LLMs by dynamically adapting its search strategy. It first attempts an efficient expert-assisted search and, if that fails, employs a novel semantic-aware scanning method that intelligently partitions images into meaningful regions, avoiding fragmentation and improving efficiency. This training-free approach enhances coverage without computational redundancy.",
+      "url": "http://arxiv.org/abs/2605.23655v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23655v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23899v1",
+      "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills",
+      "authors": [
+        "Zisu Huang",
+        "Jingwen Xu",
+        "Yifan Yang",
+        "Ziyang Gong",
+        "Qihao Yang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper systematically studies the full lifecycle of model-generated agent skills, from experience generation to skill extraction and consumption. It introduces a utility-grounded evaluation framework to assess the effectiveness of these skills across diverse domains. The core contribution is a comprehensive analysis revealing that while model-generated skills are generally beneficial, their performance is not always consistent and depends on various factors.",
+      "url": "http://arxiv.org/abs/2605.23899v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23899v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23899v1/x2.png",
+      "figure_caption": "Overview of our study design. We evaluate the full trajectory-to-skill lifecycle across three stages: experience generation, skill extraction, and skill consumption.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23867v1",
+      "title": "Human Decision-Making with Persuasive and Narrative LLM Explanations",
+      "authors": [
+        "Laura R. Marusich",
+        "Mary Grace Kozuch Dhooghe",
+        "Jonathan Z. Bakdash",
+        "Murat Kantarcioglu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "abstract": "This paper investigates how persuasive narrative explanations from LLMs affect human decision-making in classification tasks. Through a large-scale experiment, the researchers found that the persuasiveness of LLM explanations did not significantly improve decision accuracy compared to a simple AI prediction. However, narratives did increase reliance on the AI's output.",
+      "url": "http://arxiv.org/abs/2605.23867v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23867v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23867v1/fig2a_confirmatory_plots.jpg",
+      "figure_caption": "Left: Average participant accuracy across the two dataset conditions and four explanation conditions. Center: Average participant reliance rate across the two dataset conditions and four explanation conditions. Right: Predicted effects (level 2/overall results of multilevel model) of confidence ratings and dataset upon accuracy. Steeper, positively-sloped lines indicate better confidence calibration. Across all plots, error bars and shaded areas represent 95% confidence intervals.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23825v1",
+      "title": "It's the humans, not the data: Geopolitical bias in LLMs originates in post-training, amplified by the language of the prompt",
+      "authors": [
+        "Stuart Bladon",
+        "Brinnae Bent"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper demonstrates that geopolitical bias in LLMs primarily arises during the post-training (fine-tuning) phase, not from the initial training data. The researchers found that models often develop a bias favoring the country of their developer after fine-tuning, and this bias is amplified by the language of the prompt.",
+      "url": "http://arxiv.org/abs/2605.23825v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23825v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23825v1/main_figure.png",
+      "figure_caption": "Overview, seven families. (A) Per-country preference base → \\( \\to \\) post-trained; for the six non-GLM bases, cross-country spread \\( \\sigma \\) grows post-training (Qwen 3.9 → 30.3 3.9\\( \\to \\) 30.3 pp). (B) Post-training \\( \\Delta \\) in China-favourability (EN, coherent subset). 3/3 Western labs shift anti-China; 3/4 Chinese labs shift pro-China; Yi shifts anti-China after prefill correction. GLM is shown with its (atypical) base preserved for completeness; see § Bias Is Created by Post-Training, Not Pretraining . The legend’s low-compliance encoding is described in § What MCQ Compliance Tells Us About Validity . (C) ZH − - EN shift on post-trained models: 5/7 descriptively pro-China but population-level claim is not statistically separable from the base trend (§ Linguistic Identity Modulates the Post-Training Bias ).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23861v1",
+      "title": "Leveraging Foundation Models for Causal Generative Modeling",
+      "authors": [
+        "Aneesh Komanduri",
+        "Xintao Wu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces FM-CGM, a modular framework that leverages pretrained foundation models for visual causal reasoning. Its core method involves a three-component pipeline (concept extractor, manipulator, and generator) that enables zero-shot causal discovery, intervention, and counterfactual generation. The key contribution is the development of Causal Semantic Guidance (CSG), a mechanism that ensures semantic interventions propagate correctly through the causal graph.",
+      "url": "http://arxiv.org/abs/2605.23861v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23861v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23861v1/x1.png",
+      "figure_caption": "Figure 1 . An overview of Foundation Model Powered Causal Generative Model (FM-CGM) consisting of a concept extractor, concept manipulator, and counterfactual generator enabled by foundation models",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23901v1",
+      "title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
+      "authors": [
+        "Xu Ouyang",
+        "Deyi Liu",
+        "Yuhang Cai",
+        "Jing Liu",
+        "Yuan Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.IT"
+      ],
+      "abstract": "This paper proposes the Shannon Scaling Law, modeling LLM training as information transmission over a noisy channel. By relating model parameters to bandwidth and training data to signal power, it explains non-monotonic performance changes like overtraining and quantization degradation. The core contribution is a theoretical framework that predicts a fundamental Shannon capacity for LLMs, where insufficient signal-to-noise ratio leads to performance deterioration.",
+      "url": "http://arxiv.org/abs/2605.23901v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23901v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23901v1/x1.png",
+      "figure_caption": "Loss landscapes between Pretraining and downstream SFT. While pretraining exhibits monotonic improvement, SFT reveals a loss basin, indicating that scaling either model size or token count beyond a critical threshold leads to performance degradation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23723v1",
+      "title": "MemAudit: Post-hoc Auditing of Poisoned Agent Memory via Causal Attribution and Structural Anomaly Detection",
+      "authors": [
+        "Zhewen Tan",
+        "Yilun Yao",
+        "Huiyan Jin",
+        "Wenhan Yu",
+        "Guoan Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "MemAudit is a post-hoc framework designed to identify and audit malicious memories injected into LLM agents. It uses causal attribution to measure how each memory influences harmful outputs and structural anomaly detection to pinpoint inconsistent memory entries. This allows for the identification of poisoned memories after an attack has occurred, addressing a gap in existing online defense mechanisms.",
+      "url": "http://arxiv.org/abs/2605.23723v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23723v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23723v1/x1.png",
+      "figure_caption": "Overview of MemAudit. Given a harmful event e = ( q ∗ , y ∗ , R ∗ ) e=(q^{*},y^{*},R^{*}) , the framework performs post-hoc auditing over the memory store. It combines two complementary signals: CMIS, which measures the causal contribution of retrieved memories through counterfactual replay, and MCG, which identifies structurally anomalous memories in the global memory graph. The two signals are fused into a detoxification score for ranking suspicious memories. After removing the top-ranked memories, the agent becomes safer while preserving useful memory.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23668v1",
+      "title": "OnePred: Next-Query Prediction via Recursive Intent Memory in Multi-Turn Conversations",
+      "authors": [
+        "Jiangwang Chen",
+        "Bowen Zhang",
+        "Zixin Song",
+        "Jiazheng Kang",
+        "Xiao Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "OnePred addresses the limitation of reactive LLM conversational systems by proposing a novel method for next-query prediction. Its core method, \"recursive intent memory,\" efficiently tracks the user's evolving intent across a conversation without needing to process the full dialogue history. This allows for proactive interaction by anticipating the user's next query with a constant per-turn computational cost, overcoming the efficiency-quality trade-off of existing approaches.",
+      "url": "http://arxiv.org/abs/2605.23668v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23668v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23668v1/Figures/onepred-data.png",
+      "figure_caption": "Overview of the NQP-Bench construction pipeline. The process integrates heuristic filtering, a two-stage LLM cascade for rigorous predictability screening, and a retroactive truncation mining strategy to salvage high-quality conversation prefixes from the DROP pool.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23883v1",
+      "title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs",
+      "authors": [
+        "Rim Assouel",
+        "Amir Bar",
+        "Michal Drozdzal",
+        "Adriana Romero-Soriano"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces Procedurally Generated Tasks (PGT), a data-driven framework that enhances visual grounding in Multimodal Large Language Models (MLLMs). PGT overlays geometric primitives on images to create dense supervision, disentangling visual understanding from semantic knowledge. This method significantly improves performance on fine-grained tasks and serves as a diagnostic tool for identifying perception failures.",
+      "url": "http://arxiv.org/abs/2605.23883v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23883v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23883v1/x1.png",
+      "figure_caption": "Overview of PGT. Top : The construction of our procedurally generated data to augment instruction tuning training datasets. Abstract geometric primitives are overlaid to training data, when available. Bottom : (Left) Examples of failure modes in fine-grained relational and spatial understanding of state-of-the-art MLLMs. In the first example the model can rely on the fact that a bowl is usually on a table and in the second example it can rely on the shortcut where object higher up as usually further from the camera (Right) PGT performance boosts in relational, quantitative, and 3D/depth understanding over the baseline when using different instruction tuning dataset sizes.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23904v1",
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "authors": [
+        "Yifan Yang",
+        "Ziyang Gong",
+        "Weiquan Huang",
+        "Qihao Yang",
+        "Ziwei Zhou"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "SkillOpt treats agent skills as trainable external states, optimizing them with the same rigor as deep learning weights. Its core method involves a separate optimizer model that makes bounded edits to a skill document, accepting only those that strictly improve performance. This approach offers the first systematic, controllable text-space optimization for agent skills, leading to reliable improvement without increasing inference cost.",
+      "url": "http://arxiv.org/abs/2605.23904v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23904v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23904v1/x2.png",
+      "figure_caption": "Overview of SkillOpt . The target model executes tasks with a current skill, an additional frontier optimizer model converts trajectories into bounded add/delete/replace skill edits, and a held-out gate accepts only edits that improve validation performance. Accepted edits are exported as a reusable skill artifact, while rejected edits become negative feedback for later updates.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.23751v1",
+      "title": "Approaching I/O-optimality for Approximate Attention",
+      "authors": [
+        "Pál András Papp",
+        "Aleksandros Sobczyk",
+        "Anastasios Zouzias"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper presents an I/O-efficient algorithm for computing attention in large language models, significantly reducing data transfers compared to existing methods. By adapting approximate attention techniques, their approach achieves an almost-linear I/O cost with respect to the input size, approaching theoretical optimality.",
+      "url": "http://arxiv.org/abs/2605.23751v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23751v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.23650v1",
+      "title": "Learning Kernel-Based MDPs from Episodic Preferential Feedback",
+      "authors": [
+        "Nikola Pavlovic",
+        "Sattar Vakili",
+        "Qing Zhao"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper develops a theoretical framework for learning Markov Decision Processes (MDPs) with kernel-based reward and transition functions using only episodic preferential feedback. The core method involves estimating values and confidence sets from binary preference labels between policy trajectories, modeled by a Bradley-Terry-Luce link. The key contribution is proving sublinear regret bounds, demonstrating that this preference-based approach can effectively learn optimal policies from human-like feedback.",
+      "url": "http://arxiv.org/abs/2605.23650v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23650v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.23753v1",
+      "title": "SeedER: Seed-and-Expand Retrieval from Knowledge Graphs",
+      "authors": [
+        "Hamed Shirzad",
+        "Frederik Wenkel",
+        "Dominique Beaini",
+        "Danica J. Sutherland",
+        "Emmanuel Noutahi"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "SeedER tackles knowledge graph retrieval by first identifying a small set of relevant \"seed\" nodes using efficient methods. It then iteratively expands this set using a learned policy that prioritizes low-cost, graph-aware steps, effectively decomposing complex queries into manageable local decisions. This approach efficiently discovers query-relevant information while controlling computational expense, overcoming limitations of purely dense retrieval for multi-hop queries.",
+      "url": "http://arxiv.org/abs/2605.23753v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23753v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.23857v1",
+      "title": "Strong Teacher Not Needed? On Distillation in LLM Pretraining",
+      "authors": [
+        "Taiming Lu",
+        "Zhuang Liu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates knowledge distillation in LLM pretraining, challenging the assumption that a stronger teacher is always necessary. They demonstrate that even smaller, undertrained teachers can significantly benefit larger students when distillation loss is properly mixed with language modeling loss. Furthermore, excessively strong teachers can lead to diminishing or even negative distillation gains, and distillation primarily enhances generalization rather than in-domain fitting.",
+      "url": "http://arxiv.org/abs/2605.23857v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23857v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.23651v1",
+      "title": "How Human-Like Are Large Language Models? A Register-Aware Linguistic Evaluation Framework",
+      "authors": [
+        "Björn Nieth",
+        "Marianna Gracheva",
+        "Michaela Mahlberg",
+        "Bjoern Eskofier",
+        "Emmanuelle Salin"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a novel framework for evaluating the linguistic human-likeness of Large Language Models (LLMs). It moves beyond factual correctness to assess if LLM-generated text adheres to context-dependent linguistic patterns observed in human language. The core method uses a statistical test (MMD) to compare feature distributions between human and LLM corpora, contributing a more nuanced understanding of LLM text quality.",
+      "url": "http://arxiv.org/abs/2605.23651v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23651v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.23651v1/x1.png",
+      "figure_caption": "Overview of the proposed evaluation framework. Given a specific Register r r , we collect a human and LLM-generated corpus. Then we extract a set of 67 linguistic features from the texts. Finally, we calculate the distance between the human sample and the synthetic corpus and resample the distance between human samples as a baseline.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Eric and Wendy Schmidt AI in Science Postdoctoral Fellows, a Program of Schmidt Sciences (Research Associate)",
+      "url": "https://www.jobs.ac.uk/job/DRP014/eric-and-wendy-schmidt-ai-in-science-postdoctoral-fellows-a-program-of-schmidt-sciences-research-associate/",
+      "description": "About the role : Applications are invited for prestigious Eric and Wendy Schmidt AI in Science Fellowships, a program of Schmidt Sciences, commencing 01 September 2027, with a duration of 2 years. The fellowship MUST start on or before 01 September 2027 as the grant funding ends on 31 August 2029. What you would be doing : The Eric and Wendy Schmidt AI in Science Fellows will produce independent and original research, using AI to advance science within their host department and the I-X Centre for AI in Science. These fellowships have the aim of identifying excellent researchers and accelerating them in using AI to advance and disrupt Science or Engineering. Here ‘AI’ is interpreted very broadly, e.g.: topics in Bayesian Inference and Robotics; ‘Science’ covers any typical topic in Natural Science and Engineering (Epidemiology, Biology and basic science in biomedicine are included but clinical medical themes are not covered, including conventional medical imaging). Examples include Bayesian optimization for molecular or materials design; machine learning for single cell data; physics-based ML for turbine design and astrostatistics. This post is not suitable for generic AI research with general application: candidates must be aiming to substantially advance a particular area of science. Applicants could view themselves as AI researchers tackling particular pieces of science or science researchers using AI to transform their area. Extensive AI knowledge is not required, and AI training is offered as discussed by one of our alumni here. What we are looking for : Candidates will: Hold, or be near completion of, a PhD (or equivalent) in an appropriate discipline. Have the potential for leadership qualities in the subject, as illustrated, for example, through showing initiative on research projects. Have an outstanding research record commensurate with their level of experience as demonstrated, for example, through an outstanding thesis, publications, conference presentations, code etc. Have a proposal which is within the AI in Science research remit and skills which fit the cohort of AI in Science fellows. What we can offer you : You will join the Eric and Wendy Schmidt Network of researchers and will join a unique co-located cohort of top scholars based in the I-X Centre for AI in Science with tailored training and one-on-one career development. The fellowships are flexible and independent, allowing recipients to freely explore while drawing on expert faculty mentors of their choice. We have a programme of additional support for women in AI in Science including a coaching circle for women in AI, additional funds for their career development and a community of I-X AI in Science women. The I-X Women in Artificial Intelligence ( IXWAI ) founded by two of our current Fellows aims to enhance representation of women in AI and foster an environment where they are valued, supported and inspired to achieve their full potential. We expect to appoint at least one candidate through this route. This is a full time, fixed term position for 2 years. You will be based at White City Campus. Candidates who have not yet been officially awarded their PhD will be appointed as a Research Assistant. If you have any queries about this opportunity, please contact Eileen Boyce at e.boyce@imperial.ac.uk Further information about the I-X Centre for AI in Science can be found at AI in Science Fellowships | Research groups | Imperial College London which includes an introductory video. If candidates want to also be considered at the Research Fellow level, then they need to send in an additional application for that role (the documents submitted can be repeated). Further Information In addition to completing the online application, candidates should, after carefully consulting the Job Description, FAQ and related documents , upload the following documents: A full CV including publications. An additional single file with: Publication Elaboration: a 1 page, or less, note outlining the contribution of up to three papers by the applicant suitable for a general scientific reader. Research Proposal Summary: a 1 page or less, summary of the proposed research suitable for a general scientific audience. Particular attention will be paid to this summary. It should answer the question of why/how this application of AI will be transformative for the target area of science. The proposal should start by mentioning, the applicant’s proposed department and at least one mentor who has agreed to support the application – one mentor should be within the fellow’s proposed department, but others could be outside. Mentors must be contacted in advance of the application. It is not essential that the mentor be a very close fit to the proposed research, entirely independent research efforts are welcomed, but a collaborative mentorship is likely to make the science more credible. Research Proposal: a 3 pages or less proposal that explains why and how the proposed research could be transformative for a particular area of science. It can be structured around background, a small number of hypotheses/aims, and work packages. It can be assumed that the reader will first read the Summary and so content need not be repeated. Training Plan: a ½ page or less plan, identifying any particular skills that need to be acquired for the proposed research to succeed. Training is a key part of the proposed fellowship, whether helping an AI expert master a scientific topic or a scientific topic expert advance their AI skills. Deep expertise in AI (or the particular Science area) is not a pre-requisite: the minimum level of AI/Science experience is that needed to credibly articulate a plan for how AI will advance Science. Fit to AI in Science Remit: a ¼ page or less outline of how your proposal fits within the AI in Science remit – please check your proposal’s fit here . Kindness Statement: a ¼ page or less outline of your view on the need for kindness among scientists. The fellows will join a cohort of fellows in AI for Science with opportunities for outreach and LMIC engagement. Mobility Statement (for applicants currently at Imperial only): Schmidt Sciences seeks to enable national and international mobility: candidates from outside Imperial are particularly encouraged to apply. Candidates that are already in Imperial are asked to supply several sentences in their mobility statement outlining, in a distinctive and compelling manner, how remaining in Imperial is the best route for their personal growth. Applicants from Imperial are required to move from their existing supervisor to entirely new mentors for their Schmidt Fellowship, to increase both their independence and their breadth of experience (existing mentors cannot become secondary mentors). Joint Fellowship We have partnered with the Institute of Cancer Research (ICR) and the CNRS. If you are applying for a joint fellowship, we require that the principal mentor be in Imperial, but a secondary supervisor must be at ICR/CNRS. Please indicate if this is a joint fellowship by ticking the appropriate ICR/CNRS tick box in the online application form. Please note that these applications will require an institutional letter of support and ICR and CNRS will have their own internal process with a deadline ahead of the closing date below. The ICR deadline will be Monday 29 th June at 9am . You must contact Becky Cook ( rebecca.cook@icr.ac.uk ) at ICR and Carl Iamov carl.ialamov@cnrs.fr and/or Louis Avigdor louis.avigdor@cnrs-dir.fr at CNRS to confirm these internal processes and deadlines. £55,144 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk Research",
+      "deadline": "2026-07-23T00:00:00+00:00",
+      "requirements": "Research Area: AI in Science and Engineering, broadly interpreted to include Bayesian Inference, Robotics, Natural Science, and Engineering (e.g., Epidemiology, Biology, basic biomedicine, molecular/materials design, single cell data, physics-based ML for turbine design, astrostatistics). Excludes clinical medical themes and conventional medical imaging.\nKey Requirements: PhD (or equivalent) in an appropriate discipline, or near completion. Potential for leadership qualities. Aim to substantially advance a particular area of science using AI.\nApplication Info: Deadline: 2026-07-23. Start Date: On or before 2027-09-01. Required materials: N/A. Contact: N/A.\nPosition Details: Location: London, England, United Kingdom. Contract Type: Fixed-Term/Contract (2 years). Workload: Full Time. Salary: GBP55144.00 YEAR.\nOne-line Advice: CVs should highlight specific scientific domain advancement using AI; medical imaging and LLM applicants should ensure their work directly addresses a specific scientific problem beyond general AI research.",
+      "relevance_score": 9.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP55144.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "23rd May 2026",
+      "job_ref": "ENG03868"
+    },
+    {
+      "title": "HRS2026/232 INGENIERO INVESTIGADOR EN NEUROTECNOLOGÍA/ NEUROTECHNOLOGY RESEARCH ENGINEER",
+      "url": "https://euraxess.ec.europa.eu/jobs/439295",
+      "description": "- Diseño de modelos para la monitorización del estado cognitivo de los pilotos en condiciones reales/simuladas, así como la arquitectura de soporte y los parámetros operativos para un sistema de monitorización neurofisiológica.-Diseño de sistemas brain-computer interface para comunicación multimodal... * Department: HRS4R Work Locations: Number of offers: 1, Spain, E.T.S.I. TELECOMUNICACIÓN, Madrid, 28040, Madrid, Avenida Complutense, 30 Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Biomedical engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A168) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 5 Jun 2026 - 23:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Portugal * [Instituto de Telecomunicações](https://euraxess.ec.europa.eu/partnering/organisations/profile/instituto-de-telecomunicacoes-2) * [Field: Engineering]",
+      "institution": "",
+      "posted_date": "25 May 2026",
+      "deadline": "5 Jun 2026 - 23:00 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Neurotechnology, Biomedical Engineering, Cognitive State Monitoring, Brain-Computer Interfaces\nKey Requirements: Design of models for monitoring pilot cognitive state, neurophysiological monitoring system architecture, multimodal communication brain-computer interfaces.\nApplication Info: Deadline: 5 Jun 2026 - 23:00 (Europe/Madrid). Required materials and contact information are not specified.\nPosition Details: Location: Madrid, Spain. Contract type, workload, and salary are not specified.\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Eric and Wendy Schmidt AI in Science Postdoctoral Fellows, a Program of Schmidt Sciences (Research Associate)",
+      "url": "https://www.jobs.ac.uk/job/DRP014/eric-and-wendy-schmidt-ai-in-science-postdoctoral-fellows-a-program-of-schmidt-sciences-research-associate/",
+      "description": "About the role : Applications are invited for prestigious Eric and Wendy Schmidt AI in Science Fellowships, a program of Schmidt Sciences, commencing 01 September 2027, with a duration of 2 years. The fellowship MUST start on or before 01 September 2027 as the grant funding ends on 31 August 2029. What you would be doing : The Eric and Wendy Schmidt AI in Science Fellows will produce independent and original research, using AI to advance science within their host department and the I-X Centre for AI in Science. These fellowships have the aim of identifying excellent researchers and accelerating them in using AI to advance and disrupt Science or Engineering. Here ‘AI’ is interpreted very broadly, e.g.: topics in Bayesian Inference and Robotics; ‘Science’ covers any typical topic in Natural Science and Engineering (Epidemiology, Biology and basic science in biomedicine are included but clinical medical themes are not covered, including conventional medical imaging). Examples include Bayesian optimization for molecular or materials design; machine learning for single cell data; physics-based ML for turbine design and astrostatistics. This post is not suitable for generic AI research with general application: candidates must be aiming to substantially advance a particular area of science. Applicants could view themselves as AI researchers tackling particular pieces of science or science researchers using AI to transform their area. Extensive AI knowledge is not required, and AI training is offered as discussed by one of our alumni here. What we are looking for : Candidates will: Hold, or be near completion of, a PhD (or equivalent) in an appropriate discipline. Have the potential for leadership qualities in the subject, as illustrated, for example, through showing initiative on research projects. Have an outstanding research record commensurate with their level of experience as demonstrated, for example, through an outstanding thesis, publications, conference presentations, code etc. Have a proposal which is within the AI in Science research remit and skills which fit the cohort of AI in Science fellows. What we can offer you : You will join the Eric and Wendy Schmidt Network of researchers and will join a unique co-located cohort of top scholars based in the I-X Centre for AI in Science with tailored training and one-on-one career development. The fellowships are flexible and independent, allowing recipients to freely explore while drawing on expert faculty mentors of their choice. We have a programme of additional support for women in AI in Science including a coaching circle for women in AI, additional funds for their career development and a community of I-X AI in Science women. The I-X Women in Artificial Intelligence ( IXWAI ) founded by two of our current Fellows aims to enhance representation of women in AI and foster an environment where they are valued, supported and inspired to achieve their full potential. We expect to appoint at least one candidate through this route. This is a full time, fixed term position for 2 years. You will be based at White City Campus. Candidates who have not yet been officially awarded their PhD will be appointed as a Research Assistant. If you have any queries about this opportunity, please contact Eileen Boyce at e.boyce@imperial.ac.uk Further information about the I-X Centre for AI in Science can be found at AI in Science Fellowships | Research groups | Imperial College London which includes an introductory video. If candidates want to also be considered at the Research Fellow level, then they need to send in an additional application for that role (the documents submitted can be repeated). Further Information In addition to completing the online application, candidates should, after carefully consulting the Job Description, FAQ and related documents , upload the following documents: A full CV including publications. An additional single file with: Publication Elaboration: a 1 page, or less, note outlining the contribution of up to three papers by the applicant suitable for a general scientific reader. Research Proposal Summary: a 1 page or less, summary of the proposed research suitable for a general scientific audience. Particular attention will be paid to this summary. It should answer the question of why/how this application of AI will be transformative for the target area of science. The proposal should start by mentioning, the applicant’s proposed department and at least one mentor who has agreed to support the application – one mentor should be within the fellow’s proposed department, but others could be outside. Mentors must be contacted in advance of the application. It is not essential that the mentor be a very close fit to the proposed research, entirely independent research efforts are welcomed, but a collaborative mentorship is likely to make the science more credible. Research Proposal: a 3 pages or less proposal that explains why and how the proposed research could be transformative for a particular area of science. It can be structured around background, a small number of hypotheses/aims, and work packages. It can be assumed that the reader will first read the Summary and so content need not be repeated. Training Plan: a ½ page or less plan, identifying any particular skills that need to be acquired for the proposed research to succeed. Training is a key part of the proposed fellowship, whether helping an AI expert master a scientific topic or a scientific topic expert advance their AI skills. Deep expertise in AI (or the particular Science area) is not a pre-requisite: the minimum level of AI/Science experience is that needed to credibly articulate a plan for how AI will advance Science. Fit to AI in Science Remit: a ¼ page or less outline of how your proposal fits within the AI in Science remit – please check your proposal’s fit here . Kindness Statement: a ¼ page or less outline of your view on the need for kindness among scientists. The fellows will join a cohort of fellows in AI for Science with opportunities for outreach and LMIC engagement. Mobility Statement (for applicants currently at Imperial only): Schmidt Sciences seeks to enable national and international mobility: candidates from outside Imperial are particularly encouraged to apply. Candidates that are already in Imperial are asked to supply several sentences in their mobility statement outlining, in a distinctive and compelling manner, how remaining in Imperial is the best route for their personal growth. Applicants from Imperial are required to move from their existing supervisor to entirely new mentors for their Schmidt Fellowship, to increase both their independence and their breadth of experience (existing mentors cannot become secondary mentors). Joint Fellowship We have partnered with the Institute of Cancer Research (ICR) and the CNRS. If you are applying for a joint fellowship, we require that the principal mentor be in Imperial, but a secondary supervisor must be at ICR/CNRS. Please indicate if this is a joint fellowship by ticking the appropriate ICR/CNRS tick box in the online application form. Please note that these applications will require an institutional letter of support and ICR and CNRS will have their own internal process with a deadline ahead of the closing date below. The ICR deadline will be Monday 29 th June at 9am . You must contact Becky Cook ( rebecca.cook@icr.ac.uk ) at ICR and Carl Iamov carl.ialamov@cnrs.fr and/or Louis Avigdor louis.avigdor@cnrs-dir.fr at CNRS to confirm these internal processes and deadlines. £55,144 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk Research",
+      "deadline": "2026-07-23T00:00:00+00:00",
+      "requirements": "Research Area: AI in Science and Engineering, broadly interpreted to include Bayesian Inference, Robotics, Natural Science, and Engineering (e.g., Epidemiology, Biology, basic biomedicine, molecular/materials design, single cell data, physics-based ML for turbine design, astrostatistics). Excludes clinical medical themes and conventional medical imaging.\nKey Requirements: PhD (or equivalent) in an appropriate discipline, or near completion. Potential for leadership qualities. Aim to substantially advance a particular area of science using AI.\nApplication Info: Deadline: 2026-07-23. Start Date: On or before 2027-09-01. Required materials: N/A. Contact: N/A.\nPosition Details: Location: London, England, United Kingdom. Contract Type: Fixed-Term/Contract (2 years). Workload: Full Time. Salary: GBP55144.00 YEAR.\nOne-line Advice: CVs should highlight specific scientific domain advancement using AI; medical imaging and LLM applicants should ensure their work directly addresses a specific scientific problem beyond general AI research.",
+      "relevance_score": 9.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP55144.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "23rd May 2026",
+      "job_ref": "ENG03868"
+    },
+    {
+      "title": "HRS2026/232 INGENIERO INVESTIGADOR EN NEUROTECNOLOGÍA/ NEUROTECHNOLOGY RESEARCH ENGINEER",
+      "url": "https://euraxess.ec.europa.eu/jobs/439295",
+      "description": "- Diseño de modelos para la monitorización del estado cognitivo de los pilotos en condiciones reales/simuladas, así como la arquitectura de soporte y los parámetros operativos para un sistema de monitorización neurofisiológica.-Diseño de sistemas brain-computer interface para comunicación multimodal... * Department: HRS4R Work Locations: Number of offers: 1, Spain, E.T.S.I. TELECOMUNICACIÓN, Madrid, 28040, Madrid, Avenida Complutense, 30 Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Biomedical engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A168) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 5 Jun 2026 - 23:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Portugal * [Instituto de Telecomunicações](https://euraxess.ec.europa.eu/partnering/organisations/profile/instituto-de-telecomunicacoes-2) * [Field: Engineering]",
+      "institution": "",
+      "posted_date": "25 May 2026",
+      "deadline": "5 Jun 2026 - 23:00 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Neurotechnology, Biomedical Engineering, Cognitive State Monitoring, Brain-Computer Interfaces\nKey Requirements: Design of models for monitoring pilot cognitive state, neurophysiological monitoring system architecture, multimodal communication brain-computer interfaces.\nApplication Info: Deadline: 5 Jun 2026 - 23:00 (Europe/Madrid). Required materials and contact information are not specified.\nPosition Details: Location: Madrid, Spain. Contract type, workload, and salary are not specified.\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
