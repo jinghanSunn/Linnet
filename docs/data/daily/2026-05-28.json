@@ -1,0 +1,1336 @@
+{
+  "date": "2026-05-28",
+  "generated_at": "2026-05-28T12:52:09.814758+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2605.28732v1",
+          "title": "MemTrace: Tracing and Attributing Errors in Large Language Model Memory Systems",
+          "authors": [
+            "Xinle Deng",
+            "Ruobin Zhong",
+            "Hujin Peng",
+            "Xiaoben Lu",
+            "Yanzhe Wu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces MemTrace, a framework for tracing and attributing errors in Large Language Model (LLM) memory systems. It transforms memory pipelines into executable graphs to track information flow and uses an automatic attribution method to pinpoint root causes of failures. The contribution lies in providing a systematic way to debug unreliable LLM memory systems, revealing that failures often stem from operation-level issues.",
+          "url": "http://arxiv.org/abs/2605.28732v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.28732v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.28732v1/x3.png",
+          "figure_caption": "Framework for automatic diagnosis of LLM memory systems. We first execute a memory system to construct an execution graph. Given a failed case, MemTrace performs step-by-step tracing over this graph to locate the faulty operation. This framework is general across different memory systems and enables faster failure attribution than human experts.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.28805v1",
+          "title": "OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration",
+          "authors": [
+            "Xinchen Zhang",
+            "Bowei Liu",
+            "Jiale Liu",
+            "Chufan Shi",
+            "Yizhen Zhang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces OmniVerifier-M1, a multimodal meta-verifier that uses structured outputs like bounding boxes, rather than just text, for feedback. This approach allows for more efficient training of verifiers by enabling rule-based rewards and avoiding reliance on auxiliary models. The core contribution is demonstrating that decoupling binary judgment and meta-verification objectives leads to superior performance in multimodal verification tasks.",
+          "url": "http://arxiv.org/abs/2605.28805v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.28805v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.28805v1/x1.png",
+          "figure_caption": "Pipeline of two key findings. Left: the advantage of symbolic bounding boxes over textual explanations, enabling rule-based rewards to inherently prevent reward hacking and accelerate training. Right: the comparison between joint training and decoupled training.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.28773v1",
+          "title": "Rethinking Memory as Continuously Evolving Connectivity",
+          "authors": [
+            "Jizhan Fang",
+            "Buqiang Xu",
+            "Zhixian Wang",
+            "Haoliang Cao",
+            "Xinle Deng"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.MA",
+            "cs.MM"
+          ],
+          "abstract": "This paper introduces FluxMem, a novel memory framework for LLM agents that treats memory as a dynamic, evolving graph. Instead of static retrieval, FluxMem continuously refines its memory topology based on feedback and experience. This allows agents to adapt to changing environments by repairing, pruning, and consolidating information, leading to state-of-the-art performance across diverse benchmarks.",
+          "url": "http://arxiv.org/abs/2605.28773v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.28773v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.28773v1/figure/motivation.png",
+          "figure_caption": "The failures of static memory systems.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.28740v1",
+          "title": "Reverse Probing: Supervised Token-level Uncertainty Quantification for Large Language Models in Clinical Text",
+          "authors": [
+            "Bushi Xiao",
+            "Sarvesh Soni",
+            "Daisy Zhe Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Reverse Probing, a novel method for quantifying token-level uncertainty in Large Language Models (LLMs) specifically for clinical text summarization. Unlike existing approaches, it directly leverages pre-labeled summaries to estimate uncertainty from internal model activations, treating the text as a probe. This approach significantly outperforms baselines in identifying uncertain tokens, improving reliability for clinical applications while reducing computational costs.",
+          "url": "http://arxiv.org/abs/2605.28740v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.28740v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.28740v1/images/framework.png",
+          "figure_caption": "Overview of the Reverse Probing framework. The BHC and clinical summary are fed into a frozen LLM, which extracts four categories of features from its internal representations. A supervised classifier is then trained to predict token-level uncertainty.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.28774v1",
+          "title": "Agent Explorative Policy Optimization for Multimodal Agentic Reasoning",
+          "authors": [
+            "Minki Kang",
+            "Shizhe Diao",
+            "Ryo Hachiuma",
+            "Sung Ju Hwang",
+            "Pavlo Molchanov"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper addresses the \"Thinking-Acting Gap\" in agentic reasoning, where internal reasoning struggles with external tool use. Their proposed method, AXPO, tackles this by fixing incorrect tool-use prefixes and resampling subsequent actions, guided by uncertainty. This approach significantly improves learning signals and performance across various multimodal benchmarks.",
+          "url": "http://arxiv.org/abs/2605.28774v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.28774v1",
+          "score": 8.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.28807v1",
+          "title": "Calibrating Conservatism for Scalable Oversight",
+          "authors": [
+            "William Overman",
+            "Mohsen Bayati"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces Calibrated Collective Oversight (CCO), a method for scalable oversight of autonomous AI systems. CCO aggregates diverse overseer scores into a penalty that measures deviation from a conservative baseline, allowing high-utility actions unless overseer concern accumulates. Its key contribution is online calibration using Conformal Decision Theory, guaranteeing undesirable outcomes stay below a user-defined threshold with statistical confidence.",
+          "url": "http://arxiv.org/abs/2605.28807v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.28807v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.28807v1/figures/fig1.png",
+          "figure_caption": "Overview of Calibrated Collective Oversight (CCO). Given a state s s , a primary agent either generates candidate actions { a 1 , a 2 , a 3 , … } \\{a_{1},a_{2},a_{3},\\( \\ldots \\)\\} or receives a fixed set from the environment, assigning each a utility score U ​ ( s , a ) U(s,a) reflecting its own preferences; a conservative baseline a o a_{o} (e.g., defer or no-op) is always included. These candidates, which may include actions with hidden vulnerabilities or misaligned objectives, are evaluated by a collection of auxiliary overseers { q 1 , … , q n } \\{q_{1},\\( \\ldots \\),q_{n}\\} , each assessing a different dimension such as scope, safety, or convention adherence. The aggregate penalty Δ ​ ( s , a ) = ∑ i | q i ​ ( s , a ) − q i ​ ( s , a o ) | \\( \\Delta \\)(s,a)=\\( \\sum_{i} \\)|q_{i}(s,a)-q_{i}(s,a_{o})| measures how much each action deviates from the baseline across all oversight signals. CCO selects actions by maximizing U ​ ( s , a ) − λ t ​ Δ ​ ( s , a ) U(s,a)-\\( \\lambda_{t} \\)\\( \\Delta \\)(s,a) , where the conservatism parameter \\( \\lambda_{t} \\) is updated online via a conformal controller: after observing whether the selected action incurred a loss ℓ t \\( \\ell_{t} \\) , the controller adjusts λ t + 1 = λ t + η ​ ( ℓ t − α ) \\( \\lambda_{t+1} \\)=\\( \\lambda_{t} \\)+\\( \\eta \\)(\\( \\ell_{t} \\)-\\( \\alpha \\)) . This feedback loop ensures that realized violation rates converge to the user-specified target \\( \\alpha \\) . In safe situations, CCO relaxes conservatism to permit high-utility actions; in risky situations, it increases conservatism to favor safer alternatives.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.28787v1",
+          "title": "Do Agents Need Semantic Metadata? A Comparative Study in Agentic Data Retrieval",
+          "authors": [
+            "Shiyu Chen",
+            "Tarfah Alrashed",
+            "Alon Halevy",
+            "Natasha Noy"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.IR"
+          ],
+          "abstract": "This paper investigates whether autonomous agents still need semantic metadata for data retrieval in the age of LLMs. It compares an agent searching the open web with one using schema.org-annotated datasets, evaluating their performance against FAIR principles using an LLM-as-a-judge approach. The study's contribution lies in its comparative analysis to determine the necessity of semantic metadata for effective agentic data discovery.",
+          "url": "http://arxiv.org/abs/2605.28787v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.28787v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.28787v1/figures/system_architecture.png",
+          "figure_caption": "Comparative System Architecture. Similar agent logic is evaluated across unstructured Baseline Agent and Semantic Agent dataset search environments. Both feed a unified, FAIR-aligned evaluation of relevance, accessibility, and utility.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.28721v1",
+          "title": "LiveBrowseComp: Are Search Agents Searching, or Just Verifying What They Already Know?",
+          "authors": [
+            "HuiMing Fan",
+            "Xiao Wang",
+            "Zheng Chu",
+            "Qianyu Wang",
+            "Zhuoyao Wang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper investigates whether LLM search agents truly search or just verify their internal knowledge. They introduce three diagnostics to study this, revealing \"Intrinsic Knowledge Dependence\" where agents often rely on pre-existing knowledge over external evidence. To address this, they propose LiveBrowseComp, a new benchmark designed to evaluate agents on evidence-driven discovery rather than memory recall.",
+          "url": "http://arxiv.org/abs/2605.28721v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.28721v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.28721v1/x1.png",
+          "figure_caption": "Overview of LiveBrowseComp. As models iterate, the knowledge required by a static benchmark is gradually absorbed into their parameters, so the effective difficulty of its questions collapses over time. By being constructed from up-to-date knowledge, LiveBrowseComp can effectively mitigate this erosion.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.28722v1",
+          "title": "Multi-Adapter Representation Interventions via Energy Calibration",
+          "authors": [
+            "Manjiang Yu",
+            "Hongji Li",
+            "Junwei Chen",
+            "Xue Li",
+            "Priyanka Singh"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces Multi-Adapter Representation Interventions via Energy Calibration (MARI) to improve large language model alignment. MARI addresses limitations of uniform interventions by using specialized adapters that adaptively determine intervention direction and strength per input. An energy-based gating module further refines this by identifying inputs suitable for intervention, thereby preserving general capabilities.",
+          "url": "http://arxiv.org/abs/2605.28722v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.28722v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.28722v1/x1.png",
+          "figure_caption": "Comparison of intervention results. (1) Alignment Reliability: Static methods (left) rely on a fixed adapter, which leads to unstable performance. In contrast, MARI (right) ensures consistent correctness across diverse inputs. (2) General Capability Preservation: Existing methods intervene indiscriminately, which impairs general capability. MARI overcomes this by employing an energy gate that distinguishes intervention-applicable inputs from benign ones, preserving the model’s general capabilities.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.28710v1",
+          "title": "Towards Reliable Multilingual LLMs-as-a-Judge: An Empirical Study",
+          "authors": [
+            "Irune Zubiaga",
+            "Aitor Soroa",
+            "Rodrigo Agerri"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates how to reliably use Large Language Models (LLMs) as judges for text evaluation in multiple languages, especially for low-resource ones. The core method involves empirically studying different fine-tuning and prompting strategies across English, Spanish, and Basque, considering data availability and model size. The main contribution is identifying key trade-offs, showing that fine-tuned smaller models can be effective with in-domain data, while large models are better for zero-shot multilingual evaluation.",
+          "url": "http://arxiv.org/abs/2605.28710v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.28710v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.28710v1/img/recon_all_langs.png",
+          "figure_caption": "Density plot of predictions against gold labels on the in-domain RECON benchmark. We denote configurations as X → Y X\\( \\rightarrow \\) Y , where X X indicates the training-time language setup and Y Y the evaluation-time language setup. lang refers to fully translated instructions ( es , eu , or multi ), and io_lang refers to partially translated instructions, where only the original instructions and model outputs are translated while the rest is kept in English.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.28760v1",
+          "title": "LLM Zeroth-Order Fine-Tuning is an Inference Workload",
+          "authors": [
+            "Zelin Li",
+            "Caiwen Ding"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper argues that Zeroth-Order (ZO) fine-tuning for LLMs is primarily an inference workload, not a traditional training one. By executing the repeated scoring phase through an inference-optimized runtime (vLLM), they achieve significant speedups (8.13x on OPT-13B SST-2) while maintaining high accuracy, demonstrating a more efficient approach to ZO fine-tuning.",
+          "url": "http://arxiv.org/abs/2605.28760v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.28760v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.28760v1/figures/phase4_wallclock_loss_fullwidth.png",
+          "figure_caption": "OPT-13B SST-2 evaluation versus training time. The vLLM ν = 50 \\( \\nu \\)=50 run is shown alongside the official LoZO full and LoRA-only baselines; it finishes in 30.7 30.7 minutes versus 249.2 249.2 minutes for the official LoZO LoRA-only baseline, an 8.13 × 8.13\\( \\times \\) matched-setting speedup.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.28705v1",
+          "title": "Understanding Generalization and Forgetting in In-Context Continual Learning",
+          "authors": [
+            "Guangyu Li",
+            "Meng Ding",
+            "Lijie Hu"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces the first theoretical framework to understand how Large Language Models (LLMs) perform continual learning within a single prompt, without parameter updates. By analyzing attention mechanisms, it reveals that standard LLMs inherently suffer from inter-task interference, leading to both generalization and forgetting when processing sequential, heterogeneous tasks.",
+          "url": "http://arxiv.org/abs/2605.28705v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.28705v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.28705v1/x1.png",
+          "figure_caption": "Per-Task MSE vs Context Length M.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.28806v1",
+          "title": "Personal Visual Memory from Explicit and Implicit Evidence",
+          "authors": [
+            "Viet Nguyen",
+            "Thao Nguyen",
+            "Vishal M. Patel",
+            "Yuheng Li"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.CV",
+            "cs.IR"
+          ],
+          "abstract": "This paper introduces a new benchmark and method for personal visual memory in AI agents, moving beyond text-centric approaches. The core method, VisualMem, is a hybrid architecture that explicitly models both explicit and implicit visual information from images, alongside text. This allows AI to better recall user-specific facts and entities from visual interactions, leading to improved personalized memory.",
+          "url": "http://arxiv.org/abs/2605.28806v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.28806v1",
+          "score": 7.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.28814v1",
+          "title": "Self-Improving Language Models with Bidirectional Evolutionary Search",
+          "authors": [
+            "Guowei Xu",
+            "Zhenting Qi",
+            "Huangyuan Su",
+            "Weirui Ye",
+            "Himabindu Lakkaraju"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Bidirectional Evolutionary Search (BES) to improve language models. BES overcomes limitations of existing methods by combining forward evolution of candidates with backward decomposition of tasks into subgoals. This approach generates more diverse candidates and provides denser feedback for better model improvement.",
+          "url": "http://arxiv.org/abs/2605.28814v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.28814v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.28814v1/x1.png",
+          "figure_caption": "Comparison of tree search and Bidirectional Evolutionary Search ( BES ). Left: Tree search constructs candidates by sequentially expanding steps. We prove that all such candidates are confined to a narrow entropy shell (Theorem 4.4 a), limiting exploration to a small region of the solution space. Right: BES escapes this shell through evolution operators that recombine parts of different trajectories, with backward search decomposing the problem into verifiable sub-goals that provide dense feedback to guide the forward search toward the final goal. ✓ and × \\( \\boldsymbol{\\times} \\) indicate whether a candidate satisfies or fails the (sub-)goal, respectively.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.28818v1",
+          "title": "VLMs May Not Globally Enhance Human Alignment over LLMs During Natural Reading",
+          "authors": [
+            "Jinzhou Wu",
+            "Zhengwu Ma",
+            "Jixing Li",
+            "Baoping Tang",
+            "Zitong Lu"
+          ],
+          "categories": [
+            "cs.CL",
+            "q-bio.NC"
+          ],
+          "abstract": "This paper investigates whether vision-language models (VLMs) improve human alignment in text processing compared to language-only models (LLMs). By comparing matched LLM and VLM pairs in a text-only setting and evaluating against fMRI and eye-tracking data, they found that multimodal training doesn't universally enhance human alignment during natural reading. The core contribution is demonstrating that language-internal representations are primary for modeling text processing, though VLMs might show selective advantages for visually rich content.",
+          "url": "http://arxiv.org/abs/2605.28818v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.28818v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.28818v1/overall_framework.png",
+          "figure_caption": "Overview of the matched LLM/VLM alignment pipeline. (a) Data acquisition. Participants read sentences from five articles, one at a time, while concurrent eye-tracking and whole-cortex fMRI are recorded. (b) Attention feature extraction. Layer-wise self-attention matrices are extracted from each model, mapped from the token level to the word level, and the strict lower triangle is retained as the feature representation. (c) Model-human alignment. Lower-triangular attention features are used as predictors in ridge regression models targeting vertex-wise fMRI responses and human regressive saccades during natural reading; model alignment is evaluated within pairs as VLM minus LLM. (d) A visual-strength-conditioned analysis tests whether the VLM–LLM alignment difference scales with sentence-level visual semantic content.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 27,
+        "papers_after_llm_filter": 15,
+        "count": 15
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Research Associate in Computer Vision",
+          "url": "https://www.jobs.ac.uk/job/DRR708/research-associate-in-computer-vision/",
+          "description": "Fixed-term for 2 years Location: Wolfson Building, Parks Road, Oxford We are seeking a highly motivated We are seeking a Postdoctoral Research Associate in Computer Vision to join the Visual Geometry Group (Central Oxford), funded by ERC. Reporting to the Principal Investigator, you will help ensure a healthy and vibrant research environment within the Visual Geometry Group. This will involve conducting projects in computer vision research, including the work involved in the collaborations with project partners. Informal enquiries may be addressed to Prof. Christian Rupprecht at christian.rupprecht@cs.ox.ac.uk The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however flexible working can be considered. About Us The University of Oxford is a stimulating work environment, which enjoys an international reputation as a world-class centre of excellence. Our research plays a key role in tackling many global challenges, from reducing our carbon emissions to developing vaccines during a pandemic. The Department of Computer Science at Oxford is renowned for pioneering research and teaching across diverse fields, consistently ranking among the best in the world. Our commitment to innovation drives us to tackle complex technological and societal challenges. What We Offer As an employer, we genuinely care about our employees’ wellbeing, reflected in the range of benefits that we offer including: Excellent contributory pension scheme 38 days annual leave (including public holidays) – pro rata for part time jobs Family leave schemes Cycle loan scheme and discounted public transport The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however remote and flexible working can be considered. Diversity Committed to equality and valuing diversity. Application Process You will be required to upload a supporting statement and an up-to-date CV as part of your online application. Your supporting statement must clearly demonstrate how you meet each of the essential selection criteria listed in the job description. Applications that do not include a supporting statement or CV, or fail to address the criteria in sufficient detail, will not be considered. While we recognise the value of AI tools in assisting with application preparation, submissions that are clearly AI-generated without personalisation or insight will be rejected. It's crucial that your application reflects your own experiences and understanding of the role. The closing date for applications is midday on 26 th June 2026. Interviews are expected to be held in early July. £39,424 to £43,984 per annum inclusive of Oxford University weighting. Grade 07RS",
+          "posted_date": "",
+          "source": "jobs.ac.uk CS",
+          "deadline": "2026-06-26T00:00:00+00:00",
+          "requirements": "Research Area: Computer Vision\nKey Requirements: PhD in Computer Science or related field, strong research record in computer vision.\nApplication Info: deadline: 2026-06-26, required materials: N/A, contact: Prof. Christian Rupprecht at christian.rupprecht@cs.ox.ac.uk\nPosition Details: Oxford, England, United Kingdom, Fixed-Term/Contract (2 years), Full Time, GBP39424.00-GBP43984.00 YEAR\nOne-line Advice: N/A",
+          "relevance_score": 9.0,
+          "institution": "University of Oxford",
+          "location": "Oxford, England, United Kingdom",
+          "salary": "GBP39424.00-GBP43984.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "27th May 2026",
+          "job_ref": "186588"
+        },
+        {
+          "title": "Research Associate in Neural Rendering and Medical Image Reconstruction",
+          "url": "https://www.jobs.ac.uk/job/DRR471/research-associate-in-neural-rendering-and-medical-image-reconstruction/",
+          "description": "Fixed-term for 2 years Location: Wolfson Building, Parks Road, Oxford We are looking for a postdoctoral research associate position is available in the Oxford Machine Learning in Neuroimaging (OMNI) lab at Oxford’s Department of Computer Science. The post-holder will report directly to Professor Ana Namburete and will work within a multidisciplinary team of deep learning researchers, research software engineers, and obstetricians, and will collaborate with Dr João Henriques (Visual Geometry Group, VGG) and Professor Aris Papageorghiou (Nuffield Department of Women’s and Reproductive Health). The project focuses on efficient neural implicit representations and neural rendering methods for volumetric reconstruction from freehand ultrasound sweeps acquired with handheld probes. The overarching goal is to enable near-real-time 3D reconstruction at the bedside, supporting quantitative assessment of fetal brain development in low-resource settings. The post-holder will develop machine learning and neural scene representation methods for reconstructing 3D fetal brain volumes from handheld ultrasound video, and integrate these algorithms into interactive clinical imaging workflows. They will contribute to research at the intersection of 3D computer vision, neural rendering, and medical image analysis. This includes developing scalable 2D-to-3D reconstruction architectures and working with ultrasound acquisition systems to deliver interactive feedback during scanning. Flexible working The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however remote and flexible working can be considered. What We Offer As an employer, we genuinely care about our employees’ wellbeing and this is reflected in the range of benefits that we offer including: An excellent contributory pension scheme 38 days annual leave (pro-rata for part-time roles) A comprehensive range of childcare services Family leave schemes Cycle loan scheme Discounted bus travel and Season Ticket travel loans Membership to a variety of social and sports clubs Diversity Committed to equality and valuing diversity. Application Process You will be required to upload a supporting statement and an up-to-date CV as part of your online application. Your supporting statement must clearly demonstrate how you meet each of the essential selection criteria listed in the job description. Applications that do not include a supporting statement or CV, or fail to address the criteria in sufficient detail, will not be considered. While we recognise the value of AI tools in assisting with application preparation, submissions that are clearly AI-generated without personalisation or insight will be rejected. It's crucial that your application reflects your own experiences and understanding of the role. The closing date for applications is noon on 29 th June 2026. Interviews are expected to be held in July. £39,424 to £43,984 per annum inclusive of Oxford University weighting. Grade 07RS",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "2026-06-29T00:00:00+00:00",
+          "requirements": "Research Area: Neural rendering, neural implicit representations, volumetric reconstruction from freehand ultrasound, 3D computer vision, medical image analysis, machine learning for neuroimaging.\nKey Requirements: Postdoctoral research experience, expertise in machine learning and neural scene representation, experience with 3D computer vision and neural rendering, ability to integrate algorithms into clinical workflows, experience with ultrasound acquisition systems is a plus.\nApplication Info: deadline/start date: 2026-06-29T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: Oxford, England, United Kingdom, contract type: Fixed-Term/Contract (2 years), workload: Full Time, salary: GBP39424.00-GBP43984.00 YEAR\nOne-line Advice: CV should highlight experience in neural rendering, 3D reconstruction, and machine learning applied to medical imaging.",
+          "relevance_score": 10.0,
+          "institution": "University of Oxford",
+          "location": "Oxford, England, United Kingdom",
+          "salary": "GBP39424.00-GBP43984.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "26th May 2026",
+          "job_ref": "186515"
+        },
+        {
+          "title": "Research Associate* in Machine Learning Aided Data Compression and Communication",
+          "url": "https://www.jobs.ac.uk/job/DRR238/research-associate-in-machine-learning-aided-data-compression-and-communication/",
+          "description": "About the role The post is funded by the UKRI AI-Hub INFORMED-AI to explore novel data compression and communication methods building upon information theoretic foundations while exploiting recent advancements in deep learning architectures and training methodologies. This full-time, in-person postdoctoral position is based at Imperial College’s South Kensington Campus in London, UK, and is funded for up to 18 months, starting in July 2026. What you would be doing Key responsibilities include: To take initiatives in the planning of research To undertake original research of international excellence To ensure the validity and reliability of data at all times To maintain accurate and complete records of all findings To write reports for submission to research sponsors To present findings to colleagues and at conferences To submit publications to refereed journals What we are looking for Education: Research Associate: Hold a PhD in mathematics, engineering, or a related topic. Research Assistant: Hold a master’s degree in mathematics, engineering or a related topic and be near completion of a PhD. Experience Practical experience within a research environment and / or publication in relevant and refereed journals Practical experience in a broad range of techniques, including, Optimisation and signal processing methods. Information and coding theory. Communication systems. Design and training of deep neural networks. Implementation of algorithms via computer simulation. Experience with programming in Python or C/C++ Knowledge Knowledge and research experience in one or more of the following areas: information theory, machine learning theory (in particular generative models), communication systems, signal processing, inverse problems, optimization and compression methods. Knowledge of research methods and statistical procedures. Skills and Abilities Ability to conduct a detailed review of recent literature Ability to develop and apply new concepts Creative approach to problem-solving Excellent verbal communication skills and the ability to deal with a wide range of people Excellent written communication skills and the ability to write clearly and succinctly for publication What we can offer you The opportunity to continue your career at a world-leading institution and be part of our mission to continue science for humanity. The opportunity to interact and collaborate with researchers across the INFORMED-AI Hub with regular seminars, training schools, and meetings. Grow your career: gain access to Imperial’s sector-leading dedicated career support for researchers as well as opportunities for promotion and progression. Sector-leading salary and remuneration package (including 39 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further information Please note that job descriptions cannot be exhaustive, and the post-holder may be required to undertake other duties, which are broadly in line with the above key responsibilities. For any specific queries regarding the post please contact Prof Deniz Gunduz (d.gunduz@imperial.ac.uk) *Candidates who have not yet been officially awarded their PhD will be appointed as Research Assistant. £49,017 to £57,582 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "2026-06-11T00:00:00+00:00",
+          "requirements": "Research Area: Machine Learning Aided Data Compression and Communication, Information Theory, Deep Learning Architectures, Communication Systems, Signal Processing, Optimization, Generative Models, Inverse Problems\nKey Requirements: PhD in mathematics, engineering, or related topic; practical experience in a research environment and/or publications; experience in optimization, signal processing, information/coding theory, communication systems, design/training of deep neural networks, algorithm implementation via simulation; programming in Python or C/C++; knowledge in information theory, machine learning theory (generative models), communication systems, signal processing, inverse problems, optimization, and compression methods.\nApplication Info: deadline: 2026-06-11T00:00:00+00:00; start date: July 2026; required materials: N/A; contact: N/A\nPosition Details: location: London, England, United Kingdom; contract type: Fixed-Term/Contract (up to 18 months); workload: Full Time; salary: GBP49017.00-GBP57582.00 YEAR\nOne-line Advice: CVs with strong publication records in information theory, machine learning (especially generative models), and communication systems will be highly relevant.",
+          "relevance_score": 7.0,
+          "institution": "Imperial College London",
+          "location": "London, England, United Kingdom",
+          "salary": "GBP49017.00-GBP57582.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "26th May 2026",
+          "job_ref": "ENG03922"
+        },
+        {
+          "title": "Eric and Wendy Schmidt AI in Science Postdoctoral Fellows, a Program of Schmidt Sciences (Research Associate)",
+          "url": "https://www.jobs.ac.uk/job/DRP014/eric-and-wendy-schmidt-ai-in-science-postdoctoral-fellows-a-program-of-schmidt-sciences-research-associate/",
+          "description": "About the role : Applications are invited for prestigious Eric and Wendy Schmidt AI in Science Fellowships, a program of Schmidt Sciences, commencing 01 September 2027, with a duration of 2 years. The fellowship MUST start on or before 01 September 2027 as the grant funding ends on 31 August 2029. What you would be doing : The Eric and Wendy Schmidt AI in Science Fellows will produce independent and original research, using AI to advance science within their host department and the I-X Centre for AI in Science. These fellowships have the aim of identifying excellent researchers and accelerating them in using AI to advance and disrupt Science or Engineering. Here ‘AI’ is interpreted very broadly, e.g.: topics in Bayesian Inference and Robotics; ‘Science’ covers any typical topic in Natural Science and Engineering (Epidemiology, Biology and basic science in biomedicine are included but clinical medical themes are not covered, including conventional medical imaging). Examples include Bayesian optimization for molecular or materials design; machine learning for single cell data; physics-based ML for turbine design and astrostatistics. This post is not suitable for generic AI research with general application: candidates must be aiming to substantially advance a particular area of science. Applicants could view themselves as AI researchers tackling particular pieces of science or science researchers using AI to transform their area. Extensive AI knowledge is not required, and AI training is offered as discussed by one of our alumni here. What we are looking for : Candidates will: Hold, or be near completion of, a PhD (or equivalent) in an appropriate discipline. Have the potential for leadership qualities in the subject, as illustrated, for example, through showing initiative on research projects. Have an outstanding research record commensurate with their level of experience as demonstrated, for example, through an outstanding thesis, publications, conference presentations, code etc. Have a proposal which is within the AI in Science research remit and skills which fit the cohort of AI in Science fellows. What we can offer you : You will join the Eric and Wendy Schmidt Network of researchers and will join a unique co-located cohort of top scholars based in the I-X Centre for AI in Science with tailored training and one-on-one career development. The fellowships are flexible and independent, allowing recipients to freely explore while drawing on expert faculty mentors of their choice. We have a programme of additional support for women in AI in Science including a coaching circle for women in AI, additional funds for their career development and a community of I-X AI in Science women. The I-X Women in Artificial Intelligence ( IXWAI ) founded by two of our current Fellows aims to enhance representation of women in AI and foster an environment where they are valued, supported and inspired to achieve their full potential. We expect to appoint at least one candidate through this route. This is a full time, fixed term position for 2 years. You will be based at White City Campus. Candidates who have not yet been officially awarded their PhD will be appointed as a Research Assistant. If you have any queries about this opportunity, please contact Eileen Boyce at e.boyce@imperial.ac.uk Further information about the I-X Centre for AI in Science can be found at AI in Science Fellowships | Research groups | Imperial College London which includes an introductory video. If candidates want to also be considered at the Research Fellow level, then they need to send in an additional application for that role (the documents submitted can be repeated). Further Information In addition to completing the online application, candidates should, after carefully consulting the Job Description, FAQ and related documents , upload the following documents: A full CV including publications. An additional single file with: Publication Elaboration: a 1 page, or less, note outlining the contribution of up to three papers by the applicant suitable for a general scientific reader. Research Proposal Summary: a 1 page or less, summary of the proposed research suitable for a general scientific audience. Particular attention will be paid to this summary. It should answer the question of why/how this application of AI will be transformative for the target area of science. The proposal should start by mentioning, the applicant’s proposed department and at least one mentor who has agreed to support the application – one mentor should be within the fellow’s proposed department, but others could be outside. Mentors must be contacted in advance of the application. It is not essential that the mentor be a very close fit to the proposed research, entirely independent research efforts are welcomed, but a collaborative mentorship is likely to make the science more credible. Research Proposal: a 3 pages or less proposal that explains why and how the proposed research could be transformative for a particular area of science. It can be structured around background, a small number of hypotheses/aims, and work packages. It can be assumed that the reader will first read the Summary and so content need not be repeated. Training Plan: a ½ page or less plan, identifying any particular skills that need to be acquired for the proposed research to succeed. Training is a key part of the proposed fellowship, whether helping an AI expert master a scientific topic or a scientific topic expert advance their AI skills. Deep expertise in AI (or the particular Science area) is not a pre-requisite: the minimum level of AI/Science experience is that needed to credibly articulate a plan for how AI will advance Science. Fit to AI in Science Remit: a ¼ page or less outline of how your proposal fits within the AI in Science remit – please check your proposal’s fit here . Kindness Statement: a ¼ page or less outline of your view on the need for kindness among scientists. The fellows will join a cohort of fellows in AI for Science with opportunities for outreach and LMIC engagement. Mobility Statement (for applicants currently at Imperial only): Schmidt Sciences seeks to enable national and international mobility: candidates from outside Imperial are particularly encouraged to apply. Candidates that are already in Imperial are asked to supply several sentences in their mobility statement outlining, in a distinctive and compelling manner, how remaining in Imperial is the best route for their personal growth. Applicants from Imperial are required to move from their existing supervisor to entirely new mentors for their Schmidt Fellowship, to increase both their independence and their breadth of experience (existing mentors cannot become secondary mentors). Joint Fellowship We have partnered with the Institute of Cancer Research (ICR) and the CNRS. If you are applying for a joint fellowship, we require that the principal mentor be in Imperial, but a secondary supervisor must be at ICR/CNRS. Please indicate if this is a joint fellowship by ticking the appropriate ICR/CNRS tick box in the online application form. Please note that these applications will require an institutional letter of support and ICR and CNRS will have their own internal process with a deadline ahead of the closing date below. The ICR deadline will be Monday 29 th June at 9am . You must contact Becky Cook ( rebecca.cook@icr.ac.uk ) at ICR and Carl Iamov carl.ialamov@cnrs.fr and/or Louis Avigdor louis.avigdor@cnrs-dir.fr at CNRS to confirm these internal processes and deadlines. £55,144 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "2026-07-23T00:00:00+00:00",
+          "requirements": "Research Area: AI in Science and Engineering (broadly interpreted, including Bayesian Inference, Robotics, Natural Science, Engineering, Epidemiology, Biology, basic biomedicine; excluding clinical medical themes and conventional medical imaging). Specific examples include Bayesian optimization for molecular/materials design, machine learning for single cell data, physics-based ML for turbine design, and astrostatistics.\nKey Requirements: PhD (or equivalent) in an appropriate discipline, or near completion. Potential for leadership qualities.\nApplication Info: Deadline: 2026-07-23T00:00:00+00:00. Start Date: 01 September 2027 (must start on or before this date). Required materials: N/A. Contact: N/A.\nPosition Details: Location: London, England, United Kingdom. Contract Type: Fixed-Term/Contract. Workload: Full Time. Salary: GBP55144.00 YEAR.\nOne-line Advice: Excellent for CV/medical imaging/LLM applicants if research focuses on advancing a specific scientific domain using AI, not generic AI.",
+          "relevance_score": 9.0,
+          "institution": "Imperial College London",
+          "location": "London, England, United Kingdom",
+          "salary": "GBP55144.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "23rd May 2026",
+          "job_ref": "ENG03868"
+        },
+        {
+          "title": "PhD Studentship: Epilepsy Research Institute UK PhD Fellowship: Extracting added value from home EEG epilepsy diagnostics for children and young adults",
+          "url": "https://www.jobs.ac.uk/job/DRR240/phd-studentship-epilepsy-research-institute-uk-phd-fellowship-extracting-added-value-from-home-eeg-epilepsy-diagnostics-for-children-and-young-adults/",
+          "description": "The King’s College London research division of Digital Health and Applied Technology Assessment (DHATA) is inviting applications for a PhD studentship to commence on Monday 21 September 2026. One in 100 people have epilepsy, which accounts for 1% of all healthy life years lost in Europe. Its negative consequences are worsened by the diagnostic delay that occurs in up to 77% of patients, which predicts extra adverse neurodevelopment in children. This PhD project aims to improve and personalise epilepsy diagnostics for children and young adults, by applying new analytics to clinical home electroencephalography (EEG). The objectives are to leverage untapped value from ‘non-diagnostic’ EEG, by analysing i) sleep and ii) heart rate variability, and iii) stratifying data by multi-morbidity profile. The PhD will be supervised by Dr Kimberley Whitehead (DHATA, Florence Nightingale Faculty of Nursing, Midwifery & Palliative Care (NMPC)) and Dr Joel Winston (Institute of Psychiatry, Psychology & Neuroscience, IoPPN). The successful candidate will join a dynamic community of researchers at King’s who are studying epilepsy , neurodevelopment, and neurophysiology using signal processing and data science methods. In addition to project-specific training, the student will have free access to our in-person MRes Clinical Research module in Advanced Quantitative Research Methods , and a comprehensive programme of professional development courses. There is a lively post-graduate research culture at King’s, including 3-minute thesis events and an annual symposium. This award is open to Home-fee students only. The appointee will have a strong background in health data science, software engineering, neuroscience, or similar. Applicants will normally hold, or be about to complete, a Master’s degree in a relevant field (Merit or above) or have equivalent experience, e.g. working full-time as a Research Assistant for a year. Programming proficiency is essential, ideally in MATLAB and/or R, and experience of time series analysis is desirable. We are looking for somebody who will contribute to and benefit from the vibrant in-person research culture at NMPC and IoPPN. This opportunity is not suitable for those who require to work from home. The successful candidate will have excellent communication skills with both scientific and lay audiences, as this project will involve patient and public engagement. We are also seeking an appointee who is motivated, passionate about healthcare science, and able to work independently and as part of a multidisciplinary team. This project is being generously funded by the Epilepsy Research Institute ’s supporters, including those affected by epilepsy. There is an expectation that the candidate will engage with the donor. Applicants must be committed to this PhD opportunity, and preference will be given to those who have a proven ability to complete and deliver projects. Informal enquiries and visits to Dr Whitehead at her research division are encouraged ( kimberley.whitehead@kcl.ac.uk ). Candidates must apply via the King’s Apply system, for Health Studies Research MPhil/PhD (Full-time) . Quote the project title, and indicate Dr Whitehead as primary and Dr Winston as secondary supervisor. Please include: Your CV to ‘Employment History’. A 500-word statement outlining how you meet the eligibility criteria to ‘Supporting Statement’. Funding: Please choose Option 5 “I am applying for a funding award administered by King’s” and under “Award Scheme Code” enter 26KERI . Two references, with at least one being academic. We encourage applicants to send the same paperwork to Dr Whitehead at the time that they submit it to King’s Apply. For eligible students, this award will cover Home tuition fees, an annual tax-free stipend of approximately £24,643 for 3 years full-time, and a contribution to UK conference costs.",
+          "posted_date": "",
+          "source": "jobs.ac.uk Mathematics",
+          "deadline": "2026-06-19T00:00:00+00:00",
+          "requirements": "Research Area: Epilepsy diagnostics for children and young adults using home EEG data, focusing on sleep, heart rate variability, and multi-morbidity stratification.\nKey Requirements: Strong background in health data science, software engineering, neuroscience, or similar. Master's degree (or equivalent) in a relevant field. Home-fee student status.\nApplication Info: Deadline: 2026-06-19T00:00:00+00:00. Required Materials: N/A. Contact: N/A.\nPosition Details: Location: London, England, United Kingdom. Contract Type: N/A. Workload: Full Time. Salary: N/A.\nOne-line Advice: CVs should highlight experience in signal processing, data science, and potentially medical imaging or LLM applications if relevant to analyzing complex biological signals.",
+          "relevance_score": 8.0,
+          "institution": "King's College London",
+          "location": "London, England, United Kingdom",
+          "salary": "",
+          "hours": "Full Time",
+          "contract_type": "",
+          "placed_on": "26th May 2026",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 5
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 27,
+    "papers_after_llm_filter": 15,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 91
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2605.28732v1",
+      "title": "MemTrace: Tracing and Attributing Errors in Large Language Model Memory Systems",
+      "authors": [
+        "Xinle Deng",
+        "Ruobin Zhong",
+        "Hujin Peng",
+        "Xiaoben Lu",
+        "Yanzhe Wu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces MemTrace, a framework for tracing and attributing errors in Large Language Model (LLM) memory systems. It transforms memory pipelines into executable graphs to track information flow and uses an automatic attribution method to pinpoint root causes of failures. The contribution lies in providing a systematic way to debug unreliable LLM memory systems, revealing that failures often stem from operation-level issues.",
+      "url": "http://arxiv.org/abs/2605.28732v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28732v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.28732v1/x3.png",
+      "figure_caption": "Framework for automatic diagnosis of LLM memory systems. We first execute a memory system to construct an execution graph. Given a failed case, MemTrace performs step-by-step tracing over this graph to locate the faulty operation. This framework is general across different memory systems and enables faster failure attribution than human experts.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28805v1",
+      "title": "OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration",
+      "authors": [
+        "Xinchen Zhang",
+        "Bowei Liu",
+        "Jiale Liu",
+        "Chufan Shi",
+        "Yizhen Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces OmniVerifier-M1, a multimodal meta-verifier that uses structured outputs like bounding boxes, rather than just text, for feedback. This approach allows for more efficient training of verifiers by enabling rule-based rewards and avoiding reliance on auxiliary models. The core contribution is demonstrating that decoupling binary judgment and meta-verification objectives leads to superior performance in multimodal verification tasks.",
+      "url": "http://arxiv.org/abs/2605.28805v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28805v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.28805v1/x1.png",
+      "figure_caption": "Pipeline of two key findings. Left: the advantage of symbolic bounding boxes over textual explanations, enabling rule-based rewards to inherently prevent reward hacking and accelerate training. Right: the comparison between joint training and decoupled training.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28773v1",
+      "title": "Rethinking Memory as Continuously Evolving Connectivity",
+      "authors": [
+        "Jizhan Fang",
+        "Buqiang Xu",
+        "Zhixian Wang",
+        "Haoliang Cao",
+        "Xinle Deng"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.MA",
+        "cs.MM"
+      ],
+      "abstract": "This paper introduces FluxMem, a novel memory framework for LLM agents that treats memory as a dynamic, evolving graph. Instead of static retrieval, FluxMem continuously refines its memory topology based on feedback and experience. This allows agents to adapt to changing environments by repairing, pruning, and consolidating information, leading to state-of-the-art performance across diverse benchmarks.",
+      "url": "http://arxiv.org/abs/2605.28773v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28773v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.28773v1/figure/motivation.png",
+      "figure_caption": "The failures of static memory systems.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28740v1",
+      "title": "Reverse Probing: Supervised Token-level Uncertainty Quantification for Large Language Models in Clinical Text",
+      "authors": [
+        "Bushi Xiao",
+        "Sarvesh Soni",
+        "Daisy Zhe Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Reverse Probing, a novel method for quantifying token-level uncertainty in Large Language Models (LLMs) specifically for clinical text summarization. Unlike existing approaches, it directly leverages pre-labeled summaries to estimate uncertainty from internal model activations, treating the text as a probe. This approach significantly outperforms baselines in identifying uncertain tokens, improving reliability for clinical applications while reducing computational costs.",
+      "url": "http://arxiv.org/abs/2605.28740v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28740v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.28740v1/images/framework.png",
+      "figure_caption": "Overview of the Reverse Probing framework. The BHC and clinical summary are fed into a frozen LLM, which extracts four categories of features from its internal representations. A supervised classifier is then trained to predict token-level uncertainty.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28774v1",
+      "title": "Agent Explorative Policy Optimization for Multimodal Agentic Reasoning",
+      "authors": [
+        "Minki Kang",
+        "Shizhe Diao",
+        "Ryo Hachiuma",
+        "Sung Ju Hwang",
+        "Pavlo Molchanov"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the \"Thinking-Acting Gap\" in agentic reasoning, where internal reasoning struggles with external tool use. Their proposed method, AXPO, tackles this by fixing incorrect tool-use prefixes and resampling subsequent actions, guided by uncertainty. This approach significantly improves learning signals and performance across various multimodal benchmarks.",
+      "url": "http://arxiv.org/abs/2605.28774v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28774v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.28807v1",
+      "title": "Calibrating Conservatism for Scalable Oversight",
+      "authors": [
+        "William Overman",
+        "Mohsen Bayati"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces Calibrated Collective Oversight (CCO), a method for scalable oversight of autonomous AI systems. CCO aggregates diverse overseer scores into a penalty that measures deviation from a conservative baseline, allowing high-utility actions unless overseer concern accumulates. Its key contribution is online calibration using Conformal Decision Theory, guaranteeing undesirable outcomes stay below a user-defined threshold with statistical confidence.",
+      "url": "http://arxiv.org/abs/2605.28807v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28807v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28807v1/figures/fig1.png",
+      "figure_caption": "Overview of Calibrated Collective Oversight (CCO). Given a state s s , a primary agent either generates candidate actions { a 1 , a 2 , a 3 , … } \\{a_{1},a_{2},a_{3},\\( \\ldots \\)\\} or receives a fixed set from the environment, assigning each a utility score U ​ ( s , a ) U(s,a) reflecting its own preferences; a conservative baseline a o a_{o} (e.g., defer or no-op) is always included. These candidates, which may include actions with hidden vulnerabilities or misaligned objectives, are evaluated by a collection of auxiliary overseers { q 1 , … , q n } \\{q_{1},\\( \\ldots \\),q_{n}\\} , each assessing a different dimension such as scope, safety, or convention adherence. The aggregate penalty Δ ​ ( s , a ) = ∑ i | q i ​ ( s , a ) − q i ​ ( s , a o ) | \\( \\Delta \\)(s,a)=\\( \\sum_{i} \\)|q_{i}(s,a)-q_{i}(s,a_{o})| measures how much each action deviates from the baseline across all oversight signals. CCO selects actions by maximizing U ​ ( s , a ) − λ t ​ Δ ​ ( s , a ) U(s,a)-\\( \\lambda_{t} \\)\\( \\Delta \\)(s,a) , where the conservatism parameter \\( \\lambda_{t} \\) is updated online via a conformal controller: after observing whether the selected action incurred a loss ℓ t \\( \\ell_{t} \\) , the controller adjusts λ t + 1 = λ t + η ​ ( ℓ t − α ) \\( \\lambda_{t+1} \\)=\\( \\lambda_{t} \\)+\\( \\eta \\)(\\( \\ell_{t} \\)-\\( \\alpha \\)) . This feedback loop ensures that realized violation rates converge to the user-specified target \\( \\alpha \\) . In safe situations, CCO relaxes conservatism to permit high-utility actions; in risky situations, it increases conservatism to favor safer alternatives.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28787v1",
+      "title": "Do Agents Need Semantic Metadata? A Comparative Study in Agentic Data Retrieval",
+      "authors": [
+        "Shiyu Chen",
+        "Tarfah Alrashed",
+        "Alon Halevy",
+        "Natasha Noy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "abstract": "This paper investigates whether autonomous agents still need semantic metadata for data retrieval in the age of LLMs. It compares an agent searching the open web with one using schema.org-annotated datasets, evaluating their performance against FAIR principles using an LLM-as-a-judge approach. The study's contribution lies in its comparative analysis to determine the necessity of semantic metadata for effective agentic data discovery.",
+      "url": "http://arxiv.org/abs/2605.28787v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28787v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28787v1/figures/system_architecture.png",
+      "figure_caption": "Comparative System Architecture. Similar agent logic is evaluated across unstructured Baseline Agent and Semantic Agent dataset search environments. Both feed a unified, FAIR-aligned evaluation of relevance, accessibility, and utility.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28721v1",
+      "title": "LiveBrowseComp: Are Search Agents Searching, or Just Verifying What They Already Know?",
+      "authors": [
+        "HuiMing Fan",
+        "Xiao Wang",
+        "Zheng Chu",
+        "Qianyu Wang",
+        "Zhuoyao Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper investigates whether LLM search agents truly search or just verify their internal knowledge. They introduce three diagnostics to study this, revealing \"Intrinsic Knowledge Dependence\" where agents often rely on pre-existing knowledge over external evidence. To address this, they propose LiveBrowseComp, a new benchmark designed to evaluate agents on evidence-driven discovery rather than memory recall.",
+      "url": "http://arxiv.org/abs/2605.28721v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28721v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28721v1/x1.png",
+      "figure_caption": "Overview of LiveBrowseComp. As models iterate, the knowledge required by a static benchmark is gradually absorbed into their parameters, so the effective difficulty of its questions collapses over time. By being constructed from up-to-date knowledge, LiveBrowseComp can effectively mitigate this erosion.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28722v1",
+      "title": "Multi-Adapter Representation Interventions via Energy Calibration",
+      "authors": [
+        "Manjiang Yu",
+        "Hongji Li",
+        "Junwei Chen",
+        "Xue Li",
+        "Priyanka Singh"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces Multi-Adapter Representation Interventions via Energy Calibration (MARI) to improve large language model alignment. MARI addresses limitations of uniform interventions by using specialized adapters that adaptively determine intervention direction and strength per input. An energy-based gating module further refines this by identifying inputs suitable for intervention, thereby preserving general capabilities.",
+      "url": "http://arxiv.org/abs/2605.28722v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28722v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28722v1/x1.png",
+      "figure_caption": "Comparison of intervention results. (1) Alignment Reliability: Static methods (left) rely on a fixed adapter, which leads to unstable performance. In contrast, MARI (right) ensures consistent correctness across diverse inputs. (2) General Capability Preservation: Existing methods intervene indiscriminately, which impairs general capability. MARI overcomes this by employing an energy gate that distinguishes intervention-applicable inputs from benign ones, preserving the model’s general capabilities.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28710v1",
+      "title": "Towards Reliable Multilingual LLMs-as-a-Judge: An Empirical Study",
+      "authors": [
+        "Irune Zubiaga",
+        "Aitor Soroa",
+        "Rodrigo Agerri"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how to reliably use Large Language Models (LLMs) as judges for text evaluation in multiple languages, especially for low-resource ones. The core method involves empirically studying different fine-tuning and prompting strategies across English, Spanish, and Basque, considering data availability and model size. The main contribution is identifying key trade-offs, showing that fine-tuned smaller models can be effective with in-domain data, while large models are better for zero-shot multilingual evaluation.",
+      "url": "http://arxiv.org/abs/2605.28710v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28710v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28710v1/img/recon_all_langs.png",
+      "figure_caption": "Density plot of predictions against gold labels on the in-domain RECON benchmark. We denote configurations as X → Y X\\( \\rightarrow \\) Y , where X X indicates the training-time language setup and Y Y the evaluation-time language setup. lang refers to fully translated instructions ( es , eu , or multi ), and io_lang refers to partially translated instructions, where only the original instructions and model outputs are translated while the rest is kept in English.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28760v1",
+      "title": "LLM Zeroth-Order Fine-Tuning is an Inference Workload",
+      "authors": [
+        "Zelin Li",
+        "Caiwen Ding"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper argues that Zeroth-Order (ZO) fine-tuning for LLMs is primarily an inference workload, not a traditional training one. By executing the repeated scoring phase through an inference-optimized runtime (vLLM), they achieve significant speedups (8.13x on OPT-13B SST-2) while maintaining high accuracy, demonstrating a more efficient approach to ZO fine-tuning.",
+      "url": "http://arxiv.org/abs/2605.28760v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28760v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28760v1/figures/phase4_wallclock_loss_fullwidth.png",
+      "figure_caption": "OPT-13B SST-2 evaluation versus training time. The vLLM ν = 50 \\( \\nu \\)=50 run is shown alongside the official LoZO full and LoRA-only baselines; it finishes in 30.7 30.7 minutes versus 249.2 249.2 minutes for the official LoZO LoRA-only baseline, an 8.13 × 8.13\\( \\times \\) matched-setting speedup.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.28705v1",
+      "title": "Understanding Generalization and Forgetting in In-Context Continual Learning",
+      "authors": [
+        "Guangyu Li",
+        "Meng Ding",
+        "Lijie Hu"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces the first theoretical framework to understand how Large Language Models (LLMs) perform continual learning within a single prompt, without parameter updates. By analyzing attention mechanisms, it reveals that standard LLMs inherently suffer from inter-task interference, leading to both generalization and forgetting when processing sequential, heterogeneous tasks.",
+      "url": "http://arxiv.org/abs/2605.28705v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28705v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28705v1/x1.png",
+      "figure_caption": "Per-Task MSE vs Context Length M.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.28806v1",
+      "title": "Personal Visual Memory from Explicit and Implicit Evidence",
+      "authors": [
+        "Viet Nguyen",
+        "Thao Nguyen",
+        "Vishal M. Patel",
+        "Yuheng Li"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.IR"
+      ],
+      "abstract": "This paper introduces a new benchmark and method for personal visual memory in AI agents, moving beyond text-centric approaches. The core method, VisualMem, is a hybrid architecture that explicitly models both explicit and implicit visual information from images, alongside text. This allows AI to better recall user-specific facts and entities from visual interactions, leading to improved personalized memory.",
+      "url": "http://arxiv.org/abs/2605.28806v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28806v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.28814v1",
+      "title": "Self-Improving Language Models with Bidirectional Evolutionary Search",
+      "authors": [
+        "Guowei Xu",
+        "Zhenting Qi",
+        "Huangyuan Su",
+        "Weirui Ye",
+        "Himabindu Lakkaraju"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Bidirectional Evolutionary Search (BES) to improve language models. BES overcomes limitations of existing methods by combining forward evolution of candidates with backward decomposition of tasks into subgoals. This approach generates more diverse candidates and provides denser feedback for better model improvement.",
+      "url": "http://arxiv.org/abs/2605.28814v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28814v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28814v1/x1.png",
+      "figure_caption": "Comparison of tree search and Bidirectional Evolutionary Search ( BES ). Left: Tree search constructs candidates by sequentially expanding steps. We prove that all such candidates are confined to a narrow entropy shell (Theorem 4.4 a), limiting exploration to a small region of the solution space. Right: BES escapes this shell through evolution operators that recombine parts of different trajectories, with backward search decomposing the problem into verifiable sub-goals that provide dense feedback to guide the forward search toward the final goal. ✓ and × \\( \\boldsymbol{\\times} \\) indicate whether a candidate satisfies or fails the (sub-)goal, respectively.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.28818v1",
+      "title": "VLMs May Not Globally Enhance Human Alignment over LLMs During Natural Reading",
+      "authors": [
+        "Jinzhou Wu",
+        "Zhengwu Ma",
+        "Jixing Li",
+        "Baoping Tang",
+        "Zitong Lu"
+      ],
+      "categories": [
+        "cs.CL",
+        "q-bio.NC"
+      ],
+      "abstract": "This paper investigates whether vision-language models (VLMs) improve human alignment in text processing compared to language-only models (LLMs). By comparing matched LLM and VLM pairs in a text-only setting and evaluating against fMRI and eye-tracking data, they found that multimodal training doesn't universally enhance human alignment during natural reading. The core contribution is demonstrating that language-internal representations are primary for modeling text processing, though VLMs might show selective advantages for visually rich content.",
+      "url": "http://arxiv.org/abs/2605.28818v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28818v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28818v1/overall_framework.png",
+      "figure_caption": "Overview of the matched LLM/VLM alignment pipeline. (a) Data acquisition. Participants read sentences from five articles, one at a time, while concurrent eye-tracking and whole-cortex fMRI are recorded. (b) Attention feature extraction. Layer-wise self-attention matrices are extracted from each model, mapped from the token level to the word level, and the strict lower triangle is retained as the feature representation. (c) Model-human alignment. Lower-triangular attention features are used as predictors in ridge regression models targeting vertex-wise fMRI responses and human regressive saccades during natural reading; model alignment is evaluated within pairs as VLM minus LLM. (d) A visual-strength-conditioned analysis tests whether the VLM–LLM alignment difference scales with sentence-level visual semantic content.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2605.28732v1",
+      "title": "MemTrace: Tracing and Attributing Errors in Large Language Model Memory Systems",
+      "authors": [
+        "Xinle Deng",
+        "Ruobin Zhong",
+        "Hujin Peng",
+        "Xiaoben Lu",
+        "Yanzhe Wu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces MemTrace, a framework for tracing and attributing errors in Large Language Model (LLM) memory systems. It transforms memory pipelines into executable graphs to track information flow and uses an automatic attribution method to pinpoint root causes of failures. The contribution lies in providing a systematic way to debug unreliable LLM memory systems, revealing that failures often stem from operation-level issues.",
+      "url": "http://arxiv.org/abs/2605.28732v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28732v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.28732v1/x3.png",
+      "figure_caption": "Framework for automatic diagnosis of LLM memory systems. We first execute a memory system to construct an execution graph. Given a failed case, MemTrace performs step-by-step tracing over this graph to locate the faulty operation. This framework is general across different memory systems and enables faster failure attribution than human experts.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28805v1",
+      "title": "OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration",
+      "authors": [
+        "Xinchen Zhang",
+        "Bowei Liu",
+        "Jiale Liu",
+        "Chufan Shi",
+        "Yizhen Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces OmniVerifier-M1, a multimodal meta-verifier that uses structured outputs like bounding boxes, rather than just text, for feedback. This approach allows for more efficient training of verifiers by enabling rule-based rewards and avoiding reliance on auxiliary models. The core contribution is demonstrating that decoupling binary judgment and meta-verification objectives leads to superior performance in multimodal verification tasks.",
+      "url": "http://arxiv.org/abs/2605.28805v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28805v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.28805v1/x1.png",
+      "figure_caption": "Pipeline of two key findings. Left: the advantage of symbolic bounding boxes over textual explanations, enabling rule-based rewards to inherently prevent reward hacking and accelerate training. Right: the comparison between joint training and decoupled training.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28773v1",
+      "title": "Rethinking Memory as Continuously Evolving Connectivity",
+      "authors": [
+        "Jizhan Fang",
+        "Buqiang Xu",
+        "Zhixian Wang",
+        "Haoliang Cao",
+        "Xinle Deng"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.MA",
+        "cs.MM"
+      ],
+      "abstract": "This paper introduces FluxMem, a novel memory framework for LLM agents that treats memory as a dynamic, evolving graph. Instead of static retrieval, FluxMem continuously refines its memory topology based on feedback and experience. This allows agents to adapt to changing environments by repairing, pruning, and consolidating information, leading to state-of-the-art performance across diverse benchmarks.",
+      "url": "http://arxiv.org/abs/2605.28773v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28773v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.28773v1/figure/motivation.png",
+      "figure_caption": "The failures of static memory systems.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28740v1",
+      "title": "Reverse Probing: Supervised Token-level Uncertainty Quantification for Large Language Models in Clinical Text",
+      "authors": [
+        "Bushi Xiao",
+        "Sarvesh Soni",
+        "Daisy Zhe Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Reverse Probing, a novel method for quantifying token-level uncertainty in Large Language Models (LLMs) specifically for clinical text summarization. Unlike existing approaches, it directly leverages pre-labeled summaries to estimate uncertainty from internal model activations, treating the text as a probe. This approach significantly outperforms baselines in identifying uncertain tokens, improving reliability for clinical applications while reducing computational costs.",
+      "url": "http://arxiv.org/abs/2605.28740v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28740v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.28740v1/images/framework.png",
+      "figure_caption": "Overview of the Reverse Probing framework. The BHC and clinical summary are fed into a frozen LLM, which extracts four categories of features from its internal representations. A supervised classifier is then trained to predict token-level uncertainty.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28774v1",
+      "title": "Agent Explorative Policy Optimization for Multimodal Agentic Reasoning",
+      "authors": [
+        "Minki Kang",
+        "Shizhe Diao",
+        "Ryo Hachiuma",
+        "Sung Ju Hwang",
+        "Pavlo Molchanov"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the \"Thinking-Acting Gap\" in agentic reasoning, where internal reasoning struggles with external tool use. Their proposed method, AXPO, tackles this by fixing incorrect tool-use prefixes and resampling subsequent actions, guided by uncertainty. This approach significantly improves learning signals and performance across various multimodal benchmarks.",
+      "url": "http://arxiv.org/abs/2605.28774v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28774v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.28807v1",
+      "title": "Calibrating Conservatism for Scalable Oversight",
+      "authors": [
+        "William Overman",
+        "Mohsen Bayati"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces Calibrated Collective Oversight (CCO), a method for scalable oversight of autonomous AI systems. CCO aggregates diverse overseer scores into a penalty that measures deviation from a conservative baseline, allowing high-utility actions unless overseer concern accumulates. Its key contribution is online calibration using Conformal Decision Theory, guaranteeing undesirable outcomes stay below a user-defined threshold with statistical confidence.",
+      "url": "http://arxiv.org/abs/2605.28807v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28807v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28807v1/figures/fig1.png",
+      "figure_caption": "Overview of Calibrated Collective Oversight (CCO). Given a state s s , a primary agent either generates candidate actions { a 1 , a 2 , a 3 , … } \\{a_{1},a_{2},a_{3},\\( \\ldots \\)\\} or receives a fixed set from the environment, assigning each a utility score U ​ ( s , a ) U(s,a) reflecting its own preferences; a conservative baseline a o a_{o} (e.g., defer or no-op) is always included. These candidates, which may include actions with hidden vulnerabilities or misaligned objectives, are evaluated by a collection of auxiliary overseers { q 1 , … , q n } \\{q_{1},\\( \\ldots \\),q_{n}\\} , each assessing a different dimension such as scope, safety, or convention adherence. The aggregate penalty Δ ​ ( s , a ) = ∑ i | q i ​ ( s , a ) − q i ​ ( s , a o ) | \\( \\Delta \\)(s,a)=\\( \\sum_{i} \\)|q_{i}(s,a)-q_{i}(s,a_{o})| measures how much each action deviates from the baseline across all oversight signals. CCO selects actions by maximizing U ​ ( s , a ) − λ t ​ Δ ​ ( s , a ) U(s,a)-\\( \\lambda_{t} \\)\\( \\Delta \\)(s,a) , where the conservatism parameter \\( \\lambda_{t} \\) is updated online via a conformal controller: after observing whether the selected action incurred a loss ℓ t \\( \\ell_{t} \\) , the controller adjusts λ t + 1 = λ t + η ​ ( ℓ t − α ) \\( \\lambda_{t+1} \\)=\\( \\lambda_{t} \\)+\\( \\eta \\)(\\( \\ell_{t} \\)-\\( \\alpha \\)) . This feedback loop ensures that realized violation rates converge to the user-specified target \\( \\alpha \\) . In safe situations, CCO relaxes conservatism to permit high-utility actions; in risky situations, it increases conservatism to favor safer alternatives.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28787v1",
+      "title": "Do Agents Need Semantic Metadata? A Comparative Study in Agentic Data Retrieval",
+      "authors": [
+        "Shiyu Chen",
+        "Tarfah Alrashed",
+        "Alon Halevy",
+        "Natasha Noy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "abstract": "This paper investigates whether autonomous agents still need semantic metadata for data retrieval in the age of LLMs. It compares an agent searching the open web with one using schema.org-annotated datasets, evaluating their performance against FAIR principles using an LLM-as-a-judge approach. The study's contribution lies in its comparative analysis to determine the necessity of semantic metadata for effective agentic data discovery.",
+      "url": "http://arxiv.org/abs/2605.28787v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28787v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28787v1/figures/system_architecture.png",
+      "figure_caption": "Comparative System Architecture. Similar agent logic is evaluated across unstructured Baseline Agent and Semantic Agent dataset search environments. Both feed a unified, FAIR-aligned evaluation of relevance, accessibility, and utility.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28721v1",
+      "title": "LiveBrowseComp: Are Search Agents Searching, or Just Verifying What They Already Know?",
+      "authors": [
+        "HuiMing Fan",
+        "Xiao Wang",
+        "Zheng Chu",
+        "Qianyu Wang",
+        "Zhuoyao Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper investigates whether LLM search agents truly search or just verify their internal knowledge. They introduce three diagnostics to study this, revealing \"Intrinsic Knowledge Dependence\" where agents often rely on pre-existing knowledge over external evidence. To address this, they propose LiveBrowseComp, a new benchmark designed to evaluate agents on evidence-driven discovery rather than memory recall.",
+      "url": "http://arxiv.org/abs/2605.28721v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28721v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28721v1/x1.png",
+      "figure_caption": "Overview of LiveBrowseComp. As models iterate, the knowledge required by a static benchmark is gradually absorbed into their parameters, so the effective difficulty of its questions collapses over time. By being constructed from up-to-date knowledge, LiveBrowseComp can effectively mitigate this erosion.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28722v1",
+      "title": "Multi-Adapter Representation Interventions via Energy Calibration",
+      "authors": [
+        "Manjiang Yu",
+        "Hongji Li",
+        "Junwei Chen",
+        "Xue Li",
+        "Priyanka Singh"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces Multi-Adapter Representation Interventions via Energy Calibration (MARI) to improve large language model alignment. MARI addresses limitations of uniform interventions by using specialized adapters that adaptively determine intervention direction and strength per input. An energy-based gating module further refines this by identifying inputs suitable for intervention, thereby preserving general capabilities.",
+      "url": "http://arxiv.org/abs/2605.28722v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28722v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28722v1/x1.png",
+      "figure_caption": "Comparison of intervention results. (1) Alignment Reliability: Static methods (left) rely on a fixed adapter, which leads to unstable performance. In contrast, MARI (right) ensures consistent correctness across diverse inputs. (2) General Capability Preservation: Existing methods intervene indiscriminately, which impairs general capability. MARI overcomes this by employing an energy gate that distinguishes intervention-applicable inputs from benign ones, preserving the model’s general capabilities.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28710v1",
+      "title": "Towards Reliable Multilingual LLMs-as-a-Judge: An Empirical Study",
+      "authors": [
+        "Irune Zubiaga",
+        "Aitor Soroa",
+        "Rodrigo Agerri"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how to reliably use Large Language Models (LLMs) as judges for text evaluation in multiple languages, especially for low-resource ones. The core method involves empirically studying different fine-tuning and prompting strategies across English, Spanish, and Basque, considering data availability and model size. The main contribution is identifying key trade-offs, showing that fine-tuned smaller models can be effective with in-domain data, while large models are better for zero-shot multilingual evaluation.",
+      "url": "http://arxiv.org/abs/2605.28710v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28710v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28710v1/img/recon_all_langs.png",
+      "figure_caption": "Density plot of predictions against gold labels on the in-domain RECON benchmark. We denote configurations as X → Y X\\( \\rightarrow \\) Y , where X X indicates the training-time language setup and Y Y the evaluation-time language setup. lang refers to fully translated instructions ( es , eu , or multi ), and io_lang refers to partially translated instructions, where only the original instructions and model outputs are translated while the rest is kept in English.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.28760v1",
+      "title": "LLM Zeroth-Order Fine-Tuning is an Inference Workload",
+      "authors": [
+        "Zelin Li",
+        "Caiwen Ding"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper argues that Zeroth-Order (ZO) fine-tuning for LLMs is primarily an inference workload, not a traditional training one. By executing the repeated scoring phase through an inference-optimized runtime (vLLM), they achieve significant speedups (8.13x on OPT-13B SST-2) while maintaining high accuracy, demonstrating a more efficient approach to ZO fine-tuning.",
+      "url": "http://arxiv.org/abs/2605.28760v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28760v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28760v1/figures/phase4_wallclock_loss_fullwidth.png",
+      "figure_caption": "OPT-13B SST-2 evaluation versus training time. The vLLM ν = 50 \\( \\nu \\)=50 run is shown alongside the official LoZO full and LoRA-only baselines; it finishes in 30.7 30.7 minutes versus 249.2 249.2 minutes for the official LoZO LoRA-only baseline, an 8.13 × 8.13\\( \\times \\) matched-setting speedup.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.28705v1",
+      "title": "Understanding Generalization and Forgetting in In-Context Continual Learning",
+      "authors": [
+        "Guangyu Li",
+        "Meng Ding",
+        "Lijie Hu"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces the first theoretical framework to understand how Large Language Models (LLMs) perform continual learning within a single prompt, without parameter updates. By analyzing attention mechanisms, it reveals that standard LLMs inherently suffer from inter-task interference, leading to both generalization and forgetting when processing sequential, heterogeneous tasks.",
+      "url": "http://arxiv.org/abs/2605.28705v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28705v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28705v1/x1.png",
+      "figure_caption": "Per-Task MSE vs Context Length M.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.28806v1",
+      "title": "Personal Visual Memory from Explicit and Implicit Evidence",
+      "authors": [
+        "Viet Nguyen",
+        "Thao Nguyen",
+        "Vishal M. Patel",
+        "Yuheng Li"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.IR"
+      ],
+      "abstract": "This paper introduces a new benchmark and method for personal visual memory in AI agents, moving beyond text-centric approaches. The core method, VisualMem, is a hybrid architecture that explicitly models both explicit and implicit visual information from images, alongside text. This allows AI to better recall user-specific facts and entities from visual interactions, leading to improved personalized memory.",
+      "url": "http://arxiv.org/abs/2605.28806v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28806v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.28814v1",
+      "title": "Self-Improving Language Models with Bidirectional Evolutionary Search",
+      "authors": [
+        "Guowei Xu",
+        "Zhenting Qi",
+        "Huangyuan Su",
+        "Weirui Ye",
+        "Himabindu Lakkaraju"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Bidirectional Evolutionary Search (BES) to improve language models. BES overcomes limitations of existing methods by combining forward evolution of candidates with backward decomposition of tasks into subgoals. This approach generates more diverse candidates and provides denser feedback for better model improvement.",
+      "url": "http://arxiv.org/abs/2605.28814v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28814v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28814v1/x1.png",
+      "figure_caption": "Comparison of tree search and Bidirectional Evolutionary Search ( BES ). Left: Tree search constructs candidates by sequentially expanding steps. We prove that all such candidates are confined to a narrow entropy shell (Theorem 4.4 a), limiting exploration to a small region of the solution space. Right: BES escapes this shell through evolution operators that recombine parts of different trajectories, with backward search decomposing the problem into verifiable sub-goals that provide dense feedback to guide the forward search toward the final goal. ✓ and × \\( \\boldsymbol{\\times} \\) indicate whether a candidate satisfies or fails the (sub-)goal, respectively.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.28818v1",
+      "title": "VLMs May Not Globally Enhance Human Alignment over LLMs During Natural Reading",
+      "authors": [
+        "Jinzhou Wu",
+        "Zhengwu Ma",
+        "Jixing Li",
+        "Baoping Tang",
+        "Zitong Lu"
+      ],
+      "categories": [
+        "cs.CL",
+        "q-bio.NC"
+      ],
+      "abstract": "This paper investigates whether vision-language models (VLMs) improve human alignment in text processing compared to language-only models (LLMs). By comparing matched LLM and VLM pairs in a text-only setting and evaluating against fMRI and eye-tracking data, they found that multimodal training doesn't universally enhance human alignment during natural reading. The core contribution is demonstrating that language-internal representations are primary for modeling text processing, though VLMs might show selective advantages for visually rich content.",
+      "url": "http://arxiv.org/abs/2605.28818v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28818v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.28818v1/overall_framework.png",
+      "figure_caption": "Overview of the matched LLM/VLM alignment pipeline. (a) Data acquisition. Participants read sentences from five articles, one at a time, while concurrent eye-tracking and whole-cortex fMRI are recorded. (b) Attention feature extraction. Layer-wise self-attention matrices are extracted from each model, mapped from the token level to the word level, and the strict lower triangle is retained as the feature representation. (c) Model-human alignment. Lower-triangular attention features are used as predictors in ridge regression models targeting vertex-wise fMRI responses and human regressive saccades during natural reading; model alignment is evaluated within pairs as VLM minus LLM. (d) A visual-strength-conditioned analysis tests whether the VLM–LLM alignment difference scales with sentence-level visual semantic content.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Research Associate in Computer Vision",
+      "url": "https://www.jobs.ac.uk/job/DRR708/research-associate-in-computer-vision/",
+      "description": "Fixed-term for 2 years Location: Wolfson Building, Parks Road, Oxford We are seeking a highly motivated We are seeking a Postdoctoral Research Associate in Computer Vision to join the Visual Geometry Group (Central Oxford), funded by ERC. Reporting to the Principal Investigator, you will help ensure a healthy and vibrant research environment within the Visual Geometry Group. This will involve conducting projects in computer vision research, including the work involved in the collaborations with project partners. Informal enquiries may be addressed to Prof. Christian Rupprecht at christian.rupprecht@cs.ox.ac.uk The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however flexible working can be considered. About Us The University of Oxford is a stimulating work environment, which enjoys an international reputation as a world-class centre of excellence. Our research plays a key role in tackling many global challenges, from reducing our carbon emissions to developing vaccines during a pandemic. The Department of Computer Science at Oxford is renowned for pioneering research and teaching across diverse fields, consistently ranking among the best in the world. Our commitment to innovation drives us to tackle complex technological and societal challenges. What We Offer As an employer, we genuinely care about our employees’ wellbeing, reflected in the range of benefits that we offer including: Excellent contributory pension scheme 38 days annual leave (including public holidays) – pro rata for part time jobs Family leave schemes Cycle loan scheme and discounted public transport The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however remote and flexible working can be considered. Diversity Committed to equality and valuing diversity. Application Process You will be required to upload a supporting statement and an up-to-date CV as part of your online application. Your supporting statement must clearly demonstrate how you meet each of the essential selection criteria listed in the job description. Applications that do not include a supporting statement or CV, or fail to address the criteria in sufficient detail, will not be considered. While we recognise the value of AI tools in assisting with application preparation, submissions that are clearly AI-generated without personalisation or insight will be rejected. It's crucial that your application reflects your own experiences and understanding of the role. The closing date for applications is midday on 26 th June 2026. Interviews are expected to be held in early July. £39,424 to £43,984 per annum inclusive of Oxford University weighting. Grade 07RS",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-26T00:00:00+00:00",
+      "requirements": "Research Area: Computer Vision\nKey Requirements: PhD in Computer Science or related field, strong research record in computer vision.\nApplication Info: deadline: 2026-06-26, required materials: N/A, contact: Prof. Christian Rupprecht at christian.rupprecht@cs.ox.ac.uk\nPosition Details: Oxford, England, United Kingdom, Fixed-Term/Contract (2 years), Full Time, GBP39424.00-GBP43984.00 YEAR\nOne-line Advice: N/A",
+      "relevance_score": 9.0,
+      "institution": "University of Oxford",
+      "location": "Oxford, England, United Kingdom",
+      "salary": "GBP39424.00-GBP43984.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "27th May 2026",
+      "job_ref": "186588"
+    },
+    {
+      "title": "Research Associate in Neural Rendering and Medical Image Reconstruction",
+      "url": "https://www.jobs.ac.uk/job/DRR471/research-associate-in-neural-rendering-and-medical-image-reconstruction/",
+      "description": "Fixed-term for 2 years Location: Wolfson Building, Parks Road, Oxford We are looking for a postdoctoral research associate position is available in the Oxford Machine Learning in Neuroimaging (OMNI) lab at Oxford’s Department of Computer Science. The post-holder will report directly to Professor Ana Namburete and will work within a multidisciplinary team of deep learning researchers, research software engineers, and obstetricians, and will collaborate with Dr João Henriques (Visual Geometry Group, VGG) and Professor Aris Papageorghiou (Nuffield Department of Women’s and Reproductive Health). The project focuses on efficient neural implicit representations and neural rendering methods for volumetric reconstruction from freehand ultrasound sweeps acquired with handheld probes. The overarching goal is to enable near-real-time 3D reconstruction at the bedside, supporting quantitative assessment of fetal brain development in low-resource settings. The post-holder will develop machine learning and neural scene representation methods for reconstructing 3D fetal brain volumes from handheld ultrasound video, and integrate these algorithms into interactive clinical imaging workflows. They will contribute to research at the intersection of 3D computer vision, neural rendering, and medical image analysis. This includes developing scalable 2D-to-3D reconstruction architectures and working with ultrasound acquisition systems to deliver interactive feedback during scanning. Flexible working The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however remote and flexible working can be considered. What We Offer As an employer, we genuinely care about our employees’ wellbeing and this is reflected in the range of benefits that we offer including: An excellent contributory pension scheme 38 days annual leave (pro-rata for part-time roles) A comprehensive range of childcare services Family leave schemes Cycle loan scheme Discounted bus travel and Season Ticket travel loans Membership to a variety of social and sports clubs Diversity Committed to equality and valuing diversity. Application Process You will be required to upload a supporting statement and an up-to-date CV as part of your online application. Your supporting statement must clearly demonstrate how you meet each of the essential selection criteria listed in the job description. Applications that do not include a supporting statement or CV, or fail to address the criteria in sufficient detail, will not be considered. While we recognise the value of AI tools in assisting with application preparation, submissions that are clearly AI-generated without personalisation or insight will be rejected. It's crucial that your application reflects your own experiences and understanding of the role. The closing date for applications is noon on 29 th June 2026. Interviews are expected to be held in July. £39,424 to £43,984 per annum inclusive of Oxford University weighting. Grade 07RS",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-29T00:00:00+00:00",
+      "requirements": "Research Area: Neural rendering, neural implicit representations, volumetric reconstruction from freehand ultrasound, 3D computer vision, medical image analysis, machine learning for neuroimaging.\nKey Requirements: Postdoctoral research experience, expertise in machine learning and neural scene representation, experience with 3D computer vision and neural rendering, ability to integrate algorithms into clinical workflows, experience with ultrasound acquisition systems is a plus.\nApplication Info: deadline/start date: 2026-06-29T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: Oxford, England, United Kingdom, contract type: Fixed-Term/Contract (2 years), workload: Full Time, salary: GBP39424.00-GBP43984.00 YEAR\nOne-line Advice: CV should highlight experience in neural rendering, 3D reconstruction, and machine learning applied to medical imaging.",
+      "relevance_score": 10.0,
+      "institution": "University of Oxford",
+      "location": "Oxford, England, United Kingdom",
+      "salary": "GBP39424.00-GBP43984.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "26th May 2026",
+      "job_ref": "186515"
+    },
+    {
+      "title": "Research Associate* in Machine Learning Aided Data Compression and Communication",
+      "url": "https://www.jobs.ac.uk/job/DRR238/research-associate-in-machine-learning-aided-data-compression-and-communication/",
+      "description": "About the role The post is funded by the UKRI AI-Hub INFORMED-AI to explore novel data compression and communication methods building upon information theoretic foundations while exploiting recent advancements in deep learning architectures and training methodologies. This full-time, in-person postdoctoral position is based at Imperial College’s South Kensington Campus in London, UK, and is funded for up to 18 months, starting in July 2026. What you would be doing Key responsibilities include: To take initiatives in the planning of research To undertake original research of international excellence To ensure the validity and reliability of data at all times To maintain accurate and complete records of all findings To write reports for submission to research sponsors To present findings to colleagues and at conferences To submit publications to refereed journals What we are looking for Education: Research Associate: Hold a PhD in mathematics, engineering, or a related topic. Research Assistant: Hold a master’s degree in mathematics, engineering or a related topic and be near completion of a PhD. Experience Practical experience within a research environment and / or publication in relevant and refereed journals Practical experience in a broad range of techniques, including, Optimisation and signal processing methods. Information and coding theory. Communication systems. Design and training of deep neural networks. Implementation of algorithms via computer simulation. Experience with programming in Python or C/C++ Knowledge Knowledge and research experience in one or more of the following areas: information theory, machine learning theory (in particular generative models), communication systems, signal processing, inverse problems, optimization and compression methods. Knowledge of research methods and statistical procedures. Skills and Abilities Ability to conduct a detailed review of recent literature Ability to develop and apply new concepts Creative approach to problem-solving Excellent verbal communication skills and the ability to deal with a wide range of people Excellent written communication skills and the ability to write clearly and succinctly for publication What we can offer you The opportunity to continue your career at a world-leading institution and be part of our mission to continue science for humanity. The opportunity to interact and collaborate with researchers across the INFORMED-AI Hub with regular seminars, training schools, and meetings. Grow your career: gain access to Imperial’s sector-leading dedicated career support for researchers as well as opportunities for promotion and progression. Sector-leading salary and remuneration package (including 39 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further information Please note that job descriptions cannot be exhaustive, and the post-holder may be required to undertake other duties, which are broadly in line with the above key responsibilities. For any specific queries regarding the post please contact Prof Deniz Gunduz (d.gunduz@imperial.ac.uk) *Candidates who have not yet been officially awarded their PhD will be appointed as Research Assistant. £49,017 to £57,582 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-11T00:00:00+00:00",
+      "requirements": "Research Area: Machine Learning Aided Data Compression and Communication, Information Theory, Deep Learning Architectures, Communication Systems, Signal Processing, Optimization, Generative Models, Inverse Problems\nKey Requirements: PhD in mathematics, engineering, or related topic; practical experience in a research environment and/or publications; experience in optimization, signal processing, information/coding theory, communication systems, design/training of deep neural networks, algorithm implementation via simulation; programming in Python or C/C++; knowledge in information theory, machine learning theory (generative models), communication systems, signal processing, inverse problems, optimization, and compression methods.\nApplication Info: deadline: 2026-06-11T00:00:00+00:00; start date: July 2026; required materials: N/A; contact: N/A\nPosition Details: location: London, England, United Kingdom; contract type: Fixed-Term/Contract (up to 18 months); workload: Full Time; salary: GBP49017.00-GBP57582.00 YEAR\nOne-line Advice: CVs with strong publication records in information theory, machine learning (especially generative models), and communication systems will be highly relevant.",
+      "relevance_score": 7.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP49017.00-GBP57582.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "26th May 2026",
+      "job_ref": "ENG03922"
+    },
+    {
+      "title": "Eric and Wendy Schmidt AI in Science Postdoctoral Fellows, a Program of Schmidt Sciences (Research Associate)",
+      "url": "https://www.jobs.ac.uk/job/DRP014/eric-and-wendy-schmidt-ai-in-science-postdoctoral-fellows-a-program-of-schmidt-sciences-research-associate/",
+      "description": "About the role : Applications are invited for prestigious Eric and Wendy Schmidt AI in Science Fellowships, a program of Schmidt Sciences, commencing 01 September 2027, with a duration of 2 years. The fellowship MUST start on or before 01 September 2027 as the grant funding ends on 31 August 2029. What you would be doing : The Eric and Wendy Schmidt AI in Science Fellows will produce independent and original research, using AI to advance science within their host department and the I-X Centre for AI in Science. These fellowships have the aim of identifying excellent researchers and accelerating them in using AI to advance and disrupt Science or Engineering. Here ‘AI’ is interpreted very broadly, e.g.: topics in Bayesian Inference and Robotics; ‘Science’ covers any typical topic in Natural Science and Engineering (Epidemiology, Biology and basic science in biomedicine are included but clinical medical themes are not covered, including conventional medical imaging). Examples include Bayesian optimization for molecular or materials design; machine learning for single cell data; physics-based ML for turbine design and astrostatistics. This post is not suitable for generic AI research with general application: candidates must be aiming to substantially advance a particular area of science. Applicants could view themselves as AI researchers tackling particular pieces of science or science researchers using AI to transform their area. Extensive AI knowledge is not required, and AI training is offered as discussed by one of our alumni here. What we are looking for : Candidates will: Hold, or be near completion of, a PhD (or equivalent) in an appropriate discipline. Have the potential for leadership qualities in the subject, as illustrated, for example, through showing initiative on research projects. Have an outstanding research record commensurate with their level of experience as demonstrated, for example, through an outstanding thesis, publications, conference presentations, code etc. Have a proposal which is within the AI in Science research remit and skills which fit the cohort of AI in Science fellows. What we can offer you : You will join the Eric and Wendy Schmidt Network of researchers and will join a unique co-located cohort of top scholars based in the I-X Centre for AI in Science with tailored training and one-on-one career development. The fellowships are flexible and independent, allowing recipients to freely explore while drawing on expert faculty mentors of their choice. We have a programme of additional support for women in AI in Science including a coaching circle for women in AI, additional funds for their career development and a community of I-X AI in Science women. The I-X Women in Artificial Intelligence ( IXWAI ) founded by two of our current Fellows aims to enhance representation of women in AI and foster an environment where they are valued, supported and inspired to achieve their full potential. We expect to appoint at least one candidate through this route. This is a full time, fixed term position for 2 years. You will be based at White City Campus. Candidates who have not yet been officially awarded their PhD will be appointed as a Research Assistant. If you have any queries about this opportunity, please contact Eileen Boyce at e.boyce@imperial.ac.uk Further information about the I-X Centre for AI in Science can be found at AI in Science Fellowships | Research groups | Imperial College London which includes an introductory video. If candidates want to also be considered at the Research Fellow level, then they need to send in an additional application for that role (the documents submitted can be repeated). Further Information In addition to completing the online application, candidates should, after carefully consulting the Job Description, FAQ and related documents , upload the following documents: A full CV including publications. An additional single file with: Publication Elaboration: a 1 page, or less, note outlining the contribution of up to three papers by the applicant suitable for a general scientific reader. Research Proposal Summary: a 1 page or less, summary of the proposed research suitable for a general scientific audience. Particular attention will be paid to this summary. It should answer the question of why/how this application of AI will be transformative for the target area of science. The proposal should start by mentioning, the applicant’s proposed department and at least one mentor who has agreed to support the application – one mentor should be within the fellow’s proposed department, but others could be outside. Mentors must be contacted in advance of the application. It is not essential that the mentor be a very close fit to the proposed research, entirely independent research efforts are welcomed, but a collaborative mentorship is likely to make the science more credible. Research Proposal: a 3 pages or less proposal that explains why and how the proposed research could be transformative for a particular area of science. It can be structured around background, a small number of hypotheses/aims, and work packages. It can be assumed that the reader will first read the Summary and so content need not be repeated. Training Plan: a ½ page or less plan, identifying any particular skills that need to be acquired for the proposed research to succeed. Training is a key part of the proposed fellowship, whether helping an AI expert master a scientific topic or a scientific topic expert advance their AI skills. Deep expertise in AI (or the particular Science area) is not a pre-requisite: the minimum level of AI/Science experience is that needed to credibly articulate a plan for how AI will advance Science. Fit to AI in Science Remit: a ¼ page or less outline of how your proposal fits within the AI in Science remit – please check your proposal’s fit here . Kindness Statement: a ¼ page or less outline of your view on the need for kindness among scientists. The fellows will join a cohort of fellows in AI for Science with opportunities for outreach and LMIC engagement. Mobility Statement (for applicants currently at Imperial only): Schmidt Sciences seeks to enable national and international mobility: candidates from outside Imperial are particularly encouraged to apply. Candidates that are already in Imperial are asked to supply several sentences in their mobility statement outlining, in a distinctive and compelling manner, how remaining in Imperial is the best route for their personal growth. Applicants from Imperial are required to move from their existing supervisor to entirely new mentors for their Schmidt Fellowship, to increase both their independence and their breadth of experience (existing mentors cannot become secondary mentors). Joint Fellowship We have partnered with the Institute of Cancer Research (ICR) and the CNRS. If you are applying for a joint fellowship, we require that the principal mentor be in Imperial, but a secondary supervisor must be at ICR/CNRS. Please indicate if this is a joint fellowship by ticking the appropriate ICR/CNRS tick box in the online application form. Please note that these applications will require an institutional letter of support and ICR and CNRS will have their own internal process with a deadline ahead of the closing date below. The ICR deadline will be Monday 29 th June at 9am . You must contact Becky Cook ( rebecca.cook@icr.ac.uk ) at ICR and Carl Iamov carl.ialamov@cnrs.fr and/or Louis Avigdor louis.avigdor@cnrs-dir.fr at CNRS to confirm these internal processes and deadlines. £55,144 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-07-23T00:00:00+00:00",
+      "requirements": "Research Area: AI in Science and Engineering (broadly interpreted, including Bayesian Inference, Robotics, Natural Science, Engineering, Epidemiology, Biology, basic biomedicine; excluding clinical medical themes and conventional medical imaging). Specific examples include Bayesian optimization for molecular/materials design, machine learning for single cell data, physics-based ML for turbine design, and astrostatistics.\nKey Requirements: PhD (or equivalent) in an appropriate discipline, or near completion. Potential for leadership qualities.\nApplication Info: Deadline: 2026-07-23T00:00:00+00:00. Start Date: 01 September 2027 (must start on or before this date). Required materials: N/A. Contact: N/A.\nPosition Details: Location: London, England, United Kingdom. Contract Type: Fixed-Term/Contract. Workload: Full Time. Salary: GBP55144.00 YEAR.\nOne-line Advice: Excellent for CV/medical imaging/LLM applicants if research focuses on advancing a specific scientific domain using AI, not generic AI.",
+      "relevance_score": 9.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP55144.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "23rd May 2026",
+      "job_ref": "ENG03868"
+    },
+    {
+      "title": "PhD Studentship: Epilepsy Research Institute UK PhD Fellowship: Extracting added value from home EEG epilepsy diagnostics for children and young adults",
+      "url": "https://www.jobs.ac.uk/job/DRR240/phd-studentship-epilepsy-research-institute-uk-phd-fellowship-extracting-added-value-from-home-eeg-epilepsy-diagnostics-for-children-and-young-adults/",
+      "description": "The King’s College London research division of Digital Health and Applied Technology Assessment (DHATA) is inviting applications for a PhD studentship to commence on Monday 21 September 2026. One in 100 people have epilepsy, which accounts for 1% of all healthy life years lost in Europe. Its negative consequences are worsened by the diagnostic delay that occurs in up to 77% of patients, which predicts extra adverse neurodevelopment in children. This PhD project aims to improve and personalise epilepsy diagnostics for children and young adults, by applying new analytics to clinical home electroencephalography (EEG). The objectives are to leverage untapped value from ‘non-diagnostic’ EEG, by analysing i) sleep and ii) heart rate variability, and iii) stratifying data by multi-morbidity profile. The PhD will be supervised by Dr Kimberley Whitehead (DHATA, Florence Nightingale Faculty of Nursing, Midwifery & Palliative Care (NMPC)) and Dr Joel Winston (Institute of Psychiatry, Psychology & Neuroscience, IoPPN). The successful candidate will join a dynamic community of researchers at King’s who are studying epilepsy , neurodevelopment, and neurophysiology using signal processing and data science methods. In addition to project-specific training, the student will have free access to our in-person MRes Clinical Research module in Advanced Quantitative Research Methods , and a comprehensive programme of professional development courses. There is a lively post-graduate research culture at King’s, including 3-minute thesis events and an annual symposium. This award is open to Home-fee students only. The appointee will have a strong background in health data science, software engineering, neuroscience, or similar. Applicants will normally hold, or be about to complete, a Master’s degree in a relevant field (Merit or above) or have equivalent experience, e.g. working full-time as a Research Assistant for a year. Programming proficiency is essential, ideally in MATLAB and/or R, and experience of time series analysis is desirable. We are looking for somebody who will contribute to and benefit from the vibrant in-person research culture at NMPC and IoPPN. This opportunity is not suitable for those who require to work from home. The successful candidate will have excellent communication skills with both scientific and lay audiences, as this project will involve patient and public engagement. We are also seeking an appointee who is motivated, passionate about healthcare science, and able to work independently and as part of a multidisciplinary team. This project is being generously funded by the Epilepsy Research Institute ’s supporters, including those affected by epilepsy. There is an expectation that the candidate will engage with the donor. Applicants must be committed to this PhD opportunity, and preference will be given to those who have a proven ability to complete and deliver projects. Informal enquiries and visits to Dr Whitehead at her research division are encouraged ( kimberley.whitehead@kcl.ac.uk ). Candidates must apply via the King’s Apply system, for Health Studies Research MPhil/PhD (Full-time) . Quote the project title, and indicate Dr Whitehead as primary and Dr Winston as secondary supervisor. Please include: Your CV to ‘Employment History’. A 500-word statement outlining how you meet the eligibility criteria to ‘Supporting Statement’. Funding: Please choose Option 5 “I am applying for a funding award administered by King’s” and under “Award Scheme Code” enter 26KERI . Two references, with at least one being academic. We encourage applicants to send the same paperwork to Dr Whitehead at the time that they submit it to King’s Apply. For eligible students, this award will cover Home tuition fees, an annual tax-free stipend of approximately £24,643 for 3 years full-time, and a contribution to UK conference costs.",
+      "posted_date": "",
+      "source": "jobs.ac.uk Mathematics",
+      "deadline": "2026-06-19T00:00:00+00:00",
+      "requirements": "Research Area: Epilepsy diagnostics for children and young adults using home EEG data, focusing on sleep, heart rate variability, and multi-morbidity stratification.\nKey Requirements: Strong background in health data science, software engineering, neuroscience, or similar. Master's degree (or equivalent) in a relevant field. Home-fee student status.\nApplication Info: Deadline: 2026-06-19T00:00:00+00:00. Required Materials: N/A. Contact: N/A.\nPosition Details: Location: London, England, United Kingdom. Contract Type: N/A. Workload: Full Time. Salary: N/A.\nOne-line Advice: CVs should highlight experience in signal processing, data science, and potentially medical imaging or LLM applications if relevant to analyzing complex biological signals.",
+      "relevance_score": 8.0,
+      "institution": "King's College London",
+      "location": "London, England, United Kingdom",
+      "salary": "",
+      "hours": "Full Time",
+      "contract_type": "",
+      "placed_on": "26th May 2026",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Research Associate in Computer Vision",
+      "url": "https://www.jobs.ac.uk/job/DRR708/research-associate-in-computer-vision/",
+      "description": "Fixed-term for 2 years Location: Wolfson Building, Parks Road, Oxford We are seeking a highly motivated We are seeking a Postdoctoral Research Associate in Computer Vision to join the Visual Geometry Group (Central Oxford), funded by ERC. Reporting to the Principal Investigator, you will help ensure a healthy and vibrant research environment within the Visual Geometry Group. This will involve conducting projects in computer vision research, including the work involved in the collaborations with project partners. Informal enquiries may be addressed to Prof. Christian Rupprecht at christian.rupprecht@cs.ox.ac.uk The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however flexible working can be considered. About Us The University of Oxford is a stimulating work environment, which enjoys an international reputation as a world-class centre of excellence. Our research plays a key role in tackling many global challenges, from reducing our carbon emissions to developing vaccines during a pandemic. The Department of Computer Science at Oxford is renowned for pioneering research and teaching across diverse fields, consistently ranking among the best in the world. Our commitment to innovation drives us to tackle complex technological and societal challenges. What We Offer As an employer, we genuinely care about our employees’ wellbeing, reflected in the range of benefits that we offer including: Excellent contributory pension scheme 38 days annual leave (including public holidays) – pro rata for part time jobs Family leave schemes Cycle loan scheme and discounted public transport The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however remote and flexible working can be considered. Diversity Committed to equality and valuing diversity. Application Process You will be required to upload a supporting statement and an up-to-date CV as part of your online application. Your supporting statement must clearly demonstrate how you meet each of the essential selection criteria listed in the job description. Applications that do not include a supporting statement or CV, or fail to address the criteria in sufficient detail, will not be considered. While we recognise the value of AI tools in assisting with application preparation, submissions that are clearly AI-generated without personalisation or insight will be rejected. It's crucial that your application reflects your own experiences and understanding of the role. The closing date for applications is midday on 26 th June 2026. Interviews are expected to be held in early July. £39,424 to £43,984 per annum inclusive of Oxford University weighting. Grade 07RS",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-26T00:00:00+00:00",
+      "requirements": "Research Area: Computer Vision\nKey Requirements: PhD in Computer Science or related field, strong research record in computer vision.\nApplication Info: deadline: 2026-06-26, required materials: N/A, contact: Prof. Christian Rupprecht at christian.rupprecht@cs.ox.ac.uk\nPosition Details: Oxford, England, United Kingdom, Fixed-Term/Contract (2 years), Full Time, GBP39424.00-GBP43984.00 YEAR\nOne-line Advice: N/A",
+      "relevance_score": 9.0,
+      "institution": "University of Oxford",
+      "location": "Oxford, England, United Kingdom",
+      "salary": "GBP39424.00-GBP43984.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "27th May 2026",
+      "job_ref": "186588"
+    },
+    {
+      "title": "Research Associate in Neural Rendering and Medical Image Reconstruction",
+      "url": "https://www.jobs.ac.uk/job/DRR471/research-associate-in-neural-rendering-and-medical-image-reconstruction/",
+      "description": "Fixed-term for 2 years Location: Wolfson Building, Parks Road, Oxford We are looking for a postdoctoral research associate position is available in the Oxford Machine Learning in Neuroimaging (OMNI) lab at Oxford’s Department of Computer Science. The post-holder will report directly to Professor Ana Namburete and will work within a multidisciplinary team of deep learning researchers, research software engineers, and obstetricians, and will collaborate with Dr João Henriques (Visual Geometry Group, VGG) and Professor Aris Papageorghiou (Nuffield Department of Women’s and Reproductive Health). The project focuses on efficient neural implicit representations and neural rendering methods for volumetric reconstruction from freehand ultrasound sweeps acquired with handheld probes. The overarching goal is to enable near-real-time 3D reconstruction at the bedside, supporting quantitative assessment of fetal brain development in low-resource settings. The post-holder will develop machine learning and neural scene representation methods for reconstructing 3D fetal brain volumes from handheld ultrasound video, and integrate these algorithms into interactive clinical imaging workflows. They will contribute to research at the intersection of 3D computer vision, neural rendering, and medical image analysis. This includes developing scalable 2D-to-3D reconstruction architectures and working with ultrasound acquisition systems to deliver interactive feedback during scanning. Flexible working The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however remote and flexible working can be considered. What We Offer As an employer, we genuinely care about our employees’ wellbeing and this is reflected in the range of benefits that we offer including: An excellent contributory pension scheme 38 days annual leave (pro-rata for part-time roles) A comprehensive range of childcare services Family leave schemes Cycle loan scheme Discounted bus travel and Season Ticket travel loans Membership to a variety of social and sports clubs Diversity Committed to equality and valuing diversity. Application Process You will be required to upload a supporting statement and an up-to-date CV as part of your online application. Your supporting statement must clearly demonstrate how you meet each of the essential selection criteria listed in the job description. Applications that do not include a supporting statement or CV, or fail to address the criteria in sufficient detail, will not be considered. While we recognise the value of AI tools in assisting with application preparation, submissions that are clearly AI-generated without personalisation or insight will be rejected. It's crucial that your application reflects your own experiences and understanding of the role. The closing date for applications is noon on 29 th June 2026. Interviews are expected to be held in July. £39,424 to £43,984 per annum inclusive of Oxford University weighting. Grade 07RS",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-29T00:00:00+00:00",
+      "requirements": "Research Area: Neural rendering, neural implicit representations, volumetric reconstruction from freehand ultrasound, 3D computer vision, medical image analysis, machine learning for neuroimaging.\nKey Requirements: Postdoctoral research experience, expertise in machine learning and neural scene representation, experience with 3D computer vision and neural rendering, ability to integrate algorithms into clinical workflows, experience with ultrasound acquisition systems is a plus.\nApplication Info: deadline/start date: 2026-06-29T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: Oxford, England, United Kingdom, contract type: Fixed-Term/Contract (2 years), workload: Full Time, salary: GBP39424.00-GBP43984.00 YEAR\nOne-line Advice: CV should highlight experience in neural rendering, 3D reconstruction, and machine learning applied to medical imaging.",
+      "relevance_score": 10.0,
+      "institution": "University of Oxford",
+      "location": "Oxford, England, United Kingdom",
+      "salary": "GBP39424.00-GBP43984.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "26th May 2026",
+      "job_ref": "186515"
+    },
+    {
+      "title": "Research Associate* in Machine Learning Aided Data Compression and Communication",
+      "url": "https://www.jobs.ac.uk/job/DRR238/research-associate-in-machine-learning-aided-data-compression-and-communication/",
+      "description": "About the role The post is funded by the UKRI AI-Hub INFORMED-AI to explore novel data compression and communication methods building upon information theoretic foundations while exploiting recent advancements in deep learning architectures and training methodologies. This full-time, in-person postdoctoral position is based at Imperial College’s South Kensington Campus in London, UK, and is funded for up to 18 months, starting in July 2026. What you would be doing Key responsibilities include: To take initiatives in the planning of research To undertake original research of international excellence To ensure the validity and reliability of data at all times To maintain accurate and complete records of all findings To write reports for submission to research sponsors To present findings to colleagues and at conferences To submit publications to refereed journals What we are looking for Education: Research Associate: Hold a PhD in mathematics, engineering, or a related topic. Research Assistant: Hold a master’s degree in mathematics, engineering or a related topic and be near completion of a PhD. Experience Practical experience within a research environment and / or publication in relevant and refereed journals Practical experience in a broad range of techniques, including, Optimisation and signal processing methods. Information and coding theory. Communication systems. Design and training of deep neural networks. Implementation of algorithms via computer simulation. Experience with programming in Python or C/C++ Knowledge Knowledge and research experience in one or more of the following areas: information theory, machine learning theory (in particular generative models), communication systems, signal processing, inverse problems, optimization and compression methods. Knowledge of research methods and statistical procedures. Skills and Abilities Ability to conduct a detailed review of recent literature Ability to develop and apply new concepts Creative approach to problem-solving Excellent verbal communication skills and the ability to deal with a wide range of people Excellent written communication skills and the ability to write clearly and succinctly for publication What we can offer you The opportunity to continue your career at a world-leading institution and be part of our mission to continue science for humanity. The opportunity to interact and collaborate with researchers across the INFORMED-AI Hub with regular seminars, training schools, and meetings. Grow your career: gain access to Imperial’s sector-leading dedicated career support for researchers as well as opportunities for promotion and progression. Sector-leading salary and remuneration package (including 39 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further information Please note that job descriptions cannot be exhaustive, and the post-holder may be required to undertake other duties, which are broadly in line with the above key responsibilities. For any specific queries regarding the post please contact Prof Deniz Gunduz (d.gunduz@imperial.ac.uk) *Candidates who have not yet been officially awarded their PhD will be appointed as Research Assistant. £49,017 to £57,582 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-11T00:00:00+00:00",
+      "requirements": "Research Area: Machine Learning Aided Data Compression and Communication, Information Theory, Deep Learning Architectures, Communication Systems, Signal Processing, Optimization, Generative Models, Inverse Problems\nKey Requirements: PhD in mathematics, engineering, or related topic; practical experience in a research environment and/or publications; experience in optimization, signal processing, information/coding theory, communication systems, design/training of deep neural networks, algorithm implementation via simulation; programming in Python or C/C++; knowledge in information theory, machine learning theory (generative models), communication systems, signal processing, inverse problems, optimization, and compression methods.\nApplication Info: deadline: 2026-06-11T00:00:00+00:00; start date: July 2026; required materials: N/A; contact: N/A\nPosition Details: location: London, England, United Kingdom; contract type: Fixed-Term/Contract (up to 18 months); workload: Full Time; salary: GBP49017.00-GBP57582.00 YEAR\nOne-line Advice: CVs with strong publication records in information theory, machine learning (especially generative models), and communication systems will be highly relevant.",
+      "relevance_score": 7.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP49017.00-GBP57582.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "26th May 2026",
+      "job_ref": "ENG03922"
+    },
+    {
+      "title": "Eric and Wendy Schmidt AI in Science Postdoctoral Fellows, a Program of Schmidt Sciences (Research Associate)",
+      "url": "https://www.jobs.ac.uk/job/DRP014/eric-and-wendy-schmidt-ai-in-science-postdoctoral-fellows-a-program-of-schmidt-sciences-research-associate/",
+      "description": "About the role : Applications are invited for prestigious Eric and Wendy Schmidt AI in Science Fellowships, a program of Schmidt Sciences, commencing 01 September 2027, with a duration of 2 years. The fellowship MUST start on or before 01 September 2027 as the grant funding ends on 31 August 2029. What you would be doing : The Eric and Wendy Schmidt AI in Science Fellows will produce independent and original research, using AI to advance science within their host department and the I-X Centre for AI in Science. These fellowships have the aim of identifying excellent researchers and accelerating them in using AI to advance and disrupt Science or Engineering. Here ‘AI’ is interpreted very broadly, e.g.: topics in Bayesian Inference and Robotics; ‘Science’ covers any typical topic in Natural Science and Engineering (Epidemiology, Biology and basic science in biomedicine are included but clinical medical themes are not covered, including conventional medical imaging). Examples include Bayesian optimization for molecular or materials design; machine learning for single cell data; physics-based ML for turbine design and astrostatistics. This post is not suitable for generic AI research with general application: candidates must be aiming to substantially advance a particular area of science. Applicants could view themselves as AI researchers tackling particular pieces of science or science researchers using AI to transform their area. Extensive AI knowledge is not required, and AI training is offered as discussed by one of our alumni here. What we are looking for : Candidates will: Hold, or be near completion of, a PhD (or equivalent) in an appropriate discipline. Have the potential for leadership qualities in the subject, as illustrated, for example, through showing initiative on research projects. Have an outstanding research record commensurate with their level of experience as demonstrated, for example, through an outstanding thesis, publications, conference presentations, code etc. Have a proposal which is within the AI in Science research remit and skills which fit the cohort of AI in Science fellows. What we can offer you : You will join the Eric and Wendy Schmidt Network of researchers and will join a unique co-located cohort of top scholars based in the I-X Centre for AI in Science with tailored training and one-on-one career development. The fellowships are flexible and independent, allowing recipients to freely explore while drawing on expert faculty mentors of their choice. We have a programme of additional support for women in AI in Science including a coaching circle for women in AI, additional funds for their career development and a community of I-X AI in Science women. The I-X Women in Artificial Intelligence ( IXWAI ) founded by two of our current Fellows aims to enhance representation of women in AI and foster an environment where they are valued, supported and inspired to achieve their full potential. We expect to appoint at least one candidate through this route. This is a full time, fixed term position for 2 years. You will be based at White City Campus. Candidates who have not yet been officially awarded their PhD will be appointed as a Research Assistant. If you have any queries about this opportunity, please contact Eileen Boyce at e.boyce@imperial.ac.uk Further information about the I-X Centre for AI in Science can be found at AI in Science Fellowships | Research groups | Imperial College London which includes an introductory video. If candidates want to also be considered at the Research Fellow level, then they need to send in an additional application for that role (the documents submitted can be repeated). Further Information In addition to completing the online application, candidates should, after carefully consulting the Job Description, FAQ and related documents , upload the following documents: A full CV including publications. An additional single file with: Publication Elaboration: a 1 page, or less, note outlining the contribution of up to three papers by the applicant suitable for a general scientific reader. Research Proposal Summary: a 1 page or less, summary of the proposed research suitable for a general scientific audience. Particular attention will be paid to this summary. It should answer the question of why/how this application of AI will be transformative for the target area of science. The proposal should start by mentioning, the applicant’s proposed department and at least one mentor who has agreed to support the application – one mentor should be within the fellow’s proposed department, but others could be outside. Mentors must be contacted in advance of the application. It is not essential that the mentor be a very close fit to the proposed research, entirely independent research efforts are welcomed, but a collaborative mentorship is likely to make the science more credible. Research Proposal: a 3 pages or less proposal that explains why and how the proposed research could be transformative for a particular area of science. It can be structured around background, a small number of hypotheses/aims, and work packages. It can be assumed that the reader will first read the Summary and so content need not be repeated. Training Plan: a ½ page or less plan, identifying any particular skills that need to be acquired for the proposed research to succeed. Training is a key part of the proposed fellowship, whether helping an AI expert master a scientific topic or a scientific topic expert advance their AI skills. Deep expertise in AI (or the particular Science area) is not a pre-requisite: the minimum level of AI/Science experience is that needed to credibly articulate a plan for how AI will advance Science. Fit to AI in Science Remit: a ¼ page or less outline of how your proposal fits within the AI in Science remit – please check your proposal’s fit here . Kindness Statement: a ¼ page or less outline of your view on the need for kindness among scientists. The fellows will join a cohort of fellows in AI for Science with opportunities for outreach and LMIC engagement. Mobility Statement (for applicants currently at Imperial only): Schmidt Sciences seeks to enable national and international mobility: candidates from outside Imperial are particularly encouraged to apply. Candidates that are already in Imperial are asked to supply several sentences in their mobility statement outlining, in a distinctive and compelling manner, how remaining in Imperial is the best route for their personal growth. Applicants from Imperial are required to move from their existing supervisor to entirely new mentors for their Schmidt Fellowship, to increase both their independence and their breadth of experience (existing mentors cannot become secondary mentors). Joint Fellowship We have partnered with the Institute of Cancer Research (ICR) and the CNRS. If you are applying for a joint fellowship, we require that the principal mentor be in Imperial, but a secondary supervisor must be at ICR/CNRS. Please indicate if this is a joint fellowship by ticking the appropriate ICR/CNRS tick box in the online application form. Please note that these applications will require an institutional letter of support and ICR and CNRS will have their own internal process with a deadline ahead of the closing date below. The ICR deadline will be Monday 29 th June at 9am . You must contact Becky Cook ( rebecca.cook@icr.ac.uk ) at ICR and Carl Iamov carl.ialamov@cnrs.fr and/or Louis Avigdor louis.avigdor@cnrs-dir.fr at CNRS to confirm these internal processes and deadlines. £55,144 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-07-23T00:00:00+00:00",
+      "requirements": "Research Area: AI in Science and Engineering (broadly interpreted, including Bayesian Inference, Robotics, Natural Science, Engineering, Epidemiology, Biology, basic biomedicine; excluding clinical medical themes and conventional medical imaging). Specific examples include Bayesian optimization for molecular/materials design, machine learning for single cell data, physics-based ML for turbine design, and astrostatistics.\nKey Requirements: PhD (or equivalent) in an appropriate discipline, or near completion. Potential for leadership qualities.\nApplication Info: Deadline: 2026-07-23T00:00:00+00:00. Start Date: 01 September 2027 (must start on or before this date). Required materials: N/A. Contact: N/A.\nPosition Details: Location: London, England, United Kingdom. Contract Type: Fixed-Term/Contract. Workload: Full Time. Salary: GBP55144.00 YEAR.\nOne-line Advice: Excellent for CV/medical imaging/LLM applicants if research focuses on advancing a specific scientific domain using AI, not generic AI.",
+      "relevance_score": 9.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP55144.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "23rd May 2026",
+      "job_ref": "ENG03868"
+    },
+    {
+      "title": "PhD Studentship: Epilepsy Research Institute UK PhD Fellowship: Extracting added value from home EEG epilepsy diagnostics for children and young adults",
+      "url": "https://www.jobs.ac.uk/job/DRR240/phd-studentship-epilepsy-research-institute-uk-phd-fellowship-extracting-added-value-from-home-eeg-epilepsy-diagnostics-for-children-and-young-adults/",
+      "description": "The King’s College London research division of Digital Health and Applied Technology Assessment (DHATA) is inviting applications for a PhD studentship to commence on Monday 21 September 2026. One in 100 people have epilepsy, which accounts for 1% of all healthy life years lost in Europe. Its negative consequences are worsened by the diagnostic delay that occurs in up to 77% of patients, which predicts extra adverse neurodevelopment in children. This PhD project aims to improve and personalise epilepsy diagnostics for children and young adults, by applying new analytics to clinical home electroencephalography (EEG). The objectives are to leverage untapped value from ‘non-diagnostic’ EEG, by analysing i) sleep and ii) heart rate variability, and iii) stratifying data by multi-morbidity profile. The PhD will be supervised by Dr Kimberley Whitehead (DHATA, Florence Nightingale Faculty of Nursing, Midwifery & Palliative Care (NMPC)) and Dr Joel Winston (Institute of Psychiatry, Psychology & Neuroscience, IoPPN). The successful candidate will join a dynamic community of researchers at King’s who are studying epilepsy , neurodevelopment, and neurophysiology using signal processing and data science methods. In addition to project-specific training, the student will have free access to our in-person MRes Clinical Research module in Advanced Quantitative Research Methods , and a comprehensive programme of professional development courses. There is a lively post-graduate research culture at King’s, including 3-minute thesis events and an annual symposium. This award is open to Home-fee students only. The appointee will have a strong background in health data science, software engineering, neuroscience, or similar. Applicants will normally hold, or be about to complete, a Master’s degree in a relevant field (Merit or above) or have equivalent experience, e.g. working full-time as a Research Assistant for a year. Programming proficiency is essential, ideally in MATLAB and/or R, and experience of time series analysis is desirable. We are looking for somebody who will contribute to and benefit from the vibrant in-person research culture at NMPC and IoPPN. This opportunity is not suitable for those who require to work from home. The successful candidate will have excellent communication skills with both scientific and lay audiences, as this project will involve patient and public engagement. We are also seeking an appointee who is motivated, passionate about healthcare science, and able to work independently and as part of a multidisciplinary team. This project is being generously funded by the Epilepsy Research Institute ’s supporters, including those affected by epilepsy. There is an expectation that the candidate will engage with the donor. Applicants must be committed to this PhD opportunity, and preference will be given to those who have a proven ability to complete and deliver projects. Informal enquiries and visits to Dr Whitehead at her research division are encouraged ( kimberley.whitehead@kcl.ac.uk ). Candidates must apply via the King’s Apply system, for Health Studies Research MPhil/PhD (Full-time) . Quote the project title, and indicate Dr Whitehead as primary and Dr Winston as secondary supervisor. Please include: Your CV to ‘Employment History’. A 500-word statement outlining how you meet the eligibility criteria to ‘Supporting Statement’. Funding: Please choose Option 5 “I am applying for a funding award administered by King’s” and under “Award Scheme Code” enter 26KERI . Two references, with at least one being academic. We encourage applicants to send the same paperwork to Dr Whitehead at the time that they submit it to King’s Apply. For eligible students, this award will cover Home tuition fees, an annual tax-free stipend of approximately £24,643 for 3 years full-time, and a contribution to UK conference costs.",
+      "posted_date": "",
+      "source": "jobs.ac.uk Mathematics",
+      "deadline": "2026-06-19T00:00:00+00:00",
+      "requirements": "Research Area: Epilepsy diagnostics for children and young adults using home EEG data, focusing on sleep, heart rate variability, and multi-morbidity stratification.\nKey Requirements: Strong background in health data science, software engineering, neuroscience, or similar. Master's degree (or equivalent) in a relevant field. Home-fee student status.\nApplication Info: Deadline: 2026-06-19T00:00:00+00:00. Required Materials: N/A. Contact: N/A.\nPosition Details: Location: London, England, United Kingdom. Contract Type: N/A. Workload: Full Time. Salary: N/A.\nOne-line Advice: CVs should highlight experience in signal processing, data science, and potentially medical imaging or LLM applications if relevant to analyzing complex biological signals.",
+      "relevance_score": 8.0,
+      "institution": "King's College London",
+      "location": "London, England, United Kingdom",
+      "salary": "",
+      "hours": "Full Time",
+      "contract_type": "",
+      "placed_on": "26th May 2026",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
