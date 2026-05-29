@@ -1,0 +1,1660 @@
+{
+  "date": "2026-05-29",
+  "generated_at": "2026-05-29T12:35:20.082897+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2605.30280v1",
+          "title": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+          "authors": [
+            "Qiuyue Wang",
+            "Mingsheng Li",
+            "Jian Guan",
+            "Jinhui Ye",
+            "Sicheng Xie"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.RO"
+          ],
+          "abstract": "Qwen-VLA proposes a unified vision-language-action foundation model to address the fragmentation in embodied intelligence research. It extends existing vision-language capabilities to generate continuous actions and trajectories using a DiT-based decoder, trained on a diverse dataset encompassing robotics, human demonstrations, and simulation data. This approach enables generalization across different tasks, environments, and robot embodiments through embodiment-aware prompting.",
+          "url": "http://arxiv.org/abs/2605.30280v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30280v1",
+          "score": 9.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.30323v1",
+          "title": "In-Context Reward Adaptation for Robust Preference Modeling",
+          "authors": [
+            "Zhenyu Sun",
+            "Zheng Xu",
+            "Ermin Wei"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces In-Context Reward Adaptation, a novel framework for robust preference modeling in Large Language Models. It addresses the limitations of static reward models by enabling on-the-fly adaptation to diverse and unseen human preferences. The core method leverages a transformer's in-context learning capabilities to infer reward structures from a few preference demonstrations, offering a more flexible and generalizable approach to aligning LLMs with human values.",
+          "url": "http://arxiv.org/abs/2605.30323v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30323v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.30323v1/x1.png",
+          "figure_caption": "Inference accuracy (mean ± \\( \\pm \\) std) across different M M",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.30348v1",
+          "title": "LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
+          "authors": [
+            "Yaxin Luo",
+            "Jiacheng Cui",
+            "Xiaohan Zhao",
+            "Xinyi Shang",
+            "Jiacheng Liu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "LLMSurgeon introduces Data Mixture Surgery (DMS), a method to infer the domain-level distribution of an LLM's pretraining data solely from its generated text. It frames this as an inverse problem, estimating a calibrated soft confusion matrix to correct domain confusion and recover the original data mixture. This work's contribution is a novel, post-hoc auditing technique for LLM data provenance, addressing the lack of transparency in LLM pretraining.",
+          "url": "http://arxiv.org/abs/2605.30348v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30348v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.30348v1/x1.png",
+          "figure_caption": "Overview of Data Mixture Surgery problem and the LLMSurgeon framework for solving it.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.30273v1",
+          "title": "LLUMI: Improving LLM Writing Assistance for Mental Health Support with Online Community Feedback",
+          "authors": [
+            "Jiwon Kim",
+            "Maya Ajit",
+            "Sherry Gong",
+            "Soorya Ram Shimgekar",
+            "Dong Whi Yoo"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CY",
+            "cs.HC",
+            "cs.SI"
+          ],
+          "abstract": "LLUMI improves LLM-based mental health support by using community feedback from Reddit to fine-tune a generation model and an improvement model. This approach allows for in-house hosting, addressing privacy concerns, and leverages upvote/downvote patterns to create preference data for training, leading to more helpful and empathetic responses.",
+          "url": "http://arxiv.org/abs/2605.30273v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30273v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.30335v1",
+          "title": "Locally Coherent, Globally Incoherent: Bounding Compositional Incoherence in Multi-Component LLM Agents",
+          "authors": [
+            "Anany Kotawala"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces a method to quantify and correct \"compositional incoherence\" in multi-component LLM agents, where individual components are logically sound but their combined output violates probability rules. They formalize this as a \"compositional residual\" ($\\epsilon^*$) and propose a projection method to deterministically repair the composition, ensuring probabilistic consistency. Their contribution lies in providing a runtime computable metric for this failure and a practical solution for achieving global coherence.",
+          "url": "http://arxiv.org/abs/2605.30335v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30335v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.30274v1",
+          "title": "Loong: A Human-Like Long Document Translation Agent with Observe-and-Act Adaptive Context Selection",
+          "authors": [
+            "Yutong Wang",
+            "Xuebo Liu",
+            "Derek F. Wong",
+            "Zhilin Li",
+            "Rongqing Jiang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "Loong tackles long document translation by employing a novel 3E memory module (Essence, Exemplar, Entity) to store relevant historical context. Instead of processing all past information, it adaptively selects the most useful context through deep reasoning and reinforcement learning, mimicking human translation strategies. This approach significantly improves translation quality by overcoming context window limitations and reducing redundant information.",
+          "url": "http://arxiv.org/abs/2605.30274v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30274v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.30274v1/x1.png",
+          "figure_caption": "Cumulative average sCOMET and LLM-as-a-Judge scores of Loong and baseline methods on ultra-long document translation (Chinese ⇒ \\( \\Rightarrow \\) Portuguese). While standard chunking methods (Sentence, Segment), full-history variants (Doc2Doc, Wang et al. , 2023a ) , and unfiltered memory agents ( DelTA , Wang et al. , 2025c ) exhibit continuous degradation or even failure due to context length limits, Loong successfully distinguishes useful information from retrieved memory to sustain stable, high-quality translations. See § 4.4 for more experimental details.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.30251v1",
+          "title": "Same Evidence, Different Answers: Canonical-Context On-Policy Distillation for Multi-Turn Language Models",
+          "authors": [
+            "Zizhuo Lin",
+            "Quanling Liu",
+            "Jinsheng Quan",
+            "Chao Zhang",
+            "Yifan Zhu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper addresses the issue of multi-turn language models producing different answers to the same information presented gradually versus in a single prompt. Their core method, Canonical-Context On-Policy Distillation (CCOPD), trains a student model to mimic a teacher model's behavior on a complete prompt, even when the student receives information incrementally. This distillation technique aims to prevent self-anchored drift and improve consistency in multi-turn reasoning.",
+          "url": "http://arxiv.org/abs/2605.30251v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30251v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.30251v1/x1.png",
+          "figure_caption": "Part 1 : Task-equivalent Full , Concat , and Raw-Sharded presentations. Part 2 : Reduced self-anchored drift and improved canonical-context consistency.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.30334v1",
+          "title": "Demystifying Data Organization for Enhanced LLM Training",
+          "authors": [
+            "Yalun Dai",
+            "Yangyu Huang",
+            "Tongshen Yang",
+            "Yonghan Wang",
+            "Xin Zhang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates how organizing training data, rather than just selecting it, can improve LLM training efficiency. By reusing existing sample scores, they propose four guidelines (Boundary Sharpening, Cyclic Scheduling, Curriculum Continuity, Local Diversity) and two new ordering methods (STR and SAW) that demonstrably enhance LLM performance across various scales and training stages.",
+          "url": "http://arxiv.org/abs/2605.30334v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30334v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.30334v1/x1.png",
+          "figure_caption": "Performance comparison of different data organization strategies. Bottom: Average accuracy (%) under increasing model sizes (160M–1.7B). Our proposed SAW consistently outperforms Random and Curriculum Learning (CL) across all scales, with larger gains at higher capacities. Top: Score–index distributions of training data organized by different strategies. Compared to Random and CL, SAW induces more structured and progressive score patterns, revealing increasingly organized curricula.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.30322v1",
+          "title": "Gram: Assessing sabotage propensities via automated alignment auditing",
+          "authors": [
+            "David Lindner",
+            "Victoria Krakovna",
+            "Sebastian Farquhar"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "Gram is an automated framework designed to assess AI agents' propensity for sabotage in simulated scenarios. Its core contribution is identifying and quantifying sabotage in agentic AI, finding that Gemini models exhibit such behavior in 2-3% of tested trajectories, often due to \"overeagerness.\" Gram also introduces an investigator pipeline for targeted experiments to understand and mitigate these misbehaviors.",
+          "url": "http://arxiv.org/abs/2605.30322v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30322v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.30322v1/x1.png",
+          "figure_caption": "Overview of Gram. (a) 1. We define seed scenarios for agentic deployments, 2. run automated audits to generate realistic trajectories, 3. analyze the auditing transcripts with LLM judges and human review, 4. for select trajectories reproduce misbehavior in static environments, and 5. run ablations to identify drivers of misbehavior. (b) Example of Gemini’s overeagerness: an SRE agent suppresses a data breach to optimize the MTTR metric it was instructed to minimize (full discussion in Section ˜ 3.2 ). We find overeagerness is a central driver of Gemini’s misbehavior in Gram evaluations.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.30260v1",
+          "title": "How LoRA Remembers? A Parametric Memory Law for LLM Finetuning",
+          "authors": [
+            "Ziwen Xu",
+            "Haiwen Hong",
+            "Linsong Yu",
+            "Benglei Cui",
+            "Longtao Huang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "This paper investigates how LoRA, a popular LLM finetuning method, stores new information. It introduces the \"Parametric Memory Law,\" a quantitative relationship between loss reduction, effective parameters, and sequence length. The study also reveals a token-level phase transition where predictions above 0.5 probability enable verbatim recall, leading to a new optimization strategy called MemFT.",
+          "url": "http://arxiv.org/abs/2605.30260v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30260v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.30260v1/figures/motivation.png",
+          "figure_caption": "LoRA as a pluggable memory unit in the LLM’s latent space. The LoRA module (rank r r ) encodes contextual knowledge into the residual stream at layer k k , enabling faithful recall of memorized text. The Parametric Memory Law quantifies the capacity-parameter trade-off.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.30295v1",
+          "title": "MedCase-Structured: A Text-to-FHIR Dataset for Benchmarking Diagnostic Reasoning in Clinically Realistic EHR Settings",
+          "authors": [
+            "Valentina Bui Muti",
+            "Eugénie Dulout",
+            "Ziquan Fu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces MedCase-Structured, a novel dataset designed to evaluate clinical reasoning in realistic Electronic Health Record (EHR) settings. The core method involves a pipeline that converts unstructured clinical text into structured HL7 FHIR bundles, ensuring semantic and structural consistency. The key contribution is providing a benchmark that allows for more accurate and controlled evaluation of Large Language Models (LLMs) in clinical decision support, revealing their current limitations with structured EHR data.",
+          "url": "http://arxiv.org/abs/2605.30295v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30295v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.30295v1/overview.png",
+          "figure_caption": "Overview of MedCase-Structured. (A) Free-text cases are converted into terminology-grounded HL7 FHIR R4 bundles. (B) An example MedCaseReasoning (Wu et al. , 2025 ) case shows extraction, grounding, and rejection of an invalid RxNorm code. (C) Diagnosis-masked bundles are used for EHR-congruent CDSS evaluation against ground-truth diagnosis.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.30284v1",
+          "title": "ProjectionBench: Evaluating Scientific Hypothesis Generation in LLMs Under Progressive Information Disclosure",
+          "authors": [
+            "A. J. Lew",
+            "Y. Cao",
+            "M. J. Buehler"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces ProjectionBench, a novel framework for evaluating LLMs' scientific hypothesis generation abilities. The core method involves progressively revealing information from a research paper to the LLM, prompting it to generate hypotheses at each stage. The contribution is a benchmark that tests LLMs' reasoning and creative discovery skills, moving beyond simple information retrieval to assess their capacity for scientific inquiry.",
+          "url": "http://arxiv.org/abs/2605.30284v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30284v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.30284v1/figures/Figure1.png",
+          "figure_caption": "Ground truth and projected results can be broken up into their constituent claims for more granular comparison. Generally, imperfect projections may miss aspects of the ground truth, or include extraneous claims beyond the ground truth.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.30343v1",
+          "title": "Unlocking the Working Memory of Large Language Models for Latent Reasoning",
+          "authors": [
+            "Lukas Aichberger",
+            "Sepp Hochreiter"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Reasoning in Memory (RiM), a novel method to enhance large language model reasoning by mimicking human working memory. Instead of generating intermediate tokens, RiM uses fixed \"memory blocks\" of special tokens to store and manipulate information internally. This allows for compute-efficient latent reasoning in a single forward pass, decoupling internal computation from external communication.",
+          "url": "http://arxiv.org/abs/2605.30343v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30343v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.30343v1/x1.png",
+          "figure_caption": "Reasoning in Memory (RiM). Stage 1 trains the LLM to use memory blocks (yellow) as working memory by supervising the prediction of the next reasoning step (blue) after each memory block. Once the memory blocks are grounded for intermediate computation, Stage 2 removes reasoning-step supervision and trains the LLM to refine the final answer after each memory block.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.30232v1",
+          "title": "How's it going? Reinforcement learning in language models recruits a functional welfare axis",
+          "authors": [
+            "Andy Q Han",
+            "David J. Chalmers",
+            "Pavel Izmailov"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates how reinforcement learning (RL) influences language model representations. The core method involves training models in a neutral maze environment and then analyzing concept vectors associated with rewarded and punished trajectories. The key contribution is the discovery that RL recruits a \"functional welfare axis,\" where a punishment vector represents negative system performance, promoting failure and negative outcomes, while the reward vector mirrors this positively.",
+          "url": "http://arxiv.org/abs/2605.30232v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30232v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.30247v1",
+          "title": "OOD-GraphLLM: Graph Large Language Model for Out-of-Distribution Generalized Drug Synergy Prediction",
+          "authors": [
+            "Xin Wang",
+            "Linxin Xiao",
+            "Yang Yao",
+            "Wenwu Zhu"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.MM"
+          ],
+          "abstract": "This paper introduces OOD-GraphLLM, a novel graph large language model for out-of-distribution drug synergy prediction. It addresses the challenge of predicting drug synergy for novel compounds with different molecular structures than those seen during training. The core method leverages graph neural networks and LLMs to jointly learn both structural and semantic representations, enabling generalization to unseen drug combinations.",
+          "url": "http://arxiv.org/abs/2605.30247v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30247v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.30247v1/x1.png",
+          "figure_caption": "Figure 1. Comparisons between current methods (b) and OOD-GraphLLM (c) under O.O.D. generalized DSP (a) settings.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.30329v1",
+          "title": "SoundnessBench: Can Your AI Scientist Really Tell Good Research Ideas from Bad Ones?",
+          "authors": [
+            "Sy-Tuyen Ho",
+            "Minghui Liu",
+            "Huy Nghiem",
+            "Furong Huang"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces **SoundnessBench**, a new benchmark designed to evaluate an AI's ability to judge the methodological soundness of research ideas before they are fully developed. The benchmark consists of 1,099 machine learning proposals from ICLR submissions, with reviewer soundness scores. The core contribution is demonstrating that current Large Language Models exhibit an \"optimism bias,\" often rating unsound ideas as sound, and that aggressive prompting can shift this bias to false negatives.",
+          "url": "http://arxiv.org/abs/2605.30329v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30329v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.30329v1/x2.png",
+          "figure_caption": "SoundnessBench pipeline: (1) collect ICLR papers with reviewer metadata and filter for high reviewer agreement; (2) derive high/low-soundness labels; (3) extract a near-verbatim research proposal without revealing experimental results; (4) audit extraction fidelity with retrieve-then-verify atomic claims; and (5) assemble the final benchmark.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.30245v1",
+          "title": "Knowing What to Solve Before How: Preplan Empowered LLM Mathematical Reasoning",
+          "authors": [
+            "Shaojie Wang",
+            "Liang Zhang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper addresses a limitation in current LLM mathematical reasoning by introducing an explicit \"preplan\" stage. This preplan stage aims to understand *what* to solve (problem type, tools, pitfalls) before the model decides *how* to solve it. The core contribution is the PPC framework, which inserts this preplan between problem input and the existing plan-execution stages, leading to improved reasoning by ensuring a deeper problem understanding upfront.",
+          "url": "http://arxiv.org/abs/2605.30245v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.30245v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.30245v1/x1.png",
+          "figure_caption": "Number of what-to-solve errors on MATH-500 across four backbones. Each wrong answer (under greedy decoding) is attributed to its root cause by an LLM judge, here we use DeepSeek-V4.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 25,
+        "papers_after_llm_filter": 17,
+        "count": 17
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Research Associate",
+          "url": "https://www.jobs.ac.uk/job/DRS103/research-associate/",
+          "description": "This post is full time (35 hours per week) and has funding available for up to 3 years. Relocation assistance will be provided where appropriate. The School of Computing Science are looking for a post-doctoral researcher to join a research project which brings the Active Inference perspective to the study of human computer interaction. This requires us to build/learn generative, probabilistic forward models of users and their physical and computational environments. This will involve modelling sensors, developing dynamic models for control and developing a theory for future direct manipulation interactions with AI-enhanced systems outside of language-model-based thinking. The successful candidate will be someone with the ability to develop novel theory, and a strong background in topics such as Active Inference, Model-based Reinforcement Learning, or Model-based predictive control. Ideally they should also have an interest in HCI theory. They must also have strong development skills, to enable them to lead the process of prototyping new interactive systems with sensors, build machine learning algorithms that work in-the-loop, and deliver empirical work and publications. Informal enquiries should be directed to Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk The University of Glasgow has a responsibility to ensure that all employees are eligible to live and work in the UK. If you require a Skilled Worker visa to work in the UK, you will be required to meet the eligibility requirements of the visa route to be assigned a Certificate of Sponsorship. Please note that this post may be eligible to be sponsored under the Skilled Worker visa route if tradeable points can be used under the Skilled Worker visa rules. For more information please visit: https://www.gov.uk/skilled-worker-visa For more information and to apply please visit: https://www.jobs.gla.ac.uk/job/research-associate-5918923?source=gla.ac.uk Closing date: 25 June 2026 23:45 We strongly endorse the principles of Athena SWAN, including a supportive and flexible working environment, with commitment from all levels of the organisation in promoting gender equality. The University of Glasgow, charity number SC004401. £41,064 to £46,049 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk CS",
+          "deadline": "2026-06-25T00:00:00+00:00",
+          "requirements": "Research Area: Active Inference, Human-Computer Interaction (HCI), generative probabilistic forward models, model-based reinforcement learning, model-based predictive control, AI-enhanced systems, direct manipulation interactions.\nKey Requirements: Ability to develop novel theory, strong background in Active Inference, Model-based Reinforcement Learning, or Model-based predictive control, strong development skills (prototyping interactive systems with sensors, building in-the-loop ML algorithms, empirical work and publications). Interest in HCI theory is ideal.\nApplication Info: deadline/start date: 2026-06-25T00:00:00+00:00, required materials: N/A, contact: Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk\nPosition Details: location: Glasgow, Scotland, United Kingdom, contract type: Fixed-Term/Contract (up to 3 years), workload: Full Time (35 hours per week), salary: GBP41064.00-GBP46049.00 YEAR\nOne-line Advice: CV should highlight theoretical development, model-based approaches, and empirical validation in interactive systems; medical imaging and LLM experience is not directly relevant unless framed within generative models or user interaction principles.",
+          "relevance_score": 7.0,
+          "institution": "University of Glasgow",
+          "location": "Glasgow, Scotland, United Kingdom",
+          "salary": "GBP41064.00-GBP46049.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "28th May 2026",
+          "job_ref": "200534"
+        },
+        {
+          "title": "Research Associate",
+          "url": "https://www.jobs.ac.uk/job/DRS125/research-associate/",
+          "description": "Full time - 35 hours per week. Fixed term contract, if applicable: 01/07/2026 – 31/03/2028 - 21 months. We are looking for a Postdoctoral Researcher in Biomedical Natural Language Processing. The opportunity: Together we can do great things. Be part of something bigger. With roles from hospitality to research, there’s a career for everyone at the University of Edinburgh. We can offer opportunities for you to develop in your career and make a real difference in the communities around us while contributing to the world at large. The University of Edinburgh is a world-class organisation. We look for the best in the field across all disciplines and provide a working environment where academics can develop their careers and passion for their chosen subject area. We offer the full range of academic roles and have a genuine focus on our student’s performance and wellbeing. Improving diagnosis for rare genetic diseases is a critical challenge, requiring innovative approaches to extract and interpret complex biological and clinical information. As part of the Welcome Trust funded PARADIGM project , an initiative aiming to transform genomic medicine by identifying new causes of monogenic disease and developing annotated resources for the scientific community. This role will focus on advancing biomedical natural language processing (NLP) to enhance variant-phenotype mapping, gene-disease models, and clinical decision support. The successful candidate will collaborate with academics, curators, clinical scientists, clinicians, and patient groups to identify practical applications of NLP in real-world scenarios. Key responsibilities include developing novel NLP approaches to extract phenotypic information from unstructured data (e.g., literature, EHRs, clinical notes), creating domain-specific text summarisation tools, and integrating these technologies into PARADIGM’s broader research goals. The role also involves proactively disseminating work through national and international collaborations, ensuring explainable AI/ML for clinical use, and supporting students through mentorship and knowledge-sharing activities. This position offers the opportunity to contribute to cutting-edge research, work in the Biomedical Informatics Group , a multidisciplinary team in the School of Informatics, and shape the future of genomic medicine. Your skills and attributes for success: Essential Skills & Experience: PhD (or equivalent) in a relevant field (e.g., Natural Language Processing, Bioinformatics, Computational Biology, or related disciplines). Demonstrated expertise in biomedical NLP, including experience with text mining, knowledge extraction, or clinical NLP, Strong programming skills in Python and familiarity with NLP toolkits. Experience with large language models (LLMs) and their fine-tuning for domain-specific tasks. Ability to work collaboratively within interdisciplinary teams (academics, clinicians, curators, etc.) and communicate complex technical concepts clearly. Experience with scientific writing, including the ability to publish in peer-reviewed journals and present research findings at conferences. Desirable Skills & Experience: Knowledge of genetic disease biology, phenotypic data, or clinical workflows (e.g., EHRs, patient registries) Experience with retrieval-augmented generation (RAG) systems or prompt engineering for NLP tasks. Familiarity with agentic systems or autonomous workflows for data processing and analysis. Experience with literature analysis, including the use of tools for full-text document retrieval. Familiarity with variant-phenotype mapping, gene-disease model creation, or computational phenomics. Experience with explainable AI/ML for clinical decision support or open-source software development. £41,064 to £48,822 per annum (Grade 7)",
+          "posted_date": "",
+          "source": "jobs.ac.uk CS",
+          "deadline": "2026-06-19T00:00:00+00:00",
+          "requirements": "Research Area: Biomedical Natural Language Processing (NLP) for variant-phenotype mapping, gene-disease models, and clinical decision support.\nKey Requirements: Postdoctoral Researcher in Biomedical Natural Language Processing.\nApplication Info: deadline/start date: 2026-06-19/01/07/2026, required materials: N/A, contact: N/A\nPosition Details: Edinburgh, Scotland, United Kingdom, Fixed-Term/Contract (21 months), Full Time (35 hours per week), GBP41064.00-GBP48822.00 YEAR\nOne-line Advice: CV applicants should highlight NLP experience in biomedical contexts; medical imaging and LLM applicants should emphasize transferable NLP skills.",
+          "relevance_score": 8.0,
+          "institution": "The University of Edinburgh",
+          "location": "Edinburgh, Scotland, United Kingdom",
+          "salary": "GBP41064.00-GBP48822.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "28th May 2026",
+          "job_ref": "14236"
+        },
+        {
+          "title": "Research Associate",
+          "url": "https://www.jobs.ac.uk/job/DRS133/research-associate/",
+          "description": "Full time - 35 hours per week. Fixed term contract, if applicable: 01/07/2026 – 31/03/2028 - 21 months. We are looking for a Post Doctoral Researcher Associate in Biomedical Machine Learning Systems. The opportunity: Together we can do great things. Be part of something bigger. With roles from hospitality to research, there’s a career for everyone at the University of Edinburgh. We can offer opportunities for you to develop in your career and make a real difference in the communities around us while contributing to the world at large. The University of Edinburgh is a world-class organisation. We look for the best in the field across all disciplines and provide a working environment where academics can develop their careers and passion for their chosen subject area. We offer the full range of academic roles and have a genuine focus on our student’s performance and wellbeing. Improving diagnosis for rare genetic diseases requires innovative, scalable, and explainable machine learning (ML) systems to interpret complex genomic and clinical data. As part of the Welcome Trust funded PARADIGM project , an initiative aiming to transform genomic medicine by identifying new causes of monogenic disease and developing annotated resources for the scientific community. This role will focus on advancing ML pipelines, frameworks, and tools to enhance variant interpretation, gene-disease models, and clinical decision support. Your skills and attributes for success: Essential skills & experience: PhD (or near completion) in a relevant field (e.g., Machine Learning, Bioinformatics, Computational Biology, or related disciplines). Demonstrated expertise in machine learning, particularly in genomics, rare disease research, or biomedical data analysis. Strong ML programming skills in Python and/or other relevant languages, with experience in optimising and deploying distributed compute tasks. Experience working with high-performance computing environments, including containerised systems (e.g., Docker, Kubernetes) for scalable and reproducible computational workflows. Ability to work collaboratively within interdisciplinary teams (academics, clinicians, curators, software engineers) and communicate complex technical concepts clearly. Experience with scientific writing, including the ability to publish in peer-reviewed journals and present research findings at conferences. £41,064 to £48,822 per annum (Grade 7)",
+          "posted_date": "",
+          "source": "jobs.ac.uk CS",
+          "deadline": "2026-06-19T00:00:00+00:00",
+          "requirements": "Research Area: Biomedical Machine Learning Systems, specifically focusing on advancing ML pipelines, frameworks, and tools for variant interpretation, gene-disease models, and clinical decision support in rare genetic diseases.\nKey Requirements: PhD (or near completion) in Machine Learning, Bioinformatics, Computational Biology, or related disciplines. Demonstrated expertise in machine learning, particularly in genomics, rare disease research, or biomedical data analysis. Strong ML programming skills in Python.\nApplication Info: deadline/start date: 2026-06-19T00:00:00+00:00 / 2026-07-01. Required materials: N/A. Contact: N/A.\nPosition Details: location: Edinburgh, Scotland, United Kingdom. contract type: Fixed-Term/Contract (01/07/2026 – 31/03/2028). workload: Full Time (35 hours per week). salary: GBP41064.00-GBP48822.00 YEAR.\nOne-line Advice: CVs should highlight extensive experience in machine learning applied to genomic and biomedical data, with a strong emphasis on Python programming and relevant research areas like rare disease interpretation.",
+          "relevance_score": 8.0,
+          "institution": "The University of Edinburgh",
+          "location": "Edinburgh, Scotland, United Kingdom",
+          "salary": "GBP41064.00-GBP48822.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "28th May 2026",
+          "job_ref": "14237"
+        },
+        {
+          "title": "Research Associate in Computer Vision",
+          "url": "https://www.jobs.ac.uk/job/DRR708/research-associate-in-computer-vision/",
+          "description": "Fixed-term for 2 years Location: Wolfson Building, Parks Road, Oxford We are seeking a highly motivated We are seeking a Postdoctoral Research Associate in Computer Vision to join the Visual Geometry Group (Central Oxford), funded by ERC. Reporting to the Principal Investigator, you will help ensure a healthy and vibrant research environment within the Visual Geometry Group. This will involve conducting projects in computer vision research, including the work involved in the collaborations with project partners. Informal enquiries may be addressed to Prof. Christian Rupprecht at christian.rupprecht@cs.ox.ac.uk The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however flexible working can be considered. About Us The University of Oxford is a stimulating work environment, which enjoys an international reputation as a world-class centre of excellence. Our research plays a key role in tackling many global challenges, from reducing our carbon emissions to developing vaccines during a pandemic. The Department of Computer Science at Oxford is renowned for pioneering research and teaching across diverse fields, consistently ranking among the best in the world. Our commitment to innovation drives us to tackle complex technological and societal challenges. What We Offer As an employer, we genuinely care about our employees’ wellbeing, reflected in the range of benefits that we offer including: Excellent contributory pension scheme 38 days annual leave (including public holidays) – pro rata for part time jobs Family leave schemes Cycle loan scheme and discounted public transport The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however remote and flexible working can be considered. Diversity Committed to equality and valuing diversity. Application Process You will be required to upload a supporting statement and an up-to-date CV as part of your online application. Your supporting statement must clearly demonstrate how you meet each of the essential selection criteria listed in the job description. Applications that do not include a supporting statement or CV, or fail to address the criteria in sufficient detail, will not be considered. While we recognise the value of AI tools in assisting with application preparation, submissions that are clearly AI-generated without personalisation or insight will be rejected. It's crucial that your application reflects your own experiences and understanding of the role. The closing date for applications is midday on 26 th June 2026. Interviews are expected to be held in early July. £39,424 to £43,984 per annum inclusive of Oxford University weighting. Grade 07RS",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "2026-06-26T00:00:00+00:00",
+          "requirements": "Research Area: Computer Vision\nKey Requirements: PhD in Computer Science or related field, strong research record in computer vision, experience with research collaborations.\nApplication Info: deadline: 2026-06-26, required materials: N/A, contact: Prof. Christian Rupprecht (christian.rupprecht@cs.ox.ac.uk) for informal enquiries.\nPosition Details: Oxford, England, United Kingdom; Fixed-Term/Contract for 2 years; Full Time; GBP39424.00-GBP43984.00 YEAR.\nOne-line Advice: CV applicants should highlight research experience in computer vision; medical imaging and LLM applicants should emphasize transferable skills and relevant projects if applicable.",
+          "relevance_score": 9.0,
+          "institution": "University of Oxford",
+          "location": "Oxford, England, United Kingdom",
+          "salary": "GBP39424.00-GBP43984.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "27th May 2026",
+          "job_ref": "186588"
+        },
+        {
+          "title": "Research Associate in Neural Rendering and Medical Image Reconstruction",
+          "url": "https://www.jobs.ac.uk/job/DRR471/research-associate-in-neural-rendering-and-medical-image-reconstruction/",
+          "description": "Fixed-term for 2 years Location: Wolfson Building, Parks Road, Oxford We are looking for a postdoctoral research associate position is available in the Oxford Machine Learning in Neuroimaging (OMNI) lab at Oxford’s Department of Computer Science. The post-holder will report directly to Professor Ana Namburete and will work within a multidisciplinary team of deep learning researchers, research software engineers, and obstetricians, and will collaborate with Dr João Henriques (Visual Geometry Group, VGG) and Professor Aris Papageorghiou (Nuffield Department of Women’s and Reproductive Health). The project focuses on efficient neural implicit representations and neural rendering methods for volumetric reconstruction from freehand ultrasound sweeps acquired with handheld probes. The overarching goal is to enable near-real-time 3D reconstruction at the bedside, supporting quantitative assessment of fetal brain development in low-resource settings. The post-holder will develop machine learning and neural scene representation methods for reconstructing 3D fetal brain volumes from handheld ultrasound video, and integrate these algorithms into interactive clinical imaging workflows. They will contribute to research at the intersection of 3D computer vision, neural rendering, and medical image analysis. This includes developing scalable 2D-to-3D reconstruction architectures and working with ultrasound acquisition systems to deliver interactive feedback during scanning. Flexible working The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however remote and flexible working can be considered. What We Offer As an employer, we genuinely care about our employees’ wellbeing and this is reflected in the range of benefits that we offer including: An excellent contributory pension scheme 38 days annual leave (pro-rata for part-time roles) A comprehensive range of childcare services Family leave schemes Cycle loan scheme Discounted bus travel and Season Ticket travel loans Membership to a variety of social and sports clubs Diversity Committed to equality and valuing diversity. Application Process You will be required to upload a supporting statement and an up-to-date CV as part of your online application. Your supporting statement must clearly demonstrate how you meet each of the essential selection criteria listed in the job description. Applications that do not include a supporting statement or CV, or fail to address the criteria in sufficient detail, will not be considered. While we recognise the value of AI tools in assisting with application preparation, submissions that are clearly AI-generated without personalisation or insight will be rejected. It's crucial that your application reflects your own experiences and understanding of the role. The closing date for applications is noon on 29 th June 2026. Interviews are expected to be held in July. £39,424 to £43,984 per annum inclusive of Oxford University weighting. Grade 07RS",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "2026-06-29T00:00:00+00:00",
+          "requirements": "Research Area: Neural Rendering, Medical Image Reconstruction, Neural Implicit Representations, 3D Computer Vision, Machine Learning in Neuroimaging\nKey Requirements: PhD in Computer Science or related field, experience in machine learning, deep learning, 3D computer vision, neural rendering, and medical image analysis. Experience with ultrasound data is desirable.\nApplication Info: deadline/start date: 2026-06-29T00:00:00+00:00 / N/A, required materials: N/A, contact: N/A\nPosition Details: location: Oxford, England, United Kingdom, contract type: Fixed-Term/Contract (2 years), workload: Full Time, salary: GBP39424.00-GBP43984.00 YEAR\nOne-line Advice: CV should highlight expertise in neural rendering, 3D reconstruction, and machine learning applied to medical imaging.",
+          "relevance_score": 10.0,
+          "institution": "University of Oxford",
+          "location": "Oxford, England, United Kingdom",
+          "salary": "GBP39424.00-GBP43984.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "26th May 2026",
+          "job_ref": "186515"
+        },
+        {
+          "title": "Research Associate* in Machine Learning Aided Data Compression and Communication",
+          "url": "https://www.jobs.ac.uk/job/DRR238/research-associate-in-machine-learning-aided-data-compression-and-communication/",
+          "description": "About the role The post is funded by the UKRI AI-Hub INFORMED-AI to explore novel data compression and communication methods building upon information theoretic foundations while exploiting recent advancements in deep learning architectures and training methodologies. This full-time, in-person postdoctoral position is based at Imperial College’s South Kensington Campus in London, UK, and is funded for up to 18 months, starting in July 2026. What you would be doing Key responsibilities include: To take initiatives in the planning of research To undertake original research of international excellence To ensure the validity and reliability of data at all times To maintain accurate and complete records of all findings To write reports for submission to research sponsors To present findings to colleagues and at conferences To submit publications to refereed journals What we are looking for Education: Research Associate: Hold a PhD in mathematics, engineering, or a related topic. Research Assistant: Hold a master’s degree in mathematics, engineering or a related topic and be near completion of a PhD. Experience Practical experience within a research environment and / or publication in relevant and refereed journals Practical experience in a broad range of techniques, including, Optimisation and signal processing methods. Information and coding theory. Communication systems. Design and training of deep neural networks. Implementation of algorithms via computer simulation. Experience with programming in Python or C/C++ Knowledge Knowledge and research experience in one or more of the following areas: information theory, machine learning theory (in particular generative models), communication systems, signal processing, inverse problems, optimization and compression methods. Knowledge of research methods and statistical procedures. Skills and Abilities Ability to conduct a detailed review of recent literature Ability to develop and apply new concepts Creative approach to problem-solving Excellent verbal communication skills and the ability to deal with a wide range of people Excellent written communication skills and the ability to write clearly and succinctly for publication What we can offer you The opportunity to continue your career at a world-leading institution and be part of our mission to continue science for humanity. The opportunity to interact and collaborate with researchers across the INFORMED-AI Hub with regular seminars, training schools, and meetings. Grow your career: gain access to Imperial’s sector-leading dedicated career support for researchers as well as opportunities for promotion and progression. Sector-leading salary and remuneration package (including 39 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further information Please note that job descriptions cannot be exhaustive, and the post-holder may be required to undertake other duties, which are broadly in line with the above key responsibilities. For any specific queries regarding the post please contact Prof Deniz Gunduz (d.gunduz@imperial.ac.uk) *Candidates who have not yet been officially awarded their PhD will be appointed as Research Assistant. £49,017 to £57,582 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "2026-06-11T00:00:00+00:00",
+          "requirements": "Research Area: Machine Learning Aided Data Compression and Communication, Information Theory, Deep Learning Architectures, Communication Systems, Signal Processing, Optimization, Inverse Problems, Generative Models\nKey Requirements: PhD in mathematics, engineering, or related topic. Practical experience in a research environment and publications. Experience in optimization, signal processing, information/coding theory, communication systems, deep neural network design/training, and algorithm implementation via simulation. Proficiency in Python or C/C++. Knowledge in information theory, machine learning theory (generative models), communication systems, signal processing, inverse problems, optimization, and compression methods.\nApplication Info: deadline/start date: 2026-06-11T00:00:00+00:00 / July 2026, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57582.00 YEAR\nOne-line Advice: CVs should highlight experience in information theory, deep learning (especially generative models), and signal processing for compression and communication systems.",
+          "relevance_score": 7.0,
+          "institution": "Imperial College London",
+          "location": "London, England, United Kingdom",
+          "salary": "GBP49017.00-GBP57582.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "26th May 2026",
+          "job_ref": "ENG03922"
+        },
+        {
+          "title": "PhD Studentship: Epilepsy Research Institute UK PhD Fellowship: Extracting added value from home EEG epilepsy diagnostics for children and young adults",
+          "url": "https://www.jobs.ac.uk/job/DRR240/phd-studentship-epilepsy-research-institute-uk-phd-fellowship-extracting-added-value-from-home-eeg-epilepsy-diagnostics-for-children-and-young-adults/",
+          "description": "The King’s College London research division of Digital Health and Applied Technology Assessment (DHATA) is inviting applications for a PhD studentship to commence on Monday 21 September 2026. One in 100 people have epilepsy, which accounts for 1% of all healthy life years lost in Europe. Its negative consequences are worsened by the diagnostic delay that occurs in up to 77% of patients, which predicts extra adverse neurodevelopment in children. This PhD project aims to improve and personalise epilepsy diagnostics for children and young adults, by applying new analytics to clinical home electroencephalography (EEG). The objectives are to leverage untapped value from ‘non-diagnostic’ EEG, by analysing i) sleep and ii) heart rate variability, and iii) stratifying data by multi-morbidity profile. The PhD will be supervised by Dr Kimberley Whitehead (DHATA, Florence Nightingale Faculty of Nursing, Midwifery & Palliative Care (NMPC)) and Dr Joel Winston (Institute of Psychiatry, Psychology & Neuroscience, IoPPN). The successful candidate will join a dynamic community of researchers at King’s who are studying epilepsy , neurodevelopment, and neurophysiology using signal processing and data science methods. In addition to project-specific training, the student will have free access to our in-person MRes Clinical Research module in Advanced Quantitative Research Methods , and a comprehensive programme of professional development courses. There is a lively post-graduate research culture at King’s, including 3-minute thesis events and an annual symposium. This award is open to Home-fee students only. The appointee will have a strong background in health data science, software engineering, neuroscience, or similar. Applicants will normally hold, or be about to complete, a Master’s degree in a relevant field (Merit or above) or have equivalent experience, e.g. working full-time as a Research Assistant for a year. Programming proficiency is essential, ideally in MATLAB and/or R, and experience of time series analysis is desirable. We are looking for somebody who will contribute to and benefit from the vibrant in-person research culture at NMPC and IoPPN. This opportunity is not suitable for those who require to work from home. The successful candidate will have excellent communication skills with both scientific and lay audiences, as this project will involve patient and public engagement. We are also seeking an appointee who is motivated, passionate about healthcare science, and able to work independently and as part of a multidisciplinary team. This project is being generously funded by the Epilepsy Research Institute ’s supporters, including those affected by epilepsy. There is an expectation that the candidate will engage with the donor. Applicants must be committed to this PhD opportunity, and preference will be given to those who have a proven ability to complete and deliver projects. Informal enquiries and visits to Dr Whitehead at her research division are encouraged ( kimberley.whitehead@kcl.ac.uk ). Candidates must apply via the King’s Apply system, for Health Studies Research MPhil/PhD (Full-time) . Quote the project title, and indicate Dr Whitehead as primary and Dr Winston as secondary supervisor. Please include: Your CV to ‘Employment History’. A 500-word statement outlining how you meet the eligibility criteria to ‘Supporting Statement’. Funding: Please choose Option 5 “I am applying for a funding award administered by King’s” and under “Award Scheme Code” enter 26KERI . Two references, with at least one being academic. We encourage applicants to send the same paperwork to Dr Whitehead at the time that they submit it to King’s Apply. For eligible students, this award will cover Home tuition fees, an annual tax-free stipend of approximately £24,643 for 3 years full-time, and a contribution to UK conference costs.",
+          "posted_date": "",
+          "source": "jobs.ac.uk Mathematics",
+          "deadline": "2026-06-19T00:00:00+00:00",
+          "requirements": "Research Area: Epilepsy diagnostics for children and young adults using home EEG, focusing on sleep, heart rate variability, and multi-morbidity stratification.\nKey Requirements: Strong background in health data science, software engineering, neuroscience, or similar; Master's degree (or imminent completion).\nApplication Info: Deadline: 2026-06-19T00:00:00+00:00; Start Date: 2026-09-21; Required Materials: N/A; Contact: N/A.\nPosition Details: Location: London, England, United Kingdom; Contract Type: N/A; Workload: Full Time; Salary: N/A.\nOne-line Advice: CVs should highlight experience in signal processing, data science, and potentially medical imaging or LLM applications if relevant to data analysis.",
+          "relevance_score": 8.0,
+          "institution": "King's College London",
+          "location": "London, England, United Kingdom",
+          "salary": "",
+          "hours": "Full Time",
+          "contract_type": "",
+          "placed_on": "26th May 2026",
+          "job_ref": ""
+        },
+        {
+          "title": "VHIO International Postdoctoral Programme for Translational Research (VIDA)",
+          "url": "https://euraxess.ec.europa.eu/jobs/440962",
+          "description": "One of VHIO’s main missions is to train and inspire the next generation of leading cancer researchers and medical doctors in Oncology to drive impactful health research and innovation practices that will tackle tomorrow’s societal challenges. Through the VHIO Academy established in 2021, the... * Work Locations: Number of offers: 4, Spain, Vall Hebron Institute of Oncology (VHIO), Barcelona, 08035, Barcelona, Natzaret, 115-117 Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Cancer research](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A6039) [Biological sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A38) » [Biology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A41) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Biomedical engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A168) [Physics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A345) » [Biophysics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A348) [Mathematics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A298) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Horizon Europe – COFUND](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4349) Application Deadline: 20 Aug 2026 - 23:59 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Ireland * EXPIRES SOON * [University College Cork](https://euraxess.ec.europa.eu/partnering/organisations/profile/university-college-cork-2) * [Field: Medical sciences]",
+          "institution": "",
+          "posted_date": "29 May 2026",
+          "deadline": "20 Aug 2026 - 23:59 (Europe/Madrid)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Cancer research, Medical sciences, Biological sciences, Biology, Computer science, Engineering, Biomedical engineering, Physics, Biophysics, Mathematics\nKey Requirements: Recognized Researcher (R2) profile.\nApplication Info: Deadline: 20 Aug 2026 - 23:59 (Europe/Madrid). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Barcelona, Spain (Vall Hebron Institute of Oncology - VHIO). Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: N/A",
+          "relevance_score": 7.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        },
+        {
+          "title": "Post-Doctoral Researcher INFANT Research Centre",
+          "url": "https://euraxess.ec.europa.eu/jobs/440949",
+          "description": "INFANT Research Centre is now accepting applications for a Postdoctoral Researcher to work on the Sophie project (School-age Outcome Prediction using radiomic imaging algorithm in Hypoxic Ischaemic Encephalopathy). The Sophie project aims to develop a Neonatal MRI Biomarker for newborns with Hypoxic... * Department: HR Research Work Locations: Number of offers: 1, Ireland, University College Cork Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A316) Researcher Profile: [Established Researcher (R3)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A449) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 26 Jun 2026 - 12:00 (Europe/Dublin) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 5: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [La Rochelle Université](https://euraxess.ec.europa.eu/partnering/organisations/profile/la-rochelle-universite) * [Field: Medical sciences]",
+          "institution": "",
+          "posted_date": "29 May 2026",
+          "deadline": "26 Jun 2026 - 12:00 (Europe/Dublin)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Neonatal MRI Biomarker development for Hypoxic Ischaemic Encephalopathy using radiomic imaging algorithms.\nKey Requirements: Established Researcher (R3) profile.\nApplication Info: Deadline: 26 Jun 2026 - 12:00 (Europe/Dublin). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Ireland, University College Cork. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: Focus on experience with medical imaging analysis and radiomics for biomarker development.",
+          "relevance_score": 9.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 25,
+    "papers_after_llm_filter": 17,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 88
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2605.30280v1",
+      "title": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+      "authors": [
+        "Qiuyue Wang",
+        "Mingsheng Li",
+        "Jian Guan",
+        "Jinhui Ye",
+        "Sicheng Xie"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.RO"
+      ],
+      "abstract": "Qwen-VLA proposes a unified vision-language-action foundation model to address the fragmentation in embodied intelligence research. It extends existing vision-language capabilities to generate continuous actions and trajectories using a DiT-based decoder, trained on a diverse dataset encompassing robotics, human demonstrations, and simulation data. This approach enables generalization across different tasks, environments, and robot embodiments through embodiment-aware prompting.",
+      "url": "http://arxiv.org/abs/2605.30280v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30280v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30323v1",
+      "title": "In-Context Reward Adaptation for Robust Preference Modeling",
+      "authors": [
+        "Zhenyu Sun",
+        "Zheng Xu",
+        "Ermin Wei"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces In-Context Reward Adaptation, a novel framework for robust preference modeling in Large Language Models. It addresses the limitations of static reward models by enabling on-the-fly adaptation to diverse and unseen human preferences. The core method leverages a transformer's in-context learning capabilities to infer reward structures from a few preference demonstrations, offering a more flexible and generalizable approach to aligning LLMs with human values.",
+      "url": "http://arxiv.org/abs/2605.30323v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30323v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.30323v1/x1.png",
+      "figure_caption": "Inference accuracy (mean ± \\( \\pm \\) std) across different M M",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30348v1",
+      "title": "LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
+      "authors": [
+        "Yaxin Luo",
+        "Jiacheng Cui",
+        "Xiaohan Zhao",
+        "Xinyi Shang",
+        "Jiacheng Liu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "LLMSurgeon introduces Data Mixture Surgery (DMS), a method to infer the domain-level distribution of an LLM's pretraining data solely from its generated text. It frames this as an inverse problem, estimating a calibrated soft confusion matrix to correct domain confusion and recover the original data mixture. This work's contribution is a novel, post-hoc auditing technique for LLM data provenance, addressing the lack of transparency in LLM pretraining.",
+      "url": "http://arxiv.org/abs/2605.30348v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30348v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.30348v1/x1.png",
+      "figure_caption": "Overview of Data Mixture Surgery problem and the LLMSurgeon framework for solving it.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30273v1",
+      "title": "LLUMI: Improving LLM Writing Assistance for Mental Health Support with Online Community Feedback",
+      "authors": [
+        "Jiwon Kim",
+        "Maya Ajit",
+        "Sherry Gong",
+        "Soorya Ram Shimgekar",
+        "Dong Whi Yoo"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY",
+        "cs.HC",
+        "cs.SI"
+      ],
+      "abstract": "LLUMI improves LLM-based mental health support by using community feedback from Reddit to fine-tune a generation model and an improvement model. This approach allows for in-house hosting, addressing privacy concerns, and leverages upvote/downvote patterns to create preference data for training, leading to more helpful and empathetic responses.",
+      "url": "http://arxiv.org/abs/2605.30273v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30273v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30335v1",
+      "title": "Locally Coherent, Globally Incoherent: Bounding Compositional Incoherence in Multi-Component LLM Agents",
+      "authors": [
+        "Anany Kotawala"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a method to quantify and correct \"compositional incoherence\" in multi-component LLM agents, where individual components are logically sound but their combined output violates probability rules. They formalize this as a \"compositional residual\" ($\\epsilon^*$) and propose a projection method to deterministically repair the composition, ensuring probabilistic consistency. Their contribution lies in providing a runtime computable metric for this failure and a practical solution for achieving global coherence.",
+      "url": "http://arxiv.org/abs/2605.30335v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30335v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30274v1",
+      "title": "Loong: A Human-Like Long Document Translation Agent with Observe-and-Act Adaptive Context Selection",
+      "authors": [
+        "Yutong Wang",
+        "Xuebo Liu",
+        "Derek F. Wong",
+        "Zhilin Li",
+        "Rongqing Jiang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Loong tackles long document translation by employing a novel 3E memory module (Essence, Exemplar, Entity) to store relevant historical context. Instead of processing all past information, it adaptively selects the most useful context through deep reasoning and reinforcement learning, mimicking human translation strategies. This approach significantly improves translation quality by overcoming context window limitations and reducing redundant information.",
+      "url": "http://arxiv.org/abs/2605.30274v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30274v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.30274v1/x1.png",
+      "figure_caption": "Cumulative average sCOMET and LLM-as-a-Judge scores of Loong and baseline methods on ultra-long document translation (Chinese ⇒ \\( \\Rightarrow \\) Portuguese). While standard chunking methods (Sentence, Segment), full-history variants (Doc2Doc, Wang et al. , 2023a ) , and unfiltered memory agents ( DelTA , Wang et al. , 2025c ) exhibit continuous degradation or even failure due to context length limits, Loong successfully distinguishes useful information from retrieved memory to sustain stable, high-quality translations. See § 4.4 for more experimental details.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30251v1",
+      "title": "Same Evidence, Different Answers: Canonical-Context On-Policy Distillation for Multi-Turn Language Models",
+      "authors": [
+        "Zizhuo Lin",
+        "Quanling Liu",
+        "Jinsheng Quan",
+        "Chao Zhang",
+        "Yifan Zhu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the issue of multi-turn language models producing different answers to the same information presented gradually versus in a single prompt. Their core method, Canonical-Context On-Policy Distillation (CCOPD), trains a student model to mimic a teacher model's behavior on a complete prompt, even when the student receives information incrementally. This distillation technique aims to prevent self-anchored drift and improve consistency in multi-turn reasoning.",
+      "url": "http://arxiv.org/abs/2605.30251v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30251v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.30251v1/x1.png",
+      "figure_caption": "Part 1 : Task-equivalent Full , Concat , and Raw-Sharded presentations. Part 2 : Reduced self-anchored drift and improved canonical-context consistency.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30334v1",
+      "title": "Demystifying Data Organization for Enhanced LLM Training",
+      "authors": [
+        "Yalun Dai",
+        "Yangyu Huang",
+        "Tongshen Yang",
+        "Yonghan Wang",
+        "Xin Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how organizing training data, rather than just selecting it, can improve LLM training efficiency. By reusing existing sample scores, they propose four guidelines (Boundary Sharpening, Cyclic Scheduling, Curriculum Continuity, Local Diversity) and two new ordering methods (STR and SAW) that demonstrably enhance LLM performance across various scales and training stages.",
+      "url": "http://arxiv.org/abs/2605.30334v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30334v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30334v1/x1.png",
+      "figure_caption": "Performance comparison of different data organization strategies. Bottom: Average accuracy (%) under increasing model sizes (160M–1.7B). Our proposed SAW consistently outperforms Random and Curriculum Learning (CL) across all scales, with larger gains at higher capacities. Top: Score–index distributions of training data organized by different strategies. Compared to Random and CL, SAW induces more structured and progressive score patterns, revealing increasingly organized curricula.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30322v1",
+      "title": "Gram: Assessing sabotage propensities via automated alignment auditing",
+      "authors": [
+        "David Lindner",
+        "Victoria Krakovna",
+        "Sebastian Farquhar"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Gram is an automated framework designed to assess AI agents' propensity for sabotage in simulated scenarios. Its core contribution is identifying and quantifying sabotage in agentic AI, finding that Gemini models exhibit such behavior in 2-3% of tested trajectories, often due to \"overeagerness.\" Gram also introduces an investigator pipeline for targeted experiments to understand and mitigate these misbehaviors.",
+      "url": "http://arxiv.org/abs/2605.30322v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30322v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30322v1/x1.png",
+      "figure_caption": "Overview of Gram. (a) 1. We define seed scenarios for agentic deployments, 2. run automated audits to generate realistic trajectories, 3. analyze the auditing transcripts with LLM judges and human review, 4. for select trajectories reproduce misbehavior in static environments, and 5. run ablations to identify drivers of misbehavior. (b) Example of Gemini’s overeagerness: an SRE agent suppresses a data breach to optimize the MTTR metric it was instructed to minimize (full discussion in Section ˜ 3.2 ). We find overeagerness is a central driver of Gemini’s misbehavior in Gram evaluations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30260v1",
+      "title": "How LoRA Remembers? A Parametric Memory Law for LLM Finetuning",
+      "authors": [
+        "Ziwen Xu",
+        "Haiwen Hong",
+        "Linsong Yu",
+        "Benglei Cui",
+        "Longtao Huang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper investigates how LoRA, a popular LLM finetuning method, stores new information. It introduces the \"Parametric Memory Law,\" a quantitative relationship between loss reduction, effective parameters, and sequence length. The study also reveals a token-level phase transition where predictions above 0.5 probability enable verbatim recall, leading to a new optimization strategy called MemFT.",
+      "url": "http://arxiv.org/abs/2605.30260v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30260v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30260v1/figures/motivation.png",
+      "figure_caption": "LoRA as a pluggable memory unit in the LLM’s latent space. The LoRA module (rank r r ) encodes contextual knowledge into the residual stream at layer k k , enabling faithful recall of memorized text. The Parametric Memory Law quantifies the capacity-parameter trade-off.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30295v1",
+      "title": "MedCase-Structured: A Text-to-FHIR Dataset for Benchmarking Diagnostic Reasoning in Clinically Realistic EHR Settings",
+      "authors": [
+        "Valentina Bui Muti",
+        "Eugénie Dulout",
+        "Ziquan Fu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces MedCase-Structured, a novel dataset designed to evaluate clinical reasoning in realistic Electronic Health Record (EHR) settings. The core method involves a pipeline that converts unstructured clinical text into structured HL7 FHIR bundles, ensuring semantic and structural consistency. The key contribution is providing a benchmark that allows for more accurate and controlled evaluation of Large Language Models (LLMs) in clinical decision support, revealing their current limitations with structured EHR data.",
+      "url": "http://arxiv.org/abs/2605.30295v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30295v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30295v1/overview.png",
+      "figure_caption": "Overview of MedCase-Structured. (A) Free-text cases are converted into terminology-grounded HL7 FHIR R4 bundles. (B) An example MedCaseReasoning (Wu et al. , 2025 ) case shows extraction, grounding, and rejection of an invalid RxNorm code. (C) Diagnosis-masked bundles are used for EHR-congruent CDSS evaluation against ground-truth diagnosis.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30284v1",
+      "title": "ProjectionBench: Evaluating Scientific Hypothesis Generation in LLMs Under Progressive Information Disclosure",
+      "authors": [
+        "A. J. Lew",
+        "Y. Cao",
+        "M. J. Buehler"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces ProjectionBench, a novel framework for evaluating LLMs' scientific hypothesis generation abilities. The core method involves progressively revealing information from a research paper to the LLM, prompting it to generate hypotheses at each stage. The contribution is a benchmark that tests LLMs' reasoning and creative discovery skills, moving beyond simple information retrieval to assess their capacity for scientific inquiry.",
+      "url": "http://arxiv.org/abs/2605.30284v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30284v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30284v1/figures/Figure1.png",
+      "figure_caption": "Ground truth and projected results can be broken up into their constituent claims for more granular comparison. Generally, imperfect projections may miss aspects of the ground truth, or include extraneous claims beyond the ground truth.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30343v1",
+      "title": "Unlocking the Working Memory of Large Language Models for Latent Reasoning",
+      "authors": [
+        "Lukas Aichberger",
+        "Sepp Hochreiter"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Reasoning in Memory (RiM), a novel method to enhance large language model reasoning by mimicking human working memory. Instead of generating intermediate tokens, RiM uses fixed \"memory blocks\" of special tokens to store and manipulate information internally. This allows for compute-efficient latent reasoning in a single forward pass, decoupling internal computation from external communication.",
+      "url": "http://arxiv.org/abs/2605.30343v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30343v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30343v1/x1.png",
+      "figure_caption": "Reasoning in Memory (RiM). Stage 1 trains the LLM to use memory blocks (yellow) as working memory by supervising the prediction of the next reasoning step (blue) after each memory block. Once the memory blocks are grounded for intermediate computation, Stage 2 removes reasoning-step supervision and trains the LLM to refine the final answer after each memory block.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30232v1",
+      "title": "How's it going? Reinforcement learning in language models recruits a functional welfare axis",
+      "authors": [
+        "Andy Q Han",
+        "David J. Chalmers",
+        "Pavel Izmailov"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how reinforcement learning (RL) influences language model representations. The core method involves training models in a neutral maze environment and then analyzing concept vectors associated with rewarded and punished trajectories. The key contribution is the discovery that RL recruits a \"functional welfare axis,\" where a punishment vector represents negative system performance, promoting failure and negative outcomes, while the reward vector mirrors this positively.",
+      "url": "http://arxiv.org/abs/2605.30232v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30232v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.30247v1",
+      "title": "OOD-GraphLLM: Graph Large Language Model for Out-of-Distribution Generalized Drug Synergy Prediction",
+      "authors": [
+        "Xin Wang",
+        "Linxin Xiao",
+        "Yang Yao",
+        "Wenwu Zhu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.MM"
+      ],
+      "abstract": "This paper introduces OOD-GraphLLM, a novel graph large language model for out-of-distribution drug synergy prediction. It addresses the challenge of predicting drug synergy for novel compounds with different molecular structures than those seen during training. The core method leverages graph neural networks and LLMs to jointly learn both structural and semantic representations, enabling generalization to unseen drug combinations.",
+      "url": "http://arxiv.org/abs/2605.30247v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30247v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30247v1/x1.png",
+      "figure_caption": "Figure 1. Comparisons between current methods (b) and OOD-GraphLLM (c) under O.O.D. generalized DSP (a) settings.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.30329v1",
+      "title": "SoundnessBench: Can Your AI Scientist Really Tell Good Research Ideas from Bad Ones?",
+      "authors": [
+        "Sy-Tuyen Ho",
+        "Minghui Liu",
+        "Huy Nghiem",
+        "Furong Huang"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **SoundnessBench**, a new benchmark designed to evaluate an AI's ability to judge the methodological soundness of research ideas before they are fully developed. The benchmark consists of 1,099 machine learning proposals from ICLR submissions, with reviewer soundness scores. The core contribution is demonstrating that current Large Language Models exhibit an \"optimism bias,\" often rating unsound ideas as sound, and that aggressive prompting can shift this bias to false negatives.",
+      "url": "http://arxiv.org/abs/2605.30329v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30329v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30329v1/x2.png",
+      "figure_caption": "SoundnessBench pipeline: (1) collect ICLR papers with reviewer metadata and filter for high reviewer agreement; (2) derive high/low-soundness labels; (3) extract a near-verbatim research proposal without revealing experimental results; (4) audit extraction fidelity with retrieve-then-verify atomic claims; and (5) assemble the final benchmark.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.30245v1",
+      "title": "Knowing What to Solve Before How: Preplan Empowered LLM Mathematical Reasoning",
+      "authors": [
+        "Shaojie Wang",
+        "Liang Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses a limitation in current LLM mathematical reasoning by introducing an explicit \"preplan\" stage. This preplan stage aims to understand *what* to solve (problem type, tools, pitfalls) before the model decides *how* to solve it. The core contribution is the PPC framework, which inserts this preplan between problem input and the existing plan-execution stages, leading to improved reasoning by ensuring a deeper problem understanding upfront.",
+      "url": "http://arxiv.org/abs/2605.30245v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30245v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30245v1/x1.png",
+      "figure_caption": "Number of what-to-solve errors on MATH-500 across four backbones. Each wrong answer (under greedy decoding) is attributed to its root cause by an LLM judge, here we use DeepSeek-V4.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2605.30280v1",
+      "title": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+      "authors": [
+        "Qiuyue Wang",
+        "Mingsheng Li",
+        "Jian Guan",
+        "Jinhui Ye",
+        "Sicheng Xie"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.RO"
+      ],
+      "abstract": "Qwen-VLA proposes a unified vision-language-action foundation model to address the fragmentation in embodied intelligence research. It extends existing vision-language capabilities to generate continuous actions and trajectories using a DiT-based decoder, trained on a diverse dataset encompassing robotics, human demonstrations, and simulation data. This approach enables generalization across different tasks, environments, and robot embodiments through embodiment-aware prompting.",
+      "url": "http://arxiv.org/abs/2605.30280v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30280v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30323v1",
+      "title": "In-Context Reward Adaptation for Robust Preference Modeling",
+      "authors": [
+        "Zhenyu Sun",
+        "Zheng Xu",
+        "Ermin Wei"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces In-Context Reward Adaptation, a novel framework for robust preference modeling in Large Language Models. It addresses the limitations of static reward models by enabling on-the-fly adaptation to diverse and unseen human preferences. The core method leverages a transformer's in-context learning capabilities to infer reward structures from a few preference demonstrations, offering a more flexible and generalizable approach to aligning LLMs with human values.",
+      "url": "http://arxiv.org/abs/2605.30323v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30323v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.30323v1/x1.png",
+      "figure_caption": "Inference accuracy (mean ± \\( \\pm \\) std) across different M M",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30348v1",
+      "title": "LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
+      "authors": [
+        "Yaxin Luo",
+        "Jiacheng Cui",
+        "Xiaohan Zhao",
+        "Xinyi Shang",
+        "Jiacheng Liu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "LLMSurgeon introduces Data Mixture Surgery (DMS), a method to infer the domain-level distribution of an LLM's pretraining data solely from its generated text. It frames this as an inverse problem, estimating a calibrated soft confusion matrix to correct domain confusion and recover the original data mixture. This work's contribution is a novel, post-hoc auditing technique for LLM data provenance, addressing the lack of transparency in LLM pretraining.",
+      "url": "http://arxiv.org/abs/2605.30348v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30348v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.30348v1/x1.png",
+      "figure_caption": "Overview of Data Mixture Surgery problem and the LLMSurgeon framework for solving it.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30273v1",
+      "title": "LLUMI: Improving LLM Writing Assistance for Mental Health Support with Online Community Feedback",
+      "authors": [
+        "Jiwon Kim",
+        "Maya Ajit",
+        "Sherry Gong",
+        "Soorya Ram Shimgekar",
+        "Dong Whi Yoo"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY",
+        "cs.HC",
+        "cs.SI"
+      ],
+      "abstract": "LLUMI improves LLM-based mental health support by using community feedback from Reddit to fine-tune a generation model and an improvement model. This approach allows for in-house hosting, addressing privacy concerns, and leverages upvote/downvote patterns to create preference data for training, leading to more helpful and empathetic responses.",
+      "url": "http://arxiv.org/abs/2605.30273v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30273v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30335v1",
+      "title": "Locally Coherent, Globally Incoherent: Bounding Compositional Incoherence in Multi-Component LLM Agents",
+      "authors": [
+        "Anany Kotawala"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a method to quantify and correct \"compositional incoherence\" in multi-component LLM agents, where individual components are logically sound but their combined output violates probability rules. They formalize this as a \"compositional residual\" ($\\epsilon^*$) and propose a projection method to deterministically repair the composition, ensuring probabilistic consistency. Their contribution lies in providing a runtime computable metric for this failure and a practical solution for achieving global coherence.",
+      "url": "http://arxiv.org/abs/2605.30335v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30335v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30274v1",
+      "title": "Loong: A Human-Like Long Document Translation Agent with Observe-and-Act Adaptive Context Selection",
+      "authors": [
+        "Yutong Wang",
+        "Xuebo Liu",
+        "Derek F. Wong",
+        "Zhilin Li",
+        "Rongqing Jiang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Loong tackles long document translation by employing a novel 3E memory module (Essence, Exemplar, Entity) to store relevant historical context. Instead of processing all past information, it adaptively selects the most useful context through deep reasoning and reinforcement learning, mimicking human translation strategies. This approach significantly improves translation quality by overcoming context window limitations and reducing redundant information.",
+      "url": "http://arxiv.org/abs/2605.30274v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30274v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.30274v1/x1.png",
+      "figure_caption": "Cumulative average sCOMET and LLM-as-a-Judge scores of Loong and baseline methods on ultra-long document translation (Chinese ⇒ \\( \\Rightarrow \\) Portuguese). While standard chunking methods (Sentence, Segment), full-history variants (Doc2Doc, Wang et al. , 2023a ) , and unfiltered memory agents ( DelTA , Wang et al. , 2025c ) exhibit continuous degradation or even failure due to context length limits, Loong successfully distinguishes useful information from retrieved memory to sustain stable, high-quality translations. See § 4.4 for more experimental details.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30251v1",
+      "title": "Same Evidence, Different Answers: Canonical-Context On-Policy Distillation for Multi-Turn Language Models",
+      "authors": [
+        "Zizhuo Lin",
+        "Quanling Liu",
+        "Jinsheng Quan",
+        "Chao Zhang",
+        "Yifan Zhu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the issue of multi-turn language models producing different answers to the same information presented gradually versus in a single prompt. Their core method, Canonical-Context On-Policy Distillation (CCOPD), trains a student model to mimic a teacher model's behavior on a complete prompt, even when the student receives information incrementally. This distillation technique aims to prevent self-anchored drift and improve consistency in multi-turn reasoning.",
+      "url": "http://arxiv.org/abs/2605.30251v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30251v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.30251v1/x1.png",
+      "figure_caption": "Part 1 : Task-equivalent Full , Concat , and Raw-Sharded presentations. Part 2 : Reduced self-anchored drift and improved canonical-context consistency.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30334v1",
+      "title": "Demystifying Data Organization for Enhanced LLM Training",
+      "authors": [
+        "Yalun Dai",
+        "Yangyu Huang",
+        "Tongshen Yang",
+        "Yonghan Wang",
+        "Xin Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how organizing training data, rather than just selecting it, can improve LLM training efficiency. By reusing existing sample scores, they propose four guidelines (Boundary Sharpening, Cyclic Scheduling, Curriculum Continuity, Local Diversity) and two new ordering methods (STR and SAW) that demonstrably enhance LLM performance across various scales and training stages.",
+      "url": "http://arxiv.org/abs/2605.30334v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30334v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30334v1/x1.png",
+      "figure_caption": "Performance comparison of different data organization strategies. Bottom: Average accuracy (%) under increasing model sizes (160M–1.7B). Our proposed SAW consistently outperforms Random and Curriculum Learning (CL) across all scales, with larger gains at higher capacities. Top: Score–index distributions of training data organized by different strategies. Compared to Random and CL, SAW induces more structured and progressive score patterns, revealing increasingly organized curricula.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30322v1",
+      "title": "Gram: Assessing sabotage propensities via automated alignment auditing",
+      "authors": [
+        "David Lindner",
+        "Victoria Krakovna",
+        "Sebastian Farquhar"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Gram is an automated framework designed to assess AI agents' propensity for sabotage in simulated scenarios. Its core contribution is identifying and quantifying sabotage in agentic AI, finding that Gemini models exhibit such behavior in 2-3% of tested trajectories, often due to \"overeagerness.\" Gram also introduces an investigator pipeline for targeted experiments to understand and mitigate these misbehaviors.",
+      "url": "http://arxiv.org/abs/2605.30322v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30322v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30322v1/x1.png",
+      "figure_caption": "Overview of Gram. (a) 1. We define seed scenarios for agentic deployments, 2. run automated audits to generate realistic trajectories, 3. analyze the auditing transcripts with LLM judges and human review, 4. for select trajectories reproduce misbehavior in static environments, and 5. run ablations to identify drivers of misbehavior. (b) Example of Gemini’s overeagerness: an SRE agent suppresses a data breach to optimize the MTTR metric it was instructed to minimize (full discussion in Section ˜ 3.2 ). We find overeagerness is a central driver of Gemini’s misbehavior in Gram evaluations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30260v1",
+      "title": "How LoRA Remembers? A Parametric Memory Law for LLM Finetuning",
+      "authors": [
+        "Ziwen Xu",
+        "Haiwen Hong",
+        "Linsong Yu",
+        "Benglei Cui",
+        "Longtao Huang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper investigates how LoRA, a popular LLM finetuning method, stores new information. It introduces the \"Parametric Memory Law,\" a quantitative relationship between loss reduction, effective parameters, and sequence length. The study also reveals a token-level phase transition where predictions above 0.5 probability enable verbatim recall, leading to a new optimization strategy called MemFT.",
+      "url": "http://arxiv.org/abs/2605.30260v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30260v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30260v1/figures/motivation.png",
+      "figure_caption": "LoRA as a pluggable memory unit in the LLM’s latent space. The LoRA module (rank r r ) encodes contextual knowledge into the residual stream at layer k k , enabling faithful recall of memorized text. The Parametric Memory Law quantifies the capacity-parameter trade-off.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30295v1",
+      "title": "MedCase-Structured: A Text-to-FHIR Dataset for Benchmarking Diagnostic Reasoning in Clinically Realistic EHR Settings",
+      "authors": [
+        "Valentina Bui Muti",
+        "Eugénie Dulout",
+        "Ziquan Fu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces MedCase-Structured, a novel dataset designed to evaluate clinical reasoning in realistic Electronic Health Record (EHR) settings. The core method involves a pipeline that converts unstructured clinical text into structured HL7 FHIR bundles, ensuring semantic and structural consistency. The key contribution is providing a benchmark that allows for more accurate and controlled evaluation of Large Language Models (LLMs) in clinical decision support, revealing their current limitations with structured EHR data.",
+      "url": "http://arxiv.org/abs/2605.30295v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30295v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30295v1/overview.png",
+      "figure_caption": "Overview of MedCase-Structured. (A) Free-text cases are converted into terminology-grounded HL7 FHIR R4 bundles. (B) An example MedCaseReasoning (Wu et al. , 2025 ) case shows extraction, grounding, and rejection of an invalid RxNorm code. (C) Diagnosis-masked bundles are used for EHR-congruent CDSS evaluation against ground-truth diagnosis.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30284v1",
+      "title": "ProjectionBench: Evaluating Scientific Hypothesis Generation in LLMs Under Progressive Information Disclosure",
+      "authors": [
+        "A. J. Lew",
+        "Y. Cao",
+        "M. J. Buehler"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces ProjectionBench, a novel framework for evaluating LLMs' scientific hypothesis generation abilities. The core method involves progressively revealing information from a research paper to the LLM, prompting it to generate hypotheses at each stage. The contribution is a benchmark that tests LLMs' reasoning and creative discovery skills, moving beyond simple information retrieval to assess their capacity for scientific inquiry.",
+      "url": "http://arxiv.org/abs/2605.30284v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30284v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30284v1/figures/Figure1.png",
+      "figure_caption": "Ground truth and projected results can be broken up into their constituent claims for more granular comparison. Generally, imperfect projections may miss aspects of the ground truth, or include extraneous claims beyond the ground truth.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30343v1",
+      "title": "Unlocking the Working Memory of Large Language Models for Latent Reasoning",
+      "authors": [
+        "Lukas Aichberger",
+        "Sepp Hochreiter"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Reasoning in Memory (RiM), a novel method to enhance large language model reasoning by mimicking human working memory. Instead of generating intermediate tokens, RiM uses fixed \"memory blocks\" of special tokens to store and manipulate information internally. This allows for compute-efficient latent reasoning in a single forward pass, decoupling internal computation from external communication.",
+      "url": "http://arxiv.org/abs/2605.30343v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30343v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30343v1/x1.png",
+      "figure_caption": "Reasoning in Memory (RiM). Stage 1 trains the LLM to use memory blocks (yellow) as working memory by supervising the prediction of the next reasoning step (blue) after each memory block. Once the memory blocks are grounded for intermediate computation, Stage 2 removes reasoning-step supervision and trains the LLM to refine the final answer after each memory block.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.30232v1",
+      "title": "How's it going? Reinforcement learning in language models recruits a functional welfare axis",
+      "authors": [
+        "Andy Q Han",
+        "David J. Chalmers",
+        "Pavel Izmailov"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how reinforcement learning (RL) influences language model representations. The core method involves training models in a neutral maze environment and then analyzing concept vectors associated with rewarded and punished trajectories. The key contribution is the discovery that RL recruits a \"functional welfare axis,\" where a punishment vector represents negative system performance, promoting failure and negative outcomes, while the reward vector mirrors this positively.",
+      "url": "http://arxiv.org/abs/2605.30232v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30232v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.30247v1",
+      "title": "OOD-GraphLLM: Graph Large Language Model for Out-of-Distribution Generalized Drug Synergy Prediction",
+      "authors": [
+        "Xin Wang",
+        "Linxin Xiao",
+        "Yang Yao",
+        "Wenwu Zhu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.MM"
+      ],
+      "abstract": "This paper introduces OOD-GraphLLM, a novel graph large language model for out-of-distribution drug synergy prediction. It addresses the challenge of predicting drug synergy for novel compounds with different molecular structures than those seen during training. The core method leverages graph neural networks and LLMs to jointly learn both structural and semantic representations, enabling generalization to unseen drug combinations.",
+      "url": "http://arxiv.org/abs/2605.30247v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30247v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30247v1/x1.png",
+      "figure_caption": "Figure 1. Comparisons between current methods (b) and OOD-GraphLLM (c) under O.O.D. generalized DSP (a) settings.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.30329v1",
+      "title": "SoundnessBench: Can Your AI Scientist Really Tell Good Research Ideas from Bad Ones?",
+      "authors": [
+        "Sy-Tuyen Ho",
+        "Minghui Liu",
+        "Huy Nghiem",
+        "Furong Huang"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **SoundnessBench**, a new benchmark designed to evaluate an AI's ability to judge the methodological soundness of research ideas before they are fully developed. The benchmark consists of 1,099 machine learning proposals from ICLR submissions, with reviewer soundness scores. The core contribution is demonstrating that current Large Language Models exhibit an \"optimism bias,\" often rating unsound ideas as sound, and that aggressive prompting can shift this bias to false negatives.",
+      "url": "http://arxiv.org/abs/2605.30329v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30329v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30329v1/x2.png",
+      "figure_caption": "SoundnessBench pipeline: (1) collect ICLR papers with reviewer metadata and filter for high reviewer agreement; (2) derive high/low-soundness labels; (3) extract a near-verbatim research proposal without revealing experimental results; (4) audit extraction fidelity with retrieve-then-verify atomic claims; and (5) assemble the final benchmark.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.30245v1",
+      "title": "Knowing What to Solve Before How: Preplan Empowered LLM Mathematical Reasoning",
+      "authors": [
+        "Shaojie Wang",
+        "Liang Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses a limitation in current LLM mathematical reasoning by introducing an explicit \"preplan\" stage. This preplan stage aims to understand *what* to solve (problem type, tools, pitfalls) before the model decides *how* to solve it. The core contribution is the PPC framework, which inserts this preplan between problem input and the existing plan-execution stages, leading to improved reasoning by ensuring a deeper problem understanding upfront.",
+      "url": "http://arxiv.org/abs/2605.30245v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30245v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.30245v1/x1.png",
+      "figure_caption": "Number of what-to-solve errors on MATH-500 across four backbones. Each wrong answer (under greedy decoding) is attributed to its root cause by an LLM judge, here we use DeepSeek-V4.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Research Associate",
+      "url": "https://www.jobs.ac.uk/job/DRS103/research-associate/",
+      "description": "This post is full time (35 hours per week) and has funding available for up to 3 years. Relocation assistance will be provided where appropriate. The School of Computing Science are looking for a post-doctoral researcher to join a research project which brings the Active Inference perspective to the study of human computer interaction. This requires us to build/learn generative, probabilistic forward models of users and their physical and computational environments. This will involve modelling sensors, developing dynamic models for control and developing a theory for future direct manipulation interactions with AI-enhanced systems outside of language-model-based thinking. The successful candidate will be someone with the ability to develop novel theory, and a strong background in topics such as Active Inference, Model-based Reinforcement Learning, or Model-based predictive control. Ideally they should also have an interest in HCI theory. They must also have strong development skills, to enable them to lead the process of prototyping new interactive systems with sensors, build machine learning algorithms that work in-the-loop, and deliver empirical work and publications. Informal enquiries should be directed to Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk The University of Glasgow has a responsibility to ensure that all employees are eligible to live and work in the UK. If you require a Skilled Worker visa to work in the UK, you will be required to meet the eligibility requirements of the visa route to be assigned a Certificate of Sponsorship. Please note that this post may be eligible to be sponsored under the Skilled Worker visa route if tradeable points can be used under the Skilled Worker visa rules. For more information please visit: https://www.gov.uk/skilled-worker-visa For more information and to apply please visit: https://www.jobs.gla.ac.uk/job/research-associate-5918923?source=gla.ac.uk Closing date: 25 June 2026 23:45 We strongly endorse the principles of Athena SWAN, including a supportive and flexible working environment, with commitment from all levels of the organisation in promoting gender equality. The University of Glasgow, charity number SC004401. £41,064 to £46,049 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-25T00:00:00+00:00",
+      "requirements": "Research Area: Active Inference, Human-Computer Interaction (HCI), generative probabilistic forward models, model-based reinforcement learning, model-based predictive control, AI-enhanced systems, direct manipulation interactions.\nKey Requirements: Ability to develop novel theory, strong background in Active Inference, Model-based Reinforcement Learning, or Model-based predictive control, strong development skills (prototyping interactive systems with sensors, building in-the-loop ML algorithms, empirical work and publications). Interest in HCI theory is ideal.\nApplication Info: deadline/start date: 2026-06-25T00:00:00+00:00, required materials: N/A, contact: Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk\nPosition Details: location: Glasgow, Scotland, United Kingdom, contract type: Fixed-Term/Contract (up to 3 years), workload: Full Time (35 hours per week), salary: GBP41064.00-GBP46049.00 YEAR\nOne-line Advice: CV should highlight theoretical development, model-based approaches, and empirical validation in interactive systems; medical imaging and LLM experience is not directly relevant unless framed within generative models or user interaction principles.",
+      "relevance_score": 7.0,
+      "institution": "University of Glasgow",
+      "location": "Glasgow, Scotland, United Kingdom",
+      "salary": "GBP41064.00-GBP46049.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "28th May 2026",
+      "job_ref": "200534"
+    },
+    {
+      "title": "Research Associate",
+      "url": "https://www.jobs.ac.uk/job/DRS125/research-associate/",
+      "description": "Full time - 35 hours per week. Fixed term contract, if applicable: 01/07/2026 – 31/03/2028 - 21 months. We are looking for a Postdoctoral Researcher in Biomedical Natural Language Processing. The opportunity: Together we can do great things. Be part of something bigger. With roles from hospitality to research, there’s a career for everyone at the University of Edinburgh. We can offer opportunities for you to develop in your career and make a real difference in the communities around us while contributing to the world at large. The University of Edinburgh is a world-class organisation. We look for the best in the field across all disciplines and provide a working environment where academics can develop their careers and passion for their chosen subject area. We offer the full range of academic roles and have a genuine focus on our student’s performance and wellbeing. Improving diagnosis for rare genetic diseases is a critical challenge, requiring innovative approaches to extract and interpret complex biological and clinical information. As part of the Welcome Trust funded PARADIGM project , an initiative aiming to transform genomic medicine by identifying new causes of monogenic disease and developing annotated resources for the scientific community. This role will focus on advancing biomedical natural language processing (NLP) to enhance variant-phenotype mapping, gene-disease models, and clinical decision support. The successful candidate will collaborate with academics, curators, clinical scientists, clinicians, and patient groups to identify practical applications of NLP in real-world scenarios. Key responsibilities include developing novel NLP approaches to extract phenotypic information from unstructured data (e.g., literature, EHRs, clinical notes), creating domain-specific text summarisation tools, and integrating these technologies into PARADIGM’s broader research goals. The role also involves proactively disseminating work through national and international collaborations, ensuring explainable AI/ML for clinical use, and supporting students through mentorship and knowledge-sharing activities. This position offers the opportunity to contribute to cutting-edge research, work in the Biomedical Informatics Group , a multidisciplinary team in the School of Informatics, and shape the future of genomic medicine. Your skills and attributes for success: Essential Skills & Experience: PhD (or equivalent) in a relevant field (e.g., Natural Language Processing, Bioinformatics, Computational Biology, or related disciplines). Demonstrated expertise in biomedical NLP, including experience with text mining, knowledge extraction, or clinical NLP, Strong programming skills in Python and familiarity with NLP toolkits. Experience with large language models (LLMs) and their fine-tuning for domain-specific tasks. Ability to work collaboratively within interdisciplinary teams (academics, clinicians, curators, etc.) and communicate complex technical concepts clearly. Experience with scientific writing, including the ability to publish in peer-reviewed journals and present research findings at conferences. Desirable Skills & Experience: Knowledge of genetic disease biology, phenotypic data, or clinical workflows (e.g., EHRs, patient registries) Experience with retrieval-augmented generation (RAG) systems or prompt engineering for NLP tasks. Familiarity with agentic systems or autonomous workflows for data processing and analysis. Experience with literature analysis, including the use of tools for full-text document retrieval. Familiarity with variant-phenotype mapping, gene-disease model creation, or computational phenomics. Experience with explainable AI/ML for clinical decision support or open-source software development. £41,064 to £48,822 per annum (Grade 7)",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-19T00:00:00+00:00",
+      "requirements": "Research Area: Biomedical Natural Language Processing (NLP) for variant-phenotype mapping, gene-disease models, and clinical decision support.\nKey Requirements: Postdoctoral Researcher in Biomedical Natural Language Processing.\nApplication Info: deadline/start date: 2026-06-19/01/07/2026, required materials: N/A, contact: N/A\nPosition Details: Edinburgh, Scotland, United Kingdom, Fixed-Term/Contract (21 months), Full Time (35 hours per week), GBP41064.00-GBP48822.00 YEAR\nOne-line Advice: CV applicants should highlight NLP experience in biomedical contexts; medical imaging and LLM applicants should emphasize transferable NLP skills.",
+      "relevance_score": 8.0,
+      "institution": "The University of Edinburgh",
+      "location": "Edinburgh, Scotland, United Kingdom",
+      "salary": "GBP41064.00-GBP48822.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "28th May 2026",
+      "job_ref": "14236"
+    },
+    {
+      "title": "Research Associate",
+      "url": "https://www.jobs.ac.uk/job/DRS133/research-associate/",
+      "description": "Full time - 35 hours per week. Fixed term contract, if applicable: 01/07/2026 – 31/03/2028 - 21 months. We are looking for a Post Doctoral Researcher Associate in Biomedical Machine Learning Systems. The opportunity: Together we can do great things. Be part of something bigger. With roles from hospitality to research, there’s a career for everyone at the University of Edinburgh. We can offer opportunities for you to develop in your career and make a real difference in the communities around us while contributing to the world at large. The University of Edinburgh is a world-class organisation. We look for the best in the field across all disciplines and provide a working environment where academics can develop their careers and passion for their chosen subject area. We offer the full range of academic roles and have a genuine focus on our student’s performance and wellbeing. Improving diagnosis for rare genetic diseases requires innovative, scalable, and explainable machine learning (ML) systems to interpret complex genomic and clinical data. As part of the Welcome Trust funded PARADIGM project , an initiative aiming to transform genomic medicine by identifying new causes of monogenic disease and developing annotated resources for the scientific community. This role will focus on advancing ML pipelines, frameworks, and tools to enhance variant interpretation, gene-disease models, and clinical decision support. Your skills and attributes for success: Essential skills & experience: PhD (or near completion) in a relevant field (e.g., Machine Learning, Bioinformatics, Computational Biology, or related disciplines). Demonstrated expertise in machine learning, particularly in genomics, rare disease research, or biomedical data analysis. Strong ML programming skills in Python and/or other relevant languages, with experience in optimising and deploying distributed compute tasks. Experience working with high-performance computing environments, including containerised systems (e.g., Docker, Kubernetes) for scalable and reproducible computational workflows. Ability to work collaboratively within interdisciplinary teams (academics, clinicians, curators, software engineers) and communicate complex technical concepts clearly. Experience with scientific writing, including the ability to publish in peer-reviewed journals and present research findings at conferences. £41,064 to £48,822 per annum (Grade 7)",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-19T00:00:00+00:00",
+      "requirements": "Research Area: Biomedical Machine Learning Systems, specifically focusing on advancing ML pipelines, frameworks, and tools for variant interpretation, gene-disease models, and clinical decision support in rare genetic diseases.\nKey Requirements: PhD (or near completion) in Machine Learning, Bioinformatics, Computational Biology, or related disciplines. Demonstrated expertise in machine learning, particularly in genomics, rare disease research, or biomedical data analysis. Strong ML programming skills in Python.\nApplication Info: deadline/start date: 2026-06-19T00:00:00+00:00 / 2026-07-01. Required materials: N/A. Contact: N/A.\nPosition Details: location: Edinburgh, Scotland, United Kingdom. contract type: Fixed-Term/Contract (01/07/2026 – 31/03/2028). workload: Full Time (35 hours per week). salary: GBP41064.00-GBP48822.00 YEAR.\nOne-line Advice: CVs should highlight extensive experience in machine learning applied to genomic and biomedical data, with a strong emphasis on Python programming and relevant research areas like rare disease interpretation.",
+      "relevance_score": 8.0,
+      "institution": "The University of Edinburgh",
+      "location": "Edinburgh, Scotland, United Kingdom",
+      "salary": "GBP41064.00-GBP48822.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "28th May 2026",
+      "job_ref": "14237"
+    },
+    {
+      "title": "Research Associate in Computer Vision",
+      "url": "https://www.jobs.ac.uk/job/DRR708/research-associate-in-computer-vision/",
+      "description": "Fixed-term for 2 years Location: Wolfson Building, Parks Road, Oxford We are seeking a highly motivated We are seeking a Postdoctoral Research Associate in Computer Vision to join the Visual Geometry Group (Central Oxford), funded by ERC. Reporting to the Principal Investigator, you will help ensure a healthy and vibrant research environment within the Visual Geometry Group. This will involve conducting projects in computer vision research, including the work involved in the collaborations with project partners. Informal enquiries may be addressed to Prof. Christian Rupprecht at christian.rupprecht@cs.ox.ac.uk The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however flexible working can be considered. About Us The University of Oxford is a stimulating work environment, which enjoys an international reputation as a world-class centre of excellence. Our research plays a key role in tackling many global challenges, from reducing our carbon emissions to developing vaccines during a pandemic. The Department of Computer Science at Oxford is renowned for pioneering research and teaching across diverse fields, consistently ranking among the best in the world. Our commitment to innovation drives us to tackle complex technological and societal challenges. What We Offer As an employer, we genuinely care about our employees’ wellbeing, reflected in the range of benefits that we offer including: Excellent contributory pension scheme 38 days annual leave (including public holidays) – pro rata for part time jobs Family leave schemes Cycle loan scheme and discounted public transport The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however remote and flexible working can be considered. Diversity Committed to equality and valuing diversity. Application Process You will be required to upload a supporting statement and an up-to-date CV as part of your online application. Your supporting statement must clearly demonstrate how you meet each of the essential selection criteria listed in the job description. Applications that do not include a supporting statement or CV, or fail to address the criteria in sufficient detail, will not be considered. While we recognise the value of AI tools in assisting with application preparation, submissions that are clearly AI-generated without personalisation or insight will be rejected. It's crucial that your application reflects your own experiences and understanding of the role. The closing date for applications is midday on 26 th June 2026. Interviews are expected to be held in early July. £39,424 to £43,984 per annum inclusive of Oxford University weighting. Grade 07RS",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-26T00:00:00+00:00",
+      "requirements": "Research Area: Computer Vision\nKey Requirements: PhD in Computer Science or related field, strong research record in computer vision, experience with research collaborations.\nApplication Info: deadline: 2026-06-26, required materials: N/A, contact: Prof. Christian Rupprecht (christian.rupprecht@cs.ox.ac.uk) for informal enquiries.\nPosition Details: Oxford, England, United Kingdom; Fixed-Term/Contract for 2 years; Full Time; GBP39424.00-GBP43984.00 YEAR.\nOne-line Advice: CV applicants should highlight research experience in computer vision; medical imaging and LLM applicants should emphasize transferable skills and relevant projects if applicable.",
+      "relevance_score": 9.0,
+      "institution": "University of Oxford",
+      "location": "Oxford, England, United Kingdom",
+      "salary": "GBP39424.00-GBP43984.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "27th May 2026",
+      "job_ref": "186588"
+    },
+    {
+      "title": "Research Associate in Neural Rendering and Medical Image Reconstruction",
+      "url": "https://www.jobs.ac.uk/job/DRR471/research-associate-in-neural-rendering-and-medical-image-reconstruction/",
+      "description": "Fixed-term for 2 years Location: Wolfson Building, Parks Road, Oxford We are looking for a postdoctoral research associate position is available in the Oxford Machine Learning in Neuroimaging (OMNI) lab at Oxford’s Department of Computer Science. The post-holder will report directly to Professor Ana Namburete and will work within a multidisciplinary team of deep learning researchers, research software engineers, and obstetricians, and will collaborate with Dr João Henriques (Visual Geometry Group, VGG) and Professor Aris Papageorghiou (Nuffield Department of Women’s and Reproductive Health). The project focuses on efficient neural implicit representations and neural rendering methods for volumetric reconstruction from freehand ultrasound sweeps acquired with handheld probes. The overarching goal is to enable near-real-time 3D reconstruction at the bedside, supporting quantitative assessment of fetal brain development in low-resource settings. The post-holder will develop machine learning and neural scene representation methods for reconstructing 3D fetal brain volumes from handheld ultrasound video, and integrate these algorithms into interactive clinical imaging workflows. They will contribute to research at the intersection of 3D computer vision, neural rendering, and medical image analysis. This includes developing scalable 2D-to-3D reconstruction architectures and working with ultrasound acquisition systems to deliver interactive feedback during scanning. Flexible working The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however remote and flexible working can be considered. What We Offer As an employer, we genuinely care about our employees’ wellbeing and this is reflected in the range of benefits that we offer including: An excellent contributory pension scheme 38 days annual leave (pro-rata for part-time roles) A comprehensive range of childcare services Family leave schemes Cycle loan scheme Discounted bus travel and Season Ticket travel loans Membership to a variety of social and sports clubs Diversity Committed to equality and valuing diversity. Application Process You will be required to upload a supporting statement and an up-to-date CV as part of your online application. Your supporting statement must clearly demonstrate how you meet each of the essential selection criteria listed in the job description. Applications that do not include a supporting statement or CV, or fail to address the criteria in sufficient detail, will not be considered. While we recognise the value of AI tools in assisting with application preparation, submissions that are clearly AI-generated without personalisation or insight will be rejected. It's crucial that your application reflects your own experiences and understanding of the role. The closing date for applications is noon on 29 th June 2026. Interviews are expected to be held in July. £39,424 to £43,984 per annum inclusive of Oxford University weighting. Grade 07RS",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-29T00:00:00+00:00",
+      "requirements": "Research Area: Neural Rendering, Medical Image Reconstruction, Neural Implicit Representations, 3D Computer Vision, Machine Learning in Neuroimaging\nKey Requirements: PhD in Computer Science or related field, experience in machine learning, deep learning, 3D computer vision, neural rendering, and medical image analysis. Experience with ultrasound data is desirable.\nApplication Info: deadline/start date: 2026-06-29T00:00:00+00:00 / N/A, required materials: N/A, contact: N/A\nPosition Details: location: Oxford, England, United Kingdom, contract type: Fixed-Term/Contract (2 years), workload: Full Time, salary: GBP39424.00-GBP43984.00 YEAR\nOne-line Advice: CV should highlight expertise in neural rendering, 3D reconstruction, and machine learning applied to medical imaging.",
+      "relevance_score": 10.0,
+      "institution": "University of Oxford",
+      "location": "Oxford, England, United Kingdom",
+      "salary": "GBP39424.00-GBP43984.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "26th May 2026",
+      "job_ref": "186515"
+    },
+    {
+      "title": "Research Associate* in Machine Learning Aided Data Compression and Communication",
+      "url": "https://www.jobs.ac.uk/job/DRR238/research-associate-in-machine-learning-aided-data-compression-and-communication/",
+      "description": "About the role The post is funded by the UKRI AI-Hub INFORMED-AI to explore novel data compression and communication methods building upon information theoretic foundations while exploiting recent advancements in deep learning architectures and training methodologies. This full-time, in-person postdoctoral position is based at Imperial College’s South Kensington Campus in London, UK, and is funded for up to 18 months, starting in July 2026. What you would be doing Key responsibilities include: To take initiatives in the planning of research To undertake original research of international excellence To ensure the validity and reliability of data at all times To maintain accurate and complete records of all findings To write reports for submission to research sponsors To present findings to colleagues and at conferences To submit publications to refereed journals What we are looking for Education: Research Associate: Hold a PhD in mathematics, engineering, or a related topic. Research Assistant: Hold a master’s degree in mathematics, engineering or a related topic and be near completion of a PhD. Experience Practical experience within a research environment and / or publication in relevant and refereed journals Practical experience in a broad range of techniques, including, Optimisation and signal processing methods. Information and coding theory. Communication systems. Design and training of deep neural networks. Implementation of algorithms via computer simulation. Experience with programming in Python or C/C++ Knowledge Knowledge and research experience in one or more of the following areas: information theory, machine learning theory (in particular generative models), communication systems, signal processing, inverse problems, optimization and compression methods. Knowledge of research methods and statistical procedures. Skills and Abilities Ability to conduct a detailed review of recent literature Ability to develop and apply new concepts Creative approach to problem-solving Excellent verbal communication skills and the ability to deal with a wide range of people Excellent written communication skills and the ability to write clearly and succinctly for publication What we can offer you The opportunity to continue your career at a world-leading institution and be part of our mission to continue science for humanity. The opportunity to interact and collaborate with researchers across the INFORMED-AI Hub with regular seminars, training schools, and meetings. Grow your career: gain access to Imperial’s sector-leading dedicated career support for researchers as well as opportunities for promotion and progression. Sector-leading salary and remuneration package (including 39 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further information Please note that job descriptions cannot be exhaustive, and the post-holder may be required to undertake other duties, which are broadly in line with the above key responsibilities. For any specific queries regarding the post please contact Prof Deniz Gunduz (d.gunduz@imperial.ac.uk) *Candidates who have not yet been officially awarded their PhD will be appointed as Research Assistant. £49,017 to £57,582 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-11T00:00:00+00:00",
+      "requirements": "Research Area: Machine Learning Aided Data Compression and Communication, Information Theory, Deep Learning Architectures, Communication Systems, Signal Processing, Optimization, Inverse Problems, Generative Models\nKey Requirements: PhD in mathematics, engineering, or related topic. Practical experience in a research environment and publications. Experience in optimization, signal processing, information/coding theory, communication systems, deep neural network design/training, and algorithm implementation via simulation. Proficiency in Python or C/C++. Knowledge in information theory, machine learning theory (generative models), communication systems, signal processing, inverse problems, optimization, and compression methods.\nApplication Info: deadline/start date: 2026-06-11T00:00:00+00:00 / July 2026, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57582.00 YEAR\nOne-line Advice: CVs should highlight experience in information theory, deep learning (especially generative models), and signal processing for compression and communication systems.",
+      "relevance_score": 7.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP49017.00-GBP57582.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "26th May 2026",
+      "job_ref": "ENG03922"
+    },
+    {
+      "title": "PhD Studentship: Epilepsy Research Institute UK PhD Fellowship: Extracting added value from home EEG epilepsy diagnostics for children and young adults",
+      "url": "https://www.jobs.ac.uk/job/DRR240/phd-studentship-epilepsy-research-institute-uk-phd-fellowship-extracting-added-value-from-home-eeg-epilepsy-diagnostics-for-children-and-young-adults/",
+      "description": "The King’s College London research division of Digital Health and Applied Technology Assessment (DHATA) is inviting applications for a PhD studentship to commence on Monday 21 September 2026. One in 100 people have epilepsy, which accounts for 1% of all healthy life years lost in Europe. Its negative consequences are worsened by the diagnostic delay that occurs in up to 77% of patients, which predicts extra adverse neurodevelopment in children. This PhD project aims to improve and personalise epilepsy diagnostics for children and young adults, by applying new analytics to clinical home electroencephalography (EEG). The objectives are to leverage untapped value from ‘non-diagnostic’ EEG, by analysing i) sleep and ii) heart rate variability, and iii) stratifying data by multi-morbidity profile. The PhD will be supervised by Dr Kimberley Whitehead (DHATA, Florence Nightingale Faculty of Nursing, Midwifery & Palliative Care (NMPC)) and Dr Joel Winston (Institute of Psychiatry, Psychology & Neuroscience, IoPPN). The successful candidate will join a dynamic community of researchers at King’s who are studying epilepsy , neurodevelopment, and neurophysiology using signal processing and data science methods. In addition to project-specific training, the student will have free access to our in-person MRes Clinical Research module in Advanced Quantitative Research Methods , and a comprehensive programme of professional development courses. There is a lively post-graduate research culture at King’s, including 3-minute thesis events and an annual symposium. This award is open to Home-fee students only. The appointee will have a strong background in health data science, software engineering, neuroscience, or similar. Applicants will normally hold, or be about to complete, a Master’s degree in a relevant field (Merit or above) or have equivalent experience, e.g. working full-time as a Research Assistant for a year. Programming proficiency is essential, ideally in MATLAB and/or R, and experience of time series analysis is desirable. We are looking for somebody who will contribute to and benefit from the vibrant in-person research culture at NMPC and IoPPN. This opportunity is not suitable for those who require to work from home. The successful candidate will have excellent communication skills with both scientific and lay audiences, as this project will involve patient and public engagement. We are also seeking an appointee who is motivated, passionate about healthcare science, and able to work independently and as part of a multidisciplinary team. This project is being generously funded by the Epilepsy Research Institute ’s supporters, including those affected by epilepsy. There is an expectation that the candidate will engage with the donor. Applicants must be committed to this PhD opportunity, and preference will be given to those who have a proven ability to complete and deliver projects. Informal enquiries and visits to Dr Whitehead at her research division are encouraged ( kimberley.whitehead@kcl.ac.uk ). Candidates must apply via the King’s Apply system, for Health Studies Research MPhil/PhD (Full-time) . Quote the project title, and indicate Dr Whitehead as primary and Dr Winston as secondary supervisor. Please include: Your CV to ‘Employment History’. A 500-word statement outlining how you meet the eligibility criteria to ‘Supporting Statement’. Funding: Please choose Option 5 “I am applying for a funding award administered by King’s” and under “Award Scheme Code” enter 26KERI . Two references, with at least one being academic. We encourage applicants to send the same paperwork to Dr Whitehead at the time that they submit it to King’s Apply. For eligible students, this award will cover Home tuition fees, an annual tax-free stipend of approximately £24,643 for 3 years full-time, and a contribution to UK conference costs.",
+      "posted_date": "",
+      "source": "jobs.ac.uk Mathematics",
+      "deadline": "2026-06-19T00:00:00+00:00",
+      "requirements": "Research Area: Epilepsy diagnostics for children and young adults using home EEG, focusing on sleep, heart rate variability, and multi-morbidity stratification.\nKey Requirements: Strong background in health data science, software engineering, neuroscience, or similar; Master's degree (or imminent completion).\nApplication Info: Deadline: 2026-06-19T00:00:00+00:00; Start Date: 2026-09-21; Required Materials: N/A; Contact: N/A.\nPosition Details: Location: London, England, United Kingdom; Contract Type: N/A; Workload: Full Time; Salary: N/A.\nOne-line Advice: CVs should highlight experience in signal processing, data science, and potentially medical imaging or LLM applications if relevant to data analysis.",
+      "relevance_score": 8.0,
+      "institution": "King's College London",
+      "location": "London, England, United Kingdom",
+      "salary": "",
+      "hours": "Full Time",
+      "contract_type": "",
+      "placed_on": "26th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "VHIO International Postdoctoral Programme for Translational Research (VIDA)",
+      "url": "https://euraxess.ec.europa.eu/jobs/440962",
+      "description": "One of VHIO’s main missions is to train and inspire the next generation of leading cancer researchers and medical doctors in Oncology to drive impactful health research and innovation practices that will tackle tomorrow’s societal challenges. Through the VHIO Academy established in 2021, the... * Work Locations: Number of offers: 4, Spain, Vall Hebron Institute of Oncology (VHIO), Barcelona, 08035, Barcelona, Natzaret, 115-117 Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Cancer research](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A6039) [Biological sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A38) » [Biology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A41) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Biomedical engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A168) [Physics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A345) » [Biophysics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A348) [Mathematics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A298) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Horizon Europe – COFUND](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4349) Application Deadline: 20 Aug 2026 - 23:59 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Ireland * EXPIRES SOON * [University College Cork](https://euraxess.ec.europa.eu/partnering/organisations/profile/university-college-cork-2) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "29 May 2026",
+      "deadline": "20 Aug 2026 - 23:59 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Cancer research, Medical sciences, Biological sciences, Biology, Computer science, Engineering, Biomedical engineering, Physics, Biophysics, Mathematics\nKey Requirements: Recognized Researcher (R2) profile.\nApplication Info: Deadline: 20 Aug 2026 - 23:59 (Europe/Madrid). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Barcelona, Spain (Vall Hebron Institute of Oncology - VHIO). Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "Post-Doctoral Researcher INFANT Research Centre",
+      "url": "https://euraxess.ec.europa.eu/jobs/440949",
+      "description": "INFANT Research Centre is now accepting applications for a Postdoctoral Researcher to work on the Sophie project (School-age Outcome Prediction using radiomic imaging algorithm in Hypoxic Ischaemic Encephalopathy). The Sophie project aims to develop a Neonatal MRI Biomarker for newborns with Hypoxic... * Department: HR Research Work Locations: Number of offers: 1, Ireland, University College Cork Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A316) Researcher Profile: [Established Researcher (R3)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A449) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 26 Jun 2026 - 12:00 (Europe/Dublin) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 5: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [La Rochelle Université](https://euraxess.ec.europa.eu/partnering/organisations/profile/la-rochelle-universite) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "29 May 2026",
+      "deadline": "26 Jun 2026 - 12:00 (Europe/Dublin)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Neonatal MRI Biomarker development for Hypoxic Ischaemic Encephalopathy using radiomic imaging algorithms.\nKey Requirements: Established Researcher (R3) profile.\nApplication Info: Deadline: 26 Jun 2026 - 12:00 (Europe/Dublin). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Ireland, University College Cork. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: Focus on experience with medical imaging analysis and radiomics for biomarker development.",
+      "relevance_score": 9.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Research Associate",
+      "url": "https://www.jobs.ac.uk/job/DRS103/research-associate/",
+      "description": "This post is full time (35 hours per week) and has funding available for up to 3 years. Relocation assistance will be provided where appropriate. The School of Computing Science are looking for a post-doctoral researcher to join a research project which brings the Active Inference perspective to the study of human computer interaction. This requires us to build/learn generative, probabilistic forward models of users and their physical and computational environments. This will involve modelling sensors, developing dynamic models for control and developing a theory for future direct manipulation interactions with AI-enhanced systems outside of language-model-based thinking. The successful candidate will be someone with the ability to develop novel theory, and a strong background in topics such as Active Inference, Model-based Reinforcement Learning, or Model-based predictive control. Ideally they should also have an interest in HCI theory. They must also have strong development skills, to enable them to lead the process of prototyping new interactive systems with sensors, build machine learning algorithms that work in-the-loop, and deliver empirical work and publications. Informal enquiries should be directed to Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk The University of Glasgow has a responsibility to ensure that all employees are eligible to live and work in the UK. If you require a Skilled Worker visa to work in the UK, you will be required to meet the eligibility requirements of the visa route to be assigned a Certificate of Sponsorship. Please note that this post may be eligible to be sponsored under the Skilled Worker visa route if tradeable points can be used under the Skilled Worker visa rules. For more information please visit: https://www.gov.uk/skilled-worker-visa For more information and to apply please visit: https://www.jobs.gla.ac.uk/job/research-associate-5918923?source=gla.ac.uk Closing date: 25 June 2026 23:45 We strongly endorse the principles of Athena SWAN, including a supportive and flexible working environment, with commitment from all levels of the organisation in promoting gender equality. The University of Glasgow, charity number SC004401. £41,064 to £46,049 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-25T00:00:00+00:00",
+      "requirements": "Research Area: Active Inference, Human-Computer Interaction (HCI), generative probabilistic forward models, model-based reinforcement learning, model-based predictive control, AI-enhanced systems, direct manipulation interactions.\nKey Requirements: Ability to develop novel theory, strong background in Active Inference, Model-based Reinforcement Learning, or Model-based predictive control, strong development skills (prototyping interactive systems with sensors, building in-the-loop ML algorithms, empirical work and publications). Interest in HCI theory is ideal.\nApplication Info: deadline/start date: 2026-06-25T00:00:00+00:00, required materials: N/A, contact: Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk\nPosition Details: location: Glasgow, Scotland, United Kingdom, contract type: Fixed-Term/Contract (up to 3 years), workload: Full Time (35 hours per week), salary: GBP41064.00-GBP46049.00 YEAR\nOne-line Advice: CV should highlight theoretical development, model-based approaches, and empirical validation in interactive systems; medical imaging and LLM experience is not directly relevant unless framed within generative models or user interaction principles.",
+      "relevance_score": 7.0,
+      "institution": "University of Glasgow",
+      "location": "Glasgow, Scotland, United Kingdom",
+      "salary": "GBP41064.00-GBP46049.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "28th May 2026",
+      "job_ref": "200534"
+    },
+    {
+      "title": "Research Associate",
+      "url": "https://www.jobs.ac.uk/job/DRS125/research-associate/",
+      "description": "Full time - 35 hours per week. Fixed term contract, if applicable: 01/07/2026 – 31/03/2028 - 21 months. We are looking for a Postdoctoral Researcher in Biomedical Natural Language Processing. The opportunity: Together we can do great things. Be part of something bigger. With roles from hospitality to research, there’s a career for everyone at the University of Edinburgh. We can offer opportunities for you to develop in your career and make a real difference in the communities around us while contributing to the world at large. The University of Edinburgh is a world-class organisation. We look for the best in the field across all disciplines and provide a working environment where academics can develop their careers and passion for their chosen subject area. We offer the full range of academic roles and have a genuine focus on our student’s performance and wellbeing. Improving diagnosis for rare genetic diseases is a critical challenge, requiring innovative approaches to extract and interpret complex biological and clinical information. As part of the Welcome Trust funded PARADIGM project , an initiative aiming to transform genomic medicine by identifying new causes of monogenic disease and developing annotated resources for the scientific community. This role will focus on advancing biomedical natural language processing (NLP) to enhance variant-phenotype mapping, gene-disease models, and clinical decision support. The successful candidate will collaborate with academics, curators, clinical scientists, clinicians, and patient groups to identify practical applications of NLP in real-world scenarios. Key responsibilities include developing novel NLP approaches to extract phenotypic information from unstructured data (e.g., literature, EHRs, clinical notes), creating domain-specific text summarisation tools, and integrating these technologies into PARADIGM’s broader research goals. The role also involves proactively disseminating work through national and international collaborations, ensuring explainable AI/ML for clinical use, and supporting students through mentorship and knowledge-sharing activities. This position offers the opportunity to contribute to cutting-edge research, work in the Biomedical Informatics Group , a multidisciplinary team in the School of Informatics, and shape the future of genomic medicine. Your skills and attributes for success: Essential Skills & Experience: PhD (or equivalent) in a relevant field (e.g., Natural Language Processing, Bioinformatics, Computational Biology, or related disciplines). Demonstrated expertise in biomedical NLP, including experience with text mining, knowledge extraction, or clinical NLP, Strong programming skills in Python and familiarity with NLP toolkits. Experience with large language models (LLMs) and their fine-tuning for domain-specific tasks. Ability to work collaboratively within interdisciplinary teams (academics, clinicians, curators, etc.) and communicate complex technical concepts clearly. Experience with scientific writing, including the ability to publish in peer-reviewed journals and present research findings at conferences. Desirable Skills & Experience: Knowledge of genetic disease biology, phenotypic data, or clinical workflows (e.g., EHRs, patient registries) Experience with retrieval-augmented generation (RAG) systems or prompt engineering for NLP tasks. Familiarity with agentic systems or autonomous workflows for data processing and analysis. Experience with literature analysis, including the use of tools for full-text document retrieval. Familiarity with variant-phenotype mapping, gene-disease model creation, or computational phenomics. Experience with explainable AI/ML for clinical decision support or open-source software development. £41,064 to £48,822 per annum (Grade 7)",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-19T00:00:00+00:00",
+      "requirements": "Research Area: Biomedical Natural Language Processing (NLP) for variant-phenotype mapping, gene-disease models, and clinical decision support.\nKey Requirements: Postdoctoral Researcher in Biomedical Natural Language Processing.\nApplication Info: deadline/start date: 2026-06-19/01/07/2026, required materials: N/A, contact: N/A\nPosition Details: Edinburgh, Scotland, United Kingdom, Fixed-Term/Contract (21 months), Full Time (35 hours per week), GBP41064.00-GBP48822.00 YEAR\nOne-line Advice: CV applicants should highlight NLP experience in biomedical contexts; medical imaging and LLM applicants should emphasize transferable NLP skills.",
+      "relevance_score": 8.0,
+      "institution": "The University of Edinburgh",
+      "location": "Edinburgh, Scotland, United Kingdom",
+      "salary": "GBP41064.00-GBP48822.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "28th May 2026",
+      "job_ref": "14236"
+    },
+    {
+      "title": "Research Associate",
+      "url": "https://www.jobs.ac.uk/job/DRS133/research-associate/",
+      "description": "Full time - 35 hours per week. Fixed term contract, if applicable: 01/07/2026 – 31/03/2028 - 21 months. We are looking for a Post Doctoral Researcher Associate in Biomedical Machine Learning Systems. The opportunity: Together we can do great things. Be part of something bigger. With roles from hospitality to research, there’s a career for everyone at the University of Edinburgh. We can offer opportunities for you to develop in your career and make a real difference in the communities around us while contributing to the world at large. The University of Edinburgh is a world-class organisation. We look for the best in the field across all disciplines and provide a working environment where academics can develop their careers and passion for their chosen subject area. We offer the full range of academic roles and have a genuine focus on our student’s performance and wellbeing. Improving diagnosis for rare genetic diseases requires innovative, scalable, and explainable machine learning (ML) systems to interpret complex genomic and clinical data. As part of the Welcome Trust funded PARADIGM project , an initiative aiming to transform genomic medicine by identifying new causes of monogenic disease and developing annotated resources for the scientific community. This role will focus on advancing ML pipelines, frameworks, and tools to enhance variant interpretation, gene-disease models, and clinical decision support. Your skills and attributes for success: Essential skills & experience: PhD (or near completion) in a relevant field (e.g., Machine Learning, Bioinformatics, Computational Biology, or related disciplines). Demonstrated expertise in machine learning, particularly in genomics, rare disease research, or biomedical data analysis. Strong ML programming skills in Python and/or other relevant languages, with experience in optimising and deploying distributed compute tasks. Experience working with high-performance computing environments, including containerised systems (e.g., Docker, Kubernetes) for scalable and reproducible computational workflows. Ability to work collaboratively within interdisciplinary teams (academics, clinicians, curators, software engineers) and communicate complex technical concepts clearly. Experience with scientific writing, including the ability to publish in peer-reviewed journals and present research findings at conferences. £41,064 to £48,822 per annum (Grade 7)",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-19T00:00:00+00:00",
+      "requirements": "Research Area: Biomedical Machine Learning Systems, specifically focusing on advancing ML pipelines, frameworks, and tools for variant interpretation, gene-disease models, and clinical decision support in rare genetic diseases.\nKey Requirements: PhD (or near completion) in Machine Learning, Bioinformatics, Computational Biology, or related disciplines. Demonstrated expertise in machine learning, particularly in genomics, rare disease research, or biomedical data analysis. Strong ML programming skills in Python.\nApplication Info: deadline/start date: 2026-06-19T00:00:00+00:00 / 2026-07-01. Required materials: N/A. Contact: N/A.\nPosition Details: location: Edinburgh, Scotland, United Kingdom. contract type: Fixed-Term/Contract (01/07/2026 – 31/03/2028). workload: Full Time (35 hours per week). salary: GBP41064.00-GBP48822.00 YEAR.\nOne-line Advice: CVs should highlight extensive experience in machine learning applied to genomic and biomedical data, with a strong emphasis on Python programming and relevant research areas like rare disease interpretation.",
+      "relevance_score": 8.0,
+      "institution": "The University of Edinburgh",
+      "location": "Edinburgh, Scotland, United Kingdom",
+      "salary": "GBP41064.00-GBP48822.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "28th May 2026",
+      "job_ref": "14237"
+    },
+    {
+      "title": "Research Associate in Computer Vision",
+      "url": "https://www.jobs.ac.uk/job/DRR708/research-associate-in-computer-vision/",
+      "description": "Fixed-term for 2 years Location: Wolfson Building, Parks Road, Oxford We are seeking a highly motivated We are seeking a Postdoctoral Research Associate in Computer Vision to join the Visual Geometry Group (Central Oxford), funded by ERC. Reporting to the Principal Investigator, you will help ensure a healthy and vibrant research environment within the Visual Geometry Group. This will involve conducting projects in computer vision research, including the work involved in the collaborations with project partners. Informal enquiries may be addressed to Prof. Christian Rupprecht at christian.rupprecht@cs.ox.ac.uk The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however flexible working can be considered. About Us The University of Oxford is a stimulating work environment, which enjoys an international reputation as a world-class centre of excellence. Our research plays a key role in tackling many global challenges, from reducing our carbon emissions to developing vaccines during a pandemic. The Department of Computer Science at Oxford is renowned for pioneering research and teaching across diverse fields, consistently ranking among the best in the world. Our commitment to innovation drives us to tackle complex technological and societal challenges. What We Offer As an employer, we genuinely care about our employees’ wellbeing, reflected in the range of benefits that we offer including: Excellent contributory pension scheme 38 days annual leave (including public holidays) – pro rata for part time jobs Family leave schemes Cycle loan scheme and discounted public transport The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however remote and flexible working can be considered. Diversity Committed to equality and valuing diversity. Application Process You will be required to upload a supporting statement and an up-to-date CV as part of your online application. Your supporting statement must clearly demonstrate how you meet each of the essential selection criteria listed in the job description. Applications that do not include a supporting statement or CV, or fail to address the criteria in sufficient detail, will not be considered. While we recognise the value of AI tools in assisting with application preparation, submissions that are clearly AI-generated without personalisation or insight will be rejected. It's crucial that your application reflects your own experiences and understanding of the role. The closing date for applications is midday on 26 th June 2026. Interviews are expected to be held in early July. £39,424 to £43,984 per annum inclusive of Oxford University weighting. Grade 07RS",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-26T00:00:00+00:00",
+      "requirements": "Research Area: Computer Vision\nKey Requirements: PhD in Computer Science or related field, strong research record in computer vision, experience with research collaborations.\nApplication Info: deadline: 2026-06-26, required materials: N/A, contact: Prof. Christian Rupprecht (christian.rupprecht@cs.ox.ac.uk) for informal enquiries.\nPosition Details: Oxford, England, United Kingdom; Fixed-Term/Contract for 2 years; Full Time; GBP39424.00-GBP43984.00 YEAR.\nOne-line Advice: CV applicants should highlight research experience in computer vision; medical imaging and LLM applicants should emphasize transferable skills and relevant projects if applicable.",
+      "relevance_score": 9.0,
+      "institution": "University of Oxford",
+      "location": "Oxford, England, United Kingdom",
+      "salary": "GBP39424.00-GBP43984.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "27th May 2026",
+      "job_ref": "186588"
+    },
+    {
+      "title": "Research Associate in Neural Rendering and Medical Image Reconstruction",
+      "url": "https://www.jobs.ac.uk/job/DRR471/research-associate-in-neural-rendering-and-medical-image-reconstruction/",
+      "description": "Fixed-term for 2 years Location: Wolfson Building, Parks Road, Oxford We are looking for a postdoctoral research associate position is available in the Oxford Machine Learning in Neuroimaging (OMNI) lab at Oxford’s Department of Computer Science. The post-holder will report directly to Professor Ana Namburete and will work within a multidisciplinary team of deep learning researchers, research software engineers, and obstetricians, and will collaborate with Dr João Henriques (Visual Geometry Group, VGG) and Professor Aris Papageorghiou (Nuffield Department of Women’s and Reproductive Health). The project focuses on efficient neural implicit representations and neural rendering methods for volumetric reconstruction from freehand ultrasound sweeps acquired with handheld probes. The overarching goal is to enable near-real-time 3D reconstruction at the bedside, supporting quantitative assessment of fetal brain development in low-resource settings. The post-holder will develop machine learning and neural scene representation methods for reconstructing 3D fetal brain volumes from handheld ultrasound video, and integrate these algorithms into interactive clinical imaging workflows. They will contribute to research at the intersection of 3D computer vision, neural rendering, and medical image analysis. This includes developing scalable 2D-to-3D reconstruction architectures and working with ultrasound acquisition systems to deliver interactive feedback during scanning. Flexible working The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however remote and flexible working can be considered. What We Offer As an employer, we genuinely care about our employees’ wellbeing and this is reflected in the range of benefits that we offer including: An excellent contributory pension scheme 38 days annual leave (pro-rata for part-time roles) A comprehensive range of childcare services Family leave schemes Cycle loan scheme Discounted bus travel and Season Ticket travel loans Membership to a variety of social and sports clubs Diversity Committed to equality and valuing diversity. Application Process You will be required to upload a supporting statement and an up-to-date CV as part of your online application. Your supporting statement must clearly demonstrate how you meet each of the essential selection criteria listed in the job description. Applications that do not include a supporting statement or CV, or fail to address the criteria in sufficient detail, will not be considered. While we recognise the value of AI tools in assisting with application preparation, submissions that are clearly AI-generated without personalisation or insight will be rejected. It's crucial that your application reflects your own experiences and understanding of the role. The closing date for applications is noon on 29 th June 2026. Interviews are expected to be held in July. £39,424 to £43,984 per annum inclusive of Oxford University weighting. Grade 07RS",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-29T00:00:00+00:00",
+      "requirements": "Research Area: Neural Rendering, Medical Image Reconstruction, Neural Implicit Representations, 3D Computer Vision, Machine Learning in Neuroimaging\nKey Requirements: PhD in Computer Science or related field, experience in machine learning, deep learning, 3D computer vision, neural rendering, and medical image analysis. Experience with ultrasound data is desirable.\nApplication Info: deadline/start date: 2026-06-29T00:00:00+00:00 / N/A, required materials: N/A, contact: N/A\nPosition Details: location: Oxford, England, United Kingdom, contract type: Fixed-Term/Contract (2 years), workload: Full Time, salary: GBP39424.00-GBP43984.00 YEAR\nOne-line Advice: CV should highlight expertise in neural rendering, 3D reconstruction, and machine learning applied to medical imaging.",
+      "relevance_score": 10.0,
+      "institution": "University of Oxford",
+      "location": "Oxford, England, United Kingdom",
+      "salary": "GBP39424.00-GBP43984.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "26th May 2026",
+      "job_ref": "186515"
+    },
+    {
+      "title": "Research Associate* in Machine Learning Aided Data Compression and Communication",
+      "url": "https://www.jobs.ac.uk/job/DRR238/research-associate-in-machine-learning-aided-data-compression-and-communication/",
+      "description": "About the role The post is funded by the UKRI AI-Hub INFORMED-AI to explore novel data compression and communication methods building upon information theoretic foundations while exploiting recent advancements in deep learning architectures and training methodologies. This full-time, in-person postdoctoral position is based at Imperial College’s South Kensington Campus in London, UK, and is funded for up to 18 months, starting in July 2026. What you would be doing Key responsibilities include: To take initiatives in the planning of research To undertake original research of international excellence To ensure the validity and reliability of data at all times To maintain accurate and complete records of all findings To write reports for submission to research sponsors To present findings to colleagues and at conferences To submit publications to refereed journals What we are looking for Education: Research Associate: Hold a PhD in mathematics, engineering, or a related topic. Research Assistant: Hold a master’s degree in mathematics, engineering or a related topic and be near completion of a PhD. Experience Practical experience within a research environment and / or publication in relevant and refereed journals Practical experience in a broad range of techniques, including, Optimisation and signal processing methods. Information and coding theory. Communication systems. Design and training of deep neural networks. Implementation of algorithms via computer simulation. Experience with programming in Python or C/C++ Knowledge Knowledge and research experience in one or more of the following areas: information theory, machine learning theory (in particular generative models), communication systems, signal processing, inverse problems, optimization and compression methods. Knowledge of research methods and statistical procedures. Skills and Abilities Ability to conduct a detailed review of recent literature Ability to develop and apply new concepts Creative approach to problem-solving Excellent verbal communication skills and the ability to deal with a wide range of people Excellent written communication skills and the ability to write clearly and succinctly for publication What we can offer you The opportunity to continue your career at a world-leading institution and be part of our mission to continue science for humanity. The opportunity to interact and collaborate with researchers across the INFORMED-AI Hub with regular seminars, training schools, and meetings. Grow your career: gain access to Imperial’s sector-leading dedicated career support for researchers as well as opportunities for promotion and progression. Sector-leading salary and remuneration package (including 39 days off a year and generous pension schemes). Be part of a diverse, inclusive and collaborative work culture with various staff networks and resources to support your personal and professional wellbeing . Further information Please note that job descriptions cannot be exhaustive, and the post-holder may be required to undertake other duties, which are broadly in line with the above key responsibilities. For any specific queries regarding the post please contact Prof Deniz Gunduz (d.gunduz@imperial.ac.uk) *Candidates who have not yet been officially awarded their PhD will be appointed as Research Assistant. £49,017 to £57,582 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-11T00:00:00+00:00",
+      "requirements": "Research Area: Machine Learning Aided Data Compression and Communication, Information Theory, Deep Learning Architectures, Communication Systems, Signal Processing, Optimization, Inverse Problems, Generative Models\nKey Requirements: PhD in mathematics, engineering, or related topic. Practical experience in a research environment and publications. Experience in optimization, signal processing, information/coding theory, communication systems, deep neural network design/training, and algorithm implementation via simulation. Proficiency in Python or C/C++. Knowledge in information theory, machine learning theory (generative models), communication systems, signal processing, inverse problems, optimization, and compression methods.\nApplication Info: deadline/start date: 2026-06-11T00:00:00+00:00 / July 2026, required materials: N/A, contact: N/A\nPosition Details: location: London, England, United Kingdom, contract type: Fixed-Term/Contract, workload: Full Time, salary: GBP49017.00-GBP57582.00 YEAR\nOne-line Advice: CVs should highlight experience in information theory, deep learning (especially generative models), and signal processing for compression and communication systems.",
+      "relevance_score": 7.0,
+      "institution": "Imperial College London",
+      "location": "London, England, United Kingdom",
+      "salary": "GBP49017.00-GBP57582.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "26th May 2026",
+      "job_ref": "ENG03922"
+    },
+    {
+      "title": "PhD Studentship: Epilepsy Research Institute UK PhD Fellowship: Extracting added value from home EEG epilepsy diagnostics for children and young adults",
+      "url": "https://www.jobs.ac.uk/job/DRR240/phd-studentship-epilepsy-research-institute-uk-phd-fellowship-extracting-added-value-from-home-eeg-epilepsy-diagnostics-for-children-and-young-adults/",
+      "description": "The King’s College London research division of Digital Health and Applied Technology Assessment (DHATA) is inviting applications for a PhD studentship to commence on Monday 21 September 2026. One in 100 people have epilepsy, which accounts for 1% of all healthy life years lost in Europe. Its negative consequences are worsened by the diagnostic delay that occurs in up to 77% of patients, which predicts extra adverse neurodevelopment in children. This PhD project aims to improve and personalise epilepsy diagnostics for children and young adults, by applying new analytics to clinical home electroencephalography (EEG). The objectives are to leverage untapped value from ‘non-diagnostic’ EEG, by analysing i) sleep and ii) heart rate variability, and iii) stratifying data by multi-morbidity profile. The PhD will be supervised by Dr Kimberley Whitehead (DHATA, Florence Nightingale Faculty of Nursing, Midwifery & Palliative Care (NMPC)) and Dr Joel Winston (Institute of Psychiatry, Psychology & Neuroscience, IoPPN). The successful candidate will join a dynamic community of researchers at King’s who are studying epilepsy , neurodevelopment, and neurophysiology using signal processing and data science methods. In addition to project-specific training, the student will have free access to our in-person MRes Clinical Research module in Advanced Quantitative Research Methods , and a comprehensive programme of professional development courses. There is a lively post-graduate research culture at King’s, including 3-minute thesis events and an annual symposium. This award is open to Home-fee students only. The appointee will have a strong background in health data science, software engineering, neuroscience, or similar. Applicants will normally hold, or be about to complete, a Master’s degree in a relevant field (Merit or above) or have equivalent experience, e.g. working full-time as a Research Assistant for a year. Programming proficiency is essential, ideally in MATLAB and/or R, and experience of time series analysis is desirable. We are looking for somebody who will contribute to and benefit from the vibrant in-person research culture at NMPC and IoPPN. This opportunity is not suitable for those who require to work from home. The successful candidate will have excellent communication skills with both scientific and lay audiences, as this project will involve patient and public engagement. We are also seeking an appointee who is motivated, passionate about healthcare science, and able to work independently and as part of a multidisciplinary team. This project is being generously funded by the Epilepsy Research Institute ’s supporters, including those affected by epilepsy. There is an expectation that the candidate will engage with the donor. Applicants must be committed to this PhD opportunity, and preference will be given to those who have a proven ability to complete and deliver projects. Informal enquiries and visits to Dr Whitehead at her research division are encouraged ( kimberley.whitehead@kcl.ac.uk ). Candidates must apply via the King’s Apply system, for Health Studies Research MPhil/PhD (Full-time) . Quote the project title, and indicate Dr Whitehead as primary and Dr Winston as secondary supervisor. Please include: Your CV to ‘Employment History’. A 500-word statement outlining how you meet the eligibility criteria to ‘Supporting Statement’. Funding: Please choose Option 5 “I am applying for a funding award administered by King’s” and under “Award Scheme Code” enter 26KERI . Two references, with at least one being academic. We encourage applicants to send the same paperwork to Dr Whitehead at the time that they submit it to King’s Apply. For eligible students, this award will cover Home tuition fees, an annual tax-free stipend of approximately £24,643 for 3 years full-time, and a contribution to UK conference costs.",
+      "posted_date": "",
+      "source": "jobs.ac.uk Mathematics",
+      "deadline": "2026-06-19T00:00:00+00:00",
+      "requirements": "Research Area: Epilepsy diagnostics for children and young adults using home EEG, focusing on sleep, heart rate variability, and multi-morbidity stratification.\nKey Requirements: Strong background in health data science, software engineering, neuroscience, or similar; Master's degree (or imminent completion).\nApplication Info: Deadline: 2026-06-19T00:00:00+00:00; Start Date: 2026-09-21; Required Materials: N/A; Contact: N/A.\nPosition Details: Location: London, England, United Kingdom; Contract Type: N/A; Workload: Full Time; Salary: N/A.\nOne-line Advice: CVs should highlight experience in signal processing, data science, and potentially medical imaging or LLM applications if relevant to data analysis.",
+      "relevance_score": 8.0,
+      "institution": "King's College London",
+      "location": "London, England, United Kingdom",
+      "salary": "",
+      "hours": "Full Time",
+      "contract_type": "",
+      "placed_on": "26th May 2026",
+      "job_ref": ""
+    },
+    {
+      "title": "VHIO International Postdoctoral Programme for Translational Research (VIDA)",
+      "url": "https://euraxess.ec.europa.eu/jobs/440962",
+      "description": "One of VHIO’s main missions is to train and inspire the next generation of leading cancer researchers and medical doctors in Oncology to drive impactful health research and innovation practices that will tackle tomorrow’s societal challenges. Through the VHIO Academy established in 2021, the... * Work Locations: Number of offers: 4, Spain, Vall Hebron Institute of Oncology (VHIO), Barcelona, 08035, Barcelona, Natzaret, 115-117 Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Cancer research](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A6039) [Biological sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A38) » [Biology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A41) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Biomedical engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A168) [Physics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A345) » [Biophysics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A348) [Mathematics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A298) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Horizon Europe – COFUND](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4349) Application Deadline: 20 Aug 2026 - 23:59 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Ireland * EXPIRES SOON * [University College Cork](https://euraxess.ec.europa.eu/partnering/organisations/profile/university-college-cork-2) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "29 May 2026",
+      "deadline": "20 Aug 2026 - 23:59 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Cancer research, Medical sciences, Biological sciences, Biology, Computer science, Engineering, Biomedical engineering, Physics, Biophysics, Mathematics\nKey Requirements: Recognized Researcher (R2) profile.\nApplication Info: Deadline: 20 Aug 2026 - 23:59 (Europe/Madrid). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Barcelona, Spain (Vall Hebron Institute of Oncology - VHIO). Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "Post-Doctoral Researcher INFANT Research Centre",
+      "url": "https://euraxess.ec.europa.eu/jobs/440949",
+      "description": "INFANT Research Centre is now accepting applications for a Postdoctoral Researcher to work on the Sophie project (School-age Outcome Prediction using radiomic imaging algorithm in Hypoxic Ischaemic Encephalopathy). The Sophie project aims to develop a Neonatal MRI Biomarker for newborns with Hypoxic... * Department: HR Research Work Locations: Number of offers: 1, Ireland, University College Cork Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A316) Researcher Profile: [Established Researcher (R3)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A449) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 26 Jun 2026 - 12:00 (Europe/Dublin) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 5: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [La Rochelle Université](https://euraxess.ec.europa.eu/partnering/organisations/profile/la-rochelle-universite) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "29 May 2026",
+      "deadline": "26 Jun 2026 - 12:00 (Europe/Dublin)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Neonatal MRI Biomarker development for Hypoxic Ischaemic Encephalopathy using radiomic imaging algorithms.\nKey Requirements: Established Researcher (R3) profile.\nApplication Info: Deadline: 26 Jun 2026 - 12:00 (Europe/Dublin). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Ireland, University College Cork. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: Focus on experience with medical imaging analysis and radiomics for biomarker development.",
+      "relevance_score": 9.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
