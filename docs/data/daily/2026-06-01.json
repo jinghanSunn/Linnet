@@ -1,0 +1,1381 @@
+{
+  "date": "2026-06-01",
+  "generated_at": "2026-06-01T15:44:25.624879+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2605.31468v1",
+          "title": "AutoSci: A Memory-Centric Agentic System for the Full Scientific Research Lifecycle",
+          "authors": [
+            "Weitong Qian",
+            "Beicheng Xu",
+            "Zhongao Xie",
+            "Bowen Fan",
+            "Guozheng Tang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "AutoSci is a memory-centric agentic system designed to automate the entire scientific research lifecycle. Its core method involves a structured, persistent memory system (SciMem) that distinguishes between general scientific knowledge and project-specific artifacts. This enables AutoSci to manage research processes (SciFlow) and continuously improve its own research procedures over time, addressing a gap in existing automated systems.",
+          "url": "http://arxiv.org/abs/2605.31468v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31468v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.31468v1/x1.png",
+          "figure_caption": "Overview of AutoSci.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.31492v1",
+          "title": "LinTree: Improving LLM Reasoning with Explicitly Structured Search Histories",
+          "authors": [
+            "Liwei Kang",
+            "Yee Whye Teh",
+            "Wee Sun Lee"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces LinTree, a method to improve LLM reasoning by making search histories explicit. It argues that LLMs implicitly linearize search trees, but this implicit structure doesn't always outperform traditional search. LinTree aims to leverage this by explicitly structuring the search history, though initial experiments suggest raw history alone isn't sufficient.",
+          "url": "http://arxiv.org/abs/2605.31492v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31492v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.31584v1",
+          "title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards",
+          "authors": [
+            "Nianyi Lin",
+            "Jiajie Zhang",
+            "Lei Hou",
+            "Juanzi Li"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces LongTraceRL to improve long-context reasoning in language models. It constructs challenging training data by using search agent trajectories to create tiered distractors, mimicking real-world information retrieval. The core contribution is a rubric reward system that provides granular feedback on intermediate reasoning steps, going beyond sparse outcome-based rewards.",
+          "url": "http://arxiv.org/abs/2605.31584v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31584v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.31584v1/x1.png",
+          "figure_caption": "Comparison between prior long-context RL approaches based on easy distractors and outcome-only rewards, and our proposed LongTraceRL .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.31506v1",
+          "title": "Evaluating Factual Density in Multi-Source RAG: A Study in Medical AI Accuracy",
+          "authors": [
+            "Michael R. DeMarco"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.IR"
+          ],
+          "abstract": "This paper addresses the \"Expert Blindness Effect\" in Retrieval-Augmented Generation (RAG) where keyword matching prioritizes superficial similarity over factual content. It introduces Factual Density (FD*), a novel metric that quantifies the proportion of verified atomic claims within a text. By using probabilistic factuality analysis to score content before ingestion, FD* aims to improve RAG accuracy by surfacing genuinely informative documents.",
+          "url": "http://arxiv.org/abs/2605.31506v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31506v1",
+          "score": 8.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.31545v1",
+          "title": "Preference-Aware Rubric Learning for Personalized Evaluation",
+          "authors": [
+            "Yilun Qiu",
+            "Xiaoyan Zhao",
+            "Yang Zhang",
+            "Yuxin Chen",
+            "Cilin Yan"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces PARL, a framework that learns personalized evaluation rubrics directly from user interaction histories. Unlike static methods, PARL treats evaluation as a learning problem to capture subjective, user-specific preferences. Its core contribution is a novel approach to personalized evaluation that ensures representativeness, user-consistency, and discriminativeness, addressing a key bottleneck in aligning LLMs with individual users.",
+          "url": "http://arxiv.org/abs/2605.31545v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31545v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.31545v1/x1.png",
+          "figure_caption": "Overview of our proposed PARL framework for inducing personalized user rubrics for evaluating LLM personalization. PARL consists of two core modules: (1) Preference Induction & Consistency Validation; (2) Discriminative Optimization via RL. The final induced rubrics serve as high-fidelity evaluation metrics for personalized text generation.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.31514v1",
+          "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+          "authors": [
+            "Adrian de Wynter"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CY"
+          ],
+          "abstract": "This paper argues that attributing human-like qualities to LLMs might be misleading. By training a simple neural network on the game Age of Empires II, the authors demonstrate that such attributes can emerge in any sufficiently complex system, not just LLMs. Their core contribution is to highlight that these emergent properties are not unique to LLMs and that empirical discussions require explicit measurement criteria.",
+          "url": "http://arxiv.org/abs/2605.31514v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31514v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.31463v1",
+          "title": "PithTrain: A Compact and Agent-Native MoE Training System",
+          "authors": [
+            "Ruihang Lai",
+            "Hao Kang",
+            "Haozhan Tang",
+            "Akaash R. Parthasarathy",
+            "Zichun Yu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.DC"
+          ],
+          "abstract": "PithTrain is a novel MoE training system designed for AI coding agents, prioritizing \"agent-task efficiency\" (ATE) alongside traditional throughput. Its core method involves four agent-native design principles to create a compact and easily operable framework. The main contribution is a system that not only matches production framework throughput but also significantly reduces the effort required for agents to understand, modify, and extend it, as demonstrated by the ATE-Bench evaluation.",
+          "url": "http://arxiv.org/abs/2605.31463v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31463v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.31558v1",
+          "title": "Positional versus Symbolic Attention Heads: Learning Dynamics, RoPE Geometry, and Length Generalization",
+          "authors": [
+            "Felipe Urrutia",
+            "Juan José Alegría",
+            "Cinthia Sanchez Macias",
+            "Jorge Salas",
+            "Cristian B. Calderon"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper investigates how Transformer attention heads learn to solve structured reasoning tasks by training a model on number (positional) and letter (symbolic) reasoning problems. The core method involves classifying attention heads as \"positional\" or \"symbolic\" and observing their emergence during training. The key contribution is demonstrating that successful learning requires \"pure\" heads (exclusively positional or symbolic) and that the specific task structure dictates which types of heads are necessary for effective reasoning.",
+          "url": "http://arxiv.org/abs/2605.31558v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31558v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.31558v1/x1.png",
+          "figure_caption": "Left: Number-based multi-hop task. We illustrate this task via a 4-hop example, where numbers in the pre-target window (white background) define the steps to hop back until reaching the to-be-retrieved letter in the target window (grey background). Right: Letter-based multi-hop task. Here, hops are defined by the letter pairs in the pre-target window, which determine the steps to hop back until reaching the to-be-retrieved letter-number pair in the target window (grey background).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.31509v1",
+          "title": "Skill Reuse as Compression in Agentic RL",
+          "authors": [
+            "Zhikun Xu",
+            "Yu Feng",
+            "Jacob Dineen",
+            "Taiwei Shi",
+            "Jieyu Zhao"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper proposes ReuseRL, a method that views skill reuse in agentic RL as a form of compression. By grounding agent training in the Minimum Description Length principle, ReuseRL extracts",
+          "url": "http://arxiv.org/abs/2605.31509v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31509v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.31509v1/x1.png",
+          "figure_caption": "ReuseRL distinguishes reusable compression from raw brevity. Each colored box is one ALFWorld atomic skill. Vanilla GRPO optimizes task success alone and can produce long trajectories with repeated or wasted steps. A pure round-length penalty is a degenerate singleton-only code that penalizes all steps uniformly, including the necessary search, so the agent under-explores and never reaches the target. ReuseRL learns a multi-skill dictionary from successful trajectories and uses the segmentation cost under this dictionary as a trajectory-level penalty, keeping reusable subroutines cheap while leaving idiosyncratic waste expensive.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.31556v1",
+          "title": "Vision-Language Models Suppress Female Representations Under Ambiguous Input",
+          "authors": [
+            "Arnau Marin-Llobet",
+            "Simon Henniger",
+            "Mahzarin R. Banaji"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CV",
+            "cs.CY",
+            "cs.HC"
+          ],
+          "abstract": "This paper investigates how Vision-Language Models (VLMs) handle gender bias with ambiguous visual inputs. They introduce LALS, a novel metric to measure internal concept associations within VLMs. The study reveals that while VLMs may internally encode female associations, their outputs often default to male representations for ambiguous images, even for female-stereotyped occupations.",
+          "url": "http://arxiv.org/abs/2605.31556v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31556v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.31556v1/figures/bias-lens.png",
+          "figure_caption": "Representative Summary of Findings. Top: when gender is visually clear, VLMs report it accurately. Bottom: when the image is gender-ambiguous (faceless figures, same occupations), models default to male under forced-choice prompting, even for female-stereotyped roles.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.31564v1",
+          "title": "What Gets Unmasked First? Trajectory Analysis of Diffusion Models for Graph-to-Text Generation",
+          "authors": [
+            "Qing Wang",
+            "Jacob Devasier",
+            "Chengkai Li"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces the first systematic analysis of masked diffusion language models (MDLMs) for graph-to-text generation. It reveals that MDLMs naturally prioritize entities before relational and structural words during decoding. To counter a failure mode where supervised fine-tuning disrupts this natural order, the authors propose lambda-scaled structural decoding, a training-free method that improves generation quality.",
+          "url": "http://arxiv.org/abs/2605.31564v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31564v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.31564v1/x1.png",
+          "figure_caption": "An overview of Graph-LLaDA. Trained and frozen modules of our two-stage training process are indicated along with their associated stage.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.31497v1",
+          "title": "Assign and Add: A Mechanistic Study of Compositional Arithmetic",
+          "authors": [
+            "Brady Exoo",
+            "Alberto Bietti",
+            "John Sous"
+          ],
+          "categories": [
+            "cs.LG",
+            "stat.ML"
+          ],
+          "abstract": "This paper investigates how large language models achieve compositional generalization through a mechanistic study of variable assignment and modular addition. The core method involves analyzing small transformers trained on disjoint data sets, revealing that they can generalize to unseen combinations. The key contribution is demonstrating that a single \"modular addition\" MLP module is reused for both direct inputs and indirectly assigned variables, highlighting a flexible and generalizable learning mechanism.",
+          "url": "http://arxiv.org/abs/2605.31497v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31497v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.31504v1",
+          "title": "When Are Multimodal Predictions Biologically Supported? A Diagnostic Evaluation Framework",
+          "authors": [
+            "Dylan Steiner",
+            "Gustavo Arango-Argoty",
+            "Gerald Sun",
+            "Etai Jacob"
+          ],
+          "categories": [
+            "cs.LG",
+            "stat.ML"
+          ],
+          "abstract": "This paper introduces DECAT, a model-agnostic framework to diagnose whether multimodal predictions in oncology are biologically supported or based on spurious correlations. DECAT analyzes learned representations to classify them into four diagnostic scenarios, using null-referenced metrics and a rule-based system. Its contribution lies in providing a robust method to understand the biological basis of multimodal model predictions, crucial for reliable clinical applications.",
+          "url": "http://arxiv.org/abs/2605.31504v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31504v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.31504v1/x1.png",
+          "figure_caption": "DECAT framework overview. DECAT takes per-modality embeddings from any multimodal model and uses a four-stage decision tree to classify the predictive behavior of each modality, for a given task, into one of four scenarios or indeterminate (Figure 6 , Appendix G ). Scenario classification informs downstream decisions: shared biology (S1) supports cross-modal deployment, modality-specific biology (S4) restricts reliable predictions to the source modality, spurious signal (S2) transfers across cohorts but exhibits composition-dependent instability indicating risk of failure under distribution shift, and no signal (S3) indicates the representation is uninformative for that task.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2605.31483v1",
+          "title": "BenHalluEval: A Multi-Task Hallucination Evaluation Framework for Large Language Models on Bengali",
+          "authors": [
+            "Shefayat E Shams Adib",
+            "Ahmed Alfey Sani",
+            "Ekramul Alam Esham",
+            "Ajwad Abrar",
+            "Ishmam Tashdeed"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces BenHalluEval, a novel framework for evaluating hallucinations in Large Language Models (LLMs) specifically for the Bengali language. It constructs a comprehensive dataset of 12,000 hallucinated examples across four tasks and proposes BenHalluScore, a dual-track metric to accurately assess LLM performance by penalizing both false positives and missed hallucinations. This work addresses a critical gap in evaluating LLMs for Bengali, providing a much-needed benchmark and scoring mechanism.",
+          "url": "http://arxiv.org/abs/2605.31483v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31483v1",
+          "score": 7.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.31512v1",
+          "title": "Reliable Multilingual Orthopedic Decision Support from Clinical Narratives: Language-Aware Adaptation and Verification-Guided Deferral",
+          "authors": [
+            "Danish Ali",
+            "Li Xiaojian",
+            "Sundas Iqbal",
+            "Farrukh Zaidi"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper proposes a reliability-oriented framework for multilingual orthopedic decision support from clinical narratives in English, Hindi, and Punjabi. The core method involves a domain-adaptive encoder, IndicBERT-HPA, which augments IndicBERT with language-aware adapter heads for better multilingual representation learning. The key contribution is a comprehensive evaluation that goes beyond aggregate accuracy to assess per-class performance, calibration, and robustness, aiming for reliable decision support in low-resource settings.",
+          "url": "http://arxiv.org/abs/2605.31512v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31512v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.31512v1/overview.png",
+          "figure_caption": "Figure 1 . Overview of the proposed multilingual orthopedic decision-support framework. The pipeline integrates task-aligned transformer encoders, domain-adaptive representation learning, zero-shot large language model evaluation and a deterministic selective-verification layer for evidence-aware review deferral.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.31550v1",
+          "title": "Semantic Triplet Restoration: A Novel Protocol for Hierarchical Table Understanding in Large Language Models",
+          "authors": [
+            "Yibin Zhao",
+            "Fangxin Shang",
+            "Dingrui Yang",
+            "Yuqi Wang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Semantic Triplet Restoration (STR), a novel protocol that represents table cells as atomic facts `<item path, feature path, value>`. This method simplifies table understanding for LLMs by explicitly encoding hierarchical relationships, unlike traditional HTML-based approaches. STR, coupled with the TripletQL router, efficiently processes table data for question answering, achieving competitive or improved performance with fewer input tokens.",
+          "url": "http://arxiv.org/abs/2605.31550v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31550v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.31550v1/x1.png",
+          "figure_caption": "An example of a complex hierarchical table from the TableEval dataset.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.31561v1",
+          "title": "What Am I Missing? Question-Answering as Hidden State Probing",
+          "authors": [
+            "Chu Fei Luo",
+            "Samuel Dahan",
+            "Xiaodan Zhu"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper proposes using question-asking as an inference-time intervention to probe the hidden states of Large Language Models (LLMs) during reasoning. By training a \"student\" model to ask questions to a \"teacher\" and analyzing the student's hidden states, they show that the act of self-diagnosis through question generation predicts the final answer's correctness, suggesting the signal lies in the model's internal reflection rather than external information transfer.",
+          "url": "http://arxiv.org/abs/2605.31561v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.31561v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.31561v1/x1.png",
+          "figure_caption": "An illustration of our experimental setting. There is a student \\( \\theta \\) that generates a partial solution \\( \\tau \\) for a problem. The decisions of what to ask and when to ask are determined by a gating policy \\( \\pi \\) . First, it chooses a step in the reasoning trajectory to pause the generation. We sample n n questions from the student and choose the best one by predicted correctness to be sent to the teacher T T . The student then incorporates the answer into a rewrite of the uncertain step.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 31,
+        "papers_after_llm_filter": 17,
+        "count": 17
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Research Associate",
+          "url": "https://www.jobs.ac.uk/job/DRS954/research-associate/",
+          "description": "Grade 7 Salary Range £38,784 - £47,389 per annum Fixed Term until 31 st December 2026 Agile working (blend of home and office based)/ Arrangements for job share would be considered The Opportunity An exciting opportunity has arisen for an ambitious Research Associate to join the School of Computer Science and Mathematics at Keele University. The School has a growing international research profile in cyber security, artificial intelligence, data science, and digital technologies, and offers a collaborative research environment with opportunities to contribute to high-impact interdisciplinary research and partnerships with academic, industry, and public-sector stakeholders. The Research Associate will make a significant contribution to an exciting Digital Twin project. The project aims to design and develop a Digital Twin architecture for smart cities, with a particular focus on use cases in energy management and traffic monitoring. In addition, the research will investigate the cybersecurity and resilience of Digital Twins against cyber-attacks. The successful candidate will be expected to develop a cyber-resilient Digital Twin framework, undertake co-design activities, carry out cyber risk assessments, and apply security-by-design principles. The successful candidate will have: PhD in relevant research area Knowledge of digital twin systems, cyber security, energy management and traffic monitoring Ability to run co-design workshops Fluency in relevant models, techniques or methods and ability to contribute to developing new ones The Benefits The University recognises that its success depends upon the contribution and dedication of its talented staff. In return, we have a competitive benefits package available, including: Competitive rate of pay with annual increments within the grade (Keele Spine) Generous annual leave entitlement with opportunities to purchase additional leave Excellent staff pension scheme Access to continued personal, professional and career development On site ‘outstanding’ nursery Discounted health & fitness facilities on site Cycle to work scheme (subject to eligibility) Please note that the starting salary will typically be at the bottom of the pay scale shown above The University is committed to operating flexible working practices wherever possible. The University Keele University is renowned for its exciting approach to higher education, innovative research, beautiful campus, strong community spirit and excellent student experience. With a turnover in excess of £170 million, over 15,000 students and a total staff of approximately 2000, the University provides high quality teaching across a wide range of academic and vocational subjects and promotes world-class research. Further information can be found at https://www.keele.ac.uk/about/ Keele University values equity and diversity across our workforce and to ensuring our staff community is reflective of the diversity of our student population. In support of these commitments the University welcomes applications from individuals of Black, Asian and ethnic minority backgrounds for all roles. How to Apply To apply online for this vacancy and for full post details and copies of job descriptions, please click on the ' Apply' button above. Keele University employees wishing to apply should login to Employee Self Service and click on the 'View current vacancies' link. For informal enquiries may be addressed to Dr. Mike Nieves on m.nieves@keele.ac.uk or Dr. Zoya Pourmirza on z.pourmirza@bham.ac.uk . Applications to this address will not be accepted. Closing Date: 11 June 2026 Interviews will be held on: 26 June 2026 £38,784 to £47,389 per annum. Grade 7",
+          "posted_date": "",
+          "source": "jobs.ac.uk Research",
+          "deadline": "2026-06-11T00:00:00+00:00",
+          "requirements": "Research Area: Digital Twin architecture for smart cities, with a focus on energy management, traffic monitoring, and cybersecurity/resilience of Digital Twins.\nKey Requirements: PhD in a relevant research area, knowledge of digital twin systems, cybersecurity, energy management, and traffic monitoring, ability to run co-design workshops, fluency in relevant models/techniques and ability to develop new ones.\nApplication Info: deadline/start date: 2026-06-11T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: Keele, England, United Kingdom, contract type: Fixed-Term/Contract until 31st December 2026, workload: Full Time, salary: GBP38784.00-GBP47389.00 YEAR\nOne-line Advice: N/A",
+          "relevance_score": 7.0,
+          "institution": "Keele University",
+          "location": "Keele, England, United Kingdom",
+          "salary": "GBP38784.00-GBP47389.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "1st June 2026",
+          "job_ref": "KU00005186"
+        },
+        {
+          "title": "Research Associate",
+          "url": "https://www.jobs.ac.uk/job/DRS103/research-associate/",
+          "description": "This post is full time (35 hours per week) and has funding available for up to 3 years. Relocation assistance will be provided where appropriate. The School of Computing Science are looking for a post-doctoral researcher to join a research project which brings the Active Inference perspective to the study of human computer interaction. This requires us to build/learn generative, probabilistic forward models of users and their physical and computational environments. This will involve modelling sensors, developing dynamic models for control and developing a theory for future direct manipulation interactions with AI-enhanced systems outside of language-model-based thinking. The successful candidate will be someone with the ability to develop novel theory, and a strong background in topics such as Active Inference, Model-based Reinforcement Learning, or Model-based predictive control. Ideally they should also have an interest in HCI theory. They must also have strong development skills, to enable them to lead the process of prototyping new interactive systems with sensors, build machine learning algorithms that work in-the-loop, and deliver empirical work and publications. Informal enquiries should be directed to Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk The University of Glasgow has a responsibility to ensure that all employees are eligible to live and work in the UK. If you require a Skilled Worker visa to work in the UK, you will be required to meet the eligibility requirements of the visa route to be assigned a Certificate of Sponsorship. Please note that this post may be eligible to be sponsored under the Skilled Worker visa route if tradeable points can be used under the Skilled Worker visa rules. For more information please visit: https://www.gov.uk/skilled-worker-visa For more information and to apply please visit: https://www.jobs.gla.ac.uk/job/research-associate-5918923?source=gla.ac.uk Closing date: 25 June 2026 23:45 We strongly endorse the principles of Athena SWAN, including a supportive and flexible working environment, with commitment from all levels of the organisation in promoting gender equality. The University of Glasgow, charity number SC004401. £41,064 to £46,049 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "2026-06-25T00:00:00+00:00",
+          "requirements": "Research Area: Active Inference, Human-Computer Interaction (HCI), generative probabilistic forward models, model-based reinforcement learning, model-based predictive control, AI-enhanced systems, direct manipulation interactions.\nKey Requirements: Ability to develop novel theory, strong background in Active Inference, Model-based Reinforcement Learning, or Model-based predictive control, strong development skills for prototyping interactive systems, building in-the-loop machine learning algorithms, delivering empirical work and publications. Interest in HCI theory is ideal.\nApplication Info: deadline/start date: 2026-06-25T00:00:00+00:00 / N/A, required materials: N/A, contact: Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk\nPosition Details: location: Glasgow, Scotland, United Kingdom, contract type: Fixed-Term/Contract (up to 3 years), workload: Full Time (35 hours per week), salary: GBP41064.00-GBP46049.00 YEAR\nOne-line Advice: CV should highlight theoretical development, probabilistic modeling, and practical implementation of control systems, with a focus on non-language-based AI interaction.",
+          "relevance_score": 7.0,
+          "institution": "University of Glasgow",
+          "location": "Glasgow, Scotland, United Kingdom",
+          "salary": "GBP41064.00-GBP46049.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "28th May 2026",
+          "job_ref": "200534"
+        },
+        {
+          "title": "Research Associate in Computer Vision",
+          "url": "https://www.jobs.ac.uk/job/DRR708/research-associate-in-computer-vision/",
+          "description": "Fixed-term for 2 years Location: Wolfson Building, Parks Road, Oxford We are seeking a highly motivated We are seeking a Postdoctoral Research Associate in Computer Vision to join the Visual Geometry Group (Central Oxford), funded by ERC. Reporting to the Principal Investigator, you will help ensure a healthy and vibrant research environment within the Visual Geometry Group. This will involve conducting projects in computer vision research, including the work involved in the collaborations with project partners. Informal enquiries may be addressed to Prof. Christian Rupprecht at christian.rupprecht@cs.ox.ac.uk The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however flexible working can be considered. About Us The University of Oxford is a stimulating work environment, which enjoys an international reputation as a world-class centre of excellence. Our research plays a key role in tackling many global challenges, from reducing our carbon emissions to developing vaccines during a pandemic. The Department of Computer Science at Oxford is renowned for pioneering research and teaching across diverse fields, consistently ranking among the best in the world. Our commitment to innovation drives us to tackle complex technological and societal challenges. What We Offer As an employer, we genuinely care about our employees’ wellbeing, reflected in the range of benefits that we offer including: Excellent contributory pension scheme 38 days annual leave (including public holidays) – pro rata for part time jobs Family leave schemes Cycle loan scheme and discounted public transport The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however remote and flexible working can be considered. Diversity Committed to equality and valuing diversity. Application Process You will be required to upload a supporting statement and an up-to-date CV as part of your online application. Your supporting statement must clearly demonstrate how you meet each of the essential selection criteria listed in the job description. Applications that do not include a supporting statement or CV, or fail to address the criteria in sufficient detail, will not be considered. While we recognise the value of AI tools in assisting with application preparation, submissions that are clearly AI-generated without personalisation or insight will be rejected. It's crucial that your application reflects your own experiences and understanding of the role. The closing date for applications is midday on 26 th June 2026. Interviews are expected to be held in early July. £39,424 to £43,984 per annum inclusive of Oxford University weighting. Grade 07RS",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "2026-06-26T00:00:00+00:00",
+          "requirements": "Research Area: Computer Vision\nKey Requirements: PhD in Computer Science or related field, experience in computer vision research, ability to conduct research projects and collaborate with partners.\nApplication Info: deadline: 2026-06-26, required materials: N/A, contact: Prof. Christian Rupprecht (christian.rupprecht@cs.ox.ac.uk) for informal enquiries.\nPosition Details: location: Oxford, England, United Kingdom (Wolfson Building, Parks Road), contract type: Fixed-Term/Contract (2 years), workload: Full Time, salary: GBP39424.00-GBP43984.00 YEAR.\nOne-line Advice: CV should highlight strong computer vision research experience and publications.",
+          "relevance_score": 9.0,
+          "institution": "University of Oxford",
+          "location": "Oxford, England, United Kingdom",
+          "salary": "GBP39424.00-GBP43984.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "27th May 2026",
+          "job_ref": "186588"
+        },
+        {
+          "title": "Advance Your Research Career with TALENTGAL MSCA COFUND at CiTIUS (University of Santiago de Compostela)",
+          "url": "https://euraxess.ec.europa.eu/jobs/441024",
+          "description": "Boost your research career shaping the future ofAI, robotics, and human-centred intelligent systems.CiTIUS, Research Centre on Intelligent Technologies, at the University of Santiago de Compostela, invites applications for Postdoctoral Researcher positions within the MSCA-COFUND programme TALENTGAL... * Department: CiTIUS - Research Centre on Intelligent Technologies Work Locations: Number of offers: 1, Spain, CiTIUS - Research Centre on Intelligent Technologies Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Systems design](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A90) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Digital systems](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A86) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Informatics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A87) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Computer systems](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A83) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Autonomic computing](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A80) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Modelling tools](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A88) [Technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A401) » [Computer technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A405) [Technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A401) » [Information technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A415) [Technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A401) » [Knowledge technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A419) [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Communication engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A171) [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Computer engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A172) [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Electronic engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A176) [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Knowledge engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A179) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448)[Established Researcher (R3)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A449) Funding Programme: [Horizon Europe - MSCA](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4348) Application Deadline: 23 Jul 2026 - 14:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 9](https://euraxess.ec.europa.eu/sites/default/files/styles/programme_badge/public/marie_curie_actions_logo.png?itok=8KA3Ux0U) * [CEA](https://euraxess.ec.europa.eu/partnering/organisations/profile/cea-38) * [Field: Computer science]",
+          "institution": "",
+          "posted_date": "29 May 2026",
+          "deadline": "23 Jul 2026 - 14:00 (Europe/Madrid)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: AI, robotics, and human-centred intelligent systems.\nKey Requirements: N/A\nApplication Info: deadline 23 Jul 2026 - 14:00 (Europe/Madrid), required materials N/A, contact N/A\nPosition Details: Spain, CiTIUS - Research Centre on Intelligent Technologies, contract type N/A, workload N/A, salary N/A\nOne-line Advice: N/A",
+          "relevance_score": 8.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 4
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 31,
+    "papers_after_llm_filter": 17,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 197
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2605.31468v1",
+      "title": "AutoSci: A Memory-Centric Agentic System for the Full Scientific Research Lifecycle",
+      "authors": [
+        "Weitong Qian",
+        "Beicheng Xu",
+        "Zhongao Xie",
+        "Bowen Fan",
+        "Guozheng Tang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "AutoSci is a memory-centric agentic system designed to automate the entire scientific research lifecycle. Its core method involves a structured, persistent memory system (SciMem) that distinguishes between general scientific knowledge and project-specific artifacts. This enables AutoSci to manage research processes (SciFlow) and continuously improve its own research procedures over time, addressing a gap in existing automated systems.",
+      "url": "http://arxiv.org/abs/2605.31468v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31468v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.31468v1/x1.png",
+      "figure_caption": "Overview of AutoSci.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31492v1",
+      "title": "LinTree: Improving LLM Reasoning with Explicitly Structured Search Histories",
+      "authors": [
+        "Liwei Kang",
+        "Yee Whye Teh",
+        "Wee Sun Lee"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces LinTree, a method to improve LLM reasoning by making search histories explicit. It argues that LLMs implicitly linearize search trees, but this implicit structure doesn't always outperform traditional search. LinTree aims to leverage this by explicitly structuring the search history, though initial experiments suggest raw history alone isn't sufficient.",
+      "url": "http://arxiv.org/abs/2605.31492v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31492v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31584v1",
+      "title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards",
+      "authors": [
+        "Nianyi Lin",
+        "Jiajie Zhang",
+        "Lei Hou",
+        "Juanzi Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces LongTraceRL to improve long-context reasoning in language models. It constructs challenging training data by using search agent trajectories to create tiered distractors, mimicking real-world information retrieval. The core contribution is a rubric reward system that provides granular feedback on intermediate reasoning steps, going beyond sparse outcome-based rewards.",
+      "url": "http://arxiv.org/abs/2605.31584v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31584v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.31584v1/x1.png",
+      "figure_caption": "Comparison between prior long-context RL approaches based on easy distractors and outcome-only rewards, and our proposed LongTraceRL .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31506v1",
+      "title": "Evaluating Factual Density in Multi-Source RAG: A Study in Medical AI Accuracy",
+      "authors": [
+        "Michael R. DeMarco"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "abstract": "This paper addresses the \"Expert Blindness Effect\" in Retrieval-Augmented Generation (RAG) where keyword matching prioritizes superficial similarity over factual content. It introduces Factual Density (FD*), a novel metric that quantifies the proportion of verified atomic claims within a text. By using probabilistic factuality analysis to score content before ingestion, FD* aims to improve RAG accuracy by surfacing genuinely informative documents.",
+      "url": "http://arxiv.org/abs/2605.31506v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31506v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.31545v1",
+      "title": "Preference-Aware Rubric Learning for Personalized Evaluation",
+      "authors": [
+        "Yilun Qiu",
+        "Xiaoyan Zhao",
+        "Yang Zhang",
+        "Yuxin Chen",
+        "Cilin Yan"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces PARL, a framework that learns personalized evaluation rubrics directly from user interaction histories. Unlike static methods, PARL treats evaluation as a learning problem to capture subjective, user-specific preferences. Its core contribution is a novel approach to personalized evaluation that ensures representativeness, user-consistency, and discriminativeness, addressing a key bottleneck in aligning LLMs with individual users.",
+      "url": "http://arxiv.org/abs/2605.31545v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31545v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.31545v1/x1.png",
+      "figure_caption": "Overview of our proposed PARL framework for inducing personalized user rubrics for evaluating LLM personalization. PARL consists of two core modules: (1) Preference Induction & Consistency Validation; (2) Discriminative Optimization via RL. The final induced rubrics serve as high-fidelity evaluation metrics for personalized text generation.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.31514v1",
+      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+      "authors": [
+        "Adrian de Wynter"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "abstract": "This paper argues that attributing human-like qualities to LLMs might be misleading. By training a simple neural network on the game Age of Empires II, the authors demonstrate that such attributes can emerge in any sufficiently complex system, not just LLMs. Their core contribution is to highlight that these emergent properties are not unique to LLMs and that empirical discussions require explicit measurement criteria.",
+      "url": "http://arxiv.org/abs/2605.31514v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31514v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31463v1",
+      "title": "PithTrain: A Compact and Agent-Native MoE Training System",
+      "authors": [
+        "Ruihang Lai",
+        "Hao Kang",
+        "Haozhan Tang",
+        "Akaash R. Parthasarathy",
+        "Zichun Yu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.DC"
+      ],
+      "abstract": "PithTrain is a novel MoE training system designed for AI coding agents, prioritizing \"agent-task efficiency\" (ATE) alongside traditional throughput. Its core method involves four agent-native design principles to create a compact and easily operable framework. The main contribution is a system that not only matches production framework throughput but also significantly reduces the effort required for agents to understand, modify, and extend it, as demonstrated by the ATE-Bench evaluation.",
+      "url": "http://arxiv.org/abs/2605.31463v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31463v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31558v1",
+      "title": "Positional versus Symbolic Attention Heads: Learning Dynamics, RoPE Geometry, and Length Generalization",
+      "authors": [
+        "Felipe Urrutia",
+        "Juan José Alegría",
+        "Cinthia Sanchez Macias",
+        "Jorge Salas",
+        "Cristian B. Calderon"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper investigates how Transformer attention heads learn to solve structured reasoning tasks by training a model on number (positional) and letter (symbolic) reasoning problems. The core method involves classifying attention heads as \"positional\" or \"symbolic\" and observing their emergence during training. The key contribution is demonstrating that successful learning requires \"pure\" heads (exclusively positional or symbolic) and that the specific task structure dictates which types of heads are necessary for effective reasoning.",
+      "url": "http://arxiv.org/abs/2605.31558v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31558v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.31558v1/x1.png",
+      "figure_caption": "Left: Number-based multi-hop task. We illustrate this task via a 4-hop example, where numbers in the pre-target window (white background) define the steps to hop back until reaching the to-be-retrieved letter in the target window (grey background). Right: Letter-based multi-hop task. Here, hops are defined by the letter pairs in the pre-target window, which determine the steps to hop back until reaching the to-be-retrieved letter-number pair in the target window (grey background).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31509v1",
+      "title": "Skill Reuse as Compression in Agentic RL",
+      "authors": [
+        "Zhikun Xu",
+        "Yu Feng",
+        "Jacob Dineen",
+        "Taiwei Shi",
+        "Jieyu Zhao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper proposes ReuseRL, a method that views skill reuse in agentic RL as a form of compression. By grounding agent training in the Minimum Description Length principle, ReuseRL extracts",
+      "url": "http://arxiv.org/abs/2605.31509v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31509v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.31509v1/x1.png",
+      "figure_caption": "ReuseRL distinguishes reusable compression from raw brevity. Each colored box is one ALFWorld atomic skill. Vanilla GRPO optimizes task success alone and can produce long trajectories with repeated or wasted steps. A pure round-length penalty is a degenerate singleton-only code that penalizes all steps uniformly, including the necessary search, so the agent under-explores and never reaches the target. ReuseRL learns a multi-skill dictionary from successful trajectories and uses the segmentation cost under this dictionary as a trajectory-level penalty, keeping reusable subroutines cheap while leaving idiosyncratic waste expensive.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31556v1",
+      "title": "Vision-Language Models Suppress Female Representations Under Ambiguous Input",
+      "authors": [
+        "Arnau Marin-Llobet",
+        "Simon Henniger",
+        "Mahzarin R. Banaji"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV",
+        "cs.CY",
+        "cs.HC"
+      ],
+      "abstract": "This paper investigates how Vision-Language Models (VLMs) handle gender bias with ambiguous visual inputs. They introduce LALS, a novel metric to measure internal concept associations within VLMs. The study reveals that while VLMs may internally encode female associations, their outputs often default to male representations for ambiguous images, even for female-stereotyped occupations.",
+      "url": "http://arxiv.org/abs/2605.31556v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31556v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.31556v1/figures/bias-lens.png",
+      "figure_caption": "Representative Summary of Findings. Top: when gender is visually clear, VLMs report it accurately. Bottom: when the image is gender-ambiguous (faceless figures, same occupations), models default to male under forced-choice prompting, even for female-stereotyped roles.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31564v1",
+      "title": "What Gets Unmasked First? Trajectory Analysis of Diffusion Models for Graph-to-Text Generation",
+      "authors": [
+        "Qing Wang",
+        "Jacob Devasier",
+        "Chengkai Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces the first systematic analysis of masked diffusion language models (MDLMs) for graph-to-text generation. It reveals that MDLMs naturally prioritize entities before relational and structural words during decoding. To counter a failure mode where supervised fine-tuning disrupts this natural order, the authors propose lambda-scaled structural decoding, a training-free method that improves generation quality.",
+      "url": "http://arxiv.org/abs/2605.31564v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31564v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.31564v1/x1.png",
+      "figure_caption": "An overview of Graph-LLaDA. Trained and frozen modules of our two-stage training process are indicated along with their associated stage.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31497v1",
+      "title": "Assign and Add: A Mechanistic Study of Compositional Arithmetic",
+      "authors": [
+        "Brady Exoo",
+        "Alberto Bietti",
+        "John Sous"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper investigates how large language models achieve compositional generalization through a mechanistic study of variable assignment and modular addition. The core method involves analyzing small transformers trained on disjoint data sets, revealing that they can generalize to unseen combinations. The key contribution is demonstrating that a single \"modular addition\" MLP module is reused for both direct inputs and indirectly assigned variables, highlighting a flexible and generalizable learning mechanism.",
+      "url": "http://arxiv.org/abs/2605.31497v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31497v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.31504v1",
+      "title": "When Are Multimodal Predictions Biologically Supported? A Diagnostic Evaluation Framework",
+      "authors": [
+        "Dylan Steiner",
+        "Gustavo Arango-Argoty",
+        "Gerald Sun",
+        "Etai Jacob"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper introduces DECAT, a model-agnostic framework to diagnose whether multimodal predictions in oncology are biologically supported or based on spurious correlations. DECAT analyzes learned representations to classify them into four diagnostic scenarios, using null-referenced metrics and a rule-based system. Its contribution lies in providing a robust method to understand the biological basis of multimodal model predictions, crucial for reliable clinical applications.",
+      "url": "http://arxiv.org/abs/2605.31504v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31504v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.31504v1/x1.png",
+      "figure_caption": "DECAT framework overview. DECAT takes per-modality embeddings from any multimodal model and uses a four-stage decision tree to classify the predictive behavior of each modality, for a given task, into one of four scenarios or indeterminate (Figure 6 , Appendix G ). Scenario classification informs downstream decisions: shared biology (S1) supports cross-modal deployment, modality-specific biology (S4) restricts reliable predictions to the source modality, spurious signal (S2) transfers across cohorts but exhibits composition-dependent instability indicating risk of failure under distribution shift, and no signal (S3) indicates the representation is uninformative for that task.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.31483v1",
+      "title": "BenHalluEval: A Multi-Task Hallucination Evaluation Framework for Large Language Models on Bengali",
+      "authors": [
+        "Shefayat E Shams Adib",
+        "Ahmed Alfey Sani",
+        "Ekramul Alam Esham",
+        "Ajwad Abrar",
+        "Ishmam Tashdeed"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces BenHalluEval, a novel framework for evaluating hallucinations in Large Language Models (LLMs) specifically for the Bengali language. It constructs a comprehensive dataset of 12,000 hallucinated examples across four tasks and proposes BenHalluScore, a dual-track metric to accurately assess LLM performance by penalizing both false positives and missed hallucinations. This work addresses a critical gap in evaluating LLMs for Bengali, providing a much-needed benchmark and scoring mechanism.",
+      "url": "http://arxiv.org/abs/2605.31483v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31483v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.31512v1",
+      "title": "Reliable Multilingual Orthopedic Decision Support from Clinical Narratives: Language-Aware Adaptation and Verification-Guided Deferral",
+      "authors": [
+        "Danish Ali",
+        "Li Xiaojian",
+        "Sundas Iqbal",
+        "Farrukh Zaidi"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes a reliability-oriented framework for multilingual orthopedic decision support from clinical narratives in English, Hindi, and Punjabi. The core method involves a domain-adaptive encoder, IndicBERT-HPA, which augments IndicBERT with language-aware adapter heads for better multilingual representation learning. The key contribution is a comprehensive evaluation that goes beyond aggregate accuracy to assess per-class performance, calibration, and robustness, aiming for reliable decision support in low-resource settings.",
+      "url": "http://arxiv.org/abs/2605.31512v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31512v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.31512v1/overview.png",
+      "figure_caption": "Figure 1 . Overview of the proposed multilingual orthopedic decision-support framework. The pipeline integrates task-aligned transformer encoders, domain-adaptive representation learning, zero-shot large language model evaluation and a deterministic selective-verification layer for evidence-aware review deferral.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.31550v1",
+      "title": "Semantic Triplet Restoration: A Novel Protocol for Hierarchical Table Understanding in Large Language Models",
+      "authors": [
+        "Yibin Zhao",
+        "Fangxin Shang",
+        "Dingrui Yang",
+        "Yuqi Wang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Semantic Triplet Restoration (STR), a novel protocol that represents table cells as atomic facts `<item path, feature path, value>`. This method simplifies table understanding for LLMs by explicitly encoding hierarchical relationships, unlike traditional HTML-based approaches. STR, coupled with the TripletQL router, efficiently processes table data for question answering, achieving competitive or improved performance with fewer input tokens.",
+      "url": "http://arxiv.org/abs/2605.31550v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31550v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.31550v1/x1.png",
+      "figure_caption": "An example of a complex hierarchical table from the TableEval dataset.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.31561v1",
+      "title": "What Am I Missing? Question-Answering as Hidden State Probing",
+      "authors": [
+        "Chu Fei Luo",
+        "Samuel Dahan",
+        "Xiaodan Zhu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes using question-asking as an inference-time intervention to probe the hidden states of Large Language Models (LLMs) during reasoning. By training a \"student\" model to ask questions to a \"teacher\" and analyzing the student's hidden states, they show that the act of self-diagnosis through question generation predicts the final answer's correctness, suggesting the signal lies in the model's internal reflection rather than external information transfer.",
+      "url": "http://arxiv.org/abs/2605.31561v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31561v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.31561v1/x1.png",
+      "figure_caption": "An illustration of our experimental setting. There is a student \\( \\theta \\) that generates a partial solution \\( \\tau \\) for a problem. The decisions of what to ask and when to ask are determined by a gating policy \\( \\pi \\) . First, it chooses a step in the reasoning trajectory to pause the generation. We sample n n questions from the student and choose the best one by predicted correctness to be sent to the teacher T T . The student then incorporates the answer into a rewrite of the uncertain step.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2605.31468v1",
+      "title": "AutoSci: A Memory-Centric Agentic System for the Full Scientific Research Lifecycle",
+      "authors": [
+        "Weitong Qian",
+        "Beicheng Xu",
+        "Zhongao Xie",
+        "Bowen Fan",
+        "Guozheng Tang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "AutoSci is a memory-centric agentic system designed to automate the entire scientific research lifecycle. Its core method involves a structured, persistent memory system (SciMem) that distinguishes between general scientific knowledge and project-specific artifacts. This enables AutoSci to manage research processes (SciFlow) and continuously improve its own research procedures over time, addressing a gap in existing automated systems.",
+      "url": "http://arxiv.org/abs/2605.31468v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31468v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.31468v1/x1.png",
+      "figure_caption": "Overview of AutoSci.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31492v1",
+      "title": "LinTree: Improving LLM Reasoning with Explicitly Structured Search Histories",
+      "authors": [
+        "Liwei Kang",
+        "Yee Whye Teh",
+        "Wee Sun Lee"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces LinTree, a method to improve LLM reasoning by making search histories explicit. It argues that LLMs implicitly linearize search trees, but this implicit structure doesn't always outperform traditional search. LinTree aims to leverage this by explicitly structuring the search history, though initial experiments suggest raw history alone isn't sufficient.",
+      "url": "http://arxiv.org/abs/2605.31492v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31492v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31584v1",
+      "title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards",
+      "authors": [
+        "Nianyi Lin",
+        "Jiajie Zhang",
+        "Lei Hou",
+        "Juanzi Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces LongTraceRL to improve long-context reasoning in language models. It constructs challenging training data by using search agent trajectories to create tiered distractors, mimicking real-world information retrieval. The core contribution is a rubric reward system that provides granular feedback on intermediate reasoning steps, going beyond sparse outcome-based rewards.",
+      "url": "http://arxiv.org/abs/2605.31584v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31584v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.31584v1/x1.png",
+      "figure_caption": "Comparison between prior long-context RL approaches based on easy distractors and outcome-only rewards, and our proposed LongTraceRL .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31506v1",
+      "title": "Evaluating Factual Density in Multi-Source RAG: A Study in Medical AI Accuracy",
+      "authors": [
+        "Michael R. DeMarco"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "abstract": "This paper addresses the \"Expert Blindness Effect\" in Retrieval-Augmented Generation (RAG) where keyword matching prioritizes superficial similarity over factual content. It introduces Factual Density (FD*), a novel metric that quantifies the proportion of verified atomic claims within a text. By using probabilistic factuality analysis to score content before ingestion, FD* aims to improve RAG accuracy by surfacing genuinely informative documents.",
+      "url": "http://arxiv.org/abs/2605.31506v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31506v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.31545v1",
+      "title": "Preference-Aware Rubric Learning for Personalized Evaluation",
+      "authors": [
+        "Yilun Qiu",
+        "Xiaoyan Zhao",
+        "Yang Zhang",
+        "Yuxin Chen",
+        "Cilin Yan"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces PARL, a framework that learns personalized evaluation rubrics directly from user interaction histories. Unlike static methods, PARL treats evaluation as a learning problem to capture subjective, user-specific preferences. Its core contribution is a novel approach to personalized evaluation that ensures representativeness, user-consistency, and discriminativeness, addressing a key bottleneck in aligning LLMs with individual users.",
+      "url": "http://arxiv.org/abs/2605.31545v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31545v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.31545v1/x1.png",
+      "figure_caption": "Overview of our proposed PARL framework for inducing personalized user rubrics for evaluating LLM personalization. PARL consists of two core modules: (1) Preference Induction & Consistency Validation; (2) Discriminative Optimization via RL. The final induced rubrics serve as high-fidelity evaluation metrics for personalized text generation.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.31514v1",
+      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+      "authors": [
+        "Adrian de Wynter"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "abstract": "This paper argues that attributing human-like qualities to LLMs might be misleading. By training a simple neural network on the game Age of Empires II, the authors demonstrate that such attributes can emerge in any sufficiently complex system, not just LLMs. Their core contribution is to highlight that these emergent properties are not unique to LLMs and that empirical discussions require explicit measurement criteria.",
+      "url": "http://arxiv.org/abs/2605.31514v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31514v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31463v1",
+      "title": "PithTrain: A Compact and Agent-Native MoE Training System",
+      "authors": [
+        "Ruihang Lai",
+        "Hao Kang",
+        "Haozhan Tang",
+        "Akaash R. Parthasarathy",
+        "Zichun Yu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.DC"
+      ],
+      "abstract": "PithTrain is a novel MoE training system designed for AI coding agents, prioritizing \"agent-task efficiency\" (ATE) alongside traditional throughput. Its core method involves four agent-native design principles to create a compact and easily operable framework. The main contribution is a system that not only matches production framework throughput but also significantly reduces the effort required for agents to understand, modify, and extend it, as demonstrated by the ATE-Bench evaluation.",
+      "url": "http://arxiv.org/abs/2605.31463v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31463v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31558v1",
+      "title": "Positional versus Symbolic Attention Heads: Learning Dynamics, RoPE Geometry, and Length Generalization",
+      "authors": [
+        "Felipe Urrutia",
+        "Juan José Alegría",
+        "Cinthia Sanchez Macias",
+        "Jorge Salas",
+        "Cristian B. Calderon"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper investigates how Transformer attention heads learn to solve structured reasoning tasks by training a model on number (positional) and letter (symbolic) reasoning problems. The core method involves classifying attention heads as \"positional\" or \"symbolic\" and observing their emergence during training. The key contribution is demonstrating that successful learning requires \"pure\" heads (exclusively positional or symbolic) and that the specific task structure dictates which types of heads are necessary for effective reasoning.",
+      "url": "http://arxiv.org/abs/2605.31558v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31558v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.31558v1/x1.png",
+      "figure_caption": "Left: Number-based multi-hop task. We illustrate this task via a 4-hop example, where numbers in the pre-target window (white background) define the steps to hop back until reaching the to-be-retrieved letter in the target window (grey background). Right: Letter-based multi-hop task. Here, hops are defined by the letter pairs in the pre-target window, which determine the steps to hop back until reaching the to-be-retrieved letter-number pair in the target window (grey background).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31509v1",
+      "title": "Skill Reuse as Compression in Agentic RL",
+      "authors": [
+        "Zhikun Xu",
+        "Yu Feng",
+        "Jacob Dineen",
+        "Taiwei Shi",
+        "Jieyu Zhao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper proposes ReuseRL, a method that views skill reuse in agentic RL as a form of compression. By grounding agent training in the Minimum Description Length principle, ReuseRL extracts",
+      "url": "http://arxiv.org/abs/2605.31509v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31509v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.31509v1/x1.png",
+      "figure_caption": "ReuseRL distinguishes reusable compression from raw brevity. Each colored box is one ALFWorld atomic skill. Vanilla GRPO optimizes task success alone and can produce long trajectories with repeated or wasted steps. A pure round-length penalty is a degenerate singleton-only code that penalizes all steps uniformly, including the necessary search, so the agent under-explores and never reaches the target. ReuseRL learns a multi-skill dictionary from successful trajectories and uses the segmentation cost under this dictionary as a trajectory-level penalty, keeping reusable subroutines cheap while leaving idiosyncratic waste expensive.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31556v1",
+      "title": "Vision-Language Models Suppress Female Representations Under Ambiguous Input",
+      "authors": [
+        "Arnau Marin-Llobet",
+        "Simon Henniger",
+        "Mahzarin R. Banaji"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV",
+        "cs.CY",
+        "cs.HC"
+      ],
+      "abstract": "This paper investigates how Vision-Language Models (VLMs) handle gender bias with ambiguous visual inputs. They introduce LALS, a novel metric to measure internal concept associations within VLMs. The study reveals that while VLMs may internally encode female associations, their outputs often default to male representations for ambiguous images, even for female-stereotyped occupations.",
+      "url": "http://arxiv.org/abs/2605.31556v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31556v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.31556v1/figures/bias-lens.png",
+      "figure_caption": "Representative Summary of Findings. Top: when gender is visually clear, VLMs report it accurately. Bottom: when the image is gender-ambiguous (faceless figures, same occupations), models default to male under forced-choice prompting, even for female-stereotyped roles.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31564v1",
+      "title": "What Gets Unmasked First? Trajectory Analysis of Diffusion Models for Graph-to-Text Generation",
+      "authors": [
+        "Qing Wang",
+        "Jacob Devasier",
+        "Chengkai Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces the first systematic analysis of masked diffusion language models (MDLMs) for graph-to-text generation. It reveals that MDLMs naturally prioritize entities before relational and structural words during decoding. To counter a failure mode where supervised fine-tuning disrupts this natural order, the authors propose lambda-scaled structural decoding, a training-free method that improves generation quality.",
+      "url": "http://arxiv.org/abs/2605.31564v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31564v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.31564v1/x1.png",
+      "figure_caption": "An overview of Graph-LLaDA. Trained and frozen modules of our two-stage training process are indicated along with their associated stage.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.31497v1",
+      "title": "Assign and Add: A Mechanistic Study of Compositional Arithmetic",
+      "authors": [
+        "Brady Exoo",
+        "Alberto Bietti",
+        "John Sous"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper investigates how large language models achieve compositional generalization through a mechanistic study of variable assignment and modular addition. The core method involves analyzing small transformers trained on disjoint data sets, revealing that they can generalize to unseen combinations. The key contribution is demonstrating that a single \"modular addition\" MLP module is reused for both direct inputs and indirectly assigned variables, highlighting a flexible and generalizable learning mechanism.",
+      "url": "http://arxiv.org/abs/2605.31497v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31497v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.31504v1",
+      "title": "When Are Multimodal Predictions Biologically Supported? A Diagnostic Evaluation Framework",
+      "authors": [
+        "Dylan Steiner",
+        "Gustavo Arango-Argoty",
+        "Gerald Sun",
+        "Etai Jacob"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper introduces DECAT, a model-agnostic framework to diagnose whether multimodal predictions in oncology are biologically supported or based on spurious correlations. DECAT analyzes learned representations to classify them into four diagnostic scenarios, using null-referenced metrics and a rule-based system. Its contribution lies in providing a robust method to understand the biological basis of multimodal model predictions, crucial for reliable clinical applications.",
+      "url": "http://arxiv.org/abs/2605.31504v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31504v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.31504v1/x1.png",
+      "figure_caption": "DECAT framework overview. DECAT takes per-modality embeddings from any multimodal model and uses a four-stage decision tree to classify the predictive behavior of each modality, for a given task, into one of four scenarios or indeterminate (Figure 6 , Appendix G ). Scenario classification informs downstream decisions: shared biology (S1) supports cross-modal deployment, modality-specific biology (S4) restricts reliable predictions to the source modality, spurious signal (S2) transfers across cohorts but exhibits composition-dependent instability indicating risk of failure under distribution shift, and no signal (S3) indicates the representation is uninformative for that task.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2605.31483v1",
+      "title": "BenHalluEval: A Multi-Task Hallucination Evaluation Framework for Large Language Models on Bengali",
+      "authors": [
+        "Shefayat E Shams Adib",
+        "Ahmed Alfey Sani",
+        "Ekramul Alam Esham",
+        "Ajwad Abrar",
+        "Ishmam Tashdeed"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces BenHalluEval, a novel framework for evaluating hallucinations in Large Language Models (LLMs) specifically for the Bengali language. It constructs a comprehensive dataset of 12,000 hallucinated examples across four tasks and proposes BenHalluScore, a dual-track metric to accurately assess LLM performance by penalizing both false positives and missed hallucinations. This work addresses a critical gap in evaluating LLMs for Bengali, providing a much-needed benchmark and scoring mechanism.",
+      "url": "http://arxiv.org/abs/2605.31483v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31483v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.31512v1",
+      "title": "Reliable Multilingual Orthopedic Decision Support from Clinical Narratives: Language-Aware Adaptation and Verification-Guided Deferral",
+      "authors": [
+        "Danish Ali",
+        "Li Xiaojian",
+        "Sundas Iqbal",
+        "Farrukh Zaidi"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes a reliability-oriented framework for multilingual orthopedic decision support from clinical narratives in English, Hindi, and Punjabi. The core method involves a domain-adaptive encoder, IndicBERT-HPA, which augments IndicBERT with language-aware adapter heads for better multilingual representation learning. The key contribution is a comprehensive evaluation that goes beyond aggregate accuracy to assess per-class performance, calibration, and robustness, aiming for reliable decision support in low-resource settings.",
+      "url": "http://arxiv.org/abs/2605.31512v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31512v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.31512v1/overview.png",
+      "figure_caption": "Figure 1 . Overview of the proposed multilingual orthopedic decision-support framework. The pipeline integrates task-aligned transformer encoders, domain-adaptive representation learning, zero-shot large language model evaluation and a deterministic selective-verification layer for evidence-aware review deferral.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.31550v1",
+      "title": "Semantic Triplet Restoration: A Novel Protocol for Hierarchical Table Understanding in Large Language Models",
+      "authors": [
+        "Yibin Zhao",
+        "Fangxin Shang",
+        "Dingrui Yang",
+        "Yuqi Wang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Semantic Triplet Restoration (STR), a novel protocol that represents table cells as atomic facts `<item path, feature path, value>`. This method simplifies table understanding for LLMs by explicitly encoding hierarchical relationships, unlike traditional HTML-based approaches. STR, coupled with the TripletQL router, efficiently processes table data for question answering, achieving competitive or improved performance with fewer input tokens.",
+      "url": "http://arxiv.org/abs/2605.31550v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31550v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.31550v1/x1.png",
+      "figure_caption": "An example of a complex hierarchical table from the TableEval dataset.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.31561v1",
+      "title": "What Am I Missing? Question-Answering as Hidden State Probing",
+      "authors": [
+        "Chu Fei Luo",
+        "Samuel Dahan",
+        "Xiaodan Zhu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes using question-asking as an inference-time intervention to probe the hidden states of Large Language Models (LLMs) during reasoning. By training a \"student\" model to ask questions to a \"teacher\" and analyzing the student's hidden states, they show that the act of self-diagnosis through question generation predicts the final answer's correctness, suggesting the signal lies in the model's internal reflection rather than external information transfer.",
+      "url": "http://arxiv.org/abs/2605.31561v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31561v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.31561v1/x1.png",
+      "figure_caption": "An illustration of our experimental setting. There is a student \\( \\theta \\) that generates a partial solution \\( \\tau \\) for a problem. The decisions of what to ask and when to ask are determined by a gating policy \\( \\pi \\) . First, it chooses a step in the reasoning trajectory to pause the generation. We sample n n questions from the student and choose the best one by predicted correctness to be sent to the teacher T T . The student then incorporates the answer into a rewrite of the uncertain step.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Research Associate",
+      "url": "https://www.jobs.ac.uk/job/DRS954/research-associate/",
+      "description": "Grade 7 Salary Range £38,784 - £47,389 per annum Fixed Term until 31 st December 2026 Agile working (blend of home and office based)/ Arrangements for job share would be considered The Opportunity An exciting opportunity has arisen for an ambitious Research Associate to join the School of Computer Science and Mathematics at Keele University. The School has a growing international research profile in cyber security, artificial intelligence, data science, and digital technologies, and offers a collaborative research environment with opportunities to contribute to high-impact interdisciplinary research and partnerships with academic, industry, and public-sector stakeholders. The Research Associate will make a significant contribution to an exciting Digital Twin project. The project aims to design and develop a Digital Twin architecture for smart cities, with a particular focus on use cases in energy management and traffic monitoring. In addition, the research will investigate the cybersecurity and resilience of Digital Twins against cyber-attacks. The successful candidate will be expected to develop a cyber-resilient Digital Twin framework, undertake co-design activities, carry out cyber risk assessments, and apply security-by-design principles. The successful candidate will have: PhD in relevant research area Knowledge of digital twin systems, cyber security, energy management and traffic monitoring Ability to run co-design workshops Fluency in relevant models, techniques or methods and ability to contribute to developing new ones The Benefits The University recognises that its success depends upon the contribution and dedication of its talented staff. In return, we have a competitive benefits package available, including: Competitive rate of pay with annual increments within the grade (Keele Spine) Generous annual leave entitlement with opportunities to purchase additional leave Excellent staff pension scheme Access to continued personal, professional and career development On site ‘outstanding’ nursery Discounted health & fitness facilities on site Cycle to work scheme (subject to eligibility) Please note that the starting salary will typically be at the bottom of the pay scale shown above The University is committed to operating flexible working practices wherever possible. The University Keele University is renowned for its exciting approach to higher education, innovative research, beautiful campus, strong community spirit and excellent student experience. With a turnover in excess of £170 million, over 15,000 students and a total staff of approximately 2000, the University provides high quality teaching across a wide range of academic and vocational subjects and promotes world-class research. Further information can be found at https://www.keele.ac.uk/about/ Keele University values equity and diversity across our workforce and to ensuring our staff community is reflective of the diversity of our student population. In support of these commitments the University welcomes applications from individuals of Black, Asian and ethnic minority backgrounds for all roles. How to Apply To apply online for this vacancy and for full post details and copies of job descriptions, please click on the ' Apply' button above. Keele University employees wishing to apply should login to Employee Self Service and click on the 'View current vacancies' link. For informal enquiries may be addressed to Dr. Mike Nieves on m.nieves@keele.ac.uk or Dr. Zoya Pourmirza on z.pourmirza@bham.ac.uk . Applications to this address will not be accepted. Closing Date: 11 June 2026 Interviews will be held on: 26 June 2026 £38,784 to £47,389 per annum. Grade 7",
+      "posted_date": "",
+      "source": "jobs.ac.uk Research",
+      "deadline": "2026-06-11T00:00:00+00:00",
+      "requirements": "Research Area: Digital Twin architecture for smart cities, with a focus on energy management, traffic monitoring, and cybersecurity/resilience of Digital Twins.\nKey Requirements: PhD in a relevant research area, knowledge of digital twin systems, cybersecurity, energy management, and traffic monitoring, ability to run co-design workshops, fluency in relevant models/techniques and ability to develop new ones.\nApplication Info: deadline/start date: 2026-06-11T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: Keele, England, United Kingdom, contract type: Fixed-Term/Contract until 31st December 2026, workload: Full Time, salary: GBP38784.00-GBP47389.00 YEAR\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "institution": "Keele University",
+      "location": "Keele, England, United Kingdom",
+      "salary": "GBP38784.00-GBP47389.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "1st June 2026",
+      "job_ref": "KU00005186"
+    },
+    {
+      "title": "Research Associate",
+      "url": "https://www.jobs.ac.uk/job/DRS103/research-associate/",
+      "description": "This post is full time (35 hours per week) and has funding available for up to 3 years. Relocation assistance will be provided where appropriate. The School of Computing Science are looking for a post-doctoral researcher to join a research project which brings the Active Inference perspective to the study of human computer interaction. This requires us to build/learn generative, probabilistic forward models of users and their physical and computational environments. This will involve modelling sensors, developing dynamic models for control and developing a theory for future direct manipulation interactions with AI-enhanced systems outside of language-model-based thinking. The successful candidate will be someone with the ability to develop novel theory, and a strong background in topics such as Active Inference, Model-based Reinforcement Learning, or Model-based predictive control. Ideally they should also have an interest in HCI theory. They must also have strong development skills, to enable them to lead the process of prototyping new interactive systems with sensors, build machine learning algorithms that work in-the-loop, and deliver empirical work and publications. Informal enquiries should be directed to Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk The University of Glasgow has a responsibility to ensure that all employees are eligible to live and work in the UK. If you require a Skilled Worker visa to work in the UK, you will be required to meet the eligibility requirements of the visa route to be assigned a Certificate of Sponsorship. Please note that this post may be eligible to be sponsored under the Skilled Worker visa route if tradeable points can be used under the Skilled Worker visa rules. For more information please visit: https://www.gov.uk/skilled-worker-visa For more information and to apply please visit: https://www.jobs.gla.ac.uk/job/research-associate-5918923?source=gla.ac.uk Closing date: 25 June 2026 23:45 We strongly endorse the principles of Athena SWAN, including a supportive and flexible working environment, with commitment from all levels of the organisation in promoting gender equality. The University of Glasgow, charity number SC004401. £41,064 to £46,049 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-25T00:00:00+00:00",
+      "requirements": "Research Area: Active Inference, Human-Computer Interaction (HCI), generative probabilistic forward models, model-based reinforcement learning, model-based predictive control, AI-enhanced systems, direct manipulation interactions.\nKey Requirements: Ability to develop novel theory, strong background in Active Inference, Model-based Reinforcement Learning, or Model-based predictive control, strong development skills for prototyping interactive systems, building in-the-loop machine learning algorithms, delivering empirical work and publications. Interest in HCI theory is ideal.\nApplication Info: deadline/start date: 2026-06-25T00:00:00+00:00 / N/A, required materials: N/A, contact: Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk\nPosition Details: location: Glasgow, Scotland, United Kingdom, contract type: Fixed-Term/Contract (up to 3 years), workload: Full Time (35 hours per week), salary: GBP41064.00-GBP46049.00 YEAR\nOne-line Advice: CV should highlight theoretical development, probabilistic modeling, and practical implementation of control systems, with a focus on non-language-based AI interaction.",
+      "relevance_score": 7.0,
+      "institution": "University of Glasgow",
+      "location": "Glasgow, Scotland, United Kingdom",
+      "salary": "GBP41064.00-GBP46049.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "28th May 2026",
+      "job_ref": "200534"
+    },
+    {
+      "title": "Research Associate in Computer Vision",
+      "url": "https://www.jobs.ac.uk/job/DRR708/research-associate-in-computer-vision/",
+      "description": "Fixed-term for 2 years Location: Wolfson Building, Parks Road, Oxford We are seeking a highly motivated We are seeking a Postdoctoral Research Associate in Computer Vision to join the Visual Geometry Group (Central Oxford), funded by ERC. Reporting to the Principal Investigator, you will help ensure a healthy and vibrant research environment within the Visual Geometry Group. This will involve conducting projects in computer vision research, including the work involved in the collaborations with project partners. Informal enquiries may be addressed to Prof. Christian Rupprecht at christian.rupprecht@cs.ox.ac.uk The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however flexible working can be considered. About Us The University of Oxford is a stimulating work environment, which enjoys an international reputation as a world-class centre of excellence. Our research plays a key role in tackling many global challenges, from reducing our carbon emissions to developing vaccines during a pandemic. The Department of Computer Science at Oxford is renowned for pioneering research and teaching across diverse fields, consistently ranking among the best in the world. Our commitment to innovation drives us to tackle complex technological and societal challenges. What We Offer As an employer, we genuinely care about our employees’ wellbeing, reflected in the range of benefits that we offer including: Excellent contributory pension scheme 38 days annual leave (including public holidays) – pro rata for part time jobs Family leave schemes Cycle loan scheme and discounted public transport The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however remote and flexible working can be considered. Diversity Committed to equality and valuing diversity. Application Process You will be required to upload a supporting statement and an up-to-date CV as part of your online application. Your supporting statement must clearly demonstrate how you meet each of the essential selection criteria listed in the job description. Applications that do not include a supporting statement or CV, or fail to address the criteria in sufficient detail, will not be considered. While we recognise the value of AI tools in assisting with application preparation, submissions that are clearly AI-generated without personalisation or insight will be rejected. It's crucial that your application reflects your own experiences and understanding of the role. The closing date for applications is midday on 26 th June 2026. Interviews are expected to be held in early July. £39,424 to £43,984 per annum inclusive of Oxford University weighting. Grade 07RS",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-26T00:00:00+00:00",
+      "requirements": "Research Area: Computer Vision\nKey Requirements: PhD in Computer Science or related field, experience in computer vision research, ability to conduct research projects and collaborate with partners.\nApplication Info: deadline: 2026-06-26, required materials: N/A, contact: Prof. Christian Rupprecht (christian.rupprecht@cs.ox.ac.uk) for informal enquiries.\nPosition Details: location: Oxford, England, United Kingdom (Wolfson Building, Parks Road), contract type: Fixed-Term/Contract (2 years), workload: Full Time, salary: GBP39424.00-GBP43984.00 YEAR.\nOne-line Advice: CV should highlight strong computer vision research experience and publications.",
+      "relevance_score": 9.0,
+      "institution": "University of Oxford",
+      "location": "Oxford, England, United Kingdom",
+      "salary": "GBP39424.00-GBP43984.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "27th May 2026",
+      "job_ref": "186588"
+    },
+    {
+      "title": "Advance Your Research Career with TALENTGAL MSCA COFUND at CiTIUS (University of Santiago de Compostela)",
+      "url": "https://euraxess.ec.europa.eu/jobs/441024",
+      "description": "Boost your research career shaping the future ofAI, robotics, and human-centred intelligent systems.CiTIUS, Research Centre on Intelligent Technologies, at the University of Santiago de Compostela, invites applications for Postdoctoral Researcher positions within the MSCA-COFUND programme TALENTGAL... * Department: CiTIUS - Research Centre on Intelligent Technologies Work Locations: Number of offers: 1, Spain, CiTIUS - Research Centre on Intelligent Technologies Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Systems design](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A90) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Digital systems](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A86) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Informatics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A87) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Computer systems](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A83) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Autonomic computing](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A80) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Modelling tools](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A88) [Technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A401) » [Computer technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A405) [Technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A401) » [Information technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A415) [Technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A401) » [Knowledge technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A419) [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Communication engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A171) [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Computer engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A172) [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Electronic engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A176) [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Knowledge engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A179) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448)[Established Researcher (R3)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A449) Funding Programme: [Horizon Europe - MSCA](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4348) Application Deadline: 23 Jul 2026 - 14:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 9](https://euraxess.ec.europa.eu/sites/default/files/styles/programme_badge/public/marie_curie_actions_logo.png?itok=8KA3Ux0U) * [CEA](https://euraxess.ec.europa.eu/partnering/organisations/profile/cea-38) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "29 May 2026",
+      "deadline": "23 Jul 2026 - 14:00 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: AI, robotics, and human-centred intelligent systems.\nKey Requirements: N/A\nApplication Info: deadline 23 Jul 2026 - 14:00 (Europe/Madrid), required materials N/A, contact N/A\nPosition Details: Spain, CiTIUS - Research Centre on Intelligent Technologies, contract type N/A, workload N/A, salary N/A\nOne-line Advice: N/A",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Research Associate",
+      "url": "https://www.jobs.ac.uk/job/DRS954/research-associate/",
+      "description": "Grade 7 Salary Range £38,784 - £47,389 per annum Fixed Term until 31 st December 2026 Agile working (blend of home and office based)/ Arrangements for job share would be considered The Opportunity An exciting opportunity has arisen for an ambitious Research Associate to join the School of Computer Science and Mathematics at Keele University. The School has a growing international research profile in cyber security, artificial intelligence, data science, and digital technologies, and offers a collaborative research environment with opportunities to contribute to high-impact interdisciplinary research and partnerships with academic, industry, and public-sector stakeholders. The Research Associate will make a significant contribution to an exciting Digital Twin project. The project aims to design and develop a Digital Twin architecture for smart cities, with a particular focus on use cases in energy management and traffic monitoring. In addition, the research will investigate the cybersecurity and resilience of Digital Twins against cyber-attacks. The successful candidate will be expected to develop a cyber-resilient Digital Twin framework, undertake co-design activities, carry out cyber risk assessments, and apply security-by-design principles. The successful candidate will have: PhD in relevant research area Knowledge of digital twin systems, cyber security, energy management and traffic monitoring Ability to run co-design workshops Fluency in relevant models, techniques or methods and ability to contribute to developing new ones The Benefits The University recognises that its success depends upon the contribution and dedication of its talented staff. In return, we have a competitive benefits package available, including: Competitive rate of pay with annual increments within the grade (Keele Spine) Generous annual leave entitlement with opportunities to purchase additional leave Excellent staff pension scheme Access to continued personal, professional and career development On site ‘outstanding’ nursery Discounted health & fitness facilities on site Cycle to work scheme (subject to eligibility) Please note that the starting salary will typically be at the bottom of the pay scale shown above The University is committed to operating flexible working practices wherever possible. The University Keele University is renowned for its exciting approach to higher education, innovative research, beautiful campus, strong community spirit and excellent student experience. With a turnover in excess of £170 million, over 15,000 students and a total staff of approximately 2000, the University provides high quality teaching across a wide range of academic and vocational subjects and promotes world-class research. Further information can be found at https://www.keele.ac.uk/about/ Keele University values equity and diversity across our workforce and to ensuring our staff community is reflective of the diversity of our student population. In support of these commitments the University welcomes applications from individuals of Black, Asian and ethnic minority backgrounds for all roles. How to Apply To apply online for this vacancy and for full post details and copies of job descriptions, please click on the ' Apply' button above. Keele University employees wishing to apply should login to Employee Self Service and click on the 'View current vacancies' link. For informal enquiries may be addressed to Dr. Mike Nieves on m.nieves@keele.ac.uk or Dr. Zoya Pourmirza on z.pourmirza@bham.ac.uk . Applications to this address will not be accepted. Closing Date: 11 June 2026 Interviews will be held on: 26 June 2026 £38,784 to £47,389 per annum. Grade 7",
+      "posted_date": "",
+      "source": "jobs.ac.uk Research",
+      "deadline": "2026-06-11T00:00:00+00:00",
+      "requirements": "Research Area: Digital Twin architecture for smart cities, with a focus on energy management, traffic monitoring, and cybersecurity/resilience of Digital Twins.\nKey Requirements: PhD in a relevant research area, knowledge of digital twin systems, cybersecurity, energy management, and traffic monitoring, ability to run co-design workshops, fluency in relevant models/techniques and ability to develop new ones.\nApplication Info: deadline/start date: 2026-06-11T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: Keele, England, United Kingdom, contract type: Fixed-Term/Contract until 31st December 2026, workload: Full Time, salary: GBP38784.00-GBP47389.00 YEAR\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "institution": "Keele University",
+      "location": "Keele, England, United Kingdom",
+      "salary": "GBP38784.00-GBP47389.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "1st June 2026",
+      "job_ref": "KU00005186"
+    },
+    {
+      "title": "Research Associate",
+      "url": "https://www.jobs.ac.uk/job/DRS103/research-associate/",
+      "description": "This post is full time (35 hours per week) and has funding available for up to 3 years. Relocation assistance will be provided where appropriate. The School of Computing Science are looking for a post-doctoral researcher to join a research project which brings the Active Inference perspective to the study of human computer interaction. This requires us to build/learn generative, probabilistic forward models of users and their physical and computational environments. This will involve modelling sensors, developing dynamic models for control and developing a theory for future direct manipulation interactions with AI-enhanced systems outside of language-model-based thinking. The successful candidate will be someone with the ability to develop novel theory, and a strong background in topics such as Active Inference, Model-based Reinforcement Learning, or Model-based predictive control. Ideally they should also have an interest in HCI theory. They must also have strong development skills, to enable them to lead the process of prototyping new interactive systems with sensors, build machine learning algorithms that work in-the-loop, and deliver empirical work and publications. Informal enquiries should be directed to Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk The University of Glasgow has a responsibility to ensure that all employees are eligible to live and work in the UK. If you require a Skilled Worker visa to work in the UK, you will be required to meet the eligibility requirements of the visa route to be assigned a Certificate of Sponsorship. Please note that this post may be eligible to be sponsored under the Skilled Worker visa route if tradeable points can be used under the Skilled Worker visa rules. For more information please visit: https://www.gov.uk/skilled-worker-visa For more information and to apply please visit: https://www.jobs.gla.ac.uk/job/research-associate-5918923?source=gla.ac.uk Closing date: 25 June 2026 23:45 We strongly endorse the principles of Athena SWAN, including a supportive and flexible working environment, with commitment from all levels of the organisation in promoting gender equality. The University of Glasgow, charity number SC004401. £41,064 to £46,049 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-25T00:00:00+00:00",
+      "requirements": "Research Area: Active Inference, Human-Computer Interaction (HCI), generative probabilistic forward models, model-based reinforcement learning, model-based predictive control, AI-enhanced systems, direct manipulation interactions.\nKey Requirements: Ability to develop novel theory, strong background in Active Inference, Model-based Reinforcement Learning, or Model-based predictive control, strong development skills for prototyping interactive systems, building in-the-loop machine learning algorithms, delivering empirical work and publications. Interest in HCI theory is ideal.\nApplication Info: deadline/start date: 2026-06-25T00:00:00+00:00 / N/A, required materials: N/A, contact: Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk\nPosition Details: location: Glasgow, Scotland, United Kingdom, contract type: Fixed-Term/Contract (up to 3 years), workload: Full Time (35 hours per week), salary: GBP41064.00-GBP46049.00 YEAR\nOne-line Advice: CV should highlight theoretical development, probabilistic modeling, and practical implementation of control systems, with a focus on non-language-based AI interaction.",
+      "relevance_score": 7.0,
+      "institution": "University of Glasgow",
+      "location": "Glasgow, Scotland, United Kingdom",
+      "salary": "GBP41064.00-GBP46049.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "28th May 2026",
+      "job_ref": "200534"
+    },
+    {
+      "title": "Research Associate in Computer Vision",
+      "url": "https://www.jobs.ac.uk/job/DRR708/research-associate-in-computer-vision/",
+      "description": "Fixed-term for 2 years Location: Wolfson Building, Parks Road, Oxford We are seeking a highly motivated We are seeking a Postdoctoral Research Associate in Computer Vision to join the Visual Geometry Group (Central Oxford), funded by ERC. Reporting to the Principal Investigator, you will help ensure a healthy and vibrant research environment within the Visual Geometry Group. This will involve conducting projects in computer vision research, including the work involved in the collaborations with project partners. Informal enquiries may be addressed to Prof. Christian Rupprecht at christian.rupprecht@cs.ox.ac.uk The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however flexible working can be considered. About Us The University of Oxford is a stimulating work environment, which enjoys an international reputation as a world-class centre of excellence. Our research plays a key role in tackling many global challenges, from reducing our carbon emissions to developing vaccines during a pandemic. The Department of Computer Science at Oxford is renowned for pioneering research and teaching across diverse fields, consistently ranking among the best in the world. Our commitment to innovation drives us to tackle complex technological and societal challenges. What We Offer As an employer, we genuinely care about our employees’ wellbeing, reflected in the range of benefits that we offer including: Excellent contributory pension scheme 38 days annual leave (including public holidays) – pro rata for part time jobs Family leave schemes Cycle loan scheme and discounted public transport The successful candidate will work onsite in the Department of Computer Science buildings in central Oxford, however remote and flexible working can be considered. Diversity Committed to equality and valuing diversity. Application Process You will be required to upload a supporting statement and an up-to-date CV as part of your online application. Your supporting statement must clearly demonstrate how you meet each of the essential selection criteria listed in the job description. Applications that do not include a supporting statement or CV, or fail to address the criteria in sufficient detail, will not be considered. While we recognise the value of AI tools in assisting with application preparation, submissions that are clearly AI-generated without personalisation or insight will be rejected. It's crucial that your application reflects your own experiences and understanding of the role. The closing date for applications is midday on 26 th June 2026. Interviews are expected to be held in early July. £39,424 to £43,984 per annum inclusive of Oxford University weighting. Grade 07RS",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-26T00:00:00+00:00",
+      "requirements": "Research Area: Computer Vision\nKey Requirements: PhD in Computer Science or related field, experience in computer vision research, ability to conduct research projects and collaborate with partners.\nApplication Info: deadline: 2026-06-26, required materials: N/A, contact: Prof. Christian Rupprecht (christian.rupprecht@cs.ox.ac.uk) for informal enquiries.\nPosition Details: location: Oxford, England, United Kingdom (Wolfson Building, Parks Road), contract type: Fixed-Term/Contract (2 years), workload: Full Time, salary: GBP39424.00-GBP43984.00 YEAR.\nOne-line Advice: CV should highlight strong computer vision research experience and publications.",
+      "relevance_score": 9.0,
+      "institution": "University of Oxford",
+      "location": "Oxford, England, United Kingdom",
+      "salary": "GBP39424.00-GBP43984.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "27th May 2026",
+      "job_ref": "186588"
+    },
+    {
+      "title": "Advance Your Research Career with TALENTGAL MSCA COFUND at CiTIUS (University of Santiago de Compostela)",
+      "url": "https://euraxess.ec.europa.eu/jobs/441024",
+      "description": "Boost your research career shaping the future ofAI, robotics, and human-centred intelligent systems.CiTIUS, Research Centre on Intelligent Technologies, at the University of Santiago de Compostela, invites applications for Postdoctoral Researcher positions within the MSCA-COFUND programme TALENTGAL... * Department: CiTIUS - Research Centre on Intelligent Technologies Work Locations: Number of offers: 1, Spain, CiTIUS - Research Centre on Intelligent Technologies Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Systems design](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A90) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Digital systems](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A86) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Informatics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A87) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Computer systems](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A83) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Autonomic computing](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A80) [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Modelling tools](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A88) [Technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A401) » [Computer technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A405) [Technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A401) » [Information technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A415) [Technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A401) » [Knowledge technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A419) [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Communication engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A171) [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Computer engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A172) [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Electronic engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A176) [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Knowledge engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A179) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448)[Established Researcher (R3)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A449) Funding Programme: [Horizon Europe - MSCA](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4348) Application Deadline: 23 Jul 2026 - 14:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 9](https://euraxess.ec.europa.eu/sites/default/files/styles/programme_badge/public/marie_curie_actions_logo.png?itok=8KA3Ux0U) * [CEA](https://euraxess.ec.europa.eu/partnering/organisations/profile/cea-38) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "29 May 2026",
+      "deadline": "23 Jul 2026 - 14:00 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: AI, robotics, and human-centred intelligent systems.\nKey Requirements: N/A\nApplication Info: deadline 23 Jul 2026 - 14:00 (Europe/Madrid), required materials N/A, contact N/A\nPosition Details: Spain, CiTIUS - Research Centre on Intelligent Technologies, contract type N/A, workload N/A, salary N/A\nOne-line Advice: N/A",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
