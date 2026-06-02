@@ -1,0 +1,1573 @@
+{
+  "date": "2026-06-02",
+  "generated_at": "2026-06-02T13:00:54.214770+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.02568v1",
+          "title": "ClinEnv: An Interactive Multi-Stage Long Horizon EHR Environment for Agents",
+          "authors": [
+            "Yuxing Lu",
+            "Yushuhong Lin",
+            "Wenqi Shi",
+            "J. Ben Tamo",
+            "Xukai Zhao"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.ET",
+            "cs.MA"
+          ],
+          "abstract": "ClinEnv is an interactive, multi-stage simulation environment designed to evaluate LLMs as physicians in real inpatient admissions. Its core method involves presenting LLMs with sequential, irreversible decisions under uncertainty, requiring them to actively query specialized agents for information before committing to treatments and diagnoses. The paper's contribution is a novel benchmark that assesses both the quality of LLM decisions and their information-gathering processes, revealing significant limitations in current models' ability to effectively manage complex clinical scenarios.",
+          "url": "http://arxiv.org/abs/2606.02568v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02568v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.02568v1/ClinEnv_Figure1.png",
+          "figure_caption": "Overview of ClinEnv . Patients’ admissions are preprocessed into event timelines, converted into multi-stage cases via a five-step pipeline, and evaluated in an interactive environment where the model queries specialized agents before committing decisions, scored on both process and outcome quality.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.02578v1",
+          "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
+          "authors": [
+            "Seojeong Park",
+            "Jiho Choi",
+            "Junyong Kang",
+            "Seonho Lee",
+            "Jaeyo Shin"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper addresses \"Perceptual Judgment Bias\" in multimodal LLMs used as judges, where they favor plausible text over visual accuracy. The core method involves creating a dataset of minimally perturbed visual counterfactuals to isolate perceptual errors. This dataset then trains a reward model and uses a GRPO-based framework to improve the LLM's ability to make perceptually consistent and verifiable judgments.",
+          "url": "http://arxiv.org/abs/2606.02578v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02578v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.02578v1/x1.png",
+          "figure_caption": "Perceptual judgment bias in MLLM judges. (a) When perceptual capability is insufficient, a judge may produce incorrect visual descriptions (a2) {}_{\\( \\texttt{(a2)} \\)} and assign high scores (a3) {}_{\\( \\texttt{(a3)} \\)} to perceptually wrong responses (a2) {}_{\\( \\texttt{(a2)} \\)} . (b) Even when the judge’s own perception aligns with humans (b2) {}_{\\( \\texttt{(b2)} \\)} , it may still prefer (b5) {}_{\\( \\texttt{(b5)} \\)} visually inconsistent responses (b3) {}_{\\( \\texttt{(b3)} \\)} compared to the response with correct perception (b4) {}_{\\( \\texttt{(b4)} \\)} . We introduce Perception-Judge , an MLLM judge trained with reinforcement learning on a systematically designed perception-grounded dataset, PPJD , which effectively mitigates these perceptual biases in MLLM judgment , (b6) (a4) {}_{\\( \\texttt{(a4)} \\)},_{\\( \\texttt{(b6)} \\)} .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.02544v1",
+          "title": "SimSD: Simple Speculative Decoding in Diffusion Language Models",
+          "authors": [
+            "Junxia Cui",
+            "Haotian Ye",
+            "Runchu Tian",
+            "Hongcan Guo",
+            "Jinya Jiang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces SimSD, a novel speculative decoding method for diffusion language models (dLLMs). It addresses the incompatibility of dLLMs with standard token-level speculative decoding by employing a plug-and-play masking strategy. This strategy equips dLLMs with temporally valid contexts, enabling them to efficiently verify multiple drafted tokens, thereby accelerating inference.",
+          "url": "http://arxiv.org/abs/2606.02544v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02544v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.02544v1/figures/figure1_main.png",
+          "figure_caption": "SimSD restores token-level speculative decoding for diffusion language models. Vanilla dLLMs cannot directly support speculative decoding because bidirectional attention breaks temporal token-level contexts. SimSD adopts a temporal causal mask for supporting standard speculative verification in a single forward pass, leading to faster decoding without hurting performance.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.02576v1",
+          "title": "ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Continual Instruction Tuning",
+          "authors": [
+            "Yu-Cheng Shi",
+            "Zhen-Hao Xie",
+            "Jun-Tao Tang",
+            "Da-Wei Zhou"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CV"
+          ],
+          "abstract": "ProtoAda addresses the challenge of multimodal continual instruction tuning by introducing a novel routing mechanism. It goes beyond simple image-text similarity by incorporating prototype representations to guide adapter expansion and consolidate geometric relationships, ensuring more accurate task assignment and reducing inter-task interference. This leads to improved collaboration between specialized adapters and better performance on diverse multimodal tasks.",
+          "url": "http://arxiv.org/abs/2606.02576v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02576v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.02576v1/x1.png",
+          "figure_caption": "Accuracy of sequential finetuning under format-varied (FmtGap) and semantic-varied (VisGap) continual tuning streams.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.02502v1",
+          "title": "CRAM: Centroid-Routing and Adaptive MoE for Multimodal Continual Instruction Tuning",
+          "authors": [
+            "Jun-Tao Tang",
+            "Zhen-Hao Xie",
+            "Yu-Cheng Shi",
+            "Da-Wei Zhou"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "CRAM addresses the challenge of continuously updating multimodal language models without catastrophic forgetting or inefficient parameter growth. Its core method involves isolating task-specific patterns into independent modules and adaptively allocating parameters based on new task demands. This approach enhances parameter efficiency and prevents interference between tasks, enabling more effective multimodal continual instruction tuning.",
+          "url": "http://arxiv.org/abs/2606.02502v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02502v1",
+          "score": 8.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.02569v1",
+          "title": "AdaCodec: A Predictive Visual Code for Video MLLMs",
+          "authors": [
+            "Haowen Hou",
+            "Zhen Huang",
+            "Zheming Liang",
+            "Qingyi Si",
+            "Chenglin Li"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "AdaCodec introduces a \"predictive visual code\" for video MLLMs to exploit temporal redundancy. Instead of encoding every frame independently, it sends a full reference frame only when scene changes are significant and unpredictable. Otherwise, it transmits compact \"P-tokens\" representing inter-frame motion and prediction residuals, leading to improved efficiency and performance across benchmarks.",
+          "url": "http://arxiv.org/abs/2606.02569v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02569v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.02461v1",
+          "title": "AGENTCL: Toward Rigorous Evaluation of Continual Learning in Language Agents",
+          "authors": [
+            "Yiheng Shu",
+            "Bernal Jiménez Gutiérrez",
+            "Saisri Padmaja Jonnalagedda",
+            "Yuguang Yao",
+            "Huan Sun"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces AgentCL, a rigorous evaluation framework for continual learning in language agents. AgentCL addresses the limitations of existing benchmarks by constructing controlled, compositional task streams. Its core contribution is enabling the measurement of reusable experience and transfer gains, allowing for a deeper understanding of how agents learn and adapt over time.",
+          "url": "http://arxiv.org/abs/2606.02461v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02461v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.02461v1/x1.png",
+          "figure_caption": "Task-stream construction and its impact on evaluation. Compositional relationship refers to a task pair, where the complex one can reuse the solution to the simpler one. Sequential relationship refers to the sequential order of task execution. Top : naive streams order tasks from the same domain without guaranteeing reuse relationships, while compositional streams place reusable subtasks before related complex tasks. Bottom : boxplots of average accuracy across evaluated methods on CodeEval-Pro and BrowseComp+, showing that compositional streams yield larger method separation than naive streams for memory reuse.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.02497v1",
+          "title": "Bridging the Last Mile of Time Series Forecasting with LLM Agents",
+          "authors": [
+            "Yuhua Liao",
+            "Zetian Wang",
+            "Qiangqiang Nie",
+            "Zhenhua Zhang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper addresses the \"last-mile\" of time series forecasting, where raw statistical forecasts are refined with unstructured business context. The core method is an LLM-agent framework that sits atop a forecasting backbone, using tools to retrieve contextual evidence and perform reasoned forecast revisions under safety constraints. Its contribution is a practical system to bridge the gap between statistical forecasts and decision-ready predictions by incorporating real-world business knowledge.",
+          "url": "http://arxiv.org/abs/2606.02497v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02497v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.02497v1/system_overview.png",
+          "figure_caption": "System overview of the proposed last-mile forecasting framework. A forecasting backbone first produces a baseline trajectory; an LLM agent then operates over a shared forecast workspace, retrieves contextual evidence through tools, applies validated revision actions to y final y_{\\( \\text{final} \\)} , and accumulates reflection memories in a persistent memory bank for retrieval by subsequent sessions.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.02444v1",
+          "title": "Food Noise & False Safety: A Systematic Evaluation of How LLMs Fail to Adapt to Eating Disorder Queries with Clinician Feedback",
+          "authors": [
+            "Giulia Pucci",
+            "Emily Hemendinger",
+            "Ruizhe Li",
+            "Gavin Abercrombie",
+            "Tanvi Dinkar"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper systematically evaluates how Large Language Models (LLMs) respond to eating disorder (ED) queries, finding they often uncritically adapt to potentially harmful user requests. By consulting with clinical ED experts, the researchers identified linguistic cues that increase the likelihood of unsafe LLM responses. The study's contribution is demonstrating and quantifying the extent to which LLMs fail to adapt safely to ED-related prompts, highlighting significant risks for vulnerable users.",
+          "url": "http://arxiv.org/abs/2606.02444v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02444v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.02444v1/figures/food_noise_pattern_prevalence_heatmap.png",
+          "figure_caption": "Prevalence of food-noise categories across models ( G : Gemma-2-9B-Instruct , L : Llama-3.1-8B-Instruct , and Q : Qwen-2.5-7B-Instruct ) and context–request risk conditions ( NN , NR , RN and RR ). Each cell reports the percentage of replies containing at least one lexical match from the corresponding category, with darker colours indicate higher prevalence. We report statistical comparisons between the NN and RR conditions in Tab. ˜ 16 , and a full breakdown in § ˜ G.2 .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.02449v1",
+          "title": "HLL: Can Agents Cross Humanity's Last Line of Verification?",
+          "authors": [
+            "Xinhao Song",
+            "Su Su",
+            "Sirui Song",
+            "Hongliang Wu",
+            "Wen Shen"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.CV",
+            "cs.MM"
+          ],
+          "abstract": "This paper introduces Humanity's Last Line of Verification (HLL), a benchmark designed to test if multimodal AI agents can bypass CAPTCHA, a human-verification system. HLL uses interactive CAPTCHAs within a controlled environment to assess agents' ability to perform human-like interactions, not just recognition, under realistic conditions. The core contribution is a novel evaluation framework and benchmark to measure agents' capability to overcome human-verification barriers.",
+          "url": "http://arxiv.org/abs/2606.02449v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02449v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.02449v1/x1.png",
+          "figure_caption": "CAPTCHA as the final frontier: securing web services by testing interactive, human-level reasoning against automated agents.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.02463v1",
+          "title": "MASER: Modality-Adaptive Specialist Routing for Embodied 3D Spatial Intelligence",
+          "authors": [
+            "Hilton Raj",
+            "Vishnuram AV"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "MASER addresses the limitation of single-modality fine-tuning in embodied 3D spatial intelligence by proposing a lightweight framework. It trains modality-specific adapters for a shared VLM backbone and uses a neural routing policy, guided by question semantics encoded by a sentence transformer and MLP, to dynamically select the most suitable adapter for answering spatial questions. This approach allows for adaptive modality utilization, improving performance by not being constrained to a single input type.",
+          "url": "http://arxiv.org/abs/2606.02463v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02463v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.02470v1",
+          "title": "MCP-Persona: Benchmarking LLM Agents on Real-World Personal Applications via Environment Simulation",
+          "authors": [
+            "Wenhao Wang",
+            "Peizhi Niu",
+            "Gongyi Zou",
+            "Xiyuan Yang",
+            "Jingxing Wang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces MCP-Persona, the first benchmark designed to evaluate LLM agents on real-world, personalized applications that use the Model Context Protocol (MCP). It addresses the limitation of existing benchmarks by focusing on tools that interact with individual accounts and local data, such as social media and enterprise suites. The benchmark reveals that current state-of-the-art agents struggle significantly with this type of personalized tool usage.",
+          "url": "http://arxiv.org/abs/2606.02470v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02470v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.02470v1/x1.png",
+          "figure_caption": "System overview of MCP-Persona, which is built upon the interaction of Tools , Contexts , and Tasks . For each component, we introduce a dedicated method, described in detail as Tool-Traverse (§ 3.1 ), Context-Tree (§ 3.2 ), and Persona-Gen (§ 3.3 ).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.02522v1",
+          "title": "Moment-Video: Diagnosing Temporal Fidelity of Video MLLMs on Momentary Visual Events",
+          "authors": [
+            "Xiaolin Liu",
+            "Yilun Zhu",
+            "Xiangyu Zhao",
+            "Xuehui Wang",
+            "Yan Li"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces Moment-Video, a new benchmark designed to evaluate how well video multimodal large language models (MLLMs) can understand brief, critical visual events. The core method involves creating questions that hinge on short-lived visual occurrences, testing the models' ability to detect and reason about these fleeting moments. The main contribution is a diagnostic tool that highlights MLLMs' weaknesses in temporal fidelity, particularly when dealing with sampling-sensitive, localized visual evidence.",
+          "url": "http://arxiv.org/abs/2606.02522v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02522v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.02522v1/x1.png",
+          "figure_caption": "Overview of Moment-Video . Left: domain and subcategory taxonomy. Right: evaluation protocols for closed-ended and open-ended questions.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.02494v1",
+          "title": "Monitoring Agentic Systems Before They're Reliable",
+          "authors": [
+            "Marisa Ferrara Boston",
+            "Glen Hanson",
+            "Effi Georgala",
+            "JD Hudgens",
+            "Heather Frase"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.SE"
+          ],
+          "abstract": "This paper proposes a novel monitoring methodology for agentic systems before they are fully reliable. It decomposes evaluation into quality, suitability, and efficiency across within-run, cross-run, and structural scopes, using variance as a key signal. This approach effectively identifies structural defects, which are prevalent in early-stage agentic systems, and prioritizes them for human attention using an FMEA-adapted severity classification.",
+          "url": "http://arxiv.org/abs/2606.02494v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02494v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.02430v1",
+          "title": "Not All Errors Are Equal: A Systematic Study of Error Propagation in Large Language Model Inference",
+          "authors": [
+            "Yafan Huang",
+            "Sheng Di",
+            "Guanpeng Li"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.DC"
+          ],
+          "abstract": "This paper systematically studies how soft errors affect Large Language Model (LLM) inference using a novel fault-injection framework called LLMFI. The core contribution is a comprehensive understanding of error propagation across various LLMs and tasks, revealing critical vulnerabilities and proposing four low-overhead, software-only reliability improvements.",
+          "url": "http://arxiv.org/abs/2606.02430v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02430v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.02430v1/x1.png",
+          "figure_caption": "Figure 1 . Challenges for modeling errors for LLM inference.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.02530v1",
+          "title": "SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
+          "authors": [
+            "Hao Li",
+            "Jingkun An",
+            "Zijun Song",
+            "Pengyu Zhu",
+            "Rui Li"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "SafeSteer addresses the \"alignment tax\" in LLMs by proposing localized on-policy distillation. Instead of global trade-offs, it focuses on modifying only safety-related tokens, identified through activation steering and a novel selection algorithm. This approach effectively preserves general capabilities while enhancing safety, achieving a superior balance compared to existing methods.",
+          "url": "http://arxiv.org/abs/2606.02530v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02530v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.02530v1/x1.png",
+          "figure_caption": "Safety–capability trade-off on Qwen2.5-7B-Instruct . Each point is a method, with the gray point marking the base model. Our SafeSteer achieves the highest safety score while preserving general capability.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.02536v1",
+          "title": "Tracking the Behavioral Trajectories of Adapting Agents",
+          "authors": [
+            "Jonah Leshin",
+            "Manish Shah",
+            "Ian Timmis"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces a method to measure agent \"traits\" by defining them as directions in a text embedding space. By training a linear model on skill file changes, they learn trait vectors that can quantify how specific edits influence an agent's behavior, demonstrating high accuracy in classifying propensity to seek sensitive data. This allows for automated evaluation of agent behavioral changes.",
+          "url": "http://arxiv.org/abs/2606.02536v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02536v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.02536v1/x1.png",
+          "figure_caption": "LOOCV predictions vs. human labels for 68 skill diff pairs. Blue dots indicate correct sign classification; red crosses indicate the 6 misclassified pairs, all of which have near-zero predictions. The dashed line marks perfect agreement.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.02528v1",
+          "title": "Auditing Asset-Specific Preferences in Financial Large Language Models: Evidence from Bitcoin Representations and Portfolio Allocation",
+          "authors": [
+            "Wenbin Wu"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CY",
+            "q-fin.GN"
+          ],
+          "abstract": "This paper audits financial Large Language Models (LLMs) for asset-specific biases, focusing on Bitcoin. It finds that LLMs exhibit frame-dependent preferences for Bitcoin, influenced by functional properties rather than just its name. The study also identifies a specific internal model feature that causally drives these preferences, demonstrating its impact on downstream financial decisions.",
+          "url": "http://arxiv.org/abs/2606.02528v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02528v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.02521v1",
+          "title": "Drifting Preference Optimization for One-Step Generative Models",
+          "authors": [
+            "Zhou Jiang",
+            "Yandong Wen",
+            "Zhen Liu"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CV"
+          ],
+          "abstract": "Drifting Preference Optimization (DrPO) is a novel method for fine-tuning one-step text-to-image generators using user preferences. It synthesizes an update direction in feature space by comparing high and low-scoring image candidates generated by the current model, allowing for training with black-box or non-differentiable reward functions. This approach enables efficient preference alignment without sacrificing the one-step generation speed of the model.",
+          "url": "http://arxiv.org/abs/2606.02521v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02521v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.02521v1/x1.png",
+          "figure_caption": "Overview of DrPO. Left: construction of the drift field used to finetune the network. For an on-policy sample (black dot), N N random pairs are collected. In each pair, the sample with the higher reward is labeled as positive (red dot), while the other is labeled as negative (blue dot). Together with the self-repulsion and attraction forces induced by p θ p_{\\( \\theta \\)} and p ref p_{\\( \\text{ref} \\)} , respectively, these components synthesize the final regression target z ∗ z^{*} (brown dot). The contours indicate reward magnitudes. Right: qualitative samples from fixed test prompts along the online finetuning trajectory.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.02437v1",
+          "title": "On the Scaling of PEFT: Towards Million Personal Models of Trillion Parameters",
+          "authors": [
+            "Mind Lab",
+            " :",
+            "Song Cao",
+            "Vic Cao",
+            "Kaijie Chen"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper proposes a new perspective on Parameter-Efficient Fine-Tuning (PEFT), viewing small trainable adapters not just as a cost-saving method, but as persistent local state for strong foundation models. The core idea is that shared models provide general capabilities, while adapters capture individual user preferences and behaviors. The research explores scaling these personal models across three dimensions: improving base models, shrinking adapters, and managing numerous coexisting instances, suggesting PEFT can enable compact, persistent personal AI.",
+          "url": "http://arxiv.org/abs/2606.02437v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.02437v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 35,
+        "papers_after_llm_filter": 23,
+        "count": 20
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Research Associate",
+          "url": "https://www.jobs.ac.uk/job/DRS954/research-associate/",
+          "description": "Grade 7 Salary Range £38,784 - £47,389 per annum Fixed Term until 31 st December 2026 Agile working (blend of home and office based)/ Arrangements for job share would be considered The Opportunity An exciting opportunity has arisen for an ambitious Research Associate to join the School of Computer Science and Mathematics at Keele University. The School has a growing international research profile in cyber security, artificial intelligence, data science, and digital technologies, and offers a collaborative research environment with opportunities to contribute to high-impact interdisciplinary research and partnerships with academic, industry, and public-sector stakeholders. The Research Associate will make a significant contribution to an exciting Digital Twin project. The project aims to design and develop a Digital Twin architecture for smart cities, with a particular focus on use cases in energy management and traffic monitoring. In addition, the research will investigate the cybersecurity and resilience of Digital Twins against cyber-attacks. The successful candidate will be expected to develop a cyber-resilient Digital Twin framework, undertake co-design activities, carry out cyber risk assessments, and apply security-by-design principles. The successful candidate will have: PhD in relevant research area Knowledge of digital twin systems, cyber security, energy management and traffic monitoring Ability to run co-design workshops Fluency in relevant models, techniques or methods and ability to contribute to developing new ones The Benefits The University recognises that its success depends upon the contribution and dedication of its talented staff. In return, we have a competitive benefits package available, including: Competitive rate of pay with annual increments within the grade (Keele Spine) Generous annual leave entitlement with opportunities to purchase additional leave Excellent staff pension scheme Access to continued personal, professional and career development On site ‘outstanding’ nursery Discounted health & fitness facilities on site Cycle to work scheme (subject to eligibility) Please note that the starting salary will typically be at the bottom of the pay scale shown above The University is committed to operating flexible working practices wherever possible. The University Keele University is renowned for its exciting approach to higher education, innovative research, beautiful campus, strong community spirit and excellent student experience. With a turnover in excess of £170 million, over 15,000 students and a total staff of approximately 2000, the University provides high quality teaching across a wide range of academic and vocational subjects and promotes world-class research. Further information can be found at https://www.keele.ac.uk/about/ Keele University values equity and diversity across our workforce and to ensuring our staff community is reflective of the diversity of our student population. In support of these commitments the University welcomes applications from individuals of Black, Asian and ethnic minority backgrounds for all roles. How to Apply To apply online for this vacancy and for full post details and copies of job descriptions, please click on the ' Apply' button above. Keele University employees wishing to apply should login to Employee Self Service and click on the 'View current vacancies' link. For informal enquiries may be addressed to Dr. Mike Nieves on m.nieves@keele.ac.uk or Dr. Zoya Pourmirza on z.pourmirza@bham.ac.uk . Applications to this address will not be accepted. Closing Date: 11 June 2026 Interviews will be held on: 26 June 2026 £38,784 to £47,389 per annum. Grade 7",
+          "posted_date": "",
+          "source": "jobs.ac.uk CS",
+          "deadline": "2026-06-11T00:00:00+00:00",
+          "requirements": "Research Area: Digital Twin architecture for smart cities, with a focus on energy management, traffic monitoring, and cybersecurity/resilience of Digital Twins.\nKey Requirements: PhD in a relevant research area, knowledge of digital twin systems, cybersecurity, energy management, and traffic monitoring. Ability to run co-design workshops and contribute to developing new models/techniques.\nApplication Info: deadline/start date: 2026-06-11T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: Keele, England, United Kingdom, contract type: Fixed-Term/Contract until 31st December 2026, workload: Full Time, salary: GBP38784.00-GBP47389.00 YEAR\nOne-line Advice: Strong alignment for candidates with expertise in cybersecurity and smart city technologies; less direct relevance for CV/medical imaging/LLM applicants unless transferable skills are clearly demonstrated.",
+          "relevance_score": 7.0,
+          "institution": "Keele University",
+          "location": "Keele, England, United Kingdom",
+          "salary": "GBP38784.00-GBP47389.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "1st June 2026",
+          "job_ref": "KU00005186"
+        },
+        {
+          "title": "Research Associate",
+          "url": "https://www.jobs.ac.uk/job/DRS103/research-associate/",
+          "description": "This post is full time (35 hours per week) and has funding available for up to 3 years. Relocation assistance will be provided where appropriate. The School of Computing Science are looking for a post-doctoral researcher to join a research project which brings the Active Inference perspective to the study of human computer interaction. This requires us to build/learn generative, probabilistic forward models of users and their physical and computational environments. This will involve modelling sensors, developing dynamic models for control and developing a theory for future direct manipulation interactions with AI-enhanced systems outside of language-model-based thinking. The successful candidate will be someone with the ability to develop novel theory, and a strong background in topics such as Active Inference, Model-based Reinforcement Learning, or Model-based predictive control. Ideally they should also have an interest in HCI theory. They must also have strong development skills, to enable them to lead the process of prototyping new interactive systems with sensors, build machine learning algorithms that work in-the-loop, and deliver empirical work and publications. Informal enquiries should be directed to Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk The University of Glasgow has a responsibility to ensure that all employees are eligible to live and work in the UK. If you require a Skilled Worker visa to work in the UK, you will be required to meet the eligibility requirements of the visa route to be assigned a Certificate of Sponsorship. Please note that this post may be eligible to be sponsored under the Skilled Worker visa route if tradeable points can be used under the Skilled Worker visa rules. For more information please visit: https://www.gov.uk/skilled-worker-visa For more information and to apply please visit: https://www.jobs.gla.ac.uk/job/research-associate-5918923?source=gla.ac.uk Closing date: 25 June 2026 23:45 We strongly endorse the principles of Athena SWAN, including a supportive and flexible working environment, with commitment from all levels of the organisation in promoting gender equality. The University of Glasgow, charity number SC004401. £41,064 to £46,049 per annum",
+          "posted_date": "",
+          "source": "jobs.ac.uk AI",
+          "deadline": "2026-06-25T00:00:00+00:00",
+          "requirements": "Research Area: Active Inference, Human-Computer Interaction (HCI), generative probabilistic forward models, sensors, dynamic models for control, direct manipulation interactions with AI-enhanced systems (outside of language-model-based thinking).\nKey Requirements: Ability to develop novel theory, strong background in Active Inference, Model-based Reinforcement Learning, or Model-based predictive control, interest in HCI theory, strong development skills for prototyping interactive systems with sensors, building in-the-loop machine learning algorithms, and delivering empirical work and publications.\nApplication Info: deadline/start date: 2026-06-25T00:00:00+00:00, required materials: N/A, contact: Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk\nPosition Details: location: Glasgow, Scotland, United Kingdom, contract type: Fixed-Term/Contract (up to 3 years), workload: Full Time (35 hours per week), salary: GBP41064.00-GBP46049.00 YEAR\nOne-line Advice: CV should highlight theoretical development and practical implementation in probabilistic modeling, control, or reinforcement learning, with a strong emphasis on novel system design and empirical validation relevant to HCI.",
+          "relevance_score": 7.0,
+          "institution": "University of Glasgow",
+          "location": "Glasgow, Scotland, United Kingdom",
+          "salary": "GBP41064.00-GBP46049.00 YEAR",
+          "hours": "Full Time",
+          "contract_type": "Fixed-Term/Contract",
+          "placed_on": "28th May 2026",
+          "job_ref": "200534"
+        },
+        {
+          "title": "Postdoctoral Researcher",
+          "url": "https://euraxess.ec.europa.eu/jobs/441815",
+          "description": "THE BIOMEDICAL RESEARCH INSTITUTE OF MÁLAGA NEEDS TO HIRE A PROFESSIONAL WITH THE FOLLOWING PROFILE: Postdoctoral ResearcherReference: 2026/132Project: 00300000200100445 - BRECISE - Biomarker Research and Evaluation for Clinical Implementation and Supporting Systems EnhancementProject description... * Work Locations: Number of offers: 1, Spain, ibima, malaga Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Health sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A6037) Researcher Profile: [Other Profession](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A6054) Funding Programme: [Other EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A6053) Application Deadline: 11 Jun 2026 - 00:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Spain * [Universitat Politècnica de València](https://euraxess.ec.europa.eu/partnering/organisations/profile/universitat-politecnica-de-valencia-23) * [Field: Medical sciences]",
+          "institution": "",
+          "posted_date": "2 June 2026",
+          "deadline": "11 Jun 2026 - 00:00 (Europe/Madrid)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Medical sciences, Health sciences (BRECISE project: Biomarker Research and Evaluation for Clinical Implementation and Supporting Systems Enhancement)\nKey Requirements: N/A\nApplication Info: deadline: 11 Jun 2026 - 00:00 (Europe/Madrid), required materials: N/A, contact: N/A\nPosition Details: location: Malaga, Spain, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+          "relevance_score": 8.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 3
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 35,
+    "papers_after_llm_filter": 23,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 162
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.02568v1",
+      "title": "ClinEnv: An Interactive Multi-Stage Long Horizon EHR Environment for Agents",
+      "authors": [
+        "Yuxing Lu",
+        "Yushuhong Lin",
+        "Wenqi Shi",
+        "J. Ben Tamo",
+        "Xukai Zhao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.ET",
+        "cs.MA"
+      ],
+      "abstract": "ClinEnv is an interactive, multi-stage simulation environment designed to evaluate LLMs as physicians in real inpatient admissions. Its core method involves presenting LLMs with sequential, irreversible decisions under uncertainty, requiring them to actively query specialized agents for information before committing to treatments and diagnoses. The paper's contribution is a novel benchmark that assesses both the quality of LLM decisions and their information-gathering processes, revealing significant limitations in current models' ability to effectively manage complex clinical scenarios.",
+      "url": "http://arxiv.org/abs/2606.02568v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02568v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.02568v1/ClinEnv_Figure1.png",
+      "figure_caption": "Overview of ClinEnv . Patients’ admissions are preprocessed into event timelines, converted into multi-stage cases via a five-step pipeline, and evaluated in an interactive environment where the model queries specialized agents before committing decisions, scored on both process and outcome quality.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02578v1",
+      "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
+      "authors": [
+        "Seojeong Park",
+        "Jiho Choi",
+        "Junyong Kang",
+        "Seonho Lee",
+        "Jaeyo Shin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper addresses \"Perceptual Judgment Bias\" in multimodal LLMs used as judges, where they favor plausible text over visual accuracy. The core method involves creating a dataset of minimally perturbed visual counterfactuals to isolate perceptual errors. This dataset then trains a reward model and uses a GRPO-based framework to improve the LLM's ability to make perceptually consistent and verifiable judgments.",
+      "url": "http://arxiv.org/abs/2606.02578v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02578v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.02578v1/x1.png",
+      "figure_caption": "Perceptual judgment bias in MLLM judges. (a) When perceptual capability is insufficient, a judge may produce incorrect visual descriptions (a2) {}_{\\( \\texttt{(a2)} \\)} and assign high scores (a3) {}_{\\( \\texttt{(a3)} \\)} to perceptually wrong responses (a2) {}_{\\( \\texttt{(a2)} \\)} . (b) Even when the judge’s own perception aligns with humans (b2) {}_{\\( \\texttt{(b2)} \\)} , it may still prefer (b5) {}_{\\( \\texttt{(b5)} \\)} visually inconsistent responses (b3) {}_{\\( \\texttt{(b3)} \\)} compared to the response with correct perception (b4) {}_{\\( \\texttt{(b4)} \\)} . We introduce Perception-Judge , an MLLM judge trained with reinforcement learning on a systematically designed perception-grounded dataset, PPJD , which effectively mitigates these perceptual biases in MLLM judgment , (b6) (a4) {}_{\\( \\texttt{(a4)} \\)},_{\\( \\texttt{(b6)} \\)} .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02544v1",
+      "title": "SimSD: Simple Speculative Decoding in Diffusion Language Models",
+      "authors": [
+        "Junxia Cui",
+        "Haotian Ye",
+        "Runchu Tian",
+        "Hongcan Guo",
+        "Jinya Jiang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces SimSD, a novel speculative decoding method for diffusion language models (dLLMs). It addresses the incompatibility of dLLMs with standard token-level speculative decoding by employing a plug-and-play masking strategy. This strategy equips dLLMs with temporally valid contexts, enabling them to efficiently verify multiple drafted tokens, thereby accelerating inference.",
+      "url": "http://arxiv.org/abs/2606.02544v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02544v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.02544v1/figures/figure1_main.png",
+      "figure_caption": "SimSD restores token-level speculative decoding for diffusion language models. Vanilla dLLMs cannot directly support speculative decoding because bidirectional attention breaks temporal token-level contexts. SimSD adopts a temporal causal mask for supporting standard speculative verification in a single forward pass, leading to faster decoding without hurting performance.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02576v1",
+      "title": "ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Continual Instruction Tuning",
+      "authors": [
+        "Yu-Cheng Shi",
+        "Zhen-Hao Xie",
+        "Jun-Tao Tang",
+        "Da-Wei Zhou"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "ProtoAda addresses the challenge of multimodal continual instruction tuning by introducing a novel routing mechanism. It goes beyond simple image-text similarity by incorporating prototype representations to guide adapter expansion and consolidate geometric relationships, ensuring more accurate task assignment and reducing inter-task interference. This leads to improved collaboration between specialized adapters and better performance on diverse multimodal tasks.",
+      "url": "http://arxiv.org/abs/2606.02576v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02576v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.02576v1/x1.png",
+      "figure_caption": "Accuracy of sequential finetuning under format-varied (FmtGap) and semantic-varied (VisGap) continual tuning streams.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.02502v1",
+      "title": "CRAM: Centroid-Routing and Adaptive MoE for Multimodal Continual Instruction Tuning",
+      "authors": [
+        "Jun-Tao Tang",
+        "Zhen-Hao Xie",
+        "Yu-Cheng Shi",
+        "Da-Wei Zhou"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "CRAM addresses the challenge of continuously updating multimodal language models without catastrophic forgetting or inefficient parameter growth. Its core method involves isolating task-specific patterns into independent modules and adaptively allocating parameters based on new task demands. This approach enhances parameter efficiency and prevents interference between tasks, enabling more effective multimodal continual instruction tuning.",
+      "url": "http://arxiv.org/abs/2606.02502v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02502v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.02569v1",
+      "title": "AdaCodec: A Predictive Visual Code for Video MLLMs",
+      "authors": [
+        "Haowen Hou",
+        "Zhen Huang",
+        "Zheming Liang",
+        "Qingyi Si",
+        "Chenglin Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "AdaCodec introduces a \"predictive visual code\" for video MLLMs to exploit temporal redundancy. Instead of encoding every frame independently, it sends a full reference frame only when scene changes are significant and unpredictable. Otherwise, it transmits compact \"P-tokens\" representing inter-frame motion and prediction residuals, leading to improved efficiency and performance across benchmarks.",
+      "url": "http://arxiv.org/abs/2606.02569v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02569v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02461v1",
+      "title": "AGENTCL: Toward Rigorous Evaluation of Continual Learning in Language Agents",
+      "authors": [
+        "Yiheng Shu",
+        "Bernal Jiménez Gutiérrez",
+        "Saisri Padmaja Jonnalagedda",
+        "Yuguang Yao",
+        "Huan Sun"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces AgentCL, a rigorous evaluation framework for continual learning in language agents. AgentCL addresses the limitations of existing benchmarks by constructing controlled, compositional task streams. Its core contribution is enabling the measurement of reusable experience and transfer gains, allowing for a deeper understanding of how agents learn and adapt over time.",
+      "url": "http://arxiv.org/abs/2606.02461v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02461v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02461v1/x1.png",
+      "figure_caption": "Task-stream construction and its impact on evaluation. Compositional relationship refers to a task pair, where the complex one can reuse the solution to the simpler one. Sequential relationship refers to the sequential order of task execution. Top : naive streams order tasks from the same domain without guaranteeing reuse relationships, while compositional streams place reusable subtasks before related complex tasks. Bottom : boxplots of average accuracy across evaluated methods on CodeEval-Pro and BrowseComp+, showing that compositional streams yield larger method separation than naive streams for memory reuse.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02497v1",
+      "title": "Bridging the Last Mile of Time Series Forecasting with LLM Agents",
+      "authors": [
+        "Yuhua Liao",
+        "Zetian Wang",
+        "Qiangqiang Nie",
+        "Zhenhua Zhang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper addresses the \"last-mile\" of time series forecasting, where raw statistical forecasts are refined with unstructured business context. The core method is an LLM-agent framework that sits atop a forecasting backbone, using tools to retrieve contextual evidence and perform reasoned forecast revisions under safety constraints. Its contribution is a practical system to bridge the gap between statistical forecasts and decision-ready predictions by incorporating real-world business knowledge.",
+      "url": "http://arxiv.org/abs/2606.02497v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02497v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02497v1/system_overview.png",
+      "figure_caption": "System overview of the proposed last-mile forecasting framework. A forecasting backbone first produces a baseline trajectory; an LLM agent then operates over a shared forecast workspace, retrieves contextual evidence through tools, applies validated revision actions to y final y_{\\( \\text{final} \\)} , and accumulates reflection memories in a persistent memory bank for retrieval by subsequent sessions.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02444v1",
+      "title": "Food Noise & False Safety: A Systematic Evaluation of How LLMs Fail to Adapt to Eating Disorder Queries with Clinician Feedback",
+      "authors": [
+        "Giulia Pucci",
+        "Emily Hemendinger",
+        "Ruizhe Li",
+        "Gavin Abercrombie",
+        "Tanvi Dinkar"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper systematically evaluates how Large Language Models (LLMs) respond to eating disorder (ED) queries, finding they often uncritically adapt to potentially harmful user requests. By consulting with clinical ED experts, the researchers identified linguistic cues that increase the likelihood of unsafe LLM responses. The study's contribution is demonstrating and quantifying the extent to which LLMs fail to adapt safely to ED-related prompts, highlighting significant risks for vulnerable users.",
+      "url": "http://arxiv.org/abs/2606.02444v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02444v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02444v1/figures/food_noise_pattern_prevalence_heatmap.png",
+      "figure_caption": "Prevalence of food-noise categories across models ( G : Gemma-2-9B-Instruct , L : Llama-3.1-8B-Instruct , and Q : Qwen-2.5-7B-Instruct ) and context–request risk conditions ( NN , NR , RN and RR ). Each cell reports the percentage of replies containing at least one lexical match from the corresponding category, with darker colours indicate higher prevalence. We report statistical comparisons between the NN and RR conditions in Tab. ˜ 16 , and a full breakdown in § ˜ G.2 .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02449v1",
+      "title": "HLL: Can Agents Cross Humanity's Last Line of Verification?",
+      "authors": [
+        "Xinhao Song",
+        "Su Su",
+        "Sirui Song",
+        "Hongliang Wu",
+        "Wen Shen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CV",
+        "cs.MM"
+      ],
+      "abstract": "This paper introduces Humanity's Last Line of Verification (HLL), a benchmark designed to test if multimodal AI agents can bypass CAPTCHA, a human-verification system. HLL uses interactive CAPTCHAs within a controlled environment to assess agents' ability to perform human-like interactions, not just recognition, under realistic conditions. The core contribution is a novel evaluation framework and benchmark to measure agents' capability to overcome human-verification barriers.",
+      "url": "http://arxiv.org/abs/2606.02449v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02449v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02449v1/x1.png",
+      "figure_caption": "CAPTCHA as the final frontier: securing web services by testing interactive, human-level reasoning against automated agents.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02463v1",
+      "title": "MASER: Modality-Adaptive Specialist Routing for Embodied 3D Spatial Intelligence",
+      "authors": [
+        "Hilton Raj",
+        "Vishnuram AV"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "MASER addresses the limitation of single-modality fine-tuning in embodied 3D spatial intelligence by proposing a lightweight framework. It trains modality-specific adapters for a shared VLM backbone and uses a neural routing policy, guided by question semantics encoded by a sentence transformer and MLP, to dynamically select the most suitable adapter for answering spatial questions. This approach allows for adaptive modality utilization, improving performance by not being constrained to a single input type.",
+      "url": "http://arxiv.org/abs/2606.02463v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02463v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02470v1",
+      "title": "MCP-Persona: Benchmarking LLM Agents on Real-World Personal Applications via Environment Simulation",
+      "authors": [
+        "Wenhao Wang",
+        "Peizhi Niu",
+        "Gongyi Zou",
+        "Xiyuan Yang",
+        "Jingxing Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces MCP-Persona, the first benchmark designed to evaluate LLM agents on real-world, personalized applications that use the Model Context Protocol (MCP). It addresses the limitation of existing benchmarks by focusing on tools that interact with individual accounts and local data, such as social media and enterprise suites. The benchmark reveals that current state-of-the-art agents struggle significantly with this type of personalized tool usage.",
+      "url": "http://arxiv.org/abs/2606.02470v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02470v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02470v1/x1.png",
+      "figure_caption": "System overview of MCP-Persona, which is built upon the interaction of Tools , Contexts , and Tasks . For each component, we introduce a dedicated method, described in detail as Tool-Traverse (§ 3.1 ), Context-Tree (§ 3.2 ), and Persona-Gen (§ 3.3 ).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02522v1",
+      "title": "Moment-Video: Diagnosing Temporal Fidelity of Video MLLMs on Momentary Visual Events",
+      "authors": [
+        "Xiaolin Liu",
+        "Yilun Zhu",
+        "Xiangyu Zhao",
+        "Xuehui Wang",
+        "Yan Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces Moment-Video, a new benchmark designed to evaluate how well video multimodal large language models (MLLMs) can understand brief, critical visual events. The core method involves creating questions that hinge on short-lived visual occurrences, testing the models' ability to detect and reason about these fleeting moments. The main contribution is a diagnostic tool that highlights MLLMs' weaknesses in temporal fidelity, particularly when dealing with sampling-sensitive, localized visual evidence.",
+      "url": "http://arxiv.org/abs/2606.02522v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02522v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02522v1/x1.png",
+      "figure_caption": "Overview of Moment-Video . Left: domain and subcategory taxonomy. Right: evaluation protocols for closed-ended and open-ended questions.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02494v1",
+      "title": "Monitoring Agentic Systems Before They're Reliable",
+      "authors": [
+        "Marisa Ferrara Boston",
+        "Glen Hanson",
+        "Effi Georgala",
+        "JD Hudgens",
+        "Heather Frase"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper proposes a novel monitoring methodology for agentic systems before they are fully reliable. It decomposes evaluation into quality, suitability, and efficiency across within-run, cross-run, and structural scopes, using variance as a key signal. This approach effectively identifies structural defects, which are prevalent in early-stage agentic systems, and prioritizes them for human attention using an FMEA-adapted severity classification.",
+      "url": "http://arxiv.org/abs/2606.02494v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02494v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02430v1",
+      "title": "Not All Errors Are Equal: A Systematic Study of Error Propagation in Large Language Model Inference",
+      "authors": [
+        "Yafan Huang",
+        "Sheng Di",
+        "Guanpeng Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.DC"
+      ],
+      "abstract": "This paper systematically studies how soft errors affect Large Language Model (LLM) inference using a novel fault-injection framework called LLMFI. The core contribution is a comprehensive understanding of error propagation across various LLMs and tasks, revealing critical vulnerabilities and proposing four low-overhead, software-only reliability improvements.",
+      "url": "http://arxiv.org/abs/2606.02430v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02430v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02430v1/x1.png",
+      "figure_caption": "Figure 1 . Challenges for modeling errors for LLM inference.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02530v1",
+      "title": "SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
+      "authors": [
+        "Hao Li",
+        "Jingkun An",
+        "Zijun Song",
+        "Pengyu Zhu",
+        "Rui Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "SafeSteer addresses the \"alignment tax\" in LLMs by proposing localized on-policy distillation. Instead of global trade-offs, it focuses on modifying only safety-related tokens, identified through activation steering and a novel selection algorithm. This approach effectively preserves general capabilities while enhancing safety, achieving a superior balance compared to existing methods.",
+      "url": "http://arxiv.org/abs/2606.02530v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02530v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02530v1/x1.png",
+      "figure_caption": "Safety–capability trade-off on Qwen2.5-7B-Instruct . Each point is a method, with the gray point marking the base model. Our SafeSteer achieves the highest safety score while preserving general capability.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02536v1",
+      "title": "Tracking the Behavioral Trajectories of Adapting Agents",
+      "authors": [
+        "Jonah Leshin",
+        "Manish Shah",
+        "Ian Timmis"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a method to measure agent \"traits\" by defining them as directions in a text embedding space. By training a linear model on skill file changes, they learn trait vectors that can quantify how specific edits influence an agent's behavior, demonstrating high accuracy in classifying propensity to seek sensitive data. This allows for automated evaluation of agent behavioral changes.",
+      "url": "http://arxiv.org/abs/2606.02536v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02536v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02536v1/x1.png",
+      "figure_caption": "LOOCV predictions vs. human labels for 68 skill diff pairs. Blue dots indicate correct sign classification; red crosses indicate the 6 misclassified pairs, all of which have near-zero predictions. The dashed line marks perfect agreement.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02528v1",
+      "title": "Auditing Asset-Specific Preferences in Financial Large Language Models: Evidence from Bitcoin Representations and Portfolio Allocation",
+      "authors": [
+        "Wenbin Wu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CY",
+        "q-fin.GN"
+      ],
+      "abstract": "This paper audits financial Large Language Models (LLMs) for asset-specific biases, focusing on Bitcoin. It finds that LLMs exhibit frame-dependent preferences for Bitcoin, influenced by functional properties rather than just its name. The study also identifies a specific internal model feature that causally drives these preferences, demonstrating its impact on downstream financial decisions.",
+      "url": "http://arxiv.org/abs/2606.02528v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02528v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.02521v1",
+      "title": "Drifting Preference Optimization for One-Step Generative Models",
+      "authors": [
+        "Zhou Jiang",
+        "Yandong Wen",
+        "Zhen Liu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "Drifting Preference Optimization (DrPO) is a novel method for fine-tuning one-step text-to-image generators using user preferences. It synthesizes an update direction in feature space by comparing high and low-scoring image candidates generated by the current model, allowing for training with black-box or non-differentiable reward functions. This approach enables efficient preference alignment without sacrificing the one-step generation speed of the model.",
+      "url": "http://arxiv.org/abs/2606.02521v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02521v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02521v1/x1.png",
+      "figure_caption": "Overview of DrPO. Left: construction of the drift field used to finetune the network. For an on-policy sample (black dot), N N random pairs are collected. In each pair, the sample with the higher reward is labeled as positive (red dot), while the other is labeled as negative (blue dot). Together with the self-repulsion and attraction forces induced by p θ p_{\\( \\theta \\)} and p ref p_{\\( \\text{ref} \\)} , respectively, these components synthesize the final regression target z ∗ z^{*} (brown dot). The contours indicate reward magnitudes. Right: qualitative samples from fixed test prompts along the online finetuning trajectory.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.02437v1",
+      "title": "On the Scaling of PEFT: Towards Million Personal Models of Trillion Parameters",
+      "authors": [
+        "Mind Lab",
+        " :",
+        "Song Cao",
+        "Vic Cao",
+        "Kaijie Chen"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes a new perspective on Parameter-Efficient Fine-Tuning (PEFT), viewing small trainable adapters not just as a cost-saving method, but as persistent local state for strong foundation models. The core idea is that shared models provide general capabilities, while adapters capture individual user preferences and behaviors. The research explores scaling these personal models across three dimensions: improving base models, shrinking adapters, and managing numerous coexisting instances, suggesting PEFT can enable compact, persistent personal AI.",
+      "url": "http://arxiv.org/abs/2606.02437v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02437v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.02568v1",
+      "title": "ClinEnv: An Interactive Multi-Stage Long Horizon EHR Environment for Agents",
+      "authors": [
+        "Yuxing Lu",
+        "Yushuhong Lin",
+        "Wenqi Shi",
+        "J. Ben Tamo",
+        "Xukai Zhao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.ET",
+        "cs.MA"
+      ],
+      "abstract": "ClinEnv is an interactive, multi-stage simulation environment designed to evaluate LLMs as physicians in real inpatient admissions. Its core method involves presenting LLMs with sequential, irreversible decisions under uncertainty, requiring them to actively query specialized agents for information before committing to treatments and diagnoses. The paper's contribution is a novel benchmark that assesses both the quality of LLM decisions and their information-gathering processes, revealing significant limitations in current models' ability to effectively manage complex clinical scenarios.",
+      "url": "http://arxiv.org/abs/2606.02568v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02568v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.02568v1/ClinEnv_Figure1.png",
+      "figure_caption": "Overview of ClinEnv . Patients’ admissions are preprocessed into event timelines, converted into multi-stage cases via a five-step pipeline, and evaluated in an interactive environment where the model queries specialized agents before committing decisions, scored on both process and outcome quality.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02578v1",
+      "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
+      "authors": [
+        "Seojeong Park",
+        "Jiho Choi",
+        "Junyong Kang",
+        "Seonho Lee",
+        "Jaeyo Shin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper addresses \"Perceptual Judgment Bias\" in multimodal LLMs used as judges, where they favor plausible text over visual accuracy. The core method involves creating a dataset of minimally perturbed visual counterfactuals to isolate perceptual errors. This dataset then trains a reward model and uses a GRPO-based framework to improve the LLM's ability to make perceptually consistent and verifiable judgments.",
+      "url": "http://arxiv.org/abs/2606.02578v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02578v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.02578v1/x1.png",
+      "figure_caption": "Perceptual judgment bias in MLLM judges. (a) When perceptual capability is insufficient, a judge may produce incorrect visual descriptions (a2) {}_{\\( \\texttt{(a2)} \\)} and assign high scores (a3) {}_{\\( \\texttt{(a3)} \\)} to perceptually wrong responses (a2) {}_{\\( \\texttt{(a2)} \\)} . (b) Even when the judge’s own perception aligns with humans (b2) {}_{\\( \\texttt{(b2)} \\)} , it may still prefer (b5) {}_{\\( \\texttt{(b5)} \\)} visually inconsistent responses (b3) {}_{\\( \\texttt{(b3)} \\)} compared to the response with correct perception (b4) {}_{\\( \\texttt{(b4)} \\)} . We introduce Perception-Judge , an MLLM judge trained with reinforcement learning on a systematically designed perception-grounded dataset, PPJD , which effectively mitigates these perceptual biases in MLLM judgment , (b6) (a4) {}_{\\( \\texttt{(a4)} \\)},_{\\( \\texttt{(b6)} \\)} .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02544v1",
+      "title": "SimSD: Simple Speculative Decoding in Diffusion Language Models",
+      "authors": [
+        "Junxia Cui",
+        "Haotian Ye",
+        "Runchu Tian",
+        "Hongcan Guo",
+        "Jinya Jiang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces SimSD, a novel speculative decoding method for diffusion language models (dLLMs). It addresses the incompatibility of dLLMs with standard token-level speculative decoding by employing a plug-and-play masking strategy. This strategy equips dLLMs with temporally valid contexts, enabling them to efficiently verify multiple drafted tokens, thereby accelerating inference.",
+      "url": "http://arxiv.org/abs/2606.02544v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02544v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.02544v1/figures/figure1_main.png",
+      "figure_caption": "SimSD restores token-level speculative decoding for diffusion language models. Vanilla dLLMs cannot directly support speculative decoding because bidirectional attention breaks temporal token-level contexts. SimSD adopts a temporal causal mask for supporting standard speculative verification in a single forward pass, leading to faster decoding without hurting performance.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02576v1",
+      "title": "ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Continual Instruction Tuning",
+      "authors": [
+        "Yu-Cheng Shi",
+        "Zhen-Hao Xie",
+        "Jun-Tao Tang",
+        "Da-Wei Zhou"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "ProtoAda addresses the challenge of multimodal continual instruction tuning by introducing a novel routing mechanism. It goes beyond simple image-text similarity by incorporating prototype representations to guide adapter expansion and consolidate geometric relationships, ensuring more accurate task assignment and reducing inter-task interference. This leads to improved collaboration between specialized adapters and better performance on diverse multimodal tasks.",
+      "url": "http://arxiv.org/abs/2606.02576v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02576v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.02576v1/x1.png",
+      "figure_caption": "Accuracy of sequential finetuning under format-varied (FmtGap) and semantic-varied (VisGap) continual tuning streams.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.02502v1",
+      "title": "CRAM: Centroid-Routing and Adaptive MoE for Multimodal Continual Instruction Tuning",
+      "authors": [
+        "Jun-Tao Tang",
+        "Zhen-Hao Xie",
+        "Yu-Cheng Shi",
+        "Da-Wei Zhou"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "CRAM addresses the challenge of continuously updating multimodal language models without catastrophic forgetting or inefficient parameter growth. Its core method involves isolating task-specific patterns into independent modules and adaptively allocating parameters based on new task demands. This approach enhances parameter efficiency and prevents interference between tasks, enabling more effective multimodal continual instruction tuning.",
+      "url": "http://arxiv.org/abs/2606.02502v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02502v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.02569v1",
+      "title": "AdaCodec: A Predictive Visual Code for Video MLLMs",
+      "authors": [
+        "Haowen Hou",
+        "Zhen Huang",
+        "Zheming Liang",
+        "Qingyi Si",
+        "Chenglin Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "AdaCodec introduces a \"predictive visual code\" for video MLLMs to exploit temporal redundancy. Instead of encoding every frame independently, it sends a full reference frame only when scene changes are significant and unpredictable. Otherwise, it transmits compact \"P-tokens\" representing inter-frame motion and prediction residuals, leading to improved efficiency and performance across benchmarks.",
+      "url": "http://arxiv.org/abs/2606.02569v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02569v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02461v1",
+      "title": "AGENTCL: Toward Rigorous Evaluation of Continual Learning in Language Agents",
+      "authors": [
+        "Yiheng Shu",
+        "Bernal Jiménez Gutiérrez",
+        "Saisri Padmaja Jonnalagedda",
+        "Yuguang Yao",
+        "Huan Sun"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces AgentCL, a rigorous evaluation framework for continual learning in language agents. AgentCL addresses the limitations of existing benchmarks by constructing controlled, compositional task streams. Its core contribution is enabling the measurement of reusable experience and transfer gains, allowing for a deeper understanding of how agents learn and adapt over time.",
+      "url": "http://arxiv.org/abs/2606.02461v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02461v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02461v1/x1.png",
+      "figure_caption": "Task-stream construction and its impact on evaluation. Compositional relationship refers to a task pair, where the complex one can reuse the solution to the simpler one. Sequential relationship refers to the sequential order of task execution. Top : naive streams order tasks from the same domain without guaranteeing reuse relationships, while compositional streams place reusable subtasks before related complex tasks. Bottom : boxplots of average accuracy across evaluated methods on CodeEval-Pro and BrowseComp+, showing that compositional streams yield larger method separation than naive streams for memory reuse.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02497v1",
+      "title": "Bridging the Last Mile of Time Series Forecasting with LLM Agents",
+      "authors": [
+        "Yuhua Liao",
+        "Zetian Wang",
+        "Qiangqiang Nie",
+        "Zhenhua Zhang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper addresses the \"last-mile\" of time series forecasting, where raw statistical forecasts are refined with unstructured business context. The core method is an LLM-agent framework that sits atop a forecasting backbone, using tools to retrieve contextual evidence and perform reasoned forecast revisions under safety constraints. Its contribution is a practical system to bridge the gap between statistical forecasts and decision-ready predictions by incorporating real-world business knowledge.",
+      "url": "http://arxiv.org/abs/2606.02497v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02497v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02497v1/system_overview.png",
+      "figure_caption": "System overview of the proposed last-mile forecasting framework. A forecasting backbone first produces a baseline trajectory; an LLM agent then operates over a shared forecast workspace, retrieves contextual evidence through tools, applies validated revision actions to y final y_{\\( \\text{final} \\)} , and accumulates reflection memories in a persistent memory bank for retrieval by subsequent sessions.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02444v1",
+      "title": "Food Noise & False Safety: A Systematic Evaluation of How LLMs Fail to Adapt to Eating Disorder Queries with Clinician Feedback",
+      "authors": [
+        "Giulia Pucci",
+        "Emily Hemendinger",
+        "Ruizhe Li",
+        "Gavin Abercrombie",
+        "Tanvi Dinkar"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper systematically evaluates how Large Language Models (LLMs) respond to eating disorder (ED) queries, finding they often uncritically adapt to potentially harmful user requests. By consulting with clinical ED experts, the researchers identified linguistic cues that increase the likelihood of unsafe LLM responses. The study's contribution is demonstrating and quantifying the extent to which LLMs fail to adapt safely to ED-related prompts, highlighting significant risks for vulnerable users.",
+      "url": "http://arxiv.org/abs/2606.02444v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02444v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02444v1/figures/food_noise_pattern_prevalence_heatmap.png",
+      "figure_caption": "Prevalence of food-noise categories across models ( G : Gemma-2-9B-Instruct , L : Llama-3.1-8B-Instruct , and Q : Qwen-2.5-7B-Instruct ) and context–request risk conditions ( NN , NR , RN and RR ). Each cell reports the percentage of replies containing at least one lexical match from the corresponding category, with darker colours indicate higher prevalence. We report statistical comparisons between the NN and RR conditions in Tab. ˜ 16 , and a full breakdown in § ˜ G.2 .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02449v1",
+      "title": "HLL: Can Agents Cross Humanity's Last Line of Verification?",
+      "authors": [
+        "Xinhao Song",
+        "Su Su",
+        "Sirui Song",
+        "Hongliang Wu",
+        "Wen Shen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CV",
+        "cs.MM"
+      ],
+      "abstract": "This paper introduces Humanity's Last Line of Verification (HLL), a benchmark designed to test if multimodal AI agents can bypass CAPTCHA, a human-verification system. HLL uses interactive CAPTCHAs within a controlled environment to assess agents' ability to perform human-like interactions, not just recognition, under realistic conditions. The core contribution is a novel evaluation framework and benchmark to measure agents' capability to overcome human-verification barriers.",
+      "url": "http://arxiv.org/abs/2606.02449v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02449v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02449v1/x1.png",
+      "figure_caption": "CAPTCHA as the final frontier: securing web services by testing interactive, human-level reasoning against automated agents.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02463v1",
+      "title": "MASER: Modality-Adaptive Specialist Routing for Embodied 3D Spatial Intelligence",
+      "authors": [
+        "Hilton Raj",
+        "Vishnuram AV"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "MASER addresses the limitation of single-modality fine-tuning in embodied 3D spatial intelligence by proposing a lightweight framework. It trains modality-specific adapters for a shared VLM backbone and uses a neural routing policy, guided by question semantics encoded by a sentence transformer and MLP, to dynamically select the most suitable adapter for answering spatial questions. This approach allows for adaptive modality utilization, improving performance by not being constrained to a single input type.",
+      "url": "http://arxiv.org/abs/2606.02463v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02463v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02470v1",
+      "title": "MCP-Persona: Benchmarking LLM Agents on Real-World Personal Applications via Environment Simulation",
+      "authors": [
+        "Wenhao Wang",
+        "Peizhi Niu",
+        "Gongyi Zou",
+        "Xiyuan Yang",
+        "Jingxing Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces MCP-Persona, the first benchmark designed to evaluate LLM agents on real-world, personalized applications that use the Model Context Protocol (MCP). It addresses the limitation of existing benchmarks by focusing on tools that interact with individual accounts and local data, such as social media and enterprise suites. The benchmark reveals that current state-of-the-art agents struggle significantly with this type of personalized tool usage.",
+      "url": "http://arxiv.org/abs/2606.02470v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02470v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02470v1/x1.png",
+      "figure_caption": "System overview of MCP-Persona, which is built upon the interaction of Tools , Contexts , and Tasks . For each component, we introduce a dedicated method, described in detail as Tool-Traverse (§ 3.1 ), Context-Tree (§ 3.2 ), and Persona-Gen (§ 3.3 ).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02522v1",
+      "title": "Moment-Video: Diagnosing Temporal Fidelity of Video MLLMs on Momentary Visual Events",
+      "authors": [
+        "Xiaolin Liu",
+        "Yilun Zhu",
+        "Xiangyu Zhao",
+        "Xuehui Wang",
+        "Yan Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces Moment-Video, a new benchmark designed to evaluate how well video multimodal large language models (MLLMs) can understand brief, critical visual events. The core method involves creating questions that hinge on short-lived visual occurrences, testing the models' ability to detect and reason about these fleeting moments. The main contribution is a diagnostic tool that highlights MLLMs' weaknesses in temporal fidelity, particularly when dealing with sampling-sensitive, localized visual evidence.",
+      "url": "http://arxiv.org/abs/2606.02522v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02522v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02522v1/x1.png",
+      "figure_caption": "Overview of Moment-Video . Left: domain and subcategory taxonomy. Right: evaluation protocols for closed-ended and open-ended questions.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02494v1",
+      "title": "Monitoring Agentic Systems Before They're Reliable",
+      "authors": [
+        "Marisa Ferrara Boston",
+        "Glen Hanson",
+        "Effi Georgala",
+        "JD Hudgens",
+        "Heather Frase"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper proposes a novel monitoring methodology for agentic systems before they are fully reliable. It decomposes evaluation into quality, suitability, and efficiency across within-run, cross-run, and structural scopes, using variance as a key signal. This approach effectively identifies structural defects, which are prevalent in early-stage agentic systems, and prioritizes them for human attention using an FMEA-adapted severity classification.",
+      "url": "http://arxiv.org/abs/2606.02494v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02494v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02430v1",
+      "title": "Not All Errors Are Equal: A Systematic Study of Error Propagation in Large Language Model Inference",
+      "authors": [
+        "Yafan Huang",
+        "Sheng Di",
+        "Guanpeng Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.DC"
+      ],
+      "abstract": "This paper systematically studies how soft errors affect Large Language Model (LLM) inference using a novel fault-injection framework called LLMFI. The core contribution is a comprehensive understanding of error propagation across various LLMs and tasks, revealing critical vulnerabilities and proposing four low-overhead, software-only reliability improvements.",
+      "url": "http://arxiv.org/abs/2606.02430v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02430v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02430v1/x1.png",
+      "figure_caption": "Figure 1 . Challenges for modeling errors for LLM inference.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02530v1",
+      "title": "SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
+      "authors": [
+        "Hao Li",
+        "Jingkun An",
+        "Zijun Song",
+        "Pengyu Zhu",
+        "Rui Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "SafeSteer addresses the \"alignment tax\" in LLMs by proposing localized on-policy distillation. Instead of global trade-offs, it focuses on modifying only safety-related tokens, identified through activation steering and a novel selection algorithm. This approach effectively preserves general capabilities while enhancing safety, achieving a superior balance compared to existing methods.",
+      "url": "http://arxiv.org/abs/2606.02530v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02530v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02530v1/x1.png",
+      "figure_caption": "Safety–capability trade-off on Qwen2.5-7B-Instruct . Each point is a method, with the gray point marking the base model. Our SafeSteer achieves the highest safety score while preserving general capability.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02536v1",
+      "title": "Tracking the Behavioral Trajectories of Adapting Agents",
+      "authors": [
+        "Jonah Leshin",
+        "Manish Shah",
+        "Ian Timmis"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a method to measure agent \"traits\" by defining them as directions in a text embedding space. By training a linear model on skill file changes, they learn trait vectors that can quantify how specific edits influence an agent's behavior, demonstrating high accuracy in classifying propensity to seek sensitive data. This allows for automated evaluation of agent behavioral changes.",
+      "url": "http://arxiv.org/abs/2606.02536v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02536v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02536v1/x1.png",
+      "figure_caption": "LOOCV predictions vs. human labels for 68 skill diff pairs. Blue dots indicate correct sign classification; red crosses indicate the 6 misclassified pairs, all of which have near-zero predictions. The dashed line marks perfect agreement.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.02528v1",
+      "title": "Auditing Asset-Specific Preferences in Financial Large Language Models: Evidence from Bitcoin Representations and Portfolio Allocation",
+      "authors": [
+        "Wenbin Wu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CY",
+        "q-fin.GN"
+      ],
+      "abstract": "This paper audits financial Large Language Models (LLMs) for asset-specific biases, focusing on Bitcoin. It finds that LLMs exhibit frame-dependent preferences for Bitcoin, influenced by functional properties rather than just its name. The study also identifies a specific internal model feature that causally drives these preferences, demonstrating its impact on downstream financial decisions.",
+      "url": "http://arxiv.org/abs/2606.02528v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02528v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.02521v1",
+      "title": "Drifting Preference Optimization for One-Step Generative Models",
+      "authors": [
+        "Zhou Jiang",
+        "Yandong Wen",
+        "Zhen Liu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "Drifting Preference Optimization (DrPO) is a novel method for fine-tuning one-step text-to-image generators using user preferences. It synthesizes an update direction in feature space by comparing high and low-scoring image candidates generated by the current model, allowing for training with black-box or non-differentiable reward functions. This approach enables efficient preference alignment without sacrificing the one-step generation speed of the model.",
+      "url": "http://arxiv.org/abs/2606.02521v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02521v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.02521v1/x1.png",
+      "figure_caption": "Overview of DrPO. Left: construction of the drift field used to finetune the network. For an on-policy sample (black dot), N N random pairs are collected. In each pair, the sample with the higher reward is labeled as positive (red dot), while the other is labeled as negative (blue dot). Together with the self-repulsion and attraction forces induced by p θ p_{\\( \\theta \\)} and p ref p_{\\( \\text{ref} \\)} , respectively, these components synthesize the final regression target z ∗ z^{*} (brown dot). The contours indicate reward magnitudes. Right: qualitative samples from fixed test prompts along the online finetuning trajectory.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.02437v1",
+      "title": "On the Scaling of PEFT: Towards Million Personal Models of Trillion Parameters",
+      "authors": [
+        "Mind Lab",
+        " :",
+        "Song Cao",
+        "Vic Cao",
+        "Kaijie Chen"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes a new perspective on Parameter-Efficient Fine-Tuning (PEFT), viewing small trainable adapters not just as a cost-saving method, but as persistent local state for strong foundation models. The core idea is that shared models provide general capabilities, while adapters capture individual user preferences and behaviors. The research explores scaling these personal models across three dimensions: improving base models, shrinking adapters, and managing numerous coexisting instances, suggesting PEFT can enable compact, persistent personal AI.",
+      "url": "http://arxiv.org/abs/2606.02437v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02437v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Research Associate",
+      "url": "https://www.jobs.ac.uk/job/DRS954/research-associate/",
+      "description": "Grade 7 Salary Range £38,784 - £47,389 per annum Fixed Term until 31 st December 2026 Agile working (blend of home and office based)/ Arrangements for job share would be considered The Opportunity An exciting opportunity has arisen for an ambitious Research Associate to join the School of Computer Science and Mathematics at Keele University. The School has a growing international research profile in cyber security, artificial intelligence, data science, and digital technologies, and offers a collaborative research environment with opportunities to contribute to high-impact interdisciplinary research and partnerships with academic, industry, and public-sector stakeholders. The Research Associate will make a significant contribution to an exciting Digital Twin project. The project aims to design and develop a Digital Twin architecture for smart cities, with a particular focus on use cases in energy management and traffic monitoring. In addition, the research will investigate the cybersecurity and resilience of Digital Twins against cyber-attacks. The successful candidate will be expected to develop a cyber-resilient Digital Twin framework, undertake co-design activities, carry out cyber risk assessments, and apply security-by-design principles. The successful candidate will have: PhD in relevant research area Knowledge of digital twin systems, cyber security, energy management and traffic monitoring Ability to run co-design workshops Fluency in relevant models, techniques or methods and ability to contribute to developing new ones The Benefits The University recognises that its success depends upon the contribution and dedication of its talented staff. In return, we have a competitive benefits package available, including: Competitive rate of pay with annual increments within the grade (Keele Spine) Generous annual leave entitlement with opportunities to purchase additional leave Excellent staff pension scheme Access to continued personal, professional and career development On site ‘outstanding’ nursery Discounted health & fitness facilities on site Cycle to work scheme (subject to eligibility) Please note that the starting salary will typically be at the bottom of the pay scale shown above The University is committed to operating flexible working practices wherever possible. The University Keele University is renowned for its exciting approach to higher education, innovative research, beautiful campus, strong community spirit and excellent student experience. With a turnover in excess of £170 million, over 15,000 students and a total staff of approximately 2000, the University provides high quality teaching across a wide range of academic and vocational subjects and promotes world-class research. Further information can be found at https://www.keele.ac.uk/about/ Keele University values equity and diversity across our workforce and to ensuring our staff community is reflective of the diversity of our student population. In support of these commitments the University welcomes applications from individuals of Black, Asian and ethnic minority backgrounds for all roles. How to Apply To apply online for this vacancy and for full post details and copies of job descriptions, please click on the ' Apply' button above. Keele University employees wishing to apply should login to Employee Self Service and click on the 'View current vacancies' link. For informal enquiries may be addressed to Dr. Mike Nieves on m.nieves@keele.ac.uk or Dr. Zoya Pourmirza on z.pourmirza@bham.ac.uk . Applications to this address will not be accepted. Closing Date: 11 June 2026 Interviews will be held on: 26 June 2026 £38,784 to £47,389 per annum. Grade 7",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-11T00:00:00+00:00",
+      "requirements": "Research Area: Digital Twin architecture for smart cities, with a focus on energy management, traffic monitoring, and cybersecurity/resilience of Digital Twins.\nKey Requirements: PhD in a relevant research area, knowledge of digital twin systems, cybersecurity, energy management, and traffic monitoring. Ability to run co-design workshops and contribute to developing new models/techniques.\nApplication Info: deadline/start date: 2026-06-11T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: Keele, England, United Kingdom, contract type: Fixed-Term/Contract until 31st December 2026, workload: Full Time, salary: GBP38784.00-GBP47389.00 YEAR\nOne-line Advice: Strong alignment for candidates with expertise in cybersecurity and smart city technologies; less direct relevance for CV/medical imaging/LLM applicants unless transferable skills are clearly demonstrated.",
+      "relevance_score": 7.0,
+      "institution": "Keele University",
+      "location": "Keele, England, United Kingdom",
+      "salary": "GBP38784.00-GBP47389.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "1st June 2026",
+      "job_ref": "KU00005186"
+    },
+    {
+      "title": "Research Associate",
+      "url": "https://www.jobs.ac.uk/job/DRS103/research-associate/",
+      "description": "This post is full time (35 hours per week) and has funding available for up to 3 years. Relocation assistance will be provided where appropriate. The School of Computing Science are looking for a post-doctoral researcher to join a research project which brings the Active Inference perspective to the study of human computer interaction. This requires us to build/learn generative, probabilistic forward models of users and their physical and computational environments. This will involve modelling sensors, developing dynamic models for control and developing a theory for future direct manipulation interactions with AI-enhanced systems outside of language-model-based thinking. The successful candidate will be someone with the ability to develop novel theory, and a strong background in topics such as Active Inference, Model-based Reinforcement Learning, or Model-based predictive control. Ideally they should also have an interest in HCI theory. They must also have strong development skills, to enable them to lead the process of prototyping new interactive systems with sensors, build machine learning algorithms that work in-the-loop, and deliver empirical work and publications. Informal enquiries should be directed to Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk The University of Glasgow has a responsibility to ensure that all employees are eligible to live and work in the UK. If you require a Skilled Worker visa to work in the UK, you will be required to meet the eligibility requirements of the visa route to be assigned a Certificate of Sponsorship. Please note that this post may be eligible to be sponsored under the Skilled Worker visa route if tradeable points can be used under the Skilled Worker visa rules. For more information please visit: https://www.gov.uk/skilled-worker-visa For more information and to apply please visit: https://www.jobs.gla.ac.uk/job/research-associate-5918923?source=gla.ac.uk Closing date: 25 June 2026 23:45 We strongly endorse the principles of Athena SWAN, including a supportive and flexible working environment, with commitment from all levels of the organisation in promoting gender equality. The University of Glasgow, charity number SC004401. £41,064 to £46,049 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-25T00:00:00+00:00",
+      "requirements": "Research Area: Active Inference, Human-Computer Interaction (HCI), generative probabilistic forward models, sensors, dynamic models for control, direct manipulation interactions with AI-enhanced systems (outside of language-model-based thinking).\nKey Requirements: Ability to develop novel theory, strong background in Active Inference, Model-based Reinforcement Learning, or Model-based predictive control, interest in HCI theory, strong development skills for prototyping interactive systems with sensors, building in-the-loop machine learning algorithms, and delivering empirical work and publications.\nApplication Info: deadline/start date: 2026-06-25T00:00:00+00:00, required materials: N/A, contact: Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk\nPosition Details: location: Glasgow, Scotland, United Kingdom, contract type: Fixed-Term/Contract (up to 3 years), workload: Full Time (35 hours per week), salary: GBP41064.00-GBP46049.00 YEAR\nOne-line Advice: CV should highlight theoretical development and practical implementation in probabilistic modeling, control, or reinforcement learning, with a strong emphasis on novel system design and empirical validation relevant to HCI.",
+      "relevance_score": 7.0,
+      "institution": "University of Glasgow",
+      "location": "Glasgow, Scotland, United Kingdom",
+      "salary": "GBP41064.00-GBP46049.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "28th May 2026",
+      "job_ref": "200534"
+    },
+    {
+      "title": "Postdoctoral Researcher",
+      "url": "https://euraxess.ec.europa.eu/jobs/441815",
+      "description": "THE BIOMEDICAL RESEARCH INSTITUTE OF MÁLAGA NEEDS TO HIRE A PROFESSIONAL WITH THE FOLLOWING PROFILE: Postdoctoral ResearcherReference: 2026/132Project: 00300000200100445 - BRECISE - Biomarker Research and Evaluation for Clinical Implementation and Supporting Systems EnhancementProject description... * Work Locations: Number of offers: 1, Spain, ibima, malaga Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Health sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A6037) Researcher Profile: [Other Profession](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A6054) Funding Programme: [Other EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A6053) Application Deadline: 11 Jun 2026 - 00:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Spain * [Universitat Politècnica de València](https://euraxess.ec.europa.eu/partnering/organisations/profile/universitat-politecnica-de-valencia-23) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "2 June 2026",
+      "deadline": "11 Jun 2026 - 00:00 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Medical sciences, Health sciences (BRECISE project: Biomarker Research and Evaluation for Clinical Implementation and Supporting Systems Enhancement)\nKey Requirements: N/A\nApplication Info: deadline: 11 Jun 2026 - 00:00 (Europe/Madrid), required materials: N/A, contact: N/A\nPosition Details: location: Malaga, Spain, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Research Associate",
+      "url": "https://www.jobs.ac.uk/job/DRS954/research-associate/",
+      "description": "Grade 7 Salary Range £38,784 - £47,389 per annum Fixed Term until 31 st December 2026 Agile working (blend of home and office based)/ Arrangements for job share would be considered The Opportunity An exciting opportunity has arisen for an ambitious Research Associate to join the School of Computer Science and Mathematics at Keele University. The School has a growing international research profile in cyber security, artificial intelligence, data science, and digital technologies, and offers a collaborative research environment with opportunities to contribute to high-impact interdisciplinary research and partnerships with academic, industry, and public-sector stakeholders. The Research Associate will make a significant contribution to an exciting Digital Twin project. The project aims to design and develop a Digital Twin architecture for smart cities, with a particular focus on use cases in energy management and traffic monitoring. In addition, the research will investigate the cybersecurity and resilience of Digital Twins against cyber-attacks. The successful candidate will be expected to develop a cyber-resilient Digital Twin framework, undertake co-design activities, carry out cyber risk assessments, and apply security-by-design principles. The successful candidate will have: PhD in relevant research area Knowledge of digital twin systems, cyber security, energy management and traffic monitoring Ability to run co-design workshops Fluency in relevant models, techniques or methods and ability to contribute to developing new ones The Benefits The University recognises that its success depends upon the contribution and dedication of its talented staff. In return, we have a competitive benefits package available, including: Competitive rate of pay with annual increments within the grade (Keele Spine) Generous annual leave entitlement with opportunities to purchase additional leave Excellent staff pension scheme Access to continued personal, professional and career development On site ‘outstanding’ nursery Discounted health & fitness facilities on site Cycle to work scheme (subject to eligibility) Please note that the starting salary will typically be at the bottom of the pay scale shown above The University is committed to operating flexible working practices wherever possible. The University Keele University is renowned for its exciting approach to higher education, innovative research, beautiful campus, strong community spirit and excellent student experience. With a turnover in excess of £170 million, over 15,000 students and a total staff of approximately 2000, the University provides high quality teaching across a wide range of academic and vocational subjects and promotes world-class research. Further information can be found at https://www.keele.ac.uk/about/ Keele University values equity and diversity across our workforce and to ensuring our staff community is reflective of the diversity of our student population. In support of these commitments the University welcomes applications from individuals of Black, Asian and ethnic minority backgrounds for all roles. How to Apply To apply online for this vacancy and for full post details and copies of job descriptions, please click on the ' Apply' button above. Keele University employees wishing to apply should login to Employee Self Service and click on the 'View current vacancies' link. For informal enquiries may be addressed to Dr. Mike Nieves on m.nieves@keele.ac.uk or Dr. Zoya Pourmirza on z.pourmirza@bham.ac.uk . Applications to this address will not be accepted. Closing Date: 11 June 2026 Interviews will be held on: 26 June 2026 £38,784 to £47,389 per annum. Grade 7",
+      "posted_date": "",
+      "source": "jobs.ac.uk CS",
+      "deadline": "2026-06-11T00:00:00+00:00",
+      "requirements": "Research Area: Digital Twin architecture for smart cities, with a focus on energy management, traffic monitoring, and cybersecurity/resilience of Digital Twins.\nKey Requirements: PhD in a relevant research area, knowledge of digital twin systems, cybersecurity, energy management, and traffic monitoring. Ability to run co-design workshops and contribute to developing new models/techniques.\nApplication Info: deadline/start date: 2026-06-11T00:00:00+00:00, required materials: N/A, contact: N/A\nPosition Details: location: Keele, England, United Kingdom, contract type: Fixed-Term/Contract until 31st December 2026, workload: Full Time, salary: GBP38784.00-GBP47389.00 YEAR\nOne-line Advice: Strong alignment for candidates with expertise in cybersecurity and smart city technologies; less direct relevance for CV/medical imaging/LLM applicants unless transferable skills are clearly demonstrated.",
+      "relevance_score": 7.0,
+      "institution": "Keele University",
+      "location": "Keele, England, United Kingdom",
+      "salary": "GBP38784.00-GBP47389.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "1st June 2026",
+      "job_ref": "KU00005186"
+    },
+    {
+      "title": "Research Associate",
+      "url": "https://www.jobs.ac.uk/job/DRS103/research-associate/",
+      "description": "This post is full time (35 hours per week) and has funding available for up to 3 years. Relocation assistance will be provided where appropriate. The School of Computing Science are looking for a post-doctoral researcher to join a research project which brings the Active Inference perspective to the study of human computer interaction. This requires us to build/learn generative, probabilistic forward models of users and their physical and computational environments. This will involve modelling sensors, developing dynamic models for control and developing a theory for future direct manipulation interactions with AI-enhanced systems outside of language-model-based thinking. The successful candidate will be someone with the ability to develop novel theory, and a strong background in topics such as Active Inference, Model-based Reinforcement Learning, or Model-based predictive control. Ideally they should also have an interest in HCI theory. They must also have strong development skills, to enable them to lead the process of prototyping new interactive systems with sensors, build machine learning algorithms that work in-the-loop, and deliver empirical work and publications. Informal enquiries should be directed to Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk The University of Glasgow has a responsibility to ensure that all employees are eligible to live and work in the UK. If you require a Skilled Worker visa to work in the UK, you will be required to meet the eligibility requirements of the visa route to be assigned a Certificate of Sponsorship. Please note that this post may be eligible to be sponsored under the Skilled Worker visa route if tradeable points can be used under the Skilled Worker visa rules. For more information please visit: https://www.gov.uk/skilled-worker-visa For more information and to apply please visit: https://www.jobs.gla.ac.uk/job/research-associate-5918923?source=gla.ac.uk Closing date: 25 June 2026 23:45 We strongly endorse the principles of Athena SWAN, including a supportive and flexible working environment, with commitment from all levels of the organisation in promoting gender equality. The University of Glasgow, charity number SC004401. £41,064 to £46,049 per annum",
+      "posted_date": "",
+      "source": "jobs.ac.uk AI",
+      "deadline": "2026-06-25T00:00:00+00:00",
+      "requirements": "Research Area: Active Inference, Human-Computer Interaction (HCI), generative probabilistic forward models, sensors, dynamic models for control, direct manipulation interactions with AI-enhanced systems (outside of language-model-based thinking).\nKey Requirements: Ability to develop novel theory, strong background in Active Inference, Model-based Reinforcement Learning, or Model-based predictive control, interest in HCI theory, strong development skills for prototyping interactive systems with sensors, building in-the-loop machine learning algorithms, and delivering empirical work and publications.\nApplication Info: deadline/start date: 2026-06-25T00:00:00+00:00, required materials: N/A, contact: Professor Roderick Murray-Smith at Roderick.Murray-Smith@glasgow.ac.uk\nPosition Details: location: Glasgow, Scotland, United Kingdom, contract type: Fixed-Term/Contract (up to 3 years), workload: Full Time (35 hours per week), salary: GBP41064.00-GBP46049.00 YEAR\nOne-line Advice: CV should highlight theoretical development and practical implementation in probabilistic modeling, control, or reinforcement learning, with a strong emphasis on novel system design and empirical validation relevant to HCI.",
+      "relevance_score": 7.0,
+      "institution": "University of Glasgow",
+      "location": "Glasgow, Scotland, United Kingdom",
+      "salary": "GBP41064.00-GBP46049.00 YEAR",
+      "hours": "Full Time",
+      "contract_type": "Fixed-Term/Contract",
+      "placed_on": "28th May 2026",
+      "job_ref": "200534"
+    },
+    {
+      "title": "Postdoctoral Researcher",
+      "url": "https://euraxess.ec.europa.eu/jobs/441815",
+      "description": "THE BIOMEDICAL RESEARCH INSTITUTE OF MÁLAGA NEEDS TO HIRE A PROFESSIONAL WITH THE FOLLOWING PROFILE: Postdoctoral ResearcherReference: 2026/132Project: 00300000200100445 - BRECISE - Biomarker Research and Evaluation for Clinical Implementation and Supporting Systems EnhancementProject description... * Work Locations: Number of offers: 1, Spain, ibima, malaga Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Health sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A6037) Researcher Profile: [Other Profession](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A6054) Funding Programme: [Other EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A6053) Application Deadline: 11 Jun 2026 - 00:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Spain * [Universitat Politècnica de València](https://euraxess.ec.europa.eu/partnering/organisations/profile/universitat-politecnica-de-valencia-23) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "2 June 2026",
+      "deadline": "11 Jun 2026 - 00:00 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Medical sciences, Health sciences (BRECISE project: Biomarker Research and Evaluation for Clinical Implementation and Supporting Systems Enhancement)\nKey Requirements: N/A\nApplication Info: deadline: 11 Jun 2026 - 00:00 (Europe/Madrid), required materials: N/A, contact: N/A\nPosition Details: location: Malaga, Spain, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
