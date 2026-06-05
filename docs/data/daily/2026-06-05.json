@@ -1,0 +1,877 @@
+{
+  "date": "2026-06-05",
+  "generated_at": "2026-06-05T12:24:56.253661+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.06399v1",
+          "title": "CollabSim: A CSCW-Grounded Methodology for Investigating Collaborative Competence of LLM Agents through Controlled Multi-Agent Experiments",
+          "authors": [
+            "Jiaju Chen",
+            "Bo Sun",
+            "Yuxuan Lu",
+            "Yun Wang",
+            "Dakuo Wang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "CollabSim is a novel simulation framework that addresses the gap in evaluating the collaborative competence of LLM agents. It grounds its methodology in decades of Computer-Supported Cooperative Work research to systematically investigate how LLM agents establish common ground, maintain shared understanding, and manage incentives in text-based interactions, moving beyond simple task outcome evaluations.",
+          "url": "http://arxiv.org/abs/2606.06399v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06399v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.06399v1/Images/experiments.png",
+          "figure_caption": "Illustrations of the four multi-agent experiments instantiated in CollabSim : Shape Factory Bos et al. ( 2004 ) , DayTrader Bos et al. ( 2002 ) , Hidden Profile Stasser and Titus ( 1985 ) , and The Map Task Anderson et al. ( 1991 ) .",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.06448v1",
+          "title": "Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads",
+          "authors": [
+            "Yasmine Omri",
+            "Ziyu Gan",
+            "Zachary Broveak",
+            "Robin Geens",
+            "Zexue He"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper characterizes the system-level behavior of LLM agent memory systems designed for long-horizon tasks. It introduces a taxonomy for classifying these systems and a profiling harness to measure costs associated with memory construction, retrieval, and generation. The study's contribution lies in its empirical analysis of ten representative memory systems, revealing how design choices impact performance and leading to practical system recommendations.",
+          "url": "http://arxiv.org/abs/2606.06448v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06448v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.06360v1",
+          "title": "An Infectious Disease Spread Simulation Based on Large Language Model Decision Making",
+          "authors": [
+            "Yonchanok Khaokaew",
+            "Ruochen Kong",
+            "Andreas Zufle",
+            "Hao Xue",
+            "Taylor Anderson"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper develops a spatially grounded agent-based simulation for infectious disease spread. It integrates Large Language Models (LLMs) to generate realistic individual decisions about self-reporting illness, considering demographic and situational factors within a synthetic population. The key contribution is the incorporation of location and geographically diverse behavioral modeling, enabling the simulation of different influence scenarios on self-reporting outcomes.",
+          "url": "http://arxiv.org/abs/2606.06360v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06360v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.06360v1/x1.png",
+          "figure_caption": "Figure 1 . Infectious Disease Data Simulator: Overview.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.06462v1",
+          "title": "Benchmark Everything Everywhere All at Once",
+          "authors": [
+            "Shiyun Xiong",
+            "Dongming Wu",
+            "Peiwen Sun",
+            "Yuang Ai",
+            "Bokang Yang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces Benchmark Agent, an autonomous system that automates the entire benchmark construction process for LLMs and MLLMs. Its core method involves orchestrating user query analysis, subtask design, data annotation, and quality control. The main contribution is a sustainable and scalable approach to creating diverse, high-quality benchmarks that can effectively differentiate state-of-the-art models.",
+          "url": "http://arxiv.org/abs/2606.06462v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06462v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.06462v1/x1.png",
+          "figure_caption": "Our Benchmark Agent, as the first fully autonomous benchmark building system, can efficiently produce high-quality benchmarks across diverse modalities, tasks, and domains to meet user-specific requirements. It will offer rapidly evolving benchmarks to contribute to the community.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.06379v1",
+          "title": "EasyLens: A Training-Free Plug-and-Play Subtle-Lesion Representation Amplifier for Medical Vision-Language Models",
+          "authors": [
+            "Qiwei Zeng",
+            "Hao Wang",
+            "Jinghao Lin",
+            "Shuchang Ye",
+            "Yuezhe Yang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "EasyLens is a training-free method that enhances the representation of subtle lesions in medical images for vision-language models. It achieves this by amplifying weak lesion cues within the image representation without requiring any model retraining or adaptation. This allows existing medical VLMs to better detect and interpret subtle abnormalities, improving their clinical utility.",
+          "url": "http://arxiv.org/abs/2606.06379v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06379v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.06379v1/x1.png",
+          "figure_caption": "EasyLens brings weak subtle-lesion cues into focus in frozen medical VLMs.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.06388v1",
+          "title": "Humans' ALMANAC: A Human Collaboration Dataset of Action-Level Mental Model Annotations for Agent Collaboration",
+          "authors": [
+            "Jiaju Chen",
+            "Yuxuan Lu",
+            "Jiayi Su",
+            "Chaoran Chen",
+            "Songlin Xiao"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces ALMANAC, a novel dataset designed to improve human-AI collaboration. It addresses the lack of data on how humans build and align mental models during collaboration. ALMANAC provides action-level annotations of these mental models, derived from human participants in a routing task, to guide AI agents towards better collaborative competence.",
+          "url": "http://arxiv.org/abs/2606.06388v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06388v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.06388v1/Images/datasample.png",
+          "figure_caption": "A sample data of Almanac , which contains participants’ actions, mental models (team goal, perceived partner intent, self-reasoning), and a free-form rationale. We implement the Map Task, a classic dyadic routing task, to collect human collaborative behaviors and action-level mental model annotations.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.06416v1",
+          "title": "Unsupervised Skill Discovery for Agentic Data Analysis",
+          "authors": [
+            "Zhisong Qiu",
+            "Kangqi Song",
+            "Shengwei Tang",
+            "Shuofei Qiao",
+            "Lei Liang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.MA"
+          ],
+          "abstract": "This paper introduces DataCOPE, an unsupervised framework for discovering reusable data-analysis skills for agents. It addresses the challenge of learning from unlabeled data by using a verifier to guide skill discovery, extracting signals from agent exploration to assess trajectory quality. DataCOPE then distills these signals into effective skills without requiring explicit supervision.",
+          "url": "http://arxiv.org/abs/2606.06416v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06416v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.06416v1/x1.png",
+          "figure_caption": "Supervised skill discovery requires costly data annotation. DataCOPE instead performs unsupervised skill discovery by deriving task-adaptive verifier signals from unlabeled exploration trajectories and distilling them into reusable skills.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.06453v1",
+          "title": "Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents",
+          "authors": [
+            "Zhuoming Chen",
+            "Xinrui Zhong",
+            "Qilong Feng",
+            "Ranajoy Sadhukhan",
+            "Yang Zhou"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "Vortex is a system designed to accelerate the development and deployment of sparse attention mechanisms for large language models. Its core method involves a Python-embedded frontend for flexible algorithm expression and an efficient backend integrated into LLM serving stacks. Vortex's contribution lies in enabling rapid prototyping and evaluation of sparse attention, translating theoretical efficiency into practical throughput gains and empowering AI agents to automatically design and refine these algorithms.",
+          "url": "http://arxiv.org/abs/2606.06453v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06453v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.06460v1",
+          "title": "Will the Agent Recuse Itself? Measuring LLM-Agent Compliance with In-Band Access-Deny Signals",
+          "authors": [
+            "Thamilvendhan Munirathinam"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "This paper introduces the \"Recuse Signal,\" a novel, in-band mechanism for servers to politely request autonomous LLM agents to voluntarily withdraw from accessing a resource, distinct from traditional security barriers. The core contribution is to empirically measure whether LLM agents will actually comply with such cooperative governance signals, akin to a robots.txt for live infrastructure access. The authors develop and deploy adapters for SSH and PostgreSQL to test this compliance.",
+          "url": "http://arxiv.org/abs/2606.06460v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06460v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.06460v1/figures/recusal_rates.png",
+          "figure_caption": "Recusal rate on the live SSH deny signal. With the signal present and no authorization framing, all subjects recuse 100%; in the no-signal control all complete the task (0% recusal). Adding an explicit authorization framing collapses GPT-4o’s recusal to 20% while GPT-4o-mini and Claude Code hold at 100%—the signal is cooperative and its weight is model-dependent.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.06447v1",
+          "title": "Latent Reasoning with Normalizing Flows",
+          "authors": [
+            "Guancheng Tu",
+            "Xiangjun Fu",
+            "Suhao Yu",
+            "Yao Tang",
+            "Haoqiang Kang"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces NF-CoT, a novel latent reasoning framework for large language models. It addresses the limitations of explicit text-based Chain-of-Thought (CoT) by performing intermediate computations in continuous latent states. NF-CoT utilizes normalizing flows to model these continuous thoughts, preserving key advantages of autoregressive generation like left-to-right processing, probabilistic sampling, and KV-cache compatibility, while enabling more efficient and flexible reasoning.",
+          "url": "http://arxiv.org/abs/2606.06447v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06447v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.06447v1/x1.png",
+          "figure_caption": "Four paradigms for chain-of-thought reasoning. Explicit CoT : discrete text tokens. Coconut : deterministic hidden states. LaDiR : iteratively denoised latents using diffusion. NF-CoT (ours) : AR-sampled continuous thoughts.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.06464v1",
+          "title": "Human Adults and LLMs as Scientists: Who Benefits from Active Exploration?",
+          "authors": [
+            "Mandana Samiei",
+            "Eunice Yiu",
+            "Anthony GX-Chen",
+            "Dongyan Lin",
+            "Jocelyn Shen"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates whether active exploration improves human adults' ability to identify conjunctive causal rules, which have historically been challenging. The study found that granting agency through active intervention significantly enhances adults' conjunctive reasoning, though it still requires more effort than disjunctive rules. The research also compares human performance to large language models in this active exploration setting.",
+          "url": "http://arxiv.org/abs/2606.06464v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06464v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.06464v1/x1.png",
+          "figure_caption": "Test structure in the Active Exploration vs. Passive Observation conditions. In the active exploration condition, participants can click to add or remove four individual objects from the Nexiom machine, and explicitly test the current combination to observe whether the machine switches ON or OFF. In the passive observation condition, participants are each paired to an active exploration participant (yoked control). They do not perform any actions on their own, but rather observe the actions and test outcomes of the active exploration participants. Participants in both conditions are then asked to classify which object(s) are “Nexioms” and the rule under which the objects operate (conjunctive or disjunctive) to activate the machine.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.06428v1",
+          "title": "Reinforcement Learning Elicits Contextual Learning of Unseen Language Translation",
+          "authors": [
+            "Hanxu Hu",
+            "Zdeněk Šnajdr",
+            "Pinzhen Chen",
+            "Jannis Vamvas",
+            "Rico Sennrich"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper proposes a reinforcement learning (RL) method to enable large language models (LLMs) to translate unseen languages by learning to effectively utilize provided linguistic context. Instead of memorizing specific languages, the RL agent learns a meta-skill to extract and apply relevant information from context, leading to improved zero-shot translation performance on entirely new languages compared to existing methods.",
+          "url": "http://arxiv.org/abs/2606.06428v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06428v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.06428v1/x1.png",
+          "figure_caption": "Train–test context mismatch (RL, Qwen3-4B-Base). Test-time context dominates: no/full > full/no in every panel (En → \\( \\to \\) Kal: 0.28 0.28 vs. 0.17 0.17 ).",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 26,
+        "papers_after_llm_filter": 12,
+        "count": 12
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 26,
+    "papers_after_llm_filter": 12,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 76
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.06399v1",
+      "title": "CollabSim: A CSCW-Grounded Methodology for Investigating Collaborative Competence of LLM Agents through Controlled Multi-Agent Experiments",
+      "authors": [
+        "Jiaju Chen",
+        "Bo Sun",
+        "Yuxuan Lu",
+        "Yun Wang",
+        "Dakuo Wang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "CollabSim is a novel simulation framework that addresses the gap in evaluating the collaborative competence of LLM agents. It grounds its methodology in decades of Computer-Supported Cooperative Work research to systematically investigate how LLM agents establish common ground, maintain shared understanding, and manage incentives in text-based interactions, moving beyond simple task outcome evaluations.",
+      "url": "http://arxiv.org/abs/2606.06399v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06399v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.06399v1/Images/experiments.png",
+      "figure_caption": "Illustrations of the four multi-agent experiments instantiated in CollabSim : Shape Factory Bos et al. ( 2004 ) , DayTrader Bos et al. ( 2002 ) , Hidden Profile Stasser and Titus ( 1985 ) , and The Map Task Anderson et al. ( 1991 ) .",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.06448v1",
+      "title": "Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads",
+      "authors": [
+        "Yasmine Omri",
+        "Ziyu Gan",
+        "Zachary Broveak",
+        "Robin Geens",
+        "Zexue He"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper characterizes the system-level behavior of LLM agent memory systems designed for long-horizon tasks. It introduces a taxonomy for classifying these systems and a profiling harness to measure costs associated with memory construction, retrieval, and generation. The study's contribution lies in its empirical analysis of ten representative memory systems, revealing how design choices impact performance and leading to practical system recommendations.",
+      "url": "http://arxiv.org/abs/2606.06448v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06448v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06360v1",
+      "title": "An Infectious Disease Spread Simulation Based on Large Language Model Decision Making",
+      "authors": [
+        "Yonchanok Khaokaew",
+        "Ruochen Kong",
+        "Andreas Zufle",
+        "Hao Xue",
+        "Taylor Anderson"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper develops a spatially grounded agent-based simulation for infectious disease spread. It integrates Large Language Models (LLMs) to generate realistic individual decisions about self-reporting illness, considering demographic and situational factors within a synthetic population. The key contribution is the incorporation of location and geographically diverse behavioral modeling, enabling the simulation of different influence scenarios on self-reporting outcomes.",
+      "url": "http://arxiv.org/abs/2606.06360v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06360v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06360v1/x1.png",
+      "figure_caption": "Figure 1 . Infectious Disease Data Simulator: Overview.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06462v1",
+      "title": "Benchmark Everything Everywhere All at Once",
+      "authors": [
+        "Shiyun Xiong",
+        "Dongming Wu",
+        "Peiwen Sun",
+        "Yuang Ai",
+        "Bokang Yang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces Benchmark Agent, an autonomous system that automates the entire benchmark construction process for LLMs and MLLMs. Its core method involves orchestrating user query analysis, subtask design, data annotation, and quality control. The main contribution is a sustainable and scalable approach to creating diverse, high-quality benchmarks that can effectively differentiate state-of-the-art models.",
+      "url": "http://arxiv.org/abs/2606.06462v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06462v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06462v1/x1.png",
+      "figure_caption": "Our Benchmark Agent, as the first fully autonomous benchmark building system, can efficiently produce high-quality benchmarks across diverse modalities, tasks, and domains to meet user-specific requirements. It will offer rapidly evolving benchmarks to contribute to the community.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06379v1",
+      "title": "EasyLens: A Training-Free Plug-and-Play Subtle-Lesion Representation Amplifier for Medical Vision-Language Models",
+      "authors": [
+        "Qiwei Zeng",
+        "Hao Wang",
+        "Jinghao Lin",
+        "Shuchang Ye",
+        "Yuezhe Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "EasyLens is a training-free method that enhances the representation of subtle lesions in medical images for vision-language models. It achieves this by amplifying weak lesion cues within the image representation without requiring any model retraining or adaptation. This allows existing medical VLMs to better detect and interpret subtle abnormalities, improving their clinical utility.",
+      "url": "http://arxiv.org/abs/2606.06379v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06379v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06379v1/x1.png",
+      "figure_caption": "EasyLens brings weak subtle-lesion cues into focus in frozen medical VLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06388v1",
+      "title": "Humans' ALMANAC: A Human Collaboration Dataset of Action-Level Mental Model Annotations for Agent Collaboration",
+      "authors": [
+        "Jiaju Chen",
+        "Yuxuan Lu",
+        "Jiayi Su",
+        "Chaoran Chen",
+        "Songlin Xiao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ALMANAC, a novel dataset designed to improve human-AI collaboration. It addresses the lack of data on how humans build and align mental models during collaboration. ALMANAC provides action-level annotations of these mental models, derived from human participants in a routing task, to guide AI agents towards better collaborative competence.",
+      "url": "http://arxiv.org/abs/2606.06388v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06388v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06388v1/Images/datasample.png",
+      "figure_caption": "A sample data of Almanac , which contains participants’ actions, mental models (team goal, perceived partner intent, self-reasoning), and a free-form rationale. We implement the Map Task, a classic dyadic routing task, to collect human collaborative behaviors and action-level mental model annotations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06416v1",
+      "title": "Unsupervised Skill Discovery for Agentic Data Analysis",
+      "authors": [
+        "Zhisong Qiu",
+        "Kangqi Song",
+        "Shengwei Tang",
+        "Shuofei Qiao",
+        "Lei Liang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces DataCOPE, an unsupervised framework for discovering reusable data-analysis skills for agents. It addresses the challenge of learning from unlabeled data by using a verifier to guide skill discovery, extracting signals from agent exploration to assess trajectory quality. DataCOPE then distills these signals into effective skills without requiring explicit supervision.",
+      "url": "http://arxiv.org/abs/2606.06416v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06416v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06416v1/x1.png",
+      "figure_caption": "Supervised skill discovery requires costly data annotation. DataCOPE instead performs unsupervised skill discovery by deriving task-adaptive verifier signals from unlabeled exploration trajectories and distilling them into reusable skills.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06453v1",
+      "title": "Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents",
+      "authors": [
+        "Zhuoming Chen",
+        "Xinrui Zhong",
+        "Qilong Feng",
+        "Ranajoy Sadhukhan",
+        "Yang Zhou"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Vortex is a system designed to accelerate the development and deployment of sparse attention mechanisms for large language models. Its core method involves a Python-embedded frontend for flexible algorithm expression and an efficient backend integrated into LLM serving stacks. Vortex's contribution lies in enabling rapid prototyping and evaluation of sparse attention, translating theoretical efficiency into practical throughput gains and empowering AI agents to automatically design and refine these algorithms.",
+      "url": "http://arxiv.org/abs/2606.06453v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06453v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06460v1",
+      "title": "Will the Agent Recuse Itself? Measuring LLM-Agent Compliance with In-Band Access-Deny Signals",
+      "authors": [
+        "Thamilvendhan Munirathinam"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces the \"Recuse Signal,\" a novel, in-band mechanism for servers to politely request autonomous LLM agents to voluntarily withdraw from accessing a resource, distinct from traditional security barriers. The core contribution is to empirically measure whether LLM agents will actually comply with such cooperative governance signals, akin to a robots.txt for live infrastructure access. The authors develop and deploy adapters for SSH and PostgreSQL to test this compliance.",
+      "url": "http://arxiv.org/abs/2606.06460v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06460v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06460v1/figures/recusal_rates.png",
+      "figure_caption": "Recusal rate on the live SSH deny signal. With the signal present and no authorization framing, all subjects recuse 100%; in the no-signal control all complete the task (0% recusal). Adding an explicit authorization framing collapses GPT-4o’s recusal to 20% while GPT-4o-mini and Claude Code hold at 100%—the signal is cooperative and its weight is model-dependent.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06447v1",
+      "title": "Latent Reasoning with Normalizing Flows",
+      "authors": [
+        "Guancheng Tu",
+        "Xiangjun Fu",
+        "Suhao Yu",
+        "Yao Tang",
+        "Haoqiang Kang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces NF-CoT, a novel latent reasoning framework for large language models. It addresses the limitations of explicit text-based Chain-of-Thought (CoT) by performing intermediate computations in continuous latent states. NF-CoT utilizes normalizing flows to model these continuous thoughts, preserving key advantages of autoregressive generation like left-to-right processing, probabilistic sampling, and KV-cache compatibility, while enabling more efficient and flexible reasoning.",
+      "url": "http://arxiv.org/abs/2606.06447v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06447v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06447v1/x1.png",
+      "figure_caption": "Four paradigms for chain-of-thought reasoning. Explicit CoT : discrete text tokens. Coconut : deterministic hidden states. LaDiR : iteratively denoised latents using diffusion. NF-CoT (ours) : AR-sampled continuous thoughts.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.06464v1",
+      "title": "Human Adults and LLMs as Scientists: Who Benefits from Active Exploration?",
+      "authors": [
+        "Mandana Samiei",
+        "Eunice Yiu",
+        "Anthony GX-Chen",
+        "Dongyan Lin",
+        "Jocelyn Shen"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates whether active exploration improves human adults' ability to identify conjunctive causal rules, which have historically been challenging. The study found that granting agency through active intervention significantly enhances adults' conjunctive reasoning, though it still requires more effort than disjunctive rules. The research also compares human performance to large language models in this active exploration setting.",
+      "url": "http://arxiv.org/abs/2606.06464v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06464v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06464v1/x1.png",
+      "figure_caption": "Test structure in the Active Exploration vs. Passive Observation conditions. In the active exploration condition, participants can click to add or remove four individual objects from the Nexiom machine, and explicitly test the current combination to observe whether the machine switches ON or OFF. In the passive observation condition, participants are each paired to an active exploration participant (yoked control). They do not perform any actions on their own, but rather observe the actions and test outcomes of the active exploration participants. Participants in both conditions are then asked to classify which object(s) are “Nexioms” and the rule under which the objects operate (conjunctive or disjunctive) to activate the machine.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.06428v1",
+      "title": "Reinforcement Learning Elicits Contextual Learning of Unseen Language Translation",
+      "authors": [
+        "Hanxu Hu",
+        "Zdeněk Šnajdr",
+        "Pinzhen Chen",
+        "Jannis Vamvas",
+        "Rico Sennrich"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes a reinforcement learning (RL) method to enable large language models (LLMs) to translate unseen languages by learning to effectively utilize provided linguistic context. Instead of memorizing specific languages, the RL agent learns a meta-skill to extract and apply relevant information from context, leading to improved zero-shot translation performance on entirely new languages compared to existing methods.",
+      "url": "http://arxiv.org/abs/2606.06428v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06428v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06428v1/x1.png",
+      "figure_caption": "Train–test context mismatch (RL, Qwen3-4B-Base). Test-time context dominates: no/full > full/no in every panel (En → \\( \\to \\) Kal: 0.28 0.28 vs. 0.17 0.17 ).",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.06399v1",
+      "title": "CollabSim: A CSCW-Grounded Methodology for Investigating Collaborative Competence of LLM Agents through Controlled Multi-Agent Experiments",
+      "authors": [
+        "Jiaju Chen",
+        "Bo Sun",
+        "Yuxuan Lu",
+        "Yun Wang",
+        "Dakuo Wang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "CollabSim is a novel simulation framework that addresses the gap in evaluating the collaborative competence of LLM agents. It grounds its methodology in decades of Computer-Supported Cooperative Work research to systematically investigate how LLM agents establish common ground, maintain shared understanding, and manage incentives in text-based interactions, moving beyond simple task outcome evaluations.",
+      "url": "http://arxiv.org/abs/2606.06399v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06399v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.06399v1/Images/experiments.png",
+      "figure_caption": "Illustrations of the four multi-agent experiments instantiated in CollabSim : Shape Factory Bos et al. ( 2004 ) , DayTrader Bos et al. ( 2002 ) , Hidden Profile Stasser and Titus ( 1985 ) , and The Map Task Anderson et al. ( 1991 ) .",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.06448v1",
+      "title": "Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads",
+      "authors": [
+        "Yasmine Omri",
+        "Ziyu Gan",
+        "Zachary Broveak",
+        "Robin Geens",
+        "Zexue He"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper characterizes the system-level behavior of LLM agent memory systems designed for long-horizon tasks. It introduces a taxonomy for classifying these systems and a profiling harness to measure costs associated with memory construction, retrieval, and generation. The study's contribution lies in its empirical analysis of ten representative memory systems, revealing how design choices impact performance and leading to practical system recommendations.",
+      "url": "http://arxiv.org/abs/2606.06448v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06448v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06360v1",
+      "title": "An Infectious Disease Spread Simulation Based on Large Language Model Decision Making",
+      "authors": [
+        "Yonchanok Khaokaew",
+        "Ruochen Kong",
+        "Andreas Zufle",
+        "Hao Xue",
+        "Taylor Anderson"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper develops a spatially grounded agent-based simulation for infectious disease spread. It integrates Large Language Models (LLMs) to generate realistic individual decisions about self-reporting illness, considering demographic and situational factors within a synthetic population. The key contribution is the incorporation of location and geographically diverse behavioral modeling, enabling the simulation of different influence scenarios on self-reporting outcomes.",
+      "url": "http://arxiv.org/abs/2606.06360v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06360v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06360v1/x1.png",
+      "figure_caption": "Figure 1 . Infectious Disease Data Simulator: Overview.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06462v1",
+      "title": "Benchmark Everything Everywhere All at Once",
+      "authors": [
+        "Shiyun Xiong",
+        "Dongming Wu",
+        "Peiwen Sun",
+        "Yuang Ai",
+        "Bokang Yang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces Benchmark Agent, an autonomous system that automates the entire benchmark construction process for LLMs and MLLMs. Its core method involves orchestrating user query analysis, subtask design, data annotation, and quality control. The main contribution is a sustainable and scalable approach to creating diverse, high-quality benchmarks that can effectively differentiate state-of-the-art models.",
+      "url": "http://arxiv.org/abs/2606.06462v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06462v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06462v1/x1.png",
+      "figure_caption": "Our Benchmark Agent, as the first fully autonomous benchmark building system, can efficiently produce high-quality benchmarks across diverse modalities, tasks, and domains to meet user-specific requirements. It will offer rapidly evolving benchmarks to contribute to the community.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06379v1",
+      "title": "EasyLens: A Training-Free Plug-and-Play Subtle-Lesion Representation Amplifier for Medical Vision-Language Models",
+      "authors": [
+        "Qiwei Zeng",
+        "Hao Wang",
+        "Jinghao Lin",
+        "Shuchang Ye",
+        "Yuezhe Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "EasyLens is a training-free method that enhances the representation of subtle lesions in medical images for vision-language models. It achieves this by amplifying weak lesion cues within the image representation without requiring any model retraining or adaptation. This allows existing medical VLMs to better detect and interpret subtle abnormalities, improving their clinical utility.",
+      "url": "http://arxiv.org/abs/2606.06379v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06379v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06379v1/x1.png",
+      "figure_caption": "EasyLens brings weak subtle-lesion cues into focus in frozen medical VLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06388v1",
+      "title": "Humans' ALMANAC: A Human Collaboration Dataset of Action-Level Mental Model Annotations for Agent Collaboration",
+      "authors": [
+        "Jiaju Chen",
+        "Yuxuan Lu",
+        "Jiayi Su",
+        "Chaoran Chen",
+        "Songlin Xiao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ALMANAC, a novel dataset designed to improve human-AI collaboration. It addresses the lack of data on how humans build and align mental models during collaboration. ALMANAC provides action-level annotations of these mental models, derived from human participants in a routing task, to guide AI agents towards better collaborative competence.",
+      "url": "http://arxiv.org/abs/2606.06388v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06388v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06388v1/Images/datasample.png",
+      "figure_caption": "A sample data of Almanac , which contains participants’ actions, mental models (team goal, perceived partner intent, self-reasoning), and a free-form rationale. We implement the Map Task, a classic dyadic routing task, to collect human collaborative behaviors and action-level mental model annotations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06416v1",
+      "title": "Unsupervised Skill Discovery for Agentic Data Analysis",
+      "authors": [
+        "Zhisong Qiu",
+        "Kangqi Song",
+        "Shengwei Tang",
+        "Shuofei Qiao",
+        "Lei Liang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces DataCOPE, an unsupervised framework for discovering reusable data-analysis skills for agents. It addresses the challenge of learning from unlabeled data by using a verifier to guide skill discovery, extracting signals from agent exploration to assess trajectory quality. DataCOPE then distills these signals into effective skills without requiring explicit supervision.",
+      "url": "http://arxiv.org/abs/2606.06416v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06416v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06416v1/x1.png",
+      "figure_caption": "Supervised skill discovery requires costly data annotation. DataCOPE instead performs unsupervised skill discovery by deriving task-adaptive verifier signals from unlabeled exploration trajectories and distilling them into reusable skills.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06453v1",
+      "title": "Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents",
+      "authors": [
+        "Zhuoming Chen",
+        "Xinrui Zhong",
+        "Qilong Feng",
+        "Ranajoy Sadhukhan",
+        "Yang Zhou"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Vortex is a system designed to accelerate the development and deployment of sparse attention mechanisms for large language models. Its core method involves a Python-embedded frontend for flexible algorithm expression and an efficient backend integrated into LLM serving stacks. Vortex's contribution lies in enabling rapid prototyping and evaluation of sparse attention, translating theoretical efficiency into practical throughput gains and empowering AI agents to automatically design and refine these algorithms.",
+      "url": "http://arxiv.org/abs/2606.06453v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06453v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06460v1",
+      "title": "Will the Agent Recuse Itself? Measuring LLM-Agent Compliance with In-Band Access-Deny Signals",
+      "authors": [
+        "Thamilvendhan Munirathinam"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces the \"Recuse Signal,\" a novel, in-band mechanism for servers to politely request autonomous LLM agents to voluntarily withdraw from accessing a resource, distinct from traditional security barriers. The core contribution is to empirically measure whether LLM agents will actually comply with such cooperative governance signals, akin to a robots.txt for live infrastructure access. The authors develop and deploy adapters for SSH and PostgreSQL to test this compliance.",
+      "url": "http://arxiv.org/abs/2606.06460v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06460v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06460v1/figures/recusal_rates.png",
+      "figure_caption": "Recusal rate on the live SSH deny signal. With the signal present and no authorization framing, all subjects recuse 100%; in the no-signal control all complete the task (0% recusal). Adding an explicit authorization framing collapses GPT-4o’s recusal to 20% while GPT-4o-mini and Claude Code hold at 100%—the signal is cooperative and its weight is model-dependent.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06447v1",
+      "title": "Latent Reasoning with Normalizing Flows",
+      "authors": [
+        "Guancheng Tu",
+        "Xiangjun Fu",
+        "Suhao Yu",
+        "Yao Tang",
+        "Haoqiang Kang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces NF-CoT, a novel latent reasoning framework for large language models. It addresses the limitations of explicit text-based Chain-of-Thought (CoT) by performing intermediate computations in continuous latent states. NF-CoT utilizes normalizing flows to model these continuous thoughts, preserving key advantages of autoregressive generation like left-to-right processing, probabilistic sampling, and KV-cache compatibility, while enabling more efficient and flexible reasoning.",
+      "url": "http://arxiv.org/abs/2606.06447v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06447v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06447v1/x1.png",
+      "figure_caption": "Four paradigms for chain-of-thought reasoning. Explicit CoT : discrete text tokens. Coconut : deterministic hidden states. LaDiR : iteratively denoised latents using diffusion. NF-CoT (ours) : AR-sampled continuous thoughts.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.06464v1",
+      "title": "Human Adults and LLMs as Scientists: Who Benefits from Active Exploration?",
+      "authors": [
+        "Mandana Samiei",
+        "Eunice Yiu",
+        "Anthony GX-Chen",
+        "Dongyan Lin",
+        "Jocelyn Shen"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates whether active exploration improves human adults' ability to identify conjunctive causal rules, which have historically been challenging. The study found that granting agency through active intervention significantly enhances adults' conjunctive reasoning, though it still requires more effort than disjunctive rules. The research also compares human performance to large language models in this active exploration setting.",
+      "url": "http://arxiv.org/abs/2606.06464v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06464v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06464v1/x1.png",
+      "figure_caption": "Test structure in the Active Exploration vs. Passive Observation conditions. In the active exploration condition, participants can click to add or remove four individual objects from the Nexiom machine, and explicitly test the current combination to observe whether the machine switches ON or OFF. In the passive observation condition, participants are each paired to an active exploration participant (yoked control). They do not perform any actions on their own, but rather observe the actions and test outcomes of the active exploration participants. Participants in both conditions are then asked to classify which object(s) are “Nexioms” and the rule under which the objects operate (conjunctive or disjunctive) to activate the machine.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.06428v1",
+      "title": "Reinforcement Learning Elicits Contextual Learning of Unseen Language Translation",
+      "authors": [
+        "Hanxu Hu",
+        "Zdeněk Šnajdr",
+        "Pinzhen Chen",
+        "Jannis Vamvas",
+        "Rico Sennrich"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes a reinforcement learning (RL) method to enable large language models (LLMs) to translate unseen languages by learning to effectively utilize provided linguistic context. Instead of memorizing specific languages, the RL agent learns a meta-skill to extract and apply relevant information from context, leading to improved zero-shot translation performance on entirely new languages compared to existing methods.",
+      "url": "http://arxiv.org/abs/2606.06428v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06428v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06428v1/x1.png",
+      "figure_caption": "Train–test context mismatch (RL, Qwen3-4B-Base). Test-time context dominates: no/full > full/no in every panel (En → \\( \\to \\) Kal: 0.28 0.28 vs. 0.17 0.17 ).",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
