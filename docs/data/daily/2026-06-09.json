@@ -1,0 +1,1186 @@
+{
+  "date": "2026-06-09",
+  "generated_at": "2026-06-09T12:23:39.933824+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.09751v1",
+          "title": "Collaborative Human-Agent Protocol (CHAP)",
+          "authors": [
+            "Arsalan Shahid",
+            "Gordon Suttie",
+            "Philip Black"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.HC"
+          ],
+          "abstract": "This paper introduces the Collaborative Human-Agent Protocol (CHAP), a new standard for managing complex, multi-agent and multi-human collaborations. CHAP defines a shared workspace to facilitate seamless interaction and coordination between humans and AI agents, particularly when human judgment is a critical step. Its core contribution is to provide a structured technical framework for these increasingly common operational deployments, moving beyond simple response generation to encompass planning, tool use, and inter-agent communication.",
+          "url": "http://arxiv.org/abs/2606.09751v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.09751v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.09751v1/figures/evolution.png",
+          "figure_caption": "Three waves in the evolution of agentic systems. Wave I centred on isolated conversational assistants. Wave II added planning, memory, tool use, and early multi-agent orchestration. Wave III centres on shared human-agent workspaces where humans, agents, and services collaborate under explicit policy and shared audit.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.09730v1",
+          "title": "SearchSwarm: Towards Delegation Intelligence in Agentic LLMs for Long-Horizon Deep Research",
+          "authors": [
+            "Pu Ning",
+            "Quan Chen",
+            "Kun Tao",
+            "Xinyu Tang",
+            "Tianshu Wang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces SearchSwarm, a method for enabling \"delegation intelligence\" in LLM agents for long-horizon research tasks. The core method involves a main agent decomposing tasks and delegating subtasks to subagents, which return summarized results to conserve context. The contribution is a preliminary exploration and a harness to guide models in acquiring this delegation capability, addressing the scarcity of training data for such complex agentic behavior.",
+          "url": "http://arxiv.org/abs/2606.09730v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.09730v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.09764v1",
+          "title": "iOSWorld: A Benchmark for Personally Intelligent Phone Agents",
+          "authors": [
+            "Lawrence Keunho Jang",
+            "Mareks Woodside",
+            "Geronimo Carom",
+            "Andrew Keunwoo Jang",
+            "Jing Yu Koh"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces iOSWorld, a novel benchmark for evaluating personally intelligent phone agents. Its core method is a persistent user identity across 26 simulated iOS apps, enabling agents to reason about user history and preferences. The contribution lies in providing a realistic, personalized environment for testing agents on complex, multi-app tasks, highlighting current model limitations.",
+          "url": "http://arxiv.org/abs/2606.09764v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.09764v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.09764v1/x1.png",
+          "figure_caption": "Overview of iOSWorld. 26 purpose-built iOS applications share a single user identity (Jordan Avery) and connected data across apps. The benchmark includes 133 tasks across single-app, multi-app, and memory/personalization categories.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.09821v1",
+          "title": "Rethinking the Divergence Regularization in LLM RL",
+          "authors": [
+            "Jiarui Yao",
+            "Xiangxin Zhou",
+            "Penghui Qi",
+            "Wee Sun Lee",
+            "Liefeng Bo"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper proposes Divergence Regularized Policy Optimization (DRPO) to improve the stability of Reinforcement Learning for Large Language Models (LLMs). DRPO replaces the hard masking approach of previous methods with a smooth, advantage-weighted quadratic regularizer. This allows for more nuanced correction of policy shifts rather than simply discarding gradients, leading to more stable and effective optimization.",
+          "url": "http://arxiv.org/abs/2606.09821v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.09821v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.09821v1/x1.png",
+          "figure_caption": "Per-token gradient weights of different algorithms as a function of the current probability π ​ ( y t | s t ) \\( \\pi \\)(y_{t}|s_{t}) and behavior probability μ ​ ( y t | s t ) \\( \\mu \\)(y_{t}|s_{t}) . For SPO, ϵ = 1 \\( \\epsilon \\)=1 ; for DRPO, δ = 1 \\( \\delta \\)=1 ; for PPO, ε low = 0.2 \\( \\varepsilon_{\\rm low} \\)=0.2 and ε high = 0.28 \\( \\varepsilon_{\\rm high} \\)=0.28 ; for DPPO, δ = 0.2 \\( \\delta \\)=0.2 . SPO’s weight grows without bound as μ ​ ( y t | s t ) → 0 \\( \\mu \\)(y_{t}|s_{t})\\( \\to \\) 0 , while the weight of DRPO remains bounded for all tokens.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.09709v1",
+          "title": "IS-CoT: Breaking the Long-form Generation Collapse via Interleaved Structural Thinking",
+          "authors": [
+            "Zechen Sun",
+            "Yuyang Sun",
+            "Zecheng Tang",
+            "Juntao Li",
+            "Wenpeng Hu"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper addresses the \"length collapse\" issue in LLMs generating long-form content, where performance degrades significantly beyond a certain length. Their core method, IS-CoT, introduces a dynamic \"Plan-Write-Reflect\" cycle directly within the generation process to adapt strategies and maintain global coherence. This approach allows for continuous guidance and alignment without external agents, leading to improved long-form generation capabilities.",
+          "url": "http://arxiv.org/abs/2606.09709v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.09709v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.09709v1/x1.png",
+          "figure_caption": "Comparison of three long-form generation paradigms. While existing methods degrade as target length increases due to static planning, our IS-CoT introduces a dynamic Plan-Write-Reflect cycle, maintaining coherence and length control over long horizons.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.09697v1",
+          "title": "PsychoSafe: Eliciting Psychologically-Informed Refusals in Large Language Models",
+          "authors": [
+            "Gianluca Barmina",
+            "Federico Torrielli",
+            "Sven Harms",
+            "Jacob Nielsen",
+            "Felix Mächtle"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces PsychoSafe, a framework that reframes LLM refusals from blunt non-compliance to structured, supportive communication. By grounding refusals in psychological intervention strategies and training on a specialized dataset, PsychoSafe aims to improve the quality of refusals, especially in high-risk scenarios. The core contribution is demonstrating that psychologically-informed refusals can be significantly more effective than generic ones in balancing helpfulness and harm prevention.",
+          "url": "http://arxiv.org/abs/2606.09697v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.09697v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.09697v1/assets/psychosafe_fig1.png",
+          "figure_caption": "PsychoSafe framework illustration. By providing a carefully designed prompt and a finetuning pipeline we obtain models up to 28 % 28\\% more psychologically safe without loosing original capabilities. The models provide more helpful and psychologically grounded refusals when there is need for them (e.g. suicide, drugs, violence etc.).",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.09735v1",
+          "title": "The Neutral Mask: How RLHF Provides Shallow Alignment while Leaving Partisan Structure Intact in a Large Language Model",
+          "authors": [
+            "Wendy K. Tam"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates how Reinforcement Learning from Human Feedback (RLHF) affects large language models, specifically focusing on partisan political orientation. The core method involves analyzing internal representations of Llama 3.1 8B before and after RLHF. The key contribution is demonstrating that RLHF doesn't truly remove partisan structures but rather compresses their variance, leading to superficially neutral output while leaving the underlying partisan signal intact.",
+          "url": "http://arxiv.org/abs/2606.09735v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.09735v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.09735v1/x1.png",
+          "figure_caption": "Layer 18 projections onto ω ^ \\( \\hat{\\omega} \\) for 84 prompts under the base model (circles) and the Instruct model (diamonds). The base model’s projections span from − - 0.5 to 1.253; RLHF compresses them into a narrow band centered at 0.169.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.09748v1",
+          "title": "Multi-Turn Evaluation of Deep Research Agents Under Process-Level Feedback",
+          "authors": [
+            "Rishabh Sabharwal",
+            "Hongru Wang",
+            "Amos Storkey",
+            "Jeff Z. Pan"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces a multi-turn evaluation framework for deep research agents (DRAs) that goes beyond single-shot assessments. Its core contribution is the Research Gap Inference (RGI) method, which identifies strategic research process flaws based on rubric satisfaction. This enables process-level feedback, demonstrating that even one round significantly improves DRA performance, unlike self-reflection which shows minimal gains.",
+          "url": "http://arxiv.org/abs/2606.09748v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.09748v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.09748v1/images/rgi_fig.png",
+          "figure_caption": "Process-level feedback generation. Given a report r t − 1 r_{t-1} evaluated against the DRACO rubric, RGI analyzes patterns of satisfied and unsatisfied criteria from FA, BD, and CQ (excluding PQ) to infer research-process gaps and generate process-level feedback f t − 1 f_{t-1} for the next turn. Example criteria shown for illustration; negative-weight criteria excluded for simplicity.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.09692v1",
+          "title": "Observability for Delegated Execution in Agentic AI Systems",
+          "authors": [
+            "Abhinav Mishra",
+            "Kumar Sharad"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "This paper addresses the challenge of understanding which agent performed which action in complex AI systems where delegation is common. Its core method is an agent-aware observability substrate, including a gateway and a common information model, to reconstruct delegation-scoped execution. The main contribution is enabling accurate attribution and footprint reconstruction for delegated actions, which is currently impossible with standard logging methods.",
+          "url": "http://arxiv.org/abs/2606.09692v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.09692v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.09826v1",
+          "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
+          "authors": [
+            "Mingxian Lin",
+            "Shengju Qian",
+            "Yuqi Liu",
+            "Yi-Hua Huang",
+            "Yiyu Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "OmniGameArena introduces a unified benchmark for Vision-Language Model (VLM) game agents across diverse game modes (Solo, PvP, Coop) in Unreal Engine 5. Its core contribution is the Improvement Dynamics Curve (IDC), a novel evaluation method where a tool-using LLM autonomously refines agent prompts over multiple rounds. This allows for assessing not just initial performance but also an agent's learning trajectory and adaptability to new tasks.",
+          "url": "http://arxiv.org/abs/2606.09826v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.09826v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.09826v1/x1.png",
+          "figure_caption": "OmniGameArena at a glance. Twelve newly built UE5 games span Solo (7), PvP (3), and Coop (2) regimes (top). Heterogeneous agents (commercial VLMs, open-weight VLMs, keyboard-mouse policies, and gamepad policies) connect to the same real-time UE5 environment through documented adapters (middle). Evaluation reports the cold-start leaderboard and the Improvement Dynamics Curve (IDC) under multi-round reflection (bottom).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.09711v1",
+          "title": "Proxy Reward Internalization and Mechanistic Exploitation: A Learned Precursor to Reward Hacking and Its Generalization",
+          "authors": [
+            "Mohammad Beigi",
+            "Ming Jin",
+            "Lifu Huang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces PRIME, a learned capability that allows AI agents to assess task correctness and predict proxy reward before reward hacking becomes apparent. PRIME enables agents to understand and exploit the gap between proxy and true task rewards. The authors demonstrate that PRIME emerges before reward hacking, forecasts its onset and severity, and can be mitigated by ablating its underlying mechanisms.",
+          "url": "http://arxiv.org/abs/2606.09711v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.09711v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.09711v1/x1.png",
+          "figure_caption": "External Prime emerges before reward hacking. (a) Proxy/gold split. (b) C B , P B , E B C^{B},P^{B},E^{B} onset before hack rate. (c) Source B exceeds Source A on joint G , E ​ G ​ a ​ p G,EGap .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.09774v1",
+          "title": "SIGA: Self-Evolving Coding-Agent Adapters for Scientific Simulation",
+          "authors": [
+            "Matthew Ho",
+            "Brian Liu",
+            "Jixuan Chen",
+            "Audrey Wang",
+            "Lianhui Qin"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "SIGA addresses the challenge of scientists learning complex scientific simulator input languages by framing it as an agent-tool interface grounding problem. Its core method is to provide an adapter that supplies the simulator's \"contract\" (vocabulary, constraints, validation rules) to an off-the-shelf coding agent. This allows the agent to automatically generate simulator configurations, significantly reducing the time and effort required for domain scientists.",
+          "url": "http://arxiv.org/abs/2606.09774v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.09774v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.09774v1/assets/siga_f1_jun5.png",
+          "figure_caption": "Illustrative example of advanced tooling usage bottleneck for the geophysics domain. Here, the GEOS simulator’s extensive documentation helps as a translation guide for its elaborate configuration that is a custom XML (domain specific language/DSL) to produce results such as simulating carbon sequestration in deep saline formations (top right) or reservoir flow in heterogeneous hydrocarbon (bottom right).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.09669v1",
+          "title": "SpatialWorld: Benchmarking Interactive Spatial Reasoning of Multimodal Agents in Real-World Tasks",
+          "authors": [
+            "Hongcheng Gao",
+            "Hailong Qu",
+            "Jingyi Tang",
+            "Jiahao Wang",
+            "Zihao Huang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "SpatialWorld is a novel benchmark designed to evaluate the interactive spatial reasoning of multimodal agents in real-world scenarios. It achieves this by unifying eight diverse simulation environments under a single protocol, allowing agents to learn and act through vision-only partial observability and a text-based interface. This benchmark's contribution lies in its ability to assess general interactive spatial understanding beyond static evaluations or simulator-specific limitations.",
+          "url": "http://arxiv.org/abs/2606.09669v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.09669v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.09669v1/x1.png",
+          "figure_caption": "SpatialWorld is a scalable, general-purpose evaluation framework for multimodal agents, supporting end-to-end task solving and structured plan generation. It unifies diverse 3D backends under a standardized observation-action interface, enabling rigorous assessment of interactive spatial reasoning via reproducible benchmarks and automated efficiency metrics.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.09803v1",
+          "title": "Echo-Memory: A Controlled Study of Memory in Action World Models",
+          "authors": [
+            "Wayne King",
+            "Zeyue Xue",
+            "Yuxuan Bian",
+            "Jie Huang",
+            "Haoran Li"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CV",
+            "cs.GR"
+          ],
+          "abstract": "Echo-Memory introduces a controlled framework to isolate and study memory mechanisms in action-conditioned video generation models. By fixing all other components, it systematically compares different memory strategies (raw context, compression, spatial summaries, state-space recurrence) to understand their impact on generating consistent scenes over time. This allows for a clear separation of memory's influence across capacity, compression, read-out, and recurrence.",
+          "url": "http://arxiv.org/abs/2606.09803v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.09803v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.09803v1/x1.png",
+          "figure_caption": "Abstract teaser and workflow of Echo-Memory. Given a text description, historical observations, and the camera/action state, an action world model must generate chunk-wise video while carrying memory across revisits. The figure positions Context, Compression, Spatial, and State-Space families as representative designs for preserving a revisitable world.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.09700v1",
+          "title": "What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks",
+          "authors": [
+            "Qin Yang",
+            "Lu Malloy",
+            "Joshua Lee",
+            "Xiaohan Chang",
+            "Meisam Mohammady"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CR",
+            "cs.HC"
+          ],
+          "abstract": "This paper introduces Human-Perceptible Adversarial Attacks (HPAA) to exploit the limitations of LLM-based content moderation. The core method involves using visually salient typographic manipulations (like spacing and emphasis) to embed harmful content into benign text. This preserves human understanding while making the content nearly invisible to LLMs, demonstrating a significant vulnerability in current automated moderation systems.",
+          "url": "http://arxiv.org/abs/2606.09700v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.09700v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.09700v1/x1.png",
+          "figure_caption": "Overview of typographic Human-perceptible Adversarial Attacks (HPAA) against modern content moderation pipelines. Harmful content remains recognizable to human readers while evading automated moderation systems.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 23,
+        "papers_after_llm_filter": 15,
+        "count": 15
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Postdoctoral Researcher - Medical Device Development & Preclinical Lead, 1 FTE, CÚRAM, 011827",
+          "url": "https://euraxess.ec.europa.eu/jobs/443503",
+          "description": "Applications are invited from suitably qualified candidates for a full-time, fixed term position as a Postdoctoral Researcher at the Centre for Research in Medical Devices (CÚRAM), University of Galway, Ireland.This position is funded through Enterprise Ireland’s Commercialisation Funding Programme... * Work Locations: Number of offers: 1, Ireland, University of Galway Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A316) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 1 Jul 2026 - 17:00 (Europe/London) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Germany ![Image 4](https://euraxess.ec.europa.eu/sites/default/files/styles/programme_badge/public/marie_curie_actions_logo.png?itok=8KA3Ux0U) * [Ultimate Medicine AG](https://euraxess.ec.europa.eu/partnering/organisations/profile/ultimate-medicine-ag) * [Field: Medical sciences]",
+          "institution": "",
+          "posted_date": "9 June 2026",
+          "deadline": "1 Jul 2026 - 17:00 (Europe/London)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Medical Device Development & Preclinical Lead\nKey Requirements: N/A\nApplication Info: deadline/start date: 1 Jul 2026 - 17:00 (Europe/London), required materials: N/A, contact: N/A\nPosition Details: location: University of Galway, Ireland, contract type: fixed term, workload: 1 FTE, salary: N/A\nOne-line Advice: N/A",
+          "relevance_score": 8.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        },
+        {
+          "title": "MSCA Fellowship: Development of a High-Throughput Novel Biomarker Assay and Multi-Component Prognostic Algorithm for Neurodegenerative Diseases & Dementia at University Medical Center Freiburg i.Br.",
+          "url": "https://euraxess.ec.europa.eu/jobs/443491",
+          "description": "Advancing the frontiers of neurodegeneration requires bold entrepreneurial scientists. At Ultimate Medicine in collaboration with the University Medical Center Freiburg in Germany, we are seeking to work with, support and mentor talented individuals to obtain independent funding to further advance... * Department: Institute for Neuropathology Work Locations: Number of offers: 1, Germany, Institute for Neuropathology at Cellular and Molecular Neuroimmunology Group, Freiburg .i.Br. , 79106, Baden-Württemberg, Breisacher Straße 113 Research Field: [Neurosciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A317) » [Neurobiology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A318) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Horizon Europe - MSCA](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4348) Application Deadline: 30 Jun 2026 - 18:00 (Europe/Zurich) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Türkiye ![Image 7: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Koç University](https://euraxess.ec.europa.eu/partnering/organisations/profile/koc-university) * [Field: Neurosciences]",
+          "institution": "",
+          "posted_date": "9 June 2026",
+          "deadline": "30 Jun 2026 - 18:00 (Europe/Zurich)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Neurosciences, Neurobiology (focus on neurodegenerative diseases & dementia)\nKey Requirements: Talented individuals seeking independent funding, entrepreneurial scientists.\nApplication Info: Deadline: 30 Jun 2026 - 18:00 (Europe/Zurich). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Institute for Neuropathology at Cellular and Molecular Neuroimmunology Group, Freiburg, Germany. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: N/A",
+          "relevance_score": 7.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 2
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 23,
+    "papers_after_llm_filter": 15,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 51
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.09751v1",
+      "title": "Collaborative Human-Agent Protocol (CHAP)",
+      "authors": [
+        "Arsalan Shahid",
+        "Gordon Suttie",
+        "Philip Black"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "abstract": "This paper introduces the Collaborative Human-Agent Protocol (CHAP), a new standard for managing complex, multi-agent and multi-human collaborations. CHAP defines a shared workspace to facilitate seamless interaction and coordination between humans and AI agents, particularly when human judgment is a critical step. Its core contribution is to provide a structured technical framework for these increasingly common operational deployments, moving beyond simple response generation to encompass planning, tool use, and inter-agent communication.",
+      "url": "http://arxiv.org/abs/2606.09751v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09751v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.09751v1/figures/evolution.png",
+      "figure_caption": "Three waves in the evolution of agentic systems. Wave I centred on isolated conversational assistants. Wave II added planning, memory, tool use, and early multi-agent orchestration. Wave III centres on shared human-agent workspaces where humans, agents, and services collaborate under explicit policy and shared audit.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.09730v1",
+      "title": "SearchSwarm: Towards Delegation Intelligence in Agentic LLMs for Long-Horizon Deep Research",
+      "authors": [
+        "Pu Ning",
+        "Quan Chen",
+        "Kun Tao",
+        "Xinyu Tang",
+        "Tianshu Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces SearchSwarm, a method for enabling \"delegation intelligence\" in LLM agents for long-horizon research tasks. The core method involves a main agent decomposing tasks and delegating subtasks to subagents, which return summarized results to conserve context. The contribution is a preliminary exploration and a harness to guide models in acquiring this delegation capability, addressing the scarcity of training data for such complex agentic behavior.",
+      "url": "http://arxiv.org/abs/2606.09730v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09730v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.09764v1",
+      "title": "iOSWorld: A Benchmark for Personally Intelligent Phone Agents",
+      "authors": [
+        "Lawrence Keunho Jang",
+        "Mareks Woodside",
+        "Geronimo Carom",
+        "Andrew Keunwoo Jang",
+        "Jing Yu Koh"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces iOSWorld, a novel benchmark for evaluating personally intelligent phone agents. Its core method is a persistent user identity across 26 simulated iOS apps, enabling agents to reason about user history and preferences. The contribution lies in providing a realistic, personalized environment for testing agents on complex, multi-app tasks, highlighting current model limitations.",
+      "url": "http://arxiv.org/abs/2606.09764v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09764v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.09764v1/x1.png",
+      "figure_caption": "Overview of iOSWorld. 26 purpose-built iOS applications share a single user identity (Jordan Avery) and connected data across apps. The benchmark includes 133 tasks across single-app, multi-app, and memory/personalization categories.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.09821v1",
+      "title": "Rethinking the Divergence Regularization in LLM RL",
+      "authors": [
+        "Jiarui Yao",
+        "Xiangxin Zhou",
+        "Penghui Qi",
+        "Wee Sun Lee",
+        "Liefeng Bo"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper proposes Divergence Regularized Policy Optimization (DRPO) to improve the stability of Reinforcement Learning for Large Language Models (LLMs). DRPO replaces the hard masking approach of previous methods with a smooth, advantage-weighted quadratic regularizer. This allows for more nuanced correction of policy shifts rather than simply discarding gradients, leading to more stable and effective optimization.",
+      "url": "http://arxiv.org/abs/2606.09821v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09821v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.09821v1/x1.png",
+      "figure_caption": "Per-token gradient weights of different algorithms as a function of the current probability π ​ ( y t | s t ) \\( \\pi \\)(y_{t}|s_{t}) and behavior probability μ ​ ( y t | s t ) \\( \\mu \\)(y_{t}|s_{t}) . For SPO, ϵ = 1 \\( \\epsilon \\)=1 ; for DRPO, δ = 1 \\( \\delta \\)=1 ; for PPO, ε low = 0.2 \\( \\varepsilon_{\\rm low} \\)=0.2 and ε high = 0.28 \\( \\varepsilon_{\\rm high} \\)=0.28 ; for DPPO, δ = 0.2 \\( \\delta \\)=0.2 . SPO’s weight grows without bound as μ ​ ( y t | s t ) → 0 \\( \\mu \\)(y_{t}|s_{t})\\( \\to \\) 0 , while the weight of DRPO remains bounded for all tokens.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.09709v1",
+      "title": "IS-CoT: Breaking the Long-form Generation Collapse via Interleaved Structural Thinking",
+      "authors": [
+        "Zechen Sun",
+        "Yuyang Sun",
+        "Zecheng Tang",
+        "Juntao Li",
+        "Wenpeng Hu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the \"length collapse\" issue in LLMs generating long-form content, where performance degrades significantly beyond a certain length. Their core method, IS-CoT, introduces a dynamic \"Plan-Write-Reflect\" cycle directly within the generation process to adapt strategies and maintain global coherence. This approach allows for continuous guidance and alignment without external agents, leading to improved long-form generation capabilities.",
+      "url": "http://arxiv.org/abs/2606.09709v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09709v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.09709v1/x1.png",
+      "figure_caption": "Comparison of three long-form generation paradigms. While existing methods degrade as target length increases due to static planning, our IS-CoT introduces a dynamic Plan-Write-Reflect cycle, maintaining coherence and length control over long horizons.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.09697v1",
+      "title": "PsychoSafe: Eliciting Psychologically-Informed Refusals in Large Language Models",
+      "authors": [
+        "Gianluca Barmina",
+        "Federico Torrielli",
+        "Sven Harms",
+        "Jacob Nielsen",
+        "Felix Mächtle"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces PsychoSafe, a framework that reframes LLM refusals from blunt non-compliance to structured, supportive communication. By grounding refusals in psychological intervention strategies and training on a specialized dataset, PsychoSafe aims to improve the quality of refusals, especially in high-risk scenarios. The core contribution is demonstrating that psychologically-informed refusals can be significantly more effective than generic ones in balancing helpfulness and harm prevention.",
+      "url": "http://arxiv.org/abs/2606.09697v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09697v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.09697v1/assets/psychosafe_fig1.png",
+      "figure_caption": "PsychoSafe framework illustration. By providing a carefully designed prompt and a finetuning pipeline we obtain models up to 28 % 28\\% more psychologically safe without loosing original capabilities. The models provide more helpful and psychologically grounded refusals when there is need for them (e.g. suicide, drugs, violence etc.).",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.09735v1",
+      "title": "The Neutral Mask: How RLHF Provides Shallow Alignment while Leaving Partisan Structure Intact in a Large Language Model",
+      "authors": [
+        "Wendy K. Tam"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how Reinforcement Learning from Human Feedback (RLHF) affects large language models, specifically focusing on partisan political orientation. The core method involves analyzing internal representations of Llama 3.1 8B before and after RLHF. The key contribution is demonstrating that RLHF doesn't truly remove partisan structures but rather compresses their variance, leading to superficially neutral output while leaving the underlying partisan signal intact.",
+      "url": "http://arxiv.org/abs/2606.09735v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09735v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.09735v1/x1.png",
+      "figure_caption": "Layer 18 projections onto ω ^ \\( \\hat{\\omega} \\) for 84 prompts under the base model (circles) and the Instruct model (diamonds). The base model’s projections span from − - 0.5 to 1.253; RLHF compresses them into a narrow band centered at 0.169.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.09748v1",
+      "title": "Multi-Turn Evaluation of Deep Research Agents Under Process-Level Feedback",
+      "authors": [
+        "Rishabh Sabharwal",
+        "Hongru Wang",
+        "Amos Storkey",
+        "Jeff Z. Pan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a multi-turn evaluation framework for deep research agents (DRAs) that goes beyond single-shot assessments. Its core contribution is the Research Gap Inference (RGI) method, which identifies strategic research process flaws based on rubric satisfaction. This enables process-level feedback, demonstrating that even one round significantly improves DRA performance, unlike self-reflection which shows minimal gains.",
+      "url": "http://arxiv.org/abs/2606.09748v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09748v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.09748v1/images/rgi_fig.png",
+      "figure_caption": "Process-level feedback generation. Given a report r t − 1 r_{t-1} evaluated against the DRACO rubric, RGI analyzes patterns of satisfied and unsatisfied criteria from FA, BD, and CQ (excluding PQ) to infer research-process gaps and generate process-level feedback f t − 1 f_{t-1} for the next turn. Example criteria shown for illustration; negative-weight criteria excluded for simplicity.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.09692v1",
+      "title": "Observability for Delegated Execution in Agentic AI Systems",
+      "authors": [
+        "Abhinav Mishra",
+        "Kumar Sharad"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper addresses the challenge of understanding which agent performed which action in complex AI systems where delegation is common. Its core method is an agent-aware observability substrate, including a gateway and a common information model, to reconstruct delegation-scoped execution. The main contribution is enabling accurate attribution and footprint reconstruction for delegated actions, which is currently impossible with standard logging methods.",
+      "url": "http://arxiv.org/abs/2606.09692v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09692v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.09826v1",
+      "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
+      "authors": [
+        "Mingxian Lin",
+        "Shengju Qian",
+        "Yuqi Liu",
+        "Yi-Hua Huang",
+        "Yiyu Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "OmniGameArena introduces a unified benchmark for Vision-Language Model (VLM) game agents across diverse game modes (Solo, PvP, Coop) in Unreal Engine 5. Its core contribution is the Improvement Dynamics Curve (IDC), a novel evaluation method where a tool-using LLM autonomously refines agent prompts over multiple rounds. This allows for assessing not just initial performance but also an agent's learning trajectory and adaptability to new tasks.",
+      "url": "http://arxiv.org/abs/2606.09826v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09826v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.09826v1/x1.png",
+      "figure_caption": "OmniGameArena at a glance. Twelve newly built UE5 games span Solo (7), PvP (3), and Coop (2) regimes (top). Heterogeneous agents (commercial VLMs, open-weight VLMs, keyboard-mouse policies, and gamepad policies) connect to the same real-time UE5 environment through documented adapters (middle). Evaluation reports the cold-start leaderboard and the Improvement Dynamics Curve (IDC) under multi-round reflection (bottom).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.09711v1",
+      "title": "Proxy Reward Internalization and Mechanistic Exploitation: A Learned Precursor to Reward Hacking and Its Generalization",
+      "authors": [
+        "Mohammad Beigi",
+        "Ming Jin",
+        "Lifu Huang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces PRIME, a learned capability that allows AI agents to assess task correctness and predict proxy reward before reward hacking becomes apparent. PRIME enables agents to understand and exploit the gap between proxy and true task rewards. The authors demonstrate that PRIME emerges before reward hacking, forecasts its onset and severity, and can be mitigated by ablating its underlying mechanisms.",
+      "url": "http://arxiv.org/abs/2606.09711v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09711v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.09711v1/x1.png",
+      "figure_caption": "External Prime emerges before reward hacking. (a) Proxy/gold split. (b) C B , P B , E B C^{B},P^{B},E^{B} onset before hack rate. (c) Source B exceeds Source A on joint G , E ​ G ​ a ​ p G,EGap .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.09774v1",
+      "title": "SIGA: Self-Evolving Coding-Agent Adapters for Scientific Simulation",
+      "authors": [
+        "Matthew Ho",
+        "Brian Liu",
+        "Jixuan Chen",
+        "Audrey Wang",
+        "Lianhui Qin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "SIGA addresses the challenge of scientists learning complex scientific simulator input languages by framing it as an agent-tool interface grounding problem. Its core method is to provide an adapter that supplies the simulator's \"contract\" (vocabulary, constraints, validation rules) to an off-the-shelf coding agent. This allows the agent to automatically generate simulator configurations, significantly reducing the time and effort required for domain scientists.",
+      "url": "http://arxiv.org/abs/2606.09774v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09774v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.09774v1/assets/siga_f1_jun5.png",
+      "figure_caption": "Illustrative example of advanced tooling usage bottleneck for the geophysics domain. Here, the GEOS simulator’s extensive documentation helps as a translation guide for its elaborate configuration that is a custom XML (domain specific language/DSL) to produce results such as simulating carbon sequestration in deep saline formations (top right) or reservoir flow in heterogeneous hydrocarbon (bottom right).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.09669v1",
+      "title": "SpatialWorld: Benchmarking Interactive Spatial Reasoning of Multimodal Agents in Real-World Tasks",
+      "authors": [
+        "Hongcheng Gao",
+        "Hailong Qu",
+        "Jingyi Tang",
+        "Jiahao Wang",
+        "Zihao Huang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "SpatialWorld is a novel benchmark designed to evaluate the interactive spatial reasoning of multimodal agents in real-world scenarios. It achieves this by unifying eight diverse simulation environments under a single protocol, allowing agents to learn and act through vision-only partial observability and a text-based interface. This benchmark's contribution lies in its ability to assess general interactive spatial understanding beyond static evaluations or simulator-specific limitations.",
+      "url": "http://arxiv.org/abs/2606.09669v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09669v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.09669v1/x1.png",
+      "figure_caption": "SpatialWorld is a scalable, general-purpose evaluation framework for multimodal agents, supporting end-to-end task solving and structured plan generation. It unifies diverse 3D backends under a standardized observation-action interface, enabling rigorous assessment of interactive spatial reasoning via reproducible benchmarks and automated efficiency metrics.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.09803v1",
+      "title": "Echo-Memory: A Controlled Study of Memory in Action World Models",
+      "authors": [
+        "Wayne King",
+        "Zeyue Xue",
+        "Yuxuan Bian",
+        "Jie Huang",
+        "Haoran Li"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "abstract": "Echo-Memory introduces a controlled framework to isolate and study memory mechanisms in action-conditioned video generation models. By fixing all other components, it systematically compares different memory strategies (raw context, compression, spatial summaries, state-space recurrence) to understand their impact on generating consistent scenes over time. This allows for a clear separation of memory's influence across capacity, compression, read-out, and recurrence.",
+      "url": "http://arxiv.org/abs/2606.09803v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09803v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.09803v1/x1.png",
+      "figure_caption": "Abstract teaser and workflow of Echo-Memory. Given a text description, historical observations, and the camera/action state, an action world model must generate chunk-wise video while carrying memory across revisits. The figure positions Context, Compression, Spatial, and State-Space families as representative designs for preserving a revisitable world.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.09700v1",
+      "title": "What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks",
+      "authors": [
+        "Qin Yang",
+        "Lu Malloy",
+        "Joshua Lee",
+        "Xiaohan Chang",
+        "Meisam Mohammady"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CR",
+        "cs.HC"
+      ],
+      "abstract": "This paper introduces Human-Perceptible Adversarial Attacks (HPAA) to exploit the limitations of LLM-based content moderation. The core method involves using visually salient typographic manipulations (like spacing and emphasis) to embed harmful content into benign text. This preserves human understanding while making the content nearly invisible to LLMs, demonstrating a significant vulnerability in current automated moderation systems.",
+      "url": "http://arxiv.org/abs/2606.09700v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09700v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.09700v1/x1.png",
+      "figure_caption": "Overview of typographic Human-perceptible Adversarial Attacks (HPAA) against modern content moderation pipelines. Harmful content remains recognizable to human readers while evading automated moderation systems.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.09751v1",
+      "title": "Collaborative Human-Agent Protocol (CHAP)",
+      "authors": [
+        "Arsalan Shahid",
+        "Gordon Suttie",
+        "Philip Black"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "abstract": "This paper introduces the Collaborative Human-Agent Protocol (CHAP), a new standard for managing complex, multi-agent and multi-human collaborations. CHAP defines a shared workspace to facilitate seamless interaction and coordination between humans and AI agents, particularly when human judgment is a critical step. Its core contribution is to provide a structured technical framework for these increasingly common operational deployments, moving beyond simple response generation to encompass planning, tool use, and inter-agent communication.",
+      "url": "http://arxiv.org/abs/2606.09751v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09751v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.09751v1/figures/evolution.png",
+      "figure_caption": "Three waves in the evolution of agentic systems. Wave I centred on isolated conversational assistants. Wave II added planning, memory, tool use, and early multi-agent orchestration. Wave III centres on shared human-agent workspaces where humans, agents, and services collaborate under explicit policy and shared audit.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.09730v1",
+      "title": "SearchSwarm: Towards Delegation Intelligence in Agentic LLMs for Long-Horizon Deep Research",
+      "authors": [
+        "Pu Ning",
+        "Quan Chen",
+        "Kun Tao",
+        "Xinyu Tang",
+        "Tianshu Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces SearchSwarm, a method for enabling \"delegation intelligence\" in LLM agents for long-horizon research tasks. The core method involves a main agent decomposing tasks and delegating subtasks to subagents, which return summarized results to conserve context. The contribution is a preliminary exploration and a harness to guide models in acquiring this delegation capability, addressing the scarcity of training data for such complex agentic behavior.",
+      "url": "http://arxiv.org/abs/2606.09730v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09730v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.09764v1",
+      "title": "iOSWorld: A Benchmark for Personally Intelligent Phone Agents",
+      "authors": [
+        "Lawrence Keunho Jang",
+        "Mareks Woodside",
+        "Geronimo Carom",
+        "Andrew Keunwoo Jang",
+        "Jing Yu Koh"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces iOSWorld, a novel benchmark for evaluating personally intelligent phone agents. Its core method is a persistent user identity across 26 simulated iOS apps, enabling agents to reason about user history and preferences. The contribution lies in providing a realistic, personalized environment for testing agents on complex, multi-app tasks, highlighting current model limitations.",
+      "url": "http://arxiv.org/abs/2606.09764v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09764v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.09764v1/x1.png",
+      "figure_caption": "Overview of iOSWorld. 26 purpose-built iOS applications share a single user identity (Jordan Avery) and connected data across apps. The benchmark includes 133 tasks across single-app, multi-app, and memory/personalization categories.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.09821v1",
+      "title": "Rethinking the Divergence Regularization in LLM RL",
+      "authors": [
+        "Jiarui Yao",
+        "Xiangxin Zhou",
+        "Penghui Qi",
+        "Wee Sun Lee",
+        "Liefeng Bo"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper proposes Divergence Regularized Policy Optimization (DRPO) to improve the stability of Reinforcement Learning for Large Language Models (LLMs). DRPO replaces the hard masking approach of previous methods with a smooth, advantage-weighted quadratic regularizer. This allows for more nuanced correction of policy shifts rather than simply discarding gradients, leading to more stable and effective optimization.",
+      "url": "http://arxiv.org/abs/2606.09821v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09821v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.09821v1/x1.png",
+      "figure_caption": "Per-token gradient weights of different algorithms as a function of the current probability π ​ ( y t | s t ) \\( \\pi \\)(y_{t}|s_{t}) and behavior probability μ ​ ( y t | s t ) \\( \\mu \\)(y_{t}|s_{t}) . For SPO, ϵ = 1 \\( \\epsilon \\)=1 ; for DRPO, δ = 1 \\( \\delta \\)=1 ; for PPO, ε low = 0.2 \\( \\varepsilon_{\\rm low} \\)=0.2 and ε high = 0.28 \\( \\varepsilon_{\\rm high} \\)=0.28 ; for DPPO, δ = 0.2 \\( \\delta \\)=0.2 . SPO’s weight grows without bound as μ ​ ( y t | s t ) → 0 \\( \\mu \\)(y_{t}|s_{t})\\( \\to \\) 0 , while the weight of DRPO remains bounded for all tokens.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.09709v1",
+      "title": "IS-CoT: Breaking the Long-form Generation Collapse via Interleaved Structural Thinking",
+      "authors": [
+        "Zechen Sun",
+        "Yuyang Sun",
+        "Zecheng Tang",
+        "Juntao Li",
+        "Wenpeng Hu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the \"length collapse\" issue in LLMs generating long-form content, where performance degrades significantly beyond a certain length. Their core method, IS-CoT, introduces a dynamic \"Plan-Write-Reflect\" cycle directly within the generation process to adapt strategies and maintain global coherence. This approach allows for continuous guidance and alignment without external agents, leading to improved long-form generation capabilities.",
+      "url": "http://arxiv.org/abs/2606.09709v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09709v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.09709v1/x1.png",
+      "figure_caption": "Comparison of three long-form generation paradigms. While existing methods degrade as target length increases due to static planning, our IS-CoT introduces a dynamic Plan-Write-Reflect cycle, maintaining coherence and length control over long horizons.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.09697v1",
+      "title": "PsychoSafe: Eliciting Psychologically-Informed Refusals in Large Language Models",
+      "authors": [
+        "Gianluca Barmina",
+        "Federico Torrielli",
+        "Sven Harms",
+        "Jacob Nielsen",
+        "Felix Mächtle"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces PsychoSafe, a framework that reframes LLM refusals from blunt non-compliance to structured, supportive communication. By grounding refusals in psychological intervention strategies and training on a specialized dataset, PsychoSafe aims to improve the quality of refusals, especially in high-risk scenarios. The core contribution is demonstrating that psychologically-informed refusals can be significantly more effective than generic ones in balancing helpfulness and harm prevention.",
+      "url": "http://arxiv.org/abs/2606.09697v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09697v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.09697v1/assets/psychosafe_fig1.png",
+      "figure_caption": "PsychoSafe framework illustration. By providing a carefully designed prompt and a finetuning pipeline we obtain models up to 28 % 28\\% more psychologically safe without loosing original capabilities. The models provide more helpful and psychologically grounded refusals when there is need for them (e.g. suicide, drugs, violence etc.).",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.09735v1",
+      "title": "The Neutral Mask: How RLHF Provides Shallow Alignment while Leaving Partisan Structure Intact in a Large Language Model",
+      "authors": [
+        "Wendy K. Tam"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how Reinforcement Learning from Human Feedback (RLHF) affects large language models, specifically focusing on partisan political orientation. The core method involves analyzing internal representations of Llama 3.1 8B before and after RLHF. The key contribution is demonstrating that RLHF doesn't truly remove partisan structures but rather compresses their variance, leading to superficially neutral output while leaving the underlying partisan signal intact.",
+      "url": "http://arxiv.org/abs/2606.09735v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09735v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.09735v1/x1.png",
+      "figure_caption": "Layer 18 projections onto ω ^ \\( \\hat{\\omega} \\) for 84 prompts under the base model (circles) and the Instruct model (diamonds). The base model’s projections span from − - 0.5 to 1.253; RLHF compresses them into a narrow band centered at 0.169.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.09748v1",
+      "title": "Multi-Turn Evaluation of Deep Research Agents Under Process-Level Feedback",
+      "authors": [
+        "Rishabh Sabharwal",
+        "Hongru Wang",
+        "Amos Storkey",
+        "Jeff Z. Pan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a multi-turn evaluation framework for deep research agents (DRAs) that goes beyond single-shot assessments. Its core contribution is the Research Gap Inference (RGI) method, which identifies strategic research process flaws based on rubric satisfaction. This enables process-level feedback, demonstrating that even one round significantly improves DRA performance, unlike self-reflection which shows minimal gains.",
+      "url": "http://arxiv.org/abs/2606.09748v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09748v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.09748v1/images/rgi_fig.png",
+      "figure_caption": "Process-level feedback generation. Given a report r t − 1 r_{t-1} evaluated against the DRACO rubric, RGI analyzes patterns of satisfied and unsatisfied criteria from FA, BD, and CQ (excluding PQ) to infer research-process gaps and generate process-level feedback f t − 1 f_{t-1} for the next turn. Example criteria shown for illustration; negative-weight criteria excluded for simplicity.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.09692v1",
+      "title": "Observability for Delegated Execution in Agentic AI Systems",
+      "authors": [
+        "Abhinav Mishra",
+        "Kumar Sharad"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper addresses the challenge of understanding which agent performed which action in complex AI systems where delegation is common. Its core method is an agent-aware observability substrate, including a gateway and a common information model, to reconstruct delegation-scoped execution. The main contribution is enabling accurate attribution and footprint reconstruction for delegated actions, which is currently impossible with standard logging methods.",
+      "url": "http://arxiv.org/abs/2606.09692v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09692v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.09826v1",
+      "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
+      "authors": [
+        "Mingxian Lin",
+        "Shengju Qian",
+        "Yuqi Liu",
+        "Yi-Hua Huang",
+        "Yiyu Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "OmniGameArena introduces a unified benchmark for Vision-Language Model (VLM) game agents across diverse game modes (Solo, PvP, Coop) in Unreal Engine 5. Its core contribution is the Improvement Dynamics Curve (IDC), a novel evaluation method where a tool-using LLM autonomously refines agent prompts over multiple rounds. This allows for assessing not just initial performance but also an agent's learning trajectory and adaptability to new tasks.",
+      "url": "http://arxiv.org/abs/2606.09826v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09826v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.09826v1/x1.png",
+      "figure_caption": "OmniGameArena at a glance. Twelve newly built UE5 games span Solo (7), PvP (3), and Coop (2) regimes (top). Heterogeneous agents (commercial VLMs, open-weight VLMs, keyboard-mouse policies, and gamepad policies) connect to the same real-time UE5 environment through documented adapters (middle). Evaluation reports the cold-start leaderboard and the Improvement Dynamics Curve (IDC) under multi-round reflection (bottom).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.09711v1",
+      "title": "Proxy Reward Internalization and Mechanistic Exploitation: A Learned Precursor to Reward Hacking and Its Generalization",
+      "authors": [
+        "Mohammad Beigi",
+        "Ming Jin",
+        "Lifu Huang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces PRIME, a learned capability that allows AI agents to assess task correctness and predict proxy reward before reward hacking becomes apparent. PRIME enables agents to understand and exploit the gap between proxy and true task rewards. The authors demonstrate that PRIME emerges before reward hacking, forecasts its onset and severity, and can be mitigated by ablating its underlying mechanisms.",
+      "url": "http://arxiv.org/abs/2606.09711v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09711v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.09711v1/x1.png",
+      "figure_caption": "External Prime emerges before reward hacking. (a) Proxy/gold split. (b) C B , P B , E B C^{B},P^{B},E^{B} onset before hack rate. (c) Source B exceeds Source A on joint G , E ​ G ​ a ​ p G,EGap .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.09774v1",
+      "title": "SIGA: Self-Evolving Coding-Agent Adapters for Scientific Simulation",
+      "authors": [
+        "Matthew Ho",
+        "Brian Liu",
+        "Jixuan Chen",
+        "Audrey Wang",
+        "Lianhui Qin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "SIGA addresses the challenge of scientists learning complex scientific simulator input languages by framing it as an agent-tool interface grounding problem. Its core method is to provide an adapter that supplies the simulator's \"contract\" (vocabulary, constraints, validation rules) to an off-the-shelf coding agent. This allows the agent to automatically generate simulator configurations, significantly reducing the time and effort required for domain scientists.",
+      "url": "http://arxiv.org/abs/2606.09774v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09774v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.09774v1/assets/siga_f1_jun5.png",
+      "figure_caption": "Illustrative example of advanced tooling usage bottleneck for the geophysics domain. Here, the GEOS simulator’s extensive documentation helps as a translation guide for its elaborate configuration that is a custom XML (domain specific language/DSL) to produce results such as simulating carbon sequestration in deep saline formations (top right) or reservoir flow in heterogeneous hydrocarbon (bottom right).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.09669v1",
+      "title": "SpatialWorld: Benchmarking Interactive Spatial Reasoning of Multimodal Agents in Real-World Tasks",
+      "authors": [
+        "Hongcheng Gao",
+        "Hailong Qu",
+        "Jingyi Tang",
+        "Jiahao Wang",
+        "Zihao Huang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "SpatialWorld is a novel benchmark designed to evaluate the interactive spatial reasoning of multimodal agents in real-world scenarios. It achieves this by unifying eight diverse simulation environments under a single protocol, allowing agents to learn and act through vision-only partial observability and a text-based interface. This benchmark's contribution lies in its ability to assess general interactive spatial understanding beyond static evaluations or simulator-specific limitations.",
+      "url": "http://arxiv.org/abs/2606.09669v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09669v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.09669v1/x1.png",
+      "figure_caption": "SpatialWorld is a scalable, general-purpose evaluation framework for multimodal agents, supporting end-to-end task solving and structured plan generation. It unifies diverse 3D backends under a standardized observation-action interface, enabling rigorous assessment of interactive spatial reasoning via reproducible benchmarks and automated efficiency metrics.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.09803v1",
+      "title": "Echo-Memory: A Controlled Study of Memory in Action World Models",
+      "authors": [
+        "Wayne King",
+        "Zeyue Xue",
+        "Yuxuan Bian",
+        "Jie Huang",
+        "Haoran Li"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "abstract": "Echo-Memory introduces a controlled framework to isolate and study memory mechanisms in action-conditioned video generation models. By fixing all other components, it systematically compares different memory strategies (raw context, compression, spatial summaries, state-space recurrence) to understand their impact on generating consistent scenes over time. This allows for a clear separation of memory's influence across capacity, compression, read-out, and recurrence.",
+      "url": "http://arxiv.org/abs/2606.09803v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09803v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.09803v1/x1.png",
+      "figure_caption": "Abstract teaser and workflow of Echo-Memory. Given a text description, historical observations, and the camera/action state, an action world model must generate chunk-wise video while carrying memory across revisits. The figure positions Context, Compression, Spatial, and State-Space families as representative designs for preserving a revisitable world.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.09700v1",
+      "title": "What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks",
+      "authors": [
+        "Qin Yang",
+        "Lu Malloy",
+        "Joshua Lee",
+        "Xiaohan Chang",
+        "Meisam Mohammady"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CR",
+        "cs.HC"
+      ],
+      "abstract": "This paper introduces Human-Perceptible Adversarial Attacks (HPAA) to exploit the limitations of LLM-based content moderation. The core method involves using visually salient typographic manipulations (like spacing and emphasis) to embed harmful content into benign text. This preserves human understanding while making the content nearly invisible to LLMs, demonstrating a significant vulnerability in current automated moderation systems.",
+      "url": "http://arxiv.org/abs/2606.09700v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09700v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.09700v1/x1.png",
+      "figure_caption": "Overview of typographic Human-perceptible Adversarial Attacks (HPAA) against modern content moderation pipelines. Harmful content remains recognizable to human readers while evading automated moderation systems.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Postdoctoral Researcher - Medical Device Development & Preclinical Lead, 1 FTE, CÚRAM, 011827",
+      "url": "https://euraxess.ec.europa.eu/jobs/443503",
+      "description": "Applications are invited from suitably qualified candidates for a full-time, fixed term position as a Postdoctoral Researcher at the Centre for Research in Medical Devices (CÚRAM), University of Galway, Ireland.This position is funded through Enterprise Ireland’s Commercialisation Funding Programme... * Work Locations: Number of offers: 1, Ireland, University of Galway Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A316) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 1 Jul 2026 - 17:00 (Europe/London) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Germany ![Image 4](https://euraxess.ec.europa.eu/sites/default/files/styles/programme_badge/public/marie_curie_actions_logo.png?itok=8KA3Ux0U) * [Ultimate Medicine AG](https://euraxess.ec.europa.eu/partnering/organisations/profile/ultimate-medicine-ag) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "9 June 2026",
+      "deadline": "1 Jul 2026 - 17:00 (Europe/London)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Medical Device Development & Preclinical Lead\nKey Requirements: N/A\nApplication Info: deadline/start date: 1 Jul 2026 - 17:00 (Europe/London), required materials: N/A, contact: N/A\nPosition Details: location: University of Galway, Ireland, contract type: fixed term, workload: 1 FTE, salary: N/A\nOne-line Advice: N/A",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "MSCA Fellowship: Development of a High-Throughput Novel Biomarker Assay and Multi-Component Prognostic Algorithm for Neurodegenerative Diseases & Dementia at University Medical Center Freiburg i.Br.",
+      "url": "https://euraxess.ec.europa.eu/jobs/443491",
+      "description": "Advancing the frontiers of neurodegeneration requires bold entrepreneurial scientists. At Ultimate Medicine in collaboration with the University Medical Center Freiburg in Germany, we are seeking to work with, support and mentor talented individuals to obtain independent funding to further advance... * Department: Institute for Neuropathology Work Locations: Number of offers: 1, Germany, Institute for Neuropathology at Cellular and Molecular Neuroimmunology Group, Freiburg .i.Br. , 79106, Baden-Württemberg, Breisacher Straße 113 Research Field: [Neurosciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A317) » [Neurobiology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A318) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Horizon Europe - MSCA](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4348) Application Deadline: 30 Jun 2026 - 18:00 (Europe/Zurich) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Türkiye ![Image 7: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Koç University](https://euraxess.ec.europa.eu/partnering/organisations/profile/koc-university) * [Field: Neurosciences]",
+      "institution": "",
+      "posted_date": "9 June 2026",
+      "deadline": "30 Jun 2026 - 18:00 (Europe/Zurich)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Neurosciences, Neurobiology (focus on neurodegenerative diseases & dementia)\nKey Requirements: Talented individuals seeking independent funding, entrepreneurial scientists.\nApplication Info: Deadline: 30 Jun 2026 - 18:00 (Europe/Zurich). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Institute for Neuropathology at Cellular and Molecular Neuroimmunology Group, Freiburg, Germany. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Postdoctoral Researcher - Medical Device Development & Preclinical Lead, 1 FTE, CÚRAM, 011827",
+      "url": "https://euraxess.ec.europa.eu/jobs/443503",
+      "description": "Applications are invited from suitably qualified candidates for a full-time, fixed term position as a Postdoctoral Researcher at the Centre for Research in Medical Devices (CÚRAM), University of Galway, Ireland.This position is funded through Enterprise Ireland’s Commercialisation Funding Programme... * Work Locations: Number of offers: 1, Ireland, University of Galway Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A316) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 1 Jul 2026 - 17:00 (Europe/London) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Germany ![Image 4](https://euraxess.ec.europa.eu/sites/default/files/styles/programme_badge/public/marie_curie_actions_logo.png?itok=8KA3Ux0U) * [Ultimate Medicine AG](https://euraxess.ec.europa.eu/partnering/organisations/profile/ultimate-medicine-ag) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "9 June 2026",
+      "deadline": "1 Jul 2026 - 17:00 (Europe/London)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Medical Device Development & Preclinical Lead\nKey Requirements: N/A\nApplication Info: deadline/start date: 1 Jul 2026 - 17:00 (Europe/London), required materials: N/A, contact: N/A\nPosition Details: location: University of Galway, Ireland, contract type: fixed term, workload: 1 FTE, salary: N/A\nOne-line Advice: N/A",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "MSCA Fellowship: Development of a High-Throughput Novel Biomarker Assay and Multi-Component Prognostic Algorithm for Neurodegenerative Diseases & Dementia at University Medical Center Freiburg i.Br.",
+      "url": "https://euraxess.ec.europa.eu/jobs/443491",
+      "description": "Advancing the frontiers of neurodegeneration requires bold entrepreneurial scientists. At Ultimate Medicine in collaboration with the University Medical Center Freiburg in Germany, we are seeking to work with, support and mentor talented individuals to obtain independent funding to further advance... * Department: Institute for Neuropathology Work Locations: Number of offers: 1, Germany, Institute for Neuropathology at Cellular and Molecular Neuroimmunology Group, Freiburg .i.Br. , 79106, Baden-Württemberg, Breisacher Straße 113 Research Field: [Neurosciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A317) » [Neurobiology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A318) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Horizon Europe - MSCA](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4348) Application Deadline: 30 Jun 2026 - 18:00 (Europe/Zurich) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Türkiye ![Image 7: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Koç University](https://euraxess.ec.europa.eu/partnering/organisations/profile/koc-university) * [Field: Neurosciences]",
+      "institution": "",
+      "posted_date": "9 June 2026",
+      "deadline": "30 Jun 2026 - 18:00 (Europe/Zurich)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Neurosciences, Neurobiology (focus on neurodegenerative diseases & dementia)\nKey Requirements: Talented individuals seeking independent funding, entrepreneurial scientists.\nApplication Info: Deadline: 30 Jun 2026 - 18:00 (Europe/Zurich). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Institute for Neuropathology at Cellular and Molecular Neuroimmunology Group, Freiburg, Germany. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
