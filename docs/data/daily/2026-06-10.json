@@ -1,0 +1,1276 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "2026-06-10T12:45:41.257114+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.11182v1",
+          "title": "EEVEE: Towards Test-time Prompt Learning in the Real World for Self-Improving Agents",
+          "authors": [
+            "Weixian Xu",
+            "Shilong Liu",
+            "Mengdi Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "EEVEE is a novel framework for test-time prompt learning in LLM agents that handles real-world, heterogeneous task streams. Its core method uses a router to cluster inputs and assign them to specialized prompt configurations, preventing cross-dataset interference. This router and prompt learning are co-evolved, leading to improved robustness and efficiency on diverse tasks.",
+          "url": "http://arxiv.org/abs/2606.11182v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11182v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.11182v1/x3.png",
+          "figure_caption": "Incremental multi-benchmark retention improvement as tasks are added in the order GPQA Diamond, Formula, TheoremQA, and HumanEval. Each bar stacks per-benchmark improvements for all tasks seen so far: solid upward blocks are positive gains, and hatched downward blocks are negative retention losses. The number above or below each bar is its final summed improvement after all blocks are added.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.11105v1",
+          "title": "PhantomBench: Benchmarking the Non-existential Threat of Language Models",
+          "authors": [
+            "Haeji Jung",
+            "Hila Gonen"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces PhantomBench, a novel benchmark designed to evaluate language models' ability to recognize and reject non-existent concepts. By testing 21 models on over 60,000 fabricated terms, the study reveals alarmingly high hallucination rates, even in advanced models, highlighting a significant gap in their knowledge grounding. PhantomBench's core contribution is providing a scalable method to assess and improve LM reliability by exposing their tendency to invent information when presented with non-existent entities.",
+          "url": "http://arxiv.org/abs/2606.11105v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11105v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.11105v1/x1.png",
+          "figure_caption": "The pipeline to construct PhantomBench . Existing concepts from seed terms and entities are decomposed into smaller components (words and n n -grams) which are then recombined to form new concepts ( Section ˜ 2.1 ). Frequency filter discards concepts found in a large corpus, considering concepts with zero matches as non-existent ( Section ˜ 2.2 ). The resulting concepts are queried through diverse prompts targeting different attributes of the concept ( Section ˜ 2.3 ). At the bottom is an example response from Gemma 3-12B to a generated non-existent entity, Methods in Intelligent Human .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.11070v1",
+          "title": "T1-Bench: Benchmarking Multi-Scenario Agents in Real-World Domains",
+          "authors": [
+            "Genta Indra Winata",
+            "Amartya Chakraborty",
+            "Yuzhen Lin",
+            "Swasthi P Rao",
+            "Shikhhar Siingh"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "T1-Bench addresses the limitations of existing benchmarks by introducing a high-fidelity, multi-domain evaluation framework for LLM agents. Its core method involves creating realistic, interleaved scenarios that demand structured, multi-turn reasoning across diverse customer-facing domains. The paper's main contribution is a comprehensive benchmark that significantly increases compositional complexity and evaluative rigor, enabling better assessment of agents in real-world, multi-step tasks.",
+          "url": "http://arxiv.org/abs/2606.11070v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11070v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.11070v1/imgs/architecture.png",
+          "figure_caption": "Overview of T1-Bench , a framework for persistent multi-session conversational agents. User policies, including persona, user information, and goals, guide interactions between the user and the assistant. The assistant performs domain classification to retrieve domain-specific tools and policies (e.g., flight, hotel, and restaurant services) and executes tool-augmented reasoning via API calls. A shared memory module stores conversation history and cached results, enabling persistent context, tool reuse, and continuity across temporally separated sessions.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.11042v1",
+          "title": "Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields",
+          "authors": [
+            "Liya Zhu",
+            "Jingzhe Ding",
+            "Jian Zhang",
+            "Jianbo Xue",
+            "Shihao Liang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "Workflow-GYM is a new benchmark designed to evaluate AI agents' ability to perform complex, long-horizon tasks within professional software environments. Its core contribution is to address the gap in current benchmarks by focusing on real-world, high-value professional workflows, revealing that even advanced agents struggle to achieve high success rates in these challenging scenarios.",
+          "url": "http://arxiv.org/abs/2606.11042v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11042v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.11042v1/x1.png",
+          "figure_caption": "Examples of Workflow-GYM tasks from professional domains. Each task requires interacting with specialized software through graphical user interfaces to accomplish a real-world objective.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.11046v1",
+          "title": "Does Reasoning Preserve Alignment? On the Trustworthiness of Large Reasoning Models",
+          "authors": [
+            "Prajakta Kini",
+            "Avinash Reddy",
+            "Souradip Chakraborty",
+            "Satya Sai Srinath Namburi GNVV",
+            "Furong Huang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates whether training large language models for reasoning tasks compromises their alignment with safety and ethical guidelines. The core method involves a trustworthiness audit comparing reasoning models to their instruction-tuned counterparts across six dimensions. The key contribution is the finding that reasoning-focused training often leads to significant alignment regressions, such as increased toxicity and amplified bias, despite improvements in reasoning accuracy.",
+          "url": "http://arxiv.org/abs/2606.11046v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11046v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.11046v1/images/pathway_image_new.png",
+          "figure_caption": "Reasoning model development pathways. We study three common pathways for converting instruction-tuned models into reasoning models: (1) supervised fine-tuning (SFT) on reasoning traces, (2) RL-based post-training, including GRPO-style variants, using reasoning-oriented rewards, and (3) distillation from stronger reasoning teachers. Each reasoning model is evaluated against a matched instruction-tuned baseline to measure how the conversion affects reasoning utility and trustworthiness.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.11078v1",
+          "title": "A History-Aware Visually Grounded Critic for Computer Use Agents",
+          "authors": [
+            "Jaewoo Lee",
+            "Zaid Khan",
+            "Archiki Prasad",
+            "Justin Chih-Yao Chen",
+            "Supriyo Chakraborty"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces HiViG, a novel framework for improving computer use agents by addressing limitations in existing critics. HiViG employs a history-aware, visually grounded multimodal critic that learns from real GUI interactions. This critic provides agents with a summarized history of past actions and visually verifies proposed actions against the current screen, leading to more robust and context-aware decision-making.",
+          "url": "http://arxiv.org/abs/2606.11078v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11078v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.11078v1/x1.png",
+          "figure_caption": "Comparison of test-time interventions for Computer Use Agents (CUAs). Left : Lacking historical awareness and proactive error-recovery, standard policies easily become trapped in short-sighted decision loops. Right : Existing approaches are limited. Scalar feedback (top) traps policies in low-reward trajectory regions when all candidate actions are suboptimal. Previous critics (middle) rely heavily on textual intent, missing spatial and reasoning errors, and fail to provide historical awareness. In contrast, our critic (bottom) verifies raw execution coordinates, predicts immediate visual state outcomes grounded in its learned state transition knowledge, and provides visually grounded error analysis that intercepts errors before execution. Furthermore, it equips agents with history state tracking, condensing past interactions to guide them toward the final task objective.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.11150v1",
+          "title": "ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity",
+          "authors": [
+            "Andrew Bo Liu",
+            "Samira Nedungadi",
+            "Bryce Cai",
+            "Alex Kleinman",
+            "Harmon Bhasin"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CY"
+          ],
+          "abstract": "This paper introduces ABC-Bench, a benchmark designed to evaluate the biosecurity-relevant capabilities of AI agents. The core method involves testing LLM agents on a suite of tasks requiring both biological and software expertise, including robot operation, DNA design, and evading synthesis screening. The key contribution is demonstrating that current LLM agents significantly outperform human experts on these biosecurity-relevant tasks, highlighting the evolving risks and opportunities presented by AI in biology.",
+          "url": "http://arxiv.org/abs/2606.11150v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11150v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.11150v1/x1.png",
+          "figure_caption": "The Liquid Handling Robot task from ABC-Bench. A. We (1) prompt the agent with task instructions; (2) provide the agent with relevant software and research tools to complete the task and to check its work; (3) allow the agent to submit its final answer; and (4) algorithmically check the agent’s answer against pre-specified criteria. B. Where applicable, we validate task performance in a real-world setting (photo of OpenTrons Flex robot running GPT-o4-mini-written Gibson Assembly code).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.11106v1",
+          "title": "FADA: Accessible fetal ultrasound interpretation and annotation with a selectively distilled unified vision-language model",
+          "authors": [
+            "Mahmood Alzubaidi",
+            "Uzair Shah",
+            "Raden Muaz",
+            "Ines Abbes",
+            "Nader Mohammed"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "FADA is a unified vision-language model designed for accessible fetal ultrasound interpretation and annotation. Its core method involves selectively distilling knowledge from specialized foundation models into a single pipeline, enabling it to perform interpretation, classification, detection, and segmentation without requiring external labels. This approach addresses the shortage of trained sonographers, particularly in low-resource settings, by providing a more comprehensive and automated tool for prenatal ultrasound analysis.",
+          "url": "http://arxiv.org/abs/2606.11106v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11106v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.11106v1/x1.png",
+          "figure_caption": "Segmentation ground truth vs prediction comparison across FADA model variants. Each row shows a different anatomical structure (pubic symphysis, cardiac, liver, stomach, artery); columns display the original ultrasound image, ground truth segmentation mask, and predictions from FADA-Base, FADA-SKD, and FADA-FKD (all 4B). Dice coefficients are annotated per prediction panel. Images were selected via quantitative analysis to highlight cases where FADA-SKD achieves the largest advantage: FADA-SKD detects structures entirely missed by other variants (artery: +0.687, stomach: +0.613 Dice advantage) and produces substantially tighter boundaries for pubic symphysis (+0.152) and liver (+0.084).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.11166v1",
+          "title": "Flaws in the LLM Automation Narrative",
+          "authors": [
+            "George Perrett",
+            "Javae Elliott",
+            "Jennifer Hill",
+            "Marc Scott"
+          ],
+          "categories": [
+            "cs.AI",
+            "stat.OT"
+          ],
+          "abstract": "This paper challenges the narrative of LLMs automating knowledge work by highlighting flaws in common benchmarking methods. The authors introduce a novel benchmark that measures LLM performance on a coding task, revealing that human experts outperform LLMs in both average performance and reliability, with LLMs exhibiting greater error variability. Their contribution lies in demonstrating that current LLM evaluations may overstate their capabilities in high-stakes, real-world scenarios.",
+          "url": "http://arxiv.org/abs/2606.11166v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11166v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.11166v1/x1.png",
+          "figure_caption": "The RMSE among all submissions. The x-axis is ordered from smallest to largest RMSE value. Submissions from human experts are shown in blue, each submission from ChatGPT Codex 5.2 are shown in red, and historical strawman are shown in black. The right panel removes extreme values from 5 LLM submissions. The RMSE of ChatGPT Codex 5.2 submissions 14, 19, 11, 2, and 1 were 3.07, 1160.05, 2572.96, 111,765,692,519, and 219,316,810,584, respectively.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.11074v1",
+          "title": "Modeling Complex Behaviors: Multi-Personality Composition and Dynamic Switching in Vision-Language Models",
+          "authors": [
+            "Peiqi Jia",
+            "Haonan Jia",
+            "Ziqi Miao",
+            "Linkang Du",
+            "Yuntao Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper proposes a method for explicitly conditioning Vision-Language Models (MLLMs) with personalities and introduces a framework to evaluate single and multi-personality induction, as well as dynamic switching. The core contribution is demonstrating that personality conditioning can improve captioning but hinder reasoning tasks, and that MLLMs exhibit complex, co-modulated behaviors during multi-trait composition and switching, highlighting limitations of current prompt-based methods.",
+          "url": "http://arxiv.org/abs/2606.11074v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11074v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.11074v1/x1.png",
+          "figure_caption": "Illustration of personality induction. The top-left panel illustrates generation under single-personality induction, the bottom-left panel presents results with multi-personality conditioning, and the right panel demonstrates In-conversation personality switching.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.11164v1",
+          "title": "ReasonAlloc: Hierarchical Decoding-Time KV Cache Budget Allocation for Reasoning Models",
+          "authors": [
+            "Wenhao Liu",
+            "Hao Shi",
+            "Yunhe Li",
+            "Weizhi Fei",
+            "Xiangyuan Wang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "ReasonAlloc addresses the KV cache bottleneck in LLM reasoning by introducing a hierarchical, training-free budget allocation framework. It first preallocates KV cache offline based on a novel \"Reasoning Wave\" pattern reflecting architectural demand, then dynamically reallocates resources online to information-rich heads during decoding. This approach efficiently manages KV cache growth, improving inference speed for long reasoning chains.",
+          "url": "http://arxiv.org/abs/2606.11164v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11164v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.11164v1/pic/overview.png",
+          "figure_caption": "An overview of the proposed ReasonAlloc framework. Left (I): Layer-wise allocation strategy based on offline architecture calibration, demonstrating the non-linear “Reasoning Wave” KV demand across layers. Right (II): Head-wise allocation strategy that dynamically routes KV budgets to distinct attention heads based on real-time importance and redundancy scoring during decoding.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.11119v1",
+          "title": "TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning",
+          "authors": [
+            "Heming Zou",
+            "Qi Wang",
+            "Yun Qu",
+            "Yuhang Jiang",
+            "Lizhou Cai"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper addresses the challenge of inefficient rollout budget allocation in agentic reinforcement learning for large language models. The core method, TRACE, extends budget allocation beyond initial prompts to individual turns within a multi-turn rollout, treating each thought-action-observation sequence as a distinct node in a tree structure. This allows for more granular and efficient allocation of resources to informative prefixes, improving the learning process.",
+          "url": "http://arxiv.org/abs/2606.11119v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11119v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.11119v1/x1.png",
+          "figure_caption": "TRACE redirects a fixed rollout budget toward contrast-rich roots and prefixes, converting scalable outcome rewards into denser mixed-reward contrast and implicit stepwise preference pairs than uniform allocation.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.11045v1",
+          "title": "What Fits (Into Few Tokens) Doesn't Overfit: Compression and Generalization in ML Research Agents",
+          "authors": [
+            "Martin Andres Bertran",
+            "Aaron Roth",
+            "Zhiwei Steven Wu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper investigates why benchmark-driven ML research rarely overfits, proposing that successful strategies are highly compressible. The authors test this by creating \"research agents\" that either compress the agent's output (reproducing performance with minimal information) or compress the agent's input (using only binary feedback). Their findings suggest that these compression bottlenecks have minimal impact on performance across diverse ML tasks, supporting the compressibility hypothesis.",
+          "url": "http://arxiv.org/abs/2606.11045v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11045v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.11045v1/figures/c5_29fa809_variance_v2.png",
+          "figure_caption": "Compressibility of an autonomous agent’s language model pre-training strategy. An explorer agent develops a 12-layer, 768-dimensional GPT with ∼ 30 {\\( \\sim \\)}30 non-default choices; we compress its strategy into progressively shorter prompts (64 down to 4 tokens) and hand each to 5 independent reproducers that implement the strategy without the explorer’s code or validation set. Left : compressed prompts. Tokens encode architecture ( 12L d768 ), optimizer ( Muon .1 ), activation ( ReLU 2 ), batch size ( b2M ), and normalization ( QKnorm ); color indicates survival depth (dark blue = survives tightest budgets, red = dropped first). Right : reproducer holdout loss (BPB); dot = mean, gray band = min–max, dashed line = explorer before compression. Performance holds to 16 tokens; a cliff at 8 tokens coincides with loss of batch size, MLP ratio, and QK-norm.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.11190v1",
+          "title": "When to Align, When to Predict: A Phase Diagram for Multimodal Learning",
+          "authors": [
+            "Ilay Kamai",
+            "Hugues Van Assel",
+            "Aviv Regev",
+            "Hagai B. Perets",
+            "Randall Balestriero"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces a unified linear framework to understand when cross-modal alignment (CA) and cross-modal prediction (CP) are effective for multimodal learning. It derives separation ratios showing that alignment fails with strong nuisance correlation, while prediction succeeds based on source modality quality. This work provides a phase diagram to diagnose underperformance in multimodal tasks, particularly in scientific domains.",
+          "url": "http://arxiv.org/abs/2606.11190v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11190v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.11176v1",
+          "title": "Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories",
+          "authors": [
+            "Kevin Qinghong Lin",
+            "Batu EI",
+            "Yuhong Shi",
+            "Pan Lu",
+            "Philip Torr"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.CV",
+            "cs.CY",
+            "cs.HC"
+          ],
+          "abstract": "This paper introduces Data2Story, a multi-agent framework that acts as a virtual data journalism newsroom. Its core method orchestrates specialized agents to transform raw data into verifiable, multimodal stories. The key contributions are ensuring all claims are evidence-grounded through an \"Inspector\" agent and generating articles with diverse modalities like interactive maps, beyond just text and static charts.",
+          "url": "http://arxiv.org/abs/2606.11176v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11176v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.11176v1/x1.png",
+          "figure_caption": "Data2Story turns a raw dataset ( e.g., a CSV) into a verifiable, multimodal article ( i.e., a website). We use a “Pick a card” dataset as an illustration. This transformation involves information seeking ( e.g., “why the Ace of Spades dominates human choice?”), data analysis via programming ( e.g., computing card-selection distributions across demographics), narrative storytelling ( e.g., weaving cultural and psychological explanations into a cohesive article), and multimodal design ( e.g., an interactive card-drawing demo).",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.11082v1",
+          "title": "The Shibboleth Effect: Auditing the Cross-Lingual Distributional Skew of Large Language Models",
+          "authors": [
+            "Hakan Mehmetcik"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.CY"
+          ],
+          "abstract": "This paper introduces the \"Shibboleth Effect,\" a cross-lingual distributional skew in LLMs, by using a geopolitical wargame where models play in English or Turkish. The core contribution is demonstrating that LLMs exhibit different behavioral tendencies, like increased coercive rhetoric, when operating in languages other than English, highlighting a significant bias in their cross-lingual capabilities.",
+          "url": "http://arxiv.org/abs/2606.11082v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11082v1",
+          "score": 7.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.11079v1",
+          "title": "VISTA: A Versatile Interactive User Simulation Toolkit for Agent Evaluation",
+          "authors": [
+            "Yunan Lu",
+            "Ryan Shea",
+            "Yusen Zhang",
+            "Zhou Yu"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "VISTA is a novel toolkit designed to address the limitations of current interactive agent evaluation methods. Its core method involves a versatile simulation framework that supports both UI and API actions, allowing for more realistic user behavior modeling. VISTA's key contribution is its suite of six metrics, which enable comprehensive evaluation of simulated interactions, ensuring thorough exploration of agent capabilities and failure modes.",
+          "url": "http://arxiv.org/abs/2606.11079v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11079v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.11079v1/figures/pipeline_3.png",
+          "figure_caption": "An overview of VISTA . It configures each task scenario with a user profile, user goal, and relevant domain knowledge. During interaction, the user agent observes the webpage and decides whether to take UI actions directly or invoke user-side API tools for additional task-grounded information. The resulting interactions are then evaluated in terms of capability coverage, utterance realism, and interaction effectiveness, measured by agent failures.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 26,
+        "papers_after_llm_filter": 17,
+        "count": 17
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "PhD Candidate (m/f/d)",
+          "url": "https://euraxess.ec.europa.eu/jobs/443761",
+          "description": "The Leibniz-Institut für Analytische Wissenschaften – ISAS – e. V. develops efficient analytical methods for health research. Thus, it contributes to the improvement of the prevention, early diagnosis, and therapy of diseases like cardiovascular diseases or cancer. Overall, the institute strives to... * Work Locations: Number of offers: 1, Germany, Leibniz-Institut für Analytische Wissenschaften – ISAS , Dortmund Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A91) [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A316) [Physics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A345) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A366) [Mathematics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A298) » [Applied mathematics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A301) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 8 Jul 2026 - 23:59 (Europe/Berlin) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Lithuania * [Vytautas Magnus University](https://euraxess.ec.europa.eu/partnering/organisations/profile/vytautas-magnus-university) * [Field: Computer science]",
+          "institution": "",
+          "posted_date": "10 June 2026",
+          "deadline": "8 Jul 2026 - 23:59 (Europe/Berlin)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Analytical methods for health research, focusing on prevention, early diagnosis, and therapy of diseases like cardiovascular diseases or cancer. Specific fields include Computer Science, Medical Sciences, Physics, and Applied Mathematics.\nKey Requirements: N/A\nApplication Info: Deadline: 8 Jul 2026 - 23:59 (Europe/Berlin). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Dortmund, Germany. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: N/A",
+          "relevance_score": 7.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 1
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 26,
+    "papers_after_llm_filter": 17,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 63
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.11182v1",
+      "title": "EEVEE: Towards Test-time Prompt Learning in the Real World for Self-Improving Agents",
+      "authors": [
+        "Weixian Xu",
+        "Shilong Liu",
+        "Mengdi Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "EEVEE is a novel framework for test-time prompt learning in LLM agents that handles real-world, heterogeneous task streams. Its core method uses a router to cluster inputs and assign them to specialized prompt configurations, preventing cross-dataset interference. This router and prompt learning are co-evolved, leading to improved robustness and efficiency on diverse tasks.",
+      "url": "http://arxiv.org/abs/2606.11182v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11182v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.11182v1/x3.png",
+      "figure_caption": "Incremental multi-benchmark retention improvement as tasks are added in the order GPQA Diamond, Formula, TheoremQA, and HumanEval. Each bar stacks per-benchmark improvements for all tasks seen so far: solid upward blocks are positive gains, and hatched downward blocks are negative retention losses. The number above or below each bar is its final summed improvement after all blocks are added.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11105v1",
+      "title": "PhantomBench: Benchmarking the Non-existential Threat of Language Models",
+      "authors": [
+        "Haeji Jung",
+        "Hila Gonen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces PhantomBench, a novel benchmark designed to evaluate language models' ability to recognize and reject non-existent concepts. By testing 21 models on over 60,000 fabricated terms, the study reveals alarmingly high hallucination rates, even in advanced models, highlighting a significant gap in their knowledge grounding. PhantomBench's core contribution is providing a scalable method to assess and improve LM reliability by exposing their tendency to invent information when presented with non-existent entities.",
+      "url": "http://arxiv.org/abs/2606.11105v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11105v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.11105v1/x1.png",
+      "figure_caption": "The pipeline to construct PhantomBench . Existing concepts from seed terms and entities are decomposed into smaller components (words and n n -grams) which are then recombined to form new concepts ( Section ˜ 2.1 ). Frequency filter discards concepts found in a large corpus, considering concepts with zero matches as non-existent ( Section ˜ 2.2 ). The resulting concepts are queried through diverse prompts targeting different attributes of the concept ( Section ˜ 2.3 ). At the bottom is an example response from Gemma 3-12B to a generated non-existent entity, Methods in Intelligent Human .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11070v1",
+      "title": "T1-Bench: Benchmarking Multi-Scenario Agents in Real-World Domains",
+      "authors": [
+        "Genta Indra Winata",
+        "Amartya Chakraborty",
+        "Yuzhen Lin",
+        "Swasthi P Rao",
+        "Shikhhar Siingh"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "T1-Bench addresses the limitations of existing benchmarks by introducing a high-fidelity, multi-domain evaluation framework for LLM agents. Its core method involves creating realistic, interleaved scenarios that demand structured, multi-turn reasoning across diverse customer-facing domains. The paper's main contribution is a comprehensive benchmark that significantly increases compositional complexity and evaluative rigor, enabling better assessment of agents in real-world, multi-step tasks.",
+      "url": "http://arxiv.org/abs/2606.11070v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11070v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.11070v1/imgs/architecture.png",
+      "figure_caption": "Overview of T1-Bench , a framework for persistent multi-session conversational agents. User policies, including persona, user information, and goals, guide interactions between the user and the assistant. The assistant performs domain classification to retrieve domain-specific tools and policies (e.g., flight, hotel, and restaurant services) and executes tool-augmented reasoning via API calls. A shared memory module stores conversation history and cached results, enabling persistent context, tool reuse, and continuity across temporally separated sessions.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11042v1",
+      "title": "Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields",
+      "authors": [
+        "Liya Zhu",
+        "Jingzhe Ding",
+        "Jian Zhang",
+        "Jianbo Xue",
+        "Shihao Liang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Workflow-GYM is a new benchmark designed to evaluate AI agents' ability to perform complex, long-horizon tasks within professional software environments. Its core contribution is to address the gap in current benchmarks by focusing on real-world, high-value professional workflows, revealing that even advanced agents struggle to achieve high success rates in these challenging scenarios.",
+      "url": "http://arxiv.org/abs/2606.11042v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11042v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.11042v1/x1.png",
+      "figure_caption": "Examples of Workflow-GYM tasks from professional domains. Each task requires interacting with specialized software through graphical user interfaces to accomplish a real-world objective.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11046v1",
+      "title": "Does Reasoning Preserve Alignment? On the Trustworthiness of Large Reasoning Models",
+      "authors": [
+        "Prajakta Kini",
+        "Avinash Reddy",
+        "Souradip Chakraborty",
+        "Satya Sai Srinath Namburi GNVV",
+        "Furong Huang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates whether training large language models for reasoning tasks compromises their alignment with safety and ethical guidelines. The core method involves a trustworthiness audit comparing reasoning models to their instruction-tuned counterparts across six dimensions. The key contribution is the finding that reasoning-focused training often leads to significant alignment regressions, such as increased toxicity and amplified bias, despite improvements in reasoning accuracy.",
+      "url": "http://arxiv.org/abs/2606.11046v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11046v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.11046v1/images/pathway_image_new.png",
+      "figure_caption": "Reasoning model development pathways. We study three common pathways for converting instruction-tuned models into reasoning models: (1) supervised fine-tuning (SFT) on reasoning traces, (2) RL-based post-training, including GRPO-style variants, using reasoning-oriented rewards, and (3) distillation from stronger reasoning teachers. Each reasoning model is evaluated against a matched instruction-tuned baseline to measure how the conversion affects reasoning utility and trustworthiness.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.11078v1",
+      "title": "A History-Aware Visually Grounded Critic for Computer Use Agents",
+      "authors": [
+        "Jaewoo Lee",
+        "Zaid Khan",
+        "Archiki Prasad",
+        "Justin Chih-Yao Chen",
+        "Supriyo Chakraborty"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces HiViG, a novel framework for improving computer use agents by addressing limitations in existing critics. HiViG employs a history-aware, visually grounded multimodal critic that learns from real GUI interactions. This critic provides agents with a summarized history of past actions and visually verifies proposed actions against the current screen, leading to more robust and context-aware decision-making.",
+      "url": "http://arxiv.org/abs/2606.11078v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11078v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11078v1/x1.png",
+      "figure_caption": "Comparison of test-time interventions for Computer Use Agents (CUAs). Left : Lacking historical awareness and proactive error-recovery, standard policies easily become trapped in short-sighted decision loops. Right : Existing approaches are limited. Scalar feedback (top) traps policies in low-reward trajectory regions when all candidate actions are suboptimal. Previous critics (middle) rely heavily on textual intent, missing spatial and reasoning errors, and fail to provide historical awareness. In contrast, our critic (bottom) verifies raw execution coordinates, predicts immediate visual state outcomes grounded in its learned state transition knowledge, and provides visually grounded error analysis that intercepts errors before execution. Furthermore, it equips agents with history state tracking, condensing past interactions to guide them toward the final task objective.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11150v1",
+      "title": "ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity",
+      "authors": [
+        "Andrew Bo Liu",
+        "Samira Nedungadi",
+        "Bryce Cai",
+        "Alex Kleinman",
+        "Harmon Bhasin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CY"
+      ],
+      "abstract": "This paper introduces ABC-Bench, a benchmark designed to evaluate the biosecurity-relevant capabilities of AI agents. The core method involves testing LLM agents on a suite of tasks requiring both biological and software expertise, including robot operation, DNA design, and evading synthesis screening. The key contribution is demonstrating that current LLM agents significantly outperform human experts on these biosecurity-relevant tasks, highlighting the evolving risks and opportunities presented by AI in biology.",
+      "url": "http://arxiv.org/abs/2606.11150v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11150v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11150v1/x1.png",
+      "figure_caption": "The Liquid Handling Robot task from ABC-Bench. A. We (1) prompt the agent with task instructions; (2) provide the agent with relevant software and research tools to complete the task and to check its work; (3) allow the agent to submit its final answer; and (4) algorithmically check the agent’s answer against pre-specified criteria. B. Where applicable, we validate task performance in a real-world setting (photo of OpenTrons Flex robot running GPT-o4-mini-written Gibson Assembly code).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11106v1",
+      "title": "FADA: Accessible fetal ultrasound interpretation and annotation with a selectively distilled unified vision-language model",
+      "authors": [
+        "Mahmood Alzubaidi",
+        "Uzair Shah",
+        "Raden Muaz",
+        "Ines Abbes",
+        "Nader Mohammed"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "FADA is a unified vision-language model designed for accessible fetal ultrasound interpretation and annotation. Its core method involves selectively distilling knowledge from specialized foundation models into a single pipeline, enabling it to perform interpretation, classification, detection, and segmentation without requiring external labels. This approach addresses the shortage of trained sonographers, particularly in low-resource settings, by providing a more comprehensive and automated tool for prenatal ultrasound analysis.",
+      "url": "http://arxiv.org/abs/2606.11106v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11106v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11106v1/x1.png",
+      "figure_caption": "Segmentation ground truth vs prediction comparison across FADA model variants. Each row shows a different anatomical structure (pubic symphysis, cardiac, liver, stomach, artery); columns display the original ultrasound image, ground truth segmentation mask, and predictions from FADA-Base, FADA-SKD, and FADA-FKD (all 4B). Dice coefficients are annotated per prediction panel. Images were selected via quantitative analysis to highlight cases where FADA-SKD achieves the largest advantage: FADA-SKD detects structures entirely missed by other variants (artery: +0.687, stomach: +0.613 Dice advantage) and produces substantially tighter boundaries for pubic symphysis (+0.152) and liver (+0.084).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11166v1",
+      "title": "Flaws in the LLM Automation Narrative",
+      "authors": [
+        "George Perrett",
+        "Javae Elliott",
+        "Jennifer Hill",
+        "Marc Scott"
+      ],
+      "categories": [
+        "cs.AI",
+        "stat.OT"
+      ],
+      "abstract": "This paper challenges the narrative of LLMs automating knowledge work by highlighting flaws in common benchmarking methods. The authors introduce a novel benchmark that measures LLM performance on a coding task, revealing that human experts outperform LLMs in both average performance and reliability, with LLMs exhibiting greater error variability. Their contribution lies in demonstrating that current LLM evaluations may overstate their capabilities in high-stakes, real-world scenarios.",
+      "url": "http://arxiv.org/abs/2606.11166v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11166v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11166v1/x1.png",
+      "figure_caption": "The RMSE among all submissions. The x-axis is ordered from smallest to largest RMSE value. Submissions from human experts are shown in blue, each submission from ChatGPT Codex 5.2 are shown in red, and historical strawman are shown in black. The right panel removes extreme values from 5 LLM submissions. The RMSE of ChatGPT Codex 5.2 submissions 14, 19, 11, 2, and 1 were 3.07, 1160.05, 2572.96, 111,765,692,519, and 219,316,810,584, respectively.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11074v1",
+      "title": "Modeling Complex Behaviors: Multi-Personality Composition and Dynamic Switching in Vision-Language Models",
+      "authors": [
+        "Peiqi Jia",
+        "Haonan Jia",
+        "Ziqi Miao",
+        "Linkang Du",
+        "Yuntao Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes a method for explicitly conditioning Vision-Language Models (MLLMs) with personalities and introduces a framework to evaluate single and multi-personality induction, as well as dynamic switching. The core contribution is demonstrating that personality conditioning can improve captioning but hinder reasoning tasks, and that MLLMs exhibit complex, co-modulated behaviors during multi-trait composition and switching, highlighting limitations of current prompt-based methods.",
+      "url": "http://arxiv.org/abs/2606.11074v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11074v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11074v1/x1.png",
+      "figure_caption": "Illustration of personality induction. The top-left panel illustrates generation under single-personality induction, the bottom-left panel presents results with multi-personality conditioning, and the right panel demonstrates In-conversation personality switching.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11164v1",
+      "title": "ReasonAlloc: Hierarchical Decoding-Time KV Cache Budget Allocation for Reasoning Models",
+      "authors": [
+        "Wenhao Liu",
+        "Hao Shi",
+        "Yunhe Li",
+        "Weizhi Fei",
+        "Xiangyuan Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "ReasonAlloc addresses the KV cache bottleneck in LLM reasoning by introducing a hierarchical, training-free budget allocation framework. It first preallocates KV cache offline based on a novel \"Reasoning Wave\" pattern reflecting architectural demand, then dynamically reallocates resources online to information-rich heads during decoding. This approach efficiently manages KV cache growth, improving inference speed for long reasoning chains.",
+      "url": "http://arxiv.org/abs/2606.11164v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11164v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11164v1/pic/overview.png",
+      "figure_caption": "An overview of the proposed ReasonAlloc framework. Left (I): Layer-wise allocation strategy based on offline architecture calibration, demonstrating the non-linear “Reasoning Wave” KV demand across layers. Right (II): Head-wise allocation strategy that dynamically routes KV budgets to distinct attention heads based on real-time importance and redundancy scoring during decoding.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11119v1",
+      "title": "TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning",
+      "authors": [
+        "Heming Zou",
+        "Qi Wang",
+        "Yun Qu",
+        "Yuhang Jiang",
+        "Lizhou Cai"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the challenge of inefficient rollout budget allocation in agentic reinforcement learning for large language models. The core method, TRACE, extends budget allocation beyond initial prompts to individual turns within a multi-turn rollout, treating each thought-action-observation sequence as a distinct node in a tree structure. This allows for more granular and efficient allocation of resources to informative prefixes, improving the learning process.",
+      "url": "http://arxiv.org/abs/2606.11119v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11119v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11119v1/x1.png",
+      "figure_caption": "TRACE redirects a fixed rollout budget toward contrast-rich roots and prefixes, converting scalable outcome rewards into denser mixed-reward contrast and implicit stepwise preference pairs than uniform allocation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11045v1",
+      "title": "What Fits (Into Few Tokens) Doesn't Overfit: Compression and Generalization in ML Research Agents",
+      "authors": [
+        "Martin Andres Bertran",
+        "Aaron Roth",
+        "Zhiwei Steven Wu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper investigates why benchmark-driven ML research rarely overfits, proposing that successful strategies are highly compressible. The authors test this by creating \"research agents\" that either compress the agent's output (reproducing performance with minimal information) or compress the agent's input (using only binary feedback). Their findings suggest that these compression bottlenecks have minimal impact on performance across diverse ML tasks, supporting the compressibility hypothesis.",
+      "url": "http://arxiv.org/abs/2606.11045v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11045v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11045v1/figures/c5_29fa809_variance_v2.png",
+      "figure_caption": "Compressibility of an autonomous agent’s language model pre-training strategy. An explorer agent develops a 12-layer, 768-dimensional GPT with ∼ 30 {\\( \\sim \\)}30 non-default choices; we compress its strategy into progressively shorter prompts (64 down to 4 tokens) and hand each to 5 independent reproducers that implement the strategy without the explorer’s code or validation set. Left : compressed prompts. Tokens encode architecture ( 12L d768 ), optimizer ( Muon .1 ), activation ( ReLU 2 ), batch size ( b2M ), and normalization ( QKnorm ); color indicates survival depth (dark blue = survives tightest budgets, red = dropped first). Right : reproducer holdout loss (BPB); dot = mean, gray band = min–max, dashed line = explorer before compression. Performance holds to 16 tokens; a cliff at 8 tokens coincides with loss of batch size, MLP ratio, and QK-norm.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11190v1",
+      "title": "When to Align, When to Predict: A Phase Diagram for Multimodal Learning",
+      "authors": [
+        "Ilay Kamai",
+        "Hugues Van Assel",
+        "Aviv Regev",
+        "Hagai B. Perets",
+        "Randall Balestriero"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces a unified linear framework to understand when cross-modal alignment (CA) and cross-modal prediction (CP) are effective for multimodal learning. It derives separation ratios showing that alignment fails with strong nuisance correlation, while prediction succeeds based on source modality quality. This work provides a phase diagram to diagnose underperformance in multimodal tasks, particularly in scientific domains.",
+      "url": "http://arxiv.org/abs/2606.11190v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11190v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.11176v1",
+      "title": "Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories",
+      "authors": [
+        "Kevin Qinghong Lin",
+        "Batu EI",
+        "Yuhong Shi",
+        "Pan Lu",
+        "Philip Torr"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.CY",
+        "cs.HC"
+      ],
+      "abstract": "This paper introduces Data2Story, a multi-agent framework that acts as a virtual data journalism newsroom. Its core method orchestrates specialized agents to transform raw data into verifiable, multimodal stories. The key contributions are ensuring all claims are evidence-grounded through an \"Inspector\" agent and generating articles with diverse modalities like interactive maps, beyond just text and static charts.",
+      "url": "http://arxiv.org/abs/2606.11176v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11176v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11176v1/x1.png",
+      "figure_caption": "Data2Story turns a raw dataset ( e.g., a CSV) into a verifiable, multimodal article ( i.e., a website). We use a “Pick a card” dataset as an illustration. This transformation involves information seeking ( e.g., “why the Ace of Spades dominates human choice?”), data analysis via programming ( e.g., computing card-selection distributions across demographics), narrative storytelling ( e.g., weaving cultural and psychological explanations into a cohesive article), and multimodal design ( e.g., an interactive card-drawing demo).",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.11082v1",
+      "title": "The Shibboleth Effect: Auditing the Cross-Lingual Distributional Skew of Large Language Models",
+      "authors": [
+        "Hakan Mehmetcik"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CY"
+      ],
+      "abstract": "This paper introduces the \"Shibboleth Effect,\" a cross-lingual distributional skew in LLMs, by using a geopolitical wargame where models play in English or Turkish. The core contribution is demonstrating that LLMs exhibit different behavioral tendencies, like increased coercive rhetoric, when operating in languages other than English, highlighting a significant bias in their cross-lingual capabilities.",
+      "url": "http://arxiv.org/abs/2606.11082v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11082v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.11079v1",
+      "title": "VISTA: A Versatile Interactive User Simulation Toolkit for Agent Evaluation",
+      "authors": [
+        "Yunan Lu",
+        "Ryan Shea",
+        "Yusen Zhang",
+        "Zhou Yu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "VISTA is a novel toolkit designed to address the limitations of current interactive agent evaluation methods. Its core method involves a versatile simulation framework that supports both UI and API actions, allowing for more realistic user behavior modeling. VISTA's key contribution is its suite of six metrics, which enable comprehensive evaluation of simulated interactions, ensuring thorough exploration of agent capabilities and failure modes.",
+      "url": "http://arxiv.org/abs/2606.11079v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11079v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11079v1/figures/pipeline_3.png",
+      "figure_caption": "An overview of VISTA . It configures each task scenario with a user profile, user goal, and relevant domain knowledge. During interaction, the user agent observes the webpage and decides whether to take UI actions directly or invoke user-side API tools for additional task-grounded information. The resulting interactions are then evaluated in terms of capability coverage, utterance realism, and interaction effectiveness, measured by agent failures.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.11182v1",
+      "title": "EEVEE: Towards Test-time Prompt Learning in the Real World for Self-Improving Agents",
+      "authors": [
+        "Weixian Xu",
+        "Shilong Liu",
+        "Mengdi Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "EEVEE is a novel framework for test-time prompt learning in LLM agents that handles real-world, heterogeneous task streams. Its core method uses a router to cluster inputs and assign them to specialized prompt configurations, preventing cross-dataset interference. This router and prompt learning are co-evolved, leading to improved robustness and efficiency on diverse tasks.",
+      "url": "http://arxiv.org/abs/2606.11182v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11182v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.11182v1/x3.png",
+      "figure_caption": "Incremental multi-benchmark retention improvement as tasks are added in the order GPQA Diamond, Formula, TheoremQA, and HumanEval. Each bar stacks per-benchmark improvements for all tasks seen so far: solid upward blocks are positive gains, and hatched downward blocks are negative retention losses. The number above or below each bar is its final summed improvement after all blocks are added.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11105v1",
+      "title": "PhantomBench: Benchmarking the Non-existential Threat of Language Models",
+      "authors": [
+        "Haeji Jung",
+        "Hila Gonen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces PhantomBench, a novel benchmark designed to evaluate language models' ability to recognize and reject non-existent concepts. By testing 21 models on over 60,000 fabricated terms, the study reveals alarmingly high hallucination rates, even in advanced models, highlighting a significant gap in their knowledge grounding. PhantomBench's core contribution is providing a scalable method to assess and improve LM reliability by exposing their tendency to invent information when presented with non-existent entities.",
+      "url": "http://arxiv.org/abs/2606.11105v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11105v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.11105v1/x1.png",
+      "figure_caption": "The pipeline to construct PhantomBench . Existing concepts from seed terms and entities are decomposed into smaller components (words and n n -grams) which are then recombined to form new concepts ( Section ˜ 2.1 ). Frequency filter discards concepts found in a large corpus, considering concepts with zero matches as non-existent ( Section ˜ 2.2 ). The resulting concepts are queried through diverse prompts targeting different attributes of the concept ( Section ˜ 2.3 ). At the bottom is an example response from Gemma 3-12B to a generated non-existent entity, Methods in Intelligent Human .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11070v1",
+      "title": "T1-Bench: Benchmarking Multi-Scenario Agents in Real-World Domains",
+      "authors": [
+        "Genta Indra Winata",
+        "Amartya Chakraborty",
+        "Yuzhen Lin",
+        "Swasthi P Rao",
+        "Shikhhar Siingh"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "T1-Bench addresses the limitations of existing benchmarks by introducing a high-fidelity, multi-domain evaluation framework for LLM agents. Its core method involves creating realistic, interleaved scenarios that demand structured, multi-turn reasoning across diverse customer-facing domains. The paper's main contribution is a comprehensive benchmark that significantly increases compositional complexity and evaluative rigor, enabling better assessment of agents in real-world, multi-step tasks.",
+      "url": "http://arxiv.org/abs/2606.11070v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11070v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.11070v1/imgs/architecture.png",
+      "figure_caption": "Overview of T1-Bench , a framework for persistent multi-session conversational agents. User policies, including persona, user information, and goals, guide interactions between the user and the assistant. The assistant performs domain classification to retrieve domain-specific tools and policies (e.g., flight, hotel, and restaurant services) and executes tool-augmented reasoning via API calls. A shared memory module stores conversation history and cached results, enabling persistent context, tool reuse, and continuity across temporally separated sessions.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11042v1",
+      "title": "Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields",
+      "authors": [
+        "Liya Zhu",
+        "Jingzhe Ding",
+        "Jian Zhang",
+        "Jianbo Xue",
+        "Shihao Liang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Workflow-GYM is a new benchmark designed to evaluate AI agents' ability to perform complex, long-horizon tasks within professional software environments. Its core contribution is to address the gap in current benchmarks by focusing on real-world, high-value professional workflows, revealing that even advanced agents struggle to achieve high success rates in these challenging scenarios.",
+      "url": "http://arxiv.org/abs/2606.11042v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11042v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.11042v1/x1.png",
+      "figure_caption": "Examples of Workflow-GYM tasks from professional domains. Each task requires interacting with specialized software through graphical user interfaces to accomplish a real-world objective.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11046v1",
+      "title": "Does Reasoning Preserve Alignment? On the Trustworthiness of Large Reasoning Models",
+      "authors": [
+        "Prajakta Kini",
+        "Avinash Reddy",
+        "Souradip Chakraborty",
+        "Satya Sai Srinath Namburi GNVV",
+        "Furong Huang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates whether training large language models for reasoning tasks compromises their alignment with safety and ethical guidelines. The core method involves a trustworthiness audit comparing reasoning models to their instruction-tuned counterparts across six dimensions. The key contribution is the finding that reasoning-focused training often leads to significant alignment regressions, such as increased toxicity and amplified bias, despite improvements in reasoning accuracy.",
+      "url": "http://arxiv.org/abs/2606.11046v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11046v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.11046v1/images/pathway_image_new.png",
+      "figure_caption": "Reasoning model development pathways. We study three common pathways for converting instruction-tuned models into reasoning models: (1) supervised fine-tuning (SFT) on reasoning traces, (2) RL-based post-training, including GRPO-style variants, using reasoning-oriented rewards, and (3) distillation from stronger reasoning teachers. Each reasoning model is evaluated against a matched instruction-tuned baseline to measure how the conversion affects reasoning utility and trustworthiness.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.11078v1",
+      "title": "A History-Aware Visually Grounded Critic for Computer Use Agents",
+      "authors": [
+        "Jaewoo Lee",
+        "Zaid Khan",
+        "Archiki Prasad",
+        "Justin Chih-Yao Chen",
+        "Supriyo Chakraborty"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces HiViG, a novel framework for improving computer use agents by addressing limitations in existing critics. HiViG employs a history-aware, visually grounded multimodal critic that learns from real GUI interactions. This critic provides agents with a summarized history of past actions and visually verifies proposed actions against the current screen, leading to more robust and context-aware decision-making.",
+      "url": "http://arxiv.org/abs/2606.11078v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11078v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11078v1/x1.png",
+      "figure_caption": "Comparison of test-time interventions for Computer Use Agents (CUAs). Left : Lacking historical awareness and proactive error-recovery, standard policies easily become trapped in short-sighted decision loops. Right : Existing approaches are limited. Scalar feedback (top) traps policies in low-reward trajectory regions when all candidate actions are suboptimal. Previous critics (middle) rely heavily on textual intent, missing spatial and reasoning errors, and fail to provide historical awareness. In contrast, our critic (bottom) verifies raw execution coordinates, predicts immediate visual state outcomes grounded in its learned state transition knowledge, and provides visually grounded error analysis that intercepts errors before execution. Furthermore, it equips agents with history state tracking, condensing past interactions to guide them toward the final task objective.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11150v1",
+      "title": "ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity",
+      "authors": [
+        "Andrew Bo Liu",
+        "Samira Nedungadi",
+        "Bryce Cai",
+        "Alex Kleinman",
+        "Harmon Bhasin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CY"
+      ],
+      "abstract": "This paper introduces ABC-Bench, a benchmark designed to evaluate the biosecurity-relevant capabilities of AI agents. The core method involves testing LLM agents on a suite of tasks requiring both biological and software expertise, including robot operation, DNA design, and evading synthesis screening. The key contribution is demonstrating that current LLM agents significantly outperform human experts on these biosecurity-relevant tasks, highlighting the evolving risks and opportunities presented by AI in biology.",
+      "url": "http://arxiv.org/abs/2606.11150v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11150v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11150v1/x1.png",
+      "figure_caption": "The Liquid Handling Robot task from ABC-Bench. A. We (1) prompt the agent with task instructions; (2) provide the agent with relevant software and research tools to complete the task and to check its work; (3) allow the agent to submit its final answer; and (4) algorithmically check the agent’s answer against pre-specified criteria. B. Where applicable, we validate task performance in a real-world setting (photo of OpenTrons Flex robot running GPT-o4-mini-written Gibson Assembly code).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11106v1",
+      "title": "FADA: Accessible fetal ultrasound interpretation and annotation with a selectively distilled unified vision-language model",
+      "authors": [
+        "Mahmood Alzubaidi",
+        "Uzair Shah",
+        "Raden Muaz",
+        "Ines Abbes",
+        "Nader Mohammed"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "FADA is a unified vision-language model designed for accessible fetal ultrasound interpretation and annotation. Its core method involves selectively distilling knowledge from specialized foundation models into a single pipeline, enabling it to perform interpretation, classification, detection, and segmentation without requiring external labels. This approach addresses the shortage of trained sonographers, particularly in low-resource settings, by providing a more comprehensive and automated tool for prenatal ultrasound analysis.",
+      "url": "http://arxiv.org/abs/2606.11106v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11106v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11106v1/x1.png",
+      "figure_caption": "Segmentation ground truth vs prediction comparison across FADA model variants. Each row shows a different anatomical structure (pubic symphysis, cardiac, liver, stomach, artery); columns display the original ultrasound image, ground truth segmentation mask, and predictions from FADA-Base, FADA-SKD, and FADA-FKD (all 4B). Dice coefficients are annotated per prediction panel. Images were selected via quantitative analysis to highlight cases where FADA-SKD achieves the largest advantage: FADA-SKD detects structures entirely missed by other variants (artery: +0.687, stomach: +0.613 Dice advantage) and produces substantially tighter boundaries for pubic symphysis (+0.152) and liver (+0.084).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11166v1",
+      "title": "Flaws in the LLM Automation Narrative",
+      "authors": [
+        "George Perrett",
+        "Javae Elliott",
+        "Jennifer Hill",
+        "Marc Scott"
+      ],
+      "categories": [
+        "cs.AI",
+        "stat.OT"
+      ],
+      "abstract": "This paper challenges the narrative of LLMs automating knowledge work by highlighting flaws in common benchmarking methods. The authors introduce a novel benchmark that measures LLM performance on a coding task, revealing that human experts outperform LLMs in both average performance and reliability, with LLMs exhibiting greater error variability. Their contribution lies in demonstrating that current LLM evaluations may overstate their capabilities in high-stakes, real-world scenarios.",
+      "url": "http://arxiv.org/abs/2606.11166v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11166v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11166v1/x1.png",
+      "figure_caption": "The RMSE among all submissions. The x-axis is ordered from smallest to largest RMSE value. Submissions from human experts are shown in blue, each submission from ChatGPT Codex 5.2 are shown in red, and historical strawman are shown in black. The right panel removes extreme values from 5 LLM submissions. The RMSE of ChatGPT Codex 5.2 submissions 14, 19, 11, 2, and 1 were 3.07, 1160.05, 2572.96, 111,765,692,519, and 219,316,810,584, respectively.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11074v1",
+      "title": "Modeling Complex Behaviors: Multi-Personality Composition and Dynamic Switching in Vision-Language Models",
+      "authors": [
+        "Peiqi Jia",
+        "Haonan Jia",
+        "Ziqi Miao",
+        "Linkang Du",
+        "Yuntao Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes a method for explicitly conditioning Vision-Language Models (MLLMs) with personalities and introduces a framework to evaluate single and multi-personality induction, as well as dynamic switching. The core contribution is demonstrating that personality conditioning can improve captioning but hinder reasoning tasks, and that MLLMs exhibit complex, co-modulated behaviors during multi-trait composition and switching, highlighting limitations of current prompt-based methods.",
+      "url": "http://arxiv.org/abs/2606.11074v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11074v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11074v1/x1.png",
+      "figure_caption": "Illustration of personality induction. The top-left panel illustrates generation under single-personality induction, the bottom-left panel presents results with multi-personality conditioning, and the right panel demonstrates In-conversation personality switching.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11164v1",
+      "title": "ReasonAlloc: Hierarchical Decoding-Time KV Cache Budget Allocation for Reasoning Models",
+      "authors": [
+        "Wenhao Liu",
+        "Hao Shi",
+        "Yunhe Li",
+        "Weizhi Fei",
+        "Xiangyuan Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "ReasonAlloc addresses the KV cache bottleneck in LLM reasoning by introducing a hierarchical, training-free budget allocation framework. It first preallocates KV cache offline based on a novel \"Reasoning Wave\" pattern reflecting architectural demand, then dynamically reallocates resources online to information-rich heads during decoding. This approach efficiently manages KV cache growth, improving inference speed for long reasoning chains.",
+      "url": "http://arxiv.org/abs/2606.11164v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11164v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11164v1/pic/overview.png",
+      "figure_caption": "An overview of the proposed ReasonAlloc framework. Left (I): Layer-wise allocation strategy based on offline architecture calibration, demonstrating the non-linear “Reasoning Wave” KV demand across layers. Right (II): Head-wise allocation strategy that dynamically routes KV budgets to distinct attention heads based on real-time importance and redundancy scoring during decoding.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11119v1",
+      "title": "TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning",
+      "authors": [
+        "Heming Zou",
+        "Qi Wang",
+        "Yun Qu",
+        "Yuhang Jiang",
+        "Lizhou Cai"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the challenge of inefficient rollout budget allocation in agentic reinforcement learning for large language models. The core method, TRACE, extends budget allocation beyond initial prompts to individual turns within a multi-turn rollout, treating each thought-action-observation sequence as a distinct node in a tree structure. This allows for more granular and efficient allocation of resources to informative prefixes, improving the learning process.",
+      "url": "http://arxiv.org/abs/2606.11119v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11119v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11119v1/x1.png",
+      "figure_caption": "TRACE redirects a fixed rollout budget toward contrast-rich roots and prefixes, converting scalable outcome rewards into denser mixed-reward contrast and implicit stepwise preference pairs than uniform allocation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11045v1",
+      "title": "What Fits (Into Few Tokens) Doesn't Overfit: Compression and Generalization in ML Research Agents",
+      "authors": [
+        "Martin Andres Bertran",
+        "Aaron Roth",
+        "Zhiwei Steven Wu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper investigates why benchmark-driven ML research rarely overfits, proposing that successful strategies are highly compressible. The authors test this by creating \"research agents\" that either compress the agent's output (reproducing performance with minimal information) or compress the agent's input (using only binary feedback). Their findings suggest that these compression bottlenecks have minimal impact on performance across diverse ML tasks, supporting the compressibility hypothesis.",
+      "url": "http://arxiv.org/abs/2606.11045v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11045v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11045v1/figures/c5_29fa809_variance_v2.png",
+      "figure_caption": "Compressibility of an autonomous agent’s language model pre-training strategy. An explorer agent develops a 12-layer, 768-dimensional GPT with ∼ 30 {\\( \\sim \\)}30 non-default choices; we compress its strategy into progressively shorter prompts (64 down to 4 tokens) and hand each to 5 independent reproducers that implement the strategy without the explorer’s code or validation set. Left : compressed prompts. Tokens encode architecture ( 12L d768 ), optimizer ( Muon .1 ), activation ( ReLU 2 ), batch size ( b2M ), and normalization ( QKnorm ); color indicates survival depth (dark blue = survives tightest budgets, red = dropped first). Right : reproducer holdout loss (BPB); dot = mean, gray band = min–max, dashed line = explorer before compression. Performance holds to 16 tokens; a cliff at 8 tokens coincides with loss of batch size, MLP ratio, and QK-norm.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11190v1",
+      "title": "When to Align, When to Predict: A Phase Diagram for Multimodal Learning",
+      "authors": [
+        "Ilay Kamai",
+        "Hugues Van Assel",
+        "Aviv Regev",
+        "Hagai B. Perets",
+        "Randall Balestriero"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces a unified linear framework to understand when cross-modal alignment (CA) and cross-modal prediction (CP) are effective for multimodal learning. It derives separation ratios showing that alignment fails with strong nuisance correlation, while prediction succeeds based on source modality quality. This work provides a phase diagram to diagnose underperformance in multimodal tasks, particularly in scientific domains.",
+      "url": "http://arxiv.org/abs/2606.11190v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11190v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.11176v1",
+      "title": "Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories",
+      "authors": [
+        "Kevin Qinghong Lin",
+        "Batu EI",
+        "Yuhong Shi",
+        "Pan Lu",
+        "Philip Torr"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.CY",
+        "cs.HC"
+      ],
+      "abstract": "This paper introduces Data2Story, a multi-agent framework that acts as a virtual data journalism newsroom. Its core method orchestrates specialized agents to transform raw data into verifiable, multimodal stories. The key contributions are ensuring all claims are evidence-grounded through an \"Inspector\" agent and generating articles with diverse modalities like interactive maps, beyond just text and static charts.",
+      "url": "http://arxiv.org/abs/2606.11176v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11176v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11176v1/x1.png",
+      "figure_caption": "Data2Story turns a raw dataset ( e.g., a CSV) into a verifiable, multimodal article ( i.e., a website). We use a “Pick a card” dataset as an illustration. This transformation involves information seeking ( e.g., “why the Ace of Spades dominates human choice?”), data analysis via programming ( e.g., computing card-selection distributions across demographics), narrative storytelling ( e.g., weaving cultural and psychological explanations into a cohesive article), and multimodal design ( e.g., an interactive card-drawing demo).",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.11082v1",
+      "title": "The Shibboleth Effect: Auditing the Cross-Lingual Distributional Skew of Large Language Models",
+      "authors": [
+        "Hakan Mehmetcik"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CY"
+      ],
+      "abstract": "This paper introduces the \"Shibboleth Effect,\" a cross-lingual distributional skew in LLMs, by using a geopolitical wargame where models play in English or Turkish. The core contribution is demonstrating that LLMs exhibit different behavioral tendencies, like increased coercive rhetoric, when operating in languages other than English, highlighting a significant bias in their cross-lingual capabilities.",
+      "url": "http://arxiv.org/abs/2606.11082v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11082v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.11079v1",
+      "title": "VISTA: A Versatile Interactive User Simulation Toolkit for Agent Evaluation",
+      "authors": [
+        "Yunan Lu",
+        "Ryan Shea",
+        "Yusen Zhang",
+        "Zhou Yu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "VISTA is a novel toolkit designed to address the limitations of current interactive agent evaluation methods. Its core method involves a versatile simulation framework that supports both UI and API actions, allowing for more realistic user behavior modeling. VISTA's key contribution is its suite of six metrics, which enable comprehensive evaluation of simulated interactions, ensuring thorough exploration of agent capabilities and failure modes.",
+      "url": "http://arxiv.org/abs/2606.11079v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11079v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11079v1/figures/pipeline_3.png",
+      "figure_caption": "An overview of VISTA . It configures each task scenario with a user profile, user goal, and relevant domain knowledge. During interaction, the user agent observes the webpage and decides whether to take UI actions directly or invoke user-side API tools for additional task-grounded information. The resulting interactions are then evaluated in terms of capability coverage, utterance realism, and interaction effectiveness, measured by agent failures.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "PhD Candidate (m/f/d)",
+      "url": "https://euraxess.ec.europa.eu/jobs/443761",
+      "description": "The Leibniz-Institut für Analytische Wissenschaften – ISAS – e. V. develops efficient analytical methods for health research. Thus, it contributes to the improvement of the prevention, early diagnosis, and therapy of diseases like cardiovascular diseases or cancer. Overall, the institute strives to... * Work Locations: Number of offers: 1, Germany, Leibniz-Institut für Analytische Wissenschaften – ISAS , Dortmund Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A91) [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A316) [Physics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A345) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A366) [Mathematics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A298) » [Applied mathematics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A301) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 8 Jul 2026 - 23:59 (Europe/Berlin) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Lithuania * [Vytautas Magnus University](https://euraxess.ec.europa.eu/partnering/organisations/profile/vytautas-magnus-university) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "10 June 2026",
+      "deadline": "8 Jul 2026 - 23:59 (Europe/Berlin)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Analytical methods for health research, focusing on prevention, early diagnosis, and therapy of diseases like cardiovascular diseases or cancer. Specific fields include Computer Science, Medical Sciences, Physics, and Applied Mathematics.\nKey Requirements: N/A\nApplication Info: Deadline: 8 Jul 2026 - 23:59 (Europe/Berlin). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Dortmund, Germany. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "PhD Candidate (m/f/d)",
+      "url": "https://euraxess.ec.europa.eu/jobs/443761",
+      "description": "The Leibniz-Institut für Analytische Wissenschaften – ISAS – e. V. develops efficient analytical methods for health research. Thus, it contributes to the improvement of the prevention, early diagnosis, and therapy of diseases like cardiovascular diseases or cancer. Overall, the institute strives to... * Work Locations: Number of offers: 1, Germany, Leibniz-Institut für Analytische Wissenschaften – ISAS , Dortmund Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A91) [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A316) [Physics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A345) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A366) [Mathematics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A298) » [Applied mathematics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A301) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 8 Jul 2026 - 23:59 (Europe/Berlin) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Lithuania * [Vytautas Magnus University](https://euraxess.ec.europa.eu/partnering/organisations/profile/vytautas-magnus-university) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "10 June 2026",
+      "deadline": "8 Jul 2026 - 23:59 (Europe/Berlin)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Analytical methods for health research, focusing on prevention, early diagnosis, and therapy of diseases like cardiovascular diseases or cancer. Specific fields include Computer Science, Medical Sciences, Physics, and Applied Mathematics.\nKey Requirements: N/A\nApplication Info: Deadline: 8 Jul 2026 - 23:59 (Europe/Berlin). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Dortmund, Germany. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
