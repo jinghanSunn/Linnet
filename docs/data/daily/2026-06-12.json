@@ -1,0 +1,916 @@
+{
+  "date": "2026-06-12",
+  "generated_at": "2026-06-12T12:43:47.525856+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.13669v1",
+          "title": "Agents-K1: Towards Agent-native Knowledge Orchestration",
+          "authors": [
+            "Zongsheng Cao",
+            "Bihao Zhan",
+            "Jinxin Shi",
+            "Jiong Wang",
+            "Fangchen Yu"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "Agents-K1 addresses the gap in LLM agent research by focusing on scientific knowledge orchestration. Its core method is an end-to-end pipeline that converts full scientific papers into agent-native knowledge graphs, capturing detailed entities, evidence, and relations beyond simple citations. This contribution enables more sophisticated scientific reasoning by providing agents with a richer, structured understanding of research content.",
+          "url": "http://arxiv.org/abs/2606.13669v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13669v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.13669v1/x1.png",
+          "figure_caption": "Agents-K1 : Architecture and Capabilities. Left : Extracting multimodal knowledge from scientific papers. Middle : Schema-adaptive extensions for core research tasks. Right : Enhancing LLM reasoning and verifiable knowledge tracing.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.13572v1",
+          "title": "ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages",
+          "authors": [
+            "Tanmoy Kanti Halder",
+            "Akash Ghosh",
+            "Subhadip Baidya",
+            "Arijit Roy",
+            "Sriparna Saha"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces ArogyaSutra, a multi-agent framework designed for multimodal medical reasoning in Indic languages. It addresses the limitations of existing English-centric models by integrating tool grounding and dual-memory mechanisms. The core contribution is a novel approach to enable AI-powered healthcare assistance for diverse linguistic and multimodal medical queries, particularly in low-resource regions.",
+          "url": "http://arxiv.org/abs/2606.13572v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13572v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.13572v1/img/actor-critic_2.jpg",
+          "figure_caption": "Overview of the ArogyaSutra framework. ArogyaSutra employs an actor–critic architecture enhanced with tool-based image grounding and adaptive code-switching. The Actor first processes the input prompt and identifies the need for visual grounding, invoking appropriate tool agents to extract clinically relevant information from medical images before generating an answer with its associated reasoning. This output is then passed to the Critic for evaluation. If the response is correct, the Critic approves and outputs the final answer and reasoning. Otherwise, it consults an error detector (GPT-4o-mini) to identify the source of failure. Language-related errors trigger code-switching by translating the query into English, while reasoning-related errors are handled by incorporating summaries of past and current mistakes from long-term and short-term memory. The refined query is then fed back to the Actor for iterative refinement.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.13662v1",
+          "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+          "authors": [
+            "Amy Xin",
+            "Jiening Siow",
+            "Junjie Wang",
+            "Zijun Yao",
+            "Fanjin Zhang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "EurekAgent's core method is \"environment engineering,\" which focuses on designing the resources, constraints, and interfaces of an agent's operational space rather than just its workflow. This approach aims to amplify productive agent behaviors like exploration and collaboration while mitigating harmful ones. The paper's contribution is demonstrating that this environment-centric design is crucial for unlocking the full potential of LLM-based agents in autonomous scientific discovery, leading to performance exceeding human-designed methods.",
+          "url": "http://arxiv.org/abs/2606.13662v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13662v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.13662v1/x1.png",
+          "figure_caption": "EurekAgent score evolution progress on the 26-circle packing problem.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.13607v1",
+          "title": "Reasoning as Pattern Matching: Shared Mechanisms in Human and LLM Everyday Reasoning",
+          "authors": [
+            "Zach Studdiford",
+            "Gary Lupyan"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper proposes that everyday reasoning in both humans and LLMs operates through pattern matching, rather than abstract world models. By observing similar error patterns in human participants and LLMs on common-sense reasoning tasks, the researchers identify specific attention mechanisms in LLMs that perform this pattern matching. These mechanisms are then used to predict human reasoning errors influenced by seemingly irrelevant prompt details, supporting the shared pattern-matching mechanism hypothesis.",
+          "url": "http://arxiv.org/abs/2606.13607v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13607v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.13607v1/x1.png",
+          "figure_caption": "Overview of our evaluation probing human and LLM causal reasoning . a. Illustration of the evaluation format used for testing causal reasoning in people and LLMs. For each prompt, subjects are first presented with the scenario. After reading the prompt, subjects press SPACE to see the two response options and then select the most likely completion. b. Summary of the 11 categories we used in our evaluation of everyday causal reasoning.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.13598v1",
+          "title": "Reward Modeling for Multi-Agent Orchestration",
+          "authors": [
+            "King Yeung Tsang",
+            "Zihao Zhao",
+            "Vishal Venkataramani",
+            "Haizhou Shi",
+            "Zixuan Ke"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.MA"
+          ],
+          "abstract": "This paper introduces Orchestration Reward Modeling (OrchRM), a self-supervised method to train orchestrators for multi-agent LLM systems. OrchRM uses intermediate execution artifacts to create win-lose pairs for training a reward model, avoiding costly human annotations or sub-agent rollouts. This approach significantly improves training efficiency and MAS test-time scaling performance across various domains.",
+          "url": "http://arxiv.org/abs/2606.13598v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13598v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.13681v1",
+          "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+          "authors": [
+            "Jundong Xu",
+            "Qingchuan Li",
+            "Jiaying Wu",
+            "Yihuai Lan",
+            "Shuyue Stella Li"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "EvoArena is a benchmark suite designed to evaluate LLM agents in dynamic environments that progressively change over time. The paper introduces EvoMem, a novel memory system that tracks these environmental changes as structured update histories. This allows agents to reason about and adapt to evolving conditions, significantly improving their performance on the EvoArena benchmark.",
+          "url": "http://arxiv.org/abs/2606.13681v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13681v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.13681v1/x1.png",
+          "figure_caption": "Step accuracy vs. chain accuracy on EvoArena. The closer to the upper-right corner the better.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.13643v1",
+          "title": "Recursive Agent Harnesses",
+          "authors": [
+            "Elias Lumer",
+            "Sahil Sen",
+            "Kevin Paul",
+            "Vamse Kumar Subbiah"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces the Recursive Agent Harness (RAH), a novel approach that extends recursion from model calls (RLMs) to full agent harnesses. The core method involves a parent agent generating executable scripts that spawn parallel subagent harnesses for complex tasks and structured function calls for simpler ones. RAH's contribution is a code-first extension to model recursion, significantly improving long-context reasoning performance for coding agents.",
+          "url": "http://arxiv.org/abs/2606.13643v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13643v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.13643v1/rah_architecture.png",
+          "figure_caption": "Figure 1 . The Recursive Agent Harness (RAH). A parent agent selects between code-execution spawning (writing an executable script that spawns subagents in parallel) and JSON tool-call spawning (for 1–5 entries). Subagents carry the same spawning capability as their parent, enabling recursive decomposition bounded by a configurable depth limit.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.13566v1",
+          "title": "A Three-Layer Framework for AI in Scientific Discovery",
+          "authors": [
+            "Guojun Liao"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper proposes a three-layer framework for AI in scientific discovery, moving beyond just search and execution. Its core method introduces \"model formation\" through qualitative reasoning as the crucial, yet underdeveloped, middle layer. This layer enables AI to identify structural inadequacies in current models and reformulate them by understanding what's missing, thereby facilitating true scientific insight.",
+          "url": "http://arxiv.org/abs/2606.13566v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13566v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.13608v1",
+          "title": "AgentBeats: Agentifying Agent Assessment for Openness, Standardization, and Reproducibility",
+          "authors": [
+            "Xiaoyuan Liu",
+            "Jianhong Tu",
+            "Yuqi Chen",
+            "Siyuan Xie",
+            "Sihan Ren"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces Agentified Agent Assessment (AAA), a novel method for evaluating AI agents. AAA uses judge agents and standardized protocols (A2A and MCP) for all interactions, creating a unified, agent-agnostic framework. This approach enhances openness, standardization, and reproducibility in agent evaluation by separating assessment logic from agent implementation and enabling fair comparisons across diverse agent designs.",
+          "url": "http://arxiv.org/abs/2606.13608v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13608v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.13608v1/x1.png",
+          "figure_caption": "Figure 1 . Comparison between Traditional LLM/Agent benchmarks and AAA. AAA reduces the number of integrations from N × M N\\( \\times \\) M to N + M N+M , while completely separating the benchmark and target agent as shown in the gray boxes.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.13602v1",
+          "title": "EpiBench: Verifiable Evaluation of AI Agents on Epigenomics Analysis",
+          "authors": [
+            "Harihara Muralidharan",
+            "Reema Baskar",
+            "Soo Hee Lee",
+            "Tim Proctor",
+            "Kenny Workman"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "EpiBench is a verifiable benchmark designed to evaluate AI agents' ability to perform short-horizon epigenomics analysis. It assesses if agents can make sound decisions from realistic workflow states and produce deterministically gradable answers across various epigenomics assays. The paper's contribution lies in demonstrating that current AI agents, even advanced models, struggle to consistently pass these evaluations, often failing at deeper, assay-specific reasoning despite finding correct files and generating useful intermediate results.",
+          "url": "http://arxiv.org/abs/2606.13602v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13602v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.13673v1",
+          "title": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+          "authors": [
+            "Seokju Cho",
+            "Ryo Hachiuma",
+            "Abhishek Badki",
+            "Hang Su",
+            "Byung-Kwan Lee"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "SpatialClaw addresses the limitations of existing spatial reasoning agents by proposing a novel action interface that uses code. This training-free framework allows VLMs to flexibly compose and tailor operations for complex 3D/4D spatial reasoning, overcoming the constraints of single-pass execution or rigid structured tool calls.",
+          "url": "http://arxiv.org/abs/2606.13673v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13673v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.13663v1",
+          "title": "HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents",
+          "authors": [
+            "Yaxin Du",
+            "Yifan Zhou",
+            "Yujie Ge",
+            "Jiajun Wang",
+            "Xianghe Pang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "HyperTool addresses the inefficiency of step-wise tool calls in LLM agents by introducing a unified, MCP-style interface. This allows models to execute complex tool workflows within a single, code-block-based call, abstracting away low-level dataflow and reducing context consumption. This novel approach significantly improves agent performance on cross-tool compositional tasks.",
+          "url": "http://arxiv.org/abs/2606.13663v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13663v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.13663v1/x1.png",
+          "figure_caption": "Comparison of context management paradigms in tool-augmented agents. (a) Step-wise execution expands atomic calls and observations into the trace. (b) Trace-level compression shortens the trace after expansion. (c) HyperTool manages context at execution time by folding dependent tool operations into one executable block and returning only the task-relevant result.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.13668v1",
+          "title": "Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution",
+          "authors": [
+            "Dimitri Kachler",
+            "Damien Sileo",
+            "Pascal Denis"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "Influcoder distills the gradient influence of individual training samples on an LLM's decoder into a compact encoder. This allows for efficient and scalable data attribution, enabling researchers to quickly identify which training data points are responsible for specific model behaviors, such as toxicity.",
+          "url": "http://arxiv.org/abs/2606.13668v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13668v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.13668v1/figures/influence-encoder-architecture-good_v2.png",
+          "figure_caption": "Schema for the training pipeline of the Influcoder. Stage 1: full pool and query samples are passed to the target decoder model, then we compute LoRA gradients on the responses only. Finally we project the gradients with CountSketch and compute ground truth cosine similarity influences. Stage 2: full pool and query samples are passed through the encoder to produce influence embeddings, cosine similarity is taken to generate influence predictions.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 23,
+        "papers_after_llm_filter": 13,
+        "count": 13
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 23,
+    "papers_after_llm_filter": 13,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 58
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.13669v1",
+      "title": "Agents-K1: Towards Agent-native Knowledge Orchestration",
+      "authors": [
+        "Zongsheng Cao",
+        "Bihao Zhan",
+        "Jinxin Shi",
+        "Jiong Wang",
+        "Fangchen Yu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Agents-K1 addresses the gap in LLM agent research by focusing on scientific knowledge orchestration. Its core method is an end-to-end pipeline that converts full scientific papers into agent-native knowledge graphs, capturing detailed entities, evidence, and relations beyond simple citations. This contribution enables more sophisticated scientific reasoning by providing agents with a richer, structured understanding of research content.",
+      "url": "http://arxiv.org/abs/2606.13669v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13669v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.13669v1/x1.png",
+      "figure_caption": "Agents-K1 : Architecture and Capabilities. Left : Extracting multimodal knowledge from scientific papers. Middle : Schema-adaptive extensions for core research tasks. Right : Enhancing LLM reasoning and verifiable knowledge tracing.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13572v1",
+      "title": "ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages",
+      "authors": [
+        "Tanmoy Kanti Halder",
+        "Akash Ghosh",
+        "Subhadip Baidya",
+        "Arijit Roy",
+        "Sriparna Saha"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ArogyaSutra, a multi-agent framework designed for multimodal medical reasoning in Indic languages. It addresses the limitations of existing English-centric models by integrating tool grounding and dual-memory mechanisms. The core contribution is a novel approach to enable AI-powered healthcare assistance for diverse linguistic and multimodal medical queries, particularly in low-resource regions.",
+      "url": "http://arxiv.org/abs/2606.13572v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13572v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.13572v1/img/actor-critic_2.jpg",
+      "figure_caption": "Overview of the ArogyaSutra framework. ArogyaSutra employs an actor–critic architecture enhanced with tool-based image grounding and adaptive code-switching. The Actor first processes the input prompt and identifies the need for visual grounding, invoking appropriate tool agents to extract clinically relevant information from medical images before generating an answer with its associated reasoning. This output is then passed to the Critic for evaluation. If the response is correct, the Critic approves and outputs the final answer and reasoning. Otherwise, it consults an error detector (GPT-4o-mini) to identify the source of failure. Language-related errors trigger code-switching by translating the query into English, while reasoning-related errors are handled by incorporating summaries of past and current mistakes from long-term and short-term memory. The refined query is then fed back to the Actor for iterative refinement.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13662v1",
+      "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+      "authors": [
+        "Amy Xin",
+        "Jiening Siow",
+        "Junjie Wang",
+        "Zijun Yao",
+        "Fanjin Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "EurekAgent's core method is \"environment engineering,\" which focuses on designing the resources, constraints, and interfaces of an agent's operational space rather than just its workflow. This approach aims to amplify productive agent behaviors like exploration and collaboration while mitigating harmful ones. The paper's contribution is demonstrating that this environment-centric design is crucial for unlocking the full potential of LLM-based agents in autonomous scientific discovery, leading to performance exceeding human-designed methods.",
+      "url": "http://arxiv.org/abs/2606.13662v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13662v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13662v1/x1.png",
+      "figure_caption": "EurekAgent score evolution progress on the 26-circle packing problem.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13607v1",
+      "title": "Reasoning as Pattern Matching: Shared Mechanisms in Human and LLM Everyday Reasoning",
+      "authors": [
+        "Zach Studdiford",
+        "Gary Lupyan"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes that everyday reasoning in both humans and LLMs operates through pattern matching, rather than abstract world models. By observing similar error patterns in human participants and LLMs on common-sense reasoning tasks, the researchers identify specific attention mechanisms in LLMs that perform this pattern matching. These mechanisms are then used to predict human reasoning errors influenced by seemingly irrelevant prompt details, supporting the shared pattern-matching mechanism hypothesis.",
+      "url": "http://arxiv.org/abs/2606.13607v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13607v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13607v1/x1.png",
+      "figure_caption": "Overview of our evaluation probing human and LLM causal reasoning . a. Illustration of the evaluation format used for testing causal reasoning in people and LLMs. For each prompt, subjects are first presented with the scenario. After reading the prompt, subjects press SPACE to see the two response options and then select the most likely completion. b. Summary of the 11 categories we used in our evaluation of everyday causal reasoning.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13598v1",
+      "title": "Reward Modeling for Multi-Agent Orchestration",
+      "authors": [
+        "King Yeung Tsang",
+        "Zihao Zhao",
+        "Vishal Venkataramani",
+        "Haizhou Shi",
+        "Zixuan Ke"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces Orchestration Reward Modeling (OrchRM), a self-supervised method to train orchestrators for multi-agent LLM systems. OrchRM uses intermediate execution artifacts to create win-lose pairs for training a reward model, avoiding costly human annotations or sub-agent rollouts. This approach significantly improves training efficiency and MAS test-time scaling performance across various domains.",
+      "url": "http://arxiv.org/abs/2606.13598v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13598v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13681v1",
+      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+      "authors": [
+        "Jundong Xu",
+        "Qingchuan Li",
+        "Jiaying Wu",
+        "Yihuai Lan",
+        "Shuyue Stella Li"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "EvoArena is a benchmark suite designed to evaluate LLM agents in dynamic environments that progressively change over time. The paper introduces EvoMem, a novel memory system that tracks these environmental changes as structured update histories. This allows agents to reason about and adapt to evolving conditions, significantly improving their performance on the EvoArena benchmark.",
+      "url": "http://arxiv.org/abs/2606.13681v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13681v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13681v1/x1.png",
+      "figure_caption": "Step accuracy vs. chain accuracy on EvoArena. The closer to the upper-right corner the better.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.13643v1",
+      "title": "Recursive Agent Harnesses",
+      "authors": [
+        "Elias Lumer",
+        "Sahil Sen",
+        "Kevin Paul",
+        "Vamse Kumar Subbiah"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces the Recursive Agent Harness (RAH), a novel approach that extends recursion from model calls (RLMs) to full agent harnesses. The core method involves a parent agent generating executable scripts that spawn parallel subagent harnesses for complex tasks and structured function calls for simpler ones. RAH's contribution is a code-first extension to model recursion, significantly improving long-context reasoning performance for coding agents.",
+      "url": "http://arxiv.org/abs/2606.13643v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13643v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13643v1/rah_architecture.png",
+      "figure_caption": "Figure 1 . The Recursive Agent Harness (RAH). A parent agent selects between code-execution spawning (writing an executable script that spawns subagents in parallel) and JSON tool-call spawning (for 1–5 entries). Subagents carry the same spawning capability as their parent, enabling recursive decomposition bounded by a configurable depth limit.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.13566v1",
+      "title": "A Three-Layer Framework for AI in Scientific Discovery",
+      "authors": [
+        "Guojun Liao"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes a three-layer framework for AI in scientific discovery, moving beyond just search and execution. Its core method introduces \"model formation\" through qualitative reasoning as the crucial, yet underdeveloped, middle layer. This layer enables AI to identify structural inadequacies in current models and reformulate them by understanding what's missing, thereby facilitating true scientific insight.",
+      "url": "http://arxiv.org/abs/2606.13566v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13566v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13608v1",
+      "title": "AgentBeats: Agentifying Agent Assessment for Openness, Standardization, and Reproducibility",
+      "authors": [
+        "Xiaoyuan Liu",
+        "Jianhong Tu",
+        "Yuqi Chen",
+        "Siyuan Xie",
+        "Sihan Ren"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces Agentified Agent Assessment (AAA), a novel method for evaluating AI agents. AAA uses judge agents and standardized protocols (A2A and MCP) for all interactions, creating a unified, agent-agnostic framework. This approach enhances openness, standardization, and reproducibility in agent evaluation by separating assessment logic from agent implementation and enabling fair comparisons across diverse agent designs.",
+      "url": "http://arxiv.org/abs/2606.13608v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13608v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.13608v1/x1.png",
+      "figure_caption": "Figure 1 . Comparison between Traditional LLM/Agent benchmarks and AAA. AAA reduces the number of integrations from N × M N\\( \\times \\) M to N + M N+M , while completely separating the benchmark and target agent as shown in the gray boxes.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13602v1",
+      "title": "EpiBench: Verifiable Evaluation of AI Agents on Epigenomics Analysis",
+      "authors": [
+        "Harihara Muralidharan",
+        "Reema Baskar",
+        "Soo Hee Lee",
+        "Tim Proctor",
+        "Kenny Workman"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "EpiBench is a verifiable benchmark designed to evaluate AI agents' ability to perform short-horizon epigenomics analysis. It assesses if agents can make sound decisions from realistic workflow states and produce deterministically gradable answers across various epigenomics assays. The paper's contribution lies in demonstrating that current AI agents, even advanced models, struggle to consistently pass these evaluations, often failing at deeper, assay-specific reasoning despite finding correct files and generating useful intermediate results.",
+      "url": "http://arxiv.org/abs/2606.13602v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13602v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13673v1",
+      "title": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+      "authors": [
+        "Seokju Cho",
+        "Ryo Hachiuma",
+        "Abhishek Badki",
+        "Hang Su",
+        "Byung-Kwan Lee"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "SpatialClaw addresses the limitations of existing spatial reasoning agents by proposing a novel action interface that uses code. This training-free framework allows VLMs to flexibly compose and tailor operations for complex 3D/4D spatial reasoning, overcoming the constraints of single-pass execution or rigid structured tool calls.",
+      "url": "http://arxiv.org/abs/2606.13673v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13673v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13663v1",
+      "title": "HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents",
+      "authors": [
+        "Yaxin Du",
+        "Yifan Zhou",
+        "Yujie Ge",
+        "Jiajun Wang",
+        "Xianghe Pang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "HyperTool addresses the inefficiency of step-wise tool calls in LLM agents by introducing a unified, MCP-style interface. This allows models to execute complex tool workflows within a single, code-block-based call, abstracting away low-level dataflow and reducing context consumption. This novel approach significantly improves agent performance on cross-tool compositional tasks.",
+      "url": "http://arxiv.org/abs/2606.13663v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13663v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.13663v1/x1.png",
+      "figure_caption": "Comparison of context management paradigms in tool-augmented agents. (a) Step-wise execution expands atomic calls and observations into the trace. (b) Trace-level compression shortens the trace after expansion. (c) HyperTool manages context at execution time by folding dependent tool operations into one executable block and returning only the task-relevant result.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.13668v1",
+      "title": "Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution",
+      "authors": [
+        "Dimitri Kachler",
+        "Damien Sileo",
+        "Pascal Denis"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Influcoder distills the gradient influence of individual training samples on an LLM's decoder into a compact encoder. This allows for efficient and scalable data attribution, enabling researchers to quickly identify which training data points are responsible for specific model behaviors, such as toxicity.",
+      "url": "http://arxiv.org/abs/2606.13668v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13668v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.13668v1/figures/influence-encoder-architecture-good_v2.png",
+      "figure_caption": "Schema for the training pipeline of the Influcoder. Stage 1: full pool and query samples are passed to the target decoder model, then we compute LoRA gradients on the responses only. Finally we project the gradients with CountSketch and compute ground truth cosine similarity influences. Stage 2: full pool and query samples are passed through the encoder to produce influence embeddings, cosine similarity is taken to generate influence predictions.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.13669v1",
+      "title": "Agents-K1: Towards Agent-native Knowledge Orchestration",
+      "authors": [
+        "Zongsheng Cao",
+        "Bihao Zhan",
+        "Jinxin Shi",
+        "Jiong Wang",
+        "Fangchen Yu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Agents-K1 addresses the gap in LLM agent research by focusing on scientific knowledge orchestration. Its core method is an end-to-end pipeline that converts full scientific papers into agent-native knowledge graphs, capturing detailed entities, evidence, and relations beyond simple citations. This contribution enables more sophisticated scientific reasoning by providing agents with a richer, structured understanding of research content.",
+      "url": "http://arxiv.org/abs/2606.13669v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13669v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.13669v1/x1.png",
+      "figure_caption": "Agents-K1 : Architecture and Capabilities. Left : Extracting multimodal knowledge from scientific papers. Middle : Schema-adaptive extensions for core research tasks. Right : Enhancing LLM reasoning and verifiable knowledge tracing.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13572v1",
+      "title": "ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages",
+      "authors": [
+        "Tanmoy Kanti Halder",
+        "Akash Ghosh",
+        "Subhadip Baidya",
+        "Arijit Roy",
+        "Sriparna Saha"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ArogyaSutra, a multi-agent framework designed for multimodal medical reasoning in Indic languages. It addresses the limitations of existing English-centric models by integrating tool grounding and dual-memory mechanisms. The core contribution is a novel approach to enable AI-powered healthcare assistance for diverse linguistic and multimodal medical queries, particularly in low-resource regions.",
+      "url": "http://arxiv.org/abs/2606.13572v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13572v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.13572v1/img/actor-critic_2.jpg",
+      "figure_caption": "Overview of the ArogyaSutra framework. ArogyaSutra employs an actor–critic architecture enhanced with tool-based image grounding and adaptive code-switching. The Actor first processes the input prompt and identifies the need for visual grounding, invoking appropriate tool agents to extract clinically relevant information from medical images before generating an answer with its associated reasoning. This output is then passed to the Critic for evaluation. If the response is correct, the Critic approves and outputs the final answer and reasoning. Otherwise, it consults an error detector (GPT-4o-mini) to identify the source of failure. Language-related errors trigger code-switching by translating the query into English, while reasoning-related errors are handled by incorporating summaries of past and current mistakes from long-term and short-term memory. The refined query is then fed back to the Actor for iterative refinement.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13662v1",
+      "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+      "authors": [
+        "Amy Xin",
+        "Jiening Siow",
+        "Junjie Wang",
+        "Zijun Yao",
+        "Fanjin Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "EurekAgent's core method is \"environment engineering,\" which focuses on designing the resources, constraints, and interfaces of an agent's operational space rather than just its workflow. This approach aims to amplify productive agent behaviors like exploration and collaboration while mitigating harmful ones. The paper's contribution is demonstrating that this environment-centric design is crucial for unlocking the full potential of LLM-based agents in autonomous scientific discovery, leading to performance exceeding human-designed methods.",
+      "url": "http://arxiv.org/abs/2606.13662v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13662v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13662v1/x1.png",
+      "figure_caption": "EurekAgent score evolution progress on the 26-circle packing problem.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13607v1",
+      "title": "Reasoning as Pattern Matching: Shared Mechanisms in Human and LLM Everyday Reasoning",
+      "authors": [
+        "Zach Studdiford",
+        "Gary Lupyan"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes that everyday reasoning in both humans and LLMs operates through pattern matching, rather than abstract world models. By observing similar error patterns in human participants and LLMs on common-sense reasoning tasks, the researchers identify specific attention mechanisms in LLMs that perform this pattern matching. These mechanisms are then used to predict human reasoning errors influenced by seemingly irrelevant prompt details, supporting the shared pattern-matching mechanism hypothesis.",
+      "url": "http://arxiv.org/abs/2606.13607v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13607v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13607v1/x1.png",
+      "figure_caption": "Overview of our evaluation probing human and LLM causal reasoning . a. Illustration of the evaluation format used for testing causal reasoning in people and LLMs. For each prompt, subjects are first presented with the scenario. After reading the prompt, subjects press SPACE to see the two response options and then select the most likely completion. b. Summary of the 11 categories we used in our evaluation of everyday causal reasoning.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13598v1",
+      "title": "Reward Modeling for Multi-Agent Orchestration",
+      "authors": [
+        "King Yeung Tsang",
+        "Zihao Zhao",
+        "Vishal Venkataramani",
+        "Haizhou Shi",
+        "Zixuan Ke"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces Orchestration Reward Modeling (OrchRM), a self-supervised method to train orchestrators for multi-agent LLM systems. OrchRM uses intermediate execution artifacts to create win-lose pairs for training a reward model, avoiding costly human annotations or sub-agent rollouts. This approach significantly improves training efficiency and MAS test-time scaling performance across various domains.",
+      "url": "http://arxiv.org/abs/2606.13598v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13598v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13681v1",
+      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+      "authors": [
+        "Jundong Xu",
+        "Qingchuan Li",
+        "Jiaying Wu",
+        "Yihuai Lan",
+        "Shuyue Stella Li"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "EvoArena is a benchmark suite designed to evaluate LLM agents in dynamic environments that progressively change over time. The paper introduces EvoMem, a novel memory system that tracks these environmental changes as structured update histories. This allows agents to reason about and adapt to evolving conditions, significantly improving their performance on the EvoArena benchmark.",
+      "url": "http://arxiv.org/abs/2606.13681v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13681v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13681v1/x1.png",
+      "figure_caption": "Step accuracy vs. chain accuracy on EvoArena. The closer to the upper-right corner the better.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.13643v1",
+      "title": "Recursive Agent Harnesses",
+      "authors": [
+        "Elias Lumer",
+        "Sahil Sen",
+        "Kevin Paul",
+        "Vamse Kumar Subbiah"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces the Recursive Agent Harness (RAH), a novel approach that extends recursion from model calls (RLMs) to full agent harnesses. The core method involves a parent agent generating executable scripts that spawn parallel subagent harnesses for complex tasks and structured function calls for simpler ones. RAH's contribution is a code-first extension to model recursion, significantly improving long-context reasoning performance for coding agents.",
+      "url": "http://arxiv.org/abs/2606.13643v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13643v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13643v1/rah_architecture.png",
+      "figure_caption": "Figure 1 . The Recursive Agent Harness (RAH). A parent agent selects between code-execution spawning (writing an executable script that spawns subagents in parallel) and JSON tool-call spawning (for 1–5 entries). Subagents carry the same spawning capability as their parent, enabling recursive decomposition bounded by a configurable depth limit.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.13566v1",
+      "title": "A Three-Layer Framework for AI in Scientific Discovery",
+      "authors": [
+        "Guojun Liao"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes a three-layer framework for AI in scientific discovery, moving beyond just search and execution. Its core method introduces \"model formation\" through qualitative reasoning as the crucial, yet underdeveloped, middle layer. This layer enables AI to identify structural inadequacies in current models and reformulate them by understanding what's missing, thereby facilitating true scientific insight.",
+      "url": "http://arxiv.org/abs/2606.13566v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13566v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13608v1",
+      "title": "AgentBeats: Agentifying Agent Assessment for Openness, Standardization, and Reproducibility",
+      "authors": [
+        "Xiaoyuan Liu",
+        "Jianhong Tu",
+        "Yuqi Chen",
+        "Siyuan Xie",
+        "Sihan Ren"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces Agentified Agent Assessment (AAA), a novel method for evaluating AI agents. AAA uses judge agents and standardized protocols (A2A and MCP) for all interactions, creating a unified, agent-agnostic framework. This approach enhances openness, standardization, and reproducibility in agent evaluation by separating assessment logic from agent implementation and enabling fair comparisons across diverse agent designs.",
+      "url": "http://arxiv.org/abs/2606.13608v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13608v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.13608v1/x1.png",
+      "figure_caption": "Figure 1 . Comparison between Traditional LLM/Agent benchmarks and AAA. AAA reduces the number of integrations from N × M N\\( \\times \\) M to N + M N+M , while completely separating the benchmark and target agent as shown in the gray boxes.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13602v1",
+      "title": "EpiBench: Verifiable Evaluation of AI Agents on Epigenomics Analysis",
+      "authors": [
+        "Harihara Muralidharan",
+        "Reema Baskar",
+        "Soo Hee Lee",
+        "Tim Proctor",
+        "Kenny Workman"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "EpiBench is a verifiable benchmark designed to evaluate AI agents' ability to perform short-horizon epigenomics analysis. It assesses if agents can make sound decisions from realistic workflow states and produce deterministically gradable answers across various epigenomics assays. The paper's contribution lies in demonstrating that current AI agents, even advanced models, struggle to consistently pass these evaluations, often failing at deeper, assay-specific reasoning despite finding correct files and generating useful intermediate results.",
+      "url": "http://arxiv.org/abs/2606.13602v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13602v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13673v1",
+      "title": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+      "authors": [
+        "Seokju Cho",
+        "Ryo Hachiuma",
+        "Abhishek Badki",
+        "Hang Su",
+        "Byung-Kwan Lee"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "SpatialClaw addresses the limitations of existing spatial reasoning agents by proposing a novel action interface that uses code. This training-free framework allows VLMs to flexibly compose and tailor operations for complex 3D/4D spatial reasoning, overcoming the constraints of single-pass execution or rigid structured tool calls.",
+      "url": "http://arxiv.org/abs/2606.13673v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13673v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13663v1",
+      "title": "HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents",
+      "authors": [
+        "Yaxin Du",
+        "Yifan Zhou",
+        "Yujie Ge",
+        "Jiajun Wang",
+        "Xianghe Pang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "HyperTool addresses the inefficiency of step-wise tool calls in LLM agents by introducing a unified, MCP-style interface. This allows models to execute complex tool workflows within a single, code-block-based call, abstracting away low-level dataflow and reducing context consumption. This novel approach significantly improves agent performance on cross-tool compositional tasks.",
+      "url": "http://arxiv.org/abs/2606.13663v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13663v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.13663v1/x1.png",
+      "figure_caption": "Comparison of context management paradigms in tool-augmented agents. (a) Step-wise execution expands atomic calls and observations into the trace. (b) Trace-level compression shortens the trace after expansion. (c) HyperTool manages context at execution time by folding dependent tool operations into one executable block and returning only the task-relevant result.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.13668v1",
+      "title": "Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution",
+      "authors": [
+        "Dimitri Kachler",
+        "Damien Sileo",
+        "Pascal Denis"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Influcoder distills the gradient influence of individual training samples on an LLM's decoder into a compact encoder. This allows for efficient and scalable data attribution, enabling researchers to quickly identify which training data points are responsible for specific model behaviors, such as toxicity.",
+      "url": "http://arxiv.org/abs/2606.13668v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13668v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.13668v1/figures/influence-encoder-architecture-good_v2.png",
+      "figure_caption": "Schema for the training pipeline of the Influcoder. Stage 1: full pool and query samples are passed to the target decoder model, then we compute LoRA gradients on the responses only. Finally we project the gradients with CountSketch and compute ground truth cosine similarity influences. Stage 2: full pool and query samples are passed through the encoder to produce influence embeddings, cosine similarity is taken to generate influence predictions.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
