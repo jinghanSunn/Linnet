@@ -1,0 +1,589 @@
+{
+  "date": "2026-06-15",
+  "generated_at": "2026-06-15T15:29:09.681268+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.14697v1",
+          "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
+          "authors": [
+            "Sicheng Yang",
+            "Hangjie Yuan",
+            "Wenjun Zhang",
+            "Jinwang Wang",
+            "Yichen Qian"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces ClinHallu, a benchmark designed to pinpoint the origin of hallucinations in medical multimodal large language models (MLLMs). It achieves this by decomposing MLLM reasoning into distinct stages (visual recognition, knowledge recall, reasoning integration) and providing structured reasoning traces for each instance. ClinHallu's contribution lies in enabling stage-wise hallucination diagnosis and demonstrating that fine-tuning with these traces can effectively reduce such errors.",
+          "url": "http://arxiv.org/abs/2606.14697v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.14697v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.14697v1/x1.png",
+          "figure_caption": "Different reasoning failures can produce the same wrong answer in medical VQA. In this example, the correct answer is “fat”, but visual misrecognition, incorrect knowledge recall, and flawed reasoning integration can each lead the model to answer “abscess”. This motivates ClinHallu , which diagnoses hallucinations by localizing them to specific reasoning stages rather than only judging final-answer correctness.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.14574v1",
+          "title": "SIMMER: Benchmarking Latent Failures in LLM Executable Planning with a World Model",
+          "authors": [
+            "Xiaoxin Lu",
+            "Ranran Haoran Zhang",
+            "Rui Zhang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces SIMMER, a benchmark designed to evaluate latent failures in LLM-generated plans for autonomous agents. SIMMER uses a human-curated symbolic world model of the kitchen domain to identify plan steps that don't immediately fail but silently prevent goal achievement. This contribution addresses a critical gap in LLM planning evaluation by focusing on subtle, potentially harmful errors.",
+          "url": "http://arxiv.org/abs/2606.14574v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.14574v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.14574v1/x1.png",
+          "figure_caption": "A latent and irreversible failure demonstration in cooking. The cutting board becomes contaminated in Step 1 and is reused in Step 3, transferring bacteria to the vegetables. The failure propagates silently until the unsafe dish is served (Step 5). Moreover, once the contamination occurs, no subsequent action can undo it.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.14672v1",
+          "title": "Towards Direct Latent-Space Synthesis for Parallel Branches in LLM-Agent Workflows",
+          "authors": [
+            "Shikun Liu",
+            "Mufei Li",
+            "Dongqi Fu",
+            "Haoyu Wang",
+            "Yinglong Xia"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Parallel-Synthesis, a framework that allows LLM agents to directly synthesize information from parallel branches without concatenating text outputs. Its core method involves a cache mapper and a fine-tuned synthesizer adapter to process independently generated KV caches. This approach preserves the parallel structure of agent workflows, avoids redundant computation, and improves efficiency.",
+          "url": "http://arxiv.org/abs/2606.14672v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.14672v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.14672v1/x1.png",
+          "figure_caption": "An example of DAG agentic workflow for advanced research containing using parallel worker agents for research in different directions.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.14589v1",
+          "title": "When Errors Become Narratives: A Longitudinal Taxonomy of Silent Failures in a Production LLM Agent Runtime",
+          "authors": [
+            "Wei Wu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.DC",
+            "cs.SE"
+          ],
+          "abstract": "This paper introduces a longitudinal taxonomy of \"silent failures\" in long-lived LLM agent runtimes, where errors go unnoticed. The core method involves an eight-week study of a production personal-assistant agent, identifying 22 incidents and a meta-pattern of uncommunicated errors. The contribution is a five-class taxonomy, including a novel class (D) for chained hallucination unique to LLMs, highlighting the dangers of these undetectable failures.",
+          "url": "http://arxiv.org/abs/2606.14589v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.14589v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.14691v1",
+          "title": "CORA: Analyzing and bridging thinking-answer gap in Multimodal RLVR via Consistency-Oriented Reasoning Alignment",
+          "authors": [
+            "Jiayue Cao",
+            "Zhicong Lu",
+            "Xuehan Sun",
+            "Wei Jia",
+            "Hongling Zheng"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper addresses the \"thinking-answer gap\" in multimodal Reinforcement Learning from Verifiable Rewards (RLVR) for vision-language models. The core method, CORA, introduces a novel consistency reward model to align the semantic meaning of the reasoning process with the final answer, improving the reliability of multimodal RLVR. This contribution helps bridge the gap between how a model reasons and the answer it ultimately provides.",
+          "url": "http://arxiv.org/abs/2606.14691v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.14691v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.14691v1/x1.png",
+          "figure_caption": "Thinking-answer inconsistency in multimodal RLVR. Existing works typically use final-answer correctness as the accuracy reward, underestimating potential inconsistencies between the reasoning trace and the final answer. Our method introduces the consistency reward to encourage the model to derive final answers from faithful reasoning traces.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.14654v1",
+          "title": "Abstracting Cross-Domain Action Sequences into Interpretable Workflows",
+          "authors": [
+            "Gaurav Verma",
+            "Scott Counts"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces WorkflowView, a framework that leverages Large Language Models (LLMs) to transform granular user interaction logs into interpretable, high-level workflows. This approach addresses limitations of prior deep learning methods by offering greater robustness to noise and improved generalization across different applications and tasks. WorkflowView's core contribution lies in its ability to extract meaningful insights from complex user behavior, enabling better understanding and improvement of digital products.",
+          "url": "http://arxiv.org/abs/2606.14654v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.14654v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.14654v1/x1.png",
+          "figure_caption": "We propose an LLM-based framework for hierarchical abstraction of user action sequences into interpretable high-level activities (WorkflowView). The left panel illustrates raw action sequences from three domains. WorkflowView enables downstream inferences with task-specific steerability, such as reconstructing user intent in browsers, predicting student dropout in MOOCs, and privacy-preserving categorization of document-centric workflows.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.14571v1",
+          "title": "StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance",
+          "authors": [
+            "Guanming Liu",
+            "Yuqi Ren",
+            "Hansu Gu",
+            "Peng Zhang",
+            "Weihang Wang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "StreamMemBench is a novel benchmark designed to evaluate how well AI agents can use past observations and interactions to provide future-oriented assistance. It achieves this by creating two-step task sequences where an initial task tests evidence utilization, and a subsequent task assesses the reuse of feedback and interaction experience. This approach addresses a gap in existing benchmarks by testing the entire memory trajectory, revealing that current systems struggle to effectively leverage observed evidence.",
+          "url": "http://arxiv.org/abs/2606.14571v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.14571v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.14674v1",
+          "title": "AgentSpec: Understanding Embodied Agent Scaffolds Through Controlled Composition",
+          "authors": [
+            "Jixuan Chen",
+            "Jianzhi Shen",
+            "Haoqiang Kang",
+            "Zhi Hong",
+            "Qingyi Jiang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces AgentSpec, a framework for understanding and comparing embodied LLM agents. AgentSpec standardizes the interfaces of various agent components (like reasoning, memory, and action) allowing them to be easily swapped and recombined. This modular approach enables controlled experiments to analyze the specific contributions of different modules and model backbones to agent performance.",
+          "url": "http://arxiv.org/abs/2606.14674v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.14674v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.14674v1/x1.png",
+          "figure_caption": "AgentSpec turns tightly coupled embodied-agent pipelines into a controlled modular design space with fixed typed interfaces, enabling systematic module composition and revealing interaction effects between reasoning, memory, reflection, action, and learning.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 17,
+        "papers_after_llm_filter": 8,
+        "count": 8
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 17,
+    "papers_after_llm_filter": 8,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 38
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.14697v1",
+      "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
+      "authors": [
+        "Sicheng Yang",
+        "Hangjie Yuan",
+        "Wenjun Zhang",
+        "Jinwang Wang",
+        "Yichen Qian"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces ClinHallu, a benchmark designed to pinpoint the origin of hallucinations in medical multimodal large language models (MLLMs). It achieves this by decomposing MLLM reasoning into distinct stages (visual recognition, knowledge recall, reasoning integration) and providing structured reasoning traces for each instance. ClinHallu's contribution lies in enabling stage-wise hallucination diagnosis and demonstrating that fine-tuning with these traces can effectively reduce such errors.",
+      "url": "http://arxiv.org/abs/2606.14697v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14697v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.14697v1/x1.png",
+      "figure_caption": "Different reasoning failures can produce the same wrong answer in medical VQA. In this example, the correct answer is “fat”, but visual misrecognition, incorrect knowledge recall, and flawed reasoning integration can each lead the model to answer “abscess”. This motivates ClinHallu , which diagnoses hallucinations by localizing them to specific reasoning stages rather than only judging final-answer correctness.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14574v1",
+      "title": "SIMMER: Benchmarking Latent Failures in LLM Executable Planning with a World Model",
+      "authors": [
+        "Xiaoxin Lu",
+        "Ranran Haoran Zhang",
+        "Rui Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces SIMMER, a benchmark designed to evaluate latent failures in LLM-generated plans for autonomous agents. SIMMER uses a human-curated symbolic world model of the kitchen domain to identify plan steps that don't immediately fail but silently prevent goal achievement. This contribution addresses a critical gap in LLM planning evaluation by focusing on subtle, potentially harmful errors.",
+      "url": "http://arxiv.org/abs/2606.14574v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14574v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.14574v1/x1.png",
+      "figure_caption": "A latent and irreversible failure demonstration in cooking. The cutting board becomes contaminated in Step 1 and is reused in Step 3, transferring bacteria to the vegetables. The failure propagates silently until the unsafe dish is served (Step 5). Moreover, once the contamination occurs, no subsequent action can undo it.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14672v1",
+      "title": "Towards Direct Latent-Space Synthesis for Parallel Branches in LLM-Agent Workflows",
+      "authors": [
+        "Shikun Liu",
+        "Mufei Li",
+        "Dongqi Fu",
+        "Haoyu Wang",
+        "Yinglong Xia"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Parallel-Synthesis, a framework that allows LLM agents to directly synthesize information from parallel branches without concatenating text outputs. Its core method involves a cache mapper and a fine-tuned synthesizer adapter to process independently generated KV caches. This approach preserves the parallel structure of agent workflows, avoids redundant computation, and improves efficiency.",
+      "url": "http://arxiv.org/abs/2606.14672v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14672v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.14672v1/x1.png",
+      "figure_caption": "An example of DAG agentic workflow for advanced research containing using parallel worker agents for research in different directions.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14589v1",
+      "title": "When Errors Become Narratives: A Longitudinal Taxonomy of Silent Failures in a Production LLM Agent Runtime",
+      "authors": [
+        "Wei Wu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.DC",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces a longitudinal taxonomy of \"silent failures\" in long-lived LLM agent runtimes, where errors go unnoticed. The core method involves an eight-week study of a production personal-assistant agent, identifying 22 incidents and a meta-pattern of uncommunicated errors. The contribution is a five-class taxonomy, including a novel class (D) for chained hallucination unique to LLMs, highlighting the dangers of these undetectable failures.",
+      "url": "http://arxiv.org/abs/2606.14589v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14589v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14691v1",
+      "title": "CORA: Analyzing and bridging thinking-answer gap in Multimodal RLVR via Consistency-Oriented Reasoning Alignment",
+      "authors": [
+        "Jiayue Cao",
+        "Zhicong Lu",
+        "Xuehan Sun",
+        "Wei Jia",
+        "Hongling Zheng"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the \"thinking-answer gap\" in multimodal Reinforcement Learning from Verifiable Rewards (RLVR) for vision-language models. The core method, CORA, introduces a novel consistency reward model to align the semantic meaning of the reasoning process with the final answer, improving the reliability of multimodal RLVR. This contribution helps bridge the gap between how a model reasons and the answer it ultimately provides.",
+      "url": "http://arxiv.org/abs/2606.14691v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14691v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.14691v1/x1.png",
+      "figure_caption": "Thinking-answer inconsistency in multimodal RLVR. Existing works typically use final-answer correctness as the accuracy reward, underestimating potential inconsistencies between the reasoning trace and the final answer. Our method introduces the consistency reward to encourage the model to derive final answers from faithful reasoning traces.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.14654v1",
+      "title": "Abstracting Cross-Domain Action Sequences into Interpretable Workflows",
+      "authors": [
+        "Gaurav Verma",
+        "Scott Counts"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces WorkflowView, a framework that leverages Large Language Models (LLMs) to transform granular user interaction logs into interpretable, high-level workflows. This approach addresses limitations of prior deep learning methods by offering greater robustness to noise and improved generalization across different applications and tasks. WorkflowView's core contribution lies in its ability to extract meaningful insights from complex user behavior, enabling better understanding and improvement of digital products.",
+      "url": "http://arxiv.org/abs/2606.14654v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14654v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.14654v1/x1.png",
+      "figure_caption": "We propose an LLM-based framework for hierarchical abstraction of user action sequences into interpretable high-level activities (WorkflowView). The left panel illustrates raw action sequences from three domains. WorkflowView enables downstream inferences with task-specific steerability, such as reconstructing user intent in browsers, predicting student dropout in MOOCs, and privacy-preserving categorization of document-centric workflows.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14571v1",
+      "title": "StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance",
+      "authors": [
+        "Guanming Liu",
+        "Yuqi Ren",
+        "Hansu Gu",
+        "Peng Zhang",
+        "Weihang Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "StreamMemBench is a novel benchmark designed to evaluate how well AI agents can use past observations and interactions to provide future-oriented assistance. It achieves this by creating two-step task sequences where an initial task tests evidence utilization, and a subsequent task assesses the reuse of feedback and interaction experience. This approach addresses a gap in existing benchmarks by testing the entire memory trajectory, revealing that current systems struggle to effectively leverage observed evidence.",
+      "url": "http://arxiv.org/abs/2606.14571v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14571v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14674v1",
+      "title": "AgentSpec: Understanding Embodied Agent Scaffolds Through Controlled Composition",
+      "authors": [
+        "Jixuan Chen",
+        "Jianzhi Shen",
+        "Haoqiang Kang",
+        "Zhi Hong",
+        "Qingyi Jiang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces AgentSpec, a framework for understanding and comparing embodied LLM agents. AgentSpec standardizes the interfaces of various agent components (like reasoning, memory, and action) allowing them to be easily swapped and recombined. This modular approach enables controlled experiments to analyze the specific contributions of different modules and model backbones to agent performance.",
+      "url": "http://arxiv.org/abs/2606.14674v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14674v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.14674v1/x1.png",
+      "figure_caption": "AgentSpec turns tightly coupled embodied-agent pipelines into a controlled modular design space with fixed typed interfaces, enabling systematic module composition and revealing interaction effects between reasoning, memory, reflection, action, and learning.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.14697v1",
+      "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
+      "authors": [
+        "Sicheng Yang",
+        "Hangjie Yuan",
+        "Wenjun Zhang",
+        "Jinwang Wang",
+        "Yichen Qian"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces ClinHallu, a benchmark designed to pinpoint the origin of hallucinations in medical multimodal large language models (MLLMs). It achieves this by decomposing MLLM reasoning into distinct stages (visual recognition, knowledge recall, reasoning integration) and providing structured reasoning traces for each instance. ClinHallu's contribution lies in enabling stage-wise hallucination diagnosis and demonstrating that fine-tuning with these traces can effectively reduce such errors.",
+      "url": "http://arxiv.org/abs/2606.14697v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14697v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.14697v1/x1.png",
+      "figure_caption": "Different reasoning failures can produce the same wrong answer in medical VQA. In this example, the correct answer is “fat”, but visual misrecognition, incorrect knowledge recall, and flawed reasoning integration can each lead the model to answer “abscess”. This motivates ClinHallu , which diagnoses hallucinations by localizing them to specific reasoning stages rather than only judging final-answer correctness.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14574v1",
+      "title": "SIMMER: Benchmarking Latent Failures in LLM Executable Planning with a World Model",
+      "authors": [
+        "Xiaoxin Lu",
+        "Ranran Haoran Zhang",
+        "Rui Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces SIMMER, a benchmark designed to evaluate latent failures in LLM-generated plans for autonomous agents. SIMMER uses a human-curated symbolic world model of the kitchen domain to identify plan steps that don't immediately fail but silently prevent goal achievement. This contribution addresses a critical gap in LLM planning evaluation by focusing on subtle, potentially harmful errors.",
+      "url": "http://arxiv.org/abs/2606.14574v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14574v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.14574v1/x1.png",
+      "figure_caption": "A latent and irreversible failure demonstration in cooking. The cutting board becomes contaminated in Step 1 and is reused in Step 3, transferring bacteria to the vegetables. The failure propagates silently until the unsafe dish is served (Step 5). Moreover, once the contamination occurs, no subsequent action can undo it.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14672v1",
+      "title": "Towards Direct Latent-Space Synthesis for Parallel Branches in LLM-Agent Workflows",
+      "authors": [
+        "Shikun Liu",
+        "Mufei Li",
+        "Dongqi Fu",
+        "Haoyu Wang",
+        "Yinglong Xia"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Parallel-Synthesis, a framework that allows LLM agents to directly synthesize information from parallel branches without concatenating text outputs. Its core method involves a cache mapper and a fine-tuned synthesizer adapter to process independently generated KV caches. This approach preserves the parallel structure of agent workflows, avoids redundant computation, and improves efficiency.",
+      "url": "http://arxiv.org/abs/2606.14672v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14672v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.14672v1/x1.png",
+      "figure_caption": "An example of DAG agentic workflow for advanced research containing using parallel worker agents for research in different directions.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14589v1",
+      "title": "When Errors Become Narratives: A Longitudinal Taxonomy of Silent Failures in a Production LLM Agent Runtime",
+      "authors": [
+        "Wei Wu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.DC",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces a longitudinal taxonomy of \"silent failures\" in long-lived LLM agent runtimes, where errors go unnoticed. The core method involves an eight-week study of a production personal-assistant agent, identifying 22 incidents and a meta-pattern of uncommunicated errors. The contribution is a five-class taxonomy, including a novel class (D) for chained hallucination unique to LLMs, highlighting the dangers of these undetectable failures.",
+      "url": "http://arxiv.org/abs/2606.14589v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14589v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14691v1",
+      "title": "CORA: Analyzing and bridging thinking-answer gap in Multimodal RLVR via Consistency-Oriented Reasoning Alignment",
+      "authors": [
+        "Jiayue Cao",
+        "Zhicong Lu",
+        "Xuehan Sun",
+        "Wei Jia",
+        "Hongling Zheng"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the \"thinking-answer gap\" in multimodal Reinforcement Learning from Verifiable Rewards (RLVR) for vision-language models. The core method, CORA, introduces a novel consistency reward model to align the semantic meaning of the reasoning process with the final answer, improving the reliability of multimodal RLVR. This contribution helps bridge the gap between how a model reasons and the answer it ultimately provides.",
+      "url": "http://arxiv.org/abs/2606.14691v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14691v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.14691v1/x1.png",
+      "figure_caption": "Thinking-answer inconsistency in multimodal RLVR. Existing works typically use final-answer correctness as the accuracy reward, underestimating potential inconsistencies between the reasoning trace and the final answer. Our method introduces the consistency reward to encourage the model to derive final answers from faithful reasoning traces.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.14654v1",
+      "title": "Abstracting Cross-Domain Action Sequences into Interpretable Workflows",
+      "authors": [
+        "Gaurav Verma",
+        "Scott Counts"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces WorkflowView, a framework that leverages Large Language Models (LLMs) to transform granular user interaction logs into interpretable, high-level workflows. This approach addresses limitations of prior deep learning methods by offering greater robustness to noise and improved generalization across different applications and tasks. WorkflowView's core contribution lies in its ability to extract meaningful insights from complex user behavior, enabling better understanding and improvement of digital products.",
+      "url": "http://arxiv.org/abs/2606.14654v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14654v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.14654v1/x1.png",
+      "figure_caption": "We propose an LLM-based framework for hierarchical abstraction of user action sequences into interpretable high-level activities (WorkflowView). The left panel illustrates raw action sequences from three domains. WorkflowView enables downstream inferences with task-specific steerability, such as reconstructing user intent in browsers, predicting student dropout in MOOCs, and privacy-preserving categorization of document-centric workflows.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14571v1",
+      "title": "StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance",
+      "authors": [
+        "Guanming Liu",
+        "Yuqi Ren",
+        "Hansu Gu",
+        "Peng Zhang",
+        "Weihang Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "StreamMemBench is a novel benchmark designed to evaluate how well AI agents can use past observations and interactions to provide future-oriented assistance. It achieves this by creating two-step task sequences where an initial task tests evidence utilization, and a subsequent task assesses the reuse of feedback and interaction experience. This approach addresses a gap in existing benchmarks by testing the entire memory trajectory, revealing that current systems struggle to effectively leverage observed evidence.",
+      "url": "http://arxiv.org/abs/2606.14571v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14571v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14674v1",
+      "title": "AgentSpec: Understanding Embodied Agent Scaffolds Through Controlled Composition",
+      "authors": [
+        "Jixuan Chen",
+        "Jianzhi Shen",
+        "Haoqiang Kang",
+        "Zhi Hong",
+        "Qingyi Jiang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces AgentSpec, a framework for understanding and comparing embodied LLM agents. AgentSpec standardizes the interfaces of various agent components (like reasoning, memory, and action) allowing them to be easily swapped and recombined. This modular approach enables controlled experiments to analyze the specific contributions of different modules and model backbones to agent performance.",
+      "url": "http://arxiv.org/abs/2606.14674v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14674v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.14674v1/x1.png",
+      "figure_caption": "AgentSpec turns tightly coupled embodied-agent pipelines into a controlled modular design space with fixed typed interfaces, enabling systematic module composition and revealing interaction effects between reasoning, memory, reflection, action, and learning.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
