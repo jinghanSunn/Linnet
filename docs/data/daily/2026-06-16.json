@@ -1,0 +1,748 @@
+{
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16T14:32:22.637967+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.17053v1",
+          "title": "Context-Aware RL for Agentic and Multimodal LLMs",
+          "authors": [
+            "Peiyang Xu",
+            "Bangzheng Li",
+            "Sijia Liu",
+            "Karthik R. Narasimhan",
+            "Pramod Viswanath"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces ContextRL, a reinforcement learning method that enhances LLMs' ability to pinpoint crucial information in complex contexts. By training LLMs to distinguish between similar contexts that support a given query-answer pair, ContextRL encourages fine-grained grounding and improves long-horizon reasoning and multimodal performance. This approach leads to significant gains over standard methods.",
+          "url": "http://arxiv.org/abs/2606.17053v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.17053v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.17053v1/results/ContextRL_Failcase.png",
+          "figure_caption": "Context unawareness manifests across both agentic and multimodal systems. Left: In an agentic code-editing setting, the model has access to the relevant source file but fails to maintain consistency with the surrounding context across edits. As a result, it removes the definition of variable i i that is subsequently referenced, causing a runtime error. Right: In a multimodal reasoning setting, the model fails to correctly ground its answer in the visual evidence. Although the relevant information is present in the figure, it misreads the y y value of g ​ ( x ) g(x) as 2 2 rather than 3 3 as x → − 1 x\\( \\to \\)-1 , leading to an incorrect prediction.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.17016v1",
+          "title": "TokenPilot: Cache-Efficient Context Management for LLM Agents",
+          "authors": [
+            "Buqiang Xu",
+            "Zirui Xue",
+            "Dianmou Chen",
+            "Chenyang Fu",
+            "Chiyu Wu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.MA"
+          ],
+          "abstract": "TokenPilot addresses the rising inference costs of LLM agents by efficiently managing their context. Its core method uses a dual-granularity approach: **Ingestion-Aware Compaction** stabilizes prompt prefixes and filters noise at the entry point, while **Lifecycle-Aware Eviction** conserves context by offloading segments only when their task relevance fades. This framework significantly reduces token footprints and inference costs without disrupting prompt cache continuity.",
+          "url": "http://arxiv.org/abs/2606.17016v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.17016v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.17016v1/x1.png",
+          "figure_caption": "Comparison of cache alignment behaviors. While the Original Agent Loop maintains continuous layouts to achieve cumulative cache hits , previous management systems execute text truncation or compaction that mutates input boundaries, inadvertently triggering severe backend KV cache misses .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.17041v1",
+          "title": "Benchmarking LLM Agents on Meta-Analysis Articles from Nature Portfolio",
+          "authors": [
+            "Anzhe Xie",
+            "Weihang Su",
+            "Yujia Zhou",
+            "Yiqun Liu",
+            "Qingyao Ai"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.IR"
+          ],
+          "abstract": "This paper introduces MetaSyn, a novel benchmark dataset for evaluating LLM agents on meta-analysis tasks, covering the entire pipeline from literature retrieval to study selection. The core method involves curating expert-validated meta-analyses with detailed ground truth for each step. The main contribution is highlighting a significant screening bottleneck, demonstrating that current LLM agents struggle to effectively identify relevant studies even with high retrieval recall.",
+          "url": "http://arxiv.org/abs/2606.17041v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.17041v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.17041v1/x1.png",
+          "figure_caption": "Figure 1. Domain distribution of the 442 MetaSyn meta-analyses, grouped by source journal. Clinical specialties (purple) account for 67.6% of the dataset; the remaining 32.4% spans digital health & AI in medicine, social sciences & humanities, environmental & planetary health, and general biology / multidisciplinary topics.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.17029v1",
+          "title": "DEEPRUBRIC: Evidence-Tree Rubric Supervision for Efficient Reinforcement Learning of Deep Research Agents",
+          "authors": [
+            "Minghang Zhu",
+            "Chuyang Wei",
+            "Junhao Xu",
+            "Yilin Cheng",
+            "Zhumin Chen"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "DeepRubric addresses the inefficiency of reinforcement learning for deep research agents by reversing the rubric generation process. Instead of inferring evaluation criteria from a query, it first identifies key evaluation targets for an evidence-backed report and then synthesizes aligned query-rubric pairs. This approach ensures rubrics more reliably capture task scope and evidence needs, leading to more efficient agent training.",
+          "url": "http://arxiv.org/abs/2606.17029v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.17029v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.17029v1/x1.png",
+          "figure_caption": "Query-first vs. Evidence-first rubric construction. Query-first pipelines infer rubrics from a given query; DeepRubric builds an evidence tree first and derives both the query and rubric from the same structure, making criteria traceable and query-aligned.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.17005v1",
+          "title": "Bayesian Inference and Decision Audits for Public Archives of Frontier AI Evaluations",
+          "authors": [
+            "Yanan Long"
+          ],
+          "categories": [
+            "cs.AI",
+            "stat.ME"
+          ],
+          "abstract": "This paper proposes a Bayesian inference framework to analyze public AI evaluation archives, recognizing they are selective time series rather than terminal leaderboards. Its core contribution is demonstrating how different historical data interpretations, even with the same terminal model, lead to significantly different conclusions about AI progress timelines. This highlights the need for decision audits to account for these observational uncertainties.",
+          "url": "http://arxiv.org/abs/2606.17005v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.17005v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.16987v1",
+          "title": "Consensus-based Agentic Large Language Model Framework for Harmonized Tariff Schedule Code Classification",
+          "authors": [
+            "Truong Thanh Hung Nguyen",
+            "Khanh Van Quynh Nguyen",
+            "Hoang-Loc Cao",
+            "Tri Duong",
+            "Phuc Ho"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces a consensus-based agentic LLM framework for classifying Canadian 10-digit Harmonized Tariff Schedule (HTS) codes. The core method involves multiple agents retrieving information, performing semantic searches on official documents, and using evidence-grounded reasoning. The key contribution is a novel consensus mechanism that validates classifications through element-wise voting and confidence estimation, with human escalation for complex cases, aiming to improve accuracy in maritime logistics.",
+          "url": "http://arxiv.org/abs/2606.16987v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.16987v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.16987v1/fig/HTS.png",
+          "figure_caption": "Architecture of the proposed HTS classification framework, showing the interaction between retrieval, reasoning, validation, and user clarification modules.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.16952v1",
+          "title": "Phantoms and Disclosures: a Causal Framework for Auditing Synthetic Data",
+          "authors": [
+            "Kareem Amin",
+            "Rudrajit Das",
+            "Alessandro Epasto",
+            "Adel Javanmard",
+            "Dennis Kraft"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "stat.ML",
+            "stat.AP",
+            "stat.ME"
+          ],
+          "abstract": "This paper proposes a causal auditing framework to detect and explain private information disclosures in synthetic data generated by AI models. It distinguishes between \"true disclosures\" (direct reproduction) and \"phantom disclosures\" (incidental generation) by using statistical hypothesis testing on partitioned real data, without requiring model access. This allows for rigorous privacy auditing against baselines like zero-learning or Differential Privacy.",
+          "url": "http://arxiv.org/abs/2606.16952v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.16952v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.16925v1",
+          "title": "RAID: Semantic Graph Diffusion for True Cold-Start and Cross-Lingual Forecasting",
+          "authors": [
+            "Arunkumar V",
+            "Manoranjan Gandhudi",
+            "Gangadharan G. R.",
+            "Arun Prakash",
+            "S. Senthilkumar"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "RAID addresses the challenge of forecasting for new items with no historical data (true cold-start). It leverages textual metadata to retrieve semantically similar items and uses this information to guide a diffusion model for forecasting. This approach enables accurate predictions and interval coverage for unseen items, outperforming existing methods and reducing inference time.",
+          "url": "http://arxiv.org/abs/2606.16925v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.16925v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.16925v1/Archi_1.png",
+          "figure_caption": "The RAID Architecture. (Top) Inductive Semantic Graph: Metadata is mapped to a shared semantic manifold via BGE-M3 to construct a sparse retrieval graph. (Bottom Left) Shape-Scale Decomposition: Neighbor trajectories are normalized into scale-invariant shapes and aggregated; a target-specific scale is predicted via MLP to reconstruct a deterministic base forecast \\( \\mu \\)_{\\( \\text{base} \\)} . (Bottom Right) Gated Diffusion: A Diffusion Transformer (DiT) models the residual uncertainty 𝐫 \\( \\mathbf{r} \\) , conditioned on the graph context 𝐜 \\( \\mathbf{c} \\) via Adaptive Layer Norm. The final forecast y ^ = μ base + g ⋅ r ^ 0 \\( \\hat{y} \\)=\\( \\mu \\)_{\\( \\text{base} \\)}+g\\( \\cdot \\)\\( \\hat{r}_{0} \\) is emitted as a probabilistic Horizon- H H distribution.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.16991v1",
+          "title": "A Multi-Center Benchmark for Abdominal Disease Diagnosis and Report Generation from Non-Contrast CT",
+          "authors": [
+            "Mariam Elbakry",
+            "Aliaa Sayed Sheha",
+            "Salma Hassan Tantawy",
+            "Aya Yassin",
+            "Concetto Spampinato"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces a novel multi-center benchmark and dataset for diagnosing abdominal diseases and generating radiology reports using only non-contrast CT (NCCT). The core method learns to infer contrast-enhanced findings from NCCT, addressing risks and burdens associated with contrast agents. The contribution lies in demonstrating that NCCT alone contains sufficient diagnostic information and in providing a robust evaluation framework for deep learning models in this domain.",
+          "url": "http://arxiv.org/abs/2606.16991v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.16991v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.16991v1/Figures/study_workflow.png",
+          "figure_caption": "Overview of the benchmark workflow.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.16934v1",
+          "title": "Exploring Extrinsic and Intrinsic Properties for Effective Reasoning with Code Interpreter",
+          "authors": [
+            "Patomporn Payoungkhamdee",
+            "Napat Laosaengpha",
+            "Jenta Wonglertsakul",
+            "Pittawat Taveekitworachai",
+            "Pume Tuchinda"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates how to improve Large Language Model (LLM) reasoning with Code Interpreters (CIs) by analyzing \"extrinsic\" (important tokens) and \"intrinsic\" (cognitive behaviors like verification and backtracking) properties. The core method involves identifying and quantifying these properties in effective CI reasoning. The main contribution is demonstrating that these properties are crucial for strong performance and can be leveraged during both inference (by adding tokens) and training to enhance LLM reasoning capabilities.",
+          "url": "http://arxiv.org/abs/2606.16934v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.16934v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 20,
+        "papers_after_llm_filter": 10,
+        "count": 10
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 20,
+    "papers_after_llm_filter": 10,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 52
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.17053v1",
+      "title": "Context-Aware RL for Agentic and Multimodal LLMs",
+      "authors": [
+        "Peiyang Xu",
+        "Bangzheng Li",
+        "Sijia Liu",
+        "Karthik R. Narasimhan",
+        "Pramod Viswanath"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces ContextRL, a reinforcement learning method that enhances LLMs' ability to pinpoint crucial information in complex contexts. By training LLMs to distinguish between similar contexts that support a given query-answer pair, ContextRL encourages fine-grained grounding and improves long-horizon reasoning and multimodal performance. This approach leads to significant gains over standard methods.",
+      "url": "http://arxiv.org/abs/2606.17053v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17053v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.17053v1/results/ContextRL_Failcase.png",
+      "figure_caption": "Context unawareness manifests across both agentic and multimodal systems. Left: In an agentic code-editing setting, the model has access to the relevant source file but fails to maintain consistency with the surrounding context across edits. As a result, it removes the definition of variable i i that is subsequently referenced, causing a runtime error. Right: In a multimodal reasoning setting, the model fails to correctly ground its answer in the visual evidence. Although the relevant information is present in the figure, it misreads the y y value of g ​ ( x ) g(x) as 2 2 rather than 3 3 as x → − 1 x\\( \\to \\)-1 , leading to an incorrect prediction.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.17016v1",
+      "title": "TokenPilot: Cache-Efficient Context Management for LLM Agents",
+      "authors": [
+        "Buqiang Xu",
+        "Zirui Xue",
+        "Dianmou Chen",
+        "Chenyang Fu",
+        "Chiyu Wu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "TokenPilot addresses the rising inference costs of LLM agents by efficiently managing their context. Its core method uses a dual-granularity approach: **Ingestion-Aware Compaction** stabilizes prompt prefixes and filters noise at the entry point, while **Lifecycle-Aware Eviction** conserves context by offloading segments only when their task relevance fades. This framework significantly reduces token footprints and inference costs without disrupting prompt cache continuity.",
+      "url": "http://arxiv.org/abs/2606.17016v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17016v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.17016v1/x1.png",
+      "figure_caption": "Comparison of cache alignment behaviors. While the Original Agent Loop maintains continuous layouts to achieve cumulative cache hits , previous management systems execute text truncation or compaction that mutates input boundaries, inadvertently triggering severe backend KV cache misses .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.17041v1",
+      "title": "Benchmarking LLM Agents on Meta-Analysis Articles from Nature Portfolio",
+      "authors": [
+        "Anzhe Xie",
+        "Weihang Su",
+        "Yujia Zhou",
+        "Yiqun Liu",
+        "Qingyao Ai"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "abstract": "This paper introduces MetaSyn, a novel benchmark dataset for evaluating LLM agents on meta-analysis tasks, covering the entire pipeline from literature retrieval to study selection. The core method involves curating expert-validated meta-analyses with detailed ground truth for each step. The main contribution is highlighting a significant screening bottleneck, demonstrating that current LLM agents struggle to effectively identify relevant studies even with high retrieval recall.",
+      "url": "http://arxiv.org/abs/2606.17041v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17041v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.17041v1/x1.png",
+      "figure_caption": "Figure 1. Domain distribution of the 442 MetaSyn meta-analyses, grouped by source journal. Clinical specialties (purple) account for 67.6% of the dataset; the remaining 32.4% spans digital health & AI in medicine, social sciences & humanities, environmental & planetary health, and general biology / multidisciplinary topics.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.17029v1",
+      "title": "DEEPRUBRIC: Evidence-Tree Rubric Supervision for Efficient Reinforcement Learning of Deep Research Agents",
+      "authors": [
+        "Minghang Zhu",
+        "Chuyang Wei",
+        "Junhao Xu",
+        "Yilin Cheng",
+        "Zhumin Chen"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "DeepRubric addresses the inefficiency of reinforcement learning for deep research agents by reversing the rubric generation process. Instead of inferring evaluation criteria from a query, it first identifies key evaluation targets for an evidence-backed report and then synthesizes aligned query-rubric pairs. This approach ensures rubrics more reliably capture task scope and evidence needs, leading to more efficient agent training.",
+      "url": "http://arxiv.org/abs/2606.17029v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17029v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.17029v1/x1.png",
+      "figure_caption": "Query-first vs. Evidence-first rubric construction. Query-first pipelines infer rubrics from a given query; DeepRubric builds an evidence tree first and derives both the query and rubric from the same structure, making criteria traceable and query-aligned.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.17005v1",
+      "title": "Bayesian Inference and Decision Audits for Public Archives of Frontier AI Evaluations",
+      "authors": [
+        "Yanan Long"
+      ],
+      "categories": [
+        "cs.AI",
+        "stat.ME"
+      ],
+      "abstract": "This paper proposes a Bayesian inference framework to analyze public AI evaluation archives, recognizing they are selective time series rather than terminal leaderboards. Its core contribution is demonstrating how different historical data interpretations, even with the same terminal model, lead to significantly different conclusions about AI progress timelines. This highlights the need for decision audits to account for these observational uncertainties.",
+      "url": "http://arxiv.org/abs/2606.17005v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17005v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.16987v1",
+      "title": "Consensus-based Agentic Large Language Model Framework for Harmonized Tariff Schedule Code Classification",
+      "authors": [
+        "Truong Thanh Hung Nguyen",
+        "Khanh Van Quynh Nguyen",
+        "Hoang-Loc Cao",
+        "Tri Duong",
+        "Phuc Ho"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a consensus-based agentic LLM framework for classifying Canadian 10-digit Harmonized Tariff Schedule (HTS) codes. The core method involves multiple agents retrieving information, performing semantic searches on official documents, and using evidence-grounded reasoning. The key contribution is a novel consensus mechanism that validates classifications through element-wise voting and confidence estimation, with human escalation for complex cases, aiming to improve accuracy in maritime logistics.",
+      "url": "http://arxiv.org/abs/2606.16987v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.16987v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.16987v1/fig/HTS.png",
+      "figure_caption": "Architecture of the proposed HTS classification framework, showing the interaction between retrieval, reasoning, validation, and user clarification modules.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.16952v1",
+      "title": "Phantoms and Disclosures: a Causal Framework for Auditing Synthetic Data",
+      "authors": [
+        "Kareem Amin",
+        "Rudrajit Das",
+        "Alessandro Epasto",
+        "Adel Javanmard",
+        "Dennis Kraft"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "stat.ML",
+        "stat.AP",
+        "stat.ME"
+      ],
+      "abstract": "This paper proposes a causal auditing framework to detect and explain private information disclosures in synthetic data generated by AI models. It distinguishes between \"true disclosures\" (direct reproduction) and \"phantom disclosures\" (incidental generation) by using statistical hypothesis testing on partitioned real data, without requiring model access. This allows for rigorous privacy auditing against baselines like zero-learning or Differential Privacy.",
+      "url": "http://arxiv.org/abs/2606.16952v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.16952v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.16925v1",
+      "title": "RAID: Semantic Graph Diffusion for True Cold-Start and Cross-Lingual Forecasting",
+      "authors": [
+        "Arunkumar V",
+        "Manoranjan Gandhudi",
+        "Gangadharan G. R.",
+        "Arun Prakash",
+        "S. Senthilkumar"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "RAID addresses the challenge of forecasting for new items with no historical data (true cold-start). It leverages textual metadata to retrieve semantically similar items and uses this information to guide a diffusion model for forecasting. This approach enables accurate predictions and interval coverage for unseen items, outperforming existing methods and reducing inference time.",
+      "url": "http://arxiv.org/abs/2606.16925v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.16925v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.16925v1/Archi_1.png",
+      "figure_caption": "The RAID Architecture. (Top) Inductive Semantic Graph: Metadata is mapped to a shared semantic manifold via BGE-M3 to construct a sparse retrieval graph. (Bottom Left) Shape-Scale Decomposition: Neighbor trajectories are normalized into scale-invariant shapes and aggregated; a target-specific scale is predicted via MLP to reconstruct a deterministic base forecast \\( \\mu \\)_{\\( \\text{base} \\)} . (Bottom Right) Gated Diffusion: A Diffusion Transformer (DiT) models the residual uncertainty 𝐫 \\( \\mathbf{r} \\) , conditioned on the graph context 𝐜 \\( \\mathbf{c} \\) via Adaptive Layer Norm. The final forecast y ^ = μ base + g ⋅ r ^ 0 \\( \\hat{y} \\)=\\( \\mu \\)_{\\( \\text{base} \\)}+g\\( \\cdot \\)\\( \\hat{r}_{0} \\) is emitted as a probabilistic Horizon- H H distribution.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.16991v1",
+      "title": "A Multi-Center Benchmark for Abdominal Disease Diagnosis and Report Generation from Non-Contrast CT",
+      "authors": [
+        "Mariam Elbakry",
+        "Aliaa Sayed Sheha",
+        "Salma Hassan Tantawy",
+        "Aya Yassin",
+        "Concetto Spampinato"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces a novel multi-center benchmark and dataset for diagnosing abdominal diseases and generating radiology reports using only non-contrast CT (NCCT). The core method learns to infer contrast-enhanced findings from NCCT, addressing risks and burdens associated with contrast agents. The contribution lies in demonstrating that NCCT alone contains sufficient diagnostic information and in providing a robust evaluation framework for deep learning models in this domain.",
+      "url": "http://arxiv.org/abs/2606.16991v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.16991v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.16991v1/Figures/study_workflow.png",
+      "figure_caption": "Overview of the benchmark workflow.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.16934v1",
+      "title": "Exploring Extrinsic and Intrinsic Properties for Effective Reasoning with Code Interpreter",
+      "authors": [
+        "Patomporn Payoungkhamdee",
+        "Napat Laosaengpha",
+        "Jenta Wonglertsakul",
+        "Pittawat Taveekitworachai",
+        "Pume Tuchinda"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how to improve Large Language Model (LLM) reasoning with Code Interpreters (CIs) by analyzing \"extrinsic\" (important tokens) and \"intrinsic\" (cognitive behaviors like verification and backtracking) properties. The core method involves identifying and quantifying these properties in effective CI reasoning. The main contribution is demonstrating that these properties are crucial for strong performance and can be leveraged during both inference (by adding tokens) and training to enhance LLM reasoning capabilities.",
+      "url": "http://arxiv.org/abs/2606.16934v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.16934v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.17053v1",
+      "title": "Context-Aware RL for Agentic and Multimodal LLMs",
+      "authors": [
+        "Peiyang Xu",
+        "Bangzheng Li",
+        "Sijia Liu",
+        "Karthik R. Narasimhan",
+        "Pramod Viswanath"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces ContextRL, a reinforcement learning method that enhances LLMs' ability to pinpoint crucial information in complex contexts. By training LLMs to distinguish between similar contexts that support a given query-answer pair, ContextRL encourages fine-grained grounding and improves long-horizon reasoning and multimodal performance. This approach leads to significant gains over standard methods.",
+      "url": "http://arxiv.org/abs/2606.17053v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17053v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.17053v1/results/ContextRL_Failcase.png",
+      "figure_caption": "Context unawareness manifests across both agentic and multimodal systems. Left: In an agentic code-editing setting, the model has access to the relevant source file but fails to maintain consistency with the surrounding context across edits. As a result, it removes the definition of variable i i that is subsequently referenced, causing a runtime error. Right: In a multimodal reasoning setting, the model fails to correctly ground its answer in the visual evidence. Although the relevant information is present in the figure, it misreads the y y value of g ​ ( x ) g(x) as 2 2 rather than 3 3 as x → − 1 x\\( \\to \\)-1 , leading to an incorrect prediction.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.17016v1",
+      "title": "TokenPilot: Cache-Efficient Context Management for LLM Agents",
+      "authors": [
+        "Buqiang Xu",
+        "Zirui Xue",
+        "Dianmou Chen",
+        "Chenyang Fu",
+        "Chiyu Wu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "TokenPilot addresses the rising inference costs of LLM agents by efficiently managing their context. Its core method uses a dual-granularity approach: **Ingestion-Aware Compaction** stabilizes prompt prefixes and filters noise at the entry point, while **Lifecycle-Aware Eviction** conserves context by offloading segments only when their task relevance fades. This framework significantly reduces token footprints and inference costs without disrupting prompt cache continuity.",
+      "url": "http://arxiv.org/abs/2606.17016v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17016v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.17016v1/x1.png",
+      "figure_caption": "Comparison of cache alignment behaviors. While the Original Agent Loop maintains continuous layouts to achieve cumulative cache hits , previous management systems execute text truncation or compaction that mutates input boundaries, inadvertently triggering severe backend KV cache misses .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.17041v1",
+      "title": "Benchmarking LLM Agents on Meta-Analysis Articles from Nature Portfolio",
+      "authors": [
+        "Anzhe Xie",
+        "Weihang Su",
+        "Yujia Zhou",
+        "Yiqun Liu",
+        "Qingyao Ai"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "abstract": "This paper introduces MetaSyn, a novel benchmark dataset for evaluating LLM agents on meta-analysis tasks, covering the entire pipeline from literature retrieval to study selection. The core method involves curating expert-validated meta-analyses with detailed ground truth for each step. The main contribution is highlighting a significant screening bottleneck, demonstrating that current LLM agents struggle to effectively identify relevant studies even with high retrieval recall.",
+      "url": "http://arxiv.org/abs/2606.17041v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17041v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.17041v1/x1.png",
+      "figure_caption": "Figure 1. Domain distribution of the 442 MetaSyn meta-analyses, grouped by source journal. Clinical specialties (purple) account for 67.6% of the dataset; the remaining 32.4% spans digital health & AI in medicine, social sciences & humanities, environmental & planetary health, and general biology / multidisciplinary topics.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.17029v1",
+      "title": "DEEPRUBRIC: Evidence-Tree Rubric Supervision for Efficient Reinforcement Learning of Deep Research Agents",
+      "authors": [
+        "Minghang Zhu",
+        "Chuyang Wei",
+        "Junhao Xu",
+        "Yilin Cheng",
+        "Zhumin Chen"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "DeepRubric addresses the inefficiency of reinforcement learning for deep research agents by reversing the rubric generation process. Instead of inferring evaluation criteria from a query, it first identifies key evaluation targets for an evidence-backed report and then synthesizes aligned query-rubric pairs. This approach ensures rubrics more reliably capture task scope and evidence needs, leading to more efficient agent training.",
+      "url": "http://arxiv.org/abs/2606.17029v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17029v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.17029v1/x1.png",
+      "figure_caption": "Query-first vs. Evidence-first rubric construction. Query-first pipelines infer rubrics from a given query; DeepRubric builds an evidence tree first and derives both the query and rubric from the same structure, making criteria traceable and query-aligned.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.17005v1",
+      "title": "Bayesian Inference and Decision Audits for Public Archives of Frontier AI Evaluations",
+      "authors": [
+        "Yanan Long"
+      ],
+      "categories": [
+        "cs.AI",
+        "stat.ME"
+      ],
+      "abstract": "This paper proposes a Bayesian inference framework to analyze public AI evaluation archives, recognizing they are selective time series rather than terminal leaderboards. Its core contribution is demonstrating how different historical data interpretations, even with the same terminal model, lead to significantly different conclusions about AI progress timelines. This highlights the need for decision audits to account for these observational uncertainties.",
+      "url": "http://arxiv.org/abs/2606.17005v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17005v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.16987v1",
+      "title": "Consensus-based Agentic Large Language Model Framework for Harmonized Tariff Schedule Code Classification",
+      "authors": [
+        "Truong Thanh Hung Nguyen",
+        "Khanh Van Quynh Nguyen",
+        "Hoang-Loc Cao",
+        "Tri Duong",
+        "Phuc Ho"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a consensus-based agentic LLM framework for classifying Canadian 10-digit Harmonized Tariff Schedule (HTS) codes. The core method involves multiple agents retrieving information, performing semantic searches on official documents, and using evidence-grounded reasoning. The key contribution is a novel consensus mechanism that validates classifications through element-wise voting and confidence estimation, with human escalation for complex cases, aiming to improve accuracy in maritime logistics.",
+      "url": "http://arxiv.org/abs/2606.16987v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.16987v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.16987v1/fig/HTS.png",
+      "figure_caption": "Architecture of the proposed HTS classification framework, showing the interaction between retrieval, reasoning, validation, and user clarification modules.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.16952v1",
+      "title": "Phantoms and Disclosures: a Causal Framework for Auditing Synthetic Data",
+      "authors": [
+        "Kareem Amin",
+        "Rudrajit Das",
+        "Alessandro Epasto",
+        "Adel Javanmard",
+        "Dennis Kraft"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "stat.ML",
+        "stat.AP",
+        "stat.ME"
+      ],
+      "abstract": "This paper proposes a causal auditing framework to detect and explain private information disclosures in synthetic data generated by AI models. It distinguishes between \"true disclosures\" (direct reproduction) and \"phantom disclosures\" (incidental generation) by using statistical hypothesis testing on partitioned real data, without requiring model access. This allows for rigorous privacy auditing against baselines like zero-learning or Differential Privacy.",
+      "url": "http://arxiv.org/abs/2606.16952v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.16952v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.16925v1",
+      "title": "RAID: Semantic Graph Diffusion for True Cold-Start and Cross-Lingual Forecasting",
+      "authors": [
+        "Arunkumar V",
+        "Manoranjan Gandhudi",
+        "Gangadharan G. R.",
+        "Arun Prakash",
+        "S. Senthilkumar"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "RAID addresses the challenge of forecasting for new items with no historical data (true cold-start). It leverages textual metadata to retrieve semantically similar items and uses this information to guide a diffusion model for forecasting. This approach enables accurate predictions and interval coverage for unseen items, outperforming existing methods and reducing inference time.",
+      "url": "http://arxiv.org/abs/2606.16925v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.16925v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.16925v1/Archi_1.png",
+      "figure_caption": "The RAID Architecture. (Top) Inductive Semantic Graph: Metadata is mapped to a shared semantic manifold via BGE-M3 to construct a sparse retrieval graph. (Bottom Left) Shape-Scale Decomposition: Neighbor trajectories are normalized into scale-invariant shapes and aggregated; a target-specific scale is predicted via MLP to reconstruct a deterministic base forecast \\( \\mu \\)_{\\( \\text{base} \\)} . (Bottom Right) Gated Diffusion: A Diffusion Transformer (DiT) models the residual uncertainty 𝐫 \\( \\mathbf{r} \\) , conditioned on the graph context 𝐜 \\( \\mathbf{c} \\) via Adaptive Layer Norm. The final forecast y ^ = μ base + g ⋅ r ^ 0 \\( \\hat{y} \\)=\\( \\mu \\)_{\\( \\text{base} \\)}+g\\( \\cdot \\)\\( \\hat{r}_{0} \\) is emitted as a probabilistic Horizon- H H distribution.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.16991v1",
+      "title": "A Multi-Center Benchmark for Abdominal Disease Diagnosis and Report Generation from Non-Contrast CT",
+      "authors": [
+        "Mariam Elbakry",
+        "Aliaa Sayed Sheha",
+        "Salma Hassan Tantawy",
+        "Aya Yassin",
+        "Concetto Spampinato"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces a novel multi-center benchmark and dataset for diagnosing abdominal diseases and generating radiology reports using only non-contrast CT (NCCT). The core method learns to infer contrast-enhanced findings from NCCT, addressing risks and burdens associated with contrast agents. The contribution lies in demonstrating that NCCT alone contains sufficient diagnostic information and in providing a robust evaluation framework for deep learning models in this domain.",
+      "url": "http://arxiv.org/abs/2606.16991v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.16991v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.16991v1/Figures/study_workflow.png",
+      "figure_caption": "Overview of the benchmark workflow.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.16934v1",
+      "title": "Exploring Extrinsic and Intrinsic Properties for Effective Reasoning with Code Interpreter",
+      "authors": [
+        "Patomporn Payoungkhamdee",
+        "Napat Laosaengpha",
+        "Jenta Wonglertsakul",
+        "Pittawat Taveekitworachai",
+        "Pume Tuchinda"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how to improve Large Language Model (LLM) reasoning with Code Interpreters (CIs) by analyzing \"extrinsic\" (important tokens) and \"intrinsic\" (cognitive behaviors like verification and backtracking) properties. The core method involves identifying and quantifying these properties in effective CI reasoning. The main contribution is demonstrating that these properties are crucial for strong performance and can be leveraged during both inference (by adding tokens) and training to enhance LLM reasoning capabilities.",
+      "url": "http://arxiv.org/abs/2606.16934v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.16934v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
