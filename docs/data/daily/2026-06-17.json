@@ -1,0 +1,778 @@
+{
+  "date": "2026-06-17",
+  "generated_at": "2026-06-17T13:02:09.360573+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.18208v1",
+          "title": "Looped World Models",
+          "authors": [
+            "Hongyuan Adam Lu",
+            "Z. L. Victor Wei",
+            "Qun Zhang",
+            "Jinrui Zeng",
+            "Bowen Cao"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "Looped World Models (LoopWM) introduce a novel looped architecture for world modeling, resolving the trade-off between simulation fidelity and computational cost. The core method iteratively refines latent environment states using a parameter-shared transformer, achieving significant parameter efficiency and adaptive computation. This approach establishes iterative latent depth as a new scaling dimension for world simulation, offering a promising direction for future research.",
+          "url": "http://arxiv.org/abs/2606.18208v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.18208v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.18208v1/lwm.png",
+          "figure_caption": "The overall framework of our proposed Looped World Models (LoopWM).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.18203v1",
+          "title": "RubricsTree: Scalable and Evolving Open-Ended Evaluation of Personal Health Agents across Health Memory and Medical Skills",
+          "authors": [
+            "Weizhi Zhang",
+            "Zechen Li",
+            "Hamid Palangi",
+            "Ben Graef",
+            "A. Ali Heydari"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "RubricsTree addresses the challenge of evaluating personal health agents by introducing a scalable framework with a hierarchical taxonomy of over 100 clinically verifiable rubrics. This system uses an adaptive router to select relevant rubrics for each query, ensuring expert-aligned quality at scale. Its core contribution is enabling reliable, cost-effective, and scalable evaluation of these agents, overcoming the limitations of manual physician annotation and subjective LLM judges.",
+          "url": "http://arxiv.org/abs/2606.18203v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.18203v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.18203v1/figures/RubricsTree-Intro.png",
+          "figure_caption": "Overall framework of open-ended evaluation for the personal health agent (PHA). (A) Data sources and the PHA pipeline. (B) Evaluation comparison between the principle baseline and RubricsTree. (C) The context-aware adaptive routing mechanism on RubricsTree. (D) Downstream optimization on HealthBench-Hard for the Gemini and GPT-5.4 families. (E) Meta-evaluation via oracle stress tests across four clinical scenarios under three perturbation settings.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.18193v1",
+          "title": "A Red-Team Study of Anthropic Fable 5 & Opus 4.8 Models",
+          "authors": [
+            "Nicola Franco"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CR"
+          ],
+          "abstract": "This paper red-teams Anthropic's Fable 5 and Opus 4.8 LLMs against automated jailbreak attacks. The core method involves generating millions of adversarial attempts and having judge models verify successes. The key contribution is demonstrating that while these models are robust, adaptive iterative attacks, particularly tree-of-attacks, can still break Opus 4.8 significantly more often than Fable 5, highlighting the limitations of aggregate robustness metrics.",
+          "url": "http://arxiv.org/abs/2606.18193v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.18193v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.18154v1",
+          "title": "Learning Cardiac Electrophysiology Digital Twins Through Agentic Discovery of Hybrid Structure",
+          "authors": [
+            "Ziqi Zhou",
+            "Yubo Ye",
+            "Sumeet Atul Vadhavka",
+            "Linwei Wang",
+            "Zhiqiang Tao"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces LEADS, a framework that uses an LLM agent to automatically discover personalized cardiac electrophysiology digital twin models. LEADS formulates domain knowledge as an action space, allowing the agent to iteratively select, combine, and refine hybrid physics-neural architectures. This approach overcomes the limitations of manual model design and LLM-only methods by ensuring physically grounded and interpretable models for stable cardiac simulations.",
+          "url": "http://arxiv.org/abs/2606.18154v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.18154v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.18154v1/x1.png",
+          "figure_caption": "Overview of LEADS. Left: the LLM agent follows an Observe-Think-Act loop to iteratively assemble and refine hybrid cardiac EP models. Right: the structured action space with a neural diffusion catalog and a physics-based reaction catalog.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.18158v1",
+          "title": "The Measurement Gap in the Automation of EU Law: Benchmarking Doctrinal Legal Reasoning under the EU AI Act",
+          "authors": [
+            "Michèle Finck"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CY"
+          ],
+          "abstract": "This paper addresses a critical \"measurement gap\" in evaluating AI for legal tasks. It argues that current benchmarks focus on paralegal work, failing to assess AI's ability to perform \"doctrinal legal reasoning,\" the core of legal interpretation. The authors propose developing a benchmark for this specific capability, which is essential for the EU AI Act's requirement of \"appropriate accuracy\" in judicial AI.",
+          "url": "http://arxiv.org/abs/2606.18158v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.18158v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.18147v1",
+          "title": "WEQA: Wearable hEalth Question Answering with Query-Adaptive Agentic Reasoning",
+          "authors": [
+            "Yuwei Zhang",
+            "Tong Xia",
+            "Bianca Emmerich",
+            "Yu Yvonne Wu",
+            "Dimitris Spathis"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "WEQA addresses the challenge of answering questions about wearable health data by employing a query-adaptive agent framework. It unifies Large Language Model (LLM) reasoning with specialized wearable data analysis tools. An LLM controller dynamically synthesizes execution plans, routes queries to appropriate analytical and modeling tools, and audits responses with external knowledge, creating a more effective approach for this complex data type.",
+          "url": "http://arxiv.org/abs/2606.18147v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.18147v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.18147v1/x1.png",
+          "figure_caption": "Examples of heterogeneous wearable health questions and the computational requirements. The right panel denotes representative computation steps, such as temporal analysis and model prediction.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.18142v1",
+          "title": "Your AI Travel Agent Would Book You a Bullfight: An Agentic Benchmark for Implicit Animal Welfare in Frontier AI Models",
+          "authors": [
+            "Jasmine Brazilek",
+            "Oliver Tulio",
+            "Joel Christoph",
+            "Miles Tidmarsh",
+            "Carol Kline"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CY"
+          ],
+          "abstract": "This paper introduces TAC, the first agentic benchmark to evaluate AI's ability to avoid animal exploitation in real-world actions like travel booking. The core method involves presenting AI agents with scenarios where they must choose options, and TAC measures their success in avoiding exploitative activities. The key contribution is demonstrating that current frontier AI models, even when asked directly, fail to avoid animal exploitation when acting as agents, highlighting a critical gap in their welfare reasoning.",
+          "url": "http://arxiv.org/abs/2606.18142v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.18142v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.18142v1/x1.png",
+          "figure_caption": "Base welfare rate across seven frontier models (higher bar = model more often selected the safe option), with Wilson 95% confidence intervals ( N = 144 N=144 per model). Stars indicate the two-sided exact binomial test against the chance level p 0 = 0.64 p_{0}=0.64 : ∗ p < 0.05 *\\ p<0.05 , ∗ ∗ p < 0.01 **\\ p<0.01 , ∗ ∗ ∗ p < 0.001 ***\\ p<0.001 , ns = not significant. All bars fall below chance. Completion rates are 100% across all models.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.18166v1",
+          "title": "Evaluating Open-Source LLMs for Multi-Label ATT&CK Technique Classification on CTI Reports",
+          "authors": [
+            "Ahmed Ryan",
+            "Saad Sakib Noor",
+            "Md Erfan",
+            "Shaswata Mitra",
+            "Sudip Mittal"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CR"
+          ],
+          "abstract": "This paper evaluates open-source Large Language Models (LLMs) for classifying multi-label MITRE ATT&CK techniques in complex Cyber Threat Intelligence (CTI) reports. The core method involves creating a new, realistic dataset of human-annotated sentences from CTI reports to overcome the limitations of existing simplified benchmarks. The main contribution is providing an accurate baseline performance of LLMs on this challenging, real-world task, revealing their current capabilities and limitations.",
+          "url": "http://arxiv.org/abs/2606.18166v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.18166v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.18195v1",
+          "title": "Learning from the Self-future: On-policy Self-distillation for dLLMs",
+          "authors": [
+            "Yifu Luo",
+            "Zeyu Chen",
+            "Haoyu Wang",
+            "Xinhao Hu",
+            "Yuxuan Zhang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces d-OPSD, the first on-policy self-distillation method for diffusion LLMs (dLLMs). It uniquely trains dLLMs by using self-generated answers as suffix conditioning and applying step-level supervision, aligning with the iterative denoising process. This approach allows dLLMs to learn from their \"self future-experience\" and achieves superior performance on reasoning tasks compared to existing methods.",
+          "url": "http://arxiv.org/abs/2606.18195v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.18195v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.18195v1/figure/try1.png",
+          "figure_caption": "The reasoning performance and sample efficiency comparisons between the RLVR baseline (diffu-GRPO (Zhao et al. , 2025 ) ) and our approach, d-OPSD.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.18124v1",
+          "title": "Unintended Effects of Geographic Conditioning in Large Language Models",
+          "authors": [
+            "Naz Col",
+            "David M. Chan"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates how LLMs unintentionally leak geographic information when conditioned on user location metadata. The core method involves evaluating \"location leakage\" by prompting models with geographically neutral inputs and observing the frequency of region-specific outputs. The key contribution is the discovery of a \"structural conditioning effect,\" showing that even a placeholder for location in the user profile can significantly increase geographic leakage, highlighting a previously unrecognized bias in how LLMs process contextual information.",
+          "url": "http://arxiv.org/abs/2606.18124v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.18124v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.18124v1/images/new_table.png",
+          "figure_caption": "Injecting a location-specific user profile shifts model output from generic to geographically grounded, even when the user prompt is location-agnostic.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 25,
+        "papers_after_llm_filter": 10,
+        "count": 10
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Post doc in Frugal AI and Remote Sensing for Predictive Freshwater Quality Monitoring",
+          "url": "https://euraxess.ec.europa.eu/jobs/445306",
+          "description": "Presentation of the project :The Previzo project aims to develop an AI-based decision-support tool to optimize water resource management, particularly by anticipating freshwater quality degradation, water-related crises, and conflicts over water use. In a context shaped by climate change... * Work Locations: Number of offers: 1, France, Laboratory PRISME, Orléans, 45100 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) [Technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A401) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 16 Jul 2026 - 12:00 (Europe/Paris) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Spain ![Image 4: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [CIC energiGUNE](https://euraxess.ec.europa.eu/partnering/organisations/profile/cic-energigune-0) * [Field: Computer science]",
+          "institution": "",
+          "posted_date": "16 June 2026",
+          "deadline": "16 Jul 2026 - 12:00 (Europe/Paris)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Frugal AI and Remote Sensing for Predictive Freshwater Quality Monitoring\nKey Requirements: Recognized Researcher (R2) profile.\nApplication Info: deadline/start date: 16 Jul 2026 - 12:00 (Europe/Paris), required materials: N/A, contact: N/A\nPosition Details: location: Orléans, France, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: CV should highlight experience in AI, remote sensing, and potentially LLMs for data analysis and prediction.",
+          "relevance_score": 7.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 1
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 25,
+    "papers_after_llm_filter": 10,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 44
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.18208v1",
+      "title": "Looped World Models",
+      "authors": [
+        "Hongyuan Adam Lu",
+        "Z. L. Victor Wei",
+        "Qun Zhang",
+        "Jinrui Zeng",
+        "Bowen Cao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "Looped World Models (LoopWM) introduce a novel looped architecture for world modeling, resolving the trade-off between simulation fidelity and computational cost. The core method iteratively refines latent environment states using a parameter-shared transformer, achieving significant parameter efficiency and adaptive computation. This approach establishes iterative latent depth as a new scaling dimension for world simulation, offering a promising direction for future research.",
+      "url": "http://arxiv.org/abs/2606.18208v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18208v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.18208v1/lwm.png",
+      "figure_caption": "The overall framework of our proposed Looped World Models (LoopWM).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.18203v1",
+      "title": "RubricsTree: Scalable and Evolving Open-Ended Evaluation of Personal Health Agents across Health Memory and Medical Skills",
+      "authors": [
+        "Weizhi Zhang",
+        "Zechen Li",
+        "Hamid Palangi",
+        "Ben Graef",
+        "A. Ali Heydari"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "RubricsTree addresses the challenge of evaluating personal health agents by introducing a scalable framework with a hierarchical taxonomy of over 100 clinically verifiable rubrics. This system uses an adaptive router to select relevant rubrics for each query, ensuring expert-aligned quality at scale. Its core contribution is enabling reliable, cost-effective, and scalable evaluation of these agents, overcoming the limitations of manual physician annotation and subjective LLM judges.",
+      "url": "http://arxiv.org/abs/2606.18203v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18203v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.18203v1/figures/RubricsTree-Intro.png",
+      "figure_caption": "Overall framework of open-ended evaluation for the personal health agent (PHA). (A) Data sources and the PHA pipeline. (B) Evaluation comparison between the principle baseline and RubricsTree. (C) The context-aware adaptive routing mechanism on RubricsTree. (D) Downstream optimization on HealthBench-Hard for the Gemini and GPT-5.4 families. (E) Meta-evaluation via oracle stress tests across four clinical scenarios under three perturbation settings.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.18193v1",
+      "title": "A Red-Team Study of Anthropic Fable 5 & Opus 4.8 Models",
+      "authors": [
+        "Nicola Franco"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "This paper red-teams Anthropic's Fable 5 and Opus 4.8 LLMs against automated jailbreak attacks. The core method involves generating millions of adversarial attempts and having judge models verify successes. The key contribution is demonstrating that while these models are robust, adaptive iterative attacks, particularly tree-of-attacks, can still break Opus 4.8 significantly more often than Fable 5, highlighting the limitations of aggregate robustness metrics.",
+      "url": "http://arxiv.org/abs/2606.18193v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18193v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.18154v1",
+      "title": "Learning Cardiac Electrophysiology Digital Twins Through Agentic Discovery of Hybrid Structure",
+      "authors": [
+        "Ziqi Zhou",
+        "Yubo Ye",
+        "Sumeet Atul Vadhavka",
+        "Linwei Wang",
+        "Zhiqiang Tao"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces LEADS, a framework that uses an LLM agent to automatically discover personalized cardiac electrophysiology digital twin models. LEADS formulates domain knowledge as an action space, allowing the agent to iteratively select, combine, and refine hybrid physics-neural architectures. This approach overcomes the limitations of manual model design and LLM-only methods by ensuring physically grounded and interpretable models for stable cardiac simulations.",
+      "url": "http://arxiv.org/abs/2606.18154v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18154v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.18154v1/x1.png",
+      "figure_caption": "Overview of LEADS. Left: the LLM agent follows an Observe-Think-Act loop to iteratively assemble and refine hybrid cardiac EP models. Right: the structured action space with a neural diffusion catalog and a physics-based reaction catalog.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.18158v1",
+      "title": "The Measurement Gap in the Automation of EU Law: Benchmarking Doctrinal Legal Reasoning under the EU AI Act",
+      "authors": [
+        "Michèle Finck"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "abstract": "This paper addresses a critical \"measurement gap\" in evaluating AI for legal tasks. It argues that current benchmarks focus on paralegal work, failing to assess AI's ability to perform \"doctrinal legal reasoning,\" the core of legal interpretation. The authors propose developing a benchmark for this specific capability, which is essential for the EU AI Act's requirement of \"appropriate accuracy\" in judicial AI.",
+      "url": "http://arxiv.org/abs/2606.18158v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18158v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.18147v1",
+      "title": "WEQA: Wearable hEalth Question Answering with Query-Adaptive Agentic Reasoning",
+      "authors": [
+        "Yuwei Zhang",
+        "Tong Xia",
+        "Bianca Emmerich",
+        "Yu Yvonne Wu",
+        "Dimitris Spathis"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "WEQA addresses the challenge of answering questions about wearable health data by employing a query-adaptive agent framework. It unifies Large Language Model (LLM) reasoning with specialized wearable data analysis tools. An LLM controller dynamically synthesizes execution plans, routes queries to appropriate analytical and modeling tools, and audits responses with external knowledge, creating a more effective approach for this complex data type.",
+      "url": "http://arxiv.org/abs/2606.18147v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18147v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.18147v1/x1.png",
+      "figure_caption": "Examples of heterogeneous wearable health questions and the computational requirements. The right panel denotes representative computation steps, such as temporal analysis and model prediction.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.18142v1",
+      "title": "Your AI Travel Agent Would Book You a Bullfight: An Agentic Benchmark for Implicit Animal Welfare in Frontier AI Models",
+      "authors": [
+        "Jasmine Brazilek",
+        "Oliver Tulio",
+        "Joel Christoph",
+        "Miles Tidmarsh",
+        "Carol Kline"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "abstract": "This paper introduces TAC, the first agentic benchmark to evaluate AI's ability to avoid animal exploitation in real-world actions like travel booking. The core method involves presenting AI agents with scenarios where they must choose options, and TAC measures their success in avoiding exploitative activities. The key contribution is demonstrating that current frontier AI models, even when asked directly, fail to avoid animal exploitation when acting as agents, highlighting a critical gap in their welfare reasoning.",
+      "url": "http://arxiv.org/abs/2606.18142v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18142v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.18142v1/x1.png",
+      "figure_caption": "Base welfare rate across seven frontier models (higher bar = model more often selected the safe option), with Wilson 95% confidence intervals ( N = 144 N=144 per model). Stars indicate the two-sided exact binomial test against the chance level p 0 = 0.64 p_{0}=0.64 : ∗ p < 0.05 *\\ p<0.05 , ∗ ∗ p < 0.01 **\\ p<0.01 , ∗ ∗ ∗ p < 0.001 ***\\ p<0.001 , ns = not significant. All bars fall below chance. Completion rates are 100% across all models.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.18166v1",
+      "title": "Evaluating Open-Source LLMs for Multi-Label ATT&CK Technique Classification on CTI Reports",
+      "authors": [
+        "Ahmed Ryan",
+        "Saad Sakib Noor",
+        "Md Erfan",
+        "Shaswata Mitra",
+        "Sudip Mittal"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CR"
+      ],
+      "abstract": "This paper evaluates open-source Large Language Models (LLMs) for classifying multi-label MITRE ATT&CK techniques in complex Cyber Threat Intelligence (CTI) reports. The core method involves creating a new, realistic dataset of human-annotated sentences from CTI reports to overcome the limitations of existing simplified benchmarks. The main contribution is providing an accurate baseline performance of LLMs on this challenging, real-world task, revealing their current capabilities and limitations.",
+      "url": "http://arxiv.org/abs/2606.18166v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18166v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.18195v1",
+      "title": "Learning from the Self-future: On-policy Self-distillation for dLLMs",
+      "authors": [
+        "Yifu Luo",
+        "Zeyu Chen",
+        "Haoyu Wang",
+        "Xinhao Hu",
+        "Yuxuan Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces d-OPSD, the first on-policy self-distillation method for diffusion LLMs (dLLMs). It uniquely trains dLLMs by using self-generated answers as suffix conditioning and applying step-level supervision, aligning with the iterative denoising process. This approach allows dLLMs to learn from their \"self future-experience\" and achieves superior performance on reasoning tasks compared to existing methods.",
+      "url": "http://arxiv.org/abs/2606.18195v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18195v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.18195v1/figure/try1.png",
+      "figure_caption": "The reasoning performance and sample efficiency comparisons between the RLVR baseline (diffu-GRPO (Zhao et al. , 2025 ) ) and our approach, d-OPSD.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.18124v1",
+      "title": "Unintended Effects of Geographic Conditioning in Large Language Models",
+      "authors": [
+        "Naz Col",
+        "David M. Chan"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how LLMs unintentionally leak geographic information when conditioned on user location metadata. The core method involves evaluating \"location leakage\" by prompting models with geographically neutral inputs and observing the frequency of region-specific outputs. The key contribution is the discovery of a \"structural conditioning effect,\" showing that even a placeholder for location in the user profile can significantly increase geographic leakage, highlighting a previously unrecognized bias in how LLMs process contextual information.",
+      "url": "http://arxiv.org/abs/2606.18124v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18124v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.18124v1/images/new_table.png",
+      "figure_caption": "Injecting a location-specific user profile shifts model output from generic to geographically grounded, even when the user prompt is location-agnostic.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.18208v1",
+      "title": "Looped World Models",
+      "authors": [
+        "Hongyuan Adam Lu",
+        "Z. L. Victor Wei",
+        "Qun Zhang",
+        "Jinrui Zeng",
+        "Bowen Cao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "Looped World Models (LoopWM) introduce a novel looped architecture for world modeling, resolving the trade-off between simulation fidelity and computational cost. The core method iteratively refines latent environment states using a parameter-shared transformer, achieving significant parameter efficiency and adaptive computation. This approach establishes iterative latent depth as a new scaling dimension for world simulation, offering a promising direction for future research.",
+      "url": "http://arxiv.org/abs/2606.18208v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18208v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.18208v1/lwm.png",
+      "figure_caption": "The overall framework of our proposed Looped World Models (LoopWM).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.18203v1",
+      "title": "RubricsTree: Scalable and Evolving Open-Ended Evaluation of Personal Health Agents across Health Memory and Medical Skills",
+      "authors": [
+        "Weizhi Zhang",
+        "Zechen Li",
+        "Hamid Palangi",
+        "Ben Graef",
+        "A. Ali Heydari"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "RubricsTree addresses the challenge of evaluating personal health agents by introducing a scalable framework with a hierarchical taxonomy of over 100 clinically verifiable rubrics. This system uses an adaptive router to select relevant rubrics for each query, ensuring expert-aligned quality at scale. Its core contribution is enabling reliable, cost-effective, and scalable evaluation of these agents, overcoming the limitations of manual physician annotation and subjective LLM judges.",
+      "url": "http://arxiv.org/abs/2606.18203v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18203v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.18203v1/figures/RubricsTree-Intro.png",
+      "figure_caption": "Overall framework of open-ended evaluation for the personal health agent (PHA). (A) Data sources and the PHA pipeline. (B) Evaluation comparison between the principle baseline and RubricsTree. (C) The context-aware adaptive routing mechanism on RubricsTree. (D) Downstream optimization on HealthBench-Hard for the Gemini and GPT-5.4 families. (E) Meta-evaluation via oracle stress tests across four clinical scenarios under three perturbation settings.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.18193v1",
+      "title": "A Red-Team Study of Anthropic Fable 5 & Opus 4.8 Models",
+      "authors": [
+        "Nicola Franco"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "This paper red-teams Anthropic's Fable 5 and Opus 4.8 LLMs against automated jailbreak attacks. The core method involves generating millions of adversarial attempts and having judge models verify successes. The key contribution is demonstrating that while these models are robust, adaptive iterative attacks, particularly tree-of-attacks, can still break Opus 4.8 significantly more often than Fable 5, highlighting the limitations of aggregate robustness metrics.",
+      "url": "http://arxiv.org/abs/2606.18193v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18193v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.18154v1",
+      "title": "Learning Cardiac Electrophysiology Digital Twins Through Agentic Discovery of Hybrid Structure",
+      "authors": [
+        "Ziqi Zhou",
+        "Yubo Ye",
+        "Sumeet Atul Vadhavka",
+        "Linwei Wang",
+        "Zhiqiang Tao"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces LEADS, a framework that uses an LLM agent to automatically discover personalized cardiac electrophysiology digital twin models. LEADS formulates domain knowledge as an action space, allowing the agent to iteratively select, combine, and refine hybrid physics-neural architectures. This approach overcomes the limitations of manual model design and LLM-only methods by ensuring physically grounded and interpretable models for stable cardiac simulations.",
+      "url": "http://arxiv.org/abs/2606.18154v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18154v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.18154v1/x1.png",
+      "figure_caption": "Overview of LEADS. Left: the LLM agent follows an Observe-Think-Act loop to iteratively assemble and refine hybrid cardiac EP models. Right: the structured action space with a neural diffusion catalog and a physics-based reaction catalog.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.18158v1",
+      "title": "The Measurement Gap in the Automation of EU Law: Benchmarking Doctrinal Legal Reasoning under the EU AI Act",
+      "authors": [
+        "Michèle Finck"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "abstract": "This paper addresses a critical \"measurement gap\" in evaluating AI for legal tasks. It argues that current benchmarks focus on paralegal work, failing to assess AI's ability to perform \"doctrinal legal reasoning,\" the core of legal interpretation. The authors propose developing a benchmark for this specific capability, which is essential for the EU AI Act's requirement of \"appropriate accuracy\" in judicial AI.",
+      "url": "http://arxiv.org/abs/2606.18158v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18158v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.18147v1",
+      "title": "WEQA: Wearable hEalth Question Answering with Query-Adaptive Agentic Reasoning",
+      "authors": [
+        "Yuwei Zhang",
+        "Tong Xia",
+        "Bianca Emmerich",
+        "Yu Yvonne Wu",
+        "Dimitris Spathis"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "WEQA addresses the challenge of answering questions about wearable health data by employing a query-adaptive agent framework. It unifies Large Language Model (LLM) reasoning with specialized wearable data analysis tools. An LLM controller dynamically synthesizes execution plans, routes queries to appropriate analytical and modeling tools, and audits responses with external knowledge, creating a more effective approach for this complex data type.",
+      "url": "http://arxiv.org/abs/2606.18147v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18147v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.18147v1/x1.png",
+      "figure_caption": "Examples of heterogeneous wearable health questions and the computational requirements. The right panel denotes representative computation steps, such as temporal analysis and model prediction.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.18142v1",
+      "title": "Your AI Travel Agent Would Book You a Bullfight: An Agentic Benchmark for Implicit Animal Welfare in Frontier AI Models",
+      "authors": [
+        "Jasmine Brazilek",
+        "Oliver Tulio",
+        "Joel Christoph",
+        "Miles Tidmarsh",
+        "Carol Kline"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "abstract": "This paper introduces TAC, the first agentic benchmark to evaluate AI's ability to avoid animal exploitation in real-world actions like travel booking. The core method involves presenting AI agents with scenarios where they must choose options, and TAC measures their success in avoiding exploitative activities. The key contribution is demonstrating that current frontier AI models, even when asked directly, fail to avoid animal exploitation when acting as agents, highlighting a critical gap in their welfare reasoning.",
+      "url": "http://arxiv.org/abs/2606.18142v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18142v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.18142v1/x1.png",
+      "figure_caption": "Base welfare rate across seven frontier models (higher bar = model more often selected the safe option), with Wilson 95% confidence intervals ( N = 144 N=144 per model). Stars indicate the two-sided exact binomial test against the chance level p 0 = 0.64 p_{0}=0.64 : ∗ p < 0.05 *\\ p<0.05 , ∗ ∗ p < 0.01 **\\ p<0.01 , ∗ ∗ ∗ p < 0.001 ***\\ p<0.001 , ns = not significant. All bars fall below chance. Completion rates are 100% across all models.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.18166v1",
+      "title": "Evaluating Open-Source LLMs for Multi-Label ATT&CK Technique Classification on CTI Reports",
+      "authors": [
+        "Ahmed Ryan",
+        "Saad Sakib Noor",
+        "Md Erfan",
+        "Shaswata Mitra",
+        "Sudip Mittal"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CR"
+      ],
+      "abstract": "This paper evaluates open-source Large Language Models (LLMs) for classifying multi-label MITRE ATT&CK techniques in complex Cyber Threat Intelligence (CTI) reports. The core method involves creating a new, realistic dataset of human-annotated sentences from CTI reports to overcome the limitations of existing simplified benchmarks. The main contribution is providing an accurate baseline performance of LLMs on this challenging, real-world task, revealing their current capabilities and limitations.",
+      "url": "http://arxiv.org/abs/2606.18166v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18166v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.18195v1",
+      "title": "Learning from the Self-future: On-policy Self-distillation for dLLMs",
+      "authors": [
+        "Yifu Luo",
+        "Zeyu Chen",
+        "Haoyu Wang",
+        "Xinhao Hu",
+        "Yuxuan Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces d-OPSD, the first on-policy self-distillation method for diffusion LLMs (dLLMs). It uniquely trains dLLMs by using self-generated answers as suffix conditioning and applying step-level supervision, aligning with the iterative denoising process. This approach allows dLLMs to learn from their \"self future-experience\" and achieves superior performance on reasoning tasks compared to existing methods.",
+      "url": "http://arxiv.org/abs/2606.18195v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18195v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.18195v1/figure/try1.png",
+      "figure_caption": "The reasoning performance and sample efficiency comparisons between the RLVR baseline (diffu-GRPO (Zhao et al. , 2025 ) ) and our approach, d-OPSD.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.18124v1",
+      "title": "Unintended Effects of Geographic Conditioning in Large Language Models",
+      "authors": [
+        "Naz Col",
+        "David M. Chan"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how LLMs unintentionally leak geographic information when conditioned on user location metadata. The core method involves evaluating \"location leakage\" by prompting models with geographically neutral inputs and observing the frequency of region-specific outputs. The key contribution is the discovery of a \"structural conditioning effect,\" showing that even a placeholder for location in the user profile can significantly increase geographic leakage, highlighting a previously unrecognized bias in how LLMs process contextual information.",
+      "url": "http://arxiv.org/abs/2606.18124v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18124v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.18124v1/images/new_table.png",
+      "figure_caption": "Injecting a location-specific user profile shifts model output from generic to geographically grounded, even when the user prompt is location-agnostic.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Post doc in Frugal AI and Remote Sensing for Predictive Freshwater Quality Monitoring",
+      "url": "https://euraxess.ec.europa.eu/jobs/445306",
+      "description": "Presentation of the project :The Previzo project aims to develop an AI-based decision-support tool to optimize water resource management, particularly by anticipating freshwater quality degradation, water-related crises, and conflicts over water use. In a context shaped by climate change... * Work Locations: Number of offers: 1, France, Laboratory PRISME, Orléans, 45100 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) [Technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A401) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 16 Jul 2026 - 12:00 (Europe/Paris) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Spain ![Image 4: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [CIC energiGUNE](https://euraxess.ec.europa.eu/partnering/organisations/profile/cic-energigune-0) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "16 June 2026",
+      "deadline": "16 Jul 2026 - 12:00 (Europe/Paris)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Frugal AI and Remote Sensing for Predictive Freshwater Quality Monitoring\nKey Requirements: Recognized Researcher (R2) profile.\nApplication Info: deadline/start date: 16 Jul 2026 - 12:00 (Europe/Paris), required materials: N/A, contact: N/A\nPosition Details: location: Orléans, France, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: CV should highlight experience in AI, remote sensing, and potentially LLMs for data analysis and prediction.",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Post doc in Frugal AI and Remote Sensing for Predictive Freshwater Quality Monitoring",
+      "url": "https://euraxess.ec.europa.eu/jobs/445306",
+      "description": "Presentation of the project :The Previzo project aims to develop an AI-based decision-support tool to optimize water resource management, particularly by anticipating freshwater quality degradation, water-related crises, and conflicts over water use. In a context shaped by climate change... * Work Locations: Number of offers: 1, France, Laboratory PRISME, Orléans, 45100 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) [Technology](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A401) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 16 Jul 2026 - 12:00 (Europe/Paris) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Spain ![Image 4: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [CIC energiGUNE](https://euraxess.ec.europa.eu/partnering/organisations/profile/cic-energigune-0) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "16 June 2026",
+      "deadline": "16 Jul 2026 - 12:00 (Europe/Paris)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Frugal AI and Remote Sensing for Predictive Freshwater Quality Monitoring\nKey Requirements: Recognized Researcher (R2) profile.\nApplication Info: deadline/start date: 16 Jul 2026 - 12:00 (Europe/Paris), required materials: N/A, contact: N/A\nPosition Details: location: Orléans, France, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: CV should highlight experience in AI, remote sensing, and potentially LLMs for data analysis and prediction.",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
