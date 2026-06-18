@@ -1,0 +1,967 @@
+{
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T12:39:29.871508+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.19297v1",
+          "title": "Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge Retention in Vision-Language-Action Models",
+          "authors": [
+            "Nikita Kachaev",
+            "Andrey Moskalenko",
+            "Matvey Skripkin",
+            "Nikita Kurlaev",
+            "Daria Pugacheva"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.RO"
+          ],
+          "abstract": "This paper introduces Act2Answer, a novel method to evaluate commonsense and world knowledge in Vision-Language-Action (VLA) models. It adapts existing knowledge benchmarks by having agents perform a single action to select an answer, reducing confounds from complex control. The study finds that VLA models significantly lose knowledge during fine-tuning for robotics tasks, highlighting a critical gap in current adaptation methods.",
+          "url": "http://arxiv.org/abs/2606.19297v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.19297v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.19297v1/images/intro2.png",
+          "figure_caption": "Knowledge evaluation results for seven state-of-the-art VLA models across diverse knowledge domains on the Act2Answer Task Suite. The bottom panel shows model performance averaged across all environments on both Act2Answer and LIBERO Liu et al. ( 2023 ) (averaging details are provided in Appendix D ).",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.19264v1",
+          "title": "Structured Inference with Large Language Gibbs",
+          "authors": [
+            "Sanghyeok Choi",
+            "Henry Gouk",
+            "Esmeralda S. Whitammer"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Large Language Gibbs, a novel method for structured probabilistic inference using LLMs. Instead of generating structured outputs in a single pass, it iteratively resamples individual variables conditioned on others, leveraging the LLM's next-token probabilities. This approach mitigates order-dependent biases and produces a stationary distribution that balances local probabilistic constraints, offering a practical alternative to traditional generation methods for structured reasoning tasks.",
+          "url": "http://arxiv.org/abs/2606.19264v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.19264v1",
+          "score": 8.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.19308v1",
+          "title": "Enhancing Decision-Making with Large Language Models through Multi-Agent Fictitious Play",
+          "authors": [
+            "Leyang Shen",
+            "Yang Zhang",
+            "Xiaoyan Zhao",
+            "Chun Kai Ling",
+            "Tat-Seng Chua"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.MA"
+          ],
+          "abstract": "This paper introduces Multi-Agent Fictitious Play (MAFP) to enhance decision-making in complex scenarios where multiple stakeholders' choices are interdependent. MAFP models these stakeholders as agents that iteratively update their decisions by best responding to the historical actions of others, aiming to reach an equilibrium. This approach addresses \"stance entanglement,\" a new form of decision complexity distinct from task execution.",
+          "url": "http://arxiv.org/abs/2606.19308v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.19308v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.19308v1/x1.png",
+          "figure_caption": "Existing MAS address execution complexity, as in software engineering or research (left), by dividing a task into subtasks across cooperative agents. In contrast, MAFP targets stance entanglement, as in competitive market or strategic games (right), where stakeholders’ decisions are mutually dependent: it decomposes these entangled stances into agents and derives decisions through fictitious play.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.19336v1",
+          "title": "Learning User Simulators with Turing Rewards",
+          "authors": [
+            "Yingshan Susan Wang",
+            "Cedegao E. Zhang",
+            "Linlu Qiu",
+            "Zexue He",
+            "Pengyuan Li"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Turing-RL, a novel reinforcement learning method for training user simulators. Instead of matching single ground truth responses, Turing-RL uses a Turing Test framework where an LLM judge scores generated responses based on their indistinguishability from real user behavior. This approach effectively trains user simulators to produce more realistic and human-like interactions, outperforming existing methods in evaluations.",
+          "url": "http://arxiv.org/abs/2606.19336v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.19336v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.19336v1/x1.png",
+          "figure_caption": "Overview of Turing-RL. Given a user’s history, induced persona, and current conversation context, an SFT-initialized policy generates multiple candidate responses via chain-of-thought (CoT) reasoning. A Turing judge (LLM) compares each candidate against the ground truth human response on a 1–7 scale, scoring which is more likely written by the real user. This discriminative Turing reward is used to train the policy with GRPO.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.19168v1",
+          "title": "Beyond Safe Data: Pretraining-Stage Alignment with Regular Safety Reflection",
+          "authors": [
+            "Jinhan Li",
+            "Kexian Tang",
+            "Yihan Xu",
+            "Zhuorui Ye",
+            "Kaifeng Lyu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper proposes \"Safety Reflection Pretraining\" to improve LLM safety by integrating self-monitoring directly into the pretraining process. Instead of just filtering unsafe data, it inserts short \"safety reflections\" into the training corpus. This method establishes a foundational safety capability that enhances resistance to attacks and improves safety classification.",
+          "url": "http://arxiv.org/abs/2606.19168v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.19168v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.19168v1/x1.png",
+          "figure_caption": "Overview of Safety Reflection Pretraining (SRP) . The top row and the bottom-left example illustrate our data pipeline on the pretraining corpus: we split each text into segments and insert a short safety reflection after each segment, so that the model learns to regularly judge the safety of its generation. The bottom-right bar chart reports the attack success rate (ASR, lower is better) of SRP against standard pretraining, where SRP performs best on every metric. GCG is the average ASR over two benchmarks (AdvBench and DirectHarm4); Benign denotes benign finetuning (on GSM8K) and Adversarial denotes adversarial finetuning (on Harmful HEx-PHI).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.19319v1",
+          "title": "Data Intelligence Agents: Interpreting, Modeling, and Querying Enterprise Data via Autonomous Coding Agents",
+          "authors": [
+            "Anoushka Vyas",
+            "Aarushi Dhanuka",
+            "Sina Khoshfetrat Pakazad",
+            "Henrik Ohlsson"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.DB",
+            "cs.MA"
+          ],
+          "abstract": "This paper introduces Data Intelligence Agents (DIA), a system that uses autonomous coding agents to streamline enterprise data integration. DIA's core method involves agents that generate, execute, and validate data artifacts, leveraging shared memory for efficiency. Its main contribution is demonstrating that this execution-grounded, agent-based approach significantly improves data querying performance and generalizes across various SQL benchmarks.",
+          "url": "http://arxiv.org/abs/2606.19319v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.19319v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.19319v1/x1.png",
+          "figure_caption": "DIA against the best prior system on each of the seven SQL benchmarks, ordered by margin. Each benchmark is scored by its official metric.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.19183v1",
+          "title": "Language Models as Interfaces, Not Oracles: A Hybrid LLM-ML System for Pediatric Appendicitis",
+          "authors": [
+            "Soheyl Bateni",
+            "Maryam Abdolali"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces ClaMPAPP, a hybrid system that leverages Large Language Models (LLMs) as an interface to extract structured clinical features from free-text notes, rather than as a direct diagnostic tool. These extracted features are then validated and fed into a traditional machine learning model (XGBoost) for more stable risk prediction of pediatric appendicitis. The core contribution is a robust system that combines the accessibility of LLMs with the reliability of structured ML for improved clinical decision support.",
+          "url": "http://arxiv.org/abs/2606.19183v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.19183v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.19183v1/clampapp_architecture.jpg",
+          "figure_caption": "ClaMPAPP Hybrid System Architecture. The end-to-end pipeline consists of four main stages: (1) Unstructured clinical notes serve as the input. (2) The ClaMPAPP Interface Layer uses an LLM for feature extraction, converting free text into a structured JSON output. (3) A Safety Validator acts as a quality gate, performing range and type checks. Invalid data is either handled automatically(e.g., converted to NaN) or triggers a query back to the clinician. (4) The validated feature vector is passed to the XGBoost model for a final risk prediction and diagnosis.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.19266v1",
+          "title": "Trade-offs in Medical LLM Adaptation: An Empirical Study in French QA",
+          "authors": [
+            "Ikram Belmadani",
+            "Oumaima El Khettari",
+            "Carlos Ramisch",
+            "Frederic Bechet",
+            "Richard Dufour"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper empirically studies trade-offs in adapting Large Language Models (LLMs) for French medical question answering. It compares continual pretraining (CPT) and supervised fine-tuning (SFT), finding that CPT+SFT is often best for multiple-choice QA, but SFT alone is a cost-effective default due to small, often insignificant gains from CPT. For open-ended QA, CPT improves overlap metrics while SFT can degrade generation quality.",
+          "url": "http://arxiv.org/abs/2606.19266v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.19266v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.19266v1/pipeline.png",
+          "figure_caption": "Overview of the experimental pipeline for evaluating medical domain adaptation strategies.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.19256v1",
+          "title": "X+Slides: Benchmarking Audience-Conditioned Slide Generation",
+          "authors": [
+            "Haodong Chen",
+            "Xuanhe Zhou",
+            "Wei Zhou",
+            "Xinyue Shao",
+            "Yanbing Zhu"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces X+Slides, a novel benchmark for evaluating audience-conditioned slide generation. Its core method involves a dynamic evaluation framework that assigns audience-specific utility weights to source-grounded probes. The main contribution is addressing the critical gap in existing benchmarks by explicitly considering the target audience's needs, leading to more realistic and effective slide generation systems.",
+          "url": "http://arxiv.org/abs/2606.19256v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.19256v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.19315v1",
+          "title": "Diffusion-Proof: Recipe for Formal Theorem Proving Beyond Auto-Regressive Generation",
+          "authors": [
+            "Ruida Wang",
+            "Rui Pan",
+            "Pengcheng Wang",
+            "Shizhe Diao",
+            "Tong Zhang"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces **Diffusion-Proof**, the first framework for training and applying diffusion Large Language Models (dLLMs) to formal theorem proving. It addresses limitations of auto-regressive models by leveraging dLLMs' iterative denoising generation, which is better suited for maintaining long-range coherence critical in formal mathematics. This work pioneers the use of dLLMs for this complex reasoning task.",
+          "url": "http://arxiv.org/abs/2606.19315v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.19315v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.19315v1/x1.png",
+          "figure_caption": "Diffusion-Proof framework: (a) Data Collection and Model Training: We first collect a 5.5M Lean SFT dataset from previous works, then perform cleaning and selection to obtain 300k natural language (NL)-formal language (FL) mixture data to fine-tune Fast-dLLM-V2-7B into dLLM-Prover-7B . Subsequently, we select data with subgoal decomposition and perform block filling to formulate data for corrector training. The dLLM-Corrector-7B is fine-tuned by the dataset using Large-block correction training. (b) Proof Writing & Correction: The prover model firstly generates the complete proof for the Lean4 theorems using block-diffusion generation. If the verification fails but the skeleton is correct, the corrector model applies large diffusion block correction to adjust the subgoal proofs based on bi-directional information.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.19341v1",
+          "title": "Native Active Perception as Reasoning for Omni-Modal Understanding",
+          "authors": [
+            "Zhenghao Xing",
+            "Ruiyang Xu",
+            "Yuxuan Wang",
+            "Jinzheng He",
+            "Ziyang Ma"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.CV",
+            "cs.SD"
+          ],
+          "abstract": "This paper introduces OmniAgent, a novel approach to video understanding that treats it as an active reasoning process rather than passive frame-by-frame processing. OmniAgent uses an iterative Observation-Thought-Action cycle, inspired by POMDPs, to selectively extract relevant audio-visual information into a textual memory, thus decoupling computational cost from video length. Its key contributions are methods for bootstrapping this active perception through supervised fine-tuning and a reinforcement learning technique that adapts to conversational turns.",
+          "url": "http://arxiv.org/abs/2606.19341v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.19341v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.19341v1/figures/main_framework.png",
+          "figure_caption": "The OmniAgent Framework for Native Active Perception. Unlike passive methods that process video frames uniformly, OmniAgent treats perception as an iterative reasoning process via an Observation-Thought-Action (OTA) cycle. Conditioned on a specific query, the agent executes on-demand actions to selectively gather audio-visual cues, distilling high-dimensional transient percepts into a persistent textual memory until sufficient evidence is gathered to produce the final answer.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 20,
+        "papers_after_llm_filter": 11,
+        "count": 11
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "HRER2026/281 Predoctoral/postdoctoral en sistemas complejos o Biotecnología/ in complex systems or Biotechnolo",
+          "url": "https://euraxess.ec.europa.eu/jobs/445991",
+          "description": "Creación de un algoritmo en Python para el análisis y la predicción de la recaída tumoral a partir de datos de análisis celular y de la historia clínica para una medicina personalizada./ Development of a Python algorithm for the analysis and prediction of tumor recurrence based on cell analysis data... * Department: HRS4R Work Locations: Number of offers: 1, Spain, Escuela Técnica Superior de Ingeniería Agronómica, Alimentaria y de Biosistemas Escuela Técnica Superior de Ingeniería Agronómica, Alimentaria y de Biosistemas, Madrid, 28014, Madrid, Avenida Puerta de Hierro, 2 Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A316) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 30 Jun 2026 - 23:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 3: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Nantes Université](https://euraxess.ec.europa.eu/partnering/organisations/profile/nantes-universite) * [Field: Medical sciences]",
+          "institution": "",
+          "posted_date": "18 June 2026",
+          "deadline": "30 Jun 2026 - 23:00 (Europe/Madrid)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Complex systems or Biotechnology, specifically Medical sciences.\nKey Requirements: Development of a Python algorithm for analysis and prediction of tumor recurrence using cell analysis and clinical history data for personalized medicine.\nApplication Info: Deadline: 30 Jun 2026 - 23:00 (Europe/Madrid). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Madrid, Spain. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: CV should highlight Python programming, algorithm development, and experience with medical/biological data analysis.",
+          "relevance_score": 7.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        },
+        {
+          "title": "Graduate – Machine Learning and Artificial Intelligence for Spanish Speech Processing PR40/06/2026",
+          "url": "https://euraxess.ec.europa.eu/jobs/445987",
+          "description": "This is a job offer for an assistant researcher to perform research tasks within the COSER-IA project: \"AI to Reduce the Gap in Speech Technologies for the Rural Spain: Adaptation of Large Language Models (LLMs) and Speech Recognizers to Rural Speech\" (SI4/PJI/2024-00237), granted in the 2024 call... * Department: Teaching and Research Staff (Personal Docente e Investigador) Work Locations: Number of offers: 1, Spain, Universidad Autónoma de Madrid, Madrid, 28049, Calle Einstein, 3 Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 1 Jul 2026 - 00:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 5: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Nantes Université](https://euraxess.ec.europa.eu/partnering/organisations/profile/nantes-universite) * [Field: Engineering]",
+          "institution": "",
+          "posted_date": "18 June 2026",
+          "deadline": "1 Jul 2026 - 00:00 (Europe/Madrid)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Machine Learning and Artificial Intelligence for Spanish Speech Processing, Adaptation of Large Language Models (LLMs) and Speech Recognizers to Rural Speech\nKey Requirements: First Stage Researcher (R1) profile\nApplication Info: deadline: 1 Jul 2026 - 00:00 (Europe/Madrid), required materials: N/A, contact: N/A\nPosition Details: location: Universidad Autónoma de Madrid, Madrid, Spain, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+          "relevance_score": 7.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        },
+        {
+          "title": "Graduate – Machine Learning and Artificial Intelligence for Spanish Speech Processing PR41/06/2026",
+          "url": "https://euraxess.ec.europa.eu/jobs/445978",
+          "description": "This is a job offer for an assistant researcher to perform research tasks within the COSER-IA project: \"AI to Reduce the Gap in Speech Technologies for the Rural Spain: Adaptation of Large Language Models (LLMs) and Speech Recognizers to Rural Speech\" (SI4/PJI/2024-00237), granted in the 2024 call... * Department: Teaching and Research Staff (Personal Docente e Investigador) Work Locations: Number of offers: 1, Spain, Universidad Autónoma de Madrid, Madrid, 28049, Calle Einstein, 3 Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 1 Jul 2026 - 00:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * 1 Page 1 * [2](https://euraxess.ec.europa.eu/jobs/search?page=1) * [3](https://euraxess.ec.europa.eu/jobs/search?page=2) * ... * [872](https://euraxess.ec.europa.eu/jobs/search?page=871) * [Next](https://euraxess.ec.europa.eu/jobs/search?page=1) #### Jobs & Opportunities * [Post Jobs](https://euraxess.ec.europa.eu/jobs) * [Search for Jobs](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer) * [Search for Funding](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Afunding) * [Search for Hosting](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ahosting) #### Career Development * [For Researchers](https://euraxess.ec.europa.eu/career-development/researchers) * [For Organisations](https://euraxess.ec.europa.eu/career-development/organisations) #### Partnering * [Search for Researchers](https://euraxess.ec.europa.eu/partnering/members/search) * [Search for Organisations](https://euraxess.ec.europa.eu/partnering/organisations) #### Living & Working in Europe * [Living in Europe](https://euraxess.ec.europa.eu/information/living-europe) * [Leaving Europe](https://euraxess.ec.europa.eu/information/leaving-europe) * [Working in Europe](https://euraxess.ec.europa.eu/information/working-europe) * [Retiring in Europe](https://euraxess.ec.europa.eu/information/pensions-for-researchers) * [EURAXESS Support Centres](https://euraxess.ec.europa.eu/information/centres/search) * [Visa and Entry Conditions](https://euraxess.ec.europa.eu/information/search?f%5B0%5D=information_topic_topic%3A877) #### EURAXESS Worldwide * [Africa](https://euraxess.ec.europa.eu/worldwide/africa) * [ASEAN](https://euraxess.ec.europa.eu/worldwide/asean) * [Australia & New Zealand](https://euraxess.ec.europa.eu/worldwide/australia-nz) * [China](https://euraxess.ec.europa.eu/worldwide/china) * [India](https://euraxess.ec.europa.eu/worldwide/india) * [Japan](https://euraxess.ec.europa.eu/worldwide/japan) * [Korea](https://euraxess.ec.europa.eu/worldwide/south-korea) * [Latin America & Caribbean States](https://euraxess.ec.europa.eu/worldwide/lac) * [North America](https://euraxess.ec.europa.eu/worldwide/north-america) #### My EURAXESS * [Login](https://euraxess.ec.europa.eu/user/login) * [Register](https://euraxess.ec.europa.eu/user/register) #### Follow us * [Facebook](https://www.facebook.com/euraxess/) * [Linkedin](https://www.linkedin.com/company/euraxessofficial/) * [YouTube](https://www.youtube.com/@euraxess) #### Useful Information * [About EURAXESS](https://euraxess.ec.europa.eu/useful-information/about-euraxess) * [Accessibility Statement](https://euraxess.ec.europa.eu/useful-information/accessibility-statement) * [Contact us](https://euraxess.ec.europa.eu/contact-us) * [Brochures](https://euraxess.ec.europa.eu/useful-information/brochures) * [Events](https://euraxess.ec.europa.eu/events) * [FAQs](https://euraxess.ec.europa.eu/useful-information/faq) * [Legal Information](https://euraxess.ec.europa.eu/useful-information) * [News](https://euraxess.ec.europa.eu/news) * [Library](https://euraxess.ec.europa.eu/useful-information/policy-library) * [Privacy statement](https://euraxess.ec.europa.eu/useful-information/privacy-statement) * [Cookie Statement](https://euraxess.ec.europa.eu/euraxess/cookie-policy) * [Useful links](https://euraxess.ec.europa.eu/useful-information/useful-links) #### [European Commission website](https://commission.europa.eu/index_en) * [Contact the European Commission](https://commission.europa.eu/about-european-commission/contact_en) * [Follow the European Commission on social media](https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission) * [Resources for partners](https://commission.europa.eu/resources-partners_en) * [Report an IT vulnerability](https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en) * [Languages on our websites](https://commission.europa.eu/languages-our-websites_en) * [Cookies](https://commission.europa.eu/cookies_en) * [Privacy policy](https://commission.europa.eu/privacy-policy_en) * [Legal notice](https://commission.europa.eu/legal-notice_en) [Field: Engineering]",
+          "institution": "",
+          "posted_date": "",
+          "deadline": "1 Jul 2026 - 00:00 (Europe/Madrid)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Machine Learning and Artificial Intelligence for Spanish Speech Processing, specifically adaptation of Large Language Models (LLMs) and Speech Recognizers to rural Spanish speech.\nKey Requirements: First Stage Researcher (R1) profile.\nApplication Info: Deadline: 1 Jul 2026 - 00:00 (Europe/Madrid). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Universidad Autónoma de Madrid, Madrid, Spain. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: CV should highlight experience in LLM adaptation and speech recognition, especially for low-resource or dialectal variations.",
+          "relevance_score": 7.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 3
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 20,
+    "papers_after_llm_filter": 11,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 44
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.19297v1",
+      "title": "Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge Retention in Vision-Language-Action Models",
+      "authors": [
+        "Nikita Kachaev",
+        "Andrey Moskalenko",
+        "Matvey Skripkin",
+        "Nikita Kurlaev",
+        "Daria Pugacheva"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces Act2Answer, a novel method to evaluate commonsense and world knowledge in Vision-Language-Action (VLA) models. It adapts existing knowledge benchmarks by having agents perform a single action to select an answer, reducing confounds from complex control. The study finds that VLA models significantly lose knowledge during fine-tuning for robotics tasks, highlighting a critical gap in current adaptation methods.",
+      "url": "http://arxiv.org/abs/2606.19297v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19297v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.19297v1/images/intro2.png",
+      "figure_caption": "Knowledge evaluation results for seven state-of-the-art VLA models across diverse knowledge domains on the Act2Answer Task Suite. The bottom panel shows model performance averaged across all environments on both Act2Answer and LIBERO Liu et al. ( 2023 ) (averaging details are provided in Appendix D ).",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.19264v1",
+      "title": "Structured Inference with Large Language Gibbs",
+      "authors": [
+        "Sanghyeok Choi",
+        "Henry Gouk",
+        "Esmeralda S. Whitammer"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Large Language Gibbs, a novel method for structured probabilistic inference using LLMs. Instead of generating structured outputs in a single pass, it iteratively resamples individual variables conditioned on others, leveraging the LLM's next-token probabilities. This approach mitigates order-dependent biases and produces a stationary distribution that balances local probabilistic constraints, offering a practical alternative to traditional generation methods for structured reasoning tasks.",
+      "url": "http://arxiv.org/abs/2606.19264v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19264v1",
+      "score": 8.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.19308v1",
+      "title": "Enhancing Decision-Making with Large Language Models through Multi-Agent Fictitious Play",
+      "authors": [
+        "Leyang Shen",
+        "Yang Zhang",
+        "Xiaoyan Zhao",
+        "Chun Kai Ling",
+        "Tat-Seng Chua"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces Multi-Agent Fictitious Play (MAFP) to enhance decision-making in complex scenarios where multiple stakeholders' choices are interdependent. MAFP models these stakeholders as agents that iteratively update their decisions by best responding to the historical actions of others, aiming to reach an equilibrium. This approach addresses \"stance entanglement,\" a new form of decision complexity distinct from task execution.",
+      "url": "http://arxiv.org/abs/2606.19308v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19308v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.19308v1/x1.png",
+      "figure_caption": "Existing MAS address execution complexity, as in software engineering or research (left), by dividing a task into subtasks across cooperative agents. In contrast, MAFP targets stance entanglement, as in competitive market or strategic games (right), where stakeholders’ decisions are mutually dependent: it decomposes these entangled stances into agents and derives decisions through fictitious play.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.19336v1",
+      "title": "Learning User Simulators with Turing Rewards",
+      "authors": [
+        "Yingshan Susan Wang",
+        "Cedegao E. Zhang",
+        "Linlu Qiu",
+        "Zexue He",
+        "Pengyuan Li"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Turing-RL, a novel reinforcement learning method for training user simulators. Instead of matching single ground truth responses, Turing-RL uses a Turing Test framework where an LLM judge scores generated responses based on their indistinguishability from real user behavior. This approach effectively trains user simulators to produce more realistic and human-like interactions, outperforming existing methods in evaluations.",
+      "url": "http://arxiv.org/abs/2606.19336v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19336v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.19336v1/x1.png",
+      "figure_caption": "Overview of Turing-RL. Given a user’s history, induced persona, and current conversation context, an SFT-initialized policy generates multiple candidate responses via chain-of-thought (CoT) reasoning. A Turing judge (LLM) compares each candidate against the ground truth human response on a 1–7 scale, scoring which is more likely written by the real user. This discriminative Turing reward is used to train the policy with GRPO.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.19168v1",
+      "title": "Beyond Safe Data: Pretraining-Stage Alignment with Regular Safety Reflection",
+      "authors": [
+        "Jinhan Li",
+        "Kexian Tang",
+        "Yihan Xu",
+        "Zhuorui Ye",
+        "Kaifeng Lyu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper proposes \"Safety Reflection Pretraining\" to improve LLM safety by integrating self-monitoring directly into the pretraining process. Instead of just filtering unsafe data, it inserts short \"safety reflections\" into the training corpus. This method establishes a foundational safety capability that enhances resistance to attacks and improves safety classification.",
+      "url": "http://arxiv.org/abs/2606.19168v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19168v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.19168v1/x1.png",
+      "figure_caption": "Overview of Safety Reflection Pretraining (SRP) . The top row and the bottom-left example illustrate our data pipeline on the pretraining corpus: we split each text into segments and insert a short safety reflection after each segment, so that the model learns to regularly judge the safety of its generation. The bottom-right bar chart reports the attack success rate (ASR, lower is better) of SRP against standard pretraining, where SRP performs best on every metric. GCG is the average ASR over two benchmarks (AdvBench and DirectHarm4); Benign denotes benign finetuning (on GSM8K) and Adversarial denotes adversarial finetuning (on Harmful HEx-PHI).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.19319v1",
+      "title": "Data Intelligence Agents: Interpreting, Modeling, and Querying Enterprise Data via Autonomous Coding Agents",
+      "authors": [
+        "Anoushka Vyas",
+        "Aarushi Dhanuka",
+        "Sina Khoshfetrat Pakazad",
+        "Henrik Ohlsson"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.DB",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces Data Intelligence Agents (DIA), a system that uses autonomous coding agents to streamline enterprise data integration. DIA's core method involves agents that generate, execute, and validate data artifacts, leveraging shared memory for efficiency. Its main contribution is demonstrating that this execution-grounded, agent-based approach significantly improves data querying performance and generalizes across various SQL benchmarks.",
+      "url": "http://arxiv.org/abs/2606.19319v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19319v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.19319v1/x1.png",
+      "figure_caption": "DIA against the best prior system on each of the seven SQL benchmarks, ordered by margin. Each benchmark is scored by its official metric.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.19183v1",
+      "title": "Language Models as Interfaces, Not Oracles: A Hybrid LLM-ML System for Pediatric Appendicitis",
+      "authors": [
+        "Soheyl Bateni",
+        "Maryam Abdolali"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ClaMPAPP, a hybrid system that leverages Large Language Models (LLMs) as an interface to extract structured clinical features from free-text notes, rather than as a direct diagnostic tool. These extracted features are then validated and fed into a traditional machine learning model (XGBoost) for more stable risk prediction of pediatric appendicitis. The core contribution is a robust system that combines the accessibility of LLMs with the reliability of structured ML for improved clinical decision support.",
+      "url": "http://arxiv.org/abs/2606.19183v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19183v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.19183v1/clampapp_architecture.jpg",
+      "figure_caption": "ClaMPAPP Hybrid System Architecture. The end-to-end pipeline consists of four main stages: (1) Unstructured clinical notes serve as the input. (2) The ClaMPAPP Interface Layer uses an LLM for feature extraction, converting free text into a structured JSON output. (3) A Safety Validator acts as a quality gate, performing range and type checks. Invalid data is either handled automatically(e.g., converted to NaN) or triggers a query back to the clinician. (4) The validated feature vector is passed to the XGBoost model for a final risk prediction and diagnosis.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.19266v1",
+      "title": "Trade-offs in Medical LLM Adaptation: An Empirical Study in French QA",
+      "authors": [
+        "Ikram Belmadani",
+        "Oumaima El Khettari",
+        "Carlos Ramisch",
+        "Frederic Bechet",
+        "Richard Dufour"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper empirically studies trade-offs in adapting Large Language Models (LLMs) for French medical question answering. It compares continual pretraining (CPT) and supervised fine-tuning (SFT), finding that CPT+SFT is often best for multiple-choice QA, but SFT alone is a cost-effective default due to small, often insignificant gains from CPT. For open-ended QA, CPT improves overlap metrics while SFT can degrade generation quality.",
+      "url": "http://arxiv.org/abs/2606.19266v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19266v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.19266v1/pipeline.png",
+      "figure_caption": "Overview of the experimental pipeline for evaluating medical domain adaptation strategies.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.19256v1",
+      "title": "X+Slides: Benchmarking Audience-Conditioned Slide Generation",
+      "authors": [
+        "Haodong Chen",
+        "Xuanhe Zhou",
+        "Wei Zhou",
+        "Xinyue Shao",
+        "Yanbing Zhu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces X+Slides, a novel benchmark for evaluating audience-conditioned slide generation. Its core method involves a dynamic evaluation framework that assigns audience-specific utility weights to source-grounded probes. The main contribution is addressing the critical gap in existing benchmarks by explicitly considering the target audience's needs, leading to more realistic and effective slide generation systems.",
+      "url": "http://arxiv.org/abs/2606.19256v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19256v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.19315v1",
+      "title": "Diffusion-Proof: Recipe for Formal Theorem Proving Beyond Auto-Regressive Generation",
+      "authors": [
+        "Ruida Wang",
+        "Rui Pan",
+        "Pengcheng Wang",
+        "Shizhe Diao",
+        "Tong Zhang"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **Diffusion-Proof**, the first framework for training and applying diffusion Large Language Models (dLLMs) to formal theorem proving. It addresses limitations of auto-regressive models by leveraging dLLMs' iterative denoising generation, which is better suited for maintaining long-range coherence critical in formal mathematics. This work pioneers the use of dLLMs for this complex reasoning task.",
+      "url": "http://arxiv.org/abs/2606.19315v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19315v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.19315v1/x1.png",
+      "figure_caption": "Diffusion-Proof framework: (a) Data Collection and Model Training: We first collect a 5.5M Lean SFT dataset from previous works, then perform cleaning and selection to obtain 300k natural language (NL)-formal language (FL) mixture data to fine-tune Fast-dLLM-V2-7B into dLLM-Prover-7B . Subsequently, we select data with subgoal decomposition and perform block filling to formulate data for corrector training. The dLLM-Corrector-7B is fine-tuned by the dataset using Large-block correction training. (b) Proof Writing & Correction: The prover model firstly generates the complete proof for the Lean4 theorems using block-diffusion generation. If the verification fails but the skeleton is correct, the corrector model applies large diffusion block correction to adjust the subgoal proofs based on bi-directional information.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.19341v1",
+      "title": "Native Active Perception as Reasoning for Omni-Modal Understanding",
+      "authors": [
+        "Zhenghao Xing",
+        "Ruiyang Xu",
+        "Yuxuan Wang",
+        "Jinzheng He",
+        "Ziyang Ma"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.SD"
+      ],
+      "abstract": "This paper introduces OmniAgent, a novel approach to video understanding that treats it as an active reasoning process rather than passive frame-by-frame processing. OmniAgent uses an iterative Observation-Thought-Action cycle, inspired by POMDPs, to selectively extract relevant audio-visual information into a textual memory, thus decoupling computational cost from video length. Its key contributions are methods for bootstrapping this active perception through supervised fine-tuning and a reinforcement learning technique that adapts to conversational turns.",
+      "url": "http://arxiv.org/abs/2606.19341v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19341v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.19341v1/figures/main_framework.png",
+      "figure_caption": "The OmniAgent Framework for Native Active Perception. Unlike passive methods that process video frames uniformly, OmniAgent treats perception as an iterative reasoning process via an Observation-Thought-Action (OTA) cycle. Conditioned on a specific query, the agent executes on-demand actions to selectively gather audio-visual cues, distilling high-dimensional transient percepts into a persistent textual memory until sufficient evidence is gathered to produce the final answer.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.19297v1",
+      "title": "Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge Retention in Vision-Language-Action Models",
+      "authors": [
+        "Nikita Kachaev",
+        "Andrey Moskalenko",
+        "Matvey Skripkin",
+        "Nikita Kurlaev",
+        "Daria Pugacheva"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces Act2Answer, a novel method to evaluate commonsense and world knowledge in Vision-Language-Action (VLA) models. It adapts existing knowledge benchmarks by having agents perform a single action to select an answer, reducing confounds from complex control. The study finds that VLA models significantly lose knowledge during fine-tuning for robotics tasks, highlighting a critical gap in current adaptation methods.",
+      "url": "http://arxiv.org/abs/2606.19297v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19297v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.19297v1/images/intro2.png",
+      "figure_caption": "Knowledge evaluation results for seven state-of-the-art VLA models across diverse knowledge domains on the Act2Answer Task Suite. The bottom panel shows model performance averaged across all environments on both Act2Answer and LIBERO Liu et al. ( 2023 ) (averaging details are provided in Appendix D ).",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.19264v1",
+      "title": "Structured Inference with Large Language Gibbs",
+      "authors": [
+        "Sanghyeok Choi",
+        "Henry Gouk",
+        "Esmeralda S. Whitammer"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Large Language Gibbs, a novel method for structured probabilistic inference using LLMs. Instead of generating structured outputs in a single pass, it iteratively resamples individual variables conditioned on others, leveraging the LLM's next-token probabilities. This approach mitigates order-dependent biases and produces a stationary distribution that balances local probabilistic constraints, offering a practical alternative to traditional generation methods for structured reasoning tasks.",
+      "url": "http://arxiv.org/abs/2606.19264v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19264v1",
+      "score": 8.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.19308v1",
+      "title": "Enhancing Decision-Making with Large Language Models through Multi-Agent Fictitious Play",
+      "authors": [
+        "Leyang Shen",
+        "Yang Zhang",
+        "Xiaoyan Zhao",
+        "Chun Kai Ling",
+        "Tat-Seng Chua"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces Multi-Agent Fictitious Play (MAFP) to enhance decision-making in complex scenarios where multiple stakeholders' choices are interdependent. MAFP models these stakeholders as agents that iteratively update their decisions by best responding to the historical actions of others, aiming to reach an equilibrium. This approach addresses \"stance entanglement,\" a new form of decision complexity distinct from task execution.",
+      "url": "http://arxiv.org/abs/2606.19308v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19308v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.19308v1/x1.png",
+      "figure_caption": "Existing MAS address execution complexity, as in software engineering or research (left), by dividing a task into subtasks across cooperative agents. In contrast, MAFP targets stance entanglement, as in competitive market or strategic games (right), where stakeholders’ decisions are mutually dependent: it decomposes these entangled stances into agents and derives decisions through fictitious play.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.19336v1",
+      "title": "Learning User Simulators with Turing Rewards",
+      "authors": [
+        "Yingshan Susan Wang",
+        "Cedegao E. Zhang",
+        "Linlu Qiu",
+        "Zexue He",
+        "Pengyuan Li"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Turing-RL, a novel reinforcement learning method for training user simulators. Instead of matching single ground truth responses, Turing-RL uses a Turing Test framework where an LLM judge scores generated responses based on their indistinguishability from real user behavior. This approach effectively trains user simulators to produce more realistic and human-like interactions, outperforming existing methods in evaluations.",
+      "url": "http://arxiv.org/abs/2606.19336v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19336v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.19336v1/x1.png",
+      "figure_caption": "Overview of Turing-RL. Given a user’s history, induced persona, and current conversation context, an SFT-initialized policy generates multiple candidate responses via chain-of-thought (CoT) reasoning. A Turing judge (LLM) compares each candidate against the ground truth human response on a 1–7 scale, scoring which is more likely written by the real user. This discriminative Turing reward is used to train the policy with GRPO.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.19168v1",
+      "title": "Beyond Safe Data: Pretraining-Stage Alignment with Regular Safety Reflection",
+      "authors": [
+        "Jinhan Li",
+        "Kexian Tang",
+        "Yihan Xu",
+        "Zhuorui Ye",
+        "Kaifeng Lyu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper proposes \"Safety Reflection Pretraining\" to improve LLM safety by integrating self-monitoring directly into the pretraining process. Instead of just filtering unsafe data, it inserts short \"safety reflections\" into the training corpus. This method establishes a foundational safety capability that enhances resistance to attacks and improves safety classification.",
+      "url": "http://arxiv.org/abs/2606.19168v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19168v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.19168v1/x1.png",
+      "figure_caption": "Overview of Safety Reflection Pretraining (SRP) . The top row and the bottom-left example illustrate our data pipeline on the pretraining corpus: we split each text into segments and insert a short safety reflection after each segment, so that the model learns to regularly judge the safety of its generation. The bottom-right bar chart reports the attack success rate (ASR, lower is better) of SRP against standard pretraining, where SRP performs best on every metric. GCG is the average ASR over two benchmarks (AdvBench and DirectHarm4); Benign denotes benign finetuning (on GSM8K) and Adversarial denotes adversarial finetuning (on Harmful HEx-PHI).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.19319v1",
+      "title": "Data Intelligence Agents: Interpreting, Modeling, and Querying Enterprise Data via Autonomous Coding Agents",
+      "authors": [
+        "Anoushka Vyas",
+        "Aarushi Dhanuka",
+        "Sina Khoshfetrat Pakazad",
+        "Henrik Ohlsson"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.DB",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces Data Intelligence Agents (DIA), a system that uses autonomous coding agents to streamline enterprise data integration. DIA's core method involves agents that generate, execute, and validate data artifacts, leveraging shared memory for efficiency. Its main contribution is demonstrating that this execution-grounded, agent-based approach significantly improves data querying performance and generalizes across various SQL benchmarks.",
+      "url": "http://arxiv.org/abs/2606.19319v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19319v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.19319v1/x1.png",
+      "figure_caption": "DIA against the best prior system on each of the seven SQL benchmarks, ordered by margin. Each benchmark is scored by its official metric.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.19183v1",
+      "title": "Language Models as Interfaces, Not Oracles: A Hybrid LLM-ML System for Pediatric Appendicitis",
+      "authors": [
+        "Soheyl Bateni",
+        "Maryam Abdolali"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ClaMPAPP, a hybrid system that leverages Large Language Models (LLMs) as an interface to extract structured clinical features from free-text notes, rather than as a direct diagnostic tool. These extracted features are then validated and fed into a traditional machine learning model (XGBoost) for more stable risk prediction of pediatric appendicitis. The core contribution is a robust system that combines the accessibility of LLMs with the reliability of structured ML for improved clinical decision support.",
+      "url": "http://arxiv.org/abs/2606.19183v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19183v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.19183v1/clampapp_architecture.jpg",
+      "figure_caption": "ClaMPAPP Hybrid System Architecture. The end-to-end pipeline consists of four main stages: (1) Unstructured clinical notes serve as the input. (2) The ClaMPAPP Interface Layer uses an LLM for feature extraction, converting free text into a structured JSON output. (3) A Safety Validator acts as a quality gate, performing range and type checks. Invalid data is either handled automatically(e.g., converted to NaN) or triggers a query back to the clinician. (4) The validated feature vector is passed to the XGBoost model for a final risk prediction and diagnosis.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.19266v1",
+      "title": "Trade-offs in Medical LLM Adaptation: An Empirical Study in French QA",
+      "authors": [
+        "Ikram Belmadani",
+        "Oumaima El Khettari",
+        "Carlos Ramisch",
+        "Frederic Bechet",
+        "Richard Dufour"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper empirically studies trade-offs in adapting Large Language Models (LLMs) for French medical question answering. It compares continual pretraining (CPT) and supervised fine-tuning (SFT), finding that CPT+SFT is often best for multiple-choice QA, but SFT alone is a cost-effective default due to small, often insignificant gains from CPT. For open-ended QA, CPT improves overlap metrics while SFT can degrade generation quality.",
+      "url": "http://arxiv.org/abs/2606.19266v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19266v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.19266v1/pipeline.png",
+      "figure_caption": "Overview of the experimental pipeline for evaluating medical domain adaptation strategies.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.19256v1",
+      "title": "X+Slides: Benchmarking Audience-Conditioned Slide Generation",
+      "authors": [
+        "Haodong Chen",
+        "Xuanhe Zhou",
+        "Wei Zhou",
+        "Xinyue Shao",
+        "Yanbing Zhu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces X+Slides, a novel benchmark for evaluating audience-conditioned slide generation. Its core method involves a dynamic evaluation framework that assigns audience-specific utility weights to source-grounded probes. The main contribution is addressing the critical gap in existing benchmarks by explicitly considering the target audience's needs, leading to more realistic and effective slide generation systems.",
+      "url": "http://arxiv.org/abs/2606.19256v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19256v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.19315v1",
+      "title": "Diffusion-Proof: Recipe for Formal Theorem Proving Beyond Auto-Regressive Generation",
+      "authors": [
+        "Ruida Wang",
+        "Rui Pan",
+        "Pengcheng Wang",
+        "Shizhe Diao",
+        "Tong Zhang"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **Diffusion-Proof**, the first framework for training and applying diffusion Large Language Models (dLLMs) to formal theorem proving. It addresses limitations of auto-regressive models by leveraging dLLMs' iterative denoising generation, which is better suited for maintaining long-range coherence critical in formal mathematics. This work pioneers the use of dLLMs for this complex reasoning task.",
+      "url": "http://arxiv.org/abs/2606.19315v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19315v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.19315v1/x1.png",
+      "figure_caption": "Diffusion-Proof framework: (a) Data Collection and Model Training: We first collect a 5.5M Lean SFT dataset from previous works, then perform cleaning and selection to obtain 300k natural language (NL)-formal language (FL) mixture data to fine-tune Fast-dLLM-V2-7B into dLLM-Prover-7B . Subsequently, we select data with subgoal decomposition and perform block filling to formulate data for corrector training. The dLLM-Corrector-7B is fine-tuned by the dataset using Large-block correction training. (b) Proof Writing & Correction: The prover model firstly generates the complete proof for the Lean4 theorems using block-diffusion generation. If the verification fails but the skeleton is correct, the corrector model applies large diffusion block correction to adjust the subgoal proofs based on bi-directional information.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.19341v1",
+      "title": "Native Active Perception as Reasoning for Omni-Modal Understanding",
+      "authors": [
+        "Zhenghao Xing",
+        "Ruiyang Xu",
+        "Yuxuan Wang",
+        "Jinzheng He",
+        "Ziyang Ma"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.SD"
+      ],
+      "abstract": "This paper introduces OmniAgent, a novel approach to video understanding that treats it as an active reasoning process rather than passive frame-by-frame processing. OmniAgent uses an iterative Observation-Thought-Action cycle, inspired by POMDPs, to selectively extract relevant audio-visual information into a textual memory, thus decoupling computational cost from video length. Its key contributions are methods for bootstrapping this active perception through supervised fine-tuning and a reinforcement learning technique that adapts to conversational turns.",
+      "url": "http://arxiv.org/abs/2606.19341v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19341v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.19341v1/figures/main_framework.png",
+      "figure_caption": "The OmniAgent Framework for Native Active Perception. Unlike passive methods that process video frames uniformly, OmniAgent treats perception as an iterative reasoning process via an Observation-Thought-Action (OTA) cycle. Conditioned on a specific query, the agent executes on-demand actions to selectively gather audio-visual cues, distilling high-dimensional transient percepts into a persistent textual memory until sufficient evidence is gathered to produce the final answer.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "HRER2026/281 Predoctoral/postdoctoral en sistemas complejos o Biotecnología/ in complex systems or Biotechnolo",
+      "url": "https://euraxess.ec.europa.eu/jobs/445991",
+      "description": "Creación de un algoritmo en Python para el análisis y la predicción de la recaída tumoral a partir de datos de análisis celular y de la historia clínica para una medicina personalizada./ Development of a Python algorithm for the analysis and prediction of tumor recurrence based on cell analysis data... * Department: HRS4R Work Locations: Number of offers: 1, Spain, Escuela Técnica Superior de Ingeniería Agronómica, Alimentaria y de Biosistemas Escuela Técnica Superior de Ingeniería Agronómica, Alimentaria y de Biosistemas, Madrid, 28014, Madrid, Avenida Puerta de Hierro, 2 Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A316) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 30 Jun 2026 - 23:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 3: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Nantes Université](https://euraxess.ec.europa.eu/partnering/organisations/profile/nantes-universite) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "18 June 2026",
+      "deadline": "30 Jun 2026 - 23:00 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Complex systems or Biotechnology, specifically Medical sciences.\nKey Requirements: Development of a Python algorithm for analysis and prediction of tumor recurrence using cell analysis and clinical history data for personalized medicine.\nApplication Info: Deadline: 30 Jun 2026 - 23:00 (Europe/Madrid). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Madrid, Spain. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: CV should highlight Python programming, algorithm development, and experience with medical/biological data analysis.",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "Graduate – Machine Learning and Artificial Intelligence for Spanish Speech Processing PR40/06/2026",
+      "url": "https://euraxess.ec.europa.eu/jobs/445987",
+      "description": "This is a job offer for an assistant researcher to perform research tasks within the COSER-IA project: \"AI to Reduce the Gap in Speech Technologies for the Rural Spain: Adaptation of Large Language Models (LLMs) and Speech Recognizers to Rural Speech\" (SI4/PJI/2024-00237), granted in the 2024 call... * Department: Teaching and Research Staff (Personal Docente e Investigador) Work Locations: Number of offers: 1, Spain, Universidad Autónoma de Madrid, Madrid, 28049, Calle Einstein, 3 Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 1 Jul 2026 - 00:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 5: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Nantes Université](https://euraxess.ec.europa.eu/partnering/organisations/profile/nantes-universite) * [Field: Engineering]",
+      "institution": "",
+      "posted_date": "18 June 2026",
+      "deadline": "1 Jul 2026 - 00:00 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Machine Learning and Artificial Intelligence for Spanish Speech Processing, Adaptation of Large Language Models (LLMs) and Speech Recognizers to Rural Speech\nKey Requirements: First Stage Researcher (R1) profile\nApplication Info: deadline: 1 Jul 2026 - 00:00 (Europe/Madrid), required materials: N/A, contact: N/A\nPosition Details: location: Universidad Autónoma de Madrid, Madrid, Spain, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "Graduate – Machine Learning and Artificial Intelligence for Spanish Speech Processing PR41/06/2026",
+      "url": "https://euraxess.ec.europa.eu/jobs/445978",
+      "description": "This is a job offer for an assistant researcher to perform research tasks within the COSER-IA project: \"AI to Reduce the Gap in Speech Technologies for the Rural Spain: Adaptation of Large Language Models (LLMs) and Speech Recognizers to Rural Speech\" (SI4/PJI/2024-00237), granted in the 2024 call... * Department: Teaching and Research Staff (Personal Docente e Investigador) Work Locations: Number of offers: 1, Spain, Universidad Autónoma de Madrid, Madrid, 28049, Calle Einstein, 3 Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 1 Jul 2026 - 00:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * 1 Page 1 * [2](https://euraxess.ec.europa.eu/jobs/search?page=1) * [3](https://euraxess.ec.europa.eu/jobs/search?page=2) * ... * [872](https://euraxess.ec.europa.eu/jobs/search?page=871) * [Next](https://euraxess.ec.europa.eu/jobs/search?page=1) #### Jobs & Opportunities * [Post Jobs](https://euraxess.ec.europa.eu/jobs) * [Search for Jobs](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer) * [Search for Funding](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Afunding) * [Search for Hosting](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ahosting) #### Career Development * [For Researchers](https://euraxess.ec.europa.eu/career-development/researchers) * [For Organisations](https://euraxess.ec.europa.eu/career-development/organisations) #### Partnering * [Search for Researchers](https://euraxess.ec.europa.eu/partnering/members/search) * [Search for Organisations](https://euraxess.ec.europa.eu/partnering/organisations) #### Living & Working in Europe * [Living in Europe](https://euraxess.ec.europa.eu/information/living-europe) * [Leaving Europe](https://euraxess.ec.europa.eu/information/leaving-europe) * [Working in Europe](https://euraxess.ec.europa.eu/information/working-europe) * [Retiring in Europe](https://euraxess.ec.europa.eu/information/pensions-for-researchers) * [EURAXESS Support Centres](https://euraxess.ec.europa.eu/information/centres/search) * [Visa and Entry Conditions](https://euraxess.ec.europa.eu/information/search?f%5B0%5D=information_topic_topic%3A877) #### EURAXESS Worldwide * [Africa](https://euraxess.ec.europa.eu/worldwide/africa) * [ASEAN](https://euraxess.ec.europa.eu/worldwide/asean) * [Australia & New Zealand](https://euraxess.ec.europa.eu/worldwide/australia-nz) * [China](https://euraxess.ec.europa.eu/worldwide/china) * [India](https://euraxess.ec.europa.eu/worldwide/india) * [Japan](https://euraxess.ec.europa.eu/worldwide/japan) * [Korea](https://euraxess.ec.europa.eu/worldwide/south-korea) * [Latin America & Caribbean States](https://euraxess.ec.europa.eu/worldwide/lac) * [North America](https://euraxess.ec.europa.eu/worldwide/north-america) #### My EURAXESS * [Login](https://euraxess.ec.europa.eu/user/login) * [Register](https://euraxess.ec.europa.eu/user/register) #### Follow us * [Facebook](https://www.facebook.com/euraxess/) * [Linkedin](https://www.linkedin.com/company/euraxessofficial/) * [YouTube](https://www.youtube.com/@euraxess) #### Useful Information * [About EURAXESS](https://euraxess.ec.europa.eu/useful-information/about-euraxess) * [Accessibility Statement](https://euraxess.ec.europa.eu/useful-information/accessibility-statement) * [Contact us](https://euraxess.ec.europa.eu/contact-us) * [Brochures](https://euraxess.ec.europa.eu/useful-information/brochures) * [Events](https://euraxess.ec.europa.eu/events) * [FAQs](https://euraxess.ec.europa.eu/useful-information/faq) * [Legal Information](https://euraxess.ec.europa.eu/useful-information) * [News](https://euraxess.ec.europa.eu/news) * [Library](https://euraxess.ec.europa.eu/useful-information/policy-library) * [Privacy statement](https://euraxess.ec.europa.eu/useful-information/privacy-statement) * [Cookie Statement](https://euraxess.ec.europa.eu/euraxess/cookie-policy) * [Useful links](https://euraxess.ec.europa.eu/useful-information/useful-links) #### [European Commission website](https://commission.europa.eu/index_en) * [Contact the European Commission](https://commission.europa.eu/about-european-commission/contact_en) * [Follow the European Commission on social media](https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission) * [Resources for partners](https://commission.europa.eu/resources-partners_en) * [Report an IT vulnerability](https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en) * [Languages on our websites](https://commission.europa.eu/languages-our-websites_en) * [Cookies](https://commission.europa.eu/cookies_en) * [Privacy policy](https://commission.europa.eu/privacy-policy_en) * [Legal notice](https://commission.europa.eu/legal-notice_en) [Field: Engineering]",
+      "institution": "",
+      "posted_date": "",
+      "deadline": "1 Jul 2026 - 00:00 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Machine Learning and Artificial Intelligence for Spanish Speech Processing, specifically adaptation of Large Language Models (LLMs) and Speech Recognizers to rural Spanish speech.\nKey Requirements: First Stage Researcher (R1) profile.\nApplication Info: Deadline: 1 Jul 2026 - 00:00 (Europe/Madrid). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Universidad Autónoma de Madrid, Madrid, Spain. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: CV should highlight experience in LLM adaptation and speech recognition, especially for low-resource or dialectal variations.",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "HRER2026/281 Predoctoral/postdoctoral en sistemas complejos o Biotecnología/ in complex systems or Biotechnolo",
+      "url": "https://euraxess.ec.europa.eu/jobs/445991",
+      "description": "Creación de un algoritmo en Python para el análisis y la predicción de la recaída tumoral a partir de datos de análisis celular y de la historia clínica para una medicina personalizada./ Development of a Python algorithm for the analysis and prediction of tumor recurrence based on cell analysis data... * Department: HRS4R Work Locations: Number of offers: 1, Spain, Escuela Técnica Superior de Ingeniería Agronómica, Alimentaria y de Biosistemas Escuela Técnica Superior de Ingeniería Agronómica, Alimentaria y de Biosistemas, Madrid, 28014, Madrid, Avenida Puerta de Hierro, 2 Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A316) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 30 Jun 2026 - 23:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 3: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Nantes Université](https://euraxess.ec.europa.eu/partnering/organisations/profile/nantes-universite) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "18 June 2026",
+      "deadline": "30 Jun 2026 - 23:00 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Complex systems or Biotechnology, specifically Medical sciences.\nKey Requirements: Development of a Python algorithm for analysis and prediction of tumor recurrence using cell analysis and clinical history data for personalized medicine.\nApplication Info: Deadline: 30 Jun 2026 - 23:00 (Europe/Madrid). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Madrid, Spain. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: CV should highlight Python programming, algorithm development, and experience with medical/biological data analysis.",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "Graduate – Machine Learning and Artificial Intelligence for Spanish Speech Processing PR40/06/2026",
+      "url": "https://euraxess.ec.europa.eu/jobs/445987",
+      "description": "This is a job offer for an assistant researcher to perform research tasks within the COSER-IA project: \"AI to Reduce the Gap in Speech Technologies for the Rural Spain: Adaptation of Large Language Models (LLMs) and Speech Recognizers to Rural Speech\" (SI4/PJI/2024-00237), granted in the 2024 call... * Department: Teaching and Research Staff (Personal Docente e Investigador) Work Locations: Number of offers: 1, Spain, Universidad Autónoma de Madrid, Madrid, 28049, Calle Einstein, 3 Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 1 Jul 2026 - 00:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 5: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Nantes Université](https://euraxess.ec.europa.eu/partnering/organisations/profile/nantes-universite) * [Field: Engineering]",
+      "institution": "",
+      "posted_date": "18 June 2026",
+      "deadline": "1 Jul 2026 - 00:00 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Machine Learning and Artificial Intelligence for Spanish Speech Processing, Adaptation of Large Language Models (LLMs) and Speech Recognizers to Rural Speech\nKey Requirements: First Stage Researcher (R1) profile\nApplication Info: deadline: 1 Jul 2026 - 00:00 (Europe/Madrid), required materials: N/A, contact: N/A\nPosition Details: location: Universidad Autónoma de Madrid, Madrid, Spain, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "Graduate – Machine Learning and Artificial Intelligence for Spanish Speech Processing PR41/06/2026",
+      "url": "https://euraxess.ec.europa.eu/jobs/445978",
+      "description": "This is a job offer for an assistant researcher to perform research tasks within the COSER-IA project: \"AI to Reduce the Gap in Speech Technologies for the Rural Spain: Adaptation of Large Language Models (LLMs) and Speech Recognizers to Rural Speech\" (SI4/PJI/2024-00237), granted in the 2024 call... * Department: Teaching and Research Staff (Personal Docente e Investigador) Work Locations: Number of offers: 1, Spain, Universidad Autónoma de Madrid, Madrid, 28049, Calle Einstein, 3 Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 1 Jul 2026 - 00:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * 1 Page 1 * [2](https://euraxess.ec.europa.eu/jobs/search?page=1) * [3](https://euraxess.ec.europa.eu/jobs/search?page=2) * ... * [872](https://euraxess.ec.europa.eu/jobs/search?page=871) * [Next](https://euraxess.ec.europa.eu/jobs/search?page=1) #### Jobs & Opportunities * [Post Jobs](https://euraxess.ec.europa.eu/jobs) * [Search for Jobs](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer) * [Search for Funding](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Afunding) * [Search for Hosting](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ahosting) #### Career Development * [For Researchers](https://euraxess.ec.europa.eu/career-development/researchers) * [For Organisations](https://euraxess.ec.europa.eu/career-development/organisations) #### Partnering * [Search for Researchers](https://euraxess.ec.europa.eu/partnering/members/search) * [Search for Organisations](https://euraxess.ec.europa.eu/partnering/organisations) #### Living & Working in Europe * [Living in Europe](https://euraxess.ec.europa.eu/information/living-europe) * [Leaving Europe](https://euraxess.ec.europa.eu/information/leaving-europe) * [Working in Europe](https://euraxess.ec.europa.eu/information/working-europe) * [Retiring in Europe](https://euraxess.ec.europa.eu/information/pensions-for-researchers) * [EURAXESS Support Centres](https://euraxess.ec.europa.eu/information/centres/search) * [Visa and Entry Conditions](https://euraxess.ec.europa.eu/information/search?f%5B0%5D=information_topic_topic%3A877) #### EURAXESS Worldwide * [Africa](https://euraxess.ec.europa.eu/worldwide/africa) * [ASEAN](https://euraxess.ec.europa.eu/worldwide/asean) * [Australia & New Zealand](https://euraxess.ec.europa.eu/worldwide/australia-nz) * [China](https://euraxess.ec.europa.eu/worldwide/china) * [India](https://euraxess.ec.europa.eu/worldwide/india) * [Japan](https://euraxess.ec.europa.eu/worldwide/japan) * [Korea](https://euraxess.ec.europa.eu/worldwide/south-korea) * [Latin America & Caribbean States](https://euraxess.ec.europa.eu/worldwide/lac) * [North America](https://euraxess.ec.europa.eu/worldwide/north-america) #### My EURAXESS * [Login](https://euraxess.ec.europa.eu/user/login) * [Register](https://euraxess.ec.europa.eu/user/register) #### Follow us * [Facebook](https://www.facebook.com/euraxess/) * [Linkedin](https://www.linkedin.com/company/euraxessofficial/) * [YouTube](https://www.youtube.com/@euraxess) #### Useful Information * [About EURAXESS](https://euraxess.ec.europa.eu/useful-information/about-euraxess) * [Accessibility Statement](https://euraxess.ec.europa.eu/useful-information/accessibility-statement) * [Contact us](https://euraxess.ec.europa.eu/contact-us) * [Brochures](https://euraxess.ec.europa.eu/useful-information/brochures) * [Events](https://euraxess.ec.europa.eu/events) * [FAQs](https://euraxess.ec.europa.eu/useful-information/faq) * [Legal Information](https://euraxess.ec.europa.eu/useful-information) * [News](https://euraxess.ec.europa.eu/news) * [Library](https://euraxess.ec.europa.eu/useful-information/policy-library) * [Privacy statement](https://euraxess.ec.europa.eu/useful-information/privacy-statement) * [Cookie Statement](https://euraxess.ec.europa.eu/euraxess/cookie-policy) * [Useful links](https://euraxess.ec.europa.eu/useful-information/useful-links) #### [European Commission website](https://commission.europa.eu/index_en) * [Contact the European Commission](https://commission.europa.eu/about-european-commission/contact_en) * [Follow the European Commission on social media](https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission) * [Resources for partners](https://commission.europa.eu/resources-partners_en) * [Report an IT vulnerability](https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en) * [Languages on our websites](https://commission.europa.eu/languages-our-websites_en) * [Cookies](https://commission.europa.eu/cookies_en) * [Privacy policy](https://commission.europa.eu/privacy-policy_en) * [Legal notice](https://commission.europa.eu/legal-notice_en) [Field: Engineering]",
+      "institution": "",
+      "posted_date": "",
+      "deadline": "1 Jul 2026 - 00:00 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Machine Learning and Artificial Intelligence for Spanish Speech Processing, specifically adaptation of Large Language Models (LLMs) and Speech Recognizers to rural Spanish speech.\nKey Requirements: First Stage Researcher (R1) profile.\nApplication Info: Deadline: 1 Jul 2026 - 00:00 (Europe/Madrid). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Universidad Autónoma de Madrid, Madrid, Spain. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: CV should highlight experience in LLM adaptation and speech recognition, especially for low-resource or dialectal variations.",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
