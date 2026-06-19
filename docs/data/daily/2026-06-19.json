@@ -1,0 +1,682 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19T13:00:42.910186+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.20408v1",
+          "title": "LLM agent safety, multi-turn red-teaming, jailbreak benchmarks, adversarial robustness, safety-critical systems",
+          "authors": [
+            "Hanwool Lee",
+            "Dasol Choi",
+            "Bokyeong Kim",
+            "Seung Geun Kim",
+            "Haon Park"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "This paper introduces NRT-Bench, a novel benchmark for multi-turn red-teaming of LLM agents in safety-critical systems, specifically a simulated nuclear power plant. The core method involves adversaries engaging LLM operators in adaptive, multi-turn conversations to test their robustness, with harm measured by objective system failures rather than subjective text evaluation. The key contribution is demonstrating that current frontier LLM operators are vulnerable to sustained adversarial pressure, leading to significant safety breaches.",
+          "url": "http://arxiv.org/abs/2606.20408v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.20408v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.20408v1/x1.png",
+          "figure_caption": "Figure 1. NRT-Bench at a glance. A multi-turn red-team attacker probes a safety-critical control-room venue through four ingress channels, while a five-role LLM operator team manages a closed plant simulator under guardrail and approval constraints. Each turn updates plant state and critical safety functions (CSFs), then returns redaction-aware feedback to the attacker for adaptive escalation. Unlike text-only jailbreak benchmarks, NRT-Bench defines primary harm as simulator-derived CSF loss.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.20474v1",
+          "title": "UltraQuant: 4-bit KV Caching for Context-Heavy Agents",
+          "authors": [
+            "Inesh Chakrabarti",
+            "David Limpus",
+            "Aditi Ghai Rana",
+            "Bowen Bao",
+            "Spandan Tiwari"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.PF"
+          ],
+          "abstract": "UltraQuant proposes a 4-bit KV cache compression method for context-heavy AI agents, addressing the challenges of long prefixes and concurrent requests. Its core method involves a robust design with asymmetric K/V treatment and specific quantization techniques, enabling efficient serving on AMD GPUs. The main contribution is a practical, high-throughput FP4 KV caching solution that jointly optimizes task quality, cache residency, and serving performance.",
+          "url": "http://arxiv.org/abs/2606.20474v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.20474v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.20477v1",
+          "title": "Scalable Training of Spatially Grounded 2D Vision-Language Models for Radiology",
+          "authors": [
+            "Yusuf Salcan",
+            "Simon Ging",
+            "Robin Schirrmeister",
+            "Philipp Arnold",
+            "Elmar Kotter"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces RefRad2D, a large-scale dataset of radiology images and text, automatically curated without manual spatial annotations. Their model, RadGrounder, trained on this data, achieves competitive performance in report generation, VQA, and spatial grounding. The key contribution is demonstrating that training with automatically generated spatial information improves VQA performance without sacrificing language quality.",
+          "url": "http://arxiv.org/abs/2606.20477v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.20477v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.20477v1/dataset_grounding.png",
+          "figure_caption": "Overview of the components to generate the data for visual grounding. We use TotalSegmentator [ 21 , 1 ] to create 3D segmentation masks. Via slicing and LLM-based keyword extraction we create dense 2D pixel-level annotations. A strict set-intersection filter ( C T ∩ C I ≠ ∅ C_{T}\\( \\cap \\) C_{I}\\( \\neq \\)\\( \\emptyset \\) ) ensures high-quality matching between textual entities and visual regions.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.20482v1",
+          "title": "Your Mouse and Eyes Secretly Leak Your Preference: LLM Alignment using Implicit Feedback from Users",
+          "authors": [
+            "Haw-Shiuan Chang",
+            "Jeffrey Gomez",
+            "Mehul Patwari",
+            "Aryan Sajith",
+            "Hamed Zamani"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL",
+            "cs.HC"
+          ],
+          "abstract": "This paper proposes a novel method for aligning Large Language Models (LLMs) by leveraging implicit user feedback, such as mouse movements and eye gaze, instead of relying solely on expensive explicit ratings. By collecting and analyzing this implicit data, the researchers demonstrate that it significantly improves the accuracy of reward models, leading to better LLM alignment.",
+          "url": "http://arxiv.org/abs/2606.20482v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.20482v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.20482v1/x1.png",
+          "figure_caption": "IFllm records the trajectories of eye gazing and mouse from a question answering session between a user and two LLMs. Then, we train our random forest reward model on the features extracted from the trajectories and preference labels from the user. Finally, we show that applying DPO to preferences predicted by our reward model improves LLM outputs more than a standard text-based reward model. This improvement could attract more users, enrich implicit user preferences, and promote a positive feedback loop.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.20470v1",
+          "title": "Analyzing Defensive Misdirection Against Model-Guided Automated Attacks on Agentic AI Systems",
+          "authors": [
+            "Reza Soosahabi",
+            "Vivek Namsani"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "This paper analyzes how automated, model-guided attacks can overcome traditional defenses against agentic AI systems. The core method uses a probabilistic model to show that predictable defenses provide feedback to attackers, leading to high success rates. The key contribution is proposing \"detect-and-misdirect\" defenses, which use controlled, misleading responses to trick the attacker's automated judge and reduce their attack effectiveness.",
+          "url": "http://arxiv.org/abs/2606.20470v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.20470v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.20470v1/figs/cmpe-example.png",
+          "figure_caption": "Example of contextual misdirection response generated by CMPE method in Algorithm 2 against an automated jailbreak request.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.20493v1",
+          "title": "Contagion Networks: Evaluator Bias Propagation in Multi-Agent LLM Systems",
+          "authors": [
+            "Zewen Liu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.MA"
+          ],
+          "abstract": "This paper introduces \"Contagion Networks,\" a framework to quantify how evaluator biases spread among interacting LLM agents. The core method involves measuring the \"Cross-Agent Contagion Matrix\" to track bias propagation. The key contribution is demonstrating that even within the same LLM, evaluator biases consistently spread, and that larger evaluator committees can significantly suppress this contagion.",
+          "url": "http://arxiv.org/abs/2606.20493v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.20493v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.20493v1/x1.png",
+          "figure_caption": "Cross-agent contagion network \\( \\Gamma_{3} \\) (mean over n = 2 n=2 seeds). All edges are dashed ( γ < 1.0 \\( \\gamma \\)<1.0 ) indicating the suppression regime for the chain topology. The spectral radius ρ ¯ ​ ( Γ 3 ) = 1.402 ± 0.003 \\( \\bar{\\rho} \\)(\\( \\Gamma_{3} \\))=1.402\\( \\pm \\) 0.003 applies to the fully-connected topology; under chain propagation, all link-level coefficients remain below 1.0, satisfying Corollary 1.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.20560v1",
+          "title": "How Transparent is DiffusionGemma?",
+          "authors": [
+            "Joshua Engels",
+            "Callum McDougall",
+            "Bilal Chughtai",
+            "Janos Kramar",
+            "Senthoran Rajamanoharan"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper investigates the reasoning transparency of DiffusionGemma, a large language model that operates in a continuous latent space. The authors decompose transparency into variable and algorithmic components, finding that while DiffusionGemma initially appears less transparent due to its computational structure, they can map its internal information flow through an interpretable token bottleneck, suggesting a path to understanding its reasoning process.",
+          "url": "http://arxiv.org/abs/2606.20560v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.20560v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.20560v1/x1.png",
+          "figure_caption": "A simplified architecture diagram of DiffusionGemma, with the first two denoising steps shown; see Section ˜ 2.1 for an in-depth description of DiffusionGemma’s architecture and sampling. We additionally show the path with the largest opaque serial depth with and without the assumption that the intermediates 𝒔 \\( \\boldsymbol{s} \\) are interpretable; see Section ˜ 2.2 for more details on this calculation.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.20529v1",
+          "title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents",
+          "authors": [
+            "Md Nayem Uddin",
+            "Amir Saeidi",
+            "Eduardo Blanco",
+            "Chitta Baral"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "LedgerAgent introduces a novel method for tool-calling agents by maintaining a structured \"ledger\" of task states separately from the prompt. This ledger stores relevant facts, identifiers, constraints, and conditions, preventing agents from relying on stale or incomplete information. The core contribution is improved policy adherence and more robust state management, mitigating common failure modes in customer-service agent interactions.",
+          "url": "http://arxiv.org/abs/2606.20529v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.20529v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.20529v1/x1.png",
+          "figure_caption": "A standard agent retrieves a reservation record but later issues a policy-violating cancellation because the relevant state remains implicit in the prompt. LedgerAgent stores successful tool returns in a schema-anchored ledger and checks proposed environment-changing calls against this observed state before execution. In this example, the stored reservation state allows the gate to block the cancellation and return policy-grounded feedback.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.20527v1",
+          "title": "StylisticBias: A Few Human Visual Cues Drive Most Social Biases in MLLMs",
+          "authors": [
+            "Shaghayegh Kolli",
+            "Timo Cavelius",
+            "Nafiseh Nikeghbal",
+            "Samantha Dalal",
+            "Jana Diesner"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces StylisticBias, a benchmark that isolates the impact of individual visual attributes on social biases in Multimodal Large Language Models (MLLMs). By generating controlled variations of faces, the study reveals that specific visual cues like fashion style, rather than just group identity, significantly influence MLLM judgments. The core contribution is identifying these key stylistic attributes that drive a large portion of social biases in MLLMs.",
+          "url": "http://arxiv.org/abs/2606.20527v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.20527v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.20527v1/x3.png",
+          "figure_caption": "Benchmark construction and evaluation. (1) Benchmark Generation: A Cartesian product of four demographic attributes yields 90 configurations from which 500 synthetic base faces 𝒳 b \\( \\mathcal{X}_{b} \\) are generated. Each base face receives ∼ \\( \\sim \\) 50 single-attribute variations, yielding ∼ \\( \\sim \\) 25,000 images 𝒳 v = { v ​ ( x ) ∣ x ∈ 𝒳 b } \\( \\mathcal{X}_{v} \\)=\\{v(x)\\( \\mid \\) x\\( \\in \\)\\( \\mathcal{X}_{b} \\)\\} . (2) Benchmark Evaluation: Six MLLMs perform binary forced-choice judgments across 25 scenarios under 3 seeds and 4 prompt orderings. The prediction shift Δ i ​ ( x v ) = φ i ​ ( x v ) − φ i ​ ( x b ) \\( \\Delta_{i} \\)(x_{v})=\\( \\varphi_{i} \\)(x_{v})-\\( \\varphi_{i} \\)(x_{b}) quantifies how strongly each visual attribute moves model judgment.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 25,
+        "papers_after_llm_filter": 9,
+        "count": 9
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 25,
+    "papers_after_llm_filter": 9,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 46
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.20408v1",
+      "title": "LLM agent safety, multi-turn red-teaming, jailbreak benchmarks, adversarial robustness, safety-critical systems",
+      "authors": [
+        "Hanwool Lee",
+        "Dasol Choi",
+        "Bokyeong Kim",
+        "Seung Geun Kim",
+        "Haon Park"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces NRT-Bench, a novel benchmark for multi-turn red-teaming of LLM agents in safety-critical systems, specifically a simulated nuclear power plant. The core method involves adversaries engaging LLM operators in adaptive, multi-turn conversations to test their robustness, with harm measured by objective system failures rather than subjective text evaluation. The key contribution is demonstrating that current frontier LLM operators are vulnerable to sustained adversarial pressure, leading to significant safety breaches.",
+      "url": "http://arxiv.org/abs/2606.20408v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20408v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.20408v1/x1.png",
+      "figure_caption": "Figure 1. NRT-Bench at a glance. A multi-turn red-team attacker probes a safety-critical control-room venue through four ingress channels, while a five-role LLM operator team manages a closed plant simulator under guardrail and approval constraints. Each turn updates plant state and critical safety functions (CSFs), then returns redaction-aware feedback to the attacker for adaptive escalation. Unlike text-only jailbreak benchmarks, NRT-Bench defines primary harm as simulator-derived CSF loss.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.20474v1",
+      "title": "UltraQuant: 4-bit KV Caching for Context-Heavy Agents",
+      "authors": [
+        "Inesh Chakrabarti",
+        "David Limpus",
+        "Aditi Ghai Rana",
+        "Bowen Bao",
+        "Spandan Tiwari"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.PF"
+      ],
+      "abstract": "UltraQuant proposes a 4-bit KV cache compression method for context-heavy AI agents, addressing the challenges of long prefixes and concurrent requests. Its core method involves a robust design with asymmetric K/V treatment and specific quantization techniques, enabling efficient serving on AMD GPUs. The main contribution is a practical, high-throughput FP4 KV caching solution that jointly optimizes task quality, cache residency, and serving performance.",
+      "url": "http://arxiv.org/abs/2606.20474v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20474v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.20477v1",
+      "title": "Scalable Training of Spatially Grounded 2D Vision-Language Models for Radiology",
+      "authors": [
+        "Yusuf Salcan",
+        "Simon Ging",
+        "Robin Schirrmeister",
+        "Philipp Arnold",
+        "Elmar Kotter"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces RefRad2D, a large-scale dataset of radiology images and text, automatically curated without manual spatial annotations. Their model, RadGrounder, trained on this data, achieves competitive performance in report generation, VQA, and spatial grounding. The key contribution is demonstrating that training with automatically generated spatial information improves VQA performance without sacrificing language quality.",
+      "url": "http://arxiv.org/abs/2606.20477v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20477v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.20477v1/dataset_grounding.png",
+      "figure_caption": "Overview of the components to generate the data for visual grounding. We use TotalSegmentator [ 21 , 1 ] to create 3D segmentation masks. Via slicing and LLM-based keyword extraction we create dense 2D pixel-level annotations. A strict set-intersection filter ( C T ∩ C I ≠ ∅ C_{T}\\( \\cap \\) C_{I}\\( \\neq \\)\\( \\emptyset \\) ) ensures high-quality matching between textual entities and visual regions.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.20482v1",
+      "title": "Your Mouse and Eyes Secretly Leak Your Preference: LLM Alignment using Implicit Feedback from Users",
+      "authors": [
+        "Haw-Shiuan Chang",
+        "Jeffrey Gomez",
+        "Mehul Patwari",
+        "Aryan Sajith",
+        "Hamed Zamani"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "abstract": "This paper proposes a novel method for aligning Large Language Models (LLMs) by leveraging implicit user feedback, such as mouse movements and eye gaze, instead of relying solely on expensive explicit ratings. By collecting and analyzing this implicit data, the researchers demonstrate that it significantly improves the accuracy of reward models, leading to better LLM alignment.",
+      "url": "http://arxiv.org/abs/2606.20482v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20482v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.20482v1/x1.png",
+      "figure_caption": "IFllm records the trajectories of eye gazing and mouse from a question answering session between a user and two LLMs. Then, we train our random forest reward model on the features extracted from the trajectories and preference labels from the user. Finally, we show that applying DPO to preferences predicted by our reward model improves LLM outputs more than a standard text-based reward model. This improvement could attract more users, enrich implicit user preferences, and promote a positive feedback loop.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.20470v1",
+      "title": "Analyzing Defensive Misdirection Against Model-Guided Automated Attacks on Agentic AI Systems",
+      "authors": [
+        "Reza Soosahabi",
+        "Vivek Namsani"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper analyzes how automated, model-guided attacks can overcome traditional defenses against agentic AI systems. The core method uses a probabilistic model to show that predictable defenses provide feedback to attackers, leading to high success rates. The key contribution is proposing \"detect-and-misdirect\" defenses, which use controlled, misleading responses to trick the attacker's automated judge and reduce their attack effectiveness.",
+      "url": "http://arxiv.org/abs/2606.20470v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20470v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.20470v1/figs/cmpe-example.png",
+      "figure_caption": "Example of contextual misdirection response generated by CMPE method in Algorithm 2 against an automated jailbreak request.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.20493v1",
+      "title": "Contagion Networks: Evaluator Bias Propagation in Multi-Agent LLM Systems",
+      "authors": [
+        "Zewen Liu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces \"Contagion Networks,\" a framework to quantify how evaluator biases spread among interacting LLM agents. The core method involves measuring the \"Cross-Agent Contagion Matrix\" to track bias propagation. The key contribution is demonstrating that even within the same LLM, evaluator biases consistently spread, and that larger evaluator committees can significantly suppress this contagion.",
+      "url": "http://arxiv.org/abs/2606.20493v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20493v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.20493v1/x1.png",
+      "figure_caption": "Cross-agent contagion network \\( \\Gamma_{3} \\) (mean over n = 2 n=2 seeds). All edges are dashed ( γ < 1.0 \\( \\gamma \\)<1.0 ) indicating the suppression regime for the chain topology. The spectral radius ρ ¯ ​ ( Γ 3 ) = 1.402 ± 0.003 \\( \\bar{\\rho} \\)(\\( \\Gamma_{3} \\))=1.402\\( \\pm \\) 0.003 applies to the fully-connected topology; under chain propagation, all link-level coefficients remain below 1.0, satisfying Corollary 1.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.20560v1",
+      "title": "How Transparent is DiffusionGemma?",
+      "authors": [
+        "Joshua Engels",
+        "Callum McDougall",
+        "Bilal Chughtai",
+        "Janos Kramar",
+        "Senthoran Rajamanoharan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper investigates the reasoning transparency of DiffusionGemma, a large language model that operates in a continuous latent space. The authors decompose transparency into variable and algorithmic components, finding that while DiffusionGemma initially appears less transparent due to its computational structure, they can map its internal information flow through an interpretable token bottleneck, suggesting a path to understanding its reasoning process.",
+      "url": "http://arxiv.org/abs/2606.20560v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20560v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.20560v1/x1.png",
+      "figure_caption": "A simplified architecture diagram of DiffusionGemma, with the first two denoising steps shown; see Section ˜ 2.1 for an in-depth description of DiffusionGemma’s architecture and sampling. We additionally show the path with the largest opaque serial depth with and without the assumption that the intermediates 𝒔 \\( \\boldsymbol{s} \\) are interpretable; see Section ˜ 2.2 for more details on this calculation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.20529v1",
+      "title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents",
+      "authors": [
+        "Md Nayem Uddin",
+        "Amir Saeidi",
+        "Eduardo Blanco",
+        "Chitta Baral"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "LedgerAgent introduces a novel method for tool-calling agents by maintaining a structured \"ledger\" of task states separately from the prompt. This ledger stores relevant facts, identifiers, constraints, and conditions, preventing agents from relying on stale or incomplete information. The core contribution is improved policy adherence and more robust state management, mitigating common failure modes in customer-service agent interactions.",
+      "url": "http://arxiv.org/abs/2606.20529v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20529v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.20529v1/x1.png",
+      "figure_caption": "A standard agent retrieves a reservation record but later issues a policy-violating cancellation because the relevant state remains implicit in the prompt. LedgerAgent stores successful tool returns in a schema-anchored ledger and checks proposed environment-changing calls against this observed state before execution. In this example, the stored reservation state allows the gate to block the cancellation and return policy-grounded feedback.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.20527v1",
+      "title": "StylisticBias: A Few Human Visual Cues Drive Most Social Biases in MLLMs",
+      "authors": [
+        "Shaghayegh Kolli",
+        "Timo Cavelius",
+        "Nafiseh Nikeghbal",
+        "Samantha Dalal",
+        "Jana Diesner"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces StylisticBias, a benchmark that isolates the impact of individual visual attributes on social biases in Multimodal Large Language Models (MLLMs). By generating controlled variations of faces, the study reveals that specific visual cues like fashion style, rather than just group identity, significantly influence MLLM judgments. The core contribution is identifying these key stylistic attributes that drive a large portion of social biases in MLLMs.",
+      "url": "http://arxiv.org/abs/2606.20527v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20527v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.20527v1/x3.png",
+      "figure_caption": "Benchmark construction and evaluation. (1) Benchmark Generation: A Cartesian product of four demographic attributes yields 90 configurations from which 500 synthetic base faces 𝒳 b \\( \\mathcal{X}_{b} \\) are generated. Each base face receives ∼ \\( \\sim \\) 50 single-attribute variations, yielding ∼ \\( \\sim \\) 25,000 images 𝒳 v = { v ​ ( x ) ∣ x ∈ 𝒳 b } \\( \\mathcal{X}_{v} \\)=\\{v(x)\\( \\mid \\) x\\( \\in \\)\\( \\mathcal{X}_{b} \\)\\} . (2) Benchmark Evaluation: Six MLLMs perform binary forced-choice judgments across 25 scenarios under 3 seeds and 4 prompt orderings. The prediction shift Δ i ​ ( x v ) = φ i ​ ( x v ) − φ i ​ ( x b ) \\( \\Delta_{i} \\)(x_{v})=\\( \\varphi_{i} \\)(x_{v})-\\( \\varphi_{i} \\)(x_{b}) quantifies how strongly each visual attribute moves model judgment.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.20408v1",
+      "title": "LLM agent safety, multi-turn red-teaming, jailbreak benchmarks, adversarial robustness, safety-critical systems",
+      "authors": [
+        "Hanwool Lee",
+        "Dasol Choi",
+        "Bokyeong Kim",
+        "Seung Geun Kim",
+        "Haon Park"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces NRT-Bench, a novel benchmark for multi-turn red-teaming of LLM agents in safety-critical systems, specifically a simulated nuclear power plant. The core method involves adversaries engaging LLM operators in adaptive, multi-turn conversations to test their robustness, with harm measured by objective system failures rather than subjective text evaluation. The key contribution is demonstrating that current frontier LLM operators are vulnerable to sustained adversarial pressure, leading to significant safety breaches.",
+      "url": "http://arxiv.org/abs/2606.20408v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20408v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.20408v1/x1.png",
+      "figure_caption": "Figure 1. NRT-Bench at a glance. A multi-turn red-team attacker probes a safety-critical control-room venue through four ingress channels, while a five-role LLM operator team manages a closed plant simulator under guardrail and approval constraints. Each turn updates plant state and critical safety functions (CSFs), then returns redaction-aware feedback to the attacker for adaptive escalation. Unlike text-only jailbreak benchmarks, NRT-Bench defines primary harm as simulator-derived CSF loss.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.20474v1",
+      "title": "UltraQuant: 4-bit KV Caching for Context-Heavy Agents",
+      "authors": [
+        "Inesh Chakrabarti",
+        "David Limpus",
+        "Aditi Ghai Rana",
+        "Bowen Bao",
+        "Spandan Tiwari"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.PF"
+      ],
+      "abstract": "UltraQuant proposes a 4-bit KV cache compression method for context-heavy AI agents, addressing the challenges of long prefixes and concurrent requests. Its core method involves a robust design with asymmetric K/V treatment and specific quantization techniques, enabling efficient serving on AMD GPUs. The main contribution is a practical, high-throughput FP4 KV caching solution that jointly optimizes task quality, cache residency, and serving performance.",
+      "url": "http://arxiv.org/abs/2606.20474v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20474v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.20477v1",
+      "title": "Scalable Training of Spatially Grounded 2D Vision-Language Models for Radiology",
+      "authors": [
+        "Yusuf Salcan",
+        "Simon Ging",
+        "Robin Schirrmeister",
+        "Philipp Arnold",
+        "Elmar Kotter"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces RefRad2D, a large-scale dataset of radiology images and text, automatically curated without manual spatial annotations. Their model, RadGrounder, trained on this data, achieves competitive performance in report generation, VQA, and spatial grounding. The key contribution is demonstrating that training with automatically generated spatial information improves VQA performance without sacrificing language quality.",
+      "url": "http://arxiv.org/abs/2606.20477v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20477v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.20477v1/dataset_grounding.png",
+      "figure_caption": "Overview of the components to generate the data for visual grounding. We use TotalSegmentator [ 21 , 1 ] to create 3D segmentation masks. Via slicing and LLM-based keyword extraction we create dense 2D pixel-level annotations. A strict set-intersection filter ( C T ∩ C I ≠ ∅ C_{T}\\( \\cap \\) C_{I}\\( \\neq \\)\\( \\emptyset \\) ) ensures high-quality matching between textual entities and visual regions.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.20482v1",
+      "title": "Your Mouse and Eyes Secretly Leak Your Preference: LLM Alignment using Implicit Feedback from Users",
+      "authors": [
+        "Haw-Shiuan Chang",
+        "Jeffrey Gomez",
+        "Mehul Patwari",
+        "Aryan Sajith",
+        "Hamed Zamani"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "abstract": "This paper proposes a novel method for aligning Large Language Models (LLMs) by leveraging implicit user feedback, such as mouse movements and eye gaze, instead of relying solely on expensive explicit ratings. By collecting and analyzing this implicit data, the researchers demonstrate that it significantly improves the accuracy of reward models, leading to better LLM alignment.",
+      "url": "http://arxiv.org/abs/2606.20482v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20482v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.20482v1/x1.png",
+      "figure_caption": "IFllm records the trajectories of eye gazing and mouse from a question answering session between a user and two LLMs. Then, we train our random forest reward model on the features extracted from the trajectories and preference labels from the user. Finally, we show that applying DPO to preferences predicted by our reward model improves LLM outputs more than a standard text-based reward model. This improvement could attract more users, enrich implicit user preferences, and promote a positive feedback loop.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.20470v1",
+      "title": "Analyzing Defensive Misdirection Against Model-Guided Automated Attacks on Agentic AI Systems",
+      "authors": [
+        "Reza Soosahabi",
+        "Vivek Namsani"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper analyzes how automated, model-guided attacks can overcome traditional defenses against agentic AI systems. The core method uses a probabilistic model to show that predictable defenses provide feedback to attackers, leading to high success rates. The key contribution is proposing \"detect-and-misdirect\" defenses, which use controlled, misleading responses to trick the attacker's automated judge and reduce their attack effectiveness.",
+      "url": "http://arxiv.org/abs/2606.20470v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20470v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.20470v1/figs/cmpe-example.png",
+      "figure_caption": "Example of contextual misdirection response generated by CMPE method in Algorithm 2 against an automated jailbreak request.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.20493v1",
+      "title": "Contagion Networks: Evaluator Bias Propagation in Multi-Agent LLM Systems",
+      "authors": [
+        "Zewen Liu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces \"Contagion Networks,\" a framework to quantify how evaluator biases spread among interacting LLM agents. The core method involves measuring the \"Cross-Agent Contagion Matrix\" to track bias propagation. The key contribution is demonstrating that even within the same LLM, evaluator biases consistently spread, and that larger evaluator committees can significantly suppress this contagion.",
+      "url": "http://arxiv.org/abs/2606.20493v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20493v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.20493v1/x1.png",
+      "figure_caption": "Cross-agent contagion network \\( \\Gamma_{3} \\) (mean over n = 2 n=2 seeds). All edges are dashed ( γ < 1.0 \\( \\gamma \\)<1.0 ) indicating the suppression regime for the chain topology. The spectral radius ρ ¯ ​ ( Γ 3 ) = 1.402 ± 0.003 \\( \\bar{\\rho} \\)(\\( \\Gamma_{3} \\))=1.402\\( \\pm \\) 0.003 applies to the fully-connected topology; under chain propagation, all link-level coefficients remain below 1.0, satisfying Corollary 1.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.20560v1",
+      "title": "How Transparent is DiffusionGemma?",
+      "authors": [
+        "Joshua Engels",
+        "Callum McDougall",
+        "Bilal Chughtai",
+        "Janos Kramar",
+        "Senthoran Rajamanoharan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper investigates the reasoning transparency of DiffusionGemma, a large language model that operates in a continuous latent space. The authors decompose transparency into variable and algorithmic components, finding that while DiffusionGemma initially appears less transparent due to its computational structure, they can map its internal information flow through an interpretable token bottleneck, suggesting a path to understanding its reasoning process.",
+      "url": "http://arxiv.org/abs/2606.20560v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20560v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.20560v1/x1.png",
+      "figure_caption": "A simplified architecture diagram of DiffusionGemma, with the first two denoising steps shown; see Section ˜ 2.1 for an in-depth description of DiffusionGemma’s architecture and sampling. We additionally show the path with the largest opaque serial depth with and without the assumption that the intermediates 𝒔 \\( \\boldsymbol{s} \\) are interpretable; see Section ˜ 2.2 for more details on this calculation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.20529v1",
+      "title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents",
+      "authors": [
+        "Md Nayem Uddin",
+        "Amir Saeidi",
+        "Eduardo Blanco",
+        "Chitta Baral"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "LedgerAgent introduces a novel method for tool-calling agents by maintaining a structured \"ledger\" of task states separately from the prompt. This ledger stores relevant facts, identifiers, constraints, and conditions, preventing agents from relying on stale or incomplete information. The core contribution is improved policy adherence and more robust state management, mitigating common failure modes in customer-service agent interactions.",
+      "url": "http://arxiv.org/abs/2606.20529v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20529v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.20529v1/x1.png",
+      "figure_caption": "A standard agent retrieves a reservation record but later issues a policy-violating cancellation because the relevant state remains implicit in the prompt. LedgerAgent stores successful tool returns in a schema-anchored ledger and checks proposed environment-changing calls against this observed state before execution. In this example, the stored reservation state allows the gate to block the cancellation and return policy-grounded feedback.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.20527v1",
+      "title": "StylisticBias: A Few Human Visual Cues Drive Most Social Biases in MLLMs",
+      "authors": [
+        "Shaghayegh Kolli",
+        "Timo Cavelius",
+        "Nafiseh Nikeghbal",
+        "Samantha Dalal",
+        "Jana Diesner"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces StylisticBias, a benchmark that isolates the impact of individual visual attributes on social biases in Multimodal Large Language Models (MLLMs). By generating controlled variations of faces, the study reveals that specific visual cues like fashion style, rather than just group identity, significantly influence MLLM judgments. The core contribution is identifying these key stylistic attributes that drive a large portion of social biases in MLLMs.",
+      "url": "http://arxiv.org/abs/2606.20527v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20527v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.20527v1/x3.png",
+      "figure_caption": "Benchmark construction and evaluation. (1) Benchmark Generation: A Cartesian product of four demographic attributes yields 90 configurations from which 500 synthetic base faces 𝒳 b \\( \\mathcal{X}_{b} \\) are generated. Each base face receives ∼ \\( \\sim \\) 50 single-attribute variations, yielding ∼ \\( \\sim \\) 25,000 images 𝒳 v = { v ​ ( x ) ∣ x ∈ 𝒳 b } \\( \\mathcal{X}_{v} \\)=\\{v(x)\\( \\mid \\) x\\( \\in \\)\\( \\mathcal{X}_{b} \\)\\} . (2) Benchmark Evaluation: Six MLLMs perform binary forced-choice judgments across 25 scenarios under 3 seeds and 4 prompt orderings. The prediction shift Δ i ​ ( x v ) = φ i ​ ( x v ) − φ i ​ ( x b ) \\( \\Delta_{i} \\)(x_{v})=\\( \\varphi_{i} \\)(x_{v})-\\( \\varphi_{i} \\)(x_{b}) quantifies how strongly each visual attribute moves model judgment.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
