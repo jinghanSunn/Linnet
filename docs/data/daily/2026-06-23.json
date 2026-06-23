@@ -1,0 +1,859 @@
+{
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T12:22:49.125382+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.23678v1",
+          "title": "AIR: Adaptive Interleaved Reasoning with Code in MLLMs",
+          "authors": [
+            "Cong Han",
+            "Xiaohan Lan",
+            "Haibo Qiu",
+            "Yujie Zhong"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces AIR, a method that enhances multimodal large language models (MLLMs) by enabling them to perform complex numerical computations through interleaved reasoning with code. Unlike prior work focused on visual tasks, AIR uses reinforcement learning with a novel three-component solution: a data construction pipeline, data filtering, and an adaptive tool-invocation strategy with a group-constrained reward function. This allows MLLMs to tackle numerical problems by adaptively generating and executing code.",
+          "url": "http://arxiv.org/abs/2606.23678v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.23678v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.23678v1/x1.png",
+          "figure_caption": "Left: Overview of AIR. Upon receiving an image and a question, AIR generates textual reasoning and optionally invokes a code tool. The code undergoes execution in a sandbox, and its output is fed back into the reasoning process. This cycle of text reasoning and code execution can be repeated multiple times until the final answer is produced. Right: Illustration of reward design with group constraints. After computing sequence rewards via the reward model, we introduce a group constraint on the proportion of interleaved reasoning sequences, then recalculate rewards and derive group relative advantages.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.23643v1",
+          "title": "TailorMind: Towards Preference-Aligned Multimodal Content Generation",
+          "authors": [
+            "Hengji Zhou",
+            "Ye Liu",
+            "Yufeng Liu",
+            "Si Wu",
+            "Lianghao Xia"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "TailorMind addresses the challenge of personalized multimodal content generation by bridging user preferences with generative models. It enriches sparse user data using hypergraph collaborative filtering and optimizes textual profiles through feedback-driven learning. The system then leverages retrieval-augmented style control and cross-modal cohesion reflection to generate authentic, coherent, and novel multimodal content tailored to individual users, even without existing item pools.",
+          "url": "http://arxiv.org/abs/2606.23643v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.23643v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.23643v1/x1.png",
+          "figure_caption": "Personalized multimodal content generation.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.23664v1",
+          "title": "MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?",
+          "authors": [
+            "Juyang Bai",
+            "Laixi Shi"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.MA"
+          ],
+          "abstract": "This paper introduces MAS-PromptBench to investigate the effectiveness of prompt optimization for multi-agent LLM systems. It systematically evaluates how optimizing system prompts, which define agent roles and workflows, impacts MAS performance across various configurations. The core contribution is to clarify when and how much prompt optimization benefits MAS, addressing the challenges of its exponentially growing search space.",
+          "url": "http://arxiv.org/abs/2606.23664v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.23664v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.23664v1/x1.png",
+          "figure_caption": "Prompt-optimization gains using a state-of-the-art optimizer GEPA in single-agent and multi-agent settings. While GEPA consistently improves single-agent performance across all five diverse tasks, its natural multi-agent extension yields highly variable effects across tasks and workflow topologies, ranging from large gains to severe performance drops.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.23608v1",
+          "title": "Causal Discovery in the Era of Agents",
+          "authors": [
+            "Yujia Zheng",
+            "Vishal Verma",
+            "Mantej Gill",
+            "Haoyue Dai",
+            "Peter Spirtes"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.SE",
+            "stat.AP"
+          ],
+          "abstract": "This paper argues that AI agents in causal discovery should assist the workflow by inspecting data, explaining methods, and clarifying outputs, rather than directly supplying causal relationships. Their core contribution is the principle that causal claims must remain grounded in data, explicit assumptions, and formal algorithms, with agents acting as facilitators. This approach aims to ensure transparency and prevent LLM-generated artifacts from masquerading as data-driven causal evidence.",
+          "url": "http://arxiv.org/abs/2606.23608v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.23608v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.23608v1/figures/framework.png",
+          "figure_caption": "Framework of causal-learn+ . Agents support data analysis, preprocessing, algorithm recommendation, expert-knowledge incorporation and interpretation, while formal causal discovery remains tied to provably-correct algorithms, explicit assumptions and user-approved choices.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.23581v1",
+          "title": "Kamera: Unified Position-Invariant Multimodal KV Cache for Training-Free Reuse",
+          "authors": [
+            "Bole Ma",
+            "Jan Eitzinger",
+            "Harald Koestler",
+            "Gerhard Wellein"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV",
+            "cs.DC"
+          ],
+          "abstract": "Kamera proposes a unified KV cache mechanism that enables training-free reuse of multimodal context. Its core method involves storing a low-rank conditioning patch alongside the standard KV cache, which captures cross-chunk dependencies lost in naive reuse. This allows for efficient multi-hop reasoning by recovering crucial information that standard caches miss, significantly improving accuracy without requiring any model retraining.",
+          "url": "http://arxiv.org/abs/2606.23581v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.23581v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.23581v1/x1.png",
+          "figure_caption": "Three reuse patterns beyond the window, and what each costs. Top (prefix/radix): cached vision embeddings still miss whenever reuse sits at a shifted position (reorder, slide, look-back), so the LLM prefill re-runs. Bottom (Kamera): chunks stored position-free; reorder reuses one orbit-patch, a survivor relocates for free ( R ​ ( δ ) R(\\( \\delta \\)) , no patch), and a recalled chunk is rehydrated by a patch on its fixed earlier context. Survivors cost a rotation; only recall costs a patch.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.23590v1",
+          "title": "The Topology of Ill-Posed Questions: Persistent Homology for Detection and Steering in LLMs",
+          "authors": [
+            "Guangyu Jiang",
+            "Sizhe Tang",
+            "Mahdi Imani",
+            "Tian Lan"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper proposes using persistent homology to analyze the internal states of Large Language Models (LLMs) when processing ill-posed questions. By modeling transformer layer hidden states as point clouds and summarizing their topological features, the authors create a \"topology representation\" of the question. This representation can then be used to steer LLM response behavior, offering a unified approach to handling various types of problematic queries.",
+          "url": "http://arxiv.org/abs/2606.23590v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.23590v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.23590v1/x1.png",
+          "figure_caption": "Overview of our topology-based framework. We collect prompt-token hidden states across layers, treat each layer as a token point cloud, compute finite H 0 H_{0} persistence features, and use the resulting topology vectors for ill-posedness classification and topology-conditioned activation steering.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.23543v1",
+          "title": "VeriEvol: Scaling Multimodal Mathematical Reasoning via Verifiable Evol-Instruct",
+          "authors": [
+            "Haoling Li",
+            "Kai Zheng",
+            "Jie Wu",
+            "Can Xu",
+            "Qingfeng Sun"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces VeriEvol, a framework for scaling multimodal mathematical reasoning by focusing on verifiable data construction. It decouples prompt difficulty, increased through route-specific evolution operators, from answer reliability, enforced by offline hypothesis-testing falsification. VeriEvol iteratively generates harder, image-grounded prompts and verifies answers using a multi-source counter-evidence approach, ensuring data volume and reliability without relying on potentially flawed human labels.",
+          "url": "http://arxiv.org/abs/2606.23543v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.23543v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.23668v1",
+          "title": "On the Limits of Prompt-Conditioned Language Models as General-Purpose Learners",
+          "authors": [
+            "David Mguni",
+            "Julian Ma",
+            "Jun Wang"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper argues that language's inherent limitations as a communication channel create an \"expressivity floor\" for prompt-conditioned LLMs. Even with perfect inference and execution, complex tasks exceeding language's capacity become indistinguishable, leading to unavoidable errors. The core contribution is a theoretical framework, using a cheap-talk game and PAC-Bayes bounds, to demonstrate this fundamental limitation on LLMs' general-purpose learning capabilities.",
+          "url": "http://arxiv.org/abs/2606.23668v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.23668v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.23668v1/x1.png",
+          "figure_caption": "Conceptual Diagram",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.23568v1",
+          "title": "SVD-Surgeon: Optimal Singular-Value Surgery for Large Language Model Compression",
+          "authors": [
+            "Mahmoud Safari",
+            "Frank Hutter"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "SVD-Surgeon applies the Optimal Brain Surgeon framework to singular values for LLM compression. It computes optimal updates to retained singular values to minimize loss after pruning, and identifies which singular values are most important to prune. This training-free method improves existing SVD compression techniques without retraining.",
+          "url": "http://arxiv.org/abs/2606.23568v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.23568v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.23568v1/x1.png",
+          "figure_caption": "Overview of SVD-Surgeon applied to a host SVD compressor (e.g. SVD-LLM). Top (blue): the host pipeline decomposes and truncates the weight matrix. Bottom (orange): SVD-Surgeon uses calibration gradients projected into the host’s singular-value basis to assemble a compact Hessian H ¯ \\( \\bar{H} \\) and compute a closed-form correction of the retained singular values. Vertical arrows show the information each SVD-Surgeon stage receives from the host. The update-only variant (U, solid) inherits the host’s pruned set, while the select-and-update variant (S, dashed) replaces it with a saliency-based selection.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.23671v1",
+          "title": "Can LLMs Reliably Self-Report Adversarial Prefills, and How?",
+          "authors": [
+            "Quang Minh Nguyen",
+            "Uzair Ahmed",
+            "Taegyoon Kim"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates whether Large Language Models (LLMs) can reliably detect their own responses generated by adversarial prefill attacks. The study found that LLMs are generally poor at recognizing these compromised outputs, often misattributing intent to them. The authors demonstrate that this introspective signal is primarily linked to safety and refusal reasoning, and can be manipulated by how the question is framed.",
+          "url": "http://arxiv.org/abs/2606.23671v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.23671v1",
+          "score": 7.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.23654v1",
+          "title": "EnterpriseClawBench: Benchmarking Agents from Real Workplace Sessions",
+          "authors": [
+            "Jincheng Zhong",
+            "Weizhi Wang",
+            "Che Jiang",
+            "Kai Tian",
+            "Zhenzhao Yuan"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.SE"
+          ],
+          "abstract": "EnterpriseClawBench is a benchmark for enterprise agents, built from real workplace sessions to evaluate their ability to interact with files and tools. Its core contribution is a reproducible protocol for constructing and evaluating such agents, as the proprietary data cannot be released. The benchmark highlights the need for comprehensive evaluation metrics beyond a single score, considering factors like artifact quality and skill transfer.",
+          "url": "http://arxiv.org/abs/2606.23654v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.23654v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.23654v1/x1.png",
+          "figure_caption": "Main Lite leaderboard across 32 harness–model combinations. Bar height is score; top annotations show agent cost in CNY and average runtime per task.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.23687v1",
+          "title": "Randomized YaRN Improves Length Generalization for Long-Context Reasoning",
+          "authors": [
+            "Manas Mehta",
+            "Fangcong Yin",
+            "Greg Durrett"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Randomized YaRN, a training method that enhances LLMs' ability to generalize to longer contexts. It combines YaRN positional extrapolation with randomized positional encoding and a length curriculum, exposing models to out-of-distribution positional information even during short-context training. This approach significantly improves reasoning performance on much longer sequences, outperforming standard fine-tuning.",
+          "url": "http://arxiv.org/abs/2606.23687v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.23687v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.23687v1/x1.png",
+          "figure_caption": "Randomized YaRN trains LLMs for length generalization by: (1) Random position sampling: randomly sampling positions from a longer length distribution, assigning the corresponding YaRN encodings to each token in the short-context training data to expose models to OOD positional encodings; and (2) Length-generalization curriculum: gradually increasing the sampling length distribution as a training curriculum.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 20,
+        "papers_after_llm_filter": 12,
+        "count": 12
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 20,
+    "papers_after_llm_filter": 12,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 42
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.23678v1",
+      "title": "AIR: Adaptive Interleaved Reasoning with Code in MLLMs",
+      "authors": [
+        "Cong Han",
+        "Xiaohan Lan",
+        "Haibo Qiu",
+        "Yujie Zhong"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces AIR, a method that enhances multimodal large language models (MLLMs) by enabling them to perform complex numerical computations through interleaved reasoning with code. Unlike prior work focused on visual tasks, AIR uses reinforcement learning with a novel three-component solution: a data construction pipeline, data filtering, and an adaptive tool-invocation strategy with a group-constrained reward function. This allows MLLMs to tackle numerical problems by adaptively generating and executing code.",
+      "url": "http://arxiv.org/abs/2606.23678v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23678v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.23678v1/x1.png",
+      "figure_caption": "Left: Overview of AIR. Upon receiving an image and a question, AIR generates textual reasoning and optionally invokes a code tool. The code undergoes execution in a sandbox, and its output is fed back into the reasoning process. This cycle of text reasoning and code execution can be repeated multiple times until the final answer is produced. Right: Illustration of reward design with group constraints. After computing sequence rewards via the reward model, we introduce a group constraint on the proportion of interleaved reasoning sequences, then recalculate rewards and derive group relative advantages.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.23643v1",
+      "title": "TailorMind: Towards Preference-Aligned Multimodal Content Generation",
+      "authors": [
+        "Hengji Zhou",
+        "Ye Liu",
+        "Yufeng Liu",
+        "Si Wu",
+        "Lianghao Xia"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "TailorMind addresses the challenge of personalized multimodal content generation by bridging user preferences with generative models. It enriches sparse user data using hypergraph collaborative filtering and optimizes textual profiles through feedback-driven learning. The system then leverages retrieval-augmented style control and cross-modal cohesion reflection to generate authentic, coherent, and novel multimodal content tailored to individual users, even without existing item pools.",
+      "url": "http://arxiv.org/abs/2606.23643v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23643v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.23643v1/x1.png",
+      "figure_caption": "Personalized multimodal content generation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.23664v1",
+      "title": "MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?",
+      "authors": [
+        "Juyang Bai",
+        "Laixi Shi"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces MAS-PromptBench to investigate the effectiveness of prompt optimization for multi-agent LLM systems. It systematically evaluates how optimizing system prompts, which define agent roles and workflows, impacts MAS performance across various configurations. The core contribution is to clarify when and how much prompt optimization benefits MAS, addressing the challenges of its exponentially growing search space.",
+      "url": "http://arxiv.org/abs/2606.23664v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23664v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.23664v1/x1.png",
+      "figure_caption": "Prompt-optimization gains using a state-of-the-art optimizer GEPA in single-agent and multi-agent settings. While GEPA consistently improves single-agent performance across all five diverse tasks, its natural multi-agent extension yields highly variable effects across tasks and workflow topologies, ranging from large gains to severe performance drops.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.23608v1",
+      "title": "Causal Discovery in the Era of Agents",
+      "authors": [
+        "Yujia Zheng",
+        "Vishal Verma",
+        "Mantej Gill",
+        "Haoyue Dai",
+        "Peter Spirtes"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.SE",
+        "stat.AP"
+      ],
+      "abstract": "This paper argues that AI agents in causal discovery should assist the workflow by inspecting data, explaining methods, and clarifying outputs, rather than directly supplying causal relationships. Their core contribution is the principle that causal claims must remain grounded in data, explicit assumptions, and formal algorithms, with agents acting as facilitators. This approach aims to ensure transparency and prevent LLM-generated artifacts from masquerading as data-driven causal evidence.",
+      "url": "http://arxiv.org/abs/2606.23608v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23608v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.23608v1/figures/framework.png",
+      "figure_caption": "Framework of causal-learn+ . Agents support data analysis, preprocessing, algorithm recommendation, expert-knowledge incorporation and interpretation, while formal causal discovery remains tied to provably-correct algorithms, explicit assumptions and user-approved choices.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.23581v1",
+      "title": "Kamera: Unified Position-Invariant Multimodal KV Cache for Training-Free Reuse",
+      "authors": [
+        "Bole Ma",
+        "Jan Eitzinger",
+        "Harald Koestler",
+        "Gerhard Wellein"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.DC"
+      ],
+      "abstract": "Kamera proposes a unified KV cache mechanism that enables training-free reuse of multimodal context. Its core method involves storing a low-rank conditioning patch alongside the standard KV cache, which captures cross-chunk dependencies lost in naive reuse. This allows for efficient multi-hop reasoning by recovering crucial information that standard caches miss, significantly improving accuracy without requiring any model retraining.",
+      "url": "http://arxiv.org/abs/2606.23581v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23581v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.23581v1/x1.png",
+      "figure_caption": "Three reuse patterns beyond the window, and what each costs. Top (prefix/radix): cached vision embeddings still miss whenever reuse sits at a shifted position (reorder, slide, look-back), so the LLM prefill re-runs. Bottom (Kamera): chunks stored position-free; reorder reuses one orbit-patch, a survivor relocates for free ( R ​ ( δ ) R(\\( \\delta \\)) , no patch), and a recalled chunk is rehydrated by a patch on its fixed earlier context. Survivors cost a rotation; only recall costs a patch.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.23590v1",
+      "title": "The Topology of Ill-Posed Questions: Persistent Homology for Detection and Steering in LLMs",
+      "authors": [
+        "Guangyu Jiang",
+        "Sizhe Tang",
+        "Mahdi Imani",
+        "Tian Lan"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes using persistent homology to analyze the internal states of Large Language Models (LLMs) when processing ill-posed questions. By modeling transformer layer hidden states as point clouds and summarizing their topological features, the authors create a \"topology representation\" of the question. This representation can then be used to steer LLM response behavior, offering a unified approach to handling various types of problematic queries.",
+      "url": "http://arxiv.org/abs/2606.23590v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23590v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.23590v1/x1.png",
+      "figure_caption": "Overview of our topology-based framework. We collect prompt-token hidden states across layers, treat each layer as a token point cloud, compute finite H 0 H_{0} persistence features, and use the resulting topology vectors for ill-posedness classification and topology-conditioned activation steering.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.23543v1",
+      "title": "VeriEvol: Scaling Multimodal Mathematical Reasoning via Verifiable Evol-Instruct",
+      "authors": [
+        "Haoling Li",
+        "Kai Zheng",
+        "Jie Wu",
+        "Can Xu",
+        "Qingfeng Sun"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces VeriEvol, a framework for scaling multimodal mathematical reasoning by focusing on verifiable data construction. It decouples prompt difficulty, increased through route-specific evolution operators, from answer reliability, enforced by offline hypothesis-testing falsification. VeriEvol iteratively generates harder, image-grounded prompts and verifies answers using a multi-source counter-evidence approach, ensuring data volume and reliability without relying on potentially flawed human labels.",
+      "url": "http://arxiv.org/abs/2606.23543v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23543v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.23668v1",
+      "title": "On the Limits of Prompt-Conditioned Language Models as General-Purpose Learners",
+      "authors": [
+        "David Mguni",
+        "Julian Ma",
+        "Jun Wang"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper argues that language's inherent limitations as a communication channel create an \"expressivity floor\" for prompt-conditioned LLMs. Even with perfect inference and execution, complex tasks exceeding language's capacity become indistinguishable, leading to unavoidable errors. The core contribution is a theoretical framework, using a cheap-talk game and PAC-Bayes bounds, to demonstrate this fundamental limitation on LLMs' general-purpose learning capabilities.",
+      "url": "http://arxiv.org/abs/2606.23668v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23668v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.23668v1/x1.png",
+      "figure_caption": "Conceptual Diagram",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.23568v1",
+      "title": "SVD-Surgeon: Optimal Singular-Value Surgery for Large Language Model Compression",
+      "authors": [
+        "Mahmoud Safari",
+        "Frank Hutter"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "SVD-Surgeon applies the Optimal Brain Surgeon framework to singular values for LLM compression. It computes optimal updates to retained singular values to minimize loss after pruning, and identifies which singular values are most important to prune. This training-free method improves existing SVD compression techniques without retraining.",
+      "url": "http://arxiv.org/abs/2606.23568v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23568v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.23568v1/x1.png",
+      "figure_caption": "Overview of SVD-Surgeon applied to a host SVD compressor (e.g. SVD-LLM). Top (blue): the host pipeline decomposes and truncates the weight matrix. Bottom (orange): SVD-Surgeon uses calibration gradients projected into the host’s singular-value basis to assemble a compact Hessian H ¯ \\( \\bar{H} \\) and compute a closed-form correction of the retained singular values. Vertical arrows show the information each SVD-Surgeon stage receives from the host. The update-only variant (U, solid) inherits the host’s pruned set, while the select-and-update variant (S, dashed) replaces it with a saliency-based selection.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.23671v1",
+      "title": "Can LLMs Reliably Self-Report Adversarial Prefills, and How?",
+      "authors": [
+        "Quang Minh Nguyen",
+        "Uzair Ahmed",
+        "Taegyoon Kim"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates whether Large Language Models (LLMs) can reliably detect their own responses generated by adversarial prefill attacks. The study found that LLMs are generally poor at recognizing these compromised outputs, often misattributing intent to them. The authors demonstrate that this introspective signal is primarily linked to safety and refusal reasoning, and can be manipulated by how the question is framed.",
+      "url": "http://arxiv.org/abs/2606.23671v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23671v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.23654v1",
+      "title": "EnterpriseClawBench: Benchmarking Agents from Real Workplace Sessions",
+      "authors": [
+        "Jincheng Zhong",
+        "Weizhi Wang",
+        "Che Jiang",
+        "Kai Tian",
+        "Zhenzhao Yuan"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "EnterpriseClawBench is a benchmark for enterprise agents, built from real workplace sessions to evaluate their ability to interact with files and tools. Its core contribution is a reproducible protocol for constructing and evaluating such agents, as the proprietary data cannot be released. The benchmark highlights the need for comprehensive evaluation metrics beyond a single score, considering factors like artifact quality and skill transfer.",
+      "url": "http://arxiv.org/abs/2606.23654v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23654v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.23654v1/x1.png",
+      "figure_caption": "Main Lite leaderboard across 32 harness–model combinations. Bar height is score; top annotations show agent cost in CNY and average runtime per task.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.23687v1",
+      "title": "Randomized YaRN Improves Length Generalization for Long-Context Reasoning",
+      "authors": [
+        "Manas Mehta",
+        "Fangcong Yin",
+        "Greg Durrett"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Randomized YaRN, a training method that enhances LLMs' ability to generalize to longer contexts. It combines YaRN positional extrapolation with randomized positional encoding and a length curriculum, exposing models to out-of-distribution positional information even during short-context training. This approach significantly improves reasoning performance on much longer sequences, outperforming standard fine-tuning.",
+      "url": "http://arxiv.org/abs/2606.23687v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23687v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.23687v1/x1.png",
+      "figure_caption": "Randomized YaRN trains LLMs for length generalization by: (1) Random position sampling: randomly sampling positions from a longer length distribution, assigning the corresponding YaRN encodings to each token in the short-context training data to expose models to OOD positional encodings; and (2) Length-generalization curriculum: gradually increasing the sampling length distribution as a training curriculum.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.23678v1",
+      "title": "AIR: Adaptive Interleaved Reasoning with Code in MLLMs",
+      "authors": [
+        "Cong Han",
+        "Xiaohan Lan",
+        "Haibo Qiu",
+        "Yujie Zhong"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces AIR, a method that enhances multimodal large language models (MLLMs) by enabling them to perform complex numerical computations through interleaved reasoning with code. Unlike prior work focused on visual tasks, AIR uses reinforcement learning with a novel three-component solution: a data construction pipeline, data filtering, and an adaptive tool-invocation strategy with a group-constrained reward function. This allows MLLMs to tackle numerical problems by adaptively generating and executing code.",
+      "url": "http://arxiv.org/abs/2606.23678v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23678v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.23678v1/x1.png",
+      "figure_caption": "Left: Overview of AIR. Upon receiving an image and a question, AIR generates textual reasoning and optionally invokes a code tool. The code undergoes execution in a sandbox, and its output is fed back into the reasoning process. This cycle of text reasoning and code execution can be repeated multiple times until the final answer is produced. Right: Illustration of reward design with group constraints. After computing sequence rewards via the reward model, we introduce a group constraint on the proportion of interleaved reasoning sequences, then recalculate rewards and derive group relative advantages.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.23643v1",
+      "title": "TailorMind: Towards Preference-Aligned Multimodal Content Generation",
+      "authors": [
+        "Hengji Zhou",
+        "Ye Liu",
+        "Yufeng Liu",
+        "Si Wu",
+        "Lianghao Xia"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "TailorMind addresses the challenge of personalized multimodal content generation by bridging user preferences with generative models. It enriches sparse user data using hypergraph collaborative filtering and optimizes textual profiles through feedback-driven learning. The system then leverages retrieval-augmented style control and cross-modal cohesion reflection to generate authentic, coherent, and novel multimodal content tailored to individual users, even without existing item pools.",
+      "url": "http://arxiv.org/abs/2606.23643v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23643v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.23643v1/x1.png",
+      "figure_caption": "Personalized multimodal content generation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.23664v1",
+      "title": "MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?",
+      "authors": [
+        "Juyang Bai",
+        "Laixi Shi"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces MAS-PromptBench to investigate the effectiveness of prompt optimization for multi-agent LLM systems. It systematically evaluates how optimizing system prompts, which define agent roles and workflows, impacts MAS performance across various configurations. The core contribution is to clarify when and how much prompt optimization benefits MAS, addressing the challenges of its exponentially growing search space.",
+      "url": "http://arxiv.org/abs/2606.23664v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23664v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.23664v1/x1.png",
+      "figure_caption": "Prompt-optimization gains using a state-of-the-art optimizer GEPA in single-agent and multi-agent settings. While GEPA consistently improves single-agent performance across all five diverse tasks, its natural multi-agent extension yields highly variable effects across tasks and workflow topologies, ranging from large gains to severe performance drops.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.23608v1",
+      "title": "Causal Discovery in the Era of Agents",
+      "authors": [
+        "Yujia Zheng",
+        "Vishal Verma",
+        "Mantej Gill",
+        "Haoyue Dai",
+        "Peter Spirtes"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.SE",
+        "stat.AP"
+      ],
+      "abstract": "This paper argues that AI agents in causal discovery should assist the workflow by inspecting data, explaining methods, and clarifying outputs, rather than directly supplying causal relationships. Their core contribution is the principle that causal claims must remain grounded in data, explicit assumptions, and formal algorithms, with agents acting as facilitators. This approach aims to ensure transparency and prevent LLM-generated artifacts from masquerading as data-driven causal evidence.",
+      "url": "http://arxiv.org/abs/2606.23608v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23608v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.23608v1/figures/framework.png",
+      "figure_caption": "Framework of causal-learn+ . Agents support data analysis, preprocessing, algorithm recommendation, expert-knowledge incorporation and interpretation, while formal causal discovery remains tied to provably-correct algorithms, explicit assumptions and user-approved choices.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.23581v1",
+      "title": "Kamera: Unified Position-Invariant Multimodal KV Cache for Training-Free Reuse",
+      "authors": [
+        "Bole Ma",
+        "Jan Eitzinger",
+        "Harald Koestler",
+        "Gerhard Wellein"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.DC"
+      ],
+      "abstract": "Kamera proposes a unified KV cache mechanism that enables training-free reuse of multimodal context. Its core method involves storing a low-rank conditioning patch alongside the standard KV cache, which captures cross-chunk dependencies lost in naive reuse. This allows for efficient multi-hop reasoning by recovering crucial information that standard caches miss, significantly improving accuracy without requiring any model retraining.",
+      "url": "http://arxiv.org/abs/2606.23581v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23581v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.23581v1/x1.png",
+      "figure_caption": "Three reuse patterns beyond the window, and what each costs. Top (prefix/radix): cached vision embeddings still miss whenever reuse sits at a shifted position (reorder, slide, look-back), so the LLM prefill re-runs. Bottom (Kamera): chunks stored position-free; reorder reuses one orbit-patch, a survivor relocates for free ( R ​ ( δ ) R(\\( \\delta \\)) , no patch), and a recalled chunk is rehydrated by a patch on its fixed earlier context. Survivors cost a rotation; only recall costs a patch.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.23590v1",
+      "title": "The Topology of Ill-Posed Questions: Persistent Homology for Detection and Steering in LLMs",
+      "authors": [
+        "Guangyu Jiang",
+        "Sizhe Tang",
+        "Mahdi Imani",
+        "Tian Lan"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes using persistent homology to analyze the internal states of Large Language Models (LLMs) when processing ill-posed questions. By modeling transformer layer hidden states as point clouds and summarizing their topological features, the authors create a \"topology representation\" of the question. This representation can then be used to steer LLM response behavior, offering a unified approach to handling various types of problematic queries.",
+      "url": "http://arxiv.org/abs/2606.23590v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23590v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.23590v1/x1.png",
+      "figure_caption": "Overview of our topology-based framework. We collect prompt-token hidden states across layers, treat each layer as a token point cloud, compute finite H 0 H_{0} persistence features, and use the resulting topology vectors for ill-posedness classification and topology-conditioned activation steering.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.23543v1",
+      "title": "VeriEvol: Scaling Multimodal Mathematical Reasoning via Verifiable Evol-Instruct",
+      "authors": [
+        "Haoling Li",
+        "Kai Zheng",
+        "Jie Wu",
+        "Can Xu",
+        "Qingfeng Sun"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces VeriEvol, a framework for scaling multimodal mathematical reasoning by focusing on verifiable data construction. It decouples prompt difficulty, increased through route-specific evolution operators, from answer reliability, enforced by offline hypothesis-testing falsification. VeriEvol iteratively generates harder, image-grounded prompts and verifies answers using a multi-source counter-evidence approach, ensuring data volume and reliability without relying on potentially flawed human labels.",
+      "url": "http://arxiv.org/abs/2606.23543v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23543v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.23668v1",
+      "title": "On the Limits of Prompt-Conditioned Language Models as General-Purpose Learners",
+      "authors": [
+        "David Mguni",
+        "Julian Ma",
+        "Jun Wang"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper argues that language's inherent limitations as a communication channel create an \"expressivity floor\" for prompt-conditioned LLMs. Even with perfect inference and execution, complex tasks exceeding language's capacity become indistinguishable, leading to unavoidable errors. The core contribution is a theoretical framework, using a cheap-talk game and PAC-Bayes bounds, to demonstrate this fundamental limitation on LLMs' general-purpose learning capabilities.",
+      "url": "http://arxiv.org/abs/2606.23668v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23668v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.23668v1/x1.png",
+      "figure_caption": "Conceptual Diagram",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.23568v1",
+      "title": "SVD-Surgeon: Optimal Singular-Value Surgery for Large Language Model Compression",
+      "authors": [
+        "Mahmoud Safari",
+        "Frank Hutter"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "SVD-Surgeon applies the Optimal Brain Surgeon framework to singular values for LLM compression. It computes optimal updates to retained singular values to minimize loss after pruning, and identifies which singular values are most important to prune. This training-free method improves existing SVD compression techniques without retraining.",
+      "url": "http://arxiv.org/abs/2606.23568v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23568v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.23568v1/x1.png",
+      "figure_caption": "Overview of SVD-Surgeon applied to a host SVD compressor (e.g. SVD-LLM). Top (blue): the host pipeline decomposes and truncates the weight matrix. Bottom (orange): SVD-Surgeon uses calibration gradients projected into the host’s singular-value basis to assemble a compact Hessian H ¯ \\( \\bar{H} \\) and compute a closed-form correction of the retained singular values. Vertical arrows show the information each SVD-Surgeon stage receives from the host. The update-only variant (U, solid) inherits the host’s pruned set, while the select-and-update variant (S, dashed) replaces it with a saliency-based selection.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.23671v1",
+      "title": "Can LLMs Reliably Self-Report Adversarial Prefills, and How?",
+      "authors": [
+        "Quang Minh Nguyen",
+        "Uzair Ahmed",
+        "Taegyoon Kim"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates whether Large Language Models (LLMs) can reliably detect their own responses generated by adversarial prefill attacks. The study found that LLMs are generally poor at recognizing these compromised outputs, often misattributing intent to them. The authors demonstrate that this introspective signal is primarily linked to safety and refusal reasoning, and can be manipulated by how the question is framed.",
+      "url": "http://arxiv.org/abs/2606.23671v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23671v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.23654v1",
+      "title": "EnterpriseClawBench: Benchmarking Agents from Real Workplace Sessions",
+      "authors": [
+        "Jincheng Zhong",
+        "Weizhi Wang",
+        "Che Jiang",
+        "Kai Tian",
+        "Zhenzhao Yuan"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "EnterpriseClawBench is a benchmark for enterprise agents, built from real workplace sessions to evaluate their ability to interact with files and tools. Its core contribution is a reproducible protocol for constructing and evaluating such agents, as the proprietary data cannot be released. The benchmark highlights the need for comprehensive evaluation metrics beyond a single score, considering factors like artifact quality and skill transfer.",
+      "url": "http://arxiv.org/abs/2606.23654v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23654v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.23654v1/x1.png",
+      "figure_caption": "Main Lite leaderboard across 32 harness–model combinations. Bar height is score; top annotations show agent cost in CNY and average runtime per task.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.23687v1",
+      "title": "Randomized YaRN Improves Length Generalization for Long-Context Reasoning",
+      "authors": [
+        "Manas Mehta",
+        "Fangcong Yin",
+        "Greg Durrett"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Randomized YaRN, a training method that enhances LLMs' ability to generalize to longer contexts. It combines YaRN positional extrapolation with randomized positional encoding and a length curriculum, exposing models to out-of-distribution positional information even during short-context training. This approach significantly improves reasoning performance on much longer sequences, outperforming standard fine-tuning.",
+      "url": "http://arxiv.org/abs/2606.23687v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23687v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.23687v1/x1.png",
+      "figure_caption": "Randomized YaRN trains LLMs for length generalization by: (1) Random position sampling: randomly sampling positions from a longer length distribution, assigning the corresponding YaRN encodings to each token in the short-context training data to expose models to OOD positional encodings; and (2) Length-generalization curriculum: gradually increasing the sampling length distribution as a training curriculum.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
