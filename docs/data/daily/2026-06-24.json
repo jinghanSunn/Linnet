@@ -1,0 +1,1159 @@
+{
+  "date": "2026-06-24",
+  "generated_at": "2026-06-24T12:12:59.684854+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.24790v1",
+          "title": "Grad Detect: Gradient-Based Hallucination Detection in LLMs",
+          "authors": [
+            "Anand Kamat",
+            "Daniel Blake",
+            "Brent M. Werness"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "Grad Detect is a novel method for detecting LLM hallucinations by analyzing internal gradient patterns during a single inference pass. Its core contribution is demonstrating that these gradient structures, unlike output-level signals, contain crucial information about output correctness. This approach outperforms existing methods in hallucination detection and model abstention prediction.",
+          "url": "http://arxiv.org/abs/2606.24790v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.24790v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.24855v1",
+          "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+          "authors": [
+            "Negin Raoof",
+            "Richard Zhuang",
+            "Marianna Nezhurina",
+            "Etash Guha",
+            "Atula Tejaswi"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces OpenThoughts-Agent (OT-Agent), an open data curation pipeline for training broadly capable agentic AI models. By systematically analyzing data sources and diversity through over 100 ablation experiments, they demonstrate the importance of these factors. Their curated dataset and fine-tuned Qwen3-32B model achieve a significant performance improvement across seven agentic benchmarks compared to existing open models.",
+          "url": "http://arxiv.org/abs/2606.24855v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.24855v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.24855v1/figures/figure1_option8_8b.png",
+          "figure_caption": "The OpenThoughts-Agent-SFT dataset leads to SotA performance on Terminal-Bench 2.0 and an 100-subset of SWE-Bench Verified at large dataset scales. The all-benchmark average is over the seven benchmarks reported in Table LABEL:tab:ot_agent_main_table1 . Additional notes on SERA below. 2 2 2 SERA uses SWE-agent for data generation and evaluation, so we report both the SWE-agent (solid) and Terminus-2 (dashed) harnesses on SWE-Bench and Terminal-Bench, and the best of the two harnesses per benchmark for the average. SERA’s dataset contains at most 47K examples, so its scaling curve stops at 47K.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.24775v1",
+          "title": "Are We Ready For An Agent-Native Memory System?",
+          "authors": [
+            "Wei Zhou",
+            "Xuanhe Zhou",
+            "Shaokun Han",
+            "Hongming Xu",
+            "Guoliang Li"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.DB",
+            "cs.IR"
+          ],
+          "abstract": "This paper argues that current evaluations of LLM agent memory are insufficient, focusing only on end-task success and treating memory as a black box. The authors propose a new analytical framework that decomposes agent memory into four core modules (representation/storage, extraction, retrieval/routing, and maintenance) to enable systematic, data management-focused evaluation of system-level concerns like cost and robustness. Their contribution is a structured approach to understanding and evaluating the complex internal workings of agent memory systems.",
+          "url": "http://arxiv.org/abs/2606.24775v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.24775v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.24775v1/x1.png",
+          "figure_caption": "Figure 1 . Typical Execution Workflows of Agent Memory.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.24834v1",
+          "title": "Accuracy and Satisfaction in Multi-Turn LLM Dialogues for NFR Assessment",
+          "authors": [
+            "Ali Pourghasemi Fatideh",
+            "Wilder Baldwin",
+            "Maria Dhakal",
+            "Collin McMillan",
+            "Sepideh Ghanavati"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper addresses the gap in evaluating LLM dialogue assistants for software development, specifically focusing on Non-Functional Requirements (NFRs) which are complex and context-dependent. The core method involves analyzing multi-turn conversations between developers and an LLM (GitHub Copilot) to assess both the accuracy of NFR assessment and the quality of the collaborative interaction. The contribution is a novel evaluation approach that captures the nuances of multi-turn dialogue for NFRs, demonstrated through a study on HIPAA compliance with a real codebase.",
+          "url": "http://arxiv.org/abs/2606.24834v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.24834v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.24834v1/Figures/methodology_overview.png",
+          "figure_caption": "Methodology overview.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.24752v1",
+          "title": "Can Scale Save Us From Plasticity Loss in Large Language Models?",
+          "authors": [
+            "J. Fernando Hernandez-Garcia",
+            "Tomás Figliolia",
+            "Beren Millidge"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper investigates whether scaling up Large Language Models (LLMs) can overcome the challenge of plasticity loss, where models forget old information when learning new. The study finds that even in modern Transformer LLMs, plasticity loss persists and follows a predictable scaling law, meaning larger models only delay, rather than eliminate, this issue. The core contribution is demonstrating that increased model size alone is insufficient to solve the continual learning problem in LLMs.",
+          "url": "http://arxiv.org/abs/2606.24752v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.24752v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.24752v1/figures/continual_learning_problem_definition_light.png",
+          "figure_caption": "Multilingual continual learning problem. Models are trained on repeated cycles of eight language-modeling task instances. At the end of each cycle, plasticity is assessed using a held-out Vietnamese probing task.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.24779v1",
+          "title": "DeepBD: A Grounded Agentic Workflow for Variant Prioritization and Diagnosis of Genetic Birth Defects",
+          "authors": [
+            "Shiyu Li",
+            "Ziqi Yan",
+            "Zhihao Wu",
+            "Jielong Lu",
+            "Weiran Liao"
+          ],
+          "categories": [
+            "cs.AI",
+            "q-bio.GN"
+          ],
+          "abstract": "DeepBD is a novel agentic workflow designed to improve the diagnosis of genetic birth defects. Its core method involves a multi-layered approach, starting with LLM-assisted case structuring, followed by a pretrained evidence engine that integrates various data sources, and culminating in a grounded diagnostic review. The paper's main contribution is providing a structured, AI-driven system to tackle the complex challenge of variant prioritization in genetic birth defects, aiming to enhance diagnostic accuracy and efficiency.",
+          "url": "http://arxiv.org/abs/2606.24779v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.24779v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.24779v1/x1.png",
+          "figure_caption": "DeepBD workflow and cohort landscape. a, Workflow for genetic birth defect interpretation from clinical-genomic input to ranked variants and diagnosis-oriented evidence synthesis. b, Biomedical graph context linking phenotype, cellular context, pathway, gene and variant evidence. c,d, Phenotype and variant composition of the in-house fetal and infant cohort. e, Example phenotype-cell-gene-variant-pathway flow for patient-specific biological context. f, Evidence-resource and evaluation overview. g, Distribution of curated positive variants across DeepBD ranking outcomes together with rule, mechanism and structure evidence patterns. h, Variant-class-stratified Hit@5 comparison across DeepBD and baseline reranking systems.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.24839v1",
+          "title": "Grading the Grader: Lessons from Evaluating an Agentic Data Analysis System",
+          "authors": [
+            "Tian Zheng",
+            "Kai-Tai Hsu"
+          ],
+          "categories": [
+            "cs.AI",
+            "stat.AP"
+          ],
+          "abstract": "This paper addresses the challenge of evaluating complex agentic data analysis systems, which produce multi-faceted outputs. The core method involves a three-layer grading cascade combining strict regex, lenient LLM-based grading, and human inspection. The contribution lies in demonstrating that this hybrid approach achieves high precision and recall, effectively distinguishing genuine errors from grading artifacts, and offering strategies to improve automated grading quality.",
+          "url": "http://arxiv.org/abs/2606.24839v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.24839v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.24849v1",
+          "title": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
+          "authors": [
+            "Zixuan Li",
+            "Haokun Lin",
+            "Yicheng Xiao",
+            "Zhiwei Li",
+            "Xinyang Song"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces IV-CoT, a method to improve text-to-image generation's adherence to structural prompts like object counts and spatial relations. It achieves this by separating structural planning from appearance rendering, creating a latent visual plan before generating the image. The key contribution is a training-only sketch supervision that guides this structural planning without needing explicit sketch extraction during inference.",
+          "url": "http://arxiv.org/abs/2606.24849v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.24849v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.24849v1/figure/fig1.png",
+          "figure_caption": "Comparison of reasoning paradigms for text-to-image generation. (Left) : direct generation, explicit textual CoT, explicit interleaved CoT, and IV-CoT differ in where intermediate reasoning states are represented. (Right) : a structure-aware prompt-following example showing that IV-CoT better preserves the requested object layout without explicitly decoding intermediate images.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.24669v1",
+          "title": "LaGO: Latent Action Guidance for Online Reinforcement Learning",
+          "authors": [
+            "Kuan-Yen Liu",
+            "Ren-Jyun Huang",
+            "Ti-Rong Wu"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces LaGO, a framework that uses a pre-trained Large Language Model (LLM) to softly guide online reinforcement learning policy optimization, rather than having the LLM directly control actions. The core contribution is demonstrating that this latent action guidance improves both reward and success rates on discrete and continuous control tasks, with stronger LLMs yielding better results.",
+          "url": "http://arxiv.org/abs/2606.24669v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.24669v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.24669v1/x1.png",
+          "figure_caption": "Overview of the LaGO framework. Numeric environment states are injected into the frozen LLM latent space via learned projection layers, and the resulting action distribution serves as a KL-regularized prior for online RL policy optimization.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.24747v1",
+          "title": "Scaling Laws for Task-Specific LLM Distillation",
+          "authors": [
+            "Lavinia Ghita",
+            "Dhruv Desai",
+            "Ioana Boier"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CE"
+          ],
+          "abstract": "This paper investigates how to compress large language models (LLMs) for specific tasks while maintaining performance. It empirically derives scaling laws for distillation, showing how dataset size, compression ratio, and supervision format affect in-domain and general knowledge performance. The key contribution is a blended chain-of-thought supervision loss that stabilizes distillation and helps recover general knowledge lost during compression, particularly in domains like quantitative finance.",
+          "url": "http://arxiv.org/abs/2606.24747v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.24747v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.24747v1/x1.png",
+          "figure_caption": "Train set label distribution over the 35 event classes in the financial news dataset (training split, classes sorted by decreasing frequency).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.24759v1",
+          "title": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
+          "authors": [
+            "Xiaowei Gao",
+            "Pengxiang Li",
+            "Yitai Cheng",
+            "Ruihan Xu",
+            "James Haworth"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "UniDrive addresses the trade-off between temporal reasoning and spatial precision in autonomous driving by combining multi-frame temporal modeling with high-resolution spatial perception. Its core contribution is a gated cross-attention fusion module that integrates these two branches, allowing for dynamic scene context to be aligned with precise spatial evidence for interpretable risk understanding.",
+          "url": "http://arxiv.org/abs/2606.24759v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.24759v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.24842v1",
+          "title": "World Models in Pieces: Structural Certification for General Agents",
+          "authors": [
+            "Yikai Lu",
+            "Yifei Wu",
+            "Xinyu Lu",
+            "Tongxin Li"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper argues that general agents have specialized world models, making uniform performance guarantees insufficient. It introduces \"structural certification,\" a method that maps goal-conditioned performance to guarantees on the agent's internal world model. The authors provide algorithms to filter transitions using compositional goals, proving that this leads to a structurally sound world model with a tight error bound.",
+          "url": "http://arxiv.org/abs/2606.24842v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.24842v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.24842v1/figures/intro.jpg",
+          "figure_caption": "World Models in Pieces. The capability of a general agent is localized to specific certified pieces (colored blocks) with some low error \\( \\delta \\) (see Definition 2.3 ) where its internal model provably aligns with reality. Reliable long-horizon planning (green arrow) succeeds by navigating these certified transitions rather than requiring global accuracy.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.24667v1",
+          "title": "DREAM: Dense Retrieval Embeddings via Autoregressive Modeling",
+          "authors": [
+            "Yixuan Tang",
+            "Yi Yang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "DREAM trains dense retrieval models by leveraging the next-token prediction objective of a frozen Large Language Model (LLM). It injects retriever-generated similarity scores into the LLM's attention mechanism, allowing the LLM's autoregressive loss to implicitly supervise the retriever. This approach eliminates the need for costly labeled positive/negative document pairs, a significant contribution to efficient dense retrieval training.",
+          "url": "http://arxiv.org/abs/2606.24667v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.24667v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.24667v1/x1.png",
+          "figure_caption": "Overview of DREAM. The retriever scores candidate documents for a query, and these scores reweight selected attention heads of a frozen LLM as it predicts the target passage. The next-token prediction loss trains the retriever while the LLM stays frozen.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.24828v1",
+          "title": "Less is More: Quality-Aware Training Data Selection for Scientific Summarization",
+          "authors": [
+            "Maria Nefeli Paraskevopoulou",
+            "Tatiana Passali",
+            "Grigorios Tsoumakas"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper addresses the limitations of existing scientific summarization datasets by constructing a large-scale biomedical dataset and analyzing the quality of author-written abstracts. The core method involves using quality signals from abstracts to guide training data selection, demonstrating that training on high-quality subsets improves summarization performance. The main contribution is a novel approach to data selection that enhances model training and achieves better results than random sampling.",
+          "url": "http://arxiv.org/abs/2606.24828v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.24828v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.24828v1/abstract-quality-distributions.png",
+          "figure_caption": "Score distributions for author-written abstracts on the 10,000-example reference-quality analysis set.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.24773v1",
+          "title": "Posterior Refinement: Fast Language Generation via Any-Order Flow Maps",
+          "authors": [
+            "Manan Agarwal",
+            "Sheel Shah",
+            "Chanhyuk Lee",
+            "Jaehoon Yoo",
+            "Jerry Huang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces FMLM+, a framework that combines the strengths of Masked Diffusion Models and Flow Map Language Models for faster and more flexible language generation. Its core method uses \"Posterior Refinement,\" an inference-time strategy that allows the model to adaptively self-correct its generated tokens by assessing their global consistency. This approach achieves high performance with the flexibility of non-autoregressive models.",
+          "url": "http://arxiv.org/abs/2606.24773v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.24773v1",
+          "score": 7.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.24820v1",
+          "title": "SHERLOC: Structured Diagnostic Localization for Code Repair Agents",
+          "authors": [
+            "Hovhannes Tamoyan",
+            "Sean Narenthiran",
+            "Erik Arakelyan",
+            "Mira Mezini",
+            "Boris Ginsburg"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "SHERLOC is a training-free framework that improves code repair agents by providing actionable diagnostic context alongside fault locations. It uses a reasoning LLM and compact repository tools to identify bugs more effectively, leading to higher repair success rates and reduced computational costs. Its core contribution is moving beyond simple file retrieval to provide the necessary reasoning for agents to fix code efficiently.",
+          "url": "http://arxiv.org/abs/2606.24820v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.24820v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.24820v1/x1.png",
+          "figure_caption": "Overview of SHERLOC . A reasoning LLM interacts with a tool executor over four LLM-friendly tools, with a self-recovery layer correcting failures. SHERLOC achieves state-of-the-art file-level localization on SWE-Bench Lite and Verified , and in downstream code repair yields, on average, 5.95 5.95 pp higher resolve rate with 36.7 % 36.7\\% and 23.1 % 23.1\\% fewer localization and total tokens.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 26,
+        "papers_after_llm_filter": 16,
+        "count": 16
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Postdoctoral Position: Multimodal Data Integration for Ovarian Cancer",
+          "url": "https://euraxess.ec.europa.eu/jobs/447380",
+          "description": "🔬 Project OverviewThe PINKCC Lab develops deep learning, data fusion, and medical image analysis methods to improve cancer prognosis prediction in an objective and interpretable way. Our work centers on the computational treatment of medical data in oncology, with a strong focus on ovarian cancer... * Work Locations: Number of offers: 1, France, IRCM - Cancer Research Institute of Montpellier, Montpellier, 34000, 208 rue des Apothicaires Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 31 Jul 2026 - 18:00 (Europe/Paris) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * 1 Page 1 * [2](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer&f%5B1%5D=positions%3Apostdoc_positions&page=1) * [3](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer&f%5B1%5D=positions%3Apostdoc_positions&page=2) * ... * [79](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer&f%5B1%5D=positions%3Apostdoc_positions&page=78) * [Next](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer&f%5B1%5D=positions%3Apostdoc_positions&page=1) #### Jobs & Opportunities * [Post Jobs](https://euraxess.ec.europa.eu/jobs) * [Search for Jobs](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer) * [Search for Funding](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Afunding) * [Search for Hosting](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ahosting) #### Career Development * [For Researchers](https://euraxess.ec.europa.eu/career-development/researchers) * [For Organisations](https://euraxess.ec.europa.eu/career-development/organisations) #### Partnering * [Search for Researchers](https://euraxess.ec.europa.eu/partnering/members/search) * [Search for Organisations](https://euraxess.ec.europa.eu/partnering/organisations) #### Living & Working in Europe * [Living in Europe](https://euraxess.ec.europa.eu/information/living-europe) * [Leaving Europe](https://euraxess.ec.europa.eu/information/leaving-europe) * [Working in Europe](https://euraxess.ec.europa.eu/information/working-europe) * [Retiring in Europe](https://euraxess.ec.europa.eu/information/pensions-for-researchers) * [EURAXESS Support Centres](https://euraxess.ec.europa.eu/information/centres/search) * [Visa and Entry Conditions](https://euraxess.ec.europa.eu/information/search?f%5B0%5D=information_topic_topic%3A877) #### EURAXESS Worldwide * [Africa](https://euraxess.ec.europa.eu/worldwide/africa) * [ASEAN](https://euraxess.ec.europa.eu/worldwide/asean) * [Australia & New Zealand](https://euraxess.ec.europa.eu/worldwide/australia-nz) * [China](https://euraxess.ec.europa.eu/worldwide/china) * [India](https://euraxess.ec.europa.eu/worldwide/india) * [Japan](https://euraxess.ec.europa.eu/worldwide/japan) * [Korea](https://euraxess.ec.europa.eu/worldwide/south-korea) * [Latin America & Caribbean States](https://euraxess.ec.europa.eu/worldwide/lac) * [North America](https://euraxess.ec.europa.eu/worldwide/north-america) #### My EURAXESS * [Login](https://euraxess.ec.europa.eu/user/login) * [Register](https://euraxess.ec.europa.eu/user/register) #### Follow us * [Facebook](https://www.facebook.com/euraxess/) * [Linkedin](https://www.linkedin.com/company/euraxessofficial/) * [YouTube](https://www.youtube.com/@euraxess) #### Useful Information * [About EURAXESS](https://euraxess.ec.europa.eu/useful-information/about-euraxess) * [Accessibility Statement](https://euraxess.ec.europa.eu/useful-information/accessibility-statement) * [Contact us](https://euraxess.ec.europa.eu/contact-us) * [Brochures](https://euraxess.ec.europa.eu/useful-information/brochures) * [Events](https://euraxess.ec.europa.eu/events) * [FAQs](https://euraxess.ec.europa.eu/useful-information/faq) * [Legal Information](https://euraxess.ec.europa.eu/useful-information) * [News](https://euraxess.ec.europa.eu/news) * [Library](https://euraxess.ec.europa.eu/useful-information/policy-library) * [Privacy statement](https://euraxess.ec.europa.eu/useful-information/privacy-statement) * [Cookie Statement](https://euraxess.ec.europa.eu/euraxess/cookie-policy) * [Useful links](https://euraxess.ec.europa.eu/useful-information/useful-links) #### [European Commission website](https://commission.europa.eu/index_en) * [Contact the European Commission](https://commission.europa.eu/about-european-commission/contact_en) * [Follow the European Commission on social media](https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission) * [Resources for partners](https://commission.europa.eu/resources-partners_en) * [Report an IT vulnerability](https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en) * [Languages on our websites](https://commission.europa.eu/languages-our-websites_en) * [Cookies](https://commission.europa.eu/cookies_en) * [Privacy policy](https://commission.europa.eu/privacy-policy_en) * [Legal notice](https://commission.europa.eu/legal-notice_en) [Field: Computer science]",
+          "institution": "",
+          "posted_date": "",
+          "deadline": "31 Jul 2026 - 18:00 (Europe/Paris)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Deep learning, data fusion, and medical image analysis for ovarian cancer prognosis prediction.\nKey Requirements: N/A\nApplication Info: deadline/start date: 31 Jul 2026 - 18:00 (Europe/Paris), required materials: N/A, contact: N/A\nPosition Details: location: Montpellier, France (IRCM - Cancer Research Institute of Montpellier), contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: Strong CV in medical imaging and deep learning is essential; LLM experience is not explicitly mentioned but could be a plus for data integration.",
+          "relevance_score": 10.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 1
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 26,
+    "papers_after_llm_filter": 16,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 398
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.24790v1",
+      "title": "Grad Detect: Gradient-Based Hallucination Detection in LLMs",
+      "authors": [
+        "Anand Kamat",
+        "Daniel Blake",
+        "Brent M. Werness"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Grad Detect is a novel method for detecting LLM hallucinations by analyzing internal gradient patterns during a single inference pass. Its core contribution is demonstrating that these gradient structures, unlike output-level signals, contain crucial information about output correctness. This approach outperforms existing methods in hallucination detection and model abstention prediction.",
+      "url": "http://arxiv.org/abs/2606.24790v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24790v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24855v1",
+      "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+      "authors": [
+        "Negin Raoof",
+        "Richard Zhuang",
+        "Marianna Nezhurina",
+        "Etash Guha",
+        "Atula Tejaswi"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces OpenThoughts-Agent (OT-Agent), an open data curation pipeline for training broadly capable agentic AI models. By systematically analyzing data sources and diversity through over 100 ablation experiments, they demonstrate the importance of these factors. Their curated dataset and fine-tuned Qwen3-32B model achieve a significant performance improvement across seven agentic benchmarks compared to existing open models.",
+      "url": "http://arxiv.org/abs/2606.24855v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24855v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.24855v1/figures/figure1_option8_8b.png",
+      "figure_caption": "The OpenThoughts-Agent-SFT dataset leads to SotA performance on Terminal-Bench 2.0 and an 100-subset of SWE-Bench Verified at large dataset scales. The all-benchmark average is over the seven benchmarks reported in Table LABEL:tab:ot_agent_main_table1 . Additional notes on SERA below. 2 2 2 SERA uses SWE-agent for data generation and evaluation, so we report both the SWE-agent (solid) and Terminus-2 (dashed) harnesses on SWE-Bench and Terminal-Bench, and the best of the two harnesses per benchmark for the average. SERA’s dataset contains at most 47K examples, so its scaling curve stops at 47K.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24775v1",
+      "title": "Are We Ready For An Agent-Native Memory System?",
+      "authors": [
+        "Wei Zhou",
+        "Xuanhe Zhou",
+        "Shaokun Han",
+        "Hongming Xu",
+        "Guoliang Li"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.DB",
+        "cs.IR"
+      ],
+      "abstract": "This paper argues that current evaluations of LLM agent memory are insufficient, focusing only on end-task success and treating memory as a black box. The authors propose a new analytical framework that decomposes agent memory into four core modules (representation/storage, extraction, retrieval/routing, and maintenance) to enable systematic, data management-focused evaluation of system-level concerns like cost and robustness. Their contribution is a structured approach to understanding and evaluating the complex internal workings of agent memory systems.",
+      "url": "http://arxiv.org/abs/2606.24775v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24775v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.24775v1/x1.png",
+      "figure_caption": "Figure 1 . Typical Execution Workflows of Agent Memory.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.24834v1",
+      "title": "Accuracy and Satisfaction in Multi-Turn LLM Dialogues for NFR Assessment",
+      "authors": [
+        "Ali Pourghasemi Fatideh",
+        "Wilder Baldwin",
+        "Maria Dhakal",
+        "Collin McMillan",
+        "Sepideh Ghanavati"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper addresses the gap in evaluating LLM dialogue assistants for software development, specifically focusing on Non-Functional Requirements (NFRs) which are complex and context-dependent. The core method involves analyzing multi-turn conversations between developers and an LLM (GitHub Copilot) to assess both the accuracy of NFR assessment and the quality of the collaborative interaction. The contribution is a novel evaluation approach that captures the nuances of multi-turn dialogue for NFRs, demonstrated through a study on HIPAA compliance with a real codebase.",
+      "url": "http://arxiv.org/abs/2606.24834v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24834v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24834v1/Figures/methodology_overview.png",
+      "figure_caption": "Methodology overview.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24752v1",
+      "title": "Can Scale Save Us From Plasticity Loss in Large Language Models?",
+      "authors": [
+        "J. Fernando Hernandez-Garcia",
+        "Tomás Figliolia",
+        "Beren Millidge"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper investigates whether scaling up Large Language Models (LLMs) can overcome the challenge of plasticity loss, where models forget old information when learning new. The study finds that even in modern Transformer LLMs, plasticity loss persists and follows a predictable scaling law, meaning larger models only delay, rather than eliminate, this issue. The core contribution is demonstrating that increased model size alone is insufficient to solve the continual learning problem in LLMs.",
+      "url": "http://arxiv.org/abs/2606.24752v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24752v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24752v1/figures/continual_learning_problem_definition_light.png",
+      "figure_caption": "Multilingual continual learning problem. Models are trained on repeated cycles of eight language-modeling task instances. At the end of each cycle, plasticity is assessed using a held-out Vietnamese probing task.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24779v1",
+      "title": "DeepBD: A Grounded Agentic Workflow for Variant Prioritization and Diagnosis of Genetic Birth Defects",
+      "authors": [
+        "Shiyu Li",
+        "Ziqi Yan",
+        "Zhihao Wu",
+        "Jielong Lu",
+        "Weiran Liao"
+      ],
+      "categories": [
+        "cs.AI",
+        "q-bio.GN"
+      ],
+      "abstract": "DeepBD is a novel agentic workflow designed to improve the diagnosis of genetic birth defects. Its core method involves a multi-layered approach, starting with LLM-assisted case structuring, followed by a pretrained evidence engine that integrates various data sources, and culminating in a grounded diagnostic review. The paper's main contribution is providing a structured, AI-driven system to tackle the complex challenge of variant prioritization in genetic birth defects, aiming to enhance diagnostic accuracy and efficiency.",
+      "url": "http://arxiv.org/abs/2606.24779v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24779v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24779v1/x1.png",
+      "figure_caption": "DeepBD workflow and cohort landscape. a, Workflow for genetic birth defect interpretation from clinical-genomic input to ranked variants and diagnosis-oriented evidence synthesis. b, Biomedical graph context linking phenotype, cellular context, pathway, gene and variant evidence. c,d, Phenotype and variant composition of the in-house fetal and infant cohort. e, Example phenotype-cell-gene-variant-pathway flow for patient-specific biological context. f, Evidence-resource and evaluation overview. g, Distribution of curated positive variants across DeepBD ranking outcomes together with rule, mechanism and structure evidence patterns. h, Variant-class-stratified Hit@5 comparison across DeepBD and baseline reranking systems.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24839v1",
+      "title": "Grading the Grader: Lessons from Evaluating an Agentic Data Analysis System",
+      "authors": [
+        "Tian Zheng",
+        "Kai-Tai Hsu"
+      ],
+      "categories": [
+        "cs.AI",
+        "stat.AP"
+      ],
+      "abstract": "This paper addresses the challenge of evaluating complex agentic data analysis systems, which produce multi-faceted outputs. The core method involves a three-layer grading cascade combining strict regex, lenient LLM-based grading, and human inspection. The contribution lies in demonstrating that this hybrid approach achieves high precision and recall, effectively distinguishing genuine errors from grading artifacts, and offering strategies to improve automated grading quality.",
+      "url": "http://arxiv.org/abs/2606.24839v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24839v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24849v1",
+      "title": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
+      "authors": [
+        "Zixuan Li",
+        "Haokun Lin",
+        "Yicheng Xiao",
+        "Zhiwei Li",
+        "Xinyang Song"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces IV-CoT, a method to improve text-to-image generation's adherence to structural prompts like object counts and spatial relations. It achieves this by separating structural planning from appearance rendering, creating a latent visual plan before generating the image. The key contribution is a training-only sketch supervision that guides this structural planning without needing explicit sketch extraction during inference.",
+      "url": "http://arxiv.org/abs/2606.24849v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24849v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24849v1/figure/fig1.png",
+      "figure_caption": "Comparison of reasoning paradigms for text-to-image generation. (Left) : direct generation, explicit textual CoT, explicit interleaved CoT, and IV-CoT differ in where intermediate reasoning states are represented. (Right) : a structure-aware prompt-following example showing that IV-CoT better preserves the requested object layout without explicitly decoding intermediate images.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24669v1",
+      "title": "LaGO: Latent Action Guidance for Online Reinforcement Learning",
+      "authors": [
+        "Kuan-Yen Liu",
+        "Ren-Jyun Huang",
+        "Ti-Rong Wu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces LaGO, a framework that uses a pre-trained Large Language Model (LLM) to softly guide online reinforcement learning policy optimization, rather than having the LLM directly control actions. The core contribution is demonstrating that this latent action guidance improves both reward and success rates on discrete and continuous control tasks, with stronger LLMs yielding better results.",
+      "url": "http://arxiv.org/abs/2606.24669v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24669v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24669v1/x1.png",
+      "figure_caption": "Overview of the LaGO framework. Numeric environment states are injected into the frozen LLM latent space via learned projection layers, and the resulting action distribution serves as a KL-regularized prior for online RL policy optimization.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24747v1",
+      "title": "Scaling Laws for Task-Specific LLM Distillation",
+      "authors": [
+        "Lavinia Ghita",
+        "Dhruv Desai",
+        "Ioana Boier"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CE"
+      ],
+      "abstract": "This paper investigates how to compress large language models (LLMs) for specific tasks while maintaining performance. It empirically derives scaling laws for distillation, showing how dataset size, compression ratio, and supervision format affect in-domain and general knowledge performance. The key contribution is a blended chain-of-thought supervision loss that stabilizes distillation and helps recover general knowledge lost during compression, particularly in domains like quantitative finance.",
+      "url": "http://arxiv.org/abs/2606.24747v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24747v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24747v1/x1.png",
+      "figure_caption": "Train set label distribution over the 35 event classes in the financial news dataset (training split, classes sorted by decreasing frequency).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24759v1",
+      "title": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
+      "authors": [
+        "Xiaowei Gao",
+        "Pengxiang Li",
+        "Yitai Cheng",
+        "Ruihan Xu",
+        "James Haworth"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "UniDrive addresses the trade-off between temporal reasoning and spatial precision in autonomous driving by combining multi-frame temporal modeling with high-resolution spatial perception. Its core contribution is a gated cross-attention fusion module that integrates these two branches, allowing for dynamic scene context to be aligned with precise spatial evidence for interpretable risk understanding.",
+      "url": "http://arxiv.org/abs/2606.24759v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24759v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24842v1",
+      "title": "World Models in Pieces: Structural Certification for General Agents",
+      "authors": [
+        "Yikai Lu",
+        "Yifei Wu",
+        "Xinyu Lu",
+        "Tongxin Li"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper argues that general agents have specialized world models, making uniform performance guarantees insufficient. It introduces \"structural certification,\" a method that maps goal-conditioned performance to guarantees on the agent's internal world model. The authors provide algorithms to filter transitions using compositional goals, proving that this leads to a structurally sound world model with a tight error bound.",
+      "url": "http://arxiv.org/abs/2606.24842v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24842v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24842v1/figures/intro.jpg",
+      "figure_caption": "World Models in Pieces. The capability of a general agent is localized to specific certified pieces (colored blocks) with some low error \\( \\delta \\) (see Definition 2.3 ) where its internal model provably aligns with reality. Reliable long-horizon planning (green arrow) succeeds by navigating these certified transitions rather than requiring global accuracy.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24667v1",
+      "title": "DREAM: Dense Retrieval Embeddings via Autoregressive Modeling",
+      "authors": [
+        "Yixuan Tang",
+        "Yi Yang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "DREAM trains dense retrieval models by leveraging the next-token prediction objective of a frozen Large Language Model (LLM). It injects retriever-generated similarity scores into the LLM's attention mechanism, allowing the LLM's autoregressive loss to implicitly supervise the retriever. This approach eliminates the need for costly labeled positive/negative document pairs, a significant contribution to efficient dense retrieval training.",
+      "url": "http://arxiv.org/abs/2606.24667v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24667v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24667v1/x1.png",
+      "figure_caption": "Overview of DREAM. The retriever scores candidate documents for a query, and these scores reweight selected attention heads of a frozen LLM as it predicts the target passage. The next-token prediction loss trains the retriever while the LLM stays frozen.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.24828v1",
+      "title": "Less is More: Quality-Aware Training Data Selection for Scientific Summarization",
+      "authors": [
+        "Maria Nefeli Paraskevopoulou",
+        "Tatiana Passali",
+        "Grigorios Tsoumakas"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the limitations of existing scientific summarization datasets by constructing a large-scale biomedical dataset and analyzing the quality of author-written abstracts. The core method involves using quality signals from abstracts to guide training data selection, demonstrating that training on high-quality subsets improves summarization performance. The main contribution is a novel approach to data selection that enhances model training and achieves better results than random sampling.",
+      "url": "http://arxiv.org/abs/2606.24828v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24828v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24828v1/abstract-quality-distributions.png",
+      "figure_caption": "Score distributions for author-written abstracts on the 10,000-example reference-quality analysis set.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.24773v1",
+      "title": "Posterior Refinement: Fast Language Generation via Any-Order Flow Maps",
+      "authors": [
+        "Manan Agarwal",
+        "Sheel Shah",
+        "Chanhyuk Lee",
+        "Jaehoon Yoo",
+        "Jerry Huang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces FMLM+, a framework that combines the strengths of Masked Diffusion Models and Flow Map Language Models for faster and more flexible language generation. Its core method uses \"Posterior Refinement,\" an inference-time strategy that allows the model to adaptively self-correct its generated tokens by assessing their global consistency. This approach achieves high performance with the flexibility of non-autoregressive models.",
+      "url": "http://arxiv.org/abs/2606.24773v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24773v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.24820v1",
+      "title": "SHERLOC: Structured Diagnostic Localization for Code Repair Agents",
+      "authors": [
+        "Hovhannes Tamoyan",
+        "Sean Narenthiran",
+        "Erik Arakelyan",
+        "Mira Mezini",
+        "Boris Ginsburg"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "SHERLOC is a training-free framework that improves code repair agents by providing actionable diagnostic context alongside fault locations. It uses a reasoning LLM and compact repository tools to identify bugs more effectively, leading to higher repair success rates and reduced computational costs. Its core contribution is moving beyond simple file retrieval to provide the necessary reasoning for agents to fix code efficiently.",
+      "url": "http://arxiv.org/abs/2606.24820v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24820v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24820v1/x1.png",
+      "figure_caption": "Overview of SHERLOC . A reasoning LLM interacts with a tool executor over four LLM-friendly tools, with a self-recovery layer correcting failures. SHERLOC achieves state-of-the-art file-level localization on SWE-Bench Lite and Verified , and in downstream code repair yields, on average, 5.95 5.95 pp higher resolve rate with 36.7 % 36.7\\% and 23.1 % 23.1\\% fewer localization and total tokens.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.24790v1",
+      "title": "Grad Detect: Gradient-Based Hallucination Detection in LLMs",
+      "authors": [
+        "Anand Kamat",
+        "Daniel Blake",
+        "Brent M. Werness"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Grad Detect is a novel method for detecting LLM hallucinations by analyzing internal gradient patterns during a single inference pass. Its core contribution is demonstrating that these gradient structures, unlike output-level signals, contain crucial information about output correctness. This approach outperforms existing methods in hallucination detection and model abstention prediction.",
+      "url": "http://arxiv.org/abs/2606.24790v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24790v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24855v1",
+      "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+      "authors": [
+        "Negin Raoof",
+        "Richard Zhuang",
+        "Marianna Nezhurina",
+        "Etash Guha",
+        "Atula Tejaswi"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces OpenThoughts-Agent (OT-Agent), an open data curation pipeline for training broadly capable agentic AI models. By systematically analyzing data sources and diversity through over 100 ablation experiments, they demonstrate the importance of these factors. Their curated dataset and fine-tuned Qwen3-32B model achieve a significant performance improvement across seven agentic benchmarks compared to existing open models.",
+      "url": "http://arxiv.org/abs/2606.24855v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24855v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.24855v1/figures/figure1_option8_8b.png",
+      "figure_caption": "The OpenThoughts-Agent-SFT dataset leads to SotA performance on Terminal-Bench 2.0 and an 100-subset of SWE-Bench Verified at large dataset scales. The all-benchmark average is over the seven benchmarks reported in Table LABEL:tab:ot_agent_main_table1 . Additional notes on SERA below. 2 2 2 SERA uses SWE-agent for data generation and evaluation, so we report both the SWE-agent (solid) and Terminus-2 (dashed) harnesses on SWE-Bench and Terminal-Bench, and the best of the two harnesses per benchmark for the average. SERA’s dataset contains at most 47K examples, so its scaling curve stops at 47K.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24775v1",
+      "title": "Are We Ready For An Agent-Native Memory System?",
+      "authors": [
+        "Wei Zhou",
+        "Xuanhe Zhou",
+        "Shaokun Han",
+        "Hongming Xu",
+        "Guoliang Li"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.DB",
+        "cs.IR"
+      ],
+      "abstract": "This paper argues that current evaluations of LLM agent memory are insufficient, focusing only on end-task success and treating memory as a black box. The authors propose a new analytical framework that decomposes agent memory into four core modules (representation/storage, extraction, retrieval/routing, and maintenance) to enable systematic, data management-focused evaluation of system-level concerns like cost and robustness. Their contribution is a structured approach to understanding and evaluating the complex internal workings of agent memory systems.",
+      "url": "http://arxiv.org/abs/2606.24775v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24775v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.24775v1/x1.png",
+      "figure_caption": "Figure 1 . Typical Execution Workflows of Agent Memory.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.24834v1",
+      "title": "Accuracy and Satisfaction in Multi-Turn LLM Dialogues for NFR Assessment",
+      "authors": [
+        "Ali Pourghasemi Fatideh",
+        "Wilder Baldwin",
+        "Maria Dhakal",
+        "Collin McMillan",
+        "Sepideh Ghanavati"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper addresses the gap in evaluating LLM dialogue assistants for software development, specifically focusing on Non-Functional Requirements (NFRs) which are complex and context-dependent. The core method involves analyzing multi-turn conversations between developers and an LLM (GitHub Copilot) to assess both the accuracy of NFR assessment and the quality of the collaborative interaction. The contribution is a novel evaluation approach that captures the nuances of multi-turn dialogue for NFRs, demonstrated through a study on HIPAA compliance with a real codebase.",
+      "url": "http://arxiv.org/abs/2606.24834v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24834v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24834v1/Figures/methodology_overview.png",
+      "figure_caption": "Methodology overview.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24752v1",
+      "title": "Can Scale Save Us From Plasticity Loss in Large Language Models?",
+      "authors": [
+        "J. Fernando Hernandez-Garcia",
+        "Tomás Figliolia",
+        "Beren Millidge"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper investigates whether scaling up Large Language Models (LLMs) can overcome the challenge of plasticity loss, where models forget old information when learning new. The study finds that even in modern Transformer LLMs, plasticity loss persists and follows a predictable scaling law, meaning larger models only delay, rather than eliminate, this issue. The core contribution is demonstrating that increased model size alone is insufficient to solve the continual learning problem in LLMs.",
+      "url": "http://arxiv.org/abs/2606.24752v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24752v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24752v1/figures/continual_learning_problem_definition_light.png",
+      "figure_caption": "Multilingual continual learning problem. Models are trained on repeated cycles of eight language-modeling task instances. At the end of each cycle, plasticity is assessed using a held-out Vietnamese probing task.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24779v1",
+      "title": "DeepBD: A Grounded Agentic Workflow for Variant Prioritization and Diagnosis of Genetic Birth Defects",
+      "authors": [
+        "Shiyu Li",
+        "Ziqi Yan",
+        "Zhihao Wu",
+        "Jielong Lu",
+        "Weiran Liao"
+      ],
+      "categories": [
+        "cs.AI",
+        "q-bio.GN"
+      ],
+      "abstract": "DeepBD is a novel agentic workflow designed to improve the diagnosis of genetic birth defects. Its core method involves a multi-layered approach, starting with LLM-assisted case structuring, followed by a pretrained evidence engine that integrates various data sources, and culminating in a grounded diagnostic review. The paper's main contribution is providing a structured, AI-driven system to tackle the complex challenge of variant prioritization in genetic birth defects, aiming to enhance diagnostic accuracy and efficiency.",
+      "url": "http://arxiv.org/abs/2606.24779v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24779v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24779v1/x1.png",
+      "figure_caption": "DeepBD workflow and cohort landscape. a, Workflow for genetic birth defect interpretation from clinical-genomic input to ranked variants and diagnosis-oriented evidence synthesis. b, Biomedical graph context linking phenotype, cellular context, pathway, gene and variant evidence. c,d, Phenotype and variant composition of the in-house fetal and infant cohort. e, Example phenotype-cell-gene-variant-pathway flow for patient-specific biological context. f, Evidence-resource and evaluation overview. g, Distribution of curated positive variants across DeepBD ranking outcomes together with rule, mechanism and structure evidence patterns. h, Variant-class-stratified Hit@5 comparison across DeepBD and baseline reranking systems.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24839v1",
+      "title": "Grading the Grader: Lessons from Evaluating an Agentic Data Analysis System",
+      "authors": [
+        "Tian Zheng",
+        "Kai-Tai Hsu"
+      ],
+      "categories": [
+        "cs.AI",
+        "stat.AP"
+      ],
+      "abstract": "This paper addresses the challenge of evaluating complex agentic data analysis systems, which produce multi-faceted outputs. The core method involves a three-layer grading cascade combining strict regex, lenient LLM-based grading, and human inspection. The contribution lies in demonstrating that this hybrid approach achieves high precision and recall, effectively distinguishing genuine errors from grading artifacts, and offering strategies to improve automated grading quality.",
+      "url": "http://arxiv.org/abs/2606.24839v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24839v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24849v1",
+      "title": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
+      "authors": [
+        "Zixuan Li",
+        "Haokun Lin",
+        "Yicheng Xiao",
+        "Zhiwei Li",
+        "Xinyang Song"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces IV-CoT, a method to improve text-to-image generation's adherence to structural prompts like object counts and spatial relations. It achieves this by separating structural planning from appearance rendering, creating a latent visual plan before generating the image. The key contribution is a training-only sketch supervision that guides this structural planning without needing explicit sketch extraction during inference.",
+      "url": "http://arxiv.org/abs/2606.24849v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24849v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24849v1/figure/fig1.png",
+      "figure_caption": "Comparison of reasoning paradigms for text-to-image generation. (Left) : direct generation, explicit textual CoT, explicit interleaved CoT, and IV-CoT differ in where intermediate reasoning states are represented. (Right) : a structure-aware prompt-following example showing that IV-CoT better preserves the requested object layout without explicitly decoding intermediate images.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24669v1",
+      "title": "LaGO: Latent Action Guidance for Online Reinforcement Learning",
+      "authors": [
+        "Kuan-Yen Liu",
+        "Ren-Jyun Huang",
+        "Ti-Rong Wu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces LaGO, a framework that uses a pre-trained Large Language Model (LLM) to softly guide online reinforcement learning policy optimization, rather than having the LLM directly control actions. The core contribution is demonstrating that this latent action guidance improves both reward and success rates on discrete and continuous control tasks, with stronger LLMs yielding better results.",
+      "url": "http://arxiv.org/abs/2606.24669v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24669v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24669v1/x1.png",
+      "figure_caption": "Overview of the LaGO framework. Numeric environment states are injected into the frozen LLM latent space via learned projection layers, and the resulting action distribution serves as a KL-regularized prior for online RL policy optimization.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24747v1",
+      "title": "Scaling Laws for Task-Specific LLM Distillation",
+      "authors": [
+        "Lavinia Ghita",
+        "Dhruv Desai",
+        "Ioana Boier"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CE"
+      ],
+      "abstract": "This paper investigates how to compress large language models (LLMs) for specific tasks while maintaining performance. It empirically derives scaling laws for distillation, showing how dataset size, compression ratio, and supervision format affect in-domain and general knowledge performance. The key contribution is a blended chain-of-thought supervision loss that stabilizes distillation and helps recover general knowledge lost during compression, particularly in domains like quantitative finance.",
+      "url": "http://arxiv.org/abs/2606.24747v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24747v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24747v1/x1.png",
+      "figure_caption": "Train set label distribution over the 35 event classes in the financial news dataset (training split, classes sorted by decreasing frequency).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24759v1",
+      "title": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
+      "authors": [
+        "Xiaowei Gao",
+        "Pengxiang Li",
+        "Yitai Cheng",
+        "Ruihan Xu",
+        "James Haworth"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "UniDrive addresses the trade-off between temporal reasoning and spatial precision in autonomous driving by combining multi-frame temporal modeling with high-resolution spatial perception. Its core contribution is a gated cross-attention fusion module that integrates these two branches, allowing for dynamic scene context to be aligned with precise spatial evidence for interpretable risk understanding.",
+      "url": "http://arxiv.org/abs/2606.24759v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24759v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24842v1",
+      "title": "World Models in Pieces: Structural Certification for General Agents",
+      "authors": [
+        "Yikai Lu",
+        "Yifei Wu",
+        "Xinyu Lu",
+        "Tongxin Li"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper argues that general agents have specialized world models, making uniform performance guarantees insufficient. It introduces \"structural certification,\" a method that maps goal-conditioned performance to guarantees on the agent's internal world model. The authors provide algorithms to filter transitions using compositional goals, proving that this leads to a structurally sound world model with a tight error bound.",
+      "url": "http://arxiv.org/abs/2606.24842v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24842v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24842v1/figures/intro.jpg",
+      "figure_caption": "World Models in Pieces. The capability of a general agent is localized to specific certified pieces (colored blocks) with some low error \\( \\delta \\) (see Definition 2.3 ) where its internal model provably aligns with reality. Reliable long-horizon planning (green arrow) succeeds by navigating these certified transitions rather than requiring global accuracy.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.24667v1",
+      "title": "DREAM: Dense Retrieval Embeddings via Autoregressive Modeling",
+      "authors": [
+        "Yixuan Tang",
+        "Yi Yang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "DREAM trains dense retrieval models by leveraging the next-token prediction objective of a frozen Large Language Model (LLM). It injects retriever-generated similarity scores into the LLM's attention mechanism, allowing the LLM's autoregressive loss to implicitly supervise the retriever. This approach eliminates the need for costly labeled positive/negative document pairs, a significant contribution to efficient dense retrieval training.",
+      "url": "http://arxiv.org/abs/2606.24667v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24667v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24667v1/x1.png",
+      "figure_caption": "Overview of DREAM. The retriever scores candidate documents for a query, and these scores reweight selected attention heads of a frozen LLM as it predicts the target passage. The next-token prediction loss trains the retriever while the LLM stays frozen.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.24828v1",
+      "title": "Less is More: Quality-Aware Training Data Selection for Scientific Summarization",
+      "authors": [
+        "Maria Nefeli Paraskevopoulou",
+        "Tatiana Passali",
+        "Grigorios Tsoumakas"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the limitations of existing scientific summarization datasets by constructing a large-scale biomedical dataset and analyzing the quality of author-written abstracts. The core method involves using quality signals from abstracts to guide training data selection, demonstrating that training on high-quality subsets improves summarization performance. The main contribution is a novel approach to data selection that enhances model training and achieves better results than random sampling.",
+      "url": "http://arxiv.org/abs/2606.24828v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24828v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24828v1/abstract-quality-distributions.png",
+      "figure_caption": "Score distributions for author-written abstracts on the 10,000-example reference-quality analysis set.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.24773v1",
+      "title": "Posterior Refinement: Fast Language Generation via Any-Order Flow Maps",
+      "authors": [
+        "Manan Agarwal",
+        "Sheel Shah",
+        "Chanhyuk Lee",
+        "Jaehoon Yoo",
+        "Jerry Huang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces FMLM+, a framework that combines the strengths of Masked Diffusion Models and Flow Map Language Models for faster and more flexible language generation. Its core method uses \"Posterior Refinement,\" an inference-time strategy that allows the model to adaptively self-correct its generated tokens by assessing their global consistency. This approach achieves high performance with the flexibility of non-autoregressive models.",
+      "url": "http://arxiv.org/abs/2606.24773v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24773v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.24820v1",
+      "title": "SHERLOC: Structured Diagnostic Localization for Code Repair Agents",
+      "authors": [
+        "Hovhannes Tamoyan",
+        "Sean Narenthiran",
+        "Erik Arakelyan",
+        "Mira Mezini",
+        "Boris Ginsburg"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "SHERLOC is a training-free framework that improves code repair agents by providing actionable diagnostic context alongside fault locations. It uses a reasoning LLM and compact repository tools to identify bugs more effectively, leading to higher repair success rates and reduced computational costs. Its core contribution is moving beyond simple file retrieval to provide the necessary reasoning for agents to fix code efficiently.",
+      "url": "http://arxiv.org/abs/2606.24820v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24820v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.24820v1/x1.png",
+      "figure_caption": "Overview of SHERLOC . A reasoning LLM interacts with a tool executor over four LLM-friendly tools, with a self-recovery layer correcting failures. SHERLOC achieves state-of-the-art file-level localization on SWE-Bench Lite and Verified , and in downstream code repair yields, on average, 5.95 5.95 pp higher resolve rate with 36.7 % 36.7\\% and 23.1 % 23.1\\% fewer localization and total tokens.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Postdoctoral Position: Multimodal Data Integration for Ovarian Cancer",
+      "url": "https://euraxess.ec.europa.eu/jobs/447380",
+      "description": "🔬 Project OverviewThe PINKCC Lab develops deep learning, data fusion, and medical image analysis methods to improve cancer prognosis prediction in an objective and interpretable way. Our work centers on the computational treatment of medical data in oncology, with a strong focus on ovarian cancer... * Work Locations: Number of offers: 1, France, IRCM - Cancer Research Institute of Montpellier, Montpellier, 34000, 208 rue des Apothicaires Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 31 Jul 2026 - 18:00 (Europe/Paris) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * 1 Page 1 * [2](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer&f%5B1%5D=positions%3Apostdoc_positions&page=1) * [3](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer&f%5B1%5D=positions%3Apostdoc_positions&page=2) * ... * [79](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer&f%5B1%5D=positions%3Apostdoc_positions&page=78) * [Next](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer&f%5B1%5D=positions%3Apostdoc_positions&page=1) #### Jobs & Opportunities * [Post Jobs](https://euraxess.ec.europa.eu/jobs) * [Search for Jobs](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer) * [Search for Funding](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Afunding) * [Search for Hosting](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ahosting) #### Career Development * [For Researchers](https://euraxess.ec.europa.eu/career-development/researchers) * [For Organisations](https://euraxess.ec.europa.eu/career-development/organisations) #### Partnering * [Search for Researchers](https://euraxess.ec.europa.eu/partnering/members/search) * [Search for Organisations](https://euraxess.ec.europa.eu/partnering/organisations) #### Living & Working in Europe * [Living in Europe](https://euraxess.ec.europa.eu/information/living-europe) * [Leaving Europe](https://euraxess.ec.europa.eu/information/leaving-europe) * [Working in Europe](https://euraxess.ec.europa.eu/information/working-europe) * [Retiring in Europe](https://euraxess.ec.europa.eu/information/pensions-for-researchers) * [EURAXESS Support Centres](https://euraxess.ec.europa.eu/information/centres/search) * [Visa and Entry Conditions](https://euraxess.ec.europa.eu/information/search?f%5B0%5D=information_topic_topic%3A877) #### EURAXESS Worldwide * [Africa](https://euraxess.ec.europa.eu/worldwide/africa) * [ASEAN](https://euraxess.ec.europa.eu/worldwide/asean) * [Australia & New Zealand](https://euraxess.ec.europa.eu/worldwide/australia-nz) * [China](https://euraxess.ec.europa.eu/worldwide/china) * [India](https://euraxess.ec.europa.eu/worldwide/india) * [Japan](https://euraxess.ec.europa.eu/worldwide/japan) * [Korea](https://euraxess.ec.europa.eu/worldwide/south-korea) * [Latin America & Caribbean States](https://euraxess.ec.europa.eu/worldwide/lac) * [North America](https://euraxess.ec.europa.eu/worldwide/north-america) #### My EURAXESS * [Login](https://euraxess.ec.europa.eu/user/login) * [Register](https://euraxess.ec.europa.eu/user/register) #### Follow us * [Facebook](https://www.facebook.com/euraxess/) * [Linkedin](https://www.linkedin.com/company/euraxessofficial/) * [YouTube](https://www.youtube.com/@euraxess) #### Useful Information * [About EURAXESS](https://euraxess.ec.europa.eu/useful-information/about-euraxess) * [Accessibility Statement](https://euraxess.ec.europa.eu/useful-information/accessibility-statement) * [Contact us](https://euraxess.ec.europa.eu/contact-us) * [Brochures](https://euraxess.ec.europa.eu/useful-information/brochures) * [Events](https://euraxess.ec.europa.eu/events) * [FAQs](https://euraxess.ec.europa.eu/useful-information/faq) * [Legal Information](https://euraxess.ec.europa.eu/useful-information) * [News](https://euraxess.ec.europa.eu/news) * [Library](https://euraxess.ec.europa.eu/useful-information/policy-library) * [Privacy statement](https://euraxess.ec.europa.eu/useful-information/privacy-statement) * [Cookie Statement](https://euraxess.ec.europa.eu/euraxess/cookie-policy) * [Useful links](https://euraxess.ec.europa.eu/useful-information/useful-links) #### [European Commission website](https://commission.europa.eu/index_en) * [Contact the European Commission](https://commission.europa.eu/about-european-commission/contact_en) * [Follow the European Commission on social media](https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission) * [Resources for partners](https://commission.europa.eu/resources-partners_en) * [Report an IT vulnerability](https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en) * [Languages on our websites](https://commission.europa.eu/languages-our-websites_en) * [Cookies](https://commission.europa.eu/cookies_en) * [Privacy policy](https://commission.europa.eu/privacy-policy_en) * [Legal notice](https://commission.europa.eu/legal-notice_en) [Field: Computer science]",
+      "institution": "",
+      "posted_date": "",
+      "deadline": "31 Jul 2026 - 18:00 (Europe/Paris)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Deep learning, data fusion, and medical image analysis for ovarian cancer prognosis prediction.\nKey Requirements: N/A\nApplication Info: deadline/start date: 31 Jul 2026 - 18:00 (Europe/Paris), required materials: N/A, contact: N/A\nPosition Details: location: Montpellier, France (IRCM - Cancer Research Institute of Montpellier), contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: Strong CV in medical imaging and deep learning is essential; LLM experience is not explicitly mentioned but could be a plus for data integration.",
+      "relevance_score": 10.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Postdoctoral Position: Multimodal Data Integration for Ovarian Cancer",
+      "url": "https://euraxess.ec.europa.eu/jobs/447380",
+      "description": "🔬 Project OverviewThe PINKCC Lab develops deep learning, data fusion, and medical image analysis methods to improve cancer prognosis prediction in an objective and interpretable way. Our work centers on the computational treatment of medical data in oncology, with a strong focus on ovarian cancer... * Work Locations: Number of offers: 1, France, IRCM - Cancer Research Institute of Montpellier, Montpellier, 34000, 208 rue des Apothicaires Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 31 Jul 2026 - 18:00 (Europe/Paris) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * 1 Page 1 * [2](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer&f%5B1%5D=positions%3Apostdoc_positions&page=1) * [3](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer&f%5B1%5D=positions%3Apostdoc_positions&page=2) * ... * [79](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer&f%5B1%5D=positions%3Apostdoc_positions&page=78) * [Next](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer&f%5B1%5D=positions%3Apostdoc_positions&page=1) #### Jobs & Opportunities * [Post Jobs](https://euraxess.ec.europa.eu/jobs) * [Search for Jobs](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ajob_offer) * [Search for Funding](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Afunding) * [Search for Hosting](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=offer_type%3Ahosting) #### Career Development * [For Researchers](https://euraxess.ec.europa.eu/career-development/researchers) * [For Organisations](https://euraxess.ec.europa.eu/career-development/organisations) #### Partnering * [Search for Researchers](https://euraxess.ec.europa.eu/partnering/members/search) * [Search for Organisations](https://euraxess.ec.europa.eu/partnering/organisations) #### Living & Working in Europe * [Living in Europe](https://euraxess.ec.europa.eu/information/living-europe) * [Leaving Europe](https://euraxess.ec.europa.eu/information/leaving-europe) * [Working in Europe](https://euraxess.ec.europa.eu/information/working-europe) * [Retiring in Europe](https://euraxess.ec.europa.eu/information/pensions-for-researchers) * [EURAXESS Support Centres](https://euraxess.ec.europa.eu/information/centres/search) * [Visa and Entry Conditions](https://euraxess.ec.europa.eu/information/search?f%5B0%5D=information_topic_topic%3A877) #### EURAXESS Worldwide * [Africa](https://euraxess.ec.europa.eu/worldwide/africa) * [ASEAN](https://euraxess.ec.europa.eu/worldwide/asean) * [Australia & New Zealand](https://euraxess.ec.europa.eu/worldwide/australia-nz) * [China](https://euraxess.ec.europa.eu/worldwide/china) * [India](https://euraxess.ec.europa.eu/worldwide/india) * [Japan](https://euraxess.ec.europa.eu/worldwide/japan) * [Korea](https://euraxess.ec.europa.eu/worldwide/south-korea) * [Latin America & Caribbean States](https://euraxess.ec.europa.eu/worldwide/lac) * [North America](https://euraxess.ec.europa.eu/worldwide/north-america) #### My EURAXESS * [Login](https://euraxess.ec.europa.eu/user/login) * [Register](https://euraxess.ec.europa.eu/user/register) #### Follow us * [Facebook](https://www.facebook.com/euraxess/) * [Linkedin](https://www.linkedin.com/company/euraxessofficial/) * [YouTube](https://www.youtube.com/@euraxess) #### Useful Information * [About EURAXESS](https://euraxess.ec.europa.eu/useful-information/about-euraxess) * [Accessibility Statement](https://euraxess.ec.europa.eu/useful-information/accessibility-statement) * [Contact us](https://euraxess.ec.europa.eu/contact-us) * [Brochures](https://euraxess.ec.europa.eu/useful-information/brochures) * [Events](https://euraxess.ec.europa.eu/events) * [FAQs](https://euraxess.ec.europa.eu/useful-information/faq) * [Legal Information](https://euraxess.ec.europa.eu/useful-information) * [News](https://euraxess.ec.europa.eu/news) * [Library](https://euraxess.ec.europa.eu/useful-information/policy-library) * [Privacy statement](https://euraxess.ec.europa.eu/useful-information/privacy-statement) * [Cookie Statement](https://euraxess.ec.europa.eu/euraxess/cookie-policy) * [Useful links](https://euraxess.ec.europa.eu/useful-information/useful-links) #### [European Commission website](https://commission.europa.eu/index_en) * [Contact the European Commission](https://commission.europa.eu/about-european-commission/contact_en) * [Follow the European Commission on social media](https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission) * [Resources for partners](https://commission.europa.eu/resources-partners_en) * [Report an IT vulnerability](https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en) * [Languages on our websites](https://commission.europa.eu/languages-our-websites_en) * [Cookies](https://commission.europa.eu/cookies_en) * [Privacy policy](https://commission.europa.eu/privacy-policy_en) * [Legal notice](https://commission.europa.eu/legal-notice_en) [Field: Computer science]",
+      "institution": "",
+      "posted_date": "",
+      "deadline": "31 Jul 2026 - 18:00 (Europe/Paris)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Deep learning, data fusion, and medical image analysis for ovarian cancer prognosis prediction.\nKey Requirements: N/A\nApplication Info: deadline/start date: 31 Jul 2026 - 18:00 (Europe/Paris), required materials: N/A, contact: N/A\nPosition Details: location: Montpellier, France (IRCM - Cancer Research Institute of Montpellier), contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: Strong CV in medical imaging and deep learning is essential; LLM experience is not explicitly mentioned but could be a plus for data integration.",
+      "relevance_score": 10.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
