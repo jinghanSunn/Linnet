@@ -1,0 +1,916 @@
+{
+  "date": "2026-06-25",
+  "generated_at": "2026-06-25T12:03:29.837063+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.25960v1",
+          "title": "Agentic System as Compressor: Quantifying System Intelligence in Bits",
+          "authors": [
+            "Zihan Qin",
+            "Hongrui Zhang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper proposes a novel method to quantify the intelligence of agentic systems by viewing them as compressors. The core idea is that a more intelligent agent can represent a target object (like a task outcome) with fewer bits under a fixed budget. The authors demonstrate this by using arithmetic coding and evaluating it across various tasks, showing that agentic components consistently reduce codelength, offering a new way to analyze and guide the development of complex AI systems.",
+          "url": "http://arxiv.org/abs/2606.25960v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.25960v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.25960v1/figures/fig0_agent_as_compressor.png",
+          "figure_caption": "Overview of agentic compression. Tools, constraints, context, search, and verifiers act as shared decoding resources, reducing the per-instance hint, seed/rank, and residual bits needed for a reconstruction accepted by the observer.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.25996v1",
+          "title": "Autodata: An agentic data scientist to create high quality synthetic data",
+          "authors": [
+            "Ilia Kulikov",
+            "Chenxi Whitehouse",
+            "Tianhao Wu",
+            "Yixin Nie",
+            "Swarnadeep Saha"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "Autodata is a novel method that trains AI agents to function as data scientists, generating high-quality synthetic data for training and evaluation. The core contribution lies in its agentic approach, which learns to create increasingly effective datasets through meta-optimization, leading to improved performance on various complex tasks compared to traditional methods. This approach effectively leverages increased compute power to enhance AI model training by producing superior data.",
+          "url": "http://arxiv.org/abs/2606.25996v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.25996v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.25996v1/figs/main2.png",
+          "figure_caption": "Autodata pipeline. The framework employs an autonomous agent that emulates the role of a data scientist, iteratively generating data, conducting qualitative inspection and quantitative performance evaluation, synthesizing insights, and updating the data-generation recipe. The agent itself can be trained to be better at the data scientist role using the same criteria used in the inner loop. This cyclical process aims to progressively enhance data quality; the diagram depicts the general workflow underlying possible instantiations.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.26079v1",
+          "title": "Same Evidence, Different Answer: Auditing Order Sensitivity in Multimodal Large Language Models",
+          "authors": [
+            "Akshay Paruchuri",
+            "Sanmi Koyejo",
+            "Ehsan Adeli"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces Facet-Probe, a novel auditing method to assess how order sensitivity affects multimodal large language models (MLLMs). By systematically shuffling input elements across five facets, the study reveals that none of the audited MLLMs are truly order-invariant, with significant flip rates even in advanced models. The core contribution is demonstrating this widespread order sensitivity and providing a framework to quantify and analyze it, highlighting a critical reliability gap in current MLLM evaluation.",
+          "url": "http://arxiv.org/abs/2606.26079v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.26079v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.26079v1/x1.png",
+          "figure_caption": "MLLMs Remain Order-Sensitive. (a) The same evidence, presented in three different, yet semantically equivalent, orderings, yields three different answers; only one is correct. (b) Capability vs. mean K = 6 K{=}6 flip rate over the 5 facets, shown for 7 best-of-family models. Capability predicts but does not eliminate flips ( ρ ≈ − 0.95 \\( \\rho \\)\\( \\approx \\)-0.95 on the full 18-model panel); the best model still flips on 13.4% of trials.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.26027v1",
+          "title": "Why Multi-Step Tool-Use Reinforcement Learning Collapses and How Supervisory Signals Fix It",
+          "authors": [
+            "Yupu Hao",
+            "Zhuoran Jin",
+            "Huanxuan Liao",
+            "Kang Liu",
+            "Jun Zhao"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper identifies that reinforcement learning for multi-step tool use in LLMs can suffer from \"catastrophic collapse\" due to unexpected probability spikes in control tokens. The core contribution is demonstrating that various supervisory signals, particularly interleaving supervised fine-tuning with RL, can effectively fix this collapse and improve stability, though performance might be slightly degraded.",
+          "url": "http://arxiv.org/abs/2606.26027v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.26027v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.26027v1/x1.png",
+          "figure_caption": "The changes of token appearing frequency in the RL training process of model Qwen2.5-1.5B-Instruct. Polluted indicates that irrelevant special tokens appear in the output, whereas Collapsed indicates that the output is completely invalid or incorrect.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.26006v1",
+          "title": "FORCE: Efficient VLA Reinforcement Fine-Tuning via Value-Calibrated Warm-up and Self-Distillation",
+          "authors": [
+            "Shuyi Zhang",
+            "Yunfan Lou",
+            "Hongyang Cheng",
+            "Yichen Guo",
+            "Chuyao Fu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.RO"
+          ],
+          "abstract": "FORCE addresses the sample inefficiency of RL fine-tuning for Vision-Language-Action (VLA) models by stabilizing the learning process. Its core method involves a three-stage framework: a Value-Calibrated Warm-Up to mitigate Q-function instability, followed by an online stage that uses the calibrated Q-function to filter for high-value actions from both the policy and expert data for efficient updates. This approach effectively overcomes the imitation ceiling and reduces reliance on costly human interventions.",
+          "url": "http://arxiv.org/abs/2606.26006v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.26006v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.26006v1/x1.png",
+          "figure_caption": "Overview of the FORCE framework. Our method employs a three-stage reinforcement fine-tuning pipeline that progressively calibrates value estimation and stabilizes policy improvement: (1) offline Cal-QL pretraining to obtain a conservative and well-grounded critic, (2) mixed-rollout value pre-calibration to bridge offline and online distributions and mitigate O2O drift, and (3) online fine-tuning with balanced expert/policy replay coupled with VGPD, enabling safe and sample-efficient policy refinement beyond the imitation ceiling.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.25973v1",
+          "title": "Helpful or Harmful? Evaluating LLM-Assisted Vulnerability Patching via a Human Study",
+          "authors": [
+            "Giulian Biolo",
+            "Michael Tezza",
+            "Yuanjun Gong",
+            "Fabio Massacci"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.SE"
+          ],
+          "abstract": "This paper evaluates whether Large Language Models (LLMs) help or hinder software vulnerability patching. The researchers conducted a controlled experiment where developers either manually patched vulnerabilities or used LLM assistance. Their contribution lies in empirically comparing these approaches, using hidden tests to assess the security integrity of the patches beyond just functional correctness.",
+          "url": "http://arxiv.org/abs/2606.25973v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.25973v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.25984v1",
+          "title": "InvestPhilBench: A Multi-Layer Dynamic Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment Philosophy",
+          "authors": [
+            "Mingguang Chen",
+            "Bo Qu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces InvestPhilBench, a novel benchmark designed to evaluate how well Large Language Models can understand and apply expert investment decision-making processes. It features a multi-layer structure and a comprehensive scoring system, including automated metrics and failure mode detection, to assess LLMs' procedural reasoning capabilities in this domain.",
+          "url": "http://arxiv.org/abs/2606.25984v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.25984v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.25984v1/figures/fig1_toc_cliff.png",
+          "figure_caption": "Per-layer BASP-composite profile, W1 sanity wave (Condition A, closed-book; Table 11). The four current models across the eight cognitive layers reveal a provider-tier split : the frontier models (Claude Sonnet 4.6, GPT-5.5) hold a high band across L1–L8 while the cost-efficient Gemini models sit in a lower band and collapse at L8. There is no L3→L4 composite cliff for any model (Δ +1.6 to +4.0 pp) — the 16 pp cliff of earlier work was a v0.1-pilot artifact (§8.2); the residual procedural deficit at the frontier is visible only under the gate-level GRA metric (§8.7), not in the composite. See §10.1 for the reconciliation.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.26071v1",
+          "title": "Model Forensics: Investigating Whether Concerning Behavior Reflects Misalignment",
+          "authors": [
+            "Aditya Singh",
+            "Gerson Kroiz",
+            "Senthooran Rajamanoharan",
+            "Neel Nanda"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces \"model forensics\" to distinguish concerning model behavior caused by genuine misalignment from benign reasons like confusion. The core method involves analyzing the model's chain of thought (CoT) to form hypotheses and then testing these hypotheses by modifying the prompt or environment. The contribution is a protocol and evaluation demonstrating its effectiveness in identifying true misalignment, exemplified by Kimi K2 Thinking taking shortcuts due to a genuine disposition.",
+          "url": "http://arxiv.org/abs/2606.26071v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.26071v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.26080v1",
+          "title": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
+          "authors": [
+            "Changdae Oh",
+            "Wendi Li",
+            "Seongheon Park",
+            "Samuel Yeh",
+            "Tanwi Mallick"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces \"progress advantage,\" a novel method for evaluating LLM agents at a step-by-step level without requiring explicit reward model training. It leverages the existing reinforcement learning post-training process to derive an implicit, annotation-free signal that effectively captures the agent's progress. This contribution simplifies the evaluation of LLM agents in complex, long-horizon tasks.",
+          "url": "http://arxiv.org/abs/2606.26080v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.26080v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.26080v1/x1.png",
+          "figure_caption": "Framework overview . (a) We derive an optimal advantage function from an RL-trained policy and its reference policy, which can (b) score the LLM agent trajectories at both the step and trajectory levels without dedicated reward model training.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.26057v1",
+          "title": "The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems",
+          "authors": [
+            "Seth Dobrin",
+            "Łukasz Chmiel"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CR"
+          ],
+          "abstract": "This paper introduces the \"Unfireable Safety Kernel\" as a novel approach to AI alignment that operates at execution time. Its core method is to enforce safety controls *outside* the AI agent's own runtime, using a kernel with properties like process separation and pre-action enforcement. The main contribution is a robust architectural control mechanism that prevents AI agents from bypassing safety measures, complementing existing training and inference-time alignment techniques.",
+          "url": "http://arxiv.org/abs/2606.26057v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.26057v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.26057v1/figures/fig-2-four-seams.png",
+          "figure_caption": "The four-seam architecture. Each of nginx auth_request, application middleware, dispatch hook, and client SDK denies independently; the kernel sits behind them as a separate process. The transparency log and binary attestation panels (right) realize P4 and provide the externally-verifiable evidence trail. The agent process refuses to start if the kernel is unreachable: \"no kernel, no agent\" at the system level.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.26029v1",
+          "title": "TriViewBench: Controlled Complexity Scaling for Multi-View Structural Reasoning in MLLMs",
+          "authors": [
+            "Yu-Yang Chen",
+            "Lan-Zhe Guo"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces TriViewBench, a novel benchmark designed to test Multimodal Large Language Models (MLLMs) on their ability to reason about 3D scenes with controlled complexity. The benchmark uses synthetic scenes with varying object counts and occlusion levels, revealing a consistent performance hierarchy across 18 MLLMs where simpler reasoning tasks are handled better than complex ones, with performance degrading significantly as complexity increases.",
+          "url": "http://arxiv.org/abs/2606.26029v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.26029v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.26029v1/x1.png",
+          "figure_caption": "Overview of TriViewBench. Left : Four complexity levels defined by object count and occlusion density with three-view rendering. Center : Examples of questions in three reasoning categories (Local Decision, Object Counting, and Global Recovery). Right : Overall performance comparison between humans and representative MLLMs.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.25987v1",
+          "title": "Weave of Formal Thought",
+          "authors": [
+            "Alexandre Bouayad"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Weave of Formal Thought (WoFT), a novel paradigm for LLMs that combines formal syntactic validation with learned structural representations. WoFT's core method is a formal engine and constrained decoder that guarantees complete and sound syntactic validity according to Tree-sitter specifications, while also learning to expose relevant grammatical structure. This approach overcomes limitations of existing methods by supporting complex lexical mechanisms and enabling LLMs to leverage the inherent hierarchy of programming languages.",
+          "url": "http://arxiv.org/abs/2606.25987v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.25987v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.25987v1/x1.png",
+          "figure_caption": "Smoothed online training loss (per-text-token cross-entropy) across the three fine-tuning methods, depicted as a running average over 250 consecutive steps. WoFT fine-tuning via our RWS algorithm achieves a substantially lower surface-token cross-entropy than both the text-only SFT and Formal SFT baselines.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.26036v1",
+          "title": "Detect, Unlearn, Restore: Defending Text Summarization Models Against Data Poisoning",
+          "authors": [
+            "Poojitha Thota",
+            "Shirin Nilizadeh"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.CR"
+          ],
+          "abstract": "This paper proposes a post-hoc defense framework to combat data poisoning in text summarization models. It detects poisoned data by analyzing training influence and semantic consistency in white-box settings, and by observing increased sensitivity to perturbations in black-box settings. The contribution lies in a unified approach to identify and remediate poisoning without requiring access to the original training data.",
+          "url": "http://arxiv.org/abs/2606.26036v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.26036v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.26036v1/x1.png",
+          "figure_caption": "Threat model for training-time data poisoning in summarization. An attacker curates a poisoned dataset that either (i) is directly inspected by the defender (Defense-1, white-box) or (ii) is used to train and release a poisoned model (Defense-2, black-box).",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 25,
+        "papers_after_llm_filter": 13,
+        "count": 13
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 25,
+    "papers_after_llm_filter": 13,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 43
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.25960v1",
+      "title": "Agentic System as Compressor: Quantifying System Intelligence in Bits",
+      "authors": [
+        "Zihan Qin",
+        "Hongrui Zhang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes a novel method to quantify the intelligence of agentic systems by viewing them as compressors. The core idea is that a more intelligent agent can represent a target object (like a task outcome) with fewer bits under a fixed budget. The authors demonstrate this by using arithmetic coding and evaluating it across various tasks, showing that agentic components consistently reduce codelength, offering a new way to analyze and guide the development of complex AI systems.",
+      "url": "http://arxiv.org/abs/2606.25960v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.25960v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.25960v1/figures/fig0_agent_as_compressor.png",
+      "figure_caption": "Overview of agentic compression. Tools, constraints, context, search, and verifiers act as shared decoding resources, reducing the per-instance hint, seed/rank, and residual bits needed for a reconstruction accepted by the observer.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.25996v1",
+      "title": "Autodata: An agentic data scientist to create high quality synthetic data",
+      "authors": [
+        "Ilia Kulikov",
+        "Chenxi Whitehouse",
+        "Tianhao Wu",
+        "Yixin Nie",
+        "Swarnadeep Saha"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "Autodata is a novel method that trains AI agents to function as data scientists, generating high-quality synthetic data for training and evaluation. The core contribution lies in its agentic approach, which learns to create increasingly effective datasets through meta-optimization, leading to improved performance on various complex tasks compared to traditional methods. This approach effectively leverages increased compute power to enhance AI model training by producing superior data.",
+      "url": "http://arxiv.org/abs/2606.25996v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.25996v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.25996v1/figs/main2.png",
+      "figure_caption": "Autodata pipeline. The framework employs an autonomous agent that emulates the role of a data scientist, iteratively generating data, conducting qualitative inspection and quantitative performance evaluation, synthesizing insights, and updating the data-generation recipe. The agent itself can be trained to be better at the data scientist role using the same criteria used in the inner loop. This cyclical process aims to progressively enhance data quality; the diagram depicts the general workflow underlying possible instantiations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.26079v1",
+      "title": "Same Evidence, Different Answer: Auditing Order Sensitivity in Multimodal Large Language Models",
+      "authors": [
+        "Akshay Paruchuri",
+        "Sanmi Koyejo",
+        "Ehsan Adeli"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces Facet-Probe, a novel auditing method to assess how order sensitivity affects multimodal large language models (MLLMs). By systematically shuffling input elements across five facets, the study reveals that none of the audited MLLMs are truly order-invariant, with significant flip rates even in advanced models. The core contribution is demonstrating this widespread order sensitivity and providing a framework to quantify and analyze it, highlighting a critical reliability gap in current MLLM evaluation.",
+      "url": "http://arxiv.org/abs/2606.26079v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26079v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.26079v1/x1.png",
+      "figure_caption": "MLLMs Remain Order-Sensitive. (a) The same evidence, presented in three different, yet semantically equivalent, orderings, yields three different answers; only one is correct. (b) Capability vs. mean K = 6 K{=}6 flip rate over the 5 facets, shown for 7 best-of-family models. Capability predicts but does not eliminate flips ( ρ ≈ − 0.95 \\( \\rho \\)\\( \\approx \\)-0.95 on the full 18-model panel); the best model still flips on 13.4% of trials.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.26027v1",
+      "title": "Why Multi-Step Tool-Use Reinforcement Learning Collapses and How Supervisory Signals Fix It",
+      "authors": [
+        "Yupu Hao",
+        "Zhuoran Jin",
+        "Huanxuan Liao",
+        "Kang Liu",
+        "Jun Zhao"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper identifies that reinforcement learning for multi-step tool use in LLMs can suffer from \"catastrophic collapse\" due to unexpected probability spikes in control tokens. The core contribution is demonstrating that various supervisory signals, particularly interleaving supervised fine-tuning with RL, can effectively fix this collapse and improve stability, though performance might be slightly degraded.",
+      "url": "http://arxiv.org/abs/2606.26027v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26027v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.26027v1/x1.png",
+      "figure_caption": "The changes of token appearing frequency in the RL training process of model Qwen2.5-1.5B-Instruct. Polluted indicates that irrelevant special tokens appear in the output, whereas Collapsed indicates that the output is completely invalid or incorrect.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.26006v1",
+      "title": "FORCE: Efficient VLA Reinforcement Fine-Tuning via Value-Calibrated Warm-up and Self-Distillation",
+      "authors": [
+        "Shuyi Zhang",
+        "Yunfan Lou",
+        "Hongyang Cheng",
+        "Yichen Guo",
+        "Chuyao Fu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "FORCE addresses the sample inefficiency of RL fine-tuning for Vision-Language-Action (VLA) models by stabilizing the learning process. Its core method involves a three-stage framework: a Value-Calibrated Warm-Up to mitigate Q-function instability, followed by an online stage that uses the calibrated Q-function to filter for high-value actions from both the policy and expert data for efficient updates. This approach effectively overcomes the imitation ceiling and reduces reliance on costly human interventions.",
+      "url": "http://arxiv.org/abs/2606.26006v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26006v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.26006v1/x1.png",
+      "figure_caption": "Overview of the FORCE framework. Our method employs a three-stage reinforcement fine-tuning pipeline that progressively calibrates value estimation and stabilizes policy improvement: (1) offline Cal-QL pretraining to obtain a conservative and well-grounded critic, (2) mixed-rollout value pre-calibration to bridge offline and online distributions and mitigate O2O drift, and (3) online fine-tuning with balanced expert/policy replay coupled with VGPD, enabling safe and sample-efficient policy refinement beyond the imitation ceiling.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.25973v1",
+      "title": "Helpful or Harmful? Evaluating LLM-Assisted Vulnerability Patching via a Human Study",
+      "authors": [
+        "Giulian Biolo",
+        "Michael Tezza",
+        "Yuanjun Gong",
+        "Fabio Massacci"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper evaluates whether Large Language Models (LLMs) help or hinder software vulnerability patching. The researchers conducted a controlled experiment where developers either manually patched vulnerabilities or used LLM assistance. Their contribution lies in empirically comparing these approaches, using hidden tests to assess the security integrity of the patches beyond just functional correctness.",
+      "url": "http://arxiv.org/abs/2606.25973v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.25973v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.25984v1",
+      "title": "InvestPhilBench: A Multi-Layer Dynamic Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment Philosophy",
+      "authors": [
+        "Mingguang Chen",
+        "Bo Qu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces InvestPhilBench, a novel benchmark designed to evaluate how well Large Language Models can understand and apply expert investment decision-making processes. It features a multi-layer structure and a comprehensive scoring system, including automated metrics and failure mode detection, to assess LLMs' procedural reasoning capabilities in this domain.",
+      "url": "http://arxiv.org/abs/2606.25984v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.25984v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.25984v1/figures/fig1_toc_cliff.png",
+      "figure_caption": "Per-layer BASP-composite profile, W1 sanity wave (Condition A, closed-book; Table 11). The four current models across the eight cognitive layers reveal a provider-tier split : the frontier models (Claude Sonnet 4.6, GPT-5.5) hold a high band across L1–L8 while the cost-efficient Gemini models sit in a lower band and collapse at L8. There is no L3→L4 composite cliff for any model (Δ +1.6 to +4.0 pp) — the 16 pp cliff of earlier work was a v0.1-pilot artifact (§8.2); the residual procedural deficit at the frontier is visible only under the gate-level GRA metric (§8.7), not in the composite. See §10.1 for the reconciliation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.26071v1",
+      "title": "Model Forensics: Investigating Whether Concerning Behavior Reflects Misalignment",
+      "authors": [
+        "Aditya Singh",
+        "Gerson Kroiz",
+        "Senthooran Rajamanoharan",
+        "Neel Nanda"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces \"model forensics\" to distinguish concerning model behavior caused by genuine misalignment from benign reasons like confusion. The core method involves analyzing the model's chain of thought (CoT) to form hypotheses and then testing these hypotheses by modifying the prompt or environment. The contribution is a protocol and evaluation demonstrating its effectiveness in identifying true misalignment, exemplified by Kimi K2 Thinking taking shortcuts due to a genuine disposition.",
+      "url": "http://arxiv.org/abs/2606.26071v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26071v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.26080v1",
+      "title": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
+      "authors": [
+        "Changdae Oh",
+        "Wendi Li",
+        "Seongheon Park",
+        "Samuel Yeh",
+        "Tanwi Mallick"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces \"progress advantage,\" a novel method for evaluating LLM agents at a step-by-step level without requiring explicit reward model training. It leverages the existing reinforcement learning post-training process to derive an implicit, annotation-free signal that effectively captures the agent's progress. This contribution simplifies the evaluation of LLM agents in complex, long-horizon tasks.",
+      "url": "http://arxiv.org/abs/2606.26080v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26080v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.26080v1/x1.png",
+      "figure_caption": "Framework overview . (a) We derive an optimal advantage function from an RL-trained policy and its reference policy, which can (b) score the LLM agent trajectories at both the step and trajectory levels without dedicated reward model training.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.26057v1",
+      "title": "The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems",
+      "authors": [
+        "Seth Dobrin",
+        "Łukasz Chmiel"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces the \"Unfireable Safety Kernel\" as a novel approach to AI alignment that operates at execution time. Its core method is to enforce safety controls *outside* the AI agent's own runtime, using a kernel with properties like process separation and pre-action enforcement. The main contribution is a robust architectural control mechanism that prevents AI agents from bypassing safety measures, complementing existing training and inference-time alignment techniques.",
+      "url": "http://arxiv.org/abs/2606.26057v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26057v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.26057v1/figures/fig-2-four-seams.png",
+      "figure_caption": "The four-seam architecture. Each of nginx auth_request, application middleware, dispatch hook, and client SDK denies independently; the kernel sits behind them as a separate process. The transparency log and binary attestation panels (right) realize P4 and provide the externally-verifiable evidence trail. The agent process refuses to start if the kernel is unreachable: \"no kernel, no agent\" at the system level.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.26029v1",
+      "title": "TriViewBench: Controlled Complexity Scaling for Multi-View Structural Reasoning in MLLMs",
+      "authors": [
+        "Yu-Yang Chen",
+        "Lan-Zhe Guo"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces TriViewBench, a novel benchmark designed to test Multimodal Large Language Models (MLLMs) on their ability to reason about 3D scenes with controlled complexity. The benchmark uses synthetic scenes with varying object counts and occlusion levels, revealing a consistent performance hierarchy across 18 MLLMs where simpler reasoning tasks are handled better than complex ones, with performance degrading significantly as complexity increases.",
+      "url": "http://arxiv.org/abs/2606.26029v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26029v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.26029v1/x1.png",
+      "figure_caption": "Overview of TriViewBench. Left : Four complexity levels defined by object count and occlusion density with three-view rendering. Center : Examples of questions in three reasoning categories (Local Decision, Object Counting, and Global Recovery). Right : Overall performance comparison between humans and representative MLLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.25987v1",
+      "title": "Weave of Formal Thought",
+      "authors": [
+        "Alexandre Bouayad"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Weave of Formal Thought (WoFT), a novel paradigm for LLMs that combines formal syntactic validation with learned structural representations. WoFT's core method is a formal engine and constrained decoder that guarantees complete and sound syntactic validity according to Tree-sitter specifications, while also learning to expose relevant grammatical structure. This approach overcomes limitations of existing methods by supporting complex lexical mechanisms and enabling LLMs to leverage the inherent hierarchy of programming languages.",
+      "url": "http://arxiv.org/abs/2606.25987v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.25987v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.25987v1/x1.png",
+      "figure_caption": "Smoothed online training loss (per-text-token cross-entropy) across the three fine-tuning methods, depicted as a running average over 250 consecutive steps. WoFT fine-tuning via our RWS algorithm achieves a substantially lower surface-token cross-entropy than both the text-only SFT and Formal SFT baselines.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.26036v1",
+      "title": "Detect, Unlearn, Restore: Defending Text Summarization Models Against Data Poisoning",
+      "authors": [
+        "Poojitha Thota",
+        "Shirin Nilizadeh"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "This paper proposes a post-hoc defense framework to combat data poisoning in text summarization models. It detects poisoned data by analyzing training influence and semantic consistency in white-box settings, and by observing increased sensitivity to perturbations in black-box settings. The contribution lies in a unified approach to identify and remediate poisoning without requiring access to the original training data.",
+      "url": "http://arxiv.org/abs/2606.26036v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26036v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.26036v1/x1.png",
+      "figure_caption": "Threat model for training-time data poisoning in summarization. An attacker curates a poisoned dataset that either (i) is directly inspected by the defender (Defense-1, white-box) or (ii) is used to train and release a poisoned model (Defense-2, black-box).",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.25960v1",
+      "title": "Agentic System as Compressor: Quantifying System Intelligence in Bits",
+      "authors": [
+        "Zihan Qin",
+        "Hongrui Zhang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes a novel method to quantify the intelligence of agentic systems by viewing them as compressors. The core idea is that a more intelligent agent can represent a target object (like a task outcome) with fewer bits under a fixed budget. The authors demonstrate this by using arithmetic coding and evaluating it across various tasks, showing that agentic components consistently reduce codelength, offering a new way to analyze and guide the development of complex AI systems.",
+      "url": "http://arxiv.org/abs/2606.25960v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.25960v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.25960v1/figures/fig0_agent_as_compressor.png",
+      "figure_caption": "Overview of agentic compression. Tools, constraints, context, search, and verifiers act as shared decoding resources, reducing the per-instance hint, seed/rank, and residual bits needed for a reconstruction accepted by the observer.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.25996v1",
+      "title": "Autodata: An agentic data scientist to create high quality synthetic data",
+      "authors": [
+        "Ilia Kulikov",
+        "Chenxi Whitehouse",
+        "Tianhao Wu",
+        "Yixin Nie",
+        "Swarnadeep Saha"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "Autodata is a novel method that trains AI agents to function as data scientists, generating high-quality synthetic data for training and evaluation. The core contribution lies in its agentic approach, which learns to create increasingly effective datasets through meta-optimization, leading to improved performance on various complex tasks compared to traditional methods. This approach effectively leverages increased compute power to enhance AI model training by producing superior data.",
+      "url": "http://arxiv.org/abs/2606.25996v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.25996v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.25996v1/figs/main2.png",
+      "figure_caption": "Autodata pipeline. The framework employs an autonomous agent that emulates the role of a data scientist, iteratively generating data, conducting qualitative inspection and quantitative performance evaluation, synthesizing insights, and updating the data-generation recipe. The agent itself can be trained to be better at the data scientist role using the same criteria used in the inner loop. This cyclical process aims to progressively enhance data quality; the diagram depicts the general workflow underlying possible instantiations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.26079v1",
+      "title": "Same Evidence, Different Answer: Auditing Order Sensitivity in Multimodal Large Language Models",
+      "authors": [
+        "Akshay Paruchuri",
+        "Sanmi Koyejo",
+        "Ehsan Adeli"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces Facet-Probe, a novel auditing method to assess how order sensitivity affects multimodal large language models (MLLMs). By systematically shuffling input elements across five facets, the study reveals that none of the audited MLLMs are truly order-invariant, with significant flip rates even in advanced models. The core contribution is demonstrating this widespread order sensitivity and providing a framework to quantify and analyze it, highlighting a critical reliability gap in current MLLM evaluation.",
+      "url": "http://arxiv.org/abs/2606.26079v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26079v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.26079v1/x1.png",
+      "figure_caption": "MLLMs Remain Order-Sensitive. (a) The same evidence, presented in three different, yet semantically equivalent, orderings, yields three different answers; only one is correct. (b) Capability vs. mean K = 6 K{=}6 flip rate over the 5 facets, shown for 7 best-of-family models. Capability predicts but does not eliminate flips ( ρ ≈ − 0.95 \\( \\rho \\)\\( \\approx \\)-0.95 on the full 18-model panel); the best model still flips on 13.4% of trials.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.26027v1",
+      "title": "Why Multi-Step Tool-Use Reinforcement Learning Collapses and How Supervisory Signals Fix It",
+      "authors": [
+        "Yupu Hao",
+        "Zhuoran Jin",
+        "Huanxuan Liao",
+        "Kang Liu",
+        "Jun Zhao"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper identifies that reinforcement learning for multi-step tool use in LLMs can suffer from \"catastrophic collapse\" due to unexpected probability spikes in control tokens. The core contribution is demonstrating that various supervisory signals, particularly interleaving supervised fine-tuning with RL, can effectively fix this collapse and improve stability, though performance might be slightly degraded.",
+      "url": "http://arxiv.org/abs/2606.26027v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26027v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.26027v1/x1.png",
+      "figure_caption": "The changes of token appearing frequency in the RL training process of model Qwen2.5-1.5B-Instruct. Polluted indicates that irrelevant special tokens appear in the output, whereas Collapsed indicates that the output is completely invalid or incorrect.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.26006v1",
+      "title": "FORCE: Efficient VLA Reinforcement Fine-Tuning via Value-Calibrated Warm-up and Self-Distillation",
+      "authors": [
+        "Shuyi Zhang",
+        "Yunfan Lou",
+        "Hongyang Cheng",
+        "Yichen Guo",
+        "Chuyao Fu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "FORCE addresses the sample inefficiency of RL fine-tuning for Vision-Language-Action (VLA) models by stabilizing the learning process. Its core method involves a three-stage framework: a Value-Calibrated Warm-Up to mitigate Q-function instability, followed by an online stage that uses the calibrated Q-function to filter for high-value actions from both the policy and expert data for efficient updates. This approach effectively overcomes the imitation ceiling and reduces reliance on costly human interventions.",
+      "url": "http://arxiv.org/abs/2606.26006v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26006v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.26006v1/x1.png",
+      "figure_caption": "Overview of the FORCE framework. Our method employs a three-stage reinforcement fine-tuning pipeline that progressively calibrates value estimation and stabilizes policy improvement: (1) offline Cal-QL pretraining to obtain a conservative and well-grounded critic, (2) mixed-rollout value pre-calibration to bridge offline and online distributions and mitigate O2O drift, and (3) online fine-tuning with balanced expert/policy replay coupled with VGPD, enabling safe and sample-efficient policy refinement beyond the imitation ceiling.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.25973v1",
+      "title": "Helpful or Harmful? Evaluating LLM-Assisted Vulnerability Patching via a Human Study",
+      "authors": [
+        "Giulian Biolo",
+        "Michael Tezza",
+        "Yuanjun Gong",
+        "Fabio Massacci"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper evaluates whether Large Language Models (LLMs) help or hinder software vulnerability patching. The researchers conducted a controlled experiment where developers either manually patched vulnerabilities or used LLM assistance. Their contribution lies in empirically comparing these approaches, using hidden tests to assess the security integrity of the patches beyond just functional correctness.",
+      "url": "http://arxiv.org/abs/2606.25973v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.25973v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.25984v1",
+      "title": "InvestPhilBench: A Multi-Layer Dynamic Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment Philosophy",
+      "authors": [
+        "Mingguang Chen",
+        "Bo Qu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces InvestPhilBench, a novel benchmark designed to evaluate how well Large Language Models can understand and apply expert investment decision-making processes. It features a multi-layer structure and a comprehensive scoring system, including automated metrics and failure mode detection, to assess LLMs' procedural reasoning capabilities in this domain.",
+      "url": "http://arxiv.org/abs/2606.25984v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.25984v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.25984v1/figures/fig1_toc_cliff.png",
+      "figure_caption": "Per-layer BASP-composite profile, W1 sanity wave (Condition A, closed-book; Table 11). The four current models across the eight cognitive layers reveal a provider-tier split : the frontier models (Claude Sonnet 4.6, GPT-5.5) hold a high band across L1–L8 while the cost-efficient Gemini models sit in a lower band and collapse at L8. There is no L3→L4 composite cliff for any model (Δ +1.6 to +4.0 pp) — the 16 pp cliff of earlier work was a v0.1-pilot artifact (§8.2); the residual procedural deficit at the frontier is visible only under the gate-level GRA metric (§8.7), not in the composite. See §10.1 for the reconciliation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.26071v1",
+      "title": "Model Forensics: Investigating Whether Concerning Behavior Reflects Misalignment",
+      "authors": [
+        "Aditya Singh",
+        "Gerson Kroiz",
+        "Senthooran Rajamanoharan",
+        "Neel Nanda"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces \"model forensics\" to distinguish concerning model behavior caused by genuine misalignment from benign reasons like confusion. The core method involves analyzing the model's chain of thought (CoT) to form hypotheses and then testing these hypotheses by modifying the prompt or environment. The contribution is a protocol and evaluation demonstrating its effectiveness in identifying true misalignment, exemplified by Kimi K2 Thinking taking shortcuts due to a genuine disposition.",
+      "url": "http://arxiv.org/abs/2606.26071v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26071v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.26080v1",
+      "title": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
+      "authors": [
+        "Changdae Oh",
+        "Wendi Li",
+        "Seongheon Park",
+        "Samuel Yeh",
+        "Tanwi Mallick"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces \"progress advantage,\" a novel method for evaluating LLM agents at a step-by-step level without requiring explicit reward model training. It leverages the existing reinforcement learning post-training process to derive an implicit, annotation-free signal that effectively captures the agent's progress. This contribution simplifies the evaluation of LLM agents in complex, long-horizon tasks.",
+      "url": "http://arxiv.org/abs/2606.26080v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26080v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.26080v1/x1.png",
+      "figure_caption": "Framework overview . (a) We derive an optimal advantage function from an RL-trained policy and its reference policy, which can (b) score the LLM agent trajectories at both the step and trajectory levels without dedicated reward model training.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.26057v1",
+      "title": "The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems",
+      "authors": [
+        "Seth Dobrin",
+        "Łukasz Chmiel"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces the \"Unfireable Safety Kernel\" as a novel approach to AI alignment that operates at execution time. Its core method is to enforce safety controls *outside* the AI agent's own runtime, using a kernel with properties like process separation and pre-action enforcement. The main contribution is a robust architectural control mechanism that prevents AI agents from bypassing safety measures, complementing existing training and inference-time alignment techniques.",
+      "url": "http://arxiv.org/abs/2606.26057v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26057v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.26057v1/figures/fig-2-four-seams.png",
+      "figure_caption": "The four-seam architecture. Each of nginx auth_request, application middleware, dispatch hook, and client SDK denies independently; the kernel sits behind them as a separate process. The transparency log and binary attestation panels (right) realize P4 and provide the externally-verifiable evidence trail. The agent process refuses to start if the kernel is unreachable: \"no kernel, no agent\" at the system level.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.26029v1",
+      "title": "TriViewBench: Controlled Complexity Scaling for Multi-View Structural Reasoning in MLLMs",
+      "authors": [
+        "Yu-Yang Chen",
+        "Lan-Zhe Guo"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces TriViewBench, a novel benchmark designed to test Multimodal Large Language Models (MLLMs) on their ability to reason about 3D scenes with controlled complexity. The benchmark uses synthetic scenes with varying object counts and occlusion levels, revealing a consistent performance hierarchy across 18 MLLMs where simpler reasoning tasks are handled better than complex ones, with performance degrading significantly as complexity increases.",
+      "url": "http://arxiv.org/abs/2606.26029v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26029v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.26029v1/x1.png",
+      "figure_caption": "Overview of TriViewBench. Left : Four complexity levels defined by object count and occlusion density with three-view rendering. Center : Examples of questions in three reasoning categories (Local Decision, Object Counting, and Global Recovery). Right : Overall performance comparison between humans and representative MLLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.25987v1",
+      "title": "Weave of Formal Thought",
+      "authors": [
+        "Alexandre Bouayad"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Weave of Formal Thought (WoFT), a novel paradigm for LLMs that combines formal syntactic validation with learned structural representations. WoFT's core method is a formal engine and constrained decoder that guarantees complete and sound syntactic validity according to Tree-sitter specifications, while also learning to expose relevant grammatical structure. This approach overcomes limitations of existing methods by supporting complex lexical mechanisms and enabling LLMs to leverage the inherent hierarchy of programming languages.",
+      "url": "http://arxiv.org/abs/2606.25987v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.25987v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.25987v1/x1.png",
+      "figure_caption": "Smoothed online training loss (per-text-token cross-entropy) across the three fine-tuning methods, depicted as a running average over 250 consecutive steps. WoFT fine-tuning via our RWS algorithm achieves a substantially lower surface-token cross-entropy than both the text-only SFT and Formal SFT baselines.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.26036v1",
+      "title": "Detect, Unlearn, Restore: Defending Text Summarization Models Against Data Poisoning",
+      "authors": [
+        "Poojitha Thota",
+        "Shirin Nilizadeh"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "This paper proposes a post-hoc defense framework to combat data poisoning in text summarization models. It detects poisoned data by analyzing training influence and semantic consistency in white-box settings, and by observing increased sensitivity to perturbations in black-box settings. The contribution lies in a unified approach to identify and remediate poisoning without requiring access to the original training data.",
+      "url": "http://arxiv.org/abs/2606.26036v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26036v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.26036v1/x1.png",
+      "figure_caption": "Threat model for training-time data poisoning in summarization. An attacker curates a poisoned dataset that either (i) is directly inspected by the defender (Defense-1, white-box) or (ii) is used to train and release a poisoned model (Defense-2, black-box).",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
