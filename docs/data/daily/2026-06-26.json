@@ -1,0 +1,565 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T12:00:13.536328+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.27330v1",
+          "title": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning",
+          "authors": [
+            "Tianyi Men",
+            "Zhuoran Jin",
+            "Pengfei Cao",
+            "Yubo Chen",
+            "Kang Liu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces the Planning Experience Exploration and Utilization (PEEU) method to improve the task planning capabilities of GUI agents, particularly smaller open-source models. PEEU autonomously explores environments to gather experiences and then uses hindsight to create high-quality training data. The paper also proposes the Task Decomposition Hierarchical Analysis Framework (TDHAF) to analyze how agents generalize their planning skills across different task complexities.",
+          "url": "http://arxiv.org/abs/2606.27330v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.27330v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.27330v1/x1.png",
+          "figure_caption": "The overview of planning experience exploration and utilization method.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.27326v1",
+          "title": "Hallucination in World Models is Predictable and Preventable",
+          "authors": [
+            "Nicklas Hansen",
+            "Xiaolong Wang"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CV",
+            "cs.RO"
+          ],
+          "abstract": "This paper introduces MMBench2, a large dataset and a trained world model to study visual hallucination. The core method involves identifying and predicting hallucination in low-coverage state-action regions using lightweight signals. The key contribution is demonstrating that hallucination is predictable and preventable through coverage-aware training and online curiosity-driven data collection.",
+          "url": "http://arxiv.org/abs/2606.27326v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.27326v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.27326v1/visualizations/hallucination/hallucination-maniskill-action-down2.png",
+          "figure_caption": "Hallucination. We categorize hallucinations as three distinct failure modes: perceptual , action marginalization , and scene divergence , and develop methods for detection and mitigation.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.27359v1",
+          "title": "When are likely answers right? On Sequence Probability and Correctness in LLMs",
+          "authors": [
+            "Johannes Zenn",
+            "Jonas Geiping"
+          ],
+          "categories": [
+            "cs.LG",
+            "stat.ML"
+          ],
+          "abstract": "This paper investigates when the probability assigned by a language model to a sequence correlates with its correctness. The core method quantifies this relationship across various decoding strategies, hyperparameters, and datasets. The key contribution is demonstrating that while higher sequence probability often predicts correctness for existing prompt-answer pairs, manipulating decoding parameters to increase probability doesn't reliably improve accuracy.",
+          "url": "http://arxiv.org/abs/2606.27359v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.27359v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.27359v1/x1.png",
+          "figure_caption": "The correlation between log-probability and correctness across three levels. Left: Across-method-correlation : log-probability plotted against accuracy for various decoding methods and hyperparameters (connected by lines). Within-method correlation : plotted without transparency. Middle: Within-dataset correlation : for one method (Bo N N with N = 32 N=32 ) we bin correct (green dots, top) and incorrect data (red dots, bottom) in 10 10 bins and fit a Pearson correlation. The correlation is positive. Right: Within-sample correlation : for one sample of the dataset, a Pearson rank correlation is computed (also, binned Pearson corelation is shown). The correlation is positive. The plot shows data of Qwen3-8B on MATH500. See Section ˜ 1 and Section ˜ 3 for details.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.27251v1",
+          "title": "Advancing Omnimodal Embodied Agents from Isolated Skills to Everyday Physical Autonomy",
+          "authors": [
+            "Junhao Shi",
+            "Zezheng Huai",
+            "Siyin Wang",
+            "Jia Chen",
+            "Yubang Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.RO"
+          ],
+          "abstract": "This paper introduces OmniAct, a hierarchical asynchronous framework for embodied agents. Its core method unifies cyber and physical actions through a multimodal semantic planner, manages context efficiently with event-boundary compression, and enables failure detection and recovery. The main contribution is achieving persistent autonomy in unstructured environments by explicitly separating planning, memory, and verification.",
+          "url": "http://arxiv.org/abs/2606.27251v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.27251v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.27334v1",
+          "title": "Language-Based Digital Twins for Elderly Cognitive Assistance",
+          "authors": [
+            "Mohammad Mehdi Hosseini",
+            "Mohammad H. Mahoor",
+            "Hiroko H. Dodge"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces a language-based digital twin framework using LLMs to model elderly individuals' conversational behavior, capturing stylistic and contextual cues. A conditional VAE is used to evaluate the twin's fidelity and predict cognitive scores, demonstrating its ability to preserve identity and achieve comparable performance to real data. The core contribution is a novel method for creating personalized, language-based digital twins for cognitive assistance and assessment.",
+          "url": "http://arxiv.org/abs/2606.27334v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.27334v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.27334v1/x1.png",
+          "figure_caption": "Overview of the proposed language-based digital twin framework. The model integrates textual content, stylometric features (pause and tempo), and participant metadata to learn personalized conversational behavior and enable cognitive assessment.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.27287v1",
+          "title": "Prompt Injection in Automated Résumé Screening with Large Language Models: Single and Multi-Injection Settings",
+          "authors": [
+            "Preet Baxi",
+            "Jiannan Xu",
+            "Jane Yi Jiang",
+            "Stefanus Jasin"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper investigates how job applicants can manipulate Large Language Models (LLMs) used for résumé screening through \"prompt injection.\" The core method involves introducing subtle, self-promotional text that doesn't add new qualifications but aims to boost LLM evaluations. The main contribution is demonstrating that prompt injection is effective when manipulation is rare and applicant quality is similar, but its impact diminishes significantly with widespread use or heterogeneous candidate quality, raising fairness concerns.",
+          "url": "http://arxiv.org/abs/2606.27287v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.27287v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.27288v1",
+          "title": "When Does Combining Language Models Help? A Co-Failure Ceiling on Routing, Voting, and Mixture-of-Agents Across 67 Frontier Models",
+          "authors": [
+            "Josef Chen"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces the \"co-failure ceiling,\" a new metric that bounds the maximum achievable accuracy for multi-model LLM systems. The core contribution is demonstrating that this ceiling, based on the rate of models failing simultaneously, is a more accurate predictor of performance gains than existing metrics like pairwise error correlation. The authors show this ceiling is often underestimated by current models, highlighting a key limitation in how we evaluate and combine LLMs.",
+          "url": "http://arxiv.org/abs/2606.27288v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.27288v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.27242v1",
+          "title": "The Geometry of Updates: Fisher Alignment at Vocabulary Scale",
+          "authors": [
+            "John Sweeney"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL",
+            "stat.ML"
+          ],
+          "abstract": "This paper introduces FisherSketch, a method to efficiently select training data for large language models with shared vocabularies. It overcomes the limitations of existing metrics by directly estimating Fisher alignment, which captures the relationship between model activations and prediction errors, without needing to compute computationally expensive Fisher matrices. This allows for effective source selection even at vocabulary scale.",
+          "url": "http://arxiv.org/abs/2606.27242v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.27242v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.27242v1/paper_tables/linear_time_fisher_validation/sketch_validation.png",
+          "figure_caption": "Spearman correlations on ViT-B/16 (same-dataset pairs). S ^ a ​ e \\( \\hat{S}_{ae} \\) (joint similarity), χ ^ = S ^ a ​ e / ( S ^ a ​ S ^ e ) \\( \\hat{\\chi} \\)=\\( \\hat{S}_{ae} \\)/(\\( \\hat{S}_{a} \\)\\( \\hat{S}_{e} \\)) , and ρ ^ \\( \\hat{\\rho} \\) (normalized coupling) exceed 0.94 at m = 4096 m=4096 , while A ^ F \\( \\hat{A}_{F} \\) (Fisher-alignment cosine) is lower ( ∼ \\( \\sim \\) 0.79) due to ratio normalization.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 20,
+        "papers_after_llm_filter": 8,
+        "count": 8
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 20,
+    "papers_after_llm_filter": 8,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 50
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.27330v1",
+      "title": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning",
+      "authors": [
+        "Tianyi Men",
+        "Zhuoran Jin",
+        "Pengfei Cao",
+        "Yubo Chen",
+        "Kang Liu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces the Planning Experience Exploration and Utilization (PEEU) method to improve the task planning capabilities of GUI agents, particularly smaller open-source models. PEEU autonomously explores environments to gather experiences and then uses hindsight to create high-quality training data. The paper also proposes the Task Decomposition Hierarchical Analysis Framework (TDHAF) to analyze how agents generalize their planning skills across different task complexities.",
+      "url": "http://arxiv.org/abs/2606.27330v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27330v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.27330v1/x1.png",
+      "figure_caption": "The overview of planning experience exploration and utilization method.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.27326v1",
+      "title": "Hallucination in World Models is Predictable and Preventable",
+      "authors": [
+        "Nicklas Hansen",
+        "Xiaolong Wang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces MMBench2, a large dataset and a trained world model to study visual hallucination. The core method involves identifying and predicting hallucination in low-coverage state-action regions using lightweight signals. The key contribution is demonstrating that hallucination is predictable and preventable through coverage-aware training and online curiosity-driven data collection.",
+      "url": "http://arxiv.org/abs/2606.27326v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27326v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.27326v1/visualizations/hallucination/hallucination-maniskill-action-down2.png",
+      "figure_caption": "Hallucination. We categorize hallucinations as three distinct failure modes: perceptual , action marginalization , and scene divergence , and develop methods for detection and mitigation.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.27359v1",
+      "title": "When are likely answers right? On Sequence Probability and Correctness in LLMs",
+      "authors": [
+        "Johannes Zenn",
+        "Jonas Geiping"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper investigates when the probability assigned by a language model to a sequence correlates with its correctness. The core method quantifies this relationship across various decoding strategies, hyperparameters, and datasets. The key contribution is demonstrating that while higher sequence probability often predicts correctness for existing prompt-answer pairs, manipulating decoding parameters to increase probability doesn't reliably improve accuracy.",
+      "url": "http://arxiv.org/abs/2606.27359v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27359v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.27359v1/x1.png",
+      "figure_caption": "The correlation between log-probability and correctness across three levels. Left: Across-method-correlation : log-probability plotted against accuracy for various decoding methods and hyperparameters (connected by lines). Within-method correlation : plotted without transparency. Middle: Within-dataset correlation : for one method (Bo N N with N = 32 N=32 ) we bin correct (green dots, top) and incorrect data (red dots, bottom) in 10 10 bins and fit a Pearson correlation. The correlation is positive. Right: Within-sample correlation : for one sample of the dataset, a Pearson rank correlation is computed (also, binned Pearson corelation is shown). The correlation is positive. The plot shows data of Qwen3-8B on MATH500. See Section ˜ 1 and Section ˜ 3 for details.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.27251v1",
+      "title": "Advancing Omnimodal Embodied Agents from Isolated Skills to Everyday Physical Autonomy",
+      "authors": [
+        "Junhao Shi",
+        "Zezheng Huai",
+        "Siyin Wang",
+        "Jia Chen",
+        "Yubang Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces OmniAct, a hierarchical asynchronous framework for embodied agents. Its core method unifies cyber and physical actions through a multimodal semantic planner, manages context efficiently with event-boundary compression, and enables failure detection and recovery. The main contribution is achieving persistent autonomy in unstructured environments by explicitly separating planning, memory, and verification.",
+      "url": "http://arxiv.org/abs/2606.27251v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27251v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.27334v1",
+      "title": "Language-Based Digital Twins for Elderly Cognitive Assistance",
+      "authors": [
+        "Mohammad Mehdi Hosseini",
+        "Mohammad H. Mahoor",
+        "Hiroko H. Dodge"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a language-based digital twin framework using LLMs to model elderly individuals' conversational behavior, capturing stylistic and contextual cues. A conditional VAE is used to evaluate the twin's fidelity and predict cognitive scores, demonstrating its ability to preserve identity and achieve comparable performance to real data. The core contribution is a novel method for creating personalized, language-based digital twins for cognitive assistance and assessment.",
+      "url": "http://arxiv.org/abs/2606.27334v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27334v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.27334v1/x1.png",
+      "figure_caption": "Overview of the proposed language-based digital twin framework. The model integrates textual content, stylometric features (pause and tempo), and participant metadata to learn personalized conversational behavior and enable cognitive assessment.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.27287v1",
+      "title": "Prompt Injection in Automated Résumé Screening with Large Language Models: Single and Multi-Injection Settings",
+      "authors": [
+        "Preet Baxi",
+        "Jiannan Xu",
+        "Jane Yi Jiang",
+        "Stefanus Jasin"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper investigates how job applicants can manipulate Large Language Models (LLMs) used for résumé screening through \"prompt injection.\" The core method involves introducing subtle, self-promotional text that doesn't add new qualifications but aims to boost LLM evaluations. The main contribution is demonstrating that prompt injection is effective when manipulation is rare and applicant quality is similar, but its impact diminishes significantly with widespread use or heterogeneous candidate quality, raising fairness concerns.",
+      "url": "http://arxiv.org/abs/2606.27287v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27287v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.27288v1",
+      "title": "When Does Combining Language Models Help? A Co-Failure Ceiling on Routing, Voting, and Mixture-of-Agents Across 67 Frontier Models",
+      "authors": [
+        "Josef Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces the \"co-failure ceiling,\" a new metric that bounds the maximum achievable accuracy for multi-model LLM systems. The core contribution is demonstrating that this ceiling, based on the rate of models failing simultaneously, is a more accurate predictor of performance gains than existing metrics like pairwise error correlation. The authors show this ceiling is often underestimated by current models, highlighting a key limitation in how we evaluate and combine LLMs.",
+      "url": "http://arxiv.org/abs/2606.27288v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27288v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.27242v1",
+      "title": "The Geometry of Updates: Fisher Alignment at Vocabulary Scale",
+      "authors": [
+        "John Sweeney"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "stat.ML"
+      ],
+      "abstract": "This paper introduces FisherSketch, a method to efficiently select training data for large language models with shared vocabularies. It overcomes the limitations of existing metrics by directly estimating Fisher alignment, which captures the relationship between model activations and prediction errors, without needing to compute computationally expensive Fisher matrices. This allows for effective source selection even at vocabulary scale.",
+      "url": "http://arxiv.org/abs/2606.27242v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27242v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.27242v1/paper_tables/linear_time_fisher_validation/sketch_validation.png",
+      "figure_caption": "Spearman correlations on ViT-B/16 (same-dataset pairs). S ^ a ​ e \\( \\hat{S}_{ae} \\) (joint similarity), χ ^ = S ^ a ​ e / ( S ^ a ​ S ^ e ) \\( \\hat{\\chi} \\)=\\( \\hat{S}_{ae} \\)/(\\( \\hat{S}_{a} \\)\\( \\hat{S}_{e} \\)) , and ρ ^ \\( \\hat{\\rho} \\) (normalized coupling) exceed 0.94 at m = 4096 m=4096 , while A ^ F \\( \\hat{A}_{F} \\) (Fisher-alignment cosine) is lower ( ∼ \\( \\sim \\) 0.79) due to ratio normalization.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.27330v1",
+      "title": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning",
+      "authors": [
+        "Tianyi Men",
+        "Zhuoran Jin",
+        "Pengfei Cao",
+        "Yubo Chen",
+        "Kang Liu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces the Planning Experience Exploration and Utilization (PEEU) method to improve the task planning capabilities of GUI agents, particularly smaller open-source models. PEEU autonomously explores environments to gather experiences and then uses hindsight to create high-quality training data. The paper also proposes the Task Decomposition Hierarchical Analysis Framework (TDHAF) to analyze how agents generalize their planning skills across different task complexities.",
+      "url": "http://arxiv.org/abs/2606.27330v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27330v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.27330v1/x1.png",
+      "figure_caption": "The overview of planning experience exploration and utilization method.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.27326v1",
+      "title": "Hallucination in World Models is Predictable and Preventable",
+      "authors": [
+        "Nicklas Hansen",
+        "Xiaolong Wang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces MMBench2, a large dataset and a trained world model to study visual hallucination. The core method involves identifying and predicting hallucination in low-coverage state-action regions using lightweight signals. The key contribution is demonstrating that hallucination is predictable and preventable through coverage-aware training and online curiosity-driven data collection.",
+      "url": "http://arxiv.org/abs/2606.27326v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27326v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.27326v1/visualizations/hallucination/hallucination-maniskill-action-down2.png",
+      "figure_caption": "Hallucination. We categorize hallucinations as three distinct failure modes: perceptual , action marginalization , and scene divergence , and develop methods for detection and mitigation.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.27359v1",
+      "title": "When are likely answers right? On Sequence Probability and Correctness in LLMs",
+      "authors": [
+        "Johannes Zenn",
+        "Jonas Geiping"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper investigates when the probability assigned by a language model to a sequence correlates with its correctness. The core method quantifies this relationship across various decoding strategies, hyperparameters, and datasets. The key contribution is demonstrating that while higher sequence probability often predicts correctness for existing prompt-answer pairs, manipulating decoding parameters to increase probability doesn't reliably improve accuracy.",
+      "url": "http://arxiv.org/abs/2606.27359v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27359v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.27359v1/x1.png",
+      "figure_caption": "The correlation between log-probability and correctness across three levels. Left: Across-method-correlation : log-probability plotted against accuracy for various decoding methods and hyperparameters (connected by lines). Within-method correlation : plotted without transparency. Middle: Within-dataset correlation : for one method (Bo N N with N = 32 N=32 ) we bin correct (green dots, top) and incorrect data (red dots, bottom) in 10 10 bins and fit a Pearson correlation. The correlation is positive. Right: Within-sample correlation : for one sample of the dataset, a Pearson rank correlation is computed (also, binned Pearson corelation is shown). The correlation is positive. The plot shows data of Qwen3-8B on MATH500. See Section ˜ 1 and Section ˜ 3 for details.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.27251v1",
+      "title": "Advancing Omnimodal Embodied Agents from Isolated Skills to Everyday Physical Autonomy",
+      "authors": [
+        "Junhao Shi",
+        "Zezheng Huai",
+        "Siyin Wang",
+        "Jia Chen",
+        "Yubang Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces OmniAct, a hierarchical asynchronous framework for embodied agents. Its core method unifies cyber and physical actions through a multimodal semantic planner, manages context efficiently with event-boundary compression, and enables failure detection and recovery. The main contribution is achieving persistent autonomy in unstructured environments by explicitly separating planning, memory, and verification.",
+      "url": "http://arxiv.org/abs/2606.27251v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27251v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.27334v1",
+      "title": "Language-Based Digital Twins for Elderly Cognitive Assistance",
+      "authors": [
+        "Mohammad Mehdi Hosseini",
+        "Mohammad H. Mahoor",
+        "Hiroko H. Dodge"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a language-based digital twin framework using LLMs to model elderly individuals' conversational behavior, capturing stylistic and contextual cues. A conditional VAE is used to evaluate the twin's fidelity and predict cognitive scores, demonstrating its ability to preserve identity and achieve comparable performance to real data. The core contribution is a novel method for creating personalized, language-based digital twins for cognitive assistance and assessment.",
+      "url": "http://arxiv.org/abs/2606.27334v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27334v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.27334v1/x1.png",
+      "figure_caption": "Overview of the proposed language-based digital twin framework. The model integrates textual content, stylometric features (pause and tempo), and participant metadata to learn personalized conversational behavior and enable cognitive assessment.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.27287v1",
+      "title": "Prompt Injection in Automated Résumé Screening with Large Language Models: Single and Multi-Injection Settings",
+      "authors": [
+        "Preet Baxi",
+        "Jiannan Xu",
+        "Jane Yi Jiang",
+        "Stefanus Jasin"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper investigates how job applicants can manipulate Large Language Models (LLMs) used for résumé screening through \"prompt injection.\" The core method involves introducing subtle, self-promotional text that doesn't add new qualifications but aims to boost LLM evaluations. The main contribution is demonstrating that prompt injection is effective when manipulation is rare and applicant quality is similar, but its impact diminishes significantly with widespread use or heterogeneous candidate quality, raising fairness concerns.",
+      "url": "http://arxiv.org/abs/2606.27287v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27287v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.27288v1",
+      "title": "When Does Combining Language Models Help? A Co-Failure Ceiling on Routing, Voting, and Mixture-of-Agents Across 67 Frontier Models",
+      "authors": [
+        "Josef Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces the \"co-failure ceiling,\" a new metric that bounds the maximum achievable accuracy for multi-model LLM systems. The core contribution is demonstrating that this ceiling, based on the rate of models failing simultaneously, is a more accurate predictor of performance gains than existing metrics like pairwise error correlation. The authors show this ceiling is often underestimated by current models, highlighting a key limitation in how we evaluate and combine LLMs.",
+      "url": "http://arxiv.org/abs/2606.27288v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27288v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.27242v1",
+      "title": "The Geometry of Updates: Fisher Alignment at Vocabulary Scale",
+      "authors": [
+        "John Sweeney"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "stat.ML"
+      ],
+      "abstract": "This paper introduces FisherSketch, a method to efficiently select training data for large language models with shared vocabularies. It overcomes the limitations of existing metrics by directly estimating Fisher alignment, which captures the relationship between model activations and prediction errors, without needing to compute computationally expensive Fisher matrices. This allows for effective source selection even at vocabulary scale.",
+      "url": "http://arxiv.org/abs/2606.27242v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27242v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.27242v1/paper_tables/linear_time_fisher_validation/sketch_validation.png",
+      "figure_caption": "Spearman correlations on ViT-B/16 (same-dataset pairs). S ^ a ​ e \\( \\hat{S}_{ae} \\) (joint similarity), χ ^ = S ^ a ​ e / ( S ^ a ​ S ^ e ) \\( \\hat{\\chi} \\)=\\( \\hat{S}_{ae} \\)/(\\( \\hat{S}_{a} \\)\\( \\hat{S}_{e} \\)) , and ρ ^ \\( \\hat{\\rho} \\) (normalized coupling) exceed 0.94 at m = 4096 m=4096 , while A ^ F \\( \\hat{A}_{F} \\) (Fisher-alignment cosine) is lower ( ∼ \\( \\sim \\) 0.79) due to ratio normalization.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
