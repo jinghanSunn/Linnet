@@ -1,0 +1,742 @@
+{
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T13:53:07.599440+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.28127v1",
+          "title": "From Tokens to States: LLMs as a Special Case of World Models and the Continuous Path Beyond",
+          "authors": [
+            "Paul Dubois"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper argues that LLMs are a degenerate form of world models, where the \"state\" is a token sequence and the only \"action\" is appending the next token. It proposes a continuous spectrum from token prediction to world models, with intermediate stages like multi-token and future-summary prediction, suggesting a path beyond current LLM limitations.",
+          "url": "http://arxiv.org/abs/2606.28127v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.28127v1",
+          "score": 9.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.28179v1",
+          "title": "CPAgents: Agentic Composite Phenotype Generation for Cardiac Disease Association",
+          "authors": [
+            "Zuoou Li",
+            "Wenlong Zhao",
+            "Kelly Yu",
+            "Weitong Zhang",
+            "Paul M. Matthews"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "CPAgents addresses limitations in cardiovascular research by automatically generating interpretable composite phenotypes from imaging data. It uses an iterative framework with three agents to construct and validate these phenotypes, capturing complex non-linear effects and cross-phenotype interactions missed by traditional methods. This approach enhances the ability to identify robust associations for risk stratification and population-scale studies.",
+          "url": "http://arxiv.org/abs/2606.28179v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.28179v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.28179v1/x1.png",
+          "figure_caption": "Overview of CPAgents , an agentic phenotype composition framework. CPAgents iteratively transforms raw cardiovascular phenotypes into highly predictive, hierarchical composite features ( f 1 ​ … ​ f k f_{1}...f_{k} ). An Analyst first profiles feature statistics to guide a Proposer , which synthesizes candidate features using medical, statistical, and exploratory operations. Next, a Verifier filters candidates via sanity, stability, and \\( \\Delta \\) AUC checks. Candidates then undergo cross-model validation; failures trigger a feedback loop for refinement, while successes are retained. Ultimately, these transparent composite features significantly enhance downstream disease association mapping and classification accuracy.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.28215v1",
+          "title": "HAT-4D: Lifting Monocular Video for 4D Multi-Object Interactions via Human-Agent Collaboration",
+          "authors": [
+            "Jiaxin Li",
+            "Yuxiang Wu",
+            "Zhenkai Zhang",
+            "Xinrui Shi",
+            "Haoyuan Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV",
+            "cs.GR"
+          ],
+          "abstract": "HAT-4D addresses the challenge of reconstructing 4D multi-object interactions from monocular videos, which is difficult due to occlusions and complex dynamics. It achieves this by using a human-agent collaboration framework that integrates VLMs with multi-level human feedback to resolve ambiguities and generate physically plausible 4D assets. This method enables scalable data collection for Embodied AI and introduces a new benchmark for monocular 4D interaction reconstruction.",
+          "url": "http://arxiv.org/abs/2606.28215v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.28215v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.28215v1/x1.png",
+          "figure_caption": "Examples of object interaction sequences from the MVOIK-4D dataset. The dataset captures diverse real-world interaction scenarios with rich spatio-temporal dynamics. It includes challenging cases such as occlusion memory , where objects disappear and reappear across time, complex deformation caused by physical manipulation, and multi-object interactions involving coordinated motion between multiple objects. These scenarios require models to reason about geometry, dynamics, and long-term temporal consistency simultaneously.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.28182v1",
+          "title": "LLawCo: Learning Laws of Cooperation for Modeling Embodied Multi-Agent Behavior",
+          "authors": [
+            "Qinhong Zhou",
+            "Chuang Gan",
+            "Anoop Cherian"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CV",
+            "cs.RO"
+          ],
+          "abstract": "LLawCo enables embodied agents to learn and internalize \"laws of cooperation\" by reflecting on past failures. These derived laws, like \"Talk when necessary,\" are then integrated into the agents' reasoning process through fine-tuning, leading to more aligned and consistent multi-agent behavior in complex environments.",
+          "url": "http://arxiv.org/abs/2606.28182v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.28182v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.28182v1/x1.png",
+          "figure_caption": "Overview of the proposed LLawCo framework. Agents interact with the environment to collect training episodes, which are separated into failure traces and success traces based on task completion. Failure traces are analyzed to extract high-level laws, while success traces are filtered to retain law-aligned behaviors. These law-aligned traces are then used to generate law-guided reasoning and actions, forming supervision for fine-tuning the LLM-based planner. During inference, the fine-tuned agent follows the learned or user-specified laws to guide communication, planning, and action selection, enabling explicit human control by editing the laws.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.28153v1",
+          "title": "Robust Harmful Features Under Jailbreak Attacks: Mechanistic Evidence from Attention Head Specialization in Large Language Models",
+          "authors": [
+            "Yanchen Yin",
+            "Dongqi Han",
+            "Linghui Li"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "This paper reveals that jailbreak attacks on LLMs don't erase safety features but instead selectively suppress specific attention heads. The authors identify \"Adversarially Compromised Heads\" (ACHs) in early layers that are suppressed by attacks, and \"Safety-Aligned Heads\" (SAHs) in mid-layers that remain active. Their contribution is providing mechanistic evidence that suppressing ACHs is sufficient to induce jailbreaks, while SAHs maintain robust safety activations, explaining how attacks bypass LLM safety.",
+          "url": "http://arxiv.org/abs/2606.28153v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.28153v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.28153v1/x1.png",
+          "figure_caption": "Activation of the refusal direction across model components under harmful and attack inputs. Key observation: although attacks successfully bypass refusal, mid-layers still exhibit substantial activations (red regions), suggesting attacks bypass rather than eliminate safety representations.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.28166v1",
+          "title": "Tandem Reinforcement Learning with Verifiable Rewards",
+          "authors": [
+            "Difan Jiao",
+            "Raghav Singhal",
+            "Robert West",
+            "Ashton Anderson"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces Tandem Reinforcement Learning (TRL) to address the issue of weaker agents and humans struggling to follow the reasoning of powerful Reinforcement Learning with Verifiable Rewards (RLVR) models. TRL extends the tandem training paradigm to RLVR by having a stronger \"senior\" agent co-generate reasoning steps with a frozen \"junior\" agent, rewarding them as a team. This encourages the senior to produce more understandable reasoning, making RLVR capabilities accessible to less capable agents.",
+          "url": "http://arxiv.org/abs/2606.28166v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.28166v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.28166v1/x1.png",
+          "figure_caption": "Tandem Reinforcement Learning (TRL) at a glance.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.28277v1",
+          "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
+          "authors": [
+            "Rajesh Jayaram",
+            "Drew Tyler",
+            "David Woodruff",
+            "Corinna Cortes",
+            "Yossi Matias"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.CY"
+          ],
+          "abstract": "This paper addresses the challenge of scaling scientific peer review with the rise of AI-assisted research. It proposes a four-level taxonomy for AI-human collaboration in scientific evaluation and introduces the Paper Assistant Tool (PAT). PAT is an AI framework designed to perform deep scientific review and verification of manuscripts, checking theoretical results, validating experiments, and identifying flaws.",
+          "url": "http://arxiv.org/abs/2606.28277v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.28277v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.28294v1",
+          "title": "Democratic ICAI: Debating Our Way to Steering Principles from Preferences",
+          "authors": [
+            "Kevin Kingslin",
+            "Anish Natekar",
+            "Ashutosh Ranjan",
+            "Vivek Srivastava",
+            "Savita Bhat"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.MA"
+          ],
+          "abstract": "This paper introduces Democratic ICAI, a method that enhances preference alignment by simulating persona debates to generate multiple, competing rationales for human judgments. This approach captures richer signals than single-pass explanations, leading to more comprehensive steering principles. These principles are then used to guide decision modeling, improving interpretability and the accuracy of capturing complex human preferences.",
+          "url": "http://arxiv.org/abs/2606.28294v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.28294v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.28294v1/x1.png",
+          "figure_caption": "Architecture of Democratic ICAI . A committee of domain‑expert personas first generates detailed rationales for each preference pair. These rationales are then subjected to an adversarial debate procedure, through which the evaluative principles relevant to each comparison are surfaced. Finally, the full collection of principles is clustered and abstracted to draft a concise, human‑readable constitution.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.28164v1",
+          "title": "EchoSonar-R: A Multi-View Reasoning-Enabled Model for Disease Classification and Report Generation in Echocardiography",
+          "authors": [
+            "Darya Taratynova",
+            "Ahmed Aly",
+            "Numan Saeed",
+            "Mohammad Yaqub"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CV"
+          ],
+          "abstract": "EchoSonar-R is a multi-view vision-language model for echocardiography that addresses the limitations of current models by incorporating explicit diagnostic reasoning and spatially grounded anatomical evidence. Its core method involves a spatiotemporal video encoder combined with a structure-aware cardiac detector to provide interpretable anatomical cues for cross-view reasoning. The main contribution is improved disease classification and report generation, enhancing clinician trust through a more transparent and evidence-based diagnostic process.",
+          "url": "http://arxiv.org/abs/2606.28164v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.28164v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.28164v1/x1.png",
+          "figure_caption": "Overview of EchoSonar-R. Multi-View Visual Encoding: each video is processed by a frozen spatiotemporal encoder and a frozen structure-aware detector to extract complementary global and anatomical tokens for seven cardiac structures. Cross-Modal Projection and Interleaving: visual and structure tokens are projected into the language model embedding space via trainable MLPs and interleaved with view identifiers to form a multi-view input sequence. Two-Stage Training: SFT fine-tunes the model on reasoning-annotated targets; GRPO subsequently optimizes a composite reward.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.28301v1",
+          "title": "VGB for Masked Diffusion Model: Efficient Test-time Scaling for Reward Satisfaction and Sample Editing",
+          "authors": [
+            "Kijung Jeon",
+            "Thuy-Duong Vuong",
+            "Molei Tao"
+          ],
+          "categories": [
+            "cs.LG",
+            "stat.ML",
+            "cs.DS",
+            "math.NA",
+            "math.PR"
+          ],
+          "abstract": "This paper introduces MDM-VGB, an efficient test-time scaling method for Masked Diffusion Models. It augments the unmasking process with theoretically grounded reward-guided remasking, allowing tokens to be unmasked and remasked dynamically. This approach enables effective high-reward generation and efficient editing of low-reward samples by favoring moves that improve partial configurations.",
+          "url": "http://arxiv.org/abs/2606.28301v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.28301v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 19,
+        "papers_after_llm_filter": 10,
+        "count": 10
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 19,
+    "papers_after_llm_filter": 10,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 50
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.28127v1",
+      "title": "From Tokens to States: LLMs as a Special Case of World Models and the Continuous Path Beyond",
+      "authors": [
+        "Paul Dubois"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper argues that LLMs are a degenerate form of world models, where the \"state\" is a token sequence and the only \"action\" is appending the next token. It proposes a continuous spectrum from token prediction to world models, with intermediate stages like multi-token and future-summary prediction, suggesting a path beyond current LLM limitations.",
+      "url": "http://arxiv.org/abs/2606.28127v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28127v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.28179v1",
+      "title": "CPAgents: Agentic Composite Phenotype Generation for Cardiac Disease Association",
+      "authors": [
+        "Zuoou Li",
+        "Wenlong Zhao",
+        "Kelly Yu",
+        "Weitong Zhang",
+        "Paul M. Matthews"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "CPAgents addresses limitations in cardiovascular research by automatically generating interpretable composite phenotypes from imaging data. It uses an iterative framework with three agents to construct and validate these phenotypes, capturing complex non-linear effects and cross-phenotype interactions missed by traditional methods. This approach enhances the ability to identify robust associations for risk stratification and population-scale studies.",
+      "url": "http://arxiv.org/abs/2606.28179v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28179v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.28179v1/x1.png",
+      "figure_caption": "Overview of CPAgents , an agentic phenotype composition framework. CPAgents iteratively transforms raw cardiovascular phenotypes into highly predictive, hierarchical composite features ( f 1 ​ … ​ f k f_{1}...f_{k} ). An Analyst first profiles feature statistics to guide a Proposer , which synthesizes candidate features using medical, statistical, and exploratory operations. Next, a Verifier filters candidates via sanity, stability, and \\( \\Delta \\) AUC checks. Candidates then undergo cross-model validation; failures trigger a feedback loop for refinement, while successes are retained. Ultimately, these transparent composite features significantly enhance downstream disease association mapping and classification accuracy.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.28215v1",
+      "title": "HAT-4D: Lifting Monocular Video for 4D Multi-Object Interactions via Human-Agent Collaboration",
+      "authors": [
+        "Jiaxin Li",
+        "Yuxiang Wu",
+        "Zhenkai Zhang",
+        "Xinrui Shi",
+        "Haoyuan Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "abstract": "HAT-4D addresses the challenge of reconstructing 4D multi-object interactions from monocular videos, which is difficult due to occlusions and complex dynamics. It achieves this by using a human-agent collaboration framework that integrates VLMs with multi-level human feedback to resolve ambiguities and generate physically plausible 4D assets. This method enables scalable data collection for Embodied AI and introduces a new benchmark for monocular 4D interaction reconstruction.",
+      "url": "http://arxiv.org/abs/2606.28215v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28215v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.28215v1/x1.png",
+      "figure_caption": "Examples of object interaction sequences from the MVOIK-4D dataset. The dataset captures diverse real-world interaction scenarios with rich spatio-temporal dynamics. It includes challenging cases such as occlusion memory , where objects disappear and reappear across time, complex deformation caused by physical manipulation, and multi-object interactions involving coordinated motion between multiple objects. These scenarios require models to reason about geometry, dynamics, and long-term temporal consistency simultaneously.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.28182v1",
+      "title": "LLawCo: Learning Laws of Cooperation for Modeling Embodied Multi-Agent Behavior",
+      "authors": [
+        "Qinhong Zhou",
+        "Chuang Gan",
+        "Anoop Cherian"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "LLawCo enables embodied agents to learn and internalize \"laws of cooperation\" by reflecting on past failures. These derived laws, like \"Talk when necessary,\" are then integrated into the agents' reasoning process through fine-tuning, leading to more aligned and consistent multi-agent behavior in complex environments.",
+      "url": "http://arxiv.org/abs/2606.28182v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28182v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.28182v1/x1.png",
+      "figure_caption": "Overview of the proposed LLawCo framework. Agents interact with the environment to collect training episodes, which are separated into failure traces and success traces based on task completion. Failure traces are analyzed to extract high-level laws, while success traces are filtered to retain law-aligned behaviors. These law-aligned traces are then used to generate law-guided reasoning and actions, forming supervision for fine-tuning the LLM-based planner. During inference, the fine-tuned agent follows the learned or user-specified laws to guide communication, planning, and action selection, enabling explicit human control by editing the laws.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.28153v1",
+      "title": "Robust Harmful Features Under Jailbreak Attacks: Mechanistic Evidence from Attention Head Specialization in Large Language Models",
+      "authors": [
+        "Yanchen Yin",
+        "Dongqi Han",
+        "Linghui Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper reveals that jailbreak attacks on LLMs don't erase safety features but instead selectively suppress specific attention heads. The authors identify \"Adversarially Compromised Heads\" (ACHs) in early layers that are suppressed by attacks, and \"Safety-Aligned Heads\" (SAHs) in mid-layers that remain active. Their contribution is providing mechanistic evidence that suppressing ACHs is sufficient to induce jailbreaks, while SAHs maintain robust safety activations, explaining how attacks bypass LLM safety.",
+      "url": "http://arxiv.org/abs/2606.28153v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28153v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.28153v1/x1.png",
+      "figure_caption": "Activation of the refusal direction across model components under harmful and attack inputs. Key observation: although attacks successfully bypass refusal, mid-layers still exhibit substantial activations (red regions), suggesting attacks bypass rather than eliminate safety representations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.28166v1",
+      "title": "Tandem Reinforcement Learning with Verifiable Rewards",
+      "authors": [
+        "Difan Jiao",
+        "Raghav Singhal",
+        "Robert West",
+        "Ashton Anderson"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces Tandem Reinforcement Learning (TRL) to address the issue of weaker agents and humans struggling to follow the reasoning of powerful Reinforcement Learning with Verifiable Rewards (RLVR) models. TRL extends the tandem training paradigm to RLVR by having a stronger \"senior\" agent co-generate reasoning steps with a frozen \"junior\" agent, rewarding them as a team. This encourages the senior to produce more understandable reasoning, making RLVR capabilities accessible to less capable agents.",
+      "url": "http://arxiv.org/abs/2606.28166v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28166v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.28166v1/x1.png",
+      "figure_caption": "Tandem Reinforcement Learning (TRL) at a glance.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.28277v1",
+      "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
+      "authors": [
+        "Rajesh Jayaram",
+        "Drew Tyler",
+        "David Woodruff",
+        "Corinna Cortes",
+        "Yossi Matias"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "abstract": "This paper addresses the challenge of scaling scientific peer review with the rise of AI-assisted research. It proposes a four-level taxonomy for AI-human collaboration in scientific evaluation and introduces the Paper Assistant Tool (PAT). PAT is an AI framework designed to perform deep scientific review and verification of manuscripts, checking theoretical results, validating experiments, and identifying flaws.",
+      "url": "http://arxiv.org/abs/2606.28277v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28277v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.28294v1",
+      "title": "Democratic ICAI: Debating Our Way to Steering Principles from Preferences",
+      "authors": [
+        "Kevin Kingslin",
+        "Anish Natekar",
+        "Ashutosh Ranjan",
+        "Vivek Srivastava",
+        "Savita Bhat"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces Democratic ICAI, a method that enhances preference alignment by simulating persona debates to generate multiple, competing rationales for human judgments. This approach captures richer signals than single-pass explanations, leading to more comprehensive steering principles. These principles are then used to guide decision modeling, improving interpretability and the accuracy of capturing complex human preferences.",
+      "url": "http://arxiv.org/abs/2606.28294v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28294v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.28294v1/x1.png",
+      "figure_caption": "Architecture of Democratic ICAI . A committee of domain‑expert personas first generates detailed rationales for each preference pair. These rationales are then subjected to an adversarial debate procedure, through which the evaluative principles relevant to each comparison are surfaced. Finally, the full collection of principles is clustered and abstracted to draft a concise, human‑readable constitution.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.28164v1",
+      "title": "EchoSonar-R: A Multi-View Reasoning-Enabled Model for Disease Classification and Report Generation in Echocardiography",
+      "authors": [
+        "Darya Taratynova",
+        "Ahmed Aly",
+        "Numan Saeed",
+        "Mohammad Yaqub"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "EchoSonar-R is a multi-view vision-language model for echocardiography that addresses the limitations of current models by incorporating explicit diagnostic reasoning and spatially grounded anatomical evidence. Its core method involves a spatiotemporal video encoder combined with a structure-aware cardiac detector to provide interpretable anatomical cues for cross-view reasoning. The main contribution is improved disease classification and report generation, enhancing clinician trust through a more transparent and evidence-based diagnostic process.",
+      "url": "http://arxiv.org/abs/2606.28164v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28164v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.28164v1/x1.png",
+      "figure_caption": "Overview of EchoSonar-R. Multi-View Visual Encoding: each video is processed by a frozen spatiotemporal encoder and a frozen structure-aware detector to extract complementary global and anatomical tokens for seven cardiac structures. Cross-Modal Projection and Interleaving: visual and structure tokens are projected into the language model embedding space via trainable MLPs and interleaved with view identifiers to form a multi-view input sequence. Two-Stage Training: SFT fine-tunes the model on reasoning-annotated targets; GRPO subsequently optimizes a composite reward.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.28301v1",
+      "title": "VGB for Masked Diffusion Model: Efficient Test-time Scaling for Reward Satisfaction and Sample Editing",
+      "authors": [
+        "Kijung Jeon",
+        "Thuy-Duong Vuong",
+        "Molei Tao"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML",
+        "cs.DS",
+        "math.NA",
+        "math.PR"
+      ],
+      "abstract": "This paper introduces MDM-VGB, an efficient test-time scaling method for Masked Diffusion Models. It augments the unmasking process with theoretically grounded reward-guided remasking, allowing tokens to be unmasked and remasked dynamically. This approach enables effective high-reward generation and efficient editing of low-reward samples by favoring moves that improve partial configurations.",
+      "url": "http://arxiv.org/abs/2606.28301v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28301v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.28127v1",
+      "title": "From Tokens to States: LLMs as a Special Case of World Models and the Continuous Path Beyond",
+      "authors": [
+        "Paul Dubois"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper argues that LLMs are a degenerate form of world models, where the \"state\" is a token sequence and the only \"action\" is appending the next token. It proposes a continuous spectrum from token prediction to world models, with intermediate stages like multi-token and future-summary prediction, suggesting a path beyond current LLM limitations.",
+      "url": "http://arxiv.org/abs/2606.28127v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28127v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.28179v1",
+      "title": "CPAgents: Agentic Composite Phenotype Generation for Cardiac Disease Association",
+      "authors": [
+        "Zuoou Li",
+        "Wenlong Zhao",
+        "Kelly Yu",
+        "Weitong Zhang",
+        "Paul M. Matthews"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "CPAgents addresses limitations in cardiovascular research by automatically generating interpretable composite phenotypes from imaging data. It uses an iterative framework with three agents to construct and validate these phenotypes, capturing complex non-linear effects and cross-phenotype interactions missed by traditional methods. This approach enhances the ability to identify robust associations for risk stratification and population-scale studies.",
+      "url": "http://arxiv.org/abs/2606.28179v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28179v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.28179v1/x1.png",
+      "figure_caption": "Overview of CPAgents , an agentic phenotype composition framework. CPAgents iteratively transforms raw cardiovascular phenotypes into highly predictive, hierarchical composite features ( f 1 ​ … ​ f k f_{1}...f_{k} ). An Analyst first profiles feature statistics to guide a Proposer , which synthesizes candidate features using medical, statistical, and exploratory operations. Next, a Verifier filters candidates via sanity, stability, and \\( \\Delta \\) AUC checks. Candidates then undergo cross-model validation; failures trigger a feedback loop for refinement, while successes are retained. Ultimately, these transparent composite features significantly enhance downstream disease association mapping and classification accuracy.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.28215v1",
+      "title": "HAT-4D: Lifting Monocular Video for 4D Multi-Object Interactions via Human-Agent Collaboration",
+      "authors": [
+        "Jiaxin Li",
+        "Yuxiang Wu",
+        "Zhenkai Zhang",
+        "Xinrui Shi",
+        "Haoyuan Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "abstract": "HAT-4D addresses the challenge of reconstructing 4D multi-object interactions from monocular videos, which is difficult due to occlusions and complex dynamics. It achieves this by using a human-agent collaboration framework that integrates VLMs with multi-level human feedback to resolve ambiguities and generate physically plausible 4D assets. This method enables scalable data collection for Embodied AI and introduces a new benchmark for monocular 4D interaction reconstruction.",
+      "url": "http://arxiv.org/abs/2606.28215v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28215v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.28215v1/x1.png",
+      "figure_caption": "Examples of object interaction sequences from the MVOIK-4D dataset. The dataset captures diverse real-world interaction scenarios with rich spatio-temporal dynamics. It includes challenging cases such as occlusion memory , where objects disappear and reappear across time, complex deformation caused by physical manipulation, and multi-object interactions involving coordinated motion between multiple objects. These scenarios require models to reason about geometry, dynamics, and long-term temporal consistency simultaneously.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.28182v1",
+      "title": "LLawCo: Learning Laws of Cooperation for Modeling Embodied Multi-Agent Behavior",
+      "authors": [
+        "Qinhong Zhou",
+        "Chuang Gan",
+        "Anoop Cherian"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "LLawCo enables embodied agents to learn and internalize \"laws of cooperation\" by reflecting on past failures. These derived laws, like \"Talk when necessary,\" are then integrated into the agents' reasoning process through fine-tuning, leading to more aligned and consistent multi-agent behavior in complex environments.",
+      "url": "http://arxiv.org/abs/2606.28182v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28182v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.28182v1/x1.png",
+      "figure_caption": "Overview of the proposed LLawCo framework. Agents interact with the environment to collect training episodes, which are separated into failure traces and success traces based on task completion. Failure traces are analyzed to extract high-level laws, while success traces are filtered to retain law-aligned behaviors. These law-aligned traces are then used to generate law-guided reasoning and actions, forming supervision for fine-tuning the LLM-based planner. During inference, the fine-tuned agent follows the learned or user-specified laws to guide communication, planning, and action selection, enabling explicit human control by editing the laws.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.28153v1",
+      "title": "Robust Harmful Features Under Jailbreak Attacks: Mechanistic Evidence from Attention Head Specialization in Large Language Models",
+      "authors": [
+        "Yanchen Yin",
+        "Dongqi Han",
+        "Linghui Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper reveals that jailbreak attacks on LLMs don't erase safety features but instead selectively suppress specific attention heads. The authors identify \"Adversarially Compromised Heads\" (ACHs) in early layers that are suppressed by attacks, and \"Safety-Aligned Heads\" (SAHs) in mid-layers that remain active. Their contribution is providing mechanistic evidence that suppressing ACHs is sufficient to induce jailbreaks, while SAHs maintain robust safety activations, explaining how attacks bypass LLM safety.",
+      "url": "http://arxiv.org/abs/2606.28153v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28153v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.28153v1/x1.png",
+      "figure_caption": "Activation of the refusal direction across model components under harmful and attack inputs. Key observation: although attacks successfully bypass refusal, mid-layers still exhibit substantial activations (red regions), suggesting attacks bypass rather than eliminate safety representations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.28166v1",
+      "title": "Tandem Reinforcement Learning with Verifiable Rewards",
+      "authors": [
+        "Difan Jiao",
+        "Raghav Singhal",
+        "Robert West",
+        "Ashton Anderson"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces Tandem Reinforcement Learning (TRL) to address the issue of weaker agents and humans struggling to follow the reasoning of powerful Reinforcement Learning with Verifiable Rewards (RLVR) models. TRL extends the tandem training paradigm to RLVR by having a stronger \"senior\" agent co-generate reasoning steps with a frozen \"junior\" agent, rewarding them as a team. This encourages the senior to produce more understandable reasoning, making RLVR capabilities accessible to less capable agents.",
+      "url": "http://arxiv.org/abs/2606.28166v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28166v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.28166v1/x1.png",
+      "figure_caption": "Tandem Reinforcement Learning (TRL) at a glance.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.28277v1",
+      "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
+      "authors": [
+        "Rajesh Jayaram",
+        "Drew Tyler",
+        "David Woodruff",
+        "Corinna Cortes",
+        "Yossi Matias"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "abstract": "This paper addresses the challenge of scaling scientific peer review with the rise of AI-assisted research. It proposes a four-level taxonomy for AI-human collaboration in scientific evaluation and introduces the Paper Assistant Tool (PAT). PAT is an AI framework designed to perform deep scientific review and verification of manuscripts, checking theoretical results, validating experiments, and identifying flaws.",
+      "url": "http://arxiv.org/abs/2606.28277v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28277v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.28294v1",
+      "title": "Democratic ICAI: Debating Our Way to Steering Principles from Preferences",
+      "authors": [
+        "Kevin Kingslin",
+        "Anish Natekar",
+        "Ashutosh Ranjan",
+        "Vivek Srivastava",
+        "Savita Bhat"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces Democratic ICAI, a method that enhances preference alignment by simulating persona debates to generate multiple, competing rationales for human judgments. This approach captures richer signals than single-pass explanations, leading to more comprehensive steering principles. These principles are then used to guide decision modeling, improving interpretability and the accuracy of capturing complex human preferences.",
+      "url": "http://arxiv.org/abs/2606.28294v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28294v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.28294v1/x1.png",
+      "figure_caption": "Architecture of Democratic ICAI . A committee of domain‑expert personas first generates detailed rationales for each preference pair. These rationales are then subjected to an adversarial debate procedure, through which the evaluative principles relevant to each comparison are surfaced. Finally, the full collection of principles is clustered and abstracted to draft a concise, human‑readable constitution.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.28164v1",
+      "title": "EchoSonar-R: A Multi-View Reasoning-Enabled Model for Disease Classification and Report Generation in Echocardiography",
+      "authors": [
+        "Darya Taratynova",
+        "Ahmed Aly",
+        "Numan Saeed",
+        "Mohammad Yaqub"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "EchoSonar-R is a multi-view vision-language model for echocardiography that addresses the limitations of current models by incorporating explicit diagnostic reasoning and spatially grounded anatomical evidence. Its core method involves a spatiotemporal video encoder combined with a structure-aware cardiac detector to provide interpretable anatomical cues for cross-view reasoning. The main contribution is improved disease classification and report generation, enhancing clinician trust through a more transparent and evidence-based diagnostic process.",
+      "url": "http://arxiv.org/abs/2606.28164v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28164v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.28164v1/x1.png",
+      "figure_caption": "Overview of EchoSonar-R. Multi-View Visual Encoding: each video is processed by a frozen spatiotemporal encoder and a frozen structure-aware detector to extract complementary global and anatomical tokens for seven cardiac structures. Cross-Modal Projection and Interleaving: visual and structure tokens are projected into the language model embedding space via trainable MLPs and interleaved with view identifiers to form a multi-view input sequence. Two-Stage Training: SFT fine-tunes the model on reasoning-annotated targets; GRPO subsequently optimizes a composite reward.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.28301v1",
+      "title": "VGB for Masked Diffusion Model: Efficient Test-time Scaling for Reward Satisfaction and Sample Editing",
+      "authors": [
+        "Kijung Jeon",
+        "Thuy-Duong Vuong",
+        "Molei Tao"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML",
+        "cs.DS",
+        "math.NA",
+        "math.PR"
+      ],
+      "abstract": "This paper introduces MDM-VGB, an efficient test-time scaling method for Masked Diffusion Models. It augments the unmasking process with theoretically grounded reward-guided remasking, allowing tokens to be unmasked and remasked dynamically. This approach enables effective high-reward generation and efficient editing of low-reward samples by favoring moves that improve partial configurations.",
+      "url": "http://arxiv.org/abs/2606.28301v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28301v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
