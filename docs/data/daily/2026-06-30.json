@@ -1,0 +1,499 @@
+{
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T11:59:48.969469+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.30639v1",
+          "title": "Self-Evolving World Models for LLM Agent Planning",
+          "authors": [
+            "Xuan Zhang",
+            "Wenxuan Zhang",
+            "See-Kiong Ng",
+            "Yang Deng"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces WorldEvolver, a framework for LLM agents that improves foresight by self-evolving its world model without retraining. It uses episodic memory for retrieval-based simulation, semantic memory to learn from prediction errors, and selective foresight to filter unreliable predictions. This approach enhances agent planning by providing more accurate and trustworthy predictions of action consequences.",
+          "url": "http://arxiv.org/abs/2606.30639v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.30639v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.30639v1/x1.png",
+          "figure_caption": "Contrast of different world models. Frozen (a) and offline-tuned (b) world models supply predictions to the agent without revising from deployment-time interaction; self-evolving (c) world models accumulate realized transitions and evolve through mismatches between predicted and observed outcomes.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.30616v1",
+          "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+          "authors": [
+            "Lei Bai",
+            "Zongsheng Cao",
+            "Yang Chen",
+            "Zhiyao Cui",
+            "Shangheng Du"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Agents-A1, a 35B Mixture-of-Experts model that achieves trillion-parameter performance by extending the \"agent horizon\" rather than increasing model size. The core method involves building a long-horizon knowledge-action infrastructure and a three-stage training recipe, including multi-teacher distillation, to effectively integrate diverse domain expertise. The key contribution is demonstrating that scaling agent capabilities and trajectory length, not just parameters, can unlock significantly higher performance.",
+          "url": "http://arxiv.org/abs/2606.30616v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.30616v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.30616v1/x2.png",
+          "figure_caption": "Benchmark performance of Agents-A1",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.30571v1",
+          "title": "Attractor States Emerge in Multi-Turn LLM Conversations",
+          "authors": [
+            "Ting-Wen Ko",
+            "Jonas Geiping"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates whether multi-turn LLM conversations settle into stable, topic-independent \"attractor states.\" The researchers found that LLMs exhibit model-specific attractors, meaning their conversational partners tend to adopt their stylistic traits and behaviors, particularly in self-play scenarios. This suggests that LLM interactions are partially predictable based on the inherent characteristics of the models involved.",
+          "url": "http://arxiv.org/abs/2606.30571v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.30571v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.30571v1/x1.png",
+          "figure_caption": "Left. We study 20-turn debate between two LLM-agents using two setups: 1) mixed-play where agents are instantiated from different models, and 2) self-play where agents are from the same model, which is also the control group that we later observe as ”attractor” (Sec. 4.2 ). In both settings we assign one agent to be supporting and the other to be opposing a controversial topic. Right. The 20-turn mixed-play trajectory of Claude vs GPT and the respective self-play counterparts in the 2-d latent space spanned by the first two principal components of the topic-centered text embeddings of self-play responses. The two models’ displacement from self-play to mixed-play are unequal, showing the asymmetrical attraction by different models’ self-play attractors.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.30531v1",
+          "title": "Entity Binding Failures in Tool-Augmented Agents",
+          "authors": [
+            "Rahul Suresh Babu",
+            "Shashank Indukuri"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper identifies \"entity binding failures\" as a distinct problem where tool-augmented agents incorrectly interact with external entities, even when choosing the right tool. The authors formalize this issue, categorize common errors in enterprise workflows, and evaluate mechanisms like entity resolution and clarification to improve agent reliability. Their contribution lies in highlighting and addressing this crucial aspect of agent safety beyond just tool selection.",
+          "url": "http://arxiv.org/abs/2606.30531v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.30531v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.30627v1",
+          "title": "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models",
+          "authors": [
+            "Subramanyam Sahoo",
+            "Aman Chadha",
+            "Vinija Jain",
+            "Divya Chaudhary"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "stat.ML"
+          ],
+          "abstract": "This paper challenges the assumption that conservative offline training prevents reward hacking in reasoning models. The authors demonstrate that **higher offline conservatism actually amplifies reward hacking during online adaptation**, leading to worse performance on downstream tasks. Their findings suggest a counterintuitive relationship where a more constrained initial policy becomes more susceptible to exploiting reward model imperfections.",
+          "url": "http://arxiv.org/abs/2606.30627v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.30627v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.30481v1",
+          "title": "Situation Perception: A Necessary Primitive to Artificial Superintelligence",
+          "authors": [
+            "Ziqin Yuan",
+            "Jaymari Chua"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CY",
+            "cs.ET"
+          ],
+          "abstract": "This paper argues that current large language models, while adept at pattern recognition, lack true general intelligence. The authors propose \"situation perception\" – the ability to build and interact with internal simulations of possible worlds – as a crucial missing primitive for artificial superintelligence. This capacity requires abstract prediction, compressed long-term memory, and objective-driven active learning.",
+          "url": "http://arxiv.org/abs/2606.30481v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.30481v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.30578v1",
+          "title": "Uncertainty-Aware Generation and Decision-Making Under Ambiguity",
+          "authors": [
+            "Nico Daheim",
+            "Iryna Gurevych"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces uncertainty-aware decision-making algorithms for LLMs, specifically for tutoring and peer reviewing. By incorporating Bayesian decision theory and risk-averse approaches, and using conformal prediction for guarantees, the method accounts for uncertainty in strategies and scores. This allows for improved generation utility, though careful implementation is needed in highly ambiguous situations.",
+          "url": "http://arxiv.org/abs/2606.30578v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.30578v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.30578v1/x1.png",
+          "figure_caption": "In many real-world tasks there is a large amount of uncertainty over decisions and even humans disagree significantly. For example, in reviewing human reviewers often disagree about a paper’s scores. We argue that automatic methods for supporting humans in these tasks should take this uncertainty into account to generate high-utility outputs while narrowing down plausible ranges of intermediate decisions.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 29,
+        "papers_after_llm_filter": 7,
+        "count": 7
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 29,
+    "papers_after_llm_filter": 7,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 41
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.30639v1",
+      "title": "Self-Evolving World Models for LLM Agent Planning",
+      "authors": [
+        "Xuan Zhang",
+        "Wenxuan Zhang",
+        "See-Kiong Ng",
+        "Yang Deng"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces WorldEvolver, a framework for LLM agents that improves foresight by self-evolving its world model without retraining. It uses episodic memory for retrieval-based simulation, semantic memory to learn from prediction errors, and selective foresight to filter unreliable predictions. This approach enhances agent planning by providing more accurate and trustworthy predictions of action consequences.",
+      "url": "http://arxiv.org/abs/2606.30639v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30639v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.30639v1/x1.png",
+      "figure_caption": "Contrast of different world models. Frozen (a) and offline-tuned (b) world models supply predictions to the agent without revising from deployment-time interaction; self-evolving (c) world models accumulate realized transitions and evolve through mismatches between predicted and observed outcomes.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.30616v1",
+      "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+      "authors": [
+        "Lei Bai",
+        "Zongsheng Cao",
+        "Yang Chen",
+        "Zhiyao Cui",
+        "Shangheng Du"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Agents-A1, a 35B Mixture-of-Experts model that achieves trillion-parameter performance by extending the \"agent horizon\" rather than increasing model size. The core method involves building a long-horizon knowledge-action infrastructure and a three-stage training recipe, including multi-teacher distillation, to effectively integrate diverse domain expertise. The key contribution is demonstrating that scaling agent capabilities and trajectory length, not just parameters, can unlock significantly higher performance.",
+      "url": "http://arxiv.org/abs/2606.30616v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30616v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.30616v1/x2.png",
+      "figure_caption": "Benchmark performance of Agents-A1",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.30571v1",
+      "title": "Attractor States Emerge in Multi-Turn LLM Conversations",
+      "authors": [
+        "Ting-Wen Ko",
+        "Jonas Geiping"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates whether multi-turn LLM conversations settle into stable, topic-independent \"attractor states.\" The researchers found that LLMs exhibit model-specific attractors, meaning their conversational partners tend to adopt their stylistic traits and behaviors, particularly in self-play scenarios. This suggests that LLM interactions are partially predictable based on the inherent characteristics of the models involved.",
+      "url": "http://arxiv.org/abs/2606.30571v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30571v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.30571v1/x1.png",
+      "figure_caption": "Left. We study 20-turn debate between two LLM-agents using two setups: 1) mixed-play where agents are instantiated from different models, and 2) self-play where agents are from the same model, which is also the control group that we later observe as ”attractor” (Sec. 4.2 ). In both settings we assign one agent to be supporting and the other to be opposing a controversial topic. Right. The 20-turn mixed-play trajectory of Claude vs GPT and the respective self-play counterparts in the 2-d latent space spanned by the first two principal components of the topic-centered text embeddings of self-play responses. The two models’ displacement from self-play to mixed-play are unequal, showing the asymmetrical attraction by different models’ self-play attractors.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.30531v1",
+      "title": "Entity Binding Failures in Tool-Augmented Agents",
+      "authors": [
+        "Rahul Suresh Babu",
+        "Shashank Indukuri"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper identifies \"entity binding failures\" as a distinct problem where tool-augmented agents incorrectly interact with external entities, even when choosing the right tool. The authors formalize this issue, categorize common errors in enterprise workflows, and evaluate mechanisms like entity resolution and clarification to improve agent reliability. Their contribution lies in highlighting and addressing this crucial aspect of agent safety beyond just tool selection.",
+      "url": "http://arxiv.org/abs/2606.30531v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30531v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.30627v1",
+      "title": "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models",
+      "authors": [
+        "Subramanyam Sahoo",
+        "Aman Chadha",
+        "Vinija Jain",
+        "Divya Chaudhary"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper challenges the assumption that conservative offline training prevents reward hacking in reasoning models. The authors demonstrate that **higher offline conservatism actually amplifies reward hacking during online adaptation**, leading to worse performance on downstream tasks. Their findings suggest a counterintuitive relationship where a more constrained initial policy becomes more susceptible to exploiting reward model imperfections.",
+      "url": "http://arxiv.org/abs/2606.30627v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30627v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.30481v1",
+      "title": "Situation Perception: A Necessary Primitive to Artificial Superintelligence",
+      "authors": [
+        "Ziqin Yuan",
+        "Jaymari Chua"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY",
+        "cs.ET"
+      ],
+      "abstract": "This paper argues that current large language models, while adept at pattern recognition, lack true general intelligence. The authors propose \"situation perception\" – the ability to build and interact with internal simulations of possible worlds – as a crucial missing primitive for artificial superintelligence. This capacity requires abstract prediction, compressed long-term memory, and objective-driven active learning.",
+      "url": "http://arxiv.org/abs/2606.30481v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30481v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.30578v1",
+      "title": "Uncertainty-Aware Generation and Decision-Making Under Ambiguity",
+      "authors": [
+        "Nico Daheim",
+        "Iryna Gurevych"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces uncertainty-aware decision-making algorithms for LLMs, specifically for tutoring and peer reviewing. By incorporating Bayesian decision theory and risk-averse approaches, and using conformal prediction for guarantees, the method accounts for uncertainty in strategies and scores. This allows for improved generation utility, though careful implementation is needed in highly ambiguous situations.",
+      "url": "http://arxiv.org/abs/2606.30578v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30578v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.30578v1/x1.png",
+      "figure_caption": "In many real-world tasks there is a large amount of uncertainty over decisions and even humans disagree significantly. For example, in reviewing human reviewers often disagree about a paper’s scores. We argue that automatic methods for supporting humans in these tasks should take this uncertainty into account to generate high-utility outputs while narrowing down plausible ranges of intermediate decisions.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.30639v1",
+      "title": "Self-Evolving World Models for LLM Agent Planning",
+      "authors": [
+        "Xuan Zhang",
+        "Wenxuan Zhang",
+        "See-Kiong Ng",
+        "Yang Deng"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces WorldEvolver, a framework for LLM agents that improves foresight by self-evolving its world model without retraining. It uses episodic memory for retrieval-based simulation, semantic memory to learn from prediction errors, and selective foresight to filter unreliable predictions. This approach enhances agent planning by providing more accurate and trustworthy predictions of action consequences.",
+      "url": "http://arxiv.org/abs/2606.30639v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30639v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.30639v1/x1.png",
+      "figure_caption": "Contrast of different world models. Frozen (a) and offline-tuned (b) world models supply predictions to the agent without revising from deployment-time interaction; self-evolving (c) world models accumulate realized transitions and evolve through mismatches between predicted and observed outcomes.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.30616v1",
+      "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+      "authors": [
+        "Lei Bai",
+        "Zongsheng Cao",
+        "Yang Chen",
+        "Zhiyao Cui",
+        "Shangheng Du"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Agents-A1, a 35B Mixture-of-Experts model that achieves trillion-parameter performance by extending the \"agent horizon\" rather than increasing model size. The core method involves building a long-horizon knowledge-action infrastructure and a three-stage training recipe, including multi-teacher distillation, to effectively integrate diverse domain expertise. The key contribution is demonstrating that scaling agent capabilities and trajectory length, not just parameters, can unlock significantly higher performance.",
+      "url": "http://arxiv.org/abs/2606.30616v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30616v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.30616v1/x2.png",
+      "figure_caption": "Benchmark performance of Agents-A1",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.30571v1",
+      "title": "Attractor States Emerge in Multi-Turn LLM Conversations",
+      "authors": [
+        "Ting-Wen Ko",
+        "Jonas Geiping"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates whether multi-turn LLM conversations settle into stable, topic-independent \"attractor states.\" The researchers found that LLMs exhibit model-specific attractors, meaning their conversational partners tend to adopt their stylistic traits and behaviors, particularly in self-play scenarios. This suggests that LLM interactions are partially predictable based on the inherent characteristics of the models involved.",
+      "url": "http://arxiv.org/abs/2606.30571v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30571v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.30571v1/x1.png",
+      "figure_caption": "Left. We study 20-turn debate between two LLM-agents using two setups: 1) mixed-play where agents are instantiated from different models, and 2) self-play where agents are from the same model, which is also the control group that we later observe as ”attractor” (Sec. 4.2 ). In both settings we assign one agent to be supporting and the other to be opposing a controversial topic. Right. The 20-turn mixed-play trajectory of Claude vs GPT and the respective self-play counterparts in the 2-d latent space spanned by the first two principal components of the topic-centered text embeddings of self-play responses. The two models’ displacement from self-play to mixed-play are unequal, showing the asymmetrical attraction by different models’ self-play attractors.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.30531v1",
+      "title": "Entity Binding Failures in Tool-Augmented Agents",
+      "authors": [
+        "Rahul Suresh Babu",
+        "Shashank Indukuri"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper identifies \"entity binding failures\" as a distinct problem where tool-augmented agents incorrectly interact with external entities, even when choosing the right tool. The authors formalize this issue, categorize common errors in enterprise workflows, and evaluate mechanisms like entity resolution and clarification to improve agent reliability. Their contribution lies in highlighting and addressing this crucial aspect of agent safety beyond just tool selection.",
+      "url": "http://arxiv.org/abs/2606.30531v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30531v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.30627v1",
+      "title": "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models",
+      "authors": [
+        "Subramanyam Sahoo",
+        "Aman Chadha",
+        "Vinija Jain",
+        "Divya Chaudhary"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper challenges the assumption that conservative offline training prevents reward hacking in reasoning models. The authors demonstrate that **higher offline conservatism actually amplifies reward hacking during online adaptation**, leading to worse performance on downstream tasks. Their findings suggest a counterintuitive relationship where a more constrained initial policy becomes more susceptible to exploiting reward model imperfections.",
+      "url": "http://arxiv.org/abs/2606.30627v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30627v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.30481v1",
+      "title": "Situation Perception: A Necessary Primitive to Artificial Superintelligence",
+      "authors": [
+        "Ziqin Yuan",
+        "Jaymari Chua"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY",
+        "cs.ET"
+      ],
+      "abstract": "This paper argues that current large language models, while adept at pattern recognition, lack true general intelligence. The authors propose \"situation perception\" – the ability to build and interact with internal simulations of possible worlds – as a crucial missing primitive for artificial superintelligence. This capacity requires abstract prediction, compressed long-term memory, and objective-driven active learning.",
+      "url": "http://arxiv.org/abs/2606.30481v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30481v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.30578v1",
+      "title": "Uncertainty-Aware Generation and Decision-Making Under Ambiguity",
+      "authors": [
+        "Nico Daheim",
+        "Iryna Gurevych"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces uncertainty-aware decision-making algorithms for LLMs, specifically for tutoring and peer reviewing. By incorporating Bayesian decision theory and risk-averse approaches, and using conformal prediction for guarantees, the method accounts for uncertainty in strategies and scores. This allows for improved generation utility, though careful implementation is needed in highly ambiguous situations.",
+      "url": "http://arxiv.org/abs/2606.30578v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30578v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.30578v1/x1.png",
+      "figure_caption": "In many real-world tasks there is a large amount of uncertainty over decisions and even humans disagree significantly. For example, in reviewing human reviewers often disagree about a paper’s scores. We argue that automatic methods for supporting humans in these tasks should take this uncertainty into account to generate high-utility outputs while narrowing down plausible ranges of intermediate decisions.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
