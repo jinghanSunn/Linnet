@@ -1,0 +1,1147 @@
+{
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T12:21:21.104690+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.31876v1",
+          "title": "Harnessing Textual Refusal Directions for Multimodal Safety",
+          "authors": [
+            "Moreno D'Incà",
+            "Massimiliano Mancini",
+            "Nicu Sebe"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CV"
+          ],
+          "abstract": "This paper proposes Modality-Agnostic Refusal Steering (MARS), a novel training-free method to enhance safety in Multimodal LLMs (MLLMs). MARS leverages textual refusal directions from the LLM backbone, adapting them to multimodal inputs without requiring unsafe multimodal data. It achieves this by correcting modality misalignment through activation re-centering and adaptive steering, thereby injecting multimodal safety effectively.",
+          "url": "http://arxiv.org/abs/2606.31876v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.31876v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.32034v1",
+          "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
+          "authors": [
+            "Sergio Hernández-Gutiérrez",
+            "Matteo Merler",
+            "Ilze Amanda Auzina",
+            "Joschka Strüber",
+            "Ameya Prabhu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces QVal, a training-free method to directly evaluate dense supervision signals for long-horizon LLM agents. QVal assesses how well a supervision signal's score aligns with the true value function (Q-value) of intermediate states and actions. This allows for a more direct and comparable evaluation of different dense supervision techniques, disentangled from the complexities of training pipelines.",
+          "url": "http://arxiv.org/abs/2606.32034v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.32034v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.32034v1/x1.png",
+          "figure_caption": "QVal design pipeline . We collect trajectories in multi-turn environments, sample candidate state-action pairs, and label them with estimated Q Q -values with respect to a reference policy \\( \\pi \\) . We perform method prediction and measure Q Q -alignment between the predicted scores and the labels. This training-free testbed isolates learning-signal quality before any downstream RL training.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.32032v1",
+          "title": "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs",
+          "authors": [
+            "Gabrielle Kaili-May Liu",
+            "Avi Caciularu",
+            "Gal Yona",
+            "Idan Szpektor",
+            "Arman Cohan"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Reinforcement Learning with Metacognitive Feedback (RLMF) to improve Large Language Models' (LLMs) ability to express uncertainty faithfully. The core method uses RL to train LLMs to better judge their own performance, then uses these self-judgments to refine completion rankings and select high-value training data. This approach helps LLMs avoid confident hallucinations and accurately represent their knowledge boundaries, enhancing trustworthiness.",
+          "url": "http://arxiv.org/abs/2606.32032v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.32032v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.32032v1/fig1_fixed.png",
+          "figure_caption": "Overview of RLMF , paired with metacognitive data selection and targeted rewriting to faithfully calibrate the numerically and linguistically expressed uncertainty of LLMs.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.32025v1",
+          "title": "Generative Skill Composition for LLM Agents",
+          "authors": [
+            "Xinyu Zhao",
+            "Zhen Tan",
+            "Vaishnav Tadiparthi",
+            "Nakul Agarwal",
+            "Kwonjoon Lee"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces **Generative Skill Composition** to address the bottleneck of selecting appropriate skills for LLM agents. The core method formalizes skill selection as a **structured prediction problem**, jointly determining which skills to use, how many, and in what order. This approach's contribution is a more holistic and efficient way to generate executable skill plans, overcoming limitations of existing methods that treat these dimensions independently.",
+          "url": "http://arxiv.org/abs/2606.32025v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.32025v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.32025v1/x1.png",
+          "figure_caption": "Structured skill composition with SkillComposer . (A) Large skill libraries create a composition bottleneck. To solve complex tasks, an agent must decide not only which skills to use, but also their exact count and execution order. (B) Existing paradigms: directly exposing the agent to all skill options leaves composition implicit within an unstructured execution trace, while retrieval methods only return an unordered subset of candidates. We propose SkillComposer , which explicitly predicts an ordered, executable skill sequence. (C) By structuring the composition process, SkillComposer improves both plan exact match and downstream task success rates on SkillsBench.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.31916v1",
+          "title": "Theory of Mind and Persuasion Beyond Conversation: Assessing the Capacity of LLMs to Induce Belief States via Planning and Action",
+          "authors": [
+            "Ben Slater",
+            "Matteo G. Mecattaf",
+            "Lucy G. Cheke",
+            "John Burden",
+            "Winnie Street"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Non-Conversational Planning Theory of Mind (NCP-ToM), a new evaluation for LLMs that assesses their ability to induce belief states in others through actions, not just conversation. The core method involves a novel framework, NCP-ExploreToM, where LLMs must manipulate objects or characters to achieve specific belief goals. The contribution lies in developing this agentic evaluation, crucial for understanding LLM capabilities in real-world applications and potential risks like manipulation.",
+          "url": "http://arxiv.org/abs/2606.31916v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.31916v1",
+          "score": 8.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.32026v1",
+          "title": "AdaJEPA: An Adaptive Latent World Model",
+          "authors": [
+            "Ying Wang",
+            "Oumayma Bounou",
+            "Yann LeCun",
+            "Mengye Ren"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "AdaJEPA is an adaptive latent world model that improves planning robustness under distribution shifts. Its core method involves performing test-time adaptation within a model predictive control loop, using observed state transitions as a self-supervised signal to update the model. This continuous recalibration significantly enhances planning success with minimal computational overhead.",
+          "url": "http://arxiv.org/abs/2606.32026v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.32026v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.31903v1",
+          "title": "Attend, Transform, or Silence: Operator-Level Visual Skipping for Efficient Multimodal LLM Inference",
+          "authors": [
+            "Zhaoyang Luo",
+            "Runmin Dong",
+            "Miao Yang",
+            "Fan Wei",
+            "Yushan Lai"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper proposes an operator-level visual skipping method for efficient multimodal LLM inference. Instead of removing entire visual tokens or layers, it selectively skips redundant attention or FFN operations within Transformer layers based on their impact on answer tokens. This approach preserves fine-grained visual information while significantly reducing computation by identifying and bypassing operator-specific redundancies.",
+          "url": "http://arxiv.org/abs/2606.31903v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.31903v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.31903v1/x1.png",
+          "figure_caption": "Overview of visual-computation reduction granularities for MLLM inference. Token pruning removes selected visual tokens, which disrupts spatial relationships and causes irreversible loss of visual evidence needed for reasoning. Layer-wise skipping preserves the token sequence but treats each Transformer layer as an indivisible unit, failing to fully exploit the distinct roles of attention and FFN operators. Our operator-level skipping selectively skips attention, FFN, or both while preserving the full visual-token sequence.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.31966v1",
+          "title": "MECoBench: A Systematic Study of Multimodal Agent Collaboration in Embodied Environments",
+          "authors": [
+            "Qingyun Liu",
+            "Jiwen Zhang",
+            "Jingyi Hu",
+            "Siyuan Wang",
+            "Zhongyu Wei"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CV",
+            "cs.MA"
+          ],
+          "abstract": "MECoBench introduces a novel benchmark and platform to systematically study multimodal agent collaboration in embodied environments. It evaluates how different cooperation structures and communication modes impact task completion for various MLLMs, revealing that collaboration generally improves performance but requires balancing gains with coordination complexity. The benchmark highlights communication's importance and identifies factors influencing optimal collaboration strategies, ultimately serving as a testbed for understanding embodied multimodal cooperation.",
+          "url": "http://arxiv.org/abs/2606.31966v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.31966v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.31966v1/x1.png",
+          "figure_caption": "An illustration of realistic scenarios , where cross-modal multi-agent collaboration significantly improves the efficiency compared with single-agent.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.32004v1",
+          "title": "PolicyGuard: From Organizational Policies to Neuro-SymbolicCompliance Review Engines",
+          "authors": [
+            "Sameer Malik",
+            "Ayush Singh",
+            "Amar Prakash Azad"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.LO",
+            "cs.SC"
+          ],
+          "abstract": "PolicyGuard is a neuro-symbolic framework that converts organizational policies into executable review engines. It uses LLMs to answer specific extraction questions from documents, which are then processed by a symbolic evaluator applying formal logic rules to determine compliance. This approach makes compliance decisions inspectable, updatable, and testable, unlike end-to-end LLM prompting.",
+          "url": "http://arxiv.org/abs/2606.32004v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.32004v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.32004v1/x1.png",
+          "figure_caption": "Figure 1. Overview of the PolicyGuard . Given organization-specific policy guidance and a target document, PolicyGuard constructs a review engine that formalizes policy conditions as typed rules and atom-level extraction questions. At review time, LLMs ground the required atoms in document evidence, while a symbolic evaluator applies the executable rules to produce an auditable compliance report.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.31976v1",
+          "title": "TreeAgent: A Generalizable Multi-Agent Framework for Automated Bias Labeling in Forestry via Compiled Expert Rules and Vision-Language Models",
+          "authors": [
+            "Shiyi Chen",
+            "Nicholas Saban",
+            "Collin Hargreaves",
+            "Huiqi Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.MA"
+          ],
+          "abstract": "TreeAgent is a novel multi-agent framework that combines compiled expert decision trees with Vision-Language Models (VLMs) for automated tree bias labeling. It leverages decision trees as structural guidance and VLMs for localized perception, using multi-agent voting to enhance robustness. This approach achieves zero-modification generalization across different expert rules and significantly reduces the need for manual expert annotation.",
+          "url": "http://arxiv.org/abs/2606.31976v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.31976v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.31976v1/x1.png",
+          "figure_caption": "Overview of the D3 Framework. The architecture decouples domain-specific logic through a fixed Logic Primitive Inventory (LPI). Top: the Neural Rule Transpiler (NRT) translates an unstructured expert rule \\( \\rho \\) into a structured JSON tree configuration 𝒯 \\( \\mathcal{T} \\) via a single inference call. Bottom: distinct expert strategies ( ρ A , \\( \\rho_{A} \\),\\( \\rho_{B} \\) ) are compiled into different executable tree structures without altering the underlying Orchestrator or VLM Agent code, achieving zero-modification generalizability.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.32017v1",
+          "title": "TRIAGE: Role-Typed Credit Assignment for Agentic Reinforcement Learning",
+          "authors": [
+            "Yuanda Xu",
+            "Zhengze Zhou",
+            "Hejian Sang",
+            "Xiaomin Li",
+            "Jiaxin Zhang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces TRIAGE, a novel credit assignment method for agentic reinforcement learning. TRIAGE enhances standard outcome-based rewards by introducing a semantic role classification for action segments, distinguishing between decisive progress, useful exploration, infrastructure, and regression. This allows for more nuanced credit assignment, preventing punishment of valuable exploration and rewarding truly beneficial actions, thereby improving learning efficiency.",
+          "url": "http://arxiv.org/abs/2606.32017v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.32017v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.32017v1/artifacts/core_results.png",
+          "figure_caption": "Core results. Across two policy models and three agentic benchmarks (ALFWorld, Search-QA, WebShop), TRIAGE consistently improves over the GRPO baseline (dashed line). Bar labels report mean success rate; vertical axes are truncated per panel to make differences visible.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.32029v1",
+          "title": "When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors",
+          "authors": [
+            "Yuqing Yang",
+            "Qi Zhu",
+            "Zhen Han",
+            "Boran Han",
+            "Zhengyuan Shen"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper systematically evaluates data referencing errors (DREs) in LLMs when processing tables, finding they occur across various models. The authors propose a critic-based approach to identify and filter these errors, significantly improving answer accuracy. They also train a lightweight critic model capable of detecting DREs, enhancing the reliability of LLM table reasoning.",
+          "url": "http://arxiv.org/abs/2606.32029v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.32029v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.32012v1",
+          "title": "CoMet: Context and Multiplicity Decomposition for Multimodal Uncertainty Estimation",
+          "authors": [
+            "Sanghyuk Chun",
+            "William Yang",
+            "Amaya Dharmasiri",
+            "Olga Russakovsky"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CV"
+          ],
+          "abstract": "CoMet addresses uncertainty estimation in multimodal large language models (MLLMs) by decomposing it into two key components: context-specific ambiguity and multiplicity of plausible answers. This method trains a lightweight post-hoc module to quantify these distinct sources of uncertainty, enabling MLLMs to better \"know what they don't know\" in complex, open-ended tasks.",
+          "url": "http://arxiv.org/abs/2606.32012v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.32012v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.32012v1/x1.png",
+          "figure_caption": "Overview of the proposed multimodal uncertainty. Even for the same image x x , uncertainty could vary by the given context t t . We decompose the uncertainty of a multimodal input into two components: (1) Context-specific uncertainty quantifies how broadly the context t t defines the plausible answer space ( e.g. , “is that a calico cat?” induces two answers, “yes” and “no”, whereas “what letter of the alphabet is on the bottle?” induces 26 assuming the answer is in English) (2) Multiplicity-specific uncertainty quantifies how many context-induced plausible answers ( e.g. , “yes” and “no”) remain compatible with the observed input x x ( e.g. , the cat features are visible and clearly correspond to a tabby cat, and therefore “no” is the only plausible answer, whereas the bottles are small and not well-lit, thus increasing rather than reducing uncertainty)",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.32016v1",
+          "title": "FedLAB: Traceable Semantic Codebooks for Federated Multimodal Graph Foundation Learning",
+          "authors": [
+            "Zekai Chen",
+            "Kairui Yang",
+            "Xuaner Chen",
+            "Xunkai Li",
+            "Xun Wu"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "FedLAB addresses federated multimodal graph learning by introducing traceable semantic codebooks. These codebooks organize multimodal graph knowledge, allowing for joint representation learning while explicitly exposing how different modalities, node semantics, and topology contribute to predictions, all under strict data isolation. This enables both effective knowledge transfer and semantic traceability in decentralized settings.",
+          "url": "http://arxiv.org/abs/2606.32016v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.32016v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.32016v1/x1.png",
+          "figure_caption": "A traceable modality-evidence interface. FedLAB decomposes a multimodal prediction into text-side and image-side evidence codes rather than only producing a fused representation.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2606.32014v1",
+          "title": "Scalable Behaviour Cloning on Browser Using via Skill Distillation",
+          "authors": [
+            "Kaisen Yang",
+            "Zheng Jiang",
+            "Yuzhao Peng",
+            "Houde Qian",
+            "Boshi Zhang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper proposes a method to enable scalable behavior cloning for browser agents by distilling user interaction trajectories into compact, natural-language \"skills.\" These skills are then organized into a skill graph, allowing agents to retrieve, reuse, and compose them. The core contribution is a scalable approach to leverage implicit human knowledge in web browsing for agent decision-making, addressing the bottleneck of incomplete information.",
+          "url": "http://arxiv.org/abs/2606.32014v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.32014v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.32014v1/x1.png",
+          "figure_caption": "Motivation of BrowserBC. BrowserBC turns human browsing traces into reusable natural-language skills, providing agents with decision priors for navigating unfamiliar websites.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 23,
+        "papers_after_llm_filter": 15,
+        "count": 15
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Call for a public offer for the recruitment of Researching staff linked to Universitat Politècnica de València (UPV)",
+          "url": "https://euraxess.ec.europa.eu/jobs/449442",
+          "description": "Resolution of the Rector of the Universitat Politècnica de València announcing a selection process for an indefinite employment contract within the framework of a Line of Research: R&D line: interaction and artificial intelligence[https://www.upv.es/entidades/SRH/conypi/A1277756.pdf](https://www.upv.es/entidades/SRH/conypi/A1277756.pdf) * Department: HR Work Locations: Number of offers: 2, Spain, UPV, Alcoy, Alicante Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Computer engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A172) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Other EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A6053) Application Deadline: 15 Jul 2026 - 23:59 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Portugal * [Gulbenkian Institute for Molecular Medicine](https://euraxess.ec.europa.eu/partnering/organisations/profile/gulbenkian-institute-molecular-medicine-0) * [Field: Engineering]",
+          "institution": "",
+          "posted_date": "1 July 2026",
+          "deadline": "15 Jul 2026 - 23:59 (Europe/Madrid)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Interaction and Artificial Intelligence, Computer Engineering\nKey Requirements: First Stage Researcher (R1) profile\nApplication Info: deadline 15 Jul 2026, required materials N/A, contact N/A\nPosition Details: location UPV, Alcoy, Alicante, Spain; contract type indefinite employment; workload N/A; salary N/A\nOne-line Advice: N/A",
+          "relevance_score": 7.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 1
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 23,
+    "papers_after_llm_filter": 15,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 59
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.31876v1",
+      "title": "Harnessing Textual Refusal Directions for Multimodal Safety",
+      "authors": [
+        "Moreno D'Incà",
+        "Massimiliano Mancini",
+        "Nicu Sebe"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "This paper proposes Modality-Agnostic Refusal Steering (MARS), a novel training-free method to enhance safety in Multimodal LLMs (MLLMs). MARS leverages textual refusal directions from the LLM backbone, adapting them to multimodal inputs without requiring unsafe multimodal data. It achieves this by correcting modality misalignment through activation re-centering and adaptive steering, thereby injecting multimodal safety effectively.",
+      "url": "http://arxiv.org/abs/2606.31876v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.31876v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.32034v1",
+      "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
+      "authors": [
+        "Sergio Hernández-Gutiérrez",
+        "Matteo Merler",
+        "Ilze Amanda Auzina",
+        "Joschka Strüber",
+        "Ameya Prabhu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces QVal, a training-free method to directly evaluate dense supervision signals for long-horizon LLM agents. QVal assesses how well a supervision signal's score aligns with the true value function (Q-value) of intermediate states and actions. This allows for a more direct and comparable evaluation of different dense supervision techniques, disentangled from the complexities of training pipelines.",
+      "url": "http://arxiv.org/abs/2606.32034v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32034v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.32034v1/x1.png",
+      "figure_caption": "QVal design pipeline . We collect trajectories in multi-turn environments, sample candidate state-action pairs, and label them with estimated Q Q -values with respect to a reference policy \\( \\pi \\) . We perform method prediction and measure Q Q -alignment between the predicted scores and the labels. This training-free testbed isolates learning-signal quality before any downstream RL training.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.32032v1",
+      "title": "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs",
+      "authors": [
+        "Gabrielle Kaili-May Liu",
+        "Avi Caciularu",
+        "Gal Yona",
+        "Idan Szpektor",
+        "Arman Cohan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Reinforcement Learning with Metacognitive Feedback (RLMF) to improve Large Language Models' (LLMs) ability to express uncertainty faithfully. The core method uses RL to train LLMs to better judge their own performance, then uses these self-judgments to refine completion rankings and select high-value training data. This approach helps LLMs avoid confident hallucinations and accurately represent their knowledge boundaries, enhancing trustworthiness.",
+      "url": "http://arxiv.org/abs/2606.32032v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32032v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.32032v1/fig1_fixed.png",
+      "figure_caption": "Overview of RLMF , paired with metacognitive data selection and targeted rewriting to faithfully calibrate the numerically and linguistically expressed uncertainty of LLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.32025v1",
+      "title": "Generative Skill Composition for LLM Agents",
+      "authors": [
+        "Xinyu Zhao",
+        "Zhen Tan",
+        "Vaishnav Tadiparthi",
+        "Nakul Agarwal",
+        "Kwonjoon Lee"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces **Generative Skill Composition** to address the bottleneck of selecting appropriate skills for LLM agents. The core method formalizes skill selection as a **structured prediction problem**, jointly determining which skills to use, how many, and in what order. This approach's contribution is a more holistic and efficient way to generate executable skill plans, overcoming limitations of existing methods that treat these dimensions independently.",
+      "url": "http://arxiv.org/abs/2606.32025v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32025v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.32025v1/x1.png",
+      "figure_caption": "Structured skill composition with SkillComposer . (A) Large skill libraries create a composition bottleneck. To solve complex tasks, an agent must decide not only which skills to use, but also their exact count and execution order. (B) Existing paradigms: directly exposing the agent to all skill options leaves composition implicit within an unstructured execution trace, while retrieval methods only return an unordered subset of candidates. We propose SkillComposer , which explicitly predicts an ordered, executable skill sequence. (C) By structuring the composition process, SkillComposer improves both plan exact match and downstream task success rates on SkillsBench.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.31916v1",
+      "title": "Theory of Mind and Persuasion Beyond Conversation: Assessing the Capacity of LLMs to Induce Belief States via Planning and Action",
+      "authors": [
+        "Ben Slater",
+        "Matteo G. Mecattaf",
+        "Lucy G. Cheke",
+        "John Burden",
+        "Winnie Street"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Non-Conversational Planning Theory of Mind (NCP-ToM), a new evaluation for LLMs that assesses their ability to induce belief states in others through actions, not just conversation. The core method involves a novel framework, NCP-ExploreToM, where LLMs must manipulate objects or characters to achieve specific belief goals. The contribution lies in developing this agentic evaluation, crucial for understanding LLM capabilities in real-world applications and potential risks like manipulation.",
+      "url": "http://arxiv.org/abs/2606.31916v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.31916v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.32026v1",
+      "title": "AdaJEPA: An Adaptive Latent World Model",
+      "authors": [
+        "Ying Wang",
+        "Oumayma Bounou",
+        "Yann LeCun",
+        "Mengye Ren"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "AdaJEPA is an adaptive latent world model that improves planning robustness under distribution shifts. Its core method involves performing test-time adaptation within a model predictive control loop, using observed state transitions as a self-supervised signal to update the model. This continuous recalibration significantly enhances planning success with minimal computational overhead.",
+      "url": "http://arxiv.org/abs/2606.32026v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32026v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.31903v1",
+      "title": "Attend, Transform, or Silence: Operator-Level Visual Skipping for Efficient Multimodal LLM Inference",
+      "authors": [
+        "Zhaoyang Luo",
+        "Runmin Dong",
+        "Miao Yang",
+        "Fan Wei",
+        "Yushan Lai"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper proposes an operator-level visual skipping method for efficient multimodal LLM inference. Instead of removing entire visual tokens or layers, it selectively skips redundant attention or FFN operations within Transformer layers based on their impact on answer tokens. This approach preserves fine-grained visual information while significantly reducing computation by identifying and bypassing operator-specific redundancies.",
+      "url": "http://arxiv.org/abs/2606.31903v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.31903v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.31903v1/x1.png",
+      "figure_caption": "Overview of visual-computation reduction granularities for MLLM inference. Token pruning removes selected visual tokens, which disrupts spatial relationships and causes irreversible loss of visual evidence needed for reasoning. Layer-wise skipping preserves the token sequence but treats each Transformer layer as an indivisible unit, failing to fully exploit the distinct roles of attention and FFN operators. Our operator-level skipping selectively skips attention, FFN, or both while preserving the full visual-token sequence.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.31966v1",
+      "title": "MECoBench: A Systematic Study of Multimodal Agent Collaboration in Embodied Environments",
+      "authors": [
+        "Qingyun Liu",
+        "Jiwen Zhang",
+        "Jingyi Hu",
+        "Siyuan Wang",
+        "Zhongyu Wei"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV",
+        "cs.MA"
+      ],
+      "abstract": "MECoBench introduces a novel benchmark and platform to systematically study multimodal agent collaboration in embodied environments. It evaluates how different cooperation structures and communication modes impact task completion for various MLLMs, revealing that collaboration generally improves performance but requires balancing gains with coordination complexity. The benchmark highlights communication's importance and identifies factors influencing optimal collaboration strategies, ultimately serving as a testbed for understanding embodied multimodal cooperation.",
+      "url": "http://arxiv.org/abs/2606.31966v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.31966v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.31966v1/x1.png",
+      "figure_caption": "An illustration of realistic scenarios , where cross-modal multi-agent collaboration significantly improves the efficiency compared with single-agent.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.32004v1",
+      "title": "PolicyGuard: From Organizational Policies to Neuro-SymbolicCompliance Review Engines",
+      "authors": [
+        "Sameer Malik",
+        "Ayush Singh",
+        "Amar Prakash Azad"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.LO",
+        "cs.SC"
+      ],
+      "abstract": "PolicyGuard is a neuro-symbolic framework that converts organizational policies into executable review engines. It uses LLMs to answer specific extraction questions from documents, which are then processed by a symbolic evaluator applying formal logic rules to determine compliance. This approach makes compliance decisions inspectable, updatable, and testable, unlike end-to-end LLM prompting.",
+      "url": "http://arxiv.org/abs/2606.32004v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32004v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.32004v1/x1.png",
+      "figure_caption": "Figure 1. Overview of the PolicyGuard . Given organization-specific policy guidance and a target document, PolicyGuard constructs a review engine that formalizes policy conditions as typed rules and atom-level extraction questions. At review time, LLMs ground the required atoms in document evidence, while a symbolic evaluator applies the executable rules to produce an auditable compliance report.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.31976v1",
+      "title": "TreeAgent: A Generalizable Multi-Agent Framework for Automated Bias Labeling in Forestry via Compiled Expert Rules and Vision-Language Models",
+      "authors": [
+        "Shiyi Chen",
+        "Nicholas Saban",
+        "Collin Hargreaves",
+        "Huiqi Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "abstract": "TreeAgent is a novel multi-agent framework that combines compiled expert decision trees with Vision-Language Models (VLMs) for automated tree bias labeling. It leverages decision trees as structural guidance and VLMs for localized perception, using multi-agent voting to enhance robustness. This approach achieves zero-modification generalization across different expert rules and significantly reduces the need for manual expert annotation.",
+      "url": "http://arxiv.org/abs/2606.31976v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.31976v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.31976v1/x1.png",
+      "figure_caption": "Overview of the D3 Framework. The architecture decouples domain-specific logic through a fixed Logic Primitive Inventory (LPI). Top: the Neural Rule Transpiler (NRT) translates an unstructured expert rule \\( \\rho \\) into a structured JSON tree configuration 𝒯 \\( \\mathcal{T} \\) via a single inference call. Bottom: distinct expert strategies ( ρ A , \\( \\rho_{A} \\),\\( \\rho_{B} \\) ) are compiled into different executable tree structures without altering the underlying Orchestrator or VLM Agent code, achieving zero-modification generalizability.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.32017v1",
+      "title": "TRIAGE: Role-Typed Credit Assignment for Agentic Reinforcement Learning",
+      "authors": [
+        "Yuanda Xu",
+        "Zhengze Zhou",
+        "Hejian Sang",
+        "Xiaomin Li",
+        "Jiaxin Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces TRIAGE, a novel credit assignment method for agentic reinforcement learning. TRIAGE enhances standard outcome-based rewards by introducing a semantic role classification for action segments, distinguishing between decisive progress, useful exploration, infrastructure, and regression. This allows for more nuanced credit assignment, preventing punishment of valuable exploration and rewarding truly beneficial actions, thereby improving learning efficiency.",
+      "url": "http://arxiv.org/abs/2606.32017v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32017v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.32017v1/artifacts/core_results.png",
+      "figure_caption": "Core results. Across two policy models and three agentic benchmarks (ALFWorld, Search-QA, WebShop), TRIAGE consistently improves over the GRPO baseline (dashed line). Bar labels report mean success rate; vertical axes are truncated per panel to make differences visible.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.32029v1",
+      "title": "When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors",
+      "authors": [
+        "Yuqing Yang",
+        "Qi Zhu",
+        "Zhen Han",
+        "Boran Han",
+        "Zhengyuan Shen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper systematically evaluates data referencing errors (DREs) in LLMs when processing tables, finding they occur across various models. The authors propose a critic-based approach to identify and filter these errors, significantly improving answer accuracy. They also train a lightweight critic model capable of detecting DREs, enhancing the reliability of LLM table reasoning.",
+      "url": "http://arxiv.org/abs/2606.32029v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32029v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.32012v1",
+      "title": "CoMet: Context and Multiplicity Decomposition for Multimodal Uncertainty Estimation",
+      "authors": [
+        "Sanghyuk Chun",
+        "William Yang",
+        "Amaya Dharmasiri",
+        "Olga Russakovsky"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "CoMet addresses uncertainty estimation in multimodal large language models (MLLMs) by decomposing it into two key components: context-specific ambiguity and multiplicity of plausible answers. This method trains a lightweight post-hoc module to quantify these distinct sources of uncertainty, enabling MLLMs to better \"know what they don't know\" in complex, open-ended tasks.",
+      "url": "http://arxiv.org/abs/2606.32012v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32012v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.32012v1/x1.png",
+      "figure_caption": "Overview of the proposed multimodal uncertainty. Even for the same image x x , uncertainty could vary by the given context t t . We decompose the uncertainty of a multimodal input into two components: (1) Context-specific uncertainty quantifies how broadly the context t t defines the plausible answer space ( e.g. , “is that a calico cat?” induces two answers, “yes” and “no”, whereas “what letter of the alphabet is on the bottle?” induces 26 assuming the answer is in English) (2) Multiplicity-specific uncertainty quantifies how many context-induced plausible answers ( e.g. , “yes” and “no”) remain compatible with the observed input x x ( e.g. , the cat features are visible and clearly correspond to a tabby cat, and therefore “no” is the only plausible answer, whereas the bottles are small and not well-lit, thus increasing rather than reducing uncertainty)",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.32016v1",
+      "title": "FedLAB: Traceable Semantic Codebooks for Federated Multimodal Graph Foundation Learning",
+      "authors": [
+        "Zekai Chen",
+        "Kairui Yang",
+        "Xuaner Chen",
+        "Xunkai Li",
+        "Xun Wu"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "FedLAB addresses federated multimodal graph learning by introducing traceable semantic codebooks. These codebooks organize multimodal graph knowledge, allowing for joint representation learning while explicitly exposing how different modalities, node semantics, and topology contribute to predictions, all under strict data isolation. This enables both effective knowledge transfer and semantic traceability in decentralized settings.",
+      "url": "http://arxiv.org/abs/2606.32016v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32016v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.32016v1/x1.png",
+      "figure_caption": "A traceable modality-evidence interface. FedLAB decomposes a multimodal prediction into text-side and image-side evidence codes rather than only producing a fused representation.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.32014v1",
+      "title": "Scalable Behaviour Cloning on Browser Using via Skill Distillation",
+      "authors": [
+        "Kaisen Yang",
+        "Zheng Jiang",
+        "Yuzhao Peng",
+        "Houde Qian",
+        "Boshi Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes a method to enable scalable behavior cloning for browser agents by distilling user interaction trajectories into compact, natural-language \"skills.\" These skills are then organized into a skill graph, allowing agents to retrieve, reuse, and compose them. The core contribution is a scalable approach to leverage implicit human knowledge in web browsing for agent decision-making, addressing the bottleneck of incomplete information.",
+      "url": "http://arxiv.org/abs/2606.32014v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32014v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.32014v1/x1.png",
+      "figure_caption": "Motivation of BrowserBC. BrowserBC turns human browsing traces into reusable natural-language skills, providing agents with decision priors for navigating unfamiliar websites.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.31876v1",
+      "title": "Harnessing Textual Refusal Directions for Multimodal Safety",
+      "authors": [
+        "Moreno D'Incà",
+        "Massimiliano Mancini",
+        "Nicu Sebe"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "This paper proposes Modality-Agnostic Refusal Steering (MARS), a novel training-free method to enhance safety in Multimodal LLMs (MLLMs). MARS leverages textual refusal directions from the LLM backbone, adapting them to multimodal inputs without requiring unsafe multimodal data. It achieves this by correcting modality misalignment through activation re-centering and adaptive steering, thereby injecting multimodal safety effectively.",
+      "url": "http://arxiv.org/abs/2606.31876v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.31876v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.32034v1",
+      "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
+      "authors": [
+        "Sergio Hernández-Gutiérrez",
+        "Matteo Merler",
+        "Ilze Amanda Auzina",
+        "Joschka Strüber",
+        "Ameya Prabhu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces QVal, a training-free method to directly evaluate dense supervision signals for long-horizon LLM agents. QVal assesses how well a supervision signal's score aligns with the true value function (Q-value) of intermediate states and actions. This allows for a more direct and comparable evaluation of different dense supervision techniques, disentangled from the complexities of training pipelines.",
+      "url": "http://arxiv.org/abs/2606.32034v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32034v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.32034v1/x1.png",
+      "figure_caption": "QVal design pipeline . We collect trajectories in multi-turn environments, sample candidate state-action pairs, and label them with estimated Q Q -values with respect to a reference policy \\( \\pi \\) . We perform method prediction and measure Q Q -alignment between the predicted scores and the labels. This training-free testbed isolates learning-signal quality before any downstream RL training.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.32032v1",
+      "title": "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs",
+      "authors": [
+        "Gabrielle Kaili-May Liu",
+        "Avi Caciularu",
+        "Gal Yona",
+        "Idan Szpektor",
+        "Arman Cohan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Reinforcement Learning with Metacognitive Feedback (RLMF) to improve Large Language Models' (LLMs) ability to express uncertainty faithfully. The core method uses RL to train LLMs to better judge their own performance, then uses these self-judgments to refine completion rankings and select high-value training data. This approach helps LLMs avoid confident hallucinations and accurately represent their knowledge boundaries, enhancing trustworthiness.",
+      "url": "http://arxiv.org/abs/2606.32032v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32032v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.32032v1/fig1_fixed.png",
+      "figure_caption": "Overview of RLMF , paired with metacognitive data selection and targeted rewriting to faithfully calibrate the numerically and linguistically expressed uncertainty of LLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.32025v1",
+      "title": "Generative Skill Composition for LLM Agents",
+      "authors": [
+        "Xinyu Zhao",
+        "Zhen Tan",
+        "Vaishnav Tadiparthi",
+        "Nakul Agarwal",
+        "Kwonjoon Lee"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces **Generative Skill Composition** to address the bottleneck of selecting appropriate skills for LLM agents. The core method formalizes skill selection as a **structured prediction problem**, jointly determining which skills to use, how many, and in what order. This approach's contribution is a more holistic and efficient way to generate executable skill plans, overcoming limitations of existing methods that treat these dimensions independently.",
+      "url": "http://arxiv.org/abs/2606.32025v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32025v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.32025v1/x1.png",
+      "figure_caption": "Structured skill composition with SkillComposer . (A) Large skill libraries create a composition bottleneck. To solve complex tasks, an agent must decide not only which skills to use, but also their exact count and execution order. (B) Existing paradigms: directly exposing the agent to all skill options leaves composition implicit within an unstructured execution trace, while retrieval methods only return an unordered subset of candidates. We propose SkillComposer , which explicitly predicts an ordered, executable skill sequence. (C) By structuring the composition process, SkillComposer improves both plan exact match and downstream task success rates on SkillsBench.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.31916v1",
+      "title": "Theory of Mind and Persuasion Beyond Conversation: Assessing the Capacity of LLMs to Induce Belief States via Planning and Action",
+      "authors": [
+        "Ben Slater",
+        "Matteo G. Mecattaf",
+        "Lucy G. Cheke",
+        "John Burden",
+        "Winnie Street"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Non-Conversational Planning Theory of Mind (NCP-ToM), a new evaluation for LLMs that assesses their ability to induce belief states in others through actions, not just conversation. The core method involves a novel framework, NCP-ExploreToM, where LLMs must manipulate objects or characters to achieve specific belief goals. The contribution lies in developing this agentic evaluation, crucial for understanding LLM capabilities in real-world applications and potential risks like manipulation.",
+      "url": "http://arxiv.org/abs/2606.31916v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.31916v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.32026v1",
+      "title": "AdaJEPA: An Adaptive Latent World Model",
+      "authors": [
+        "Ying Wang",
+        "Oumayma Bounou",
+        "Yann LeCun",
+        "Mengye Ren"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "AdaJEPA is an adaptive latent world model that improves planning robustness under distribution shifts. Its core method involves performing test-time adaptation within a model predictive control loop, using observed state transitions as a self-supervised signal to update the model. This continuous recalibration significantly enhances planning success with minimal computational overhead.",
+      "url": "http://arxiv.org/abs/2606.32026v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32026v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.31903v1",
+      "title": "Attend, Transform, or Silence: Operator-Level Visual Skipping for Efficient Multimodal LLM Inference",
+      "authors": [
+        "Zhaoyang Luo",
+        "Runmin Dong",
+        "Miao Yang",
+        "Fan Wei",
+        "Yushan Lai"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper proposes an operator-level visual skipping method for efficient multimodal LLM inference. Instead of removing entire visual tokens or layers, it selectively skips redundant attention or FFN operations within Transformer layers based on their impact on answer tokens. This approach preserves fine-grained visual information while significantly reducing computation by identifying and bypassing operator-specific redundancies.",
+      "url": "http://arxiv.org/abs/2606.31903v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.31903v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.31903v1/x1.png",
+      "figure_caption": "Overview of visual-computation reduction granularities for MLLM inference. Token pruning removes selected visual tokens, which disrupts spatial relationships and causes irreversible loss of visual evidence needed for reasoning. Layer-wise skipping preserves the token sequence but treats each Transformer layer as an indivisible unit, failing to fully exploit the distinct roles of attention and FFN operators. Our operator-level skipping selectively skips attention, FFN, or both while preserving the full visual-token sequence.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.31966v1",
+      "title": "MECoBench: A Systematic Study of Multimodal Agent Collaboration in Embodied Environments",
+      "authors": [
+        "Qingyun Liu",
+        "Jiwen Zhang",
+        "Jingyi Hu",
+        "Siyuan Wang",
+        "Zhongyu Wei"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV",
+        "cs.MA"
+      ],
+      "abstract": "MECoBench introduces a novel benchmark and platform to systematically study multimodal agent collaboration in embodied environments. It evaluates how different cooperation structures and communication modes impact task completion for various MLLMs, revealing that collaboration generally improves performance but requires balancing gains with coordination complexity. The benchmark highlights communication's importance and identifies factors influencing optimal collaboration strategies, ultimately serving as a testbed for understanding embodied multimodal cooperation.",
+      "url": "http://arxiv.org/abs/2606.31966v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.31966v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.31966v1/x1.png",
+      "figure_caption": "An illustration of realistic scenarios , where cross-modal multi-agent collaboration significantly improves the efficiency compared with single-agent.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.32004v1",
+      "title": "PolicyGuard: From Organizational Policies to Neuro-SymbolicCompliance Review Engines",
+      "authors": [
+        "Sameer Malik",
+        "Ayush Singh",
+        "Amar Prakash Azad"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.LO",
+        "cs.SC"
+      ],
+      "abstract": "PolicyGuard is a neuro-symbolic framework that converts organizational policies into executable review engines. It uses LLMs to answer specific extraction questions from documents, which are then processed by a symbolic evaluator applying formal logic rules to determine compliance. This approach makes compliance decisions inspectable, updatable, and testable, unlike end-to-end LLM prompting.",
+      "url": "http://arxiv.org/abs/2606.32004v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32004v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.32004v1/x1.png",
+      "figure_caption": "Figure 1. Overview of the PolicyGuard . Given organization-specific policy guidance and a target document, PolicyGuard constructs a review engine that formalizes policy conditions as typed rules and atom-level extraction questions. At review time, LLMs ground the required atoms in document evidence, while a symbolic evaluator applies the executable rules to produce an auditable compliance report.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.31976v1",
+      "title": "TreeAgent: A Generalizable Multi-Agent Framework for Automated Bias Labeling in Forestry via Compiled Expert Rules and Vision-Language Models",
+      "authors": [
+        "Shiyi Chen",
+        "Nicholas Saban",
+        "Collin Hargreaves",
+        "Huiqi Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "abstract": "TreeAgent is a novel multi-agent framework that combines compiled expert decision trees with Vision-Language Models (VLMs) for automated tree bias labeling. It leverages decision trees as structural guidance and VLMs for localized perception, using multi-agent voting to enhance robustness. This approach achieves zero-modification generalization across different expert rules and significantly reduces the need for manual expert annotation.",
+      "url": "http://arxiv.org/abs/2606.31976v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.31976v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.31976v1/x1.png",
+      "figure_caption": "Overview of the D3 Framework. The architecture decouples domain-specific logic through a fixed Logic Primitive Inventory (LPI). Top: the Neural Rule Transpiler (NRT) translates an unstructured expert rule \\( \\rho \\) into a structured JSON tree configuration 𝒯 \\( \\mathcal{T} \\) via a single inference call. Bottom: distinct expert strategies ( ρ A , \\( \\rho_{A} \\),\\( \\rho_{B} \\) ) are compiled into different executable tree structures without altering the underlying Orchestrator or VLM Agent code, achieving zero-modification generalizability.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.32017v1",
+      "title": "TRIAGE: Role-Typed Credit Assignment for Agentic Reinforcement Learning",
+      "authors": [
+        "Yuanda Xu",
+        "Zhengze Zhou",
+        "Hejian Sang",
+        "Xiaomin Li",
+        "Jiaxin Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces TRIAGE, a novel credit assignment method for agentic reinforcement learning. TRIAGE enhances standard outcome-based rewards by introducing a semantic role classification for action segments, distinguishing between decisive progress, useful exploration, infrastructure, and regression. This allows for more nuanced credit assignment, preventing punishment of valuable exploration and rewarding truly beneficial actions, thereby improving learning efficiency.",
+      "url": "http://arxiv.org/abs/2606.32017v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32017v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.32017v1/artifacts/core_results.png",
+      "figure_caption": "Core results. Across two policy models and three agentic benchmarks (ALFWorld, Search-QA, WebShop), TRIAGE consistently improves over the GRPO baseline (dashed line). Bar labels report mean success rate; vertical axes are truncated per panel to make differences visible.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.32029v1",
+      "title": "When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors",
+      "authors": [
+        "Yuqing Yang",
+        "Qi Zhu",
+        "Zhen Han",
+        "Boran Han",
+        "Zhengyuan Shen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper systematically evaluates data referencing errors (DREs) in LLMs when processing tables, finding they occur across various models. The authors propose a critic-based approach to identify and filter these errors, significantly improving answer accuracy. They also train a lightweight critic model capable of detecting DREs, enhancing the reliability of LLM table reasoning.",
+      "url": "http://arxiv.org/abs/2606.32029v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32029v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.32012v1",
+      "title": "CoMet: Context and Multiplicity Decomposition for Multimodal Uncertainty Estimation",
+      "authors": [
+        "Sanghyuk Chun",
+        "William Yang",
+        "Amaya Dharmasiri",
+        "Olga Russakovsky"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "CoMet addresses uncertainty estimation in multimodal large language models (MLLMs) by decomposing it into two key components: context-specific ambiguity and multiplicity of plausible answers. This method trains a lightweight post-hoc module to quantify these distinct sources of uncertainty, enabling MLLMs to better \"know what they don't know\" in complex, open-ended tasks.",
+      "url": "http://arxiv.org/abs/2606.32012v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32012v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.32012v1/x1.png",
+      "figure_caption": "Overview of the proposed multimodal uncertainty. Even for the same image x x , uncertainty could vary by the given context t t . We decompose the uncertainty of a multimodal input into two components: (1) Context-specific uncertainty quantifies how broadly the context t t defines the plausible answer space ( e.g. , “is that a calico cat?” induces two answers, “yes” and “no”, whereas “what letter of the alphabet is on the bottle?” induces 26 assuming the answer is in English) (2) Multiplicity-specific uncertainty quantifies how many context-induced plausible answers ( e.g. , “yes” and “no”) remain compatible with the observed input x x ( e.g. , the cat features are visible and clearly correspond to a tabby cat, and therefore “no” is the only plausible answer, whereas the bottles are small and not well-lit, thus increasing rather than reducing uncertainty)",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.32016v1",
+      "title": "FedLAB: Traceable Semantic Codebooks for Federated Multimodal Graph Foundation Learning",
+      "authors": [
+        "Zekai Chen",
+        "Kairui Yang",
+        "Xuaner Chen",
+        "Xunkai Li",
+        "Xun Wu"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "FedLAB addresses federated multimodal graph learning by introducing traceable semantic codebooks. These codebooks organize multimodal graph knowledge, allowing for joint representation learning while explicitly exposing how different modalities, node semantics, and topology contribute to predictions, all under strict data isolation. This enables both effective knowledge transfer and semantic traceability in decentralized settings.",
+      "url": "http://arxiv.org/abs/2606.32016v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32016v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.32016v1/x1.png",
+      "figure_caption": "A traceable modality-evidence interface. FedLAB decomposes a multimodal prediction into text-side and image-side evidence codes rather than only producing a fused representation.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.32014v1",
+      "title": "Scalable Behaviour Cloning on Browser Using via Skill Distillation",
+      "authors": [
+        "Kaisen Yang",
+        "Zheng Jiang",
+        "Yuzhao Peng",
+        "Houde Qian",
+        "Boshi Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes a method to enable scalable behavior cloning for browser agents by distilling user interaction trajectories into compact, natural-language \"skills.\" These skills are then organized into a skill graph, allowing agents to retrieve, reuse, and compose them. The core contribution is a scalable approach to leverage implicit human knowledge in web browsing for agent decision-making, addressing the bottleneck of incomplete information.",
+      "url": "http://arxiv.org/abs/2606.32014v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32014v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.32014v1/x1.png",
+      "figure_caption": "Motivation of BrowserBC. BrowserBC turns human browsing traces into reusable natural-language skills, providing agents with decision priors for navigating unfamiliar websites.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Call for a public offer for the recruitment of Researching staff linked to Universitat Politècnica de València (UPV)",
+      "url": "https://euraxess.ec.europa.eu/jobs/449442",
+      "description": "Resolution of the Rector of the Universitat Politècnica de València announcing a selection process for an indefinite employment contract within the framework of a Line of Research: R&D line: interaction and artificial intelligence[https://www.upv.es/entidades/SRH/conypi/A1277756.pdf](https://www.upv.es/entidades/SRH/conypi/A1277756.pdf) * Department: HR Work Locations: Number of offers: 2, Spain, UPV, Alcoy, Alicante Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Computer engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A172) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Other EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A6053) Application Deadline: 15 Jul 2026 - 23:59 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Portugal * [Gulbenkian Institute for Molecular Medicine](https://euraxess.ec.europa.eu/partnering/organisations/profile/gulbenkian-institute-molecular-medicine-0) * [Field: Engineering]",
+      "institution": "",
+      "posted_date": "1 July 2026",
+      "deadline": "15 Jul 2026 - 23:59 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Interaction and Artificial Intelligence, Computer Engineering\nKey Requirements: First Stage Researcher (R1) profile\nApplication Info: deadline 15 Jul 2026, required materials N/A, contact N/A\nPosition Details: location UPV, Alcoy, Alicante, Spain; contract type indefinite employment; workload N/A; salary N/A\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Call for a public offer for the recruitment of Researching staff linked to Universitat Politècnica de València (UPV)",
+      "url": "https://euraxess.ec.europa.eu/jobs/449442",
+      "description": "Resolution of the Rector of the Universitat Politècnica de València announcing a selection process for an indefinite employment contract within the framework of a Line of Research: R&D line: interaction and artificial intelligence[https://www.upv.es/entidades/SRH/conypi/A1277756.pdf](https://www.upv.es/entidades/SRH/conypi/A1277756.pdf) * Department: HR Work Locations: Number of offers: 2, Spain, UPV, Alcoy, Alicante Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Computer engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A172) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Other EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A6053) Application Deadline: 15 Jul 2026 - 23:59 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Portugal * [Gulbenkian Institute for Molecular Medicine](https://euraxess.ec.europa.eu/partnering/organisations/profile/gulbenkian-institute-molecular-medicine-0) * [Field: Engineering]",
+      "institution": "",
+      "posted_date": "1 July 2026",
+      "deadline": "15 Jul 2026 - 23:59 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Interaction and Artificial Intelligence, Computer Engineering\nKey Requirements: First Stage Researcher (R1) profile\nApplication Info: deadline 15 Jul 2026, required materials N/A, contact N/A\nPosition Details: location UPV, Alcoy, Alicante, Spain; contract type indefinite employment; workload N/A; salary N/A\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
