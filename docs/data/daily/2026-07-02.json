@@ -1,0 +1,1483 @@
+{
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T11:56:10.056316+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.01131v1",
+          "title": "Autonomous Scientific Discovery via Iterative Meta-Reflection",
+          "authors": [
+            "Bingchen Zhao",
+            "Sara Beery",
+            "Oisin Mac Aodha"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces DiscoPER, an autonomous AI framework that conducts open-ended scientific discovery by dynamically generating and executing code to explore datasets without predefined research questions. Its core method involves iterative hypothesis generation and validation, with a novel meta-reflection mechanism that synthesizes accumulated findings to uncover complex phenomena. The key contribution is enabling AI to perform truly open-ended research by reasoning about its own discoveries, moving beyond constrained search spaces.",
+          "url": "http://arxiv.org/abs/2607.01131v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01131v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.01131v1/x1.png",
+          "figure_caption": "We introduce DiscoPER, an iterative approach for autonomous scientific discovery that takes multimodal data as input and generates a set of validated discoveries pertaining to the input data as output. At each iteration, the system proposes hypotheses, executes statistical tests on the underlying data, and accepts only discoveries that pass held-out validation. Periodically, the Reflect module analyzes the accumulated accepted and rejected claims to identify gaps, confounds, and promising compound hypotheses, which then guide the next round of exploration.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.01084v1",
+          "title": "Can Agents Generalize to the Open World? Unveiling the Fragility of Static Training in Tool Use",
+          "authors": [
+            "Song-Lin Lv",
+            "Weiming Wu",
+            "Rui Zhu",
+            "Zi-Jian Cheng",
+            "Lan-Zhe Guo"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces OpenAgent, a new problem setting to evaluate LLM agents' ability to generalize to dynamic, real-world scenarios beyond static benchmarks. The core method involves a controlled sandbox with fine-grained environmental shifts to diagnose performance degradation. The key contribution is demonstrating the fragility of current LLM agents to these shifts and proposing a perturbation-augmented training approach to improve robustness.",
+          "url": "http://arxiv.org/abs/2607.01084v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01084v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.01084v1/x1.png",
+          "figure_caption": "Performance evolution of SFT and RL agents in the closed setting. Both approaches show stable and continuous improvement throughout the training process.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.01071v1",
+          "title": "MemSyco-Bench: Benchmarking Sycophancy in Agent Memory",
+          "authors": [
+            "Zhishang Xiang",
+            "Zerui Chen",
+            "Yunbo Tang",
+            "Zhimin Wei",
+            "Ruqin Ning"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.IR"
+          ],
+          "abstract": "This paper introduces MemSyco-Bench, a novel benchmark designed to evaluate \"sycophancy\" in LLM agents, where memory causes them to over-align with users, potentially sacrificing accuracy. The core method involves creating tasks that test an agent's ability to critically use memory, assessing if it can reject inaccurate memories, respect their scope, and resolve conflicts with objective evidence. This contributes a much-needed evaluation framework for a critical emerging risk in agent memory systems.",
+          "url": "http://arxiv.org/abs/2607.01071v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01071v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.01071v1/resources/intro.png",
+          "figure_caption": "We introduce MemSyco-Bench, a comprehensive benchmark for evaluating sycophancy in agent systems, where retrieved historical memories improperly influence agent reasoning. MemSyco-Bench assesses whether agents can appropriately reject, constrain, update, reconcile, or leverage retrieved memories across diverse reasoning scenarios. Through extensive experiments, we show that existing memory systems often increase sycophancy and struggle with appropriate memory use.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.01083v1",
+          "title": "Staleness-Learning Rate Scaling Laws for Asynchronous RLHF",
+          "authors": [
+            "Jingwei Song",
+            "Haofeng Xu",
+            "Jie Xiao",
+            "Chengke Bao",
+            "Jingwei Shi"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper analyzes how stale data impacts asynchronous Reinforcement Learning from Human Feedback (RLHF). It reveals that stale rollouts introduce a bias proportional to the rollout lag and learning rate. The core contribution is deriving scaling laws that predict when the learning process will collapse, showing it depends on either cumulative learner drift or the staleness factor, depending on which constraint is more restrictive.",
+          "url": "http://arxiv.org/abs/2607.01083v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01083v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.01083v1/x1.png",
+          "figure_caption": "Staleness–learning-rate sweep on Llama-3.2-1B-Instruct . Columns vary the learning rate ( lr = \\( \\mathrm{lr} \\)=\\( \\eta \\) ) and within each panel the curves correspond to staleness S ∈ { 8 , 16 , 32 } S\\( \\in \\)\\{8,16,32\\} . Top: training reward; collapse appears as the curve dropping to and staying at zero. Middle: cosine similarity between consecutive update directions (Grad CosSim). Bottom: held-out validation reward. Reading left-to-right, reducing \\( \\eta \\) enlarges the stable region from large- S S to small- S S settings, so that the maximum stable learning rate scales as η max ∝ 1 / S \\( \\eta_{\\max} \\)\\!\\( \\propto \\)\\!1/S (Section 4.2 ). In every collapsing run the Grad CosSim stays high before the collapse, indicating a coherent, bias-driven (ballistic) drift toward the surrogate-validity boundary; the abrupt zero-reward transition is the resulting escape (Section 4.4 ).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.01103v1",
+          "title": "Clinician-Level Agreement Without Clinical Caution: LLM Evaluator Limits in Medical AI Benchmarking",
+          "authors": [
+            "William Philipp",
+            "Finn Fassbender",
+            "Thorsten Langer",
+            "Martje Pauly",
+            "Rebecca Herzog"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces MedQADE, a new standardized benchmark for evaluating medical AI in German, using open-response questions. While a top LLM evaluator showed agreement with human physicians, it lacked crucial clinical caution, failing to abstain on difficult questions as physicians did. This highlights LLMs' limitations in replicating human-level clinical judgment for AI benchmarking.",
+          "url": "http://arxiv.org/abs/2607.01103v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01103v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.01103v1/figs/overview.png",
+          "figure_caption": "The MedQADE benchmark framework. The left panel shows the complete pipeline from dataset construction through parallel annotation by physicians and LLM s. The right panel depicts the four analysis dimensions used to assess human reliability, model performance, annotator alignment, and systematic biases.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.01047v1",
+          "title": "Conversable Complexity: Agentic LLM Collectives as Interpretable Substrates",
+          "authors": [
+            "Elias Najarro",
+            "Ane Espeseth",
+            "Eleni Nisioti",
+            "Sebastian Risi",
+            "Stefano Nichele"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper proposes using agentic collectives of Large Language Models (LLMs) as a novel computational substrate for Artificial Life research. By endowing LLMs with memory, tools, and autonomous action capabilities, their interactions can generate emergent, complex behaviors. Crucially, the natural language communication between these agents provides a unique pathway for interpretability, allowing researchers to directly examine and question their collective dynamics.",
+          "url": "http://arxiv.org/abs/2607.01047v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01047v1",
+          "score": 8.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.01153v1",
+          "title": "Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded Commands, and Policy Ambiguity",
+          "authors": [
+            "Brett Reynolds"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.SE"
+          ],
+          "abstract": "This paper introduces \"adversarial pragmatics\" as a novel benchmark and annotation protocol for evaluating AI safety. It addresses limitations of existing benchmarks by providing a linguistically controlled taxonomy and metadata to distinguish failures arising from instruction conflict, embedded commands, and policy ambiguity, rather than just simple pass/fail labels. The core contribution is a more nuanced and robust method for assessing AI behavior in complex, ambiguous natural language scenarios.",
+          "url": "http://arxiv.org/abs/2607.01153v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01153v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.01153v1/x1.png",
+          "figure_caption": "Evaluation pipeline for the benchmark artifact. The diagram summarizes the planned data flow from pre-specified item metadata through model output, rule-aided triage, expert labels, LLM-judge labels, adjudication, and metric-driven item revision. No performance quantity is encoded in the figure.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.01061v1",
+          "title": "Agentic generation of verifiable rules for deterministic, self-expanding reaction classification",
+          "authors": [
+            "Daniel Armstrong",
+            "Maarten Dobbelaere",
+            "Valentas Olikauskas",
+            "Helena Avila",
+            "Octavian Susanu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces a multi-agent LLM framework that automatically generates verifiable reaction classification rules from chemical patent data. The system",
+          "url": "http://arxiv.org/abs/2607.01061v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01061v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.01061v1/x1.png",
+          "figure_caption": "a. The multi-agent LLM framework for dynamic taxonomy expansion. Raw reaction data and a seed hierarchy are evaluated by sequential high-level and detailed classification agents. A verifier agent audits the proposed labels; when existing categories are insufficient or imprecise, a label generation agent proposes new classifications. A taxonomy updater integrates these proposals, dynamically expanding the hierarchy to capture unrepresented chemistry without human intervention, resulting in an expanded reaction taxonomy. b. The iterative refinement loop for reaction template generation. An LLM drafts initial, broad SMIRKS patterns (low specificity, high recall) which undergo automated validation against reaction data. Through successive iterations, the LLM applies chemically grounded structural mutations to minimize false positives while maximizing true positive recall, yielding a robust database of generalized, high-specificity reaction templates.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.01224v1",
+          "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
+          "authors": [
+            "Shengguang Wu",
+            "Hao Zhu",
+            "Yuhui Zhang",
+            "Xiaohan Wang",
+            "Serena Yeung-Levy"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.MA"
+          ],
+          "abstract": "This paper introduces AutoMem, a framework that treats memory management in LLMs as a trainable cognitive skill,",
+          "url": "http://arxiv.org/abs/2607.01224v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01224v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.01224v1/x1.png",
+          "figure_caption": "Memory skill optimization with Qwen2.5-32B-Instruct . Starting from a base agent equipped with file-system memory (v0), AutoMem progressively improves performance through memory scaffold optimization (v0–v5/v4/v2), followed by memory proficiency training (+train) that yields further gains on top of the optimized scaffold.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.01104v1",
+          "title": "CausalMix: Data Mixture as Causal Inference for Language Model Training",
+          "authors": [
+            "Zinan Tang",
+            "Yukun Zhang",
+            "Shaomian Zheng",
+            "Zhuoshi Pan",
+            "Qizhi Pei"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "CausalMix reframes LLM data mixing as a causal inference problem, treating data features as covariates and domain mixture as treatment. This allows it to estimate the optimal mixture for larger datasets and models by extrapolating from smaller experiments, overcoming the need for costly retraining when data distributions shift. The core contribution is a scalable and robust method for data mixing that leverages causal modeling to improve LLM training efficiency and performance.",
+          "url": "http://arxiv.org/abs/2607.01104v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01104v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.01104v1/x1.png",
+          "figure_caption": "Overview of the CausalMix pipeline. Historical proxy runs provide data-state covariates, mixture assignments, and downstream outcomes, which are used to estimate state-conditioned marginal data returns through orthogonal causal learning.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.01087v1",
+          "title": "Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering",
+          "authors": [
+            "James C. Davis",
+            "Paschal C. Amusuo",
+            "Tanmay Singla",
+            "Berk Çakar",
+            "Kirsten A. Davis"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.SE"
+          ],
+          "abstract": "This paper explores how generative AI is transforming software engineering by shifting the focus from implementation effort to managing AI-generated code. The core method is a 12-week case study where an expert engineer used AI coding agents to build a system, meticulously documenting the process. The key contribution is a proposed theory of \"governance conversion,\" a process model explaining how to",
+          "url": "http://arxiv.org/abs/2607.01087v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01087v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.01170v1",
+          "title": "Diffusion-GR2: Diffusion Generative Reasoning Re-ranker",
+          "authors": [
+            "Zhuoxuan Zhang",
+            "Kangqi Ni",
+            "Yuhang Chen",
+            "Mingfu Liang",
+            "Xiaohan Wei"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.IR"
+          ],
+          "abstract": "Diffusion-GR2 addresses the inference speed limitations of generative reasoning recommenders by adapting autoregressive models to a block-diffusion framework. It introduces novel techniques to overcome accuracy gaps arising from parallel decoding, specifically by ensuring valid ranking structures and mitigating off-policy learning issues during fine-tuning. This allows for significantly faster recommendation generation without sacrificing accuracy.",
+          "url": "http://arxiv.org/abs/2607.01170v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01170v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.01170v1/x1.png",
+          "figure_caption": "Overview of Diffusion-GR2. We start from the AR GR2 reasoning re-ranker, initialize a block-diffusion decoder from its weights, and recover the conversion gap through conversion fine-tuning (CFT), on-policy distillation (OPD), and reinforcement learning (RL). The final model preserves the GR2 re-ranking interface while reducing sequential decoding cost through block-parallel denoising.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.01136v1",
+          "title": "Skills Are Not Islands: Measuring Dependency and Risk in Agent Skill Supply Chains",
+          "authors": [
+            "Changguo Jia",
+            "Tianqi Zhao",
+            "Runzhi He",
+            "Minghui Zhou"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.SE"
+          ],
+          "abstract": "This paper introduces Agent Skill Supply Chains (ASSCs) to address the implicit dependencies within LLM agent skills. Their core method, SkillDepAnalyzer, extracts natural language evidence to model skills as dependency-bearing artifacts, creating dependency graphs. This approach accurately recovers skill metadata and dependencies, outperforming existing baselines and contributing a novel framework for managing and understanding the complex interdependencies in agent skill ecosystems.",
+          "url": "http://arxiv.org/abs/2607.01136v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01136v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.01136v1/x1.png",
+          "figure_caption": "SDA generation workflow.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.01115v1",
+          "title": "Towards Developing a Multimodal Chat Assistant for University Stakeholders: RAG-based Approach",
+          "authors": [
+            "Md Abu Hanif Shaikh",
+            "Abdullah Al Shafi"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper proposes a multimodal university chatbot using a retrieval-augmented generation (RAG) approach. It combines a large language model with semantic retrieval from university resources to answer complex, domain-specific queries, accepting both text and image inputs. The contribution lies in creating an intelligent, adaptable, and deployable assistant for university stakeholders, particularly in resource-constrained environments.",
+          "url": "http://arxiv.org/abs/2607.01115v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01115v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.01115v1/x1.png",
+          "figure_caption": "Architecture of our developed system.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.01065v1",
+          "title": "GSRQ: Gain-Shape Residual Quantization for Sub-1-bit KV Cache",
+          "authors": [
+            "Soosung Kim",
+            "Minjae Park",
+            "Eui-Young Chung",
+            "Jaeyong Chung"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper addresses the memory bottleneck of LLMs' KV caches by proposing Gain-Shape Residual Quantization (GSRQ). GSRQ introduces a novel \"Gain-Shape K-means\" (GSKM) algorithm that improves directional preservation during quantization, unlike traditional methods that can lead to centroid shrinkage. This allows for more efficient sub-1-bit compression of the KV cache, enabling larger context windows.",
+          "url": "http://arxiv.org/abs/2607.01065v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01065v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.01065v1/x1.png",
+          "figure_caption": "Illustration of a hypothesized vicious cycle in high-dimensional ℓ 2 \\( \\ell_{2} \\) -based K-Means. Averaging cancellation induces centroid shrinkage, which reduces angular sensitivity and leads to poorer direction and assignment, further reinforcing cancellation.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.01232v1",
+          "title": "Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training",
+          "authors": [
+            "Zijian Zhang",
+            "Rizhen Hu",
+            "Athanasios Glentis",
+            "Dawei Li",
+            "Chung-Yiu Yau"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates how reinforcement learning (RL) adaptation is distributed across transformer layers in large language models. The core finding is that training just a single transformer layer can recover most, and sometimes even exceed, the performance gains achieved by full-parameter RL training. This challenges the common assumption of uniform layer contribution and introduces \"layer contribution\" as a metric to quantify this phenomenon.",
+          "url": "http://arxiv.org/abs/2607.01232v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01232v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.01232v1/x1.png",
+          "figure_caption": "(a) Layer contribution (defined in § 2.2 ) across all seven models studied in this work, plotted against depth-normalized relative layer position (0 = Layer 0, 1 = Layer L − 1 L{-}1 ). Each point corresponds to RL training performed on a single transformer layer while all remaining layers are frozen. The y-axis measures the fraction of full-parameter RL improvement recovered by training that layer alone. Solid lines denote models with full layer scans; dashed lines denote models where a representative subset of layers is trained. Despite spanning two model families, three RL algorithms, and two task domains (mathematical reasoning and agentic tasks), all seven models exhibit the same structure: layers around 40%–60% of network depth consistently achieve the highest contribution, with some surpassing full-parameter RL training (green-shaded region). (b) Performance comparison on the three Qwen3 models (NuminaMath-CoT, math benchmarks). Best Guided denotes the best result among the layer contribution-guided strategies from § 4 : either boosting the learning rate of high-contribution layers or selectively training only those layers. The percentage annotations indicate additional gain beyond full-parameter RL, expressed relative to the total RL gain. Training only these high-contribution layers consistently outperforms full-parameter RL across all three scales.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.01077v1",
+          "title": "Message Passing Enables Efficient Reasoning",
+          "authors": [
+            "Xuecheng Liu",
+            "Daman Arora",
+            "Gokul Swamy",
+            "Andrea Zanette"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Message Passing Language Models (MPLMs), a framework that allows LLM threads to communicate directly via send/receive primitives, unlike traditional fork-join methods. This direct communication reduces redundant context sharing and enables preemption, allowing threads to terminate early based on peer information. The core contribution is an efficient scaling mechanism for LLM reasoning by overcoming the limitations of transient, non-communicating threads.",
+          "url": "http://arxiv.org/abs/2607.01077v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01077v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.01204v1",
+          "title": "TiRex-2: Generalizing TiRex to Multivariate Data and Streaming",
+          "authors": [
+            "Patrick Podest",
+            "Marco Pichler",
+            "Elias Bürger",
+            "Levente Zólyomi",
+            "Bernhard Voggenberger"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "TiRex-2 is a recurrent xLSTM-based foundation model that extends univariate time series forecasting to multivariate scenarios with past and future covariates. Its core method employs a memory-centric recurrent design with constant per-patch cost, overcoming the quadratic complexity and recomputation issues of Transformer models in streaming settings. This enables efficient integration of future-known covariates while maintaining causality, a novel combination for time series foundation models.",
+          "url": "http://arxiv.org/abs/2607.01204v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01204v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.01204v1/x2.png",
+          "figure_caption": "Comparison of TiRex, Chronos-2, and TiRex-2. Chronos-2 supports multivariate forecasting with covariates, but is neither target-causal nor constant-memory. TiRex-2 adds these properties while preserving native multivariate covariate support (for more details see Table ˜ 2 ).",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.01125v1",
+          "title": "ZO-Act: Efficient Zeroth-Order Fine-Tuning via One-Shot Activation-Informed Low-Rank Subspaces",
+          "authors": [
+            "Xun Dong",
+            "Yibo Xu",
+            "Naigang Wang",
+            "Xin Li",
+            "Penghang Yin"
+          ],
+          "categories": [
+            "cs.LG",
+            "math.OC"
+          ],
+          "abstract": "ZO-Act enables efficient fine-tuning of large language models without backpropagation by restricting perturbations to a low-rank subspace derived from input activations. This method optimizes lightweight coefficient matrices, reducing variance and enabling compatibility with standard optimizers, while naturally supporting quantized LLM fine-tuning by freezing low-bit weights.",
+          "url": "http://arxiv.org/abs/2607.01125v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01125v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.01125v1/latex/figures/subspace_qproj_r1_r32_singlecol.png",
+          "figure_caption": "Stability and gradient alignment of activation-informed subspaces at epoch 3 of Llama-3-8B RTE full fine-tuning. We show the q-projection layers at decoders 0, 15, and 31.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.01152v1",
+          "title": "AGC-Bench: Measuring Artificial General Creativity",
+          "authors": [
+            "Roger Beaty",
+            "Vijeta Deshpande",
+            "Clin K. Y. Lai",
+            "Anna Attuch",
+            "Namrata Shivagunde"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "AGC-Bench is a novel benchmark designed to measure artificial general creativity in LLMs, addressing the lack of unified evaluation in this domain. It systematically aggregates existing AI creativity benchmarks and standardizes them using an agentic harness. A key contribution is the development of AGC-Judge, an LLM fine-tuned using Judge Response Theory to mitigate bias in creativity scoring, enabling robust evaluation across diverse tasks.",
+          "url": "http://arxiv.org/abs/2607.01152v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01152v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.01152v1/x1.png",
+          "figure_caption": "Overall and per-domain rankings. Left: top 15 of 83 models on the AGC-Bench composite. Right: top 5 within each of the six domains. Per-domain lineups overlap substantially with the overall ranking but reorder at the margins (e.g., kimi-k2.5 on Problem Solving, claude-opus-4.6-fast on Figurative Language). Full 83-model leaderboard in Appendix F .",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 24,
+        "papers_after_llm_filter": 20,
+        "count": 20
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Postdoctoral Research Fellowship in Validation of AI-based Decision Making",
+          "url": "https://euraxess.ec.europa.eu/jobs/449813",
+          "description": "Simula: Solving fundamental problems in ICT that benefit society.Simula’s vision is to be an excellent research lab, educating future technology leaders and providing independent advice to the government. We want to be an innovator and innovation partner and apply our expertise to problems that... * Work Locations: Number of offers: 1, Norway, Simula Metropolitan, Oslo, 0170, Oslo, Stensberggata 27 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 7 Aug 2026 - 23:59 (Europe/Oslo) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland * [University of Warsaw](https://euraxess.ec.europa.eu/partnering/organisations/profile/university-warsaw-14) * [Field: Computer science]",
+          "institution": "",
+          "posted_date": "2 July 2026",
+          "deadline": "7 Aug 2026 - 23:59 (Europe/Oslo)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Validation of AI-based Decision Making, Computer Science\nKey Requirements: Recognized Researcher (R2) profile\nApplication Info: deadline 7 Aug 2026, N/A materials, N/A contact\nPosition Details: Oslo, Norway, N/A contract, N/A workload, N/A salary\nOne-line Advice: N/A",
+          "relevance_score": 8.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 1
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 24,
+    "papers_after_llm_filter": 20,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 110
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.01131v1",
+      "title": "Autonomous Scientific Discovery via Iterative Meta-Reflection",
+      "authors": [
+        "Bingchen Zhao",
+        "Sara Beery",
+        "Oisin Mac Aodha"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces DiscoPER, an autonomous AI framework that conducts open-ended scientific discovery by dynamically generating and executing code to explore datasets without predefined research questions. Its core method involves iterative hypothesis generation and validation, with a novel meta-reflection mechanism that synthesizes accumulated findings to uncover complex phenomena. The key contribution is enabling AI to perform truly open-ended research by reasoning about its own discoveries, moving beyond constrained search spaces.",
+      "url": "http://arxiv.org/abs/2607.01131v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01131v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.01131v1/x1.png",
+      "figure_caption": "We introduce DiscoPER, an iterative approach for autonomous scientific discovery that takes multimodal data as input and generates a set of validated discoveries pertaining to the input data as output. At each iteration, the system proposes hypotheses, executes statistical tests on the underlying data, and accepts only discoveries that pass held-out validation. Periodically, the Reflect module analyzes the accumulated accepted and rejected claims to identify gaps, confounds, and promising compound hypotheses, which then guide the next round of exploration.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01084v1",
+      "title": "Can Agents Generalize to the Open World? Unveiling the Fragility of Static Training in Tool Use",
+      "authors": [
+        "Song-Lin Lv",
+        "Weiming Wu",
+        "Rui Zhu",
+        "Zi-Jian Cheng",
+        "Lan-Zhe Guo"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces OpenAgent, a new problem setting to evaluate LLM agents' ability to generalize to dynamic, real-world scenarios beyond static benchmarks. The core method involves a controlled sandbox with fine-grained environmental shifts to diagnose performance degradation. The key contribution is demonstrating the fragility of current LLM agents to these shifts and proposing a perturbation-augmented training approach to improve robustness.",
+      "url": "http://arxiv.org/abs/2607.01084v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01084v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.01084v1/x1.png",
+      "figure_caption": "Performance evolution of SFT and RL agents in the closed setting. Both approaches show stable and continuous improvement throughout the training process.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01071v1",
+      "title": "MemSyco-Bench: Benchmarking Sycophancy in Agent Memory",
+      "authors": [
+        "Zhishang Xiang",
+        "Zerui Chen",
+        "Yunbo Tang",
+        "Zhimin Wei",
+        "Ruqin Ning"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "abstract": "This paper introduces MemSyco-Bench, a novel benchmark designed to evaluate \"sycophancy\" in LLM agents, where memory causes them to over-align with users, potentially sacrificing accuracy. The core method involves creating tasks that test an agent's ability to critically use memory, assessing if it can reject inaccurate memories, respect their scope, and resolve conflicts with objective evidence. This contributes a much-needed evaluation framework for a critical emerging risk in agent memory systems.",
+      "url": "http://arxiv.org/abs/2607.01071v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01071v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.01071v1/resources/intro.png",
+      "figure_caption": "We introduce MemSyco-Bench, a comprehensive benchmark for evaluating sycophancy in agent systems, where retrieved historical memories improperly influence agent reasoning. MemSyco-Bench assesses whether agents can appropriately reject, constrain, update, reconcile, or leverage retrieved memories across diverse reasoning scenarios. Through extensive experiments, we show that existing memory systems often increase sycophancy and struggle with appropriate memory use.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01083v1",
+      "title": "Staleness-Learning Rate Scaling Laws for Asynchronous RLHF",
+      "authors": [
+        "Jingwei Song",
+        "Haofeng Xu",
+        "Jie Xiao",
+        "Chengke Bao",
+        "Jingwei Shi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper analyzes how stale data impacts asynchronous Reinforcement Learning from Human Feedback (RLHF). It reveals that stale rollouts introduce a bias proportional to the rollout lag and learning rate. The core contribution is deriving scaling laws that predict when the learning process will collapse, showing it depends on either cumulative learner drift or the staleness factor, depending on which constraint is more restrictive.",
+      "url": "http://arxiv.org/abs/2607.01083v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01083v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.01083v1/x1.png",
+      "figure_caption": "Staleness–learning-rate sweep on Llama-3.2-1B-Instruct . Columns vary the learning rate ( lr = \\( \\mathrm{lr} \\)=\\( \\eta \\) ) and within each panel the curves correspond to staleness S ∈ { 8 , 16 , 32 } S\\( \\in \\)\\{8,16,32\\} . Top: training reward; collapse appears as the curve dropping to and staying at zero. Middle: cosine similarity between consecutive update directions (Grad CosSim). Bottom: held-out validation reward. Reading left-to-right, reducing \\( \\eta \\) enlarges the stable region from large- S S to small- S S settings, so that the maximum stable learning rate scales as η max ∝ 1 / S \\( \\eta_{\\max} \\)\\!\\( \\propto \\)\\!1/S (Section 4.2 ). In every collapsing run the Grad CosSim stays high before the collapse, indicating a coherent, bias-driven (ballistic) drift toward the surrogate-validity boundary; the abrupt zero-reward transition is the resulting escape (Section 4.4 ).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01103v1",
+      "title": "Clinician-Level Agreement Without Clinical Caution: LLM Evaluator Limits in Medical AI Benchmarking",
+      "authors": [
+        "William Philipp",
+        "Finn Fassbender",
+        "Thorsten Langer",
+        "Martje Pauly",
+        "Rebecca Herzog"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces MedQADE, a new standardized benchmark for evaluating medical AI in German, using open-response questions. While a top LLM evaluator showed agreement with human physicians, it lacked crucial clinical caution, failing to abstain on difficult questions as physicians did. This highlights LLMs' limitations in replicating human-level clinical judgment for AI benchmarking.",
+      "url": "http://arxiv.org/abs/2607.01103v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01103v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.01103v1/figs/overview.png",
+      "figure_caption": "The MedQADE benchmark framework. The left panel shows the complete pipeline from dataset construction through parallel annotation by physicians and LLM s. The right panel depicts the four analysis dimensions used to assess human reliability, model performance, annotator alignment, and systematic biases.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.01047v1",
+      "title": "Conversable Complexity: Agentic LLM Collectives as Interpretable Substrates",
+      "authors": [
+        "Elias Najarro",
+        "Ane Espeseth",
+        "Eleni Nisioti",
+        "Sebastian Risi",
+        "Stefano Nichele"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes using agentic collectives of Large Language Models (LLMs) as a novel computational substrate for Artificial Life research. By endowing LLMs with memory, tools, and autonomous action capabilities, their interactions can generate emergent, complex behaviors. Crucially, the natural language communication between these agents provides a unique pathway for interpretability, allowing researchers to directly examine and question their collective dynamics.",
+      "url": "http://arxiv.org/abs/2607.01047v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01047v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.01153v1",
+      "title": "Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded Commands, and Policy Ambiguity",
+      "authors": [
+        "Brett Reynolds"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces \"adversarial pragmatics\" as a novel benchmark and annotation protocol for evaluating AI safety. It addresses limitations of existing benchmarks by providing a linguistically controlled taxonomy and metadata to distinguish failures arising from instruction conflict, embedded commands, and policy ambiguity, rather than just simple pass/fail labels. The core contribution is a more nuanced and robust method for assessing AI behavior in complex, ambiguous natural language scenarios.",
+      "url": "http://arxiv.org/abs/2607.01153v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01153v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01153v1/x1.png",
+      "figure_caption": "Evaluation pipeline for the benchmark artifact. The diagram summarizes the planned data flow from pre-specified item metadata through model output, rule-aided triage, expert labels, LLM-judge labels, adjudication, and metric-driven item revision. No performance quantity is encoded in the figure.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01061v1",
+      "title": "Agentic generation of verifiable rules for deterministic, self-expanding reaction classification",
+      "authors": [
+        "Daniel Armstrong",
+        "Maarten Dobbelaere",
+        "Valentas Olikauskas",
+        "Helena Avila",
+        "Octavian Susanu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a multi-agent LLM framework that automatically generates verifiable reaction classification rules from chemical patent data. The system",
+      "url": "http://arxiv.org/abs/2607.01061v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01061v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01061v1/x1.png",
+      "figure_caption": "a. The multi-agent LLM framework for dynamic taxonomy expansion. Raw reaction data and a seed hierarchy are evaluated by sequential high-level and detailed classification agents. A verifier agent audits the proposed labels; when existing categories are insufficient or imprecise, a label generation agent proposes new classifications. A taxonomy updater integrates these proposals, dynamically expanding the hierarchy to capture unrepresented chemistry without human intervention, resulting in an expanded reaction taxonomy. b. The iterative refinement loop for reaction template generation. An LLM drafts initial, broad SMIRKS patterns (low specificity, high recall) which undergo automated validation against reaction data. Through successive iterations, the LLM applies chemically grounded structural mutations to minimize false positives while maximizing true positive recall, yielding a robust database of generalized, high-specificity reaction templates.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01224v1",
+      "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
+      "authors": [
+        "Shengguang Wu",
+        "Hao Zhu",
+        "Yuhui Zhang",
+        "Xiaohan Wang",
+        "Serena Yeung-Levy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces AutoMem, a framework that treats memory management in LLMs as a trainable cognitive skill,",
+      "url": "http://arxiv.org/abs/2607.01224v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01224v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01224v1/x1.png",
+      "figure_caption": "Memory skill optimization with Qwen2.5-32B-Instruct . Starting from a base agent equipped with file-system memory (v0), AutoMem progressively improves performance through memory scaffold optimization (v0–v5/v4/v2), followed by memory proficiency training (+train) that yields further gains on top of the optimized scaffold.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01104v1",
+      "title": "CausalMix: Data Mixture as Causal Inference for Language Model Training",
+      "authors": [
+        "Zinan Tang",
+        "Yukun Zhang",
+        "Shaomian Zheng",
+        "Zhuoshi Pan",
+        "Qizhi Pei"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "CausalMix reframes LLM data mixing as a causal inference problem, treating data features as covariates and domain mixture as treatment. This allows it to estimate the optimal mixture for larger datasets and models by extrapolating from smaller experiments, overcoming the need for costly retraining when data distributions shift. The core contribution is a scalable and robust method for data mixing that leverages causal modeling to improve LLM training efficiency and performance.",
+      "url": "http://arxiv.org/abs/2607.01104v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01104v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01104v1/x1.png",
+      "figure_caption": "Overview of the CausalMix pipeline. Historical proxy runs provide data-state covariates, mixture assignments, and downstream outcomes, which are used to estimate state-conditioned marginal data returns through orthogonal causal learning.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01087v1",
+      "title": "Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering",
+      "authors": [
+        "James C. Davis",
+        "Paschal C. Amusuo",
+        "Tanmay Singla",
+        "Berk Çakar",
+        "Kirsten A. Davis"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper explores how generative AI is transforming software engineering by shifting the focus from implementation effort to managing AI-generated code. The core method is a 12-week case study where an expert engineer used AI coding agents to build a system, meticulously documenting the process. The key contribution is a proposed theory of \"governance conversion,\" a process model explaining how to",
+      "url": "http://arxiv.org/abs/2607.01087v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01087v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01170v1",
+      "title": "Diffusion-GR2: Diffusion Generative Reasoning Re-ranker",
+      "authors": [
+        "Zhuoxuan Zhang",
+        "Kangqi Ni",
+        "Yuhang Chen",
+        "Mingfu Liang",
+        "Xiaohan Wei"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "abstract": "Diffusion-GR2 addresses the inference speed limitations of generative reasoning recommenders by adapting autoregressive models to a block-diffusion framework. It introduces novel techniques to overcome accuracy gaps arising from parallel decoding, specifically by ensuring valid ranking structures and mitigating off-policy learning issues during fine-tuning. This allows for significantly faster recommendation generation without sacrificing accuracy.",
+      "url": "http://arxiv.org/abs/2607.01170v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01170v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01170v1/x1.png",
+      "figure_caption": "Overview of Diffusion-GR2. We start from the AR GR2 reasoning re-ranker, initialize a block-diffusion decoder from its weights, and recover the conversion gap through conversion fine-tuning (CFT), on-policy distillation (OPD), and reinforcement learning (RL). The final model preserves the GR2 re-ranking interface while reducing sequential decoding cost through block-parallel denoising.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01136v1",
+      "title": "Skills Are Not Islands: Measuring Dependency and Risk in Agent Skill Supply Chains",
+      "authors": [
+        "Changguo Jia",
+        "Tianqi Zhao",
+        "Runzhi He",
+        "Minghui Zhou"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces Agent Skill Supply Chains (ASSCs) to address the implicit dependencies within LLM agent skills. Their core method, SkillDepAnalyzer, extracts natural language evidence to model skills as dependency-bearing artifacts, creating dependency graphs. This approach accurately recovers skill metadata and dependencies, outperforming existing baselines and contributing a novel framework for managing and understanding the complex interdependencies in agent skill ecosystems.",
+      "url": "http://arxiv.org/abs/2607.01136v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01136v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01136v1/x1.png",
+      "figure_caption": "SDA generation workflow.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01115v1",
+      "title": "Towards Developing a Multimodal Chat Assistant for University Stakeholders: RAG-based Approach",
+      "authors": [
+        "Md Abu Hanif Shaikh",
+        "Abdullah Al Shafi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes a multimodal university chatbot using a retrieval-augmented generation (RAG) approach. It combines a large language model with semantic retrieval from university resources to answer complex, domain-specific queries, accepting both text and image inputs. The contribution lies in creating an intelligent, adaptable, and deployable assistant for university stakeholders, particularly in resource-constrained environments.",
+      "url": "http://arxiv.org/abs/2607.01115v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01115v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01115v1/x1.png",
+      "figure_caption": "Architecture of our developed system.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01065v1",
+      "title": "GSRQ: Gain-Shape Residual Quantization for Sub-1-bit KV Cache",
+      "authors": [
+        "Soosung Kim",
+        "Minjae Park",
+        "Eui-Young Chung",
+        "Jaeyong Chung"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper addresses the memory bottleneck of LLMs' KV caches by proposing Gain-Shape Residual Quantization (GSRQ). GSRQ introduces a novel \"Gain-Shape K-means\" (GSKM) algorithm that improves directional preservation during quantization, unlike traditional methods that can lead to centroid shrinkage. This allows for more efficient sub-1-bit compression of the KV cache, enabling larger context windows.",
+      "url": "http://arxiv.org/abs/2607.01065v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01065v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01065v1/x1.png",
+      "figure_caption": "Illustration of a hypothesized vicious cycle in high-dimensional ℓ 2 \\( \\ell_{2} \\) -based K-Means. Averaging cancellation induces centroid shrinkage, which reduces angular sensitivity and leads to poorer direction and assignment, further reinforcing cancellation.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.01232v1",
+      "title": "Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training",
+      "authors": [
+        "Zijian Zhang",
+        "Rizhen Hu",
+        "Athanasios Glentis",
+        "Dawei Li",
+        "Chung-Yiu Yau"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how reinforcement learning (RL) adaptation is distributed across transformer layers in large language models. The core finding is that training just a single transformer layer can recover most, and sometimes even exceed, the performance gains achieved by full-parameter RL training. This challenges the common assumption of uniform layer contribution and introduces \"layer contribution\" as a metric to quantify this phenomenon.",
+      "url": "http://arxiv.org/abs/2607.01232v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01232v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01232v1/x1.png",
+      "figure_caption": "(a) Layer contribution (defined in § 2.2 ) across all seven models studied in this work, plotted against depth-normalized relative layer position (0 = Layer 0, 1 = Layer L − 1 L{-}1 ). Each point corresponds to RL training performed on a single transformer layer while all remaining layers are frozen. The y-axis measures the fraction of full-parameter RL improvement recovered by training that layer alone. Solid lines denote models with full layer scans; dashed lines denote models where a representative subset of layers is trained. Despite spanning two model families, three RL algorithms, and two task domains (mathematical reasoning and agentic tasks), all seven models exhibit the same structure: layers around 40%–60% of network depth consistently achieve the highest contribution, with some surpassing full-parameter RL training (green-shaded region). (b) Performance comparison on the three Qwen3 models (NuminaMath-CoT, math benchmarks). Best Guided denotes the best result among the layer contribution-guided strategies from § 4 : either boosting the learning rate of high-contribution layers or selectively training only those layers. The percentage annotations indicate additional gain beyond full-parameter RL, expressed relative to the total RL gain. Training only these high-contribution layers consistently outperforms full-parameter RL across all three scales.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.01077v1",
+      "title": "Message Passing Enables Efficient Reasoning",
+      "authors": [
+        "Xuecheng Liu",
+        "Daman Arora",
+        "Gokul Swamy",
+        "Andrea Zanette"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Message Passing Language Models (MPLMs), a framework that allows LLM threads to communicate directly via send/receive primitives, unlike traditional fork-join methods. This direct communication reduces redundant context sharing and enables preemption, allowing threads to terminate early based on peer information. The core contribution is an efficient scaling mechanism for LLM reasoning by overcoming the limitations of transient, non-communicating threads.",
+      "url": "http://arxiv.org/abs/2607.01077v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01077v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.01204v1",
+      "title": "TiRex-2: Generalizing TiRex to Multivariate Data and Streaming",
+      "authors": [
+        "Patrick Podest",
+        "Marco Pichler",
+        "Elias Bürger",
+        "Levente Zólyomi",
+        "Bernhard Voggenberger"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "TiRex-2 is a recurrent xLSTM-based foundation model that extends univariate time series forecasting to multivariate scenarios with past and future covariates. Its core method employs a memory-centric recurrent design with constant per-patch cost, overcoming the quadratic complexity and recomputation issues of Transformer models in streaming settings. This enables efficient integration of future-known covariates while maintaining causality, a novel combination for time series foundation models.",
+      "url": "http://arxiv.org/abs/2607.01204v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01204v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01204v1/x2.png",
+      "figure_caption": "Comparison of TiRex, Chronos-2, and TiRex-2. Chronos-2 supports multivariate forecasting with covariates, but is neither target-causal nor constant-memory. TiRex-2 adds these properties while preserving native multivariate covariate support (for more details see Table ˜ 2 ).",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.01125v1",
+      "title": "ZO-Act: Efficient Zeroth-Order Fine-Tuning via One-Shot Activation-Informed Low-Rank Subspaces",
+      "authors": [
+        "Xun Dong",
+        "Yibo Xu",
+        "Naigang Wang",
+        "Xin Li",
+        "Penghang Yin"
+      ],
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "abstract": "ZO-Act enables efficient fine-tuning of large language models without backpropagation by restricting perturbations to a low-rank subspace derived from input activations. This method optimizes lightweight coefficient matrices, reducing variance and enabling compatibility with standard optimizers, while naturally supporting quantized LLM fine-tuning by freezing low-bit weights.",
+      "url": "http://arxiv.org/abs/2607.01125v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01125v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01125v1/latex/figures/subspace_qproj_r1_r32_singlecol.png",
+      "figure_caption": "Stability and gradient alignment of activation-informed subspaces at epoch 3 of Llama-3-8B RTE full fine-tuning. We show the q-projection layers at decoders 0, 15, and 31.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.01152v1",
+      "title": "AGC-Bench: Measuring Artificial General Creativity",
+      "authors": [
+        "Roger Beaty",
+        "Vijeta Deshpande",
+        "Clin K. Y. Lai",
+        "Anna Attuch",
+        "Namrata Shivagunde"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "AGC-Bench is a novel benchmark designed to measure artificial general creativity in LLMs, addressing the lack of unified evaluation in this domain. It systematically aggregates existing AI creativity benchmarks and standardizes them using an agentic harness. A key contribution is the development of AGC-Judge, an LLM fine-tuned using Judge Response Theory to mitigate bias in creativity scoring, enabling robust evaluation across diverse tasks.",
+      "url": "http://arxiv.org/abs/2607.01152v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01152v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01152v1/x1.png",
+      "figure_caption": "Overall and per-domain rankings. Left: top 15 of 83 models on the AGC-Bench composite. Right: top 5 within each of the six domains. Per-domain lineups overlap substantially with the overall ranking but reorder at the margins (e.g., kimi-k2.5 on Problem Solving, claude-opus-4.6-fast on Figurative Language). Full 83-model leaderboard in Appendix F .",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.01131v1",
+      "title": "Autonomous Scientific Discovery via Iterative Meta-Reflection",
+      "authors": [
+        "Bingchen Zhao",
+        "Sara Beery",
+        "Oisin Mac Aodha"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces DiscoPER, an autonomous AI framework that conducts open-ended scientific discovery by dynamically generating and executing code to explore datasets without predefined research questions. Its core method involves iterative hypothesis generation and validation, with a novel meta-reflection mechanism that synthesizes accumulated findings to uncover complex phenomena. The key contribution is enabling AI to perform truly open-ended research by reasoning about its own discoveries, moving beyond constrained search spaces.",
+      "url": "http://arxiv.org/abs/2607.01131v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01131v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.01131v1/x1.png",
+      "figure_caption": "We introduce DiscoPER, an iterative approach for autonomous scientific discovery that takes multimodal data as input and generates a set of validated discoveries pertaining to the input data as output. At each iteration, the system proposes hypotheses, executes statistical tests on the underlying data, and accepts only discoveries that pass held-out validation. Periodically, the Reflect module analyzes the accumulated accepted and rejected claims to identify gaps, confounds, and promising compound hypotheses, which then guide the next round of exploration.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01084v1",
+      "title": "Can Agents Generalize to the Open World? Unveiling the Fragility of Static Training in Tool Use",
+      "authors": [
+        "Song-Lin Lv",
+        "Weiming Wu",
+        "Rui Zhu",
+        "Zi-Jian Cheng",
+        "Lan-Zhe Guo"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces OpenAgent, a new problem setting to evaluate LLM agents' ability to generalize to dynamic, real-world scenarios beyond static benchmarks. The core method involves a controlled sandbox with fine-grained environmental shifts to diagnose performance degradation. The key contribution is demonstrating the fragility of current LLM agents to these shifts and proposing a perturbation-augmented training approach to improve robustness.",
+      "url": "http://arxiv.org/abs/2607.01084v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01084v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.01084v1/x1.png",
+      "figure_caption": "Performance evolution of SFT and RL agents in the closed setting. Both approaches show stable and continuous improvement throughout the training process.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01071v1",
+      "title": "MemSyco-Bench: Benchmarking Sycophancy in Agent Memory",
+      "authors": [
+        "Zhishang Xiang",
+        "Zerui Chen",
+        "Yunbo Tang",
+        "Zhimin Wei",
+        "Ruqin Ning"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "abstract": "This paper introduces MemSyco-Bench, a novel benchmark designed to evaluate \"sycophancy\" in LLM agents, where memory causes them to over-align with users, potentially sacrificing accuracy. The core method involves creating tasks that test an agent's ability to critically use memory, assessing if it can reject inaccurate memories, respect their scope, and resolve conflicts with objective evidence. This contributes a much-needed evaluation framework for a critical emerging risk in agent memory systems.",
+      "url": "http://arxiv.org/abs/2607.01071v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01071v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.01071v1/resources/intro.png",
+      "figure_caption": "We introduce MemSyco-Bench, a comprehensive benchmark for evaluating sycophancy in agent systems, where retrieved historical memories improperly influence agent reasoning. MemSyco-Bench assesses whether agents can appropriately reject, constrain, update, reconcile, or leverage retrieved memories across diverse reasoning scenarios. Through extensive experiments, we show that existing memory systems often increase sycophancy and struggle with appropriate memory use.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01083v1",
+      "title": "Staleness-Learning Rate Scaling Laws for Asynchronous RLHF",
+      "authors": [
+        "Jingwei Song",
+        "Haofeng Xu",
+        "Jie Xiao",
+        "Chengke Bao",
+        "Jingwei Shi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper analyzes how stale data impacts asynchronous Reinforcement Learning from Human Feedback (RLHF). It reveals that stale rollouts introduce a bias proportional to the rollout lag and learning rate. The core contribution is deriving scaling laws that predict when the learning process will collapse, showing it depends on either cumulative learner drift or the staleness factor, depending on which constraint is more restrictive.",
+      "url": "http://arxiv.org/abs/2607.01083v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01083v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.01083v1/x1.png",
+      "figure_caption": "Staleness–learning-rate sweep on Llama-3.2-1B-Instruct . Columns vary the learning rate ( lr = \\( \\mathrm{lr} \\)=\\( \\eta \\) ) and within each panel the curves correspond to staleness S ∈ { 8 , 16 , 32 } S\\( \\in \\)\\{8,16,32\\} . Top: training reward; collapse appears as the curve dropping to and staying at zero. Middle: cosine similarity between consecutive update directions (Grad CosSim). Bottom: held-out validation reward. Reading left-to-right, reducing \\( \\eta \\) enlarges the stable region from large- S S to small- S S settings, so that the maximum stable learning rate scales as η max ∝ 1 / S \\( \\eta_{\\max} \\)\\!\\( \\propto \\)\\!1/S (Section 4.2 ). In every collapsing run the Grad CosSim stays high before the collapse, indicating a coherent, bias-driven (ballistic) drift toward the surrogate-validity boundary; the abrupt zero-reward transition is the resulting escape (Section 4.4 ).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01103v1",
+      "title": "Clinician-Level Agreement Without Clinical Caution: LLM Evaluator Limits in Medical AI Benchmarking",
+      "authors": [
+        "William Philipp",
+        "Finn Fassbender",
+        "Thorsten Langer",
+        "Martje Pauly",
+        "Rebecca Herzog"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces MedQADE, a new standardized benchmark for evaluating medical AI in German, using open-response questions. While a top LLM evaluator showed agreement with human physicians, it lacked crucial clinical caution, failing to abstain on difficult questions as physicians did. This highlights LLMs' limitations in replicating human-level clinical judgment for AI benchmarking.",
+      "url": "http://arxiv.org/abs/2607.01103v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01103v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.01103v1/figs/overview.png",
+      "figure_caption": "The MedQADE benchmark framework. The left panel shows the complete pipeline from dataset construction through parallel annotation by physicians and LLM s. The right panel depicts the four analysis dimensions used to assess human reliability, model performance, annotator alignment, and systematic biases.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.01047v1",
+      "title": "Conversable Complexity: Agentic LLM Collectives as Interpretable Substrates",
+      "authors": [
+        "Elias Najarro",
+        "Ane Espeseth",
+        "Eleni Nisioti",
+        "Sebastian Risi",
+        "Stefano Nichele"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes using agentic collectives of Large Language Models (LLMs) as a novel computational substrate for Artificial Life research. By endowing LLMs with memory, tools, and autonomous action capabilities, their interactions can generate emergent, complex behaviors. Crucially, the natural language communication between these agents provides a unique pathway for interpretability, allowing researchers to directly examine and question their collective dynamics.",
+      "url": "http://arxiv.org/abs/2607.01047v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01047v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.01153v1",
+      "title": "Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded Commands, and Policy Ambiguity",
+      "authors": [
+        "Brett Reynolds"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces \"adversarial pragmatics\" as a novel benchmark and annotation protocol for evaluating AI safety. It addresses limitations of existing benchmarks by providing a linguistically controlled taxonomy and metadata to distinguish failures arising from instruction conflict, embedded commands, and policy ambiguity, rather than just simple pass/fail labels. The core contribution is a more nuanced and robust method for assessing AI behavior in complex, ambiguous natural language scenarios.",
+      "url": "http://arxiv.org/abs/2607.01153v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01153v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01153v1/x1.png",
+      "figure_caption": "Evaluation pipeline for the benchmark artifact. The diagram summarizes the planned data flow from pre-specified item metadata through model output, rule-aided triage, expert labels, LLM-judge labels, adjudication, and metric-driven item revision. No performance quantity is encoded in the figure.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01061v1",
+      "title": "Agentic generation of verifiable rules for deterministic, self-expanding reaction classification",
+      "authors": [
+        "Daniel Armstrong",
+        "Maarten Dobbelaere",
+        "Valentas Olikauskas",
+        "Helena Avila",
+        "Octavian Susanu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a multi-agent LLM framework that automatically generates verifiable reaction classification rules from chemical patent data. The system",
+      "url": "http://arxiv.org/abs/2607.01061v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01061v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01061v1/x1.png",
+      "figure_caption": "a. The multi-agent LLM framework for dynamic taxonomy expansion. Raw reaction data and a seed hierarchy are evaluated by sequential high-level and detailed classification agents. A verifier agent audits the proposed labels; when existing categories are insufficient or imprecise, a label generation agent proposes new classifications. A taxonomy updater integrates these proposals, dynamically expanding the hierarchy to capture unrepresented chemistry without human intervention, resulting in an expanded reaction taxonomy. b. The iterative refinement loop for reaction template generation. An LLM drafts initial, broad SMIRKS patterns (low specificity, high recall) which undergo automated validation against reaction data. Through successive iterations, the LLM applies chemically grounded structural mutations to minimize false positives while maximizing true positive recall, yielding a robust database of generalized, high-specificity reaction templates.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01224v1",
+      "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
+      "authors": [
+        "Shengguang Wu",
+        "Hao Zhu",
+        "Yuhui Zhang",
+        "Xiaohan Wang",
+        "Serena Yeung-Levy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces AutoMem, a framework that treats memory management in LLMs as a trainable cognitive skill,",
+      "url": "http://arxiv.org/abs/2607.01224v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01224v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01224v1/x1.png",
+      "figure_caption": "Memory skill optimization with Qwen2.5-32B-Instruct . Starting from a base agent equipped with file-system memory (v0), AutoMem progressively improves performance through memory scaffold optimization (v0–v5/v4/v2), followed by memory proficiency training (+train) that yields further gains on top of the optimized scaffold.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01104v1",
+      "title": "CausalMix: Data Mixture as Causal Inference for Language Model Training",
+      "authors": [
+        "Zinan Tang",
+        "Yukun Zhang",
+        "Shaomian Zheng",
+        "Zhuoshi Pan",
+        "Qizhi Pei"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "CausalMix reframes LLM data mixing as a causal inference problem, treating data features as covariates and domain mixture as treatment. This allows it to estimate the optimal mixture for larger datasets and models by extrapolating from smaller experiments, overcoming the need for costly retraining when data distributions shift. The core contribution is a scalable and robust method for data mixing that leverages causal modeling to improve LLM training efficiency and performance.",
+      "url": "http://arxiv.org/abs/2607.01104v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01104v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01104v1/x1.png",
+      "figure_caption": "Overview of the CausalMix pipeline. Historical proxy runs provide data-state covariates, mixture assignments, and downstream outcomes, which are used to estimate state-conditioned marginal data returns through orthogonal causal learning.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01087v1",
+      "title": "Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering",
+      "authors": [
+        "James C. Davis",
+        "Paschal C. Amusuo",
+        "Tanmay Singla",
+        "Berk Çakar",
+        "Kirsten A. Davis"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper explores how generative AI is transforming software engineering by shifting the focus from implementation effort to managing AI-generated code. The core method is a 12-week case study where an expert engineer used AI coding agents to build a system, meticulously documenting the process. The key contribution is a proposed theory of \"governance conversion,\" a process model explaining how to",
+      "url": "http://arxiv.org/abs/2607.01087v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01087v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01170v1",
+      "title": "Diffusion-GR2: Diffusion Generative Reasoning Re-ranker",
+      "authors": [
+        "Zhuoxuan Zhang",
+        "Kangqi Ni",
+        "Yuhang Chen",
+        "Mingfu Liang",
+        "Xiaohan Wei"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "abstract": "Diffusion-GR2 addresses the inference speed limitations of generative reasoning recommenders by adapting autoregressive models to a block-diffusion framework. It introduces novel techniques to overcome accuracy gaps arising from parallel decoding, specifically by ensuring valid ranking structures and mitigating off-policy learning issues during fine-tuning. This allows for significantly faster recommendation generation without sacrificing accuracy.",
+      "url": "http://arxiv.org/abs/2607.01170v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01170v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01170v1/x1.png",
+      "figure_caption": "Overview of Diffusion-GR2. We start from the AR GR2 reasoning re-ranker, initialize a block-diffusion decoder from its weights, and recover the conversion gap through conversion fine-tuning (CFT), on-policy distillation (OPD), and reinforcement learning (RL). The final model preserves the GR2 re-ranking interface while reducing sequential decoding cost through block-parallel denoising.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01136v1",
+      "title": "Skills Are Not Islands: Measuring Dependency and Risk in Agent Skill Supply Chains",
+      "authors": [
+        "Changguo Jia",
+        "Tianqi Zhao",
+        "Runzhi He",
+        "Minghui Zhou"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces Agent Skill Supply Chains (ASSCs) to address the implicit dependencies within LLM agent skills. Their core method, SkillDepAnalyzer, extracts natural language evidence to model skills as dependency-bearing artifacts, creating dependency graphs. This approach accurately recovers skill metadata and dependencies, outperforming existing baselines and contributing a novel framework for managing and understanding the complex interdependencies in agent skill ecosystems.",
+      "url": "http://arxiv.org/abs/2607.01136v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01136v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01136v1/x1.png",
+      "figure_caption": "SDA generation workflow.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01115v1",
+      "title": "Towards Developing a Multimodal Chat Assistant for University Stakeholders: RAG-based Approach",
+      "authors": [
+        "Md Abu Hanif Shaikh",
+        "Abdullah Al Shafi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes a multimodal university chatbot using a retrieval-augmented generation (RAG) approach. It combines a large language model with semantic retrieval from university resources to answer complex, domain-specific queries, accepting both text and image inputs. The contribution lies in creating an intelligent, adaptable, and deployable assistant for university stakeholders, particularly in resource-constrained environments.",
+      "url": "http://arxiv.org/abs/2607.01115v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01115v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01115v1/x1.png",
+      "figure_caption": "Architecture of our developed system.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.01065v1",
+      "title": "GSRQ: Gain-Shape Residual Quantization for Sub-1-bit KV Cache",
+      "authors": [
+        "Soosung Kim",
+        "Minjae Park",
+        "Eui-Young Chung",
+        "Jaeyong Chung"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper addresses the memory bottleneck of LLMs' KV caches by proposing Gain-Shape Residual Quantization (GSRQ). GSRQ introduces a novel \"Gain-Shape K-means\" (GSKM) algorithm that improves directional preservation during quantization, unlike traditional methods that can lead to centroid shrinkage. This allows for more efficient sub-1-bit compression of the KV cache, enabling larger context windows.",
+      "url": "http://arxiv.org/abs/2607.01065v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01065v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01065v1/x1.png",
+      "figure_caption": "Illustration of a hypothesized vicious cycle in high-dimensional ℓ 2 \\( \\ell_{2} \\) -based K-Means. Averaging cancellation induces centroid shrinkage, which reduces angular sensitivity and leads to poorer direction and assignment, further reinforcing cancellation.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.01232v1",
+      "title": "Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training",
+      "authors": [
+        "Zijian Zhang",
+        "Rizhen Hu",
+        "Athanasios Glentis",
+        "Dawei Li",
+        "Chung-Yiu Yau"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how reinforcement learning (RL) adaptation is distributed across transformer layers in large language models. The core finding is that training just a single transformer layer can recover most, and sometimes even exceed, the performance gains achieved by full-parameter RL training. This challenges the common assumption of uniform layer contribution and introduces \"layer contribution\" as a metric to quantify this phenomenon.",
+      "url": "http://arxiv.org/abs/2607.01232v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01232v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01232v1/x1.png",
+      "figure_caption": "(a) Layer contribution (defined in § 2.2 ) across all seven models studied in this work, plotted against depth-normalized relative layer position (0 = Layer 0, 1 = Layer L − 1 L{-}1 ). Each point corresponds to RL training performed on a single transformer layer while all remaining layers are frozen. The y-axis measures the fraction of full-parameter RL improvement recovered by training that layer alone. Solid lines denote models with full layer scans; dashed lines denote models where a representative subset of layers is trained. Despite spanning two model families, three RL algorithms, and two task domains (mathematical reasoning and agentic tasks), all seven models exhibit the same structure: layers around 40%–60% of network depth consistently achieve the highest contribution, with some surpassing full-parameter RL training (green-shaded region). (b) Performance comparison on the three Qwen3 models (NuminaMath-CoT, math benchmarks). Best Guided denotes the best result among the layer contribution-guided strategies from § 4 : either boosting the learning rate of high-contribution layers or selectively training only those layers. The percentage annotations indicate additional gain beyond full-parameter RL, expressed relative to the total RL gain. Training only these high-contribution layers consistently outperforms full-parameter RL across all three scales.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.01077v1",
+      "title": "Message Passing Enables Efficient Reasoning",
+      "authors": [
+        "Xuecheng Liu",
+        "Daman Arora",
+        "Gokul Swamy",
+        "Andrea Zanette"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Message Passing Language Models (MPLMs), a framework that allows LLM threads to communicate directly via send/receive primitives, unlike traditional fork-join methods. This direct communication reduces redundant context sharing and enables preemption, allowing threads to terminate early based on peer information. The core contribution is an efficient scaling mechanism for LLM reasoning by overcoming the limitations of transient, non-communicating threads.",
+      "url": "http://arxiv.org/abs/2607.01077v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01077v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.01204v1",
+      "title": "TiRex-2: Generalizing TiRex to Multivariate Data and Streaming",
+      "authors": [
+        "Patrick Podest",
+        "Marco Pichler",
+        "Elias Bürger",
+        "Levente Zólyomi",
+        "Bernhard Voggenberger"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "TiRex-2 is a recurrent xLSTM-based foundation model that extends univariate time series forecasting to multivariate scenarios with past and future covariates. Its core method employs a memory-centric recurrent design with constant per-patch cost, overcoming the quadratic complexity and recomputation issues of Transformer models in streaming settings. This enables efficient integration of future-known covariates while maintaining causality, a novel combination for time series foundation models.",
+      "url": "http://arxiv.org/abs/2607.01204v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01204v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01204v1/x2.png",
+      "figure_caption": "Comparison of TiRex, Chronos-2, and TiRex-2. Chronos-2 supports multivariate forecasting with covariates, but is neither target-causal nor constant-memory. TiRex-2 adds these properties while preserving native multivariate covariate support (for more details see Table ˜ 2 ).",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.01125v1",
+      "title": "ZO-Act: Efficient Zeroth-Order Fine-Tuning via One-Shot Activation-Informed Low-Rank Subspaces",
+      "authors": [
+        "Xun Dong",
+        "Yibo Xu",
+        "Naigang Wang",
+        "Xin Li",
+        "Penghang Yin"
+      ],
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "abstract": "ZO-Act enables efficient fine-tuning of large language models without backpropagation by restricting perturbations to a low-rank subspace derived from input activations. This method optimizes lightweight coefficient matrices, reducing variance and enabling compatibility with standard optimizers, while naturally supporting quantized LLM fine-tuning by freezing low-bit weights.",
+      "url": "http://arxiv.org/abs/2607.01125v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01125v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01125v1/latex/figures/subspace_qproj_r1_r32_singlecol.png",
+      "figure_caption": "Stability and gradient alignment of activation-informed subspaces at epoch 3 of Llama-3-8B RTE full fine-tuning. We show the q-projection layers at decoders 0, 15, and 31.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.01152v1",
+      "title": "AGC-Bench: Measuring Artificial General Creativity",
+      "authors": [
+        "Roger Beaty",
+        "Vijeta Deshpande",
+        "Clin K. Y. Lai",
+        "Anna Attuch",
+        "Namrata Shivagunde"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "AGC-Bench is a novel benchmark designed to measure artificial general creativity in LLMs, addressing the lack of unified evaluation in this domain. It systematically aggregates existing AI creativity benchmarks and standardizes them using an agentic harness. A key contribution is the development of AGC-Judge, an LLM fine-tuned using Judge Response Theory to mitigate bias in creativity scoring, enabling robust evaluation across diverse tasks.",
+      "url": "http://arxiv.org/abs/2607.01152v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01152v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.01152v1/x1.png",
+      "figure_caption": "Overall and per-domain rankings. Left: top 15 of 83 models on the AGC-Bench composite. Right: top 5 within each of the six domains. Per-domain lineups overlap substantially with the overall ranking but reorder at the margins (e.g., kimi-k2.5 on Problem Solving, claude-opus-4.6-fast on Figurative Language). Full 83-model leaderboard in Appendix F .",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Postdoctoral Research Fellowship in Validation of AI-based Decision Making",
+      "url": "https://euraxess.ec.europa.eu/jobs/449813",
+      "description": "Simula: Solving fundamental problems in ICT that benefit society.Simula’s vision is to be an excellent research lab, educating future technology leaders and providing independent advice to the government. We want to be an innovator and innovation partner and apply our expertise to problems that... * Work Locations: Number of offers: 1, Norway, Simula Metropolitan, Oslo, 0170, Oslo, Stensberggata 27 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 7 Aug 2026 - 23:59 (Europe/Oslo) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland * [University of Warsaw](https://euraxess.ec.europa.eu/partnering/organisations/profile/university-warsaw-14) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "2 July 2026",
+      "deadline": "7 Aug 2026 - 23:59 (Europe/Oslo)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Validation of AI-based Decision Making, Computer Science\nKey Requirements: Recognized Researcher (R2) profile\nApplication Info: deadline 7 Aug 2026, N/A materials, N/A contact\nPosition Details: Oslo, Norway, N/A contract, N/A workload, N/A salary\nOne-line Advice: N/A",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Postdoctoral Research Fellowship in Validation of AI-based Decision Making",
+      "url": "https://euraxess.ec.europa.eu/jobs/449813",
+      "description": "Simula: Solving fundamental problems in ICT that benefit society.Simula’s vision is to be an excellent research lab, educating future technology leaders and providing independent advice to the government. We want to be an innovator and innovation partner and apply our expertise to problems that... * Work Locations: Number of offers: 1, Norway, Simula Metropolitan, Oslo, 0170, Oslo, Stensberggata 27 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 7 Aug 2026 - 23:59 (Europe/Oslo) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland * [University of Warsaw](https://euraxess.ec.europa.eu/partnering/organisations/profile/university-warsaw-14) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "2 July 2026",
+      "deadline": "7 Aug 2026 - 23:59 (Europe/Oslo)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Validation of AI-based Decision Making, Computer Science\nKey Requirements: Recognized Researcher (R2) profile\nApplication Info: deadline 7 Aug 2026, N/A materials, N/A contact\nPosition Details: Oslo, Norway, N/A contract, N/A workload, N/A salary\nOne-line Advice: N/A",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
