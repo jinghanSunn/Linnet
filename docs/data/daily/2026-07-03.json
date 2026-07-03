@@ -1,0 +1,1231 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T11:52:52.626024+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.02466v1",
+          "title": "Learning to Move Before Learning to Do: Task-Agnostic pretraining for VLAs",
+          "authors": [
+            "Junhao Shi",
+            "Siyin Wang",
+            "Xiaopeng Yu",
+            "Li Ji",
+            "Jingjing Gong"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.RO"
+          ],
+          "abstract": "This paper proposes Task-Agnostic Pretraining (TAP) to address the data scarcity in Vision-Language-Action (VLA) models. TAP first learns transferable motor skills from unlabeled robot interaction data using self-supervised inverse dynamics, then fine-tunes these skills with minimal expert demonstrations for language grounding. This approach significantly reduces the need for costly expert data while achieving competitive performance.",
+          "url": "http://arxiv.org/abs/2607.02466v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02466v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.02466v1/x1.png",
+          "figure_caption": "Overview of the Proposed Task-Agnostic Pretraining (TAP) Framework. (a) Data Sources: We leverage massive amounts of cheap, unlabeled interaction data \\( \\CJK \\)@punctchar \\( \\CJK \\)@uniPunct 0\"80\"94sourced from existing heterogeneous datasets (e.g., Bridge) or autonomous robot self-exploration \\( \\CJK \\)@punctchar \\( \\CJK \\)@uniPunct 0\"80\"94 discarding any original task labels. (b) Stage 1 (Task-Agnostic Pretraining): The model is pretrained using a self-supervised Inverse Dynamics (ID) objective. By predicting the action a t a_{t} required to transition between frames o t o_{t} and o t + 1 o_{t+1} , the model learns robust physical affordances and motor control (\"how to move\") without human supervision. (c) Stage 2 (Task-Specific Alignment): The pretrained model is then finetuned on a small set of language-annotated expert demonstrations. This stage aligns the prelearned physical priors with high-level semantic instructions (\"what to do\"), achieving high performance with significantly improved data efficiency.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.02509v1",
+          "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+          "authors": [
+            "Yanjun Zhao",
+            "Ruizhong Qiu",
+            "Tianxin Wei",
+            "Yuanchen Bei",
+            "Zhining Liu"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "ReContext is a training-free inference method that improves LLMs' ability to reason over long contexts. It works by recursively identifying and replaying relevant evidence from the input context before the final answer generation, creating a query-conditioned evidence pool. This approach effectively bridges the gap between LLMs' context access and utilization without requiring model retraining or external memory.",
+          "url": "http://arxiv.org/abs/2607.02509v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02509v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.02509v1/figures/teaser.png",
+          "figure_caption": "Top 0.1% of context tokens already accounts for about 50% / 80% accumulated relevance score across three LLMs, corresponding to only 128 tokens in a 128K-token context. This figure ranks all context tokens by their relevance scores with respect to the question and shows how much accumulated relevance score is covered by the top-ranked tokens. Each curve represents the mean trend over eight datasets, and the shaded region shows the variance across datasets.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.02507v1",
+          "title": "What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates",
+          "authors": [
+            "Arman Ghaffarizadeh",
+            "Danyal Mohaddes",
+            "Aliakbar Izadkhah",
+            "Shahriar Noroozizadeh"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.MA"
+          ],
+          "abstract": "This paper investigates how social context influences LLM agents' communication in multi-agent debates. By introducing a dual-channel framework (public vs. off-the-record), the study demonstrates that alignment-inducing social structures lead to significant divergence in what agents say publicly versus privately. This finding highlights the emergence of latent objectives shaped by social dynamics, even without explicit task instructions.",
+          "url": "http://arxiv.org/abs/2607.02507v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02507v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.02403v1",
+          "title": "ACID: Action Consistency via Inverse Dynamics for Planning with World Models",
+          "authors": [
+            "Gawon Seo",
+            "Dongwon Kim",
+            "Suha Kwak"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV",
+            "cs.RO"
+          ],
+          "abstract": "This paper introduces ACID, a planning method for embodied control that addresses the issue of unrealistic intermediate transitions in world model rollouts. ACID enforces \"cycle action consistency\" by using an inverse dynamics model to ensure that backward-predicted actions match forward-predicted actions. This novel cost function improves planning performance and efficiency across various tasks and world models.",
+          "url": "http://arxiv.org/abs/2607.02403v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02403v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.02403v1/fig/final_overall_architecture.png",
+          "figure_caption": "Overall architecture of ACID. ( Left ): Decision-time planning with an action-conditioned world model: an MPC with CEM searches over candidate action sequences a 0 : H − 1 a_{0:H-1} to minimize the augmented planning cost. The current observation o 0 o_{0} is encoded by E θ E_{\\( \\theta \\)} to z 0 z_{0} , and the world model F θ F_{\\( \\theta \\)} unrolls a latent trajectory z ^ 1 : H \\( \\hat{z}_{1:H} \\) from ( z 0 , a 0 : H − 1 ) (z_{0},a_{0:H-1}) . The inverse dynamics model G ϕ G_{\\( \\phi \\)} then takes each predicted transition ( z ^ t , z ^ t + 1 ) (\\( \\hat{z}_{t} \\),\\( \\hat{z}_{t+1} \\)) and infers the action a ^ t \\( \\hat{a}_{t} \\) that would explain it. ( Right ): The augmented planning cost combines two terms: the goal cost , which prefers candidate action sequences whose predicted final latent is close to the goal, and the action consistency cost , which prefers candidate action sequences whose predicted trajectory is realizable in environment.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.02502v1",
+          "title": "DemoPSD: Disagreement-Modulated Policy Self-Distillation",
+          "authors": [
+            "Yunhe Li",
+            "Hao Shi",
+            "Wenhao Liu",
+            "Mengzhe Ruan",
+            "Hanxu Hou"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "DemoPSD addresses limitations in on-policy self-distillation for LLMs by introducing \"selective adoption of teacher guidance.\" Instead of directly mimicking the teacher's dense supervision, it guides the student towards a \"reverse-KL barycenter target,\" a weighted combination of teacher and student distributions. This approach balances learning from the teacher with the student's own exploration, mitigating overfitting and privileged information leakage.",
+          "url": "http://arxiv.org/abs/2607.02502v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02502v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.02396v1",
+          "title": "Fast Multi-dimensional Refusal Subspaces via RFM-AGOP",
+          "authors": [
+            "Thomas Winninger"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces RFM-AGOP, a fast method for identifying multi-dimensional \"refusal subspaces\" in LLMs, which represent complex behaviors like refusing harmful queries. By adapting the efficient Recursive Feature Machine algorithm with a probe-informed initialization, it significantly speeds up subspace extraction, making it practical for reasoning models. The contribution lies in achieving both computational efficiency and improved performance in identifying these critical behavioral subspaces.",
+          "url": "http://arxiv.org/abs/2607.02396v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02396v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.02460v1",
+          "title": "Neuron-Aware Data Selection for Annotation-Free LLM Self-Distillation",
+          "authors": [
+            "Zhuowei Chen",
+            "Xiang Lorraine Li"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces Neuron-Aware Data Selection for Annotation-Free LLM Self-Distillation (Neuron-OPSD). Its core method uses internal neuron activations to intelligently select training data and construct a teacher model for self-distillation. This approach aims to improve LLM performance in specialized domains without costly human annotations, overcoming limitations of previous annotation-free methods.",
+          "url": "http://arxiv.org/abs/2607.02460v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02460v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.02460v1/x1.png",
+          "figure_caption": "Overview of the Proposed Neuron-OPSD.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.02510v1",
+          "title": "Online Safety Monitoring for LLMs",
+          "authors": [
+            "Mona Schirmer",
+            "Metod Jazbec",
+            "Alexander Timans",
+            "Christian Naesseth",
+            "Maja Waldron"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "stat.ML",
+            "stat.AP"
+          ],
+          "abstract": "This paper proposes a simple, real-time online safety monitor for LLMs. It leverages an external verifier model's signal and calibrates a threshold based on risk control to trigger alarms when safety is compromised. The core contribution is demonstrating that this straightforward thresholding approach is competitive with more complex sequential testing methods for detecting unsafe LLM outputs.",
+          "url": "http://arxiv.org/abs/2607.02510v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02510v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.02510v1/plots/monitors_compared_math_transposed.png",
+          "figure_caption": "Monitoring factuality on mathematical reasoning (MATH): CRC and UCB calibrate a single threshold to turn a PRM score into an alarm, yet detect incorrect answers earlier ( third row ) than e-valuators, which train several density estimators.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.02436v1",
+          "title": "Reasoning effort, not tool access, buys first-try reliability in agentic code generation: an observational study",
+          "authors": [
+            "Achint Mehta"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.SE"
+          ],
+          "abstract": "This paper investigates whether increased capabilities or reasoning effort improves agentic code generation. Through an observational study of 90 agent runs building the same application, they found that **model generation (capability tier) was the primary driver of first-try reliability, not tool access or prompt design.** Their contribution lies in demonstrating that **frontier models significantly outperform older ones, and that specific complex tasks like container deployment remain challenging and inconsistently reliable across different agent configurations.**",
+          "url": "http://arxiv.org/abs/2607.02436v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02436v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.02389v1",
+          "title": "Steerability via constraints: a substrate for scalable oversight of coding agents",
+          "authors": [
+            "Thomas Winninger"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR",
+            "cs.SE"
+          ],
+          "abstract": "This paper proposes a \"constrained substrate\" approach for scalable oversight of coding agents, drawing parallels to traditional software engineering practices like access control and coding conventions. By imposing these constraints, the system significantly improves the ability of a small reviewer agent to detect security vulnerabilities (backdoors) in a Python codebase, demonstrating a substantial increase in recall compared to unconstrained agents. The core contribution lies in showing that established engineering principles are a cost-effective and scalable method for managing AI coding agents, outperforming more complex agentic scaffolding.",
+          "url": "http://arxiv.org/abs/2607.02389v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02389v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.02371v1",
+          "title": "VisionAId: An Offline-First Multimodal Android Assistant for People with Visual Impairment, Featuring Personalized Object Retrieval",
+          "authors": [
+            "Cristian-Gabriel Florea",
+            "Stelian Spînu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "VisionAId is an Android app that transforms a smartphone into an offline-first visual assistant for the visually impaired. Its core method integrates multiple on-device deep learning models for real-time object recognition, depth estimation, and face detection, with an optional cloud LLM for enhanced descriptions. A key contribution is its few-shot learning capability, allowing users to personalize object retrieval by simply photographing their belongings.",
+          "url": "http://arxiv.org/abs/2607.02371v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02371v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.02371v1/imagini/architecture_2.png",
+          "figure_caption": "Overall layered architecture of VisionAId. All perception runs on-device; the cloud language model is an optional component used only for narrative scene description and object labeling.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.02431v1",
+          "title": "WorldSample: Closed-loop Real-robot RL with World Modelling",
+          "authors": [
+            "Yuquan Xue",
+            "Le Xu",
+            "Zeyi Liu",
+            "Zhenyu Wu",
+            "Zhengyi Gu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.RO"
+          ],
+          "abstract": "WorldSample addresses the high cost of real-world reinforcement learning (RL) for robots by creating a closed loop between physical interactions and a learned world model. It uses real robot data to train a high-fidelity world model, which then generates synthetic transitions to augment training. This approach, combined with a novel Policy-Paced Learning strategy for sample selection, significantly reduces the need for costly physical rollouts while improving policy performance.",
+          "url": "http://arxiv.org/abs/2607.02431v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02431v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.02431v1/x1.png",
+          "figure_caption": "WorldSample overview. WorldSample expands real-robot rollout into multiple physically grounded synthetic trajectories with an action-conditioned world model, forming a real-synthetic training loop that improves success rate and reduces interaction cost.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.02387v1",
+          "title": "Bringing Agentic Search to Earth Observation Data Discovery",
+          "authors": [
+            "Minghan Yu",
+            "Youran Sun",
+            "Chugang Yi",
+            "Yixin Wen",
+            "Haizhao Yang"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.IR"
+          ],
+          "abstract": "This paper introduces an agentic search system that leverages NASA's Earth Observation Knowledge Graph to improve discovery of geoscience data and tools. By combining a neural scorer fine-tuned on a new benchmark with BM25 and a zero-shot agentic reranking stage, the system significantly enhances search relevance and recall for natural language queries. The core contribution is demonstrating how agentic search amplifies the value of knowledge graphs for complex data discovery.",
+          "url": "http://arxiv.org/abs/2607.02387v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02387v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.02387v1/fig-pipeline.png",
+          "figure_caption": "Overview of the three-stage agentic search pipeline (Section 5.1 ). Stage 1 : the Router first attempts to resolve each query via NASA official tools (Harmony, SDE, WorldView, Giovanni); queries that can be fully answered here terminate early. Stage 2 : if no official tool suffices, the hybrid BM25 + NN-SSC retriever surfaces the most relevant datasets from the NASA CMR corpus. Stage 3 : retrieved candidates are reranked by an LLM that autonomously invokes web search and arXiv paper lookup to ground its ranking decisions in external context; the final ranked list is returned to the user.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.02390v1",
+          "title": "DecompRL: Solving Harder Problems by Learning Modular Code Generation",
+          "authors": [
+            "Juliette Decugis",
+            "Fabian Gloeckle",
+            "Francis Bach",
+            "Taco Cohen",
+            "Gabriel Synnaeve"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "DecompRL addresses the limitations of LLMs in solving complex problems by learning to decompose them into smaller, independently solvable sub-functions. Instead of brute-force sampling or relying solely on gradient signals, this RL algorithm explicitly learns to generate and recombine modular code structures. This approach significantly expands the search space of potential solutions by combining implementations of different modules, enabling LLMs to tackle problems previously beyond their capabilities.",
+          "url": "http://arxiv.org/abs/2607.02390v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02390v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.02390v1/images/images_iclr/pass_at_k_by_diff.png",
+          "figure_caption": "Decomp RL solves harder problems than existing RL methods. Our hierarchical training learns 1) a decomposition policy that breaks down problems into simpler functions and 2) an implementation policy that writes code for each function in parallel. Given a high token budget, Decomp RL solves up to 35 % 35\\% problems of the LiveCodeBench hard subset ( 2024 / 08 / 01 2024/08/01 to 2025 / 02 / 01 2025/02/01 ) Jain et al. ( 2024a ) .",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.02386v1",
+          "title": "Transformer Geometry Observatory TGO-II: Representational Similarity Observatory",
+          "authors": [
+            "Kaustubh Kapil",
+            "Kishor P. Upla"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces TGO-II, a framework for analyzing the geometric evolution of Vision Transformer representations during training. Using methods like CKA and SVCCA, it reveals that representational similarity decreases as training progresses, indicating increasing specialization of internal features. This work contributes a novel approach to understanding the internal dynamics of Vision Transformers beyond just attention mechanisms.",
+          "url": "http://arxiv.org/abs/2607.02386v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02386v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.02391v1",
+          "title": "WattGPU: Predicting Inference Power and Latency on Unseen GPUs and LLMs",
+          "authors": [
+            "Mauricio Fadel Argerich",
+            "Jonathan Fürst",
+            "Marta Patiño-Martínez"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.DC"
+          ],
+          "abstract": "WattGPU introduces two predictive models that estimate LLM inference power and latency using only publicly available LLM metadata and GPU specifications. This novel approach eliminates the need for hardware profiling, enabling accurate predictions for unseen GPUs and LLMs. The core contribution is a generalized, hardware-agnostic prediction system for optimizing LLM deployments.",
+          "url": "http://arxiv.org/abs/2607.02391v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02391v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.02391v1/x1.png",
+          "figure_caption": "GPU selection is a key lever for energy savings in LLM inference. For deploying Llama 3.1 8B with a Service Level Agreement (SLA) of a mean ITL < 25 <25 ms, it is possible to reduce power draw by 43% by choosing an A30 instead of an H100. Data from the Watt Counts dataset showing only GPUs where the LLM fits in memory.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.02416v1",
+          "title": "The Future of NLP may not be at NLP Conferences: Scholarly Migration Patterns in Natural Language Processing",
+          "authors": [
+            "David Jurgens"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates scholarly migration patterns in NLP, finding that the field's center of gravity is shifting away from traditional NLP conferences like ACL. The core method involves analyzing publication trends of both established and new authors, comparing pre- and post-LLM eras. The key contribution is demonstrating a significant migration of NLP research to general ML venues and newer \"Findings\" tracks, indicating a blurring of disciplinary boundaries due to LLM advancements.",
+          "url": "http://arxiv.org/abs/2607.02416v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02416v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.02416v1/x1.png",
+          "figure_caption": "Per-year mean share of papers at each of the three tracked venue families per cohort author, renormalized to sum to one (topic-active cohort, N = 4 , 181 N=4{,}181 ). The cohort’s *ACL share holds near 76–80% through 2020 and then declines to 63% by 2025; General-ML rises monotonically from ∼ \\( \\sim \\) 4% in 2015 to 31% in 2025, overtaking AI-Broad (which falls from 19% to 7%) around 2022–2023.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.02464v1",
+          "title": "Will Scaling Improve Social Simulation with LLMs?",
+          "authors": [
+            "Caleb Ziems",
+            "William Held",
+            "Su Doga Karaca",
+            "David Grusky",
+            "Tatsunori Hashimoto"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates if scaling up Large Language Models (LLMs) improves their fidelity in social simulations. The core method involves training and evaluating LLMs under varying compute budgets and parameter sizes across opinion modeling, behavioral simulation, and longitudinal forecasting. The key contribution is the surprising finding that **compute scaling significantly improves social simulation fidelity**, suggesting that current scaling trends are beneficial for this application.",
+          "url": "http://arxiv.org/abs/2607.02464v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.02464v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.02464v1/x1.png",
+          "figure_caption": "Compute Scaling Laws. We observe log-linear improvements in task loss on all three social science tasks after scaling compute alone with models trained on DCLM (Li et al. , 2024 ) from 10 18 10^{18} to 10 20 10^{20} FLOPs.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 31,
+        "papers_after_llm_filter": 18,
+        "count": 18
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 31,
+    "papers_after_llm_filter": 18,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 47
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.02466v1",
+      "title": "Learning to Move Before Learning to Do: Task-Agnostic pretraining for VLAs",
+      "authors": [
+        "Junhao Shi",
+        "Siyin Wang",
+        "Xiaopeng Yu",
+        "Li Ji",
+        "Jingjing Gong"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper proposes Task-Agnostic Pretraining (TAP) to address the data scarcity in Vision-Language-Action (VLA) models. TAP first learns transferable motor skills from unlabeled robot interaction data using self-supervised inverse dynamics, then fine-tunes these skills with minimal expert demonstrations for language grounding. This approach significantly reduces the need for costly expert data while achieving competitive performance.",
+      "url": "http://arxiv.org/abs/2607.02466v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02466v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.02466v1/x1.png",
+      "figure_caption": "Overview of the Proposed Task-Agnostic Pretraining (TAP) Framework. (a) Data Sources: We leverage massive amounts of cheap, unlabeled interaction data \\( \\CJK \\)@punctchar \\( \\CJK \\)@uniPunct 0\"80\"94sourced from existing heterogeneous datasets (e.g., Bridge) or autonomous robot self-exploration \\( \\CJK \\)@punctchar \\( \\CJK \\)@uniPunct 0\"80\"94 discarding any original task labels. (b) Stage 1 (Task-Agnostic Pretraining): The model is pretrained using a self-supervised Inverse Dynamics (ID) objective. By predicting the action a t a_{t} required to transition between frames o t o_{t} and o t + 1 o_{t+1} , the model learns robust physical affordances and motor control (\"how to move\") without human supervision. (c) Stage 2 (Task-Specific Alignment): The pretrained model is then finetuned on a small set of language-annotated expert demonstrations. This stage aligns the prelearned physical priors with high-level semantic instructions (\"what to do\"), achieving high performance with significantly improved data efficiency.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02509v1",
+      "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+      "authors": [
+        "Yanjun Zhao",
+        "Ruizhong Qiu",
+        "Tianxin Wei",
+        "Yuanchen Bei",
+        "Zhining Liu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "ReContext is a training-free inference method that improves LLMs' ability to reason over long contexts. It works by recursively identifying and replaying relevant evidence from the input context before the final answer generation, creating a query-conditioned evidence pool. This approach effectively bridges the gap between LLMs' context access and utilization without requiring model retraining or external memory.",
+      "url": "http://arxiv.org/abs/2607.02509v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02509v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.02509v1/figures/teaser.png",
+      "figure_caption": "Top 0.1% of context tokens already accounts for about 50% / 80% accumulated relevance score across three LLMs, corresponding to only 128 tokens in a 128K-token context. This figure ranks all context tokens by their relevance scores with respect to the question and shows how much accumulated relevance score is covered by the top-ranked tokens. Each curve represents the mean trend over eight datasets, and the shaded region shows the variance across datasets.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02507v1",
+      "title": "What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates",
+      "authors": [
+        "Arman Ghaffarizadeh",
+        "Danyal Mohaddes",
+        "Aliakbar Izadkhah",
+        "Shahriar Noroozizadeh"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "This paper investigates how social context influences LLM agents' communication in multi-agent debates. By introducing a dual-channel framework (public vs. off-the-record), the study demonstrates that alignment-inducing social structures lead to significant divergence in what agents say publicly versus privately. This finding highlights the emergence of latent objectives shaped by social dynamics, even without explicit task instructions.",
+      "url": "http://arxiv.org/abs/2607.02507v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02507v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02403v1",
+      "title": "ACID: Action Consistency via Inverse Dynamics for Planning with World Models",
+      "authors": [
+        "Gawon Seo",
+        "Dongwon Kim",
+        "Suha Kwak"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces ACID, a planning method for embodied control that addresses the issue of unrealistic intermediate transitions in world model rollouts. ACID enforces \"cycle action consistency\" by using an inverse dynamics model to ensure that backward-predicted actions match forward-predicted actions. This novel cost function improves planning performance and efficiency across various tasks and world models.",
+      "url": "http://arxiv.org/abs/2607.02403v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02403v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02403v1/fig/final_overall_architecture.png",
+      "figure_caption": "Overall architecture of ACID. ( Left ): Decision-time planning with an action-conditioned world model: an MPC with CEM searches over candidate action sequences a 0 : H − 1 a_{0:H-1} to minimize the augmented planning cost. The current observation o 0 o_{0} is encoded by E θ E_{\\( \\theta \\)} to z 0 z_{0} , and the world model F θ F_{\\( \\theta \\)} unrolls a latent trajectory z ^ 1 : H \\( \\hat{z}_{1:H} \\) from ( z 0 , a 0 : H − 1 ) (z_{0},a_{0:H-1}) . The inverse dynamics model G ϕ G_{\\( \\phi \\)} then takes each predicted transition ( z ^ t , z ^ t + 1 ) (\\( \\hat{z}_{t} \\),\\( \\hat{z}_{t+1} \\)) and infers the action a ^ t \\( \\hat{a}_{t} \\) that would explain it. ( Right ): The augmented planning cost combines two terms: the goal cost , which prefers candidate action sequences whose predicted final latent is close to the goal, and the action consistency cost , which prefers candidate action sequences whose predicted trajectory is realizable in environment.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02502v1",
+      "title": "DemoPSD: Disagreement-Modulated Policy Self-Distillation",
+      "authors": [
+        "Yunhe Li",
+        "Hao Shi",
+        "Wenhao Liu",
+        "Mengzhe Ruan",
+        "Hanxu Hou"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "DemoPSD addresses limitations in on-policy self-distillation for LLMs by introducing \"selective adoption of teacher guidance.\" Instead of directly mimicking the teacher's dense supervision, it guides the student towards a \"reverse-KL barycenter target,\" a weighted combination of teacher and student distributions. This approach balances learning from the teacher with the student's own exploration, mitigating overfitting and privileged information leakage.",
+      "url": "http://arxiv.org/abs/2607.02502v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02502v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02396v1",
+      "title": "Fast Multi-dimensional Refusal Subspaces via RFM-AGOP",
+      "authors": [
+        "Thomas Winninger"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces RFM-AGOP, a fast method for identifying multi-dimensional \"refusal subspaces\" in LLMs, which represent complex behaviors like refusing harmful queries. By adapting the efficient Recursive Feature Machine algorithm with a probe-informed initialization, it significantly speeds up subspace extraction, making it practical for reasoning models. The contribution lies in achieving both computational efficiency and improved performance in identifying these critical behavioral subspaces.",
+      "url": "http://arxiv.org/abs/2607.02396v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02396v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02460v1",
+      "title": "Neuron-Aware Data Selection for Annotation-Free LLM Self-Distillation",
+      "authors": [
+        "Zhuowei Chen",
+        "Xiang Lorraine Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces Neuron-Aware Data Selection for Annotation-Free LLM Self-Distillation (Neuron-OPSD). Its core method uses internal neuron activations to intelligently select training data and construct a teacher model for self-distillation. This approach aims to improve LLM performance in specialized domains without costly human annotations, overcoming limitations of previous annotation-free methods.",
+      "url": "http://arxiv.org/abs/2607.02460v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02460v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02460v1/x1.png",
+      "figure_caption": "Overview of the Proposed Neuron-OPSD.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02510v1",
+      "title": "Online Safety Monitoring for LLMs",
+      "authors": [
+        "Mona Schirmer",
+        "Metod Jazbec",
+        "Alexander Timans",
+        "Christian Naesseth",
+        "Maja Waldron"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "stat.ML",
+        "stat.AP"
+      ],
+      "abstract": "This paper proposes a simple, real-time online safety monitor for LLMs. It leverages an external verifier model's signal and calibrates a threshold based on risk control to trigger alarms when safety is compromised. The core contribution is demonstrating that this straightforward thresholding approach is competitive with more complex sequential testing methods for detecting unsafe LLM outputs.",
+      "url": "http://arxiv.org/abs/2607.02510v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02510v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02510v1/plots/monitors_compared_math_transposed.png",
+      "figure_caption": "Monitoring factuality on mathematical reasoning (MATH): CRC and UCB calibrate a single threshold to turn a PRM score into an alarm, yet detect incorrect answers earlier ( third row ) than e-valuators, which train several density estimators.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02436v1",
+      "title": "Reasoning effort, not tool access, buys first-try reliability in agentic code generation: an observational study",
+      "authors": [
+        "Achint Mehta"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper investigates whether increased capabilities or reasoning effort improves agentic code generation. Through an observational study of 90 agent runs building the same application, they found that **model generation (capability tier) was the primary driver of first-try reliability, not tool access or prompt design.** Their contribution lies in demonstrating that **frontier models significantly outperform older ones, and that specific complex tasks like container deployment remain challenging and inconsistently reliable across different agent configurations.**",
+      "url": "http://arxiv.org/abs/2607.02436v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02436v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02389v1",
+      "title": "Steerability via constraints: a substrate for scalable oversight of coding agents",
+      "authors": [
+        "Thomas Winninger"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR",
+        "cs.SE"
+      ],
+      "abstract": "This paper proposes a \"constrained substrate\" approach for scalable oversight of coding agents, drawing parallels to traditional software engineering practices like access control and coding conventions. By imposing these constraints, the system significantly improves the ability of a small reviewer agent to detect security vulnerabilities (backdoors) in a Python codebase, demonstrating a substantial increase in recall compared to unconstrained agents. The core contribution lies in showing that established engineering principles are a cost-effective and scalable method for managing AI coding agents, outperforming more complex agentic scaffolding.",
+      "url": "http://arxiv.org/abs/2607.02389v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02389v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02371v1",
+      "title": "VisionAId: An Offline-First Multimodal Android Assistant for People with Visual Impairment, Featuring Personalized Object Retrieval",
+      "authors": [
+        "Cristian-Gabriel Florea",
+        "Stelian Spînu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "VisionAId is an Android app that transforms a smartphone into an offline-first visual assistant for the visually impaired. Its core method integrates multiple on-device deep learning models for real-time object recognition, depth estimation, and face detection, with an optional cloud LLM for enhanced descriptions. A key contribution is its few-shot learning capability, allowing users to personalize object retrieval by simply photographing their belongings.",
+      "url": "http://arxiv.org/abs/2607.02371v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02371v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02371v1/imagini/architecture_2.png",
+      "figure_caption": "Overall layered architecture of VisionAId. All perception runs on-device; the cloud language model is an optional component used only for narrative scene description and object labeling.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02431v1",
+      "title": "WorldSample: Closed-loop Real-robot RL with World Modelling",
+      "authors": [
+        "Yuquan Xue",
+        "Le Xu",
+        "Zeyi Liu",
+        "Zhenyu Wu",
+        "Zhengyi Gu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "WorldSample addresses the high cost of real-world reinforcement learning (RL) for robots by creating a closed loop between physical interactions and a learned world model. It uses real robot data to train a high-fidelity world model, which then generates synthetic transitions to augment training. This approach, combined with a novel Policy-Paced Learning strategy for sample selection, significantly reduces the need for costly physical rollouts while improving policy performance.",
+      "url": "http://arxiv.org/abs/2607.02431v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02431v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02431v1/x1.png",
+      "figure_caption": "WorldSample overview. WorldSample expands real-robot rollout into multiple physically grounded synthetic trajectories with an action-conditioned world model, forming a real-synthetic training loop that improves success rate and reduces interaction cost.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02387v1",
+      "title": "Bringing Agentic Search to Earth Observation Data Discovery",
+      "authors": [
+        "Minghan Yu",
+        "Youran Sun",
+        "Chugang Yi",
+        "Yixin Wen",
+        "Haizhao Yang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.IR"
+      ],
+      "abstract": "This paper introduces an agentic search system that leverages NASA's Earth Observation Knowledge Graph to improve discovery of geoscience data and tools. By combining a neural scorer fine-tuned on a new benchmark with BM25 and a zero-shot agentic reranking stage, the system significantly enhances search relevance and recall for natural language queries. The core contribution is demonstrating how agentic search amplifies the value of knowledge graphs for complex data discovery.",
+      "url": "http://arxiv.org/abs/2607.02387v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02387v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02387v1/fig-pipeline.png",
+      "figure_caption": "Overview of the three-stage agentic search pipeline (Section 5.1 ). Stage 1 : the Router first attempts to resolve each query via NASA official tools (Harmony, SDE, WorldView, Giovanni); queries that can be fully answered here terminate early. Stage 2 : if no official tool suffices, the hybrid BM25 + NN-SSC retriever surfaces the most relevant datasets from the NASA CMR corpus. Stage 3 : retrieved candidates are reranked by an LLM that autonomously invokes web search and arXiv paper lookup to ground its ranking decisions in external context; the final ranked list is returned to the user.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.02390v1",
+      "title": "DecompRL: Solving Harder Problems by Learning Modular Code Generation",
+      "authors": [
+        "Juliette Decugis",
+        "Fabian Gloeckle",
+        "Francis Bach",
+        "Taco Cohen",
+        "Gabriel Synnaeve"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "DecompRL addresses the limitations of LLMs in solving complex problems by learning to decompose them into smaller, independently solvable sub-functions. Instead of brute-force sampling or relying solely on gradient signals, this RL algorithm explicitly learns to generate and recombine modular code structures. This approach significantly expands the search space of potential solutions by combining implementations of different modules, enabling LLMs to tackle problems previously beyond their capabilities.",
+      "url": "http://arxiv.org/abs/2607.02390v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02390v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02390v1/images/images_iclr/pass_at_k_by_diff.png",
+      "figure_caption": "Decomp RL solves harder problems than existing RL methods. Our hierarchical training learns 1) a decomposition policy that breaks down problems into simpler functions and 2) an implementation policy that writes code for each function in parallel. Given a high token budget, Decomp RL solves up to 35 % 35\\% problems of the LiveCodeBench hard subset ( 2024 / 08 / 01 2024/08/01 to 2025 / 02 / 01 2025/02/01 ) Jain et al. ( 2024a ) .",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.02386v1",
+      "title": "Transformer Geometry Observatory TGO-II: Representational Similarity Observatory",
+      "authors": [
+        "Kaustubh Kapil",
+        "Kishor P. Upla"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces TGO-II, a framework for analyzing the geometric evolution of Vision Transformer representations during training. Using methods like CKA and SVCCA, it reveals that representational similarity decreases as training progresses, indicating increasing specialization of internal features. This work contributes a novel approach to understanding the internal dynamics of Vision Transformers beyond just attention mechanisms.",
+      "url": "http://arxiv.org/abs/2607.02386v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02386v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.02391v1",
+      "title": "WattGPU: Predicting Inference Power and Latency on Unseen GPUs and LLMs",
+      "authors": [
+        "Mauricio Fadel Argerich",
+        "Jonathan Fürst",
+        "Marta Patiño-Martínez"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.DC"
+      ],
+      "abstract": "WattGPU introduces two predictive models that estimate LLM inference power and latency using only publicly available LLM metadata and GPU specifications. This novel approach eliminates the need for hardware profiling, enabling accurate predictions for unseen GPUs and LLMs. The core contribution is a generalized, hardware-agnostic prediction system for optimizing LLM deployments.",
+      "url": "http://arxiv.org/abs/2607.02391v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02391v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02391v1/x1.png",
+      "figure_caption": "GPU selection is a key lever for energy savings in LLM inference. For deploying Llama 3.1 8B with a Service Level Agreement (SLA) of a mean ITL < 25 <25 ms, it is possible to reduce power draw by 43% by choosing an A30 instead of an H100. Data from the Watt Counts dataset showing only GPUs where the LLM fits in memory.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.02416v1",
+      "title": "The Future of NLP may not be at NLP Conferences: Scholarly Migration Patterns in Natural Language Processing",
+      "authors": [
+        "David Jurgens"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates scholarly migration patterns in NLP, finding that the field's center of gravity is shifting away from traditional NLP conferences like ACL. The core method involves analyzing publication trends of both established and new authors, comparing pre- and post-LLM eras. The key contribution is demonstrating a significant migration of NLP research to general ML venues and newer \"Findings\" tracks, indicating a blurring of disciplinary boundaries due to LLM advancements.",
+      "url": "http://arxiv.org/abs/2607.02416v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02416v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02416v1/x1.png",
+      "figure_caption": "Per-year mean share of papers at each of the three tracked venue families per cohort author, renormalized to sum to one (topic-active cohort, N = 4 , 181 N=4{,}181 ). The cohort’s *ACL share holds near 76–80% through 2020 and then declines to 63% by 2025; General-ML rises monotonically from ∼ \\( \\sim \\) 4% in 2015 to 31% in 2025, overtaking AI-Broad (which falls from 19% to 7%) around 2022–2023.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.02464v1",
+      "title": "Will Scaling Improve Social Simulation with LLMs?",
+      "authors": [
+        "Caleb Ziems",
+        "William Held",
+        "Su Doga Karaca",
+        "David Grusky",
+        "Tatsunori Hashimoto"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates if scaling up Large Language Models (LLMs) improves their fidelity in social simulations. The core method involves training and evaluating LLMs under varying compute budgets and parameter sizes across opinion modeling, behavioral simulation, and longitudinal forecasting. The key contribution is the surprising finding that **compute scaling significantly improves social simulation fidelity**, suggesting that current scaling trends are beneficial for this application.",
+      "url": "http://arxiv.org/abs/2607.02464v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02464v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02464v1/x1.png",
+      "figure_caption": "Compute Scaling Laws. We observe log-linear improvements in task loss on all three social science tasks after scaling compute alone with models trained on DCLM (Li et al. , 2024 ) from 10 18 10^{18} to 10 20 10^{20} FLOPs.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.02466v1",
+      "title": "Learning to Move Before Learning to Do: Task-Agnostic pretraining for VLAs",
+      "authors": [
+        "Junhao Shi",
+        "Siyin Wang",
+        "Xiaopeng Yu",
+        "Li Ji",
+        "Jingjing Gong"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper proposes Task-Agnostic Pretraining (TAP) to address the data scarcity in Vision-Language-Action (VLA) models. TAP first learns transferable motor skills from unlabeled robot interaction data using self-supervised inverse dynamics, then fine-tunes these skills with minimal expert demonstrations for language grounding. This approach significantly reduces the need for costly expert data while achieving competitive performance.",
+      "url": "http://arxiv.org/abs/2607.02466v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02466v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.02466v1/x1.png",
+      "figure_caption": "Overview of the Proposed Task-Agnostic Pretraining (TAP) Framework. (a) Data Sources: We leverage massive amounts of cheap, unlabeled interaction data \\( \\CJK \\)@punctchar \\( \\CJK \\)@uniPunct 0\"80\"94sourced from existing heterogeneous datasets (e.g., Bridge) or autonomous robot self-exploration \\( \\CJK \\)@punctchar \\( \\CJK \\)@uniPunct 0\"80\"94 discarding any original task labels. (b) Stage 1 (Task-Agnostic Pretraining): The model is pretrained using a self-supervised Inverse Dynamics (ID) objective. By predicting the action a t a_{t} required to transition between frames o t o_{t} and o t + 1 o_{t+1} , the model learns robust physical affordances and motor control (\"how to move\") without human supervision. (c) Stage 2 (Task-Specific Alignment): The pretrained model is then finetuned on a small set of language-annotated expert demonstrations. This stage aligns the prelearned physical priors with high-level semantic instructions (\"what to do\"), achieving high performance with significantly improved data efficiency.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02509v1",
+      "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+      "authors": [
+        "Yanjun Zhao",
+        "Ruizhong Qiu",
+        "Tianxin Wei",
+        "Yuanchen Bei",
+        "Zhining Liu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "ReContext is a training-free inference method that improves LLMs' ability to reason over long contexts. It works by recursively identifying and replaying relevant evidence from the input context before the final answer generation, creating a query-conditioned evidence pool. This approach effectively bridges the gap between LLMs' context access and utilization without requiring model retraining or external memory.",
+      "url": "http://arxiv.org/abs/2607.02509v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02509v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.02509v1/figures/teaser.png",
+      "figure_caption": "Top 0.1% of context tokens already accounts for about 50% / 80% accumulated relevance score across three LLMs, corresponding to only 128 tokens in a 128K-token context. This figure ranks all context tokens by their relevance scores with respect to the question and shows how much accumulated relevance score is covered by the top-ranked tokens. Each curve represents the mean trend over eight datasets, and the shaded region shows the variance across datasets.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02507v1",
+      "title": "What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates",
+      "authors": [
+        "Arman Ghaffarizadeh",
+        "Danyal Mohaddes",
+        "Aliakbar Izadkhah",
+        "Shahriar Noroozizadeh"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "This paper investigates how social context influences LLM agents' communication in multi-agent debates. By introducing a dual-channel framework (public vs. off-the-record), the study demonstrates that alignment-inducing social structures lead to significant divergence in what agents say publicly versus privately. This finding highlights the emergence of latent objectives shaped by social dynamics, even without explicit task instructions.",
+      "url": "http://arxiv.org/abs/2607.02507v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02507v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02403v1",
+      "title": "ACID: Action Consistency via Inverse Dynamics for Planning with World Models",
+      "authors": [
+        "Gawon Seo",
+        "Dongwon Kim",
+        "Suha Kwak"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces ACID, a planning method for embodied control that addresses the issue of unrealistic intermediate transitions in world model rollouts. ACID enforces \"cycle action consistency\" by using an inverse dynamics model to ensure that backward-predicted actions match forward-predicted actions. This novel cost function improves planning performance and efficiency across various tasks and world models.",
+      "url": "http://arxiv.org/abs/2607.02403v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02403v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02403v1/fig/final_overall_architecture.png",
+      "figure_caption": "Overall architecture of ACID. ( Left ): Decision-time planning with an action-conditioned world model: an MPC with CEM searches over candidate action sequences a 0 : H − 1 a_{0:H-1} to minimize the augmented planning cost. The current observation o 0 o_{0} is encoded by E θ E_{\\( \\theta \\)} to z 0 z_{0} , and the world model F θ F_{\\( \\theta \\)} unrolls a latent trajectory z ^ 1 : H \\( \\hat{z}_{1:H} \\) from ( z 0 , a 0 : H − 1 ) (z_{0},a_{0:H-1}) . The inverse dynamics model G ϕ G_{\\( \\phi \\)} then takes each predicted transition ( z ^ t , z ^ t + 1 ) (\\( \\hat{z}_{t} \\),\\( \\hat{z}_{t+1} \\)) and infers the action a ^ t \\( \\hat{a}_{t} \\) that would explain it. ( Right ): The augmented planning cost combines two terms: the goal cost , which prefers candidate action sequences whose predicted final latent is close to the goal, and the action consistency cost , which prefers candidate action sequences whose predicted trajectory is realizable in environment.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02502v1",
+      "title": "DemoPSD: Disagreement-Modulated Policy Self-Distillation",
+      "authors": [
+        "Yunhe Li",
+        "Hao Shi",
+        "Wenhao Liu",
+        "Mengzhe Ruan",
+        "Hanxu Hou"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "DemoPSD addresses limitations in on-policy self-distillation for LLMs by introducing \"selective adoption of teacher guidance.\" Instead of directly mimicking the teacher's dense supervision, it guides the student towards a \"reverse-KL barycenter target,\" a weighted combination of teacher and student distributions. This approach balances learning from the teacher with the student's own exploration, mitigating overfitting and privileged information leakage.",
+      "url": "http://arxiv.org/abs/2607.02502v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02502v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02396v1",
+      "title": "Fast Multi-dimensional Refusal Subspaces via RFM-AGOP",
+      "authors": [
+        "Thomas Winninger"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces RFM-AGOP, a fast method for identifying multi-dimensional \"refusal subspaces\" in LLMs, which represent complex behaviors like refusing harmful queries. By adapting the efficient Recursive Feature Machine algorithm with a probe-informed initialization, it significantly speeds up subspace extraction, making it practical for reasoning models. The contribution lies in achieving both computational efficiency and improved performance in identifying these critical behavioral subspaces.",
+      "url": "http://arxiv.org/abs/2607.02396v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02396v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02460v1",
+      "title": "Neuron-Aware Data Selection for Annotation-Free LLM Self-Distillation",
+      "authors": [
+        "Zhuowei Chen",
+        "Xiang Lorraine Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces Neuron-Aware Data Selection for Annotation-Free LLM Self-Distillation (Neuron-OPSD). Its core method uses internal neuron activations to intelligently select training data and construct a teacher model for self-distillation. This approach aims to improve LLM performance in specialized domains without costly human annotations, overcoming limitations of previous annotation-free methods.",
+      "url": "http://arxiv.org/abs/2607.02460v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02460v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02460v1/x1.png",
+      "figure_caption": "Overview of the Proposed Neuron-OPSD.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02510v1",
+      "title": "Online Safety Monitoring for LLMs",
+      "authors": [
+        "Mona Schirmer",
+        "Metod Jazbec",
+        "Alexander Timans",
+        "Christian Naesseth",
+        "Maja Waldron"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "stat.ML",
+        "stat.AP"
+      ],
+      "abstract": "This paper proposes a simple, real-time online safety monitor for LLMs. It leverages an external verifier model's signal and calibrates a threshold based on risk control to trigger alarms when safety is compromised. The core contribution is demonstrating that this straightforward thresholding approach is competitive with more complex sequential testing methods for detecting unsafe LLM outputs.",
+      "url": "http://arxiv.org/abs/2607.02510v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02510v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02510v1/plots/monitors_compared_math_transposed.png",
+      "figure_caption": "Monitoring factuality on mathematical reasoning (MATH): CRC and UCB calibrate a single threshold to turn a PRM score into an alarm, yet detect incorrect answers earlier ( third row ) than e-valuators, which train several density estimators.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02436v1",
+      "title": "Reasoning effort, not tool access, buys first-try reliability in agentic code generation: an observational study",
+      "authors": [
+        "Achint Mehta"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper investigates whether increased capabilities or reasoning effort improves agentic code generation. Through an observational study of 90 agent runs building the same application, they found that **model generation (capability tier) was the primary driver of first-try reliability, not tool access or prompt design.** Their contribution lies in demonstrating that **frontier models significantly outperform older ones, and that specific complex tasks like container deployment remain challenging and inconsistently reliable across different agent configurations.**",
+      "url": "http://arxiv.org/abs/2607.02436v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02436v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02389v1",
+      "title": "Steerability via constraints: a substrate for scalable oversight of coding agents",
+      "authors": [
+        "Thomas Winninger"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR",
+        "cs.SE"
+      ],
+      "abstract": "This paper proposes a \"constrained substrate\" approach for scalable oversight of coding agents, drawing parallels to traditional software engineering practices like access control and coding conventions. By imposing these constraints, the system significantly improves the ability of a small reviewer agent to detect security vulnerabilities (backdoors) in a Python codebase, demonstrating a substantial increase in recall compared to unconstrained agents. The core contribution lies in showing that established engineering principles are a cost-effective and scalable method for managing AI coding agents, outperforming more complex agentic scaffolding.",
+      "url": "http://arxiv.org/abs/2607.02389v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02389v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02371v1",
+      "title": "VisionAId: An Offline-First Multimodal Android Assistant for People with Visual Impairment, Featuring Personalized Object Retrieval",
+      "authors": [
+        "Cristian-Gabriel Florea",
+        "Stelian Spînu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "VisionAId is an Android app that transforms a smartphone into an offline-first visual assistant for the visually impaired. Its core method integrates multiple on-device deep learning models for real-time object recognition, depth estimation, and face detection, with an optional cloud LLM for enhanced descriptions. A key contribution is its few-shot learning capability, allowing users to personalize object retrieval by simply photographing their belongings.",
+      "url": "http://arxiv.org/abs/2607.02371v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02371v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02371v1/imagini/architecture_2.png",
+      "figure_caption": "Overall layered architecture of VisionAId. All perception runs on-device; the cloud language model is an optional component used only for narrative scene description and object labeling.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02431v1",
+      "title": "WorldSample: Closed-loop Real-robot RL with World Modelling",
+      "authors": [
+        "Yuquan Xue",
+        "Le Xu",
+        "Zeyi Liu",
+        "Zhenyu Wu",
+        "Zhengyi Gu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "WorldSample addresses the high cost of real-world reinforcement learning (RL) for robots by creating a closed loop between physical interactions and a learned world model. It uses real robot data to train a high-fidelity world model, which then generates synthetic transitions to augment training. This approach, combined with a novel Policy-Paced Learning strategy for sample selection, significantly reduces the need for costly physical rollouts while improving policy performance.",
+      "url": "http://arxiv.org/abs/2607.02431v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02431v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02431v1/x1.png",
+      "figure_caption": "WorldSample overview. WorldSample expands real-robot rollout into multiple physically grounded synthetic trajectories with an action-conditioned world model, forming a real-synthetic training loop that improves success rate and reduces interaction cost.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.02387v1",
+      "title": "Bringing Agentic Search to Earth Observation Data Discovery",
+      "authors": [
+        "Minghan Yu",
+        "Youran Sun",
+        "Chugang Yi",
+        "Yixin Wen",
+        "Haizhao Yang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.IR"
+      ],
+      "abstract": "This paper introduces an agentic search system that leverages NASA's Earth Observation Knowledge Graph to improve discovery of geoscience data and tools. By combining a neural scorer fine-tuned on a new benchmark with BM25 and a zero-shot agentic reranking stage, the system significantly enhances search relevance and recall for natural language queries. The core contribution is demonstrating how agentic search amplifies the value of knowledge graphs for complex data discovery.",
+      "url": "http://arxiv.org/abs/2607.02387v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02387v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02387v1/fig-pipeline.png",
+      "figure_caption": "Overview of the three-stage agentic search pipeline (Section 5.1 ). Stage 1 : the Router first attempts to resolve each query via NASA official tools (Harmony, SDE, WorldView, Giovanni); queries that can be fully answered here terminate early. Stage 2 : if no official tool suffices, the hybrid BM25 + NN-SSC retriever surfaces the most relevant datasets from the NASA CMR corpus. Stage 3 : retrieved candidates are reranked by an LLM that autonomously invokes web search and arXiv paper lookup to ground its ranking decisions in external context; the final ranked list is returned to the user.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.02390v1",
+      "title": "DecompRL: Solving Harder Problems by Learning Modular Code Generation",
+      "authors": [
+        "Juliette Decugis",
+        "Fabian Gloeckle",
+        "Francis Bach",
+        "Taco Cohen",
+        "Gabriel Synnaeve"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "DecompRL addresses the limitations of LLMs in solving complex problems by learning to decompose them into smaller, independently solvable sub-functions. Instead of brute-force sampling or relying solely on gradient signals, this RL algorithm explicitly learns to generate and recombine modular code structures. This approach significantly expands the search space of potential solutions by combining implementations of different modules, enabling LLMs to tackle problems previously beyond their capabilities.",
+      "url": "http://arxiv.org/abs/2607.02390v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02390v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02390v1/images/images_iclr/pass_at_k_by_diff.png",
+      "figure_caption": "Decomp RL solves harder problems than existing RL methods. Our hierarchical training learns 1) a decomposition policy that breaks down problems into simpler functions and 2) an implementation policy that writes code for each function in parallel. Given a high token budget, Decomp RL solves up to 35 % 35\\% problems of the LiveCodeBench hard subset ( 2024 / 08 / 01 2024/08/01 to 2025 / 02 / 01 2025/02/01 ) Jain et al. ( 2024a ) .",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.02386v1",
+      "title": "Transformer Geometry Observatory TGO-II: Representational Similarity Observatory",
+      "authors": [
+        "Kaustubh Kapil",
+        "Kishor P. Upla"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces TGO-II, a framework for analyzing the geometric evolution of Vision Transformer representations during training. Using methods like CKA and SVCCA, it reveals that representational similarity decreases as training progresses, indicating increasing specialization of internal features. This work contributes a novel approach to understanding the internal dynamics of Vision Transformers beyond just attention mechanisms.",
+      "url": "http://arxiv.org/abs/2607.02386v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02386v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.02391v1",
+      "title": "WattGPU: Predicting Inference Power and Latency on Unseen GPUs and LLMs",
+      "authors": [
+        "Mauricio Fadel Argerich",
+        "Jonathan Fürst",
+        "Marta Patiño-Martínez"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.DC"
+      ],
+      "abstract": "WattGPU introduces two predictive models that estimate LLM inference power and latency using only publicly available LLM metadata and GPU specifications. This novel approach eliminates the need for hardware profiling, enabling accurate predictions for unseen GPUs and LLMs. The core contribution is a generalized, hardware-agnostic prediction system for optimizing LLM deployments.",
+      "url": "http://arxiv.org/abs/2607.02391v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02391v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02391v1/x1.png",
+      "figure_caption": "GPU selection is a key lever for energy savings in LLM inference. For deploying Llama 3.1 8B with a Service Level Agreement (SLA) of a mean ITL < 25 <25 ms, it is possible to reduce power draw by 43% by choosing an A30 instead of an H100. Data from the Watt Counts dataset showing only GPUs where the LLM fits in memory.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.02416v1",
+      "title": "The Future of NLP may not be at NLP Conferences: Scholarly Migration Patterns in Natural Language Processing",
+      "authors": [
+        "David Jurgens"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates scholarly migration patterns in NLP, finding that the field's center of gravity is shifting away from traditional NLP conferences like ACL. The core method involves analyzing publication trends of both established and new authors, comparing pre- and post-LLM eras. The key contribution is demonstrating a significant migration of NLP research to general ML venues and newer \"Findings\" tracks, indicating a blurring of disciplinary boundaries due to LLM advancements.",
+      "url": "http://arxiv.org/abs/2607.02416v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02416v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02416v1/x1.png",
+      "figure_caption": "Per-year mean share of papers at each of the three tracked venue families per cohort author, renormalized to sum to one (topic-active cohort, N = 4 , 181 N=4{,}181 ). The cohort’s *ACL share holds near 76–80% through 2020 and then declines to 63% by 2025; General-ML rises monotonically from ∼ \\( \\sim \\) 4% in 2015 to 31% in 2025, overtaking AI-Broad (which falls from 19% to 7%) around 2022–2023.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.02464v1",
+      "title": "Will Scaling Improve Social Simulation with LLMs?",
+      "authors": [
+        "Caleb Ziems",
+        "William Held",
+        "Su Doga Karaca",
+        "David Grusky",
+        "Tatsunori Hashimoto"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates if scaling up Large Language Models (LLMs) improves their fidelity in social simulations. The core method involves training and evaluating LLMs under varying compute budgets and parameter sizes across opinion modeling, behavioral simulation, and longitudinal forecasting. The key contribution is the surprising finding that **compute scaling significantly improves social simulation fidelity**, suggesting that current scaling trends are beneficial for this application.",
+      "url": "http://arxiv.org/abs/2607.02464v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02464v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.02464v1/x1.png",
+      "figure_caption": "Compute Scaling Laws. We observe log-linear improvements in task loss on all three social science tasks after scaling compute alone with models trained on DCLM (Li et al. , 2024 ) from 10 18 10^{18} to 10 20 10^{20} FLOPs.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
