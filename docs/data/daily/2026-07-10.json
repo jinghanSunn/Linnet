@@ -1,0 +1,667 @@
+{
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T12:14:44.796644+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.08602v1",
+          "title": "Towards Precision Therapy in Hepatocellular Carcinoma: A Clinical-Reasoning LLM for Risk Stratification and Treatment Guidance",
+          "authors": [
+            "Peng Cui",
+            "Jitao Wang",
+            "Siyan Xue",
+            "Yao Huang",
+            "Haoming Xia"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces HCC-STAR, a large language model designed for precision therapy in hepatocellular carcinoma (HCC). It addresses limitations of current staging systems by analyzing EMR narratives to provide detailed risk stratification, guideline-consistent treatment recommendations with rationales, and individualized survival predictions. The model's contribution lies in its ability to integrate clinical context from EMRs for more nuanced patient management, moving beyond simple guideline adherence.",
+          "url": "http://arxiv.org/abs/2607.08602v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.08602v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.08662v1",
+          "title": "WebSwarm: Recursive Multi-Agent Orchestration for Deep-and-Wide Web Search",
+          "authors": [
+            "Xiaoshuai Song",
+            "Liancheng Zhang",
+            "Kangzhi Zhao",
+            "Yutao Zhu",
+            "Zhongyuan Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.MA"
+          ],
+          "abstract": "WebSwarm addresses the limitations of single LLM agents in complex web search by introducing a recursive delegation framework. It dynamically orchestrates multiple agents, allowing them to decompose tasks, collaborate adaptively, and expand search recursively. This approach enables deeper and wider information gathering than previous multi-agent systems.",
+          "url": "http://arxiv.org/abs/2607.08662v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.08662v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.08662v1/x1.png",
+          "figure_caption": "Illustration of representative multi-agent orchestration paradigms and WebSwarm.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.08745v1",
+          "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
+          "authors": [
+            "Siddharth Damodharan",
+            "Radhika Gupta",
+            "Ali Alshami",
+            "Ryan Rabinowitz",
+            "Jugal Kalita"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces AUTOPILOT-VQA, a new benchmark designed to evaluate vision-language models' ability to understand safety-critical incidents in dashcam videos. The core method involves a dataset of structured questions about real-world driving events, assessing models on their reasoning about contextual scene properties and incident details. The contribution is a standardized way to benchmark these models for reliable incident understanding in autonomous driving.",
+          "url": "http://arxiv.org/abs/2607.08745v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.08745v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.08745v1/VQA.png",
+          "figure_caption": "Overview of the VQA-Autopilot dataset annotation schema. The visualization illustrates the hierarchical structure of annotation categories, including environmental conditions, traffic context, incident types, outcomes, and associated attributes. This figure provides a high-level conceptual summary of the dataset design.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.08647v1",
+          "title": "Multi-Modal, Multi-Environment Machine Teaching for Robust Reward Learning",
+          "authors": [
+            "Ali Larian",
+            "Qian Lin",
+            "Chang Zong Wu",
+            "Daniel S. Brown"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper proposes a novel machine teaching framework for robust reward learning in Inverse Reinforcement Learning (IRL). It addresses the limitation of existing methods by considering how diverse feedback modalities and multiple environments jointly influence reward function generalization. The core contribution is an analysis showing that different feedback types, particularly comparisons, offer stronger global constraints on rewards, leading to more robust and transferable objectives across varying operational contexts.",
+          "url": "http://arxiv.org/abs/2607.08647v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.08647v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.08716v1",
+          "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+          "authors": [
+            "Yifan Wu",
+            "Lizhu Zhang",
+            "Yuhang Zhou",
+            "Mingyi Wang",
+            "Bo Peng"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces a proactive memory agent that actively intervenes in long-horizon tasks by injecting relevant memories when needed, rather than passively retrieving them. This agent updates a structured memory bank and decides whether to provide a reminder to an unmodified action agent. The core contribution is a plug-and-play module that significantly improves task completion rates by combating \"behavioral state decay\" in long trajectories.",
+          "url": "http://arxiv.org/abs/2607.08716v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.08716v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.08625v1",
+          "title": "The complexities of patient-centred conversational artificial intelligence",
+          "authors": [
+            "João Matos",
+            "Olivia Buege",
+            "Donny Cheung",
+            "Gary S. Collins",
+            "Paula Dhiman"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper highlights that real patient communication with health chatbots is highly variable in content, emotion, and style, unlike typical simulated patients. The authors developed a novel patient simulator that captures these complexities and demonstrated its realism in a Turing-like test. Their contribution lies in showing how this communication diversity significantly impacts chatbot performance in urgency assessment, emphasizing the need for patient-centered AI that accounts for these variations.",
+          "url": "http://arxiv.org/abs/2607.08625v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.08625v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.08646v1",
+          "title": "UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing",
+          "authors": [
+            "Xinlong Zhao",
+            "Dongsheng Liu",
+            "Hengyu Zhao",
+            "Zixuan Fu",
+            "Zheng Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "UltraX introduces a novel programmatic editing framework for large-scale pre-training data, addressing limitations of existing methods. Its core contribution is a function-calling approach that enables fine-grained instance-level editing through insertion, deletion, and modification, powered by a reliable program-supervision generation pipeline. This allows for more efficient and effective refinement of LLM training data as scaling laws plateau.",
+          "url": "http://arxiv.org/abs/2607.08646v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.08646v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.08646v1/x4.png",
+          "figure_caption": "Overall workflow of UltraX, covering program-supervision generation, refinement model training, and inference-time program execution.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.08740v1",
+          "title": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows",
+          "authors": [
+            "Emanuele Quinto",
+            "Carlo Andrea Rozzi",
+            "Francesco Zanitti"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.PL",
+            "cs.SE"
+          ],
+          "abstract": "This paper proposes a conceptual model for LLM workflows, representing them as persistent knowledge objects. The core method involves distinguishing between deterministic \"derive\" operations and LLM-mediated \"infer\" judgments, all managed within a shared knowledge substrate. This approach enables semantic persistence, allowing workflows themselves to be treated as knowledge, not just producers of it.",
+          "url": "http://arxiv.org/abs/2607.08740v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.08740v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.08740v1/figures/mermaid-001.55d3bc13c172.png",
+          "figure_caption": "Semantic workflow objects are interpreted by the DSL-machine control layer, which coordinates runtime services and writes back workflow instances, mediated effects, and records of inference, approval, and panel activity. The bidirectional relation indicates that the control layer both reads semantic objects and writes back persistent semantic objects or relations.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.08768v1",
+          "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+          "authors": [
+            "Zhekai Chen",
+            "Chengqi Duan",
+            "Kaiyue Sun",
+            "Bohao Li",
+            "Yuqing Wang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "UniClawBench is a novel benchmark designed to evaluate proactive AI agents in real-world scenarios. Its core method involves assessing agents based on five foundational capabilities: skill usage, exploration, long-context reasoning, multimodal understanding, and cross-platform coordination. The contribution lies in providing a capability-driven framework with 400 bilingual tasks, enabling more precise identification of agent weaknesses beyond traditional sandboxed, single-turn evaluations.",
+          "url": "http://arxiv.org/abs/2607.08768v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.08768v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.08768v1/x1.png",
+          "figure_caption": "Overview of UniClawBench. UniClawBench consists of 400 bilingual real-world tasks spanning 5 core capabilities: multimodal, long-context, skill usage, exploration, and cross-platform. We propose a three-role closed-loop evaluation framework, where an executor agent performs tasks in real environments, a supervisor evaluates trajectories and artifacts using hidden rubrics, and a user simulator provides natural feedback based on executor’s performance and supervisor’s signal, enabling multi-turn interaction. We conduct two sets of experiments to evaluate cross-model and cross-framework performance. The capability-level results reveal that framework choice exerts a stronger influence than model choice.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 21,
+        "papers_after_llm_filter": 9,
+        "count": 9
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 21,
+    "papers_after_llm_filter": 9,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 54
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.08602v1",
+      "title": "Towards Precision Therapy in Hepatocellular Carcinoma: A Clinical-Reasoning LLM for Risk Stratification and Treatment Guidance",
+      "authors": [
+        "Peng Cui",
+        "Jitao Wang",
+        "Siyan Xue",
+        "Yao Huang",
+        "Haoming Xia"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces HCC-STAR, a large language model designed for precision therapy in hepatocellular carcinoma (HCC). It addresses limitations of current staging systems by analyzing EMR narratives to provide detailed risk stratification, guideline-consistent treatment recommendations with rationales, and individualized survival predictions. The model's contribution lies in its ability to integrate clinical context from EMRs for more nuanced patient management, moving beyond simple guideline adherence.",
+      "url": "http://arxiv.org/abs/2607.08602v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08602v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.08662v1",
+      "title": "WebSwarm: Recursive Multi-Agent Orchestration for Deep-and-Wide Web Search",
+      "authors": [
+        "Xiaoshuai Song",
+        "Liancheng Zhang",
+        "Kangzhi Zhao",
+        "Yutao Zhu",
+        "Zhongyuan Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "WebSwarm addresses the limitations of single LLM agents in complex web search by introducing a recursive delegation framework. It dynamically orchestrates multiple agents, allowing them to decompose tasks, collaborate adaptively, and expand search recursively. This approach enables deeper and wider information gathering than previous multi-agent systems.",
+      "url": "http://arxiv.org/abs/2607.08662v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08662v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.08662v1/x1.png",
+      "figure_caption": "Illustration of representative multi-agent orchestration paradigms and WebSwarm.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.08745v1",
+      "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
+      "authors": [
+        "Siddharth Damodharan",
+        "Radhika Gupta",
+        "Ali Alshami",
+        "Ryan Rabinowitz",
+        "Jugal Kalita"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces AUTOPILOT-VQA, a new benchmark designed to evaluate vision-language models' ability to understand safety-critical incidents in dashcam videos. The core method involves a dataset of structured questions about real-world driving events, assessing models on their reasoning about contextual scene properties and incident details. The contribution is a standardized way to benchmark these models for reliable incident understanding in autonomous driving.",
+      "url": "http://arxiv.org/abs/2607.08745v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08745v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.08745v1/VQA.png",
+      "figure_caption": "Overview of the VQA-Autopilot dataset annotation schema. The visualization illustrates the hierarchical structure of annotation categories, including environmental conditions, traffic context, incident types, outcomes, and associated attributes. This figure provides a high-level conceptual summary of the dataset design.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.08647v1",
+      "title": "Multi-Modal, Multi-Environment Machine Teaching for Robust Reward Learning",
+      "authors": [
+        "Ali Larian",
+        "Qian Lin",
+        "Chang Zong Wu",
+        "Daniel S. Brown"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper proposes a novel machine teaching framework for robust reward learning in Inverse Reinforcement Learning (IRL). It addresses the limitation of existing methods by considering how diverse feedback modalities and multiple environments jointly influence reward function generalization. The core contribution is an analysis showing that different feedback types, particularly comparisons, offer stronger global constraints on rewards, leading to more robust and transferable objectives across varying operational contexts.",
+      "url": "http://arxiv.org/abs/2607.08647v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08647v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.08716v1",
+      "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+      "authors": [
+        "Yifan Wu",
+        "Lizhu Zhang",
+        "Yuhang Zhou",
+        "Mingyi Wang",
+        "Bo Peng"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a proactive memory agent that actively intervenes in long-horizon tasks by injecting relevant memories when needed, rather than passively retrieving them. This agent updates a structured memory bank and decides whether to provide a reminder to an unmodified action agent. The core contribution is a plug-and-play module that significantly improves task completion rates by combating \"behavioral state decay\" in long trajectories.",
+      "url": "http://arxiv.org/abs/2607.08716v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08716v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.08625v1",
+      "title": "The complexities of patient-centred conversational artificial intelligence",
+      "authors": [
+        "João Matos",
+        "Olivia Buege",
+        "Donny Cheung",
+        "Gary S. Collins",
+        "Paula Dhiman"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper highlights that real patient communication with health chatbots is highly variable in content, emotion, and style, unlike typical simulated patients. The authors developed a novel patient simulator that captures these complexities and demonstrated its realism in a Turing-like test. Their contribution lies in showing how this communication diversity significantly impacts chatbot performance in urgency assessment, emphasizing the need for patient-centered AI that accounts for these variations.",
+      "url": "http://arxiv.org/abs/2607.08625v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08625v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.08646v1",
+      "title": "UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing",
+      "authors": [
+        "Xinlong Zhao",
+        "Dongsheng Liu",
+        "Hengyu Zhao",
+        "Zixuan Fu",
+        "Zheng Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "UltraX introduces a novel programmatic editing framework for large-scale pre-training data, addressing limitations of existing methods. Its core contribution is a function-calling approach that enables fine-grained instance-level editing through insertion, deletion, and modification, powered by a reliable program-supervision generation pipeline. This allows for more efficient and effective refinement of LLM training data as scaling laws plateau.",
+      "url": "http://arxiv.org/abs/2607.08646v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08646v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.08646v1/x4.png",
+      "figure_caption": "Overall workflow of UltraX, covering program-supervision generation, refinement model training, and inference-time program execution.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.08740v1",
+      "title": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows",
+      "authors": [
+        "Emanuele Quinto",
+        "Carlo Andrea Rozzi",
+        "Francesco Zanitti"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.PL",
+        "cs.SE"
+      ],
+      "abstract": "This paper proposes a conceptual model for LLM workflows, representing them as persistent knowledge objects. The core method involves distinguishing between deterministic \"derive\" operations and LLM-mediated \"infer\" judgments, all managed within a shared knowledge substrate. This approach enables semantic persistence, allowing workflows themselves to be treated as knowledge, not just producers of it.",
+      "url": "http://arxiv.org/abs/2607.08740v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08740v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.08740v1/figures/mermaid-001.55d3bc13c172.png",
+      "figure_caption": "Semantic workflow objects are interpreted by the DSL-machine control layer, which coordinates runtime services and writes back workflow instances, mediated effects, and records of inference, approval, and panel activity. The bidirectional relation indicates that the control layer both reads semantic objects and writes back persistent semantic objects or relations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.08768v1",
+      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+      "authors": [
+        "Zhekai Chen",
+        "Chengqi Duan",
+        "Kaiyue Sun",
+        "Bohao Li",
+        "Yuqing Wang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "UniClawBench is a novel benchmark designed to evaluate proactive AI agents in real-world scenarios. Its core method involves assessing agents based on five foundational capabilities: skill usage, exploration, long-context reasoning, multimodal understanding, and cross-platform coordination. The contribution lies in providing a capability-driven framework with 400 bilingual tasks, enabling more precise identification of agent weaknesses beyond traditional sandboxed, single-turn evaluations.",
+      "url": "http://arxiv.org/abs/2607.08768v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08768v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.08768v1/x1.png",
+      "figure_caption": "Overview of UniClawBench. UniClawBench consists of 400 bilingual real-world tasks spanning 5 core capabilities: multimodal, long-context, skill usage, exploration, and cross-platform. We propose a three-role closed-loop evaluation framework, where an executor agent performs tasks in real environments, a supervisor evaluates trajectories and artifacts using hidden rubrics, and a user simulator provides natural feedback based on executor’s performance and supervisor’s signal, enabling multi-turn interaction. We conduct two sets of experiments to evaluate cross-model and cross-framework performance. The capability-level results reveal that framework choice exerts a stronger influence than model choice.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.08602v1",
+      "title": "Towards Precision Therapy in Hepatocellular Carcinoma: A Clinical-Reasoning LLM for Risk Stratification and Treatment Guidance",
+      "authors": [
+        "Peng Cui",
+        "Jitao Wang",
+        "Siyan Xue",
+        "Yao Huang",
+        "Haoming Xia"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces HCC-STAR, a large language model designed for precision therapy in hepatocellular carcinoma (HCC). It addresses limitations of current staging systems by analyzing EMR narratives to provide detailed risk stratification, guideline-consistent treatment recommendations with rationales, and individualized survival predictions. The model's contribution lies in its ability to integrate clinical context from EMRs for more nuanced patient management, moving beyond simple guideline adherence.",
+      "url": "http://arxiv.org/abs/2607.08602v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08602v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.08662v1",
+      "title": "WebSwarm: Recursive Multi-Agent Orchestration for Deep-and-Wide Web Search",
+      "authors": [
+        "Xiaoshuai Song",
+        "Liancheng Zhang",
+        "Kangzhi Zhao",
+        "Yutao Zhu",
+        "Zhongyuan Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "WebSwarm addresses the limitations of single LLM agents in complex web search by introducing a recursive delegation framework. It dynamically orchestrates multiple agents, allowing them to decompose tasks, collaborate adaptively, and expand search recursively. This approach enables deeper and wider information gathering than previous multi-agent systems.",
+      "url": "http://arxiv.org/abs/2607.08662v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08662v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.08662v1/x1.png",
+      "figure_caption": "Illustration of representative multi-agent orchestration paradigms and WebSwarm.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.08745v1",
+      "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
+      "authors": [
+        "Siddharth Damodharan",
+        "Radhika Gupta",
+        "Ali Alshami",
+        "Ryan Rabinowitz",
+        "Jugal Kalita"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces AUTOPILOT-VQA, a new benchmark designed to evaluate vision-language models' ability to understand safety-critical incidents in dashcam videos. The core method involves a dataset of structured questions about real-world driving events, assessing models on their reasoning about contextual scene properties and incident details. The contribution is a standardized way to benchmark these models for reliable incident understanding in autonomous driving.",
+      "url": "http://arxiv.org/abs/2607.08745v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08745v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.08745v1/VQA.png",
+      "figure_caption": "Overview of the VQA-Autopilot dataset annotation schema. The visualization illustrates the hierarchical structure of annotation categories, including environmental conditions, traffic context, incident types, outcomes, and associated attributes. This figure provides a high-level conceptual summary of the dataset design.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.08647v1",
+      "title": "Multi-Modal, Multi-Environment Machine Teaching for Robust Reward Learning",
+      "authors": [
+        "Ali Larian",
+        "Qian Lin",
+        "Chang Zong Wu",
+        "Daniel S. Brown"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper proposes a novel machine teaching framework for robust reward learning in Inverse Reinforcement Learning (IRL). It addresses the limitation of existing methods by considering how diverse feedback modalities and multiple environments jointly influence reward function generalization. The core contribution is an analysis showing that different feedback types, particularly comparisons, offer stronger global constraints on rewards, leading to more robust and transferable objectives across varying operational contexts.",
+      "url": "http://arxiv.org/abs/2607.08647v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08647v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.08716v1",
+      "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+      "authors": [
+        "Yifan Wu",
+        "Lizhu Zhang",
+        "Yuhang Zhou",
+        "Mingyi Wang",
+        "Bo Peng"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a proactive memory agent that actively intervenes in long-horizon tasks by injecting relevant memories when needed, rather than passively retrieving them. This agent updates a structured memory bank and decides whether to provide a reminder to an unmodified action agent. The core contribution is a plug-and-play module that significantly improves task completion rates by combating \"behavioral state decay\" in long trajectories.",
+      "url": "http://arxiv.org/abs/2607.08716v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08716v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.08625v1",
+      "title": "The complexities of patient-centred conversational artificial intelligence",
+      "authors": [
+        "João Matos",
+        "Olivia Buege",
+        "Donny Cheung",
+        "Gary S. Collins",
+        "Paula Dhiman"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper highlights that real patient communication with health chatbots is highly variable in content, emotion, and style, unlike typical simulated patients. The authors developed a novel patient simulator that captures these complexities and demonstrated its realism in a Turing-like test. Their contribution lies in showing how this communication diversity significantly impacts chatbot performance in urgency assessment, emphasizing the need for patient-centered AI that accounts for these variations.",
+      "url": "http://arxiv.org/abs/2607.08625v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08625v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.08646v1",
+      "title": "UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing",
+      "authors": [
+        "Xinlong Zhao",
+        "Dongsheng Liu",
+        "Hengyu Zhao",
+        "Zixuan Fu",
+        "Zheng Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "UltraX introduces a novel programmatic editing framework for large-scale pre-training data, addressing limitations of existing methods. Its core contribution is a function-calling approach that enables fine-grained instance-level editing through insertion, deletion, and modification, powered by a reliable program-supervision generation pipeline. This allows for more efficient and effective refinement of LLM training data as scaling laws plateau.",
+      "url": "http://arxiv.org/abs/2607.08646v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08646v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.08646v1/x4.png",
+      "figure_caption": "Overall workflow of UltraX, covering program-supervision generation, refinement model training, and inference-time program execution.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.08740v1",
+      "title": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows",
+      "authors": [
+        "Emanuele Quinto",
+        "Carlo Andrea Rozzi",
+        "Francesco Zanitti"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.PL",
+        "cs.SE"
+      ],
+      "abstract": "This paper proposes a conceptual model for LLM workflows, representing them as persistent knowledge objects. The core method involves distinguishing between deterministic \"derive\" operations and LLM-mediated \"infer\" judgments, all managed within a shared knowledge substrate. This approach enables semantic persistence, allowing workflows themselves to be treated as knowledge, not just producers of it.",
+      "url": "http://arxiv.org/abs/2607.08740v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08740v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.08740v1/figures/mermaid-001.55d3bc13c172.png",
+      "figure_caption": "Semantic workflow objects are interpreted by the DSL-machine control layer, which coordinates runtime services and writes back workflow instances, mediated effects, and records of inference, approval, and panel activity. The bidirectional relation indicates that the control layer both reads semantic objects and writes back persistent semantic objects or relations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.08768v1",
+      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+      "authors": [
+        "Zhekai Chen",
+        "Chengqi Duan",
+        "Kaiyue Sun",
+        "Bohao Li",
+        "Yuqing Wang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "UniClawBench is a novel benchmark designed to evaluate proactive AI agents in real-world scenarios. Its core method involves assessing agents based on five foundational capabilities: skill usage, exploration, long-context reasoning, multimodal understanding, and cross-platform coordination. The contribution lies in providing a capability-driven framework with 400 bilingual tasks, enabling more precise identification of agent weaknesses beyond traditional sandboxed, single-turn evaluations.",
+      "url": "http://arxiv.org/abs/2607.08768v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08768v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.08768v1/x1.png",
+      "figure_caption": "Overview of UniClawBench. UniClawBench consists of 400 bilingual real-world tasks spanning 5 core capabilities: multimodal, long-context, skill usage, exploration, and cross-platform. We propose a three-role closed-loop evaluation framework, where an executor agent performs tasks in real environments, a supervisor evaluates trajectories and artifacts using hidden rubrics, and a user simulator provides natural feedback based on executor’s performance and supervisor’s signal, enabling multi-turn interaction. We conduct two sets of experiments to evaluate cross-model and cross-framework performance. The capability-level results reveal that framework choice exerts a stronger influence than model choice.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
