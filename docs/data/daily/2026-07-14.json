@@ -1,0 +1,661 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T11:10:03.427733+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.11683v1",
+          "title": "RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Adapted LLM",
+          "authors": [
+            "Mikhail Komarov",
+            "Ivan Bondarenko",
+            "Stanislav Shtuka",
+            "Oleg Sedukhin",
+            "Roman Shuvalov"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "RAGU is a novel GraphRAG engine that improves knowledge graph construction by separating extraction from consolidation, using a multi-stage process including typed extraction, deduplication, summarization, and community detection. Its core contribution is a compact, domain-adapted LLM (Meno-Lite-0.1) trained specifically for language skills, which achieves superior knowledge graph construction performance compared to larger models and matches them on downstream GraphRAG tasks.",
+          "url": "http://arxiv.org/abs/2607.11683v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.11683v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2607.11683v1/figures/llm_quality.png",
+          "figure_caption": "Effect of model size on world-knowledge (CheGeKa) vs. language-skill (MultiQ) tasks in the Qwen2.5-Instruct family (F1 scores on MERA Fenogenova et al. ( 2024 ) ). CheGeKa F1 grows 21.1 × \\( \\times \\) from 0.5 B to 72 B; MultiQ only 4 × \\( \\times \\) . Log-linear slopes: 0.65 vs. 0.26.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.11643v1",
+          "title": "Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model",
+          "authors": [
+            "Xinghang Li",
+            "Jun Guo",
+            "Qiwei Li",
+            "Long Qian",
+            "Hang Lai"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.RO"
+          ],
+          "abstract": "This paper introduces Xiaomi-Robotics-U0, a novel 38-billion-parameter multimodal model that unifies embodied generation with world foundation models. Its core method treats embodied tasks as extensions of existing image/video generation, jointly optimizing diverse embodied synthesis tasks while preserving the generalization capabilities of large-scale pre-training. The key contribution is the first model capable of high-quality, multi-view embodied scene generation, bridging the gap between foundation models and robot applications.",
+          "url": "http://arxiv.org/abs/2607.11643v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.11643v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.11643v1/x1.png",
+          "figure_caption": "Embodied and general capabilities of Xiaomi-Robotics-U0 . The rectangle corresponds to the initial observations for the same embodiment, the pairwise transfer sample, and the keyframes within a video for the embodied capabilities. All frames are referenced and generated images.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.11698v1",
+          "title": "Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming",
+          "authors": [
+            "Xutao Mao",
+            "Xiang Zheng",
+            "Cong Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "This paper introduces AHA, an automated red-teaming method for LLM agents. It uses one agent to discover vulnerabilities in another by proposing hypotheses, constructing falsifiers, and executing attacks in a sandbox. AHA's contribution is a \"Vulnerability Concept Graph\" that captures reusable knowledge about enabling conditions for unsafe agent behavior, moving beyond simply recording attack successes.",
+          "url": "http://arxiv.org/abs/2607.11698v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.11698v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.11698v1/x1.png",
+          "figure_caption": "AHA overview. An autoresearch loop turns executed red-team trajectories into a frozen, reusable VCG, the auditable artifact this paper produces and evaluates.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.11707v1",
+          "title": "An Explainable Agentic System for Detection of Conversational Scams with Summary-Based Memory",
+          "authors": [
+            "Ahmed Omar Salim Adnan",
+            "Yogananda Manjunath",
+            "Shivanjali Khare"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR",
+            "cs.HC",
+            "cs.MA"
+          ],
+          "abstract": "This paper introduces an explainable agentic system to detect sophisticated, multi-turn conversational scams, addressing the limitations of single-message detectors. The system utilizes a summary-based memory to track scam progression and provides explanations for its detections. A key contribution is ConScamBench-278, a new benchmark dataset for conversational scam detection, enabling reproducible research and evaluation.",
+          "url": "http://arxiv.org/abs/2607.11707v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.11707v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.11707v1/figures/jina-replace.png",
+          "figure_caption": "The URL extraction and analysis pipeline. The system replaces third-party API dependencies with a local headless browser and Docling to prevent data leakage and tracking while improving the analysis of dynamic, JavaScript-heavy phishing content.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.11689v1",
+          "title": "From World Action Models to Embodied Brains: A Roadmap for Open-World Physical Intelligence",
+          "authors": [
+            "Yuanzhi Liang",
+            "Xufeng Zhan",
+            "Haibin Huang",
+            "Chi Zhang",
+            "Xuelong Li"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.RO"
+          ],
+          "abstract": "This paper argues that achieving artificial general intelligence in the physical world requires integrating existing approaches like action models and world models into a unified framework. The authors identify key fragmentation issues in current research and propose a roadmap centered on the \"embodied brain\" concept. This embodied brain would act as a central component for multimodal reasoning, intervention comparison, and issuing action commands, fostering a more cohesive and progressive research direction.",
+          "url": "http://arxiv.org/abs/2607.11689v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.11689v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.11689v1/x1.png",
+          "figure_caption": "System-level progression from WAM research to an embodied brain and a co-evolving physical-intelligence stack. WAMs provide a current route for studying intervention-conditioned prediction, while the embodied brain remains the broader target for reusable physical reasoning and intent formation.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.11818v1",
+          "title": "MM-ToolSandBox: A Unified Framework for Evaluating Visual Tool-Calling Agents",
+          "authors": [
+            "Kaixin Ma",
+            "Di Feng",
+            "Alexander Metz",
+            "Jiarui Lu",
+            "Eshan Verma"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "MM-ToolSandBox is a unified framework for evaluating visual tool-calling agents. It provides a stateful execution environment with over 500 tools across 16 domains, supporting complex multi-turn, multi-image tasks. The framework's contribution lies in its realistic simulation of conversational phenomena and its automated scenario generation, revealing that current state-of-the-art models struggle with robust visual tool-calling, achieving less than 50% success.",
+          "url": "http://arxiv.org/abs/2607.11818v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.11818v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.11751v1",
+          "title": "When Local Monitors Miss Compositional Harm: Diagnosing Distributed Backdoors in Multi-Agent Systems",
+          "authors": [
+            "Yibo Hu",
+            "Ren Wang"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CR",
+            "cs.MA"
+          ],
+          "abstract": "This paper introduces the concept of \"distributed backdoors\" in multi-agent LLM systems, where a harmful payload is split across agents, making each individual step appear benign to local monitors. The core contribution is demonstrating that traditional local monitoring is insufficient because these distributed attacks exploit an \"observability boundary,\" where the fragmented harm becomes indistinguishable from normal traffic. The paper proves that once fragments appear locally benign, no monitor operating solely on that local view can detect the attack.",
+          "url": "http://arxiv.org/abs/2607.11751v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.11751v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.11783v1",
+          "title": "How Temperature Shapes Ideological Discourse in Retrieval-Augmented Generation?",
+          "authors": [
+            "Elmira Salari",
+            "Hazem Amamou",
+            "José Victor de Souza",
+            "Shruti Kshirsagar",
+            "Maria Nunes Delfino"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates how ideological biases in retrieved information affect LLM outputs within Retrieval-Augmented Generation (RAG). The researchers used Lexical Multidimensional Analysis to identify ideological discourses in COVID-19 treatment articles, then employed these as a knowledge source for RAG. By varying sampling temperatures, they demonstrated that RAG can transmit, amplify, or suppress these ideological viewpoints in LLM-generated answers.",
+          "url": "http://arxiv.org/abs/2607.11783v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.11783v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.11783v1/Figures/factors_v2.jpg",
+          "figure_caption": "Factor scores.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.11703v1",
+          "title": "Production and Perception in LLMs: A Token Probability Approach",
+          "authors": [
+            "Anna Marklová",
+            "Jiří Milička",
+            "Martina Vokáčová",
+            "Rudolf Rosa"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates whether Large Language Models (LLMs) exhibit a production-perception asymmetry similar to humans. The core method involves comparing token probabilities generated by an LLM under \"production\" prompts (e.g., generating a poem) versus \"perception\" prompts (e.g., re-scoring existing tokens). The key contribution is demonstrating a consistent and significant difference in token probabilities between production and perception tasks, suggesting LLMs may functionally mirror this psycholinguistic distinction.",
+          "url": "http://arxiv.org/abs/2607.11703v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.11703v1",
+          "score": 7.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 20,
+        "papers_after_llm_filter": 9,
+        "count": 9
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 20,
+    "papers_after_llm_filter": 9,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 40
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.11683v1",
+      "title": "RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Adapted LLM",
+      "authors": [
+        "Mikhail Komarov",
+        "Ivan Bondarenko",
+        "Stanislav Shtuka",
+        "Oleg Sedukhin",
+        "Roman Shuvalov"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "RAGU is a novel GraphRAG engine that improves knowledge graph construction by separating extraction from consolidation, using a multi-stage process including typed extraction, deduplication, summarization, and community detection. Its core contribution is a compact, domain-adapted LLM (Meno-Lite-0.1) trained specifically for language skills, which achieves superior knowledge graph construction performance compared to larger models and matches them on downstream GraphRAG tasks.",
+      "url": "http://arxiv.org/abs/2607.11683v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11683v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2607.11683v1/figures/llm_quality.png",
+      "figure_caption": "Effect of model size on world-knowledge (CheGeKa) vs. language-skill (MultiQ) tasks in the Qwen2.5-Instruct family (F1 scores on MERA Fenogenova et al. ( 2024 ) ). CheGeKa F1 grows 21.1 × \\( \\times \\) from 0.5 B to 72 B; MultiQ only 4 × \\( \\times \\) . Log-linear slopes: 0.65 vs. 0.26.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.11643v1",
+      "title": "Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model",
+      "authors": [
+        "Xinghang Li",
+        "Jun Guo",
+        "Qiwei Li",
+        "Long Qian",
+        "Hang Lai"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces Xiaomi-Robotics-U0, a novel 38-billion-parameter multimodal model that unifies embodied generation with world foundation models. Its core method treats embodied tasks as extensions of existing image/video generation, jointly optimizing diverse embodied synthesis tasks while preserving the generalization capabilities of large-scale pre-training. The key contribution is the first model capable of high-quality, multi-view embodied scene generation, bridging the gap between foundation models and robot applications.",
+      "url": "http://arxiv.org/abs/2607.11643v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11643v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.11643v1/x1.png",
+      "figure_caption": "Embodied and general capabilities of Xiaomi-Robotics-U0 . The rectangle corresponds to the initial observations for the same embodiment, the pairwise transfer sample, and the keyframes within a video for the embodied capabilities. All frames are referenced and generated images.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.11698v1",
+      "title": "Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming",
+      "authors": [
+        "Xutao Mao",
+        "Xiang Zheng",
+        "Cong Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces AHA, an automated red-teaming method for LLM agents. It uses one agent to discover vulnerabilities in another by proposing hypotheses, constructing falsifiers, and executing attacks in a sandbox. AHA's contribution is a \"Vulnerability Concept Graph\" that captures reusable knowledge about enabling conditions for unsafe agent behavior, moving beyond simply recording attack successes.",
+      "url": "http://arxiv.org/abs/2607.11698v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11698v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.11698v1/x1.png",
+      "figure_caption": "AHA overview. An autoresearch loop turns executed red-team trajectories into a frozen, reusable VCG, the auditable artifact this paper produces and evaluates.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.11707v1",
+      "title": "An Explainable Agentic System for Detection of Conversational Scams with Summary-Based Memory",
+      "authors": [
+        "Ahmed Omar Salim Adnan",
+        "Yogananda Manjunath",
+        "Shivanjali Khare"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR",
+        "cs.HC",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces an explainable agentic system to detect sophisticated, multi-turn conversational scams, addressing the limitations of single-message detectors. The system utilizes a summary-based memory to track scam progression and provides explanations for its detections. A key contribution is ConScamBench-278, a new benchmark dataset for conversational scam detection, enabling reproducible research and evaluation.",
+      "url": "http://arxiv.org/abs/2607.11707v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11707v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.11707v1/figures/jina-replace.png",
+      "figure_caption": "The URL extraction and analysis pipeline. The system replaces third-party API dependencies with a local headless browser and Docling to prevent data leakage and tracking while improving the analysis of dynamic, JavaScript-heavy phishing content.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.11689v1",
+      "title": "From World Action Models to Embodied Brains: A Roadmap for Open-World Physical Intelligence",
+      "authors": [
+        "Yuanzhi Liang",
+        "Xufeng Zhan",
+        "Haibin Huang",
+        "Chi Zhang",
+        "Xuelong Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper argues that achieving artificial general intelligence in the physical world requires integrating existing approaches like action models and world models into a unified framework. The authors identify key fragmentation issues in current research and propose a roadmap centered on the \"embodied brain\" concept. This embodied brain would act as a central component for multimodal reasoning, intervention comparison, and issuing action commands, fostering a more cohesive and progressive research direction.",
+      "url": "http://arxiv.org/abs/2607.11689v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11689v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.11689v1/x1.png",
+      "figure_caption": "System-level progression from WAM research to an embodied brain and a co-evolving physical-intelligence stack. WAMs provide a current route for studying intervention-conditioned prediction, while the embodied brain remains the broader target for reusable physical reasoning and intent formation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.11818v1",
+      "title": "MM-ToolSandBox: A Unified Framework for Evaluating Visual Tool-Calling Agents",
+      "authors": [
+        "Kaixin Ma",
+        "Di Feng",
+        "Alexander Metz",
+        "Jiarui Lu",
+        "Eshan Verma"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "MM-ToolSandBox is a unified framework for evaluating visual tool-calling agents. It provides a stateful execution environment with over 500 tools across 16 domains, supporting complex multi-turn, multi-image tasks. The framework's contribution lies in its realistic simulation of conversational phenomena and its automated scenario generation, revealing that current state-of-the-art models struggle with robust visual tool-calling, achieving less than 50% success.",
+      "url": "http://arxiv.org/abs/2607.11818v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11818v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.11751v1",
+      "title": "When Local Monitors Miss Compositional Harm: Diagnosing Distributed Backdoors in Multi-Agent Systems",
+      "authors": [
+        "Yibo Hu",
+        "Ren Wang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CR",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces the concept of \"distributed backdoors\" in multi-agent LLM systems, where a harmful payload is split across agents, making each individual step appear benign to local monitors. The core contribution is demonstrating that traditional local monitoring is insufficient because these distributed attacks exploit an \"observability boundary,\" where the fragmented harm becomes indistinguishable from normal traffic. The paper proves that once fragments appear locally benign, no monitor operating solely on that local view can detect the attack.",
+      "url": "http://arxiv.org/abs/2607.11751v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11751v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.11783v1",
+      "title": "How Temperature Shapes Ideological Discourse in Retrieval-Augmented Generation?",
+      "authors": [
+        "Elmira Salari",
+        "Hazem Amamou",
+        "José Victor de Souza",
+        "Shruti Kshirsagar",
+        "Maria Nunes Delfino"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how ideological biases in retrieved information affect LLM outputs within Retrieval-Augmented Generation (RAG). The researchers used Lexical Multidimensional Analysis to identify ideological discourses in COVID-19 treatment articles, then employed these as a knowledge source for RAG. By varying sampling temperatures, they demonstrated that RAG can transmit, amplify, or suppress these ideological viewpoints in LLM-generated answers.",
+      "url": "http://arxiv.org/abs/2607.11783v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11783v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.11783v1/Figures/factors_v2.jpg",
+      "figure_caption": "Factor scores.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.11703v1",
+      "title": "Production and Perception in LLMs: A Token Probability Approach",
+      "authors": [
+        "Anna Marklová",
+        "Jiří Milička",
+        "Martina Vokáčová",
+        "Rudolf Rosa"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates whether Large Language Models (LLMs) exhibit a production-perception asymmetry similar to humans. The core method involves comparing token probabilities generated by an LLM under \"production\" prompts (e.g., generating a poem) versus \"perception\" prompts (e.g., re-scoring existing tokens). The key contribution is demonstrating a consistent and significant difference in token probabilities between production and perception tasks, suggesting LLMs may functionally mirror this psycholinguistic distinction.",
+      "url": "http://arxiv.org/abs/2607.11703v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11703v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.11683v1",
+      "title": "RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Adapted LLM",
+      "authors": [
+        "Mikhail Komarov",
+        "Ivan Bondarenko",
+        "Stanislav Shtuka",
+        "Oleg Sedukhin",
+        "Roman Shuvalov"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "RAGU is a novel GraphRAG engine that improves knowledge graph construction by separating extraction from consolidation, using a multi-stage process including typed extraction, deduplication, summarization, and community detection. Its core contribution is a compact, domain-adapted LLM (Meno-Lite-0.1) trained specifically for language skills, which achieves superior knowledge graph construction performance compared to larger models and matches them on downstream GraphRAG tasks.",
+      "url": "http://arxiv.org/abs/2607.11683v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11683v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2607.11683v1/figures/llm_quality.png",
+      "figure_caption": "Effect of model size on world-knowledge (CheGeKa) vs. language-skill (MultiQ) tasks in the Qwen2.5-Instruct family (F1 scores on MERA Fenogenova et al. ( 2024 ) ). CheGeKa F1 grows 21.1 × \\( \\times \\) from 0.5 B to 72 B; MultiQ only 4 × \\( \\times \\) . Log-linear slopes: 0.65 vs. 0.26.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.11643v1",
+      "title": "Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model",
+      "authors": [
+        "Xinghang Li",
+        "Jun Guo",
+        "Qiwei Li",
+        "Long Qian",
+        "Hang Lai"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces Xiaomi-Robotics-U0, a novel 38-billion-parameter multimodal model that unifies embodied generation with world foundation models. Its core method treats embodied tasks as extensions of existing image/video generation, jointly optimizing diverse embodied synthesis tasks while preserving the generalization capabilities of large-scale pre-training. The key contribution is the first model capable of high-quality, multi-view embodied scene generation, bridging the gap between foundation models and robot applications.",
+      "url": "http://arxiv.org/abs/2607.11643v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11643v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.11643v1/x1.png",
+      "figure_caption": "Embodied and general capabilities of Xiaomi-Robotics-U0 . The rectangle corresponds to the initial observations for the same embodiment, the pairwise transfer sample, and the keyframes within a video for the embodied capabilities. All frames are referenced and generated images.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.11698v1",
+      "title": "Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming",
+      "authors": [
+        "Xutao Mao",
+        "Xiang Zheng",
+        "Cong Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces AHA, an automated red-teaming method for LLM agents. It uses one agent to discover vulnerabilities in another by proposing hypotheses, constructing falsifiers, and executing attacks in a sandbox. AHA's contribution is a \"Vulnerability Concept Graph\" that captures reusable knowledge about enabling conditions for unsafe agent behavior, moving beyond simply recording attack successes.",
+      "url": "http://arxiv.org/abs/2607.11698v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11698v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.11698v1/x1.png",
+      "figure_caption": "AHA overview. An autoresearch loop turns executed red-team trajectories into a frozen, reusable VCG, the auditable artifact this paper produces and evaluates.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.11707v1",
+      "title": "An Explainable Agentic System for Detection of Conversational Scams with Summary-Based Memory",
+      "authors": [
+        "Ahmed Omar Salim Adnan",
+        "Yogananda Manjunath",
+        "Shivanjali Khare"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR",
+        "cs.HC",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces an explainable agentic system to detect sophisticated, multi-turn conversational scams, addressing the limitations of single-message detectors. The system utilizes a summary-based memory to track scam progression and provides explanations for its detections. A key contribution is ConScamBench-278, a new benchmark dataset for conversational scam detection, enabling reproducible research and evaluation.",
+      "url": "http://arxiv.org/abs/2607.11707v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11707v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.11707v1/figures/jina-replace.png",
+      "figure_caption": "The URL extraction and analysis pipeline. The system replaces third-party API dependencies with a local headless browser and Docling to prevent data leakage and tracking while improving the analysis of dynamic, JavaScript-heavy phishing content.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.11689v1",
+      "title": "From World Action Models to Embodied Brains: A Roadmap for Open-World Physical Intelligence",
+      "authors": [
+        "Yuanzhi Liang",
+        "Xufeng Zhan",
+        "Haibin Huang",
+        "Chi Zhang",
+        "Xuelong Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper argues that achieving artificial general intelligence in the physical world requires integrating existing approaches like action models and world models into a unified framework. The authors identify key fragmentation issues in current research and propose a roadmap centered on the \"embodied brain\" concept. This embodied brain would act as a central component for multimodal reasoning, intervention comparison, and issuing action commands, fostering a more cohesive and progressive research direction.",
+      "url": "http://arxiv.org/abs/2607.11689v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11689v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.11689v1/x1.png",
+      "figure_caption": "System-level progression from WAM research to an embodied brain and a co-evolving physical-intelligence stack. WAMs provide a current route for studying intervention-conditioned prediction, while the embodied brain remains the broader target for reusable physical reasoning and intent formation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.11818v1",
+      "title": "MM-ToolSandBox: A Unified Framework for Evaluating Visual Tool-Calling Agents",
+      "authors": [
+        "Kaixin Ma",
+        "Di Feng",
+        "Alexander Metz",
+        "Jiarui Lu",
+        "Eshan Verma"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "MM-ToolSandBox is a unified framework for evaluating visual tool-calling agents. It provides a stateful execution environment with over 500 tools across 16 domains, supporting complex multi-turn, multi-image tasks. The framework's contribution lies in its realistic simulation of conversational phenomena and its automated scenario generation, revealing that current state-of-the-art models struggle with robust visual tool-calling, achieving less than 50% success.",
+      "url": "http://arxiv.org/abs/2607.11818v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11818v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.11751v1",
+      "title": "When Local Monitors Miss Compositional Harm: Diagnosing Distributed Backdoors in Multi-Agent Systems",
+      "authors": [
+        "Yibo Hu",
+        "Ren Wang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CR",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces the concept of \"distributed backdoors\" in multi-agent LLM systems, where a harmful payload is split across agents, making each individual step appear benign to local monitors. The core contribution is demonstrating that traditional local monitoring is insufficient because these distributed attacks exploit an \"observability boundary,\" where the fragmented harm becomes indistinguishable from normal traffic. The paper proves that once fragments appear locally benign, no monitor operating solely on that local view can detect the attack.",
+      "url": "http://arxiv.org/abs/2607.11751v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11751v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.11783v1",
+      "title": "How Temperature Shapes Ideological Discourse in Retrieval-Augmented Generation?",
+      "authors": [
+        "Elmira Salari",
+        "Hazem Amamou",
+        "José Victor de Souza",
+        "Shruti Kshirsagar",
+        "Maria Nunes Delfino"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how ideological biases in retrieved information affect LLM outputs within Retrieval-Augmented Generation (RAG). The researchers used Lexical Multidimensional Analysis to identify ideological discourses in COVID-19 treatment articles, then employed these as a knowledge source for RAG. By varying sampling temperatures, they demonstrated that RAG can transmit, amplify, or suppress these ideological viewpoints in LLM-generated answers.",
+      "url": "http://arxiv.org/abs/2607.11783v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11783v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.11783v1/Figures/factors_v2.jpg",
+      "figure_caption": "Factor scores.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.11703v1",
+      "title": "Production and Perception in LLMs: A Token Probability Approach",
+      "authors": [
+        "Anna Marklová",
+        "Jiří Milička",
+        "Martina Vokáčová",
+        "Rudolf Rosa"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates whether Large Language Models (LLMs) exhibit a production-perception asymmetry similar to humans. The core method involves comparing token probabilities generated by an LLM under \"production\" prompts (e.g., generating a poem) versus \"perception\" prompts (e.g., re-scoring existing tokens). The key contribution is demonstrating a consistent and significant difference in token probabilities between production and perception tasks, suggesting LLMs may functionally mirror this psycholinguistic distinction.",
+      "url": "http://arxiv.org/abs/2607.11703v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11703v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
