@@ -1,0 +1,925 @@
+{
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T11:12:28.391429+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.12886v1",
+          "title": "A Multi-Agent System for Autonomous, Fine-Tuning-Free Clinical Symptom Detection: Development and Validation Study",
+          "authors": [
+            "Cameron Cagan",
+            "Pedram Fard",
+            "Jiazi Tian",
+            "Jingya Cheng",
+            "Shawn N. Murphy"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces Pythia, a novel multi-agent system for autonomous clinical symptom detection. Pythia's core method involves automatically generating and optimizing extraction prompts for clinical concepts without manual intervention or model fine-tuning. Its key contribution is enabling accurate and privacy-preserving symptom extraction from clinical notes by leveraging locally hosted models and prompt optimization, outperforming traditional lexicon-based methods in specificity.",
+          "url": "http://arxiv.org/abs/2607.12886v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.12886v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.12886v1/x1.png",
+          "figure_caption": "The Pythia optimization loop. For each concept, a Specialist agent applies the current prompt P t P_{t} to the development set and the loop computes sensitivity, specificity, and F ​ 1 F1 . A deterministic controller continues, backtracks to the best prior prompt, resets, or halts. On a non-halting step an Improver agent reads the errors for the active target, false negatives for a sensitivity target and false positives for a specificity target, and a Summarizer agent synthesizes the next prompt P t + 1 = g ​ ( 𝒞 t , P t , S ) P_{t+1}=g(\\( \\mathcal{C}_{t} \\),P_{t},S) . Repeated regeneration that recovers identical performance reaches the rejection cap and forces an Infinity War halt. At halting the agent selects P ∗ P^{*} and applies it once to the held-out validation set.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.12884v1",
+          "title": "Evaluating Large Language Models on Misconceptions in Multi-Turn Medical Conversations",
+          "authors": [
+            "Monica Munnangi",
+            "Saiph Savage"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces ThReadMed-QA, a novel dataset of multi-turn medical conversations designed to evaluate Large Language Models (LLMs) on their ability to detect and correct patient misconceptions. The core method involves assessing LLMs' performance in identifying and addressing false beliefs that can emerge or evolve over a dialogue. The key contribution is providing a benchmark to understand if LLMs can safely and effectively manage complex medical interactions, which is crucial for real-world applications.",
+          "url": "http://arxiv.org/abs/2607.12884v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.12884v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.12884v1/x1.png",
+          "figure_caption": "A representative conversation thread from ThReadMed-QA . Misconception can emerge early in the conversation (left) or in the later turns (right). Physicians correct these and provide safe answers irrespective of where they appear.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.12829v1",
+          "title": "Accelerating Masked Diffusion Large Language Models: A Survey of Efficient Inference Techniques",
+          "authors": [
+            "Daehoon Gwak",
+            "Minhyung Lee",
+            "Junwoo Park",
+            "Jaegul Choo"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This survey introduces a unified framework to analyze and accelerate the inference of masked diffusion large language models (dLLMs). It categorizes existing techniques across algorithms, architectures, and systems, aiming to disentangle their impact on end-to-end latency and guide future research towards practical speedups. The core contribution is a structured approach to understanding and improving dLLM inference efficiency, moving beyond simple parallel generation.",
+          "url": "http://arxiv.org/abs/2607.12829v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.12829v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.13034v1",
+          "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
+          "authors": [
+            "Junjie Yin",
+            "Xinyu Feng"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.SE",
+            "eess.SY"
+          ],
+          "abstract": "This paper introduces E3 (Estimate, Execute, Expand), a method for AI agents to assess task complexity before execution. E3 estimates the necessary scope, executes a minimal path, and only expands if verification fails. This approach significantly reduces computational cost and resource usage while maintaining high success rates.",
+          "url": "http://arxiv.org/abs/2607.13034v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.13034v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.13034v1/x2.png",
+          "figure_caption": "The E3 framework. The agent estimates an initial operating point x 0 = ( d ^ , s ^ , r ^ , c ^ ) x_{0}=(\\( \\hat{d} \\),\\( \\hat{s} \\),\\( \\hat{r} \\),\\( \\hat{c} \\)) , executes a minimum viable path sized to x 0 x_{0} , and expands scope only when verification fails or confidence is low. Successful verification exits immediately.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.12982v1",
+          "title": "FormalAnalyticGeo: A Neural-Symbolic Based Framework for Multimodal Analytic Geometry Problem Generation",
+          "authors": [
+            "Ruoran Xu",
+            "Wending Gao",
+            "Qiufeng Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.MA",
+            "cs.SC"
+          ],
+          "abstract": "FormalAnalyticGeo addresses the lack of annotated data in multimodal analytic geometry by introducing a novel neural-symbolic framework. Its core method uses a formal intermediate representation (CDL) to bridge natural language problem descriptions with precise diagram generation via an SDF engine. This allows for the scalable, automatic creation of diverse and geometrically accurate analytic geometry problems.",
+          "url": "http://arxiv.org/abs/2607.12982v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.12982v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.12982v1/Comparison.png",
+          "figure_caption": "Figure 1. Diagram generation for the same analytic geometry problem. (a) ChatGPT: the circle does not use the focal distance as its diameter, and P P lies on the circle but not on the hyperbola. (b) Nano Banana: geometrically meaningless output. (c) Gemini 3 Pro: distorted curves and inaccurate point placement. (d) Ours: geometrically exact rendering with known coordinate-to-pixel mapping, enabling direct visual measurement of ground-truth answers.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.12823v1",
+          "title": "Human-AI Agent Interaction as a Neuroplastic Training Environment",
+          "authors": [
+            "Eranga Bandara",
+            "Ross Gore",
+            "Asanga Gunaratna",
+            "Ravi Mukkamala",
+            "Nihal Siriwardanagea"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper proposes that everyday human-AI agent interactions, characterized by an iterative request-response-appraisal loop, act as an unrecognized neuroplastic training environment. The authors argue that repeated exposure to disappointing AI outputs can inadvertently strengthen negative cognitive patterns like impatience and frustration. Their core contribution is the idea that this same environment can be intentionally leveraged to cultivate positive neuroplastic changes and desirable cognitive habits.",
+          "url": "http://arxiv.org/abs/2607.12823v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.12823v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.12823v1/figures/fig_what_is_agent.png",
+          "figure_caption": "What an AI agent is, and why its use forms a loop. A person issues a request in natural language; the agent — an AI system built on a large language or generative model — returns a result, which the person then evaluates. Because the result rarely matches the intention on the first attempt, the person reacts and issues a revised request, and the exchange repeats. However different such tools appear — conversational assistants, coding copilots, image or text generators — their use shares one shape: an iterative loop of request, result, reaction, and revision. The reaction phase (highlighted) is the moment this paper concerns.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.12893v1",
+          "title": "MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations",
+          "authors": [
+            "Xixuan Hao",
+            "Zeyu Zhang",
+            "Zehao Lin",
+            "Yihang Sun",
+            "Ziliang Guo"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces MemOps, a new benchmark for evaluating long-term memory in LLM agents. Instead of just checking final answers, MemOps analyzes the sequence of memory operations (remembering, forgetting, updating, etc.) throughout a conversation. This allows for a more granular assessment of memory performance, identifying specific failure points beyond just incorrect outputs.",
+          "url": "http://arxiv.org/abs/2607.12893v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.12893v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.12893v1/x1.png",
+          "figure_caption": "Comparison between existing long-term memory benchmark and our MemOps .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.13027v1",
+          "title": "PalmClaw: A Native On-Device Agent Framework for Mobile Phones",
+          "authors": [
+            "Hongru Cai",
+            "Yongqi Li",
+            "Ran Wei",
+            "Wenjie Li"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "PalmClaw is a novel on-device agent framework for mobile phones. Its core method involves running LLM agents natively on the device, enabling direct access to mobile capabilities as structured tools. This contribution allows for more efficient and integrated task automation on smartphones, overcoming limitations of existing GUI-based approaches.",
+          "url": "http://arxiv.org/abs/2607.13027v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.13027v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.13027v1/x1.png",
+          "figure_caption": "Overview of PalmClaw. (a) An externally hosted mobile agent exchanges GUI states and GUI actions between a desktop or cloud host and the phone. (b) PalmClaw runs the agent components on the mobile device and connects them to device resources and capabilities through device tools.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.12790v1",
+          "title": "Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents",
+          "authors": [
+            "Xing Zhang",
+            "Guanghui Wang",
+            "Yanwei Cui",
+            "Ziyuan Li",
+            "Wei Qiu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.MA"
+          ],
+          "abstract": "This paper introduces **Double Ratchet**, a method for co-evolving evaluation metrics and agent skills in a self-improving LLM system. Instead of assuming a pre-existing metric, it dynamically creates and refines metrics by composing smaller detectors, trained to align with human-defined anchors and consensus. This approach allows LLM agents to improve their performance on tasks where reliable evaluation metrics are initially absent, demonstrating significant gains across various benchmarks.",
+          "url": "http://arxiv.org/abs/2607.12790v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.12790v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.12790v1/x1.png",
+          "figure_caption": "Double Ratchet architecture. The metric loop (left) evolves an expression over drawback detectors; the skill loop (right) evolves the agent’s skill bank, its training graded by the evolved metric during co-evolution. Anchors (bottom) are never trained on; an independent judge audits final outputs on reference-free tasks.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.12835v1",
+          "title": "Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction",
+          "authors": [
+            "Hanhua Hong",
+            "Yizhi Li",
+            "Jiaoyan Chen",
+            "Luu Gia Huy",
+            "Sophia Ananiadou"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates the reliability of LLM-generated rubrics for evaluating open-ended outputs in research paper reproduction. The core method involves a meta-evaluation of LLM-generated rubrics, reformulated as checklists, assessing their semantic similarity and alignment with human-generated rubrics. The key contribution is demonstrating that augmented LLM rubric generation significantly improves downstream evaluation alignment, approaching human performance, thus offering a more scalable solution for benchmark creation.",
+          "url": "http://arxiv.org/abs/2607.12835v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.12835v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.12835v1/figures/main_figure.png",
+          "figure_caption": "Overview of our meta-evaluation framework for LLM-generated rubrics in paper reproduction. Given a paper, reproduction agents generate candidate repositories, while LLMs and human experts produce checklist-style rubrics. We evaluate generated rubrics intrinsically by measuring their semantic similarity to human-authored rubrics, and extrinsically by comparing the repository scores they induce with PaperBench evaluations.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.12831v1",
+          "title": "Knowledgeless Language Models: Suppressing Parametric Recall for Evidence-Grounded Language Modeling",
+          "authors": [
+            "Roi Cohen",
+            "Yvan Carré",
+            "Nick Lechtenbörger",
+            "Hendrik Droste",
+            "Lucas Kerschke"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Knowledge-Less Language Models (KLLMs), a new training method that anonymizes named entities during pretraining. This approach suppresses reliance on memorized factual knowledge, shifting models towards reasoning based on provided context. KLLMs demonstrate improved performance on tasks requiring evidence-grounded reasoning, such as contextual question answering and fact verification, while reducing factual recall.",
+          "url": "http://arxiv.org/abs/2607.12831v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.12831v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.12831v1/figures/pipeline.png",
+          "figure_caption": "Pipeline of Knowledgeless Language Model (KLLM) training and inference",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.12963v1",
+          "title": "The Illusion of Robustness: Aggregate Accuracy Hides Prediction Flips under Task-Irrelevant Context",
+          "authors": [
+            "Yanzhe Zhang",
+            "Sanmi Koyejo",
+            "Diyi Yang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper demonstrates that while LLMs appear robust to task-irrelevant context at an aggregate accuracy level, this stability masks significant per-example prediction flips. Even semantically meaningless context can alter predictions for a subset of inputs, revealing a hidden fragility in LLM behavior that is model-specific and influenced by various factors.",
+          "url": "http://arxiv.org/abs/2607.12963v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.12963v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.12963v1/x1.png",
+          "figure_caption": "Context-induced instability is a two-sided effect. We show two MMLU-Pro examples where task-irrelevant context respectively improves and degrades gpt-5.4 ’s responses by affecting commonsense and calculation. Full examples are in Appendix I .",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 18,
+        "papers_after_llm_filter": 12,
+        "count": 12
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Post Doc position in the frame of the HE EIC project EndoCartoScope: Transforming any Endoscope into a Smart Device for Intraoperative 3D Localization, Navigation and Mapping. (G.A.: 101211633)",
+          "url": "https://euraxess.ec.europa.eu/jobs/453099",
+          "description": "Post Doc position in the frame of the HE EIC project EndoCartoScope: Transforming any Endoscope into a Smart Device for Intraoperative 3D Localization, Navigation and Mapping. (GA: 101211633). Profile:PhD in a field related to 3D reconstruction and/or map building.Research and technology transfer... * Department: EUROPEN PROJECTS OFFICE Work Locations: Number of offers: 1, Spain, Institute of Engineering of Aragon (I3A) / University of Zaragoza, Zaragoza, Zaragoza Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) Researcher Profile: [Leading Researcher (R4)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A450) Funding Programme: [Horizon Europe - EIC](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4346) Application Deadline: 20 Jul 2026 - 23:59 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Austria * [Johannes Kepler University](https://euraxess.ec.europa.eu/partnering/organisations/profile/johannes-kepler-university) * [Field: Engineering]",
+          "institution": "",
+          "posted_date": "15 July 2026",
+          "deadline": "20 Jul 2026 - 23:59 (Europe/Madrid)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: 3D reconstruction and map building for intraoperative localization, navigation, and mapping using endoscopes.\nKey Requirements: PhD in a field related to 3D reconstruction and/or map building.\nApplication Info: deadline/start date: 20 Jul 2026 - 23:59 (Europe/Madrid), required materials: N/A, contact: N/A\nPosition Details: location: Zaragoza, Spain (Institute of Engineering of Aragon (I3A) / University of Zaragoza), contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: CVs should highlight experience in 3D reconstruction and map building relevant to medical imaging or robotic navigation.",
+          "relevance_score": 9.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 1
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 18,
+    "papers_after_llm_filter": 12,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 53
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.12886v1",
+      "title": "A Multi-Agent System for Autonomous, Fine-Tuning-Free Clinical Symptom Detection: Development and Validation Study",
+      "authors": [
+        "Cameron Cagan",
+        "Pedram Fard",
+        "Jiazi Tian",
+        "Jingya Cheng",
+        "Shawn N. Murphy"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces Pythia, a novel multi-agent system for autonomous clinical symptom detection. Pythia's core method involves automatically generating and optimizing extraction prompts for clinical concepts without manual intervention or model fine-tuning. Its key contribution is enabling accurate and privacy-preserving symptom extraction from clinical notes by leveraging locally hosted models and prompt optimization, outperforming traditional lexicon-based methods in specificity.",
+      "url": "http://arxiv.org/abs/2607.12886v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12886v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.12886v1/x1.png",
+      "figure_caption": "The Pythia optimization loop. For each concept, a Specialist agent applies the current prompt P t P_{t} to the development set and the loop computes sensitivity, specificity, and F ​ 1 F1 . A deterministic controller continues, backtracks to the best prior prompt, resets, or halts. On a non-halting step an Improver agent reads the errors for the active target, false negatives for a sensitivity target and false positives for a specificity target, and a Summarizer agent synthesizes the next prompt P t + 1 = g ​ ( 𝒞 t , P t , S ) P_{t+1}=g(\\( \\mathcal{C}_{t} \\),P_{t},S) . Repeated regeneration that recovers identical performance reaches the rejection cap and forces an Infinity War halt. At halting the agent selects P ∗ P^{*} and applies it once to the held-out validation set.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.12884v1",
+      "title": "Evaluating Large Language Models on Misconceptions in Multi-Turn Medical Conversations",
+      "authors": [
+        "Monica Munnangi",
+        "Saiph Savage"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ThReadMed-QA, a novel dataset of multi-turn medical conversations designed to evaluate Large Language Models (LLMs) on their ability to detect and correct patient misconceptions. The core method involves assessing LLMs' performance in identifying and addressing false beliefs that can emerge or evolve over a dialogue. The key contribution is providing a benchmark to understand if LLMs can safely and effectively manage complex medical interactions, which is crucial for real-world applications.",
+      "url": "http://arxiv.org/abs/2607.12884v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12884v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.12884v1/x1.png",
+      "figure_caption": "A representative conversation thread from ThReadMed-QA . Misconception can emerge early in the conversation (left) or in the later turns (right). Physicians correct these and provide safe answers irrespective of where they appear.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.12829v1",
+      "title": "Accelerating Masked Diffusion Large Language Models: A Survey of Efficient Inference Techniques",
+      "authors": [
+        "Daehoon Gwak",
+        "Minhyung Lee",
+        "Junwoo Park",
+        "Jaegul Choo"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This survey introduces a unified framework to analyze and accelerate the inference of masked diffusion large language models (dLLMs). It categorizes existing techniques across algorithms, architectures, and systems, aiming to disentangle their impact on end-to-end latency and guide future research towards practical speedups. The core contribution is a structured approach to understanding and improving dLLM inference efficiency, moving beyond simple parallel generation.",
+      "url": "http://arxiv.org/abs/2607.12829v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12829v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.13034v1",
+      "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
+      "authors": [
+        "Junjie Yin",
+        "Xinyu Feng"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE",
+        "eess.SY"
+      ],
+      "abstract": "This paper introduces E3 (Estimate, Execute, Expand), a method for AI agents to assess task complexity before execution. E3 estimates the necessary scope, executes a minimal path, and only expands if verification fails. This approach significantly reduces computational cost and resource usage while maintaining high success rates.",
+      "url": "http://arxiv.org/abs/2607.13034v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13034v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.13034v1/x2.png",
+      "figure_caption": "The E3 framework. The agent estimates an initial operating point x 0 = ( d ^ , s ^ , r ^ , c ^ ) x_{0}=(\\( \\hat{d} \\),\\( \\hat{s} \\),\\( \\hat{r} \\),\\( \\hat{c} \\)) , executes a minimum viable path sized to x 0 x_{0} , and expands scope only when verification fails or confidence is low. Successful verification exits immediately.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.12982v1",
+      "title": "FormalAnalyticGeo: A Neural-Symbolic Based Framework for Multimodal Analytic Geometry Problem Generation",
+      "authors": [
+        "Ruoran Xu",
+        "Wending Gao",
+        "Qiufeng Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.MA",
+        "cs.SC"
+      ],
+      "abstract": "FormalAnalyticGeo addresses the lack of annotated data in multimodal analytic geometry by introducing a novel neural-symbolic framework. Its core method uses a formal intermediate representation (CDL) to bridge natural language problem descriptions with precise diagram generation via an SDF engine. This allows for the scalable, automatic creation of diverse and geometrically accurate analytic geometry problems.",
+      "url": "http://arxiv.org/abs/2607.12982v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12982v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.12982v1/Comparison.png",
+      "figure_caption": "Figure 1. Diagram generation for the same analytic geometry problem. (a) ChatGPT: the circle does not use the focal distance as its diameter, and P P lies on the circle but not on the hyperbola. (b) Nano Banana: geometrically meaningless output. (c) Gemini 3 Pro: distorted curves and inaccurate point placement. (d) Ours: geometrically exact rendering with known coordinate-to-pixel mapping, enabling direct visual measurement of ground-truth answers.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.12823v1",
+      "title": "Human-AI Agent Interaction as a Neuroplastic Training Environment",
+      "authors": [
+        "Eranga Bandara",
+        "Ross Gore",
+        "Asanga Gunaratna",
+        "Ravi Mukkamala",
+        "Nihal Siriwardanagea"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes that everyday human-AI agent interactions, characterized by an iterative request-response-appraisal loop, act as an unrecognized neuroplastic training environment. The authors argue that repeated exposure to disappointing AI outputs can inadvertently strengthen negative cognitive patterns like impatience and frustration. Their core contribution is the idea that this same environment can be intentionally leveraged to cultivate positive neuroplastic changes and desirable cognitive habits.",
+      "url": "http://arxiv.org/abs/2607.12823v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12823v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.12823v1/figures/fig_what_is_agent.png",
+      "figure_caption": "What an AI agent is, and why its use forms a loop. A person issues a request in natural language; the agent — an AI system built on a large language or generative model — returns a result, which the person then evaluates. Because the result rarely matches the intention on the first attempt, the person reacts and issues a revised request, and the exchange repeats. However different such tools appear — conversational assistants, coding copilots, image or text generators — their use shares one shape: an iterative loop of request, result, reaction, and revision. The reaction phase (highlighted) is the moment this paper concerns.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.12893v1",
+      "title": "MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations",
+      "authors": [
+        "Xixuan Hao",
+        "Zeyu Zhang",
+        "Zehao Lin",
+        "Yihang Sun",
+        "Ziliang Guo"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces MemOps, a new benchmark for evaluating long-term memory in LLM agents. Instead of just checking final answers, MemOps analyzes the sequence of memory operations (remembering, forgetting, updating, etc.) throughout a conversation. This allows for a more granular assessment of memory performance, identifying specific failure points beyond just incorrect outputs.",
+      "url": "http://arxiv.org/abs/2607.12893v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12893v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.12893v1/x1.png",
+      "figure_caption": "Comparison between existing long-term memory benchmark and our MemOps .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.13027v1",
+      "title": "PalmClaw: A Native On-Device Agent Framework for Mobile Phones",
+      "authors": [
+        "Hongru Cai",
+        "Yongqi Li",
+        "Ran Wei",
+        "Wenjie Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "PalmClaw is a novel on-device agent framework for mobile phones. Its core method involves running LLM agents natively on the device, enabling direct access to mobile capabilities as structured tools. This contribution allows for more efficient and integrated task automation on smartphones, overcoming limitations of existing GUI-based approaches.",
+      "url": "http://arxiv.org/abs/2607.13027v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13027v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.13027v1/x1.png",
+      "figure_caption": "Overview of PalmClaw. (a) An externally hosted mobile agent exchanges GUI states and GUI actions between a desktop or cloud host and the phone. (b) PalmClaw runs the agent components on the mobile device and connects them to device resources and capabilities through device tools.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.12790v1",
+      "title": "Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents",
+      "authors": [
+        "Xing Zhang",
+        "Guanghui Wang",
+        "Yanwei Cui",
+        "Ziyuan Li",
+        "Wei Qiu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces **Double Ratchet**, a method for co-evolving evaluation metrics and agent skills in a self-improving LLM system. Instead of assuming a pre-existing metric, it dynamically creates and refines metrics by composing smaller detectors, trained to align with human-defined anchors and consensus. This approach allows LLM agents to improve their performance on tasks where reliable evaluation metrics are initially absent, demonstrating significant gains across various benchmarks.",
+      "url": "http://arxiv.org/abs/2607.12790v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12790v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.12790v1/x1.png",
+      "figure_caption": "Double Ratchet architecture. The metric loop (left) evolves an expression over drawback detectors; the skill loop (right) evolves the agent’s skill bank, its training graded by the evolved metric during co-evolution. Anchors (bottom) are never trained on; an independent judge audits final outputs on reference-free tasks.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.12835v1",
+      "title": "Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction",
+      "authors": [
+        "Hanhua Hong",
+        "Yizhi Li",
+        "Jiaoyan Chen",
+        "Luu Gia Huy",
+        "Sophia Ananiadou"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates the reliability of LLM-generated rubrics for evaluating open-ended outputs in research paper reproduction. The core method involves a meta-evaluation of LLM-generated rubrics, reformulated as checklists, assessing their semantic similarity and alignment with human-generated rubrics. The key contribution is demonstrating that augmented LLM rubric generation significantly improves downstream evaluation alignment, approaching human performance, thus offering a more scalable solution for benchmark creation.",
+      "url": "http://arxiv.org/abs/2607.12835v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12835v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.12835v1/figures/main_figure.png",
+      "figure_caption": "Overview of our meta-evaluation framework for LLM-generated rubrics in paper reproduction. Given a paper, reproduction agents generate candidate repositories, while LLMs and human experts produce checklist-style rubrics. We evaluate generated rubrics intrinsically by measuring their semantic similarity to human-authored rubrics, and extrinsically by comparing the repository scores they induce with PaperBench evaluations.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.12831v1",
+      "title": "Knowledgeless Language Models: Suppressing Parametric Recall for Evidence-Grounded Language Modeling",
+      "authors": [
+        "Roi Cohen",
+        "Yvan Carré",
+        "Nick Lechtenbörger",
+        "Hendrik Droste",
+        "Lucas Kerschke"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Knowledge-Less Language Models (KLLMs), a new training method that anonymizes named entities during pretraining. This approach suppresses reliance on memorized factual knowledge, shifting models towards reasoning based on provided context. KLLMs demonstrate improved performance on tasks requiring evidence-grounded reasoning, such as contextual question answering and fact verification, while reducing factual recall.",
+      "url": "http://arxiv.org/abs/2607.12831v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12831v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.12831v1/figures/pipeline.png",
+      "figure_caption": "Pipeline of Knowledgeless Language Model (KLLM) training and inference",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.12963v1",
+      "title": "The Illusion of Robustness: Aggregate Accuracy Hides Prediction Flips under Task-Irrelevant Context",
+      "authors": [
+        "Yanzhe Zhang",
+        "Sanmi Koyejo",
+        "Diyi Yang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper demonstrates that while LLMs appear robust to task-irrelevant context at an aggregate accuracy level, this stability masks significant per-example prediction flips. Even semantically meaningless context can alter predictions for a subset of inputs, revealing a hidden fragility in LLM behavior that is model-specific and influenced by various factors.",
+      "url": "http://arxiv.org/abs/2607.12963v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12963v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.12963v1/x1.png",
+      "figure_caption": "Context-induced instability is a two-sided effect. We show two MMLU-Pro examples where task-irrelevant context respectively improves and degrades gpt-5.4 ’s responses by affecting commonsense and calculation. Full examples are in Appendix I .",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.12886v1",
+      "title": "A Multi-Agent System for Autonomous, Fine-Tuning-Free Clinical Symptom Detection: Development and Validation Study",
+      "authors": [
+        "Cameron Cagan",
+        "Pedram Fard",
+        "Jiazi Tian",
+        "Jingya Cheng",
+        "Shawn N. Murphy"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces Pythia, a novel multi-agent system for autonomous clinical symptom detection. Pythia's core method involves automatically generating and optimizing extraction prompts for clinical concepts without manual intervention or model fine-tuning. Its key contribution is enabling accurate and privacy-preserving symptom extraction from clinical notes by leveraging locally hosted models and prompt optimization, outperforming traditional lexicon-based methods in specificity.",
+      "url": "http://arxiv.org/abs/2607.12886v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12886v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.12886v1/x1.png",
+      "figure_caption": "The Pythia optimization loop. For each concept, a Specialist agent applies the current prompt P t P_{t} to the development set and the loop computes sensitivity, specificity, and F ​ 1 F1 . A deterministic controller continues, backtracks to the best prior prompt, resets, or halts. On a non-halting step an Improver agent reads the errors for the active target, false negatives for a sensitivity target and false positives for a specificity target, and a Summarizer agent synthesizes the next prompt P t + 1 = g ​ ( 𝒞 t , P t , S ) P_{t+1}=g(\\( \\mathcal{C}_{t} \\),P_{t},S) . Repeated regeneration that recovers identical performance reaches the rejection cap and forces an Infinity War halt. At halting the agent selects P ∗ P^{*} and applies it once to the held-out validation set.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.12884v1",
+      "title": "Evaluating Large Language Models on Misconceptions in Multi-Turn Medical Conversations",
+      "authors": [
+        "Monica Munnangi",
+        "Saiph Savage"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ThReadMed-QA, a novel dataset of multi-turn medical conversations designed to evaluate Large Language Models (LLMs) on their ability to detect and correct patient misconceptions. The core method involves assessing LLMs' performance in identifying and addressing false beliefs that can emerge or evolve over a dialogue. The key contribution is providing a benchmark to understand if LLMs can safely and effectively manage complex medical interactions, which is crucial for real-world applications.",
+      "url": "http://arxiv.org/abs/2607.12884v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12884v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.12884v1/x1.png",
+      "figure_caption": "A representative conversation thread from ThReadMed-QA . Misconception can emerge early in the conversation (left) or in the later turns (right). Physicians correct these and provide safe answers irrespective of where they appear.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.12829v1",
+      "title": "Accelerating Masked Diffusion Large Language Models: A Survey of Efficient Inference Techniques",
+      "authors": [
+        "Daehoon Gwak",
+        "Minhyung Lee",
+        "Junwoo Park",
+        "Jaegul Choo"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This survey introduces a unified framework to analyze and accelerate the inference of masked diffusion large language models (dLLMs). It categorizes existing techniques across algorithms, architectures, and systems, aiming to disentangle their impact on end-to-end latency and guide future research towards practical speedups. The core contribution is a structured approach to understanding and improving dLLM inference efficiency, moving beyond simple parallel generation.",
+      "url": "http://arxiv.org/abs/2607.12829v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12829v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.13034v1",
+      "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
+      "authors": [
+        "Junjie Yin",
+        "Xinyu Feng"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE",
+        "eess.SY"
+      ],
+      "abstract": "This paper introduces E3 (Estimate, Execute, Expand), a method for AI agents to assess task complexity before execution. E3 estimates the necessary scope, executes a minimal path, and only expands if verification fails. This approach significantly reduces computational cost and resource usage while maintaining high success rates.",
+      "url": "http://arxiv.org/abs/2607.13034v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13034v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.13034v1/x2.png",
+      "figure_caption": "The E3 framework. The agent estimates an initial operating point x 0 = ( d ^ , s ^ , r ^ , c ^ ) x_{0}=(\\( \\hat{d} \\),\\( \\hat{s} \\),\\( \\hat{r} \\),\\( \\hat{c} \\)) , executes a minimum viable path sized to x 0 x_{0} , and expands scope only when verification fails or confidence is low. Successful verification exits immediately.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.12982v1",
+      "title": "FormalAnalyticGeo: A Neural-Symbolic Based Framework for Multimodal Analytic Geometry Problem Generation",
+      "authors": [
+        "Ruoran Xu",
+        "Wending Gao",
+        "Qiufeng Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.MA",
+        "cs.SC"
+      ],
+      "abstract": "FormalAnalyticGeo addresses the lack of annotated data in multimodal analytic geometry by introducing a novel neural-symbolic framework. Its core method uses a formal intermediate representation (CDL) to bridge natural language problem descriptions with precise diagram generation via an SDF engine. This allows for the scalable, automatic creation of diverse and geometrically accurate analytic geometry problems.",
+      "url": "http://arxiv.org/abs/2607.12982v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12982v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.12982v1/Comparison.png",
+      "figure_caption": "Figure 1. Diagram generation for the same analytic geometry problem. (a) ChatGPT: the circle does not use the focal distance as its diameter, and P P lies on the circle but not on the hyperbola. (b) Nano Banana: geometrically meaningless output. (c) Gemini 3 Pro: distorted curves and inaccurate point placement. (d) Ours: geometrically exact rendering with known coordinate-to-pixel mapping, enabling direct visual measurement of ground-truth answers.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.12823v1",
+      "title": "Human-AI Agent Interaction as a Neuroplastic Training Environment",
+      "authors": [
+        "Eranga Bandara",
+        "Ross Gore",
+        "Asanga Gunaratna",
+        "Ravi Mukkamala",
+        "Nihal Siriwardanagea"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes that everyday human-AI agent interactions, characterized by an iterative request-response-appraisal loop, act as an unrecognized neuroplastic training environment. The authors argue that repeated exposure to disappointing AI outputs can inadvertently strengthen negative cognitive patterns like impatience and frustration. Their core contribution is the idea that this same environment can be intentionally leveraged to cultivate positive neuroplastic changes and desirable cognitive habits.",
+      "url": "http://arxiv.org/abs/2607.12823v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12823v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.12823v1/figures/fig_what_is_agent.png",
+      "figure_caption": "What an AI agent is, and why its use forms a loop. A person issues a request in natural language; the agent — an AI system built on a large language or generative model — returns a result, which the person then evaluates. Because the result rarely matches the intention on the first attempt, the person reacts and issues a revised request, and the exchange repeats. However different such tools appear — conversational assistants, coding copilots, image or text generators — their use shares one shape: an iterative loop of request, result, reaction, and revision. The reaction phase (highlighted) is the moment this paper concerns.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.12893v1",
+      "title": "MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations",
+      "authors": [
+        "Xixuan Hao",
+        "Zeyu Zhang",
+        "Zehao Lin",
+        "Yihang Sun",
+        "Ziliang Guo"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces MemOps, a new benchmark for evaluating long-term memory in LLM agents. Instead of just checking final answers, MemOps analyzes the sequence of memory operations (remembering, forgetting, updating, etc.) throughout a conversation. This allows for a more granular assessment of memory performance, identifying specific failure points beyond just incorrect outputs.",
+      "url": "http://arxiv.org/abs/2607.12893v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12893v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.12893v1/x1.png",
+      "figure_caption": "Comparison between existing long-term memory benchmark and our MemOps .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.13027v1",
+      "title": "PalmClaw: A Native On-Device Agent Framework for Mobile Phones",
+      "authors": [
+        "Hongru Cai",
+        "Yongqi Li",
+        "Ran Wei",
+        "Wenjie Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "PalmClaw is a novel on-device agent framework for mobile phones. Its core method involves running LLM agents natively on the device, enabling direct access to mobile capabilities as structured tools. This contribution allows for more efficient and integrated task automation on smartphones, overcoming limitations of existing GUI-based approaches.",
+      "url": "http://arxiv.org/abs/2607.13027v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13027v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.13027v1/x1.png",
+      "figure_caption": "Overview of PalmClaw. (a) An externally hosted mobile agent exchanges GUI states and GUI actions between a desktop or cloud host and the phone. (b) PalmClaw runs the agent components on the mobile device and connects them to device resources and capabilities through device tools.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.12790v1",
+      "title": "Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents",
+      "authors": [
+        "Xing Zhang",
+        "Guanghui Wang",
+        "Yanwei Cui",
+        "Ziyuan Li",
+        "Wei Qiu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces **Double Ratchet**, a method for co-evolving evaluation metrics and agent skills in a self-improving LLM system. Instead of assuming a pre-existing metric, it dynamically creates and refines metrics by composing smaller detectors, trained to align with human-defined anchors and consensus. This approach allows LLM agents to improve their performance on tasks where reliable evaluation metrics are initially absent, demonstrating significant gains across various benchmarks.",
+      "url": "http://arxiv.org/abs/2607.12790v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12790v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.12790v1/x1.png",
+      "figure_caption": "Double Ratchet architecture. The metric loop (left) evolves an expression over drawback detectors; the skill loop (right) evolves the agent’s skill bank, its training graded by the evolved metric during co-evolution. Anchors (bottom) are never trained on; an independent judge audits final outputs on reference-free tasks.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.12835v1",
+      "title": "Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction",
+      "authors": [
+        "Hanhua Hong",
+        "Yizhi Li",
+        "Jiaoyan Chen",
+        "Luu Gia Huy",
+        "Sophia Ananiadou"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates the reliability of LLM-generated rubrics for evaluating open-ended outputs in research paper reproduction. The core method involves a meta-evaluation of LLM-generated rubrics, reformulated as checklists, assessing their semantic similarity and alignment with human-generated rubrics. The key contribution is demonstrating that augmented LLM rubric generation significantly improves downstream evaluation alignment, approaching human performance, thus offering a more scalable solution for benchmark creation.",
+      "url": "http://arxiv.org/abs/2607.12835v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12835v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.12835v1/figures/main_figure.png",
+      "figure_caption": "Overview of our meta-evaluation framework for LLM-generated rubrics in paper reproduction. Given a paper, reproduction agents generate candidate repositories, while LLMs and human experts produce checklist-style rubrics. We evaluate generated rubrics intrinsically by measuring their semantic similarity to human-authored rubrics, and extrinsically by comparing the repository scores they induce with PaperBench evaluations.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.12831v1",
+      "title": "Knowledgeless Language Models: Suppressing Parametric Recall for Evidence-Grounded Language Modeling",
+      "authors": [
+        "Roi Cohen",
+        "Yvan Carré",
+        "Nick Lechtenbörger",
+        "Hendrik Droste",
+        "Lucas Kerschke"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Knowledge-Less Language Models (KLLMs), a new training method that anonymizes named entities during pretraining. This approach suppresses reliance on memorized factual knowledge, shifting models towards reasoning based on provided context. KLLMs demonstrate improved performance on tasks requiring evidence-grounded reasoning, such as contextual question answering and fact verification, while reducing factual recall.",
+      "url": "http://arxiv.org/abs/2607.12831v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12831v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.12831v1/figures/pipeline.png",
+      "figure_caption": "Pipeline of Knowledgeless Language Model (KLLM) training and inference",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.12963v1",
+      "title": "The Illusion of Robustness: Aggregate Accuracy Hides Prediction Flips under Task-Irrelevant Context",
+      "authors": [
+        "Yanzhe Zhang",
+        "Sanmi Koyejo",
+        "Diyi Yang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper demonstrates that while LLMs appear robust to task-irrelevant context at an aggregate accuracy level, this stability masks significant per-example prediction flips. Even semantically meaningless context can alter predictions for a subset of inputs, revealing a hidden fragility in LLM behavior that is model-specific and influenced by various factors.",
+      "url": "http://arxiv.org/abs/2607.12963v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12963v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.12963v1/x1.png",
+      "figure_caption": "Context-induced instability is a two-sided effect. We show two MMLU-Pro examples where task-irrelevant context respectively improves and degrades gpt-5.4 ’s responses by affecting commonsense and calculation. Full examples are in Appendix I .",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Post Doc position in the frame of the HE EIC project EndoCartoScope: Transforming any Endoscope into a Smart Device for Intraoperative 3D Localization, Navigation and Mapping. (G.A.: 101211633)",
+      "url": "https://euraxess.ec.europa.eu/jobs/453099",
+      "description": "Post Doc position in the frame of the HE EIC project EndoCartoScope: Transforming any Endoscope into a Smart Device for Intraoperative 3D Localization, Navigation and Mapping. (GA: 101211633). Profile:PhD in a field related to 3D reconstruction and/or map building.Research and technology transfer... * Department: EUROPEN PROJECTS OFFICE Work Locations: Number of offers: 1, Spain, Institute of Engineering of Aragon (I3A) / University of Zaragoza, Zaragoza, Zaragoza Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) Researcher Profile: [Leading Researcher (R4)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A450) Funding Programme: [Horizon Europe - EIC](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4346) Application Deadline: 20 Jul 2026 - 23:59 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Austria * [Johannes Kepler University](https://euraxess.ec.europa.eu/partnering/organisations/profile/johannes-kepler-university) * [Field: Engineering]",
+      "institution": "",
+      "posted_date": "15 July 2026",
+      "deadline": "20 Jul 2026 - 23:59 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: 3D reconstruction and map building for intraoperative localization, navigation, and mapping using endoscopes.\nKey Requirements: PhD in a field related to 3D reconstruction and/or map building.\nApplication Info: deadline/start date: 20 Jul 2026 - 23:59 (Europe/Madrid), required materials: N/A, contact: N/A\nPosition Details: location: Zaragoza, Spain (Institute of Engineering of Aragon (I3A) / University of Zaragoza), contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: CVs should highlight experience in 3D reconstruction and map building relevant to medical imaging or robotic navigation.",
+      "relevance_score": 9.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Post Doc position in the frame of the HE EIC project EndoCartoScope: Transforming any Endoscope into a Smart Device for Intraoperative 3D Localization, Navigation and Mapping. (G.A.: 101211633)",
+      "url": "https://euraxess.ec.europa.eu/jobs/453099",
+      "description": "Post Doc position in the frame of the HE EIC project EndoCartoScope: Transforming any Endoscope into a Smart Device for Intraoperative 3D Localization, Navigation and Mapping. (GA: 101211633). Profile:PhD in a field related to 3D reconstruction and/or map building.Research and technology transfer... * Department: EUROPEN PROJECTS OFFICE Work Locations: Number of offers: 1, Spain, Institute of Engineering of Aragon (I3A) / University of Zaragoza, Zaragoza, Zaragoza Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) Researcher Profile: [Leading Researcher (R4)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A450) Funding Programme: [Horizon Europe - EIC](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4346) Application Deadline: 20 Jul 2026 - 23:59 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Austria * [Johannes Kepler University](https://euraxess.ec.europa.eu/partnering/organisations/profile/johannes-kepler-university) * [Field: Engineering]",
+      "institution": "",
+      "posted_date": "15 July 2026",
+      "deadline": "20 Jul 2026 - 23:59 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: 3D reconstruction and map building for intraoperative localization, navigation, and mapping using endoscopes.\nKey Requirements: PhD in a field related to 3D reconstruction and/or map building.\nApplication Info: deadline/start date: 20 Jul 2026 - 23:59 (Europe/Madrid), required materials: N/A, contact: N/A\nPosition Details: location: Zaragoza, Spain (Institute of Engineering of Aragon (I3A) / University of Zaragoza), contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: CVs should highlight experience in 3D reconstruction and map building relevant to medical imaging or robotic navigation.",
+      "relevance_score": 9.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
