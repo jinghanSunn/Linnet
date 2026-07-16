@@ -1,0 +1,649 @@
+{
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T11:19:29.775325+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.13854v1",
+          "title": "SPyCE: Skill-Policy Co-evolution for Multimodal Agents",
+          "authors": [
+            "Ru Zhang",
+            "Weijie Qiu"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "SPyCE introduces a novel framework for multimodal agents that learns reusable skills alongside the policy through co-evolution. Instead of treating trajectories as mere rewards or relying on static memory, SPyCE distills complex reasoning into a hierarchical skill library. This library comprises execution skills for local visual operations and workflow skills for orchestrating tool use, enabling more efficient and adaptable learning of multimodal agents.",
+          "url": "http://arxiv.org/abs/2607.13854v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.13854v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.13854v1/x1.png",
+          "figure_caption": "SPyCE enables closed-loop co-evolution between skill and policy for multimodal agents. The agent conditions on a hierarchical skill library, including workflow skills and execution skills, to reason and act over multimodal inputs. Rollout trajectories are then distilled back into the skill library, creating a feedback loop where better skills guide better policies, and better policies induce stronger skills.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.13940v1",
+          "title": "A Self-Evolving Agent for Longitudinal Personal Health Management",
+          "authors": [
+            "Haoran Li",
+            "Jiebi Deng",
+            "Tong Jin",
+            "Jinghong Han",
+            "Yuxin Wang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces HealthClaw, a novel agent architecture for longitudinal personal health management. Its core method involves a self-evolving mechanism that continuously updates its understanding of a user's changing health profile, preferences, and risks over time. HealthClaw's key contribution is its ability to significantly improve answer accuracy and reduce context exposure compared to traditional methods, while also enhancing privacy-aware responses.",
+          "url": "http://arxiv.org/abs/2607.13940v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.13940v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.13940v1/figures/Figure_1_HealthClaw_architecture.png",
+          "figure_caption": "Unified architecture of HealthClaw: closed-loop interaction and five-layer evolving memory. The top row shows the closed interaction loop. A, Perception integrates three input streams (wearables and devices, prior records and ongoing dialogue) into a current health context. B, Reasoning performs memory-informed task planning through knowledge retrieval, sub-problem decomposition and constrained plan formulation. C, Action executes the plan iteratively through tool invocation, intermediate-result checking and plan refinement, producing user-facing outputs. D, Induction operates after each episode to determine what should be carried forward by consolidating user facts, revising reusable task procedures and preserving episode traces. The bottom panel, E, shows the five-layer evolving memory. L0 (behavioural rules) and L1 (domain knowledge index) are shared domain-level layers, whereas L2 (privacy-critical personal profile), L3 (reusable task standard operating procedures, SOPs) and L4 (episodic memory) are personalized user-level layers. In this design, L2 stores sensitive profile information locally rather than exposing raw identifiable memory payloads during retrieval. Memory read supports planning in B, and memory writeback from D updates the user-level layers after each completed episode, enabling longitudinal personalization through incremental accumulation rather than one-shot responses.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.14049v1",
+          "title": "Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models",
+          "authors": [
+            "Hefeng Zhou",
+            "Jinxuan Zhang",
+            "Jiong Lou",
+            "Yuxin Liu",
+            "Chaochao Lu"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces \"Deep Interaction,\" an efficient method for correcting reasoning errors in large language models. Instead of simply re-generating, it allows users to directly edit faulty steps within the model's reasoning chain. This edited chain is then distilled into a prompt, guiding the LLM to follow the corrected path, significantly improving correction success and reducing token usage.",
+          "url": "http://arxiv.org/abs/2607.14049v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.14049v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.14049v1/x1.png",
+          "figure_caption": "A simple case shows the different pipeline between dialogue-based method and Deep Interaction. Dialogue-based feedback may leave the model on an incorrect reasoning trajectory, while Deep Interaction enables more fine-grained editing of the CoT.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.13884v1",
+          "title": "Experience Memory Graph: One-Shot Error Correction for Agents",
+          "authors": [
+            "Wenjun Wang",
+            "Yuchen Fang",
+            "Fengrui Liu",
+            "Zibo Liang",
+            "Kai Zheng"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces the Experience Memory Graph (EMG) to address error recovery in LLM agents. EMG reformulates failure correction as a graph matching problem, converting failed and successful trajectories into directed action decision graphs. By matching these graphs, it identifies successful workflows and explicit correction paths, enabling one-shot error recovery without costly iterative reflection.",
+          "url": "http://arxiv.org/abs/2607.13884v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.13884v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.13884v1/fig/fig1.jpg",
+          "figure_caption": "Figure 1 . Difference of error correction based on (a) reflect-replay loop and (b) Experience Memory Graph. Existing methods rely on iterative test‑time reflection — the agent replans and re‑executes after each failure, causing high latency and cost. Our Experience Memory Graph extracts error correction paths offline by computing graph edit paths that transform failed trajectories into successful ones from paired training trajectories of the same task, distills them into insights, and stores them in a memory graph. At test time, retrieval enables one‑shot exectution without loops.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.14006v1",
+          "title": "Rethinking Penetration Testing for AI-Enabled Systems: From Resource Compromise to Behavioral Objective Violation",
+          "authors": [
+            "Mohammad Allahbakhsh",
+            "Mohammad Hassan Bahari",
+            "Moslem Attar-Raouf"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "This paper redefines penetration testing for AI-enabled systems, shifting the focus from traditional resource compromise to the violation of behavioral objectives. The core method involves inducing AI-governed behavior that deviates from intended operational outcomes, rather than solely exploiting infrastructure vulnerabilities. This contribution extends security evaluation to address the unique attack surface of AI systems, where influencing learned models can lead to undesirable behaviors.",
+          "url": "http://arxiv.org/abs/2607.14006v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.14006v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.13998v1",
+          "title": "The Dynamic Verifiable Multi-Agent Human Agentic Loyalty Loop (DVM-HALL) Model and the Net Human-Agent Score (NHAS) in Autonomous Commerce",
+          "authors": [
+            "Sai Srikanth Madugula",
+            "Peplluis Esteva de la Rosa",
+            "Daya Shankar"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.GT",
+            "cs.MA",
+            "cs.SI"
+          ],
+          "abstract": "This paper introduces the DVM-HALL model to address how autonomous AI agents impact customer loyalty. It proposes a framework where human emotions, agent utility, trust, and verifiable execution jointly determine brand choice, moving beyond traditional loyalty concepts. The core contribution is a dynamic, multi-agent model that accounts for AI's evolving capabilities in autonomous commerce.",
+          "url": "http://arxiv.org/abs/2607.13998v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.13998v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.13998v1/diagram1_hall_architecture.png",
+          "figure_caption": "The Tripartite DVM-HALL Architecture, illustrating the bidirectional flows of trust, algorithmic loyalty, and emotional brand equity governed by overarching oversight frameworks across a multi-agent marketplace (human, personal agent, seller agents, and payment/settlement agents).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.13881v1",
+          "title": "Unleashing Multimodal Large Language Models for Training-free HOI Detection in the Wild",
+          "authors": [
+            "Ting Lei",
+            "Jialin Liu",
+            "Zhu Xu",
+            "Yuxin Peng",
+            "Yang Liu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces AgentHOI, a novel training-free framework for human-object interaction (HOI) detection. It leverages the inherent multimodal reasoning capabilities of foundation models, moving beyond simple prompting to enable more robust and generalizable HOI detection in open-world scenarios. The core contribution lies in its agentic approach, allowing for contextual reasoning without requiring dataset-specific supervision.",
+          "url": "http://arxiv.org/abs/2607.13881v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.13881v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.13881v1/figures/teaser.png",
+          "figure_caption": "Framework comparison with previous methods. Most existing methods depend on manually annotated, large-scale HOI datasets for training, which is both time-consuming and resource-intensive. Moreover, they often exhibit limited generalizability in real-world settings. In contrast, our AgentHOI framework requires no annotation or training, offering strong generalizability by leveraging off-the-shelf vision foundation models.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.13988v1",
+          "title": "TRACE: Turn-level Reward Assignment via Credit Estimation for Long-Horizon Agents",
+          "authors": [
+            "Leitian Tao",
+            "Baolin Peng",
+            "Wenlin Yao",
+            "Tao Ge",
+            "Hao Cheng"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "TRACE addresses the challenge of assigning credit in long-horizon multi-turn agents by estimating rewards at each tool-call turn. It leverages a frozen reference model to calculate log-probabilities of the correct answer, transforming these into state values. By computing Temporal-Difference changes in these values, TRACE derives dense, per-action rewards, overcoming the sparsity and high variance of outcome-only rewards.",
+          "url": "http://arxiv.org/abs/2607.13988v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.13988v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.13988v1/x1.png",
+          "figure_caption": "Credit assignment at tool-call boundaries in a search trajectory. The figure illustrates a long-horizon search rollout decomposed into tool-call turns. Early search and open actions can add task-relevant evidence to the transcript even when a later branch leads to an incorrect final answer. Outcome-reward training attaches one trajectory-level advantage to all actions in the rollout, whereas TRACE computes prefix values at tool boundaries and assigns turn credit from adjacent value changes.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.13920v1",
+          "title": "DeepStress: Stress-Testing Deep Search Agents",
+          "authors": [
+            "Ismael Rousseau",
+            "Geraldine Damnati",
+            "Frederic Bechet"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "DeepStress is a novel framework for stress-testing deep search agents by replacing their retrieval module with a controlled synthetic environment. This allows for systematic manipulation of evidence quality across trustworthiness, relevance, and factuality. The paper's contribution lies in demonstrating significant performance disparities among agents when faced with unreliable information and proposing new metrics to better evaluate their robustness and knowledge interaction.",
+          "url": "http://arxiv.org/abs/2607.13920v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.13920v1",
+          "score": 7.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 20,
+        "papers_after_llm_filter": 9,
+        "count": 9
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 20,
+    "papers_after_llm_filter": 9,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 45
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.13854v1",
+      "title": "SPyCE: Skill-Policy Co-evolution for Multimodal Agents",
+      "authors": [
+        "Ru Zhang",
+        "Weijie Qiu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "SPyCE introduces a novel framework for multimodal agents that learns reusable skills alongside the policy through co-evolution. Instead of treating trajectories as mere rewards or relying on static memory, SPyCE distills complex reasoning into a hierarchical skill library. This library comprises execution skills for local visual operations and workflow skills for orchestrating tool use, enabling more efficient and adaptable learning of multimodal agents.",
+      "url": "http://arxiv.org/abs/2607.13854v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13854v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.13854v1/x1.png",
+      "figure_caption": "SPyCE enables closed-loop co-evolution between skill and policy for multimodal agents. The agent conditions on a hierarchical skill library, including workflow skills and execution skills, to reason and act over multimodal inputs. Rollout trajectories are then distilled back into the skill library, creating a feedback loop where better skills guide better policies, and better policies induce stronger skills.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.13940v1",
+      "title": "A Self-Evolving Agent for Longitudinal Personal Health Management",
+      "authors": [
+        "Haoran Li",
+        "Jiebi Deng",
+        "Tong Jin",
+        "Jinghong Han",
+        "Yuxin Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces HealthClaw, a novel agent architecture for longitudinal personal health management. Its core method involves a self-evolving mechanism that continuously updates its understanding of a user's changing health profile, preferences, and risks over time. HealthClaw's key contribution is its ability to significantly improve answer accuracy and reduce context exposure compared to traditional methods, while also enhancing privacy-aware responses.",
+      "url": "http://arxiv.org/abs/2607.13940v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13940v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.13940v1/figures/Figure_1_HealthClaw_architecture.png",
+      "figure_caption": "Unified architecture of HealthClaw: closed-loop interaction and five-layer evolving memory. The top row shows the closed interaction loop. A, Perception integrates three input streams (wearables and devices, prior records and ongoing dialogue) into a current health context. B, Reasoning performs memory-informed task planning through knowledge retrieval, sub-problem decomposition and constrained plan formulation. C, Action executes the plan iteratively through tool invocation, intermediate-result checking and plan refinement, producing user-facing outputs. D, Induction operates after each episode to determine what should be carried forward by consolidating user facts, revising reusable task procedures and preserving episode traces. The bottom panel, E, shows the five-layer evolving memory. L0 (behavioural rules) and L1 (domain knowledge index) are shared domain-level layers, whereas L2 (privacy-critical personal profile), L3 (reusable task standard operating procedures, SOPs) and L4 (episodic memory) are personalized user-level layers. In this design, L2 stores sensitive profile information locally rather than exposing raw identifiable memory payloads during retrieval. Memory read supports planning in B, and memory writeback from D updates the user-level layers after each completed episode, enabling longitudinal personalization through incremental accumulation rather than one-shot responses.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.14049v1",
+      "title": "Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models",
+      "authors": [
+        "Hefeng Zhou",
+        "Jinxuan Zhang",
+        "Jiong Lou",
+        "Yuxin Liu",
+        "Chaochao Lu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces \"Deep Interaction,\" an efficient method for correcting reasoning errors in large language models. Instead of simply re-generating, it allows users to directly edit faulty steps within the model's reasoning chain. This edited chain is then distilled into a prompt, guiding the LLM to follow the corrected path, significantly improving correction success and reducing token usage.",
+      "url": "http://arxiv.org/abs/2607.14049v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.14049v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.14049v1/x1.png",
+      "figure_caption": "A simple case shows the different pipeline between dialogue-based method and Deep Interaction. Dialogue-based feedback may leave the model on an incorrect reasoning trajectory, while Deep Interaction enables more fine-grained editing of the CoT.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.13884v1",
+      "title": "Experience Memory Graph: One-Shot Error Correction for Agents",
+      "authors": [
+        "Wenjun Wang",
+        "Yuchen Fang",
+        "Fengrui Liu",
+        "Zibo Liang",
+        "Kai Zheng"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces the Experience Memory Graph (EMG) to address error recovery in LLM agents. EMG reformulates failure correction as a graph matching problem, converting failed and successful trajectories into directed action decision graphs. By matching these graphs, it identifies successful workflows and explicit correction paths, enabling one-shot error recovery without costly iterative reflection.",
+      "url": "http://arxiv.org/abs/2607.13884v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13884v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.13884v1/fig/fig1.jpg",
+      "figure_caption": "Figure 1 . Difference of error correction based on (a) reflect-replay loop and (b) Experience Memory Graph. Existing methods rely on iterative test‑time reflection — the agent replans and re‑executes after each failure, causing high latency and cost. Our Experience Memory Graph extracts error correction paths offline by computing graph edit paths that transform failed trajectories into successful ones from paired training trajectories of the same task, distills them into insights, and stores them in a memory graph. At test time, retrieval enables one‑shot exectution without loops.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.14006v1",
+      "title": "Rethinking Penetration Testing for AI-Enabled Systems: From Resource Compromise to Behavioral Objective Violation",
+      "authors": [
+        "Mohammad Allahbakhsh",
+        "Mohammad Hassan Bahari",
+        "Moslem Attar-Raouf"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper redefines penetration testing for AI-enabled systems, shifting the focus from traditional resource compromise to the violation of behavioral objectives. The core method involves inducing AI-governed behavior that deviates from intended operational outcomes, rather than solely exploiting infrastructure vulnerabilities. This contribution extends security evaluation to address the unique attack surface of AI systems, where influencing learned models can lead to undesirable behaviors.",
+      "url": "http://arxiv.org/abs/2607.14006v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.14006v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.13998v1",
+      "title": "The Dynamic Verifiable Multi-Agent Human Agentic Loyalty Loop (DVM-HALL) Model and the Net Human-Agent Score (NHAS) in Autonomous Commerce",
+      "authors": [
+        "Sai Srikanth Madugula",
+        "Peplluis Esteva de la Rosa",
+        "Daya Shankar"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.GT",
+        "cs.MA",
+        "cs.SI"
+      ],
+      "abstract": "This paper introduces the DVM-HALL model to address how autonomous AI agents impact customer loyalty. It proposes a framework where human emotions, agent utility, trust, and verifiable execution jointly determine brand choice, moving beyond traditional loyalty concepts. The core contribution is a dynamic, multi-agent model that accounts for AI's evolving capabilities in autonomous commerce.",
+      "url": "http://arxiv.org/abs/2607.13998v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13998v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.13998v1/diagram1_hall_architecture.png",
+      "figure_caption": "The Tripartite DVM-HALL Architecture, illustrating the bidirectional flows of trust, algorithmic loyalty, and emotional brand equity governed by overarching oversight frameworks across a multi-agent marketplace (human, personal agent, seller agents, and payment/settlement agents).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.13881v1",
+      "title": "Unleashing Multimodal Large Language Models for Training-free HOI Detection in the Wild",
+      "authors": [
+        "Ting Lei",
+        "Jialin Liu",
+        "Zhu Xu",
+        "Yuxin Peng",
+        "Yang Liu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces AgentHOI, a novel training-free framework for human-object interaction (HOI) detection. It leverages the inherent multimodal reasoning capabilities of foundation models, moving beyond simple prompting to enable more robust and generalizable HOI detection in open-world scenarios. The core contribution lies in its agentic approach, allowing for contextual reasoning without requiring dataset-specific supervision.",
+      "url": "http://arxiv.org/abs/2607.13881v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13881v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.13881v1/figures/teaser.png",
+      "figure_caption": "Framework comparison with previous methods. Most existing methods depend on manually annotated, large-scale HOI datasets for training, which is both time-consuming and resource-intensive. Moreover, they often exhibit limited generalizability in real-world settings. In contrast, our AgentHOI framework requires no annotation or training, offering strong generalizability by leveraging off-the-shelf vision foundation models.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.13988v1",
+      "title": "TRACE: Turn-level Reward Assignment via Credit Estimation for Long-Horizon Agents",
+      "authors": [
+        "Leitian Tao",
+        "Baolin Peng",
+        "Wenlin Yao",
+        "Tao Ge",
+        "Hao Cheng"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "TRACE addresses the challenge of assigning credit in long-horizon multi-turn agents by estimating rewards at each tool-call turn. It leverages a frozen reference model to calculate log-probabilities of the correct answer, transforming these into state values. By computing Temporal-Difference changes in these values, TRACE derives dense, per-action rewards, overcoming the sparsity and high variance of outcome-only rewards.",
+      "url": "http://arxiv.org/abs/2607.13988v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13988v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.13988v1/x1.png",
+      "figure_caption": "Credit assignment at tool-call boundaries in a search trajectory. The figure illustrates a long-horizon search rollout decomposed into tool-call turns. Early search and open actions can add task-relevant evidence to the transcript even when a later branch leads to an incorrect final answer. Outcome-reward training attaches one trajectory-level advantage to all actions in the rollout, whereas TRACE computes prefix values at tool boundaries and assigns turn credit from adjacent value changes.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.13920v1",
+      "title": "DeepStress: Stress-Testing Deep Search Agents",
+      "authors": [
+        "Ismael Rousseau",
+        "Geraldine Damnati",
+        "Frederic Bechet"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "DeepStress is a novel framework for stress-testing deep search agents by replacing their retrieval module with a controlled synthetic environment. This allows for systematic manipulation of evidence quality across trustworthiness, relevance, and factuality. The paper's contribution lies in demonstrating significant performance disparities among agents when faced with unreliable information and proposing new metrics to better evaluate their robustness and knowledge interaction.",
+      "url": "http://arxiv.org/abs/2607.13920v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13920v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.13854v1",
+      "title": "SPyCE: Skill-Policy Co-evolution for Multimodal Agents",
+      "authors": [
+        "Ru Zhang",
+        "Weijie Qiu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "SPyCE introduces a novel framework for multimodal agents that learns reusable skills alongside the policy through co-evolution. Instead of treating trajectories as mere rewards or relying on static memory, SPyCE distills complex reasoning into a hierarchical skill library. This library comprises execution skills for local visual operations and workflow skills for orchestrating tool use, enabling more efficient and adaptable learning of multimodal agents.",
+      "url": "http://arxiv.org/abs/2607.13854v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13854v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.13854v1/x1.png",
+      "figure_caption": "SPyCE enables closed-loop co-evolution between skill and policy for multimodal agents. The agent conditions on a hierarchical skill library, including workflow skills and execution skills, to reason and act over multimodal inputs. Rollout trajectories are then distilled back into the skill library, creating a feedback loop where better skills guide better policies, and better policies induce stronger skills.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.13940v1",
+      "title": "A Self-Evolving Agent for Longitudinal Personal Health Management",
+      "authors": [
+        "Haoran Li",
+        "Jiebi Deng",
+        "Tong Jin",
+        "Jinghong Han",
+        "Yuxin Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces HealthClaw, a novel agent architecture for longitudinal personal health management. Its core method involves a self-evolving mechanism that continuously updates its understanding of a user's changing health profile, preferences, and risks over time. HealthClaw's key contribution is its ability to significantly improve answer accuracy and reduce context exposure compared to traditional methods, while also enhancing privacy-aware responses.",
+      "url": "http://arxiv.org/abs/2607.13940v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13940v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.13940v1/figures/Figure_1_HealthClaw_architecture.png",
+      "figure_caption": "Unified architecture of HealthClaw: closed-loop interaction and five-layer evolving memory. The top row shows the closed interaction loop. A, Perception integrates three input streams (wearables and devices, prior records and ongoing dialogue) into a current health context. B, Reasoning performs memory-informed task planning through knowledge retrieval, sub-problem decomposition and constrained plan formulation. C, Action executes the plan iteratively through tool invocation, intermediate-result checking and plan refinement, producing user-facing outputs. D, Induction operates after each episode to determine what should be carried forward by consolidating user facts, revising reusable task procedures and preserving episode traces. The bottom panel, E, shows the five-layer evolving memory. L0 (behavioural rules) and L1 (domain knowledge index) are shared domain-level layers, whereas L2 (privacy-critical personal profile), L3 (reusable task standard operating procedures, SOPs) and L4 (episodic memory) are personalized user-level layers. In this design, L2 stores sensitive profile information locally rather than exposing raw identifiable memory payloads during retrieval. Memory read supports planning in B, and memory writeback from D updates the user-level layers after each completed episode, enabling longitudinal personalization through incremental accumulation rather than one-shot responses.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.14049v1",
+      "title": "Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models",
+      "authors": [
+        "Hefeng Zhou",
+        "Jinxuan Zhang",
+        "Jiong Lou",
+        "Yuxin Liu",
+        "Chaochao Lu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces \"Deep Interaction,\" an efficient method for correcting reasoning errors in large language models. Instead of simply re-generating, it allows users to directly edit faulty steps within the model's reasoning chain. This edited chain is then distilled into a prompt, guiding the LLM to follow the corrected path, significantly improving correction success and reducing token usage.",
+      "url": "http://arxiv.org/abs/2607.14049v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.14049v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.14049v1/x1.png",
+      "figure_caption": "A simple case shows the different pipeline between dialogue-based method and Deep Interaction. Dialogue-based feedback may leave the model on an incorrect reasoning trajectory, while Deep Interaction enables more fine-grained editing of the CoT.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.13884v1",
+      "title": "Experience Memory Graph: One-Shot Error Correction for Agents",
+      "authors": [
+        "Wenjun Wang",
+        "Yuchen Fang",
+        "Fengrui Liu",
+        "Zibo Liang",
+        "Kai Zheng"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces the Experience Memory Graph (EMG) to address error recovery in LLM agents. EMG reformulates failure correction as a graph matching problem, converting failed and successful trajectories into directed action decision graphs. By matching these graphs, it identifies successful workflows and explicit correction paths, enabling one-shot error recovery without costly iterative reflection.",
+      "url": "http://arxiv.org/abs/2607.13884v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13884v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.13884v1/fig/fig1.jpg",
+      "figure_caption": "Figure 1 . Difference of error correction based on (a) reflect-replay loop and (b) Experience Memory Graph. Existing methods rely on iterative test‑time reflection — the agent replans and re‑executes after each failure, causing high latency and cost. Our Experience Memory Graph extracts error correction paths offline by computing graph edit paths that transform failed trajectories into successful ones from paired training trajectories of the same task, distills them into insights, and stores them in a memory graph. At test time, retrieval enables one‑shot exectution without loops.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.14006v1",
+      "title": "Rethinking Penetration Testing for AI-Enabled Systems: From Resource Compromise to Behavioral Objective Violation",
+      "authors": [
+        "Mohammad Allahbakhsh",
+        "Mohammad Hassan Bahari",
+        "Moslem Attar-Raouf"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper redefines penetration testing for AI-enabled systems, shifting the focus from traditional resource compromise to the violation of behavioral objectives. The core method involves inducing AI-governed behavior that deviates from intended operational outcomes, rather than solely exploiting infrastructure vulnerabilities. This contribution extends security evaluation to address the unique attack surface of AI systems, where influencing learned models can lead to undesirable behaviors.",
+      "url": "http://arxiv.org/abs/2607.14006v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.14006v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.13998v1",
+      "title": "The Dynamic Verifiable Multi-Agent Human Agentic Loyalty Loop (DVM-HALL) Model and the Net Human-Agent Score (NHAS) in Autonomous Commerce",
+      "authors": [
+        "Sai Srikanth Madugula",
+        "Peplluis Esteva de la Rosa",
+        "Daya Shankar"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.GT",
+        "cs.MA",
+        "cs.SI"
+      ],
+      "abstract": "This paper introduces the DVM-HALL model to address how autonomous AI agents impact customer loyalty. It proposes a framework where human emotions, agent utility, trust, and verifiable execution jointly determine brand choice, moving beyond traditional loyalty concepts. The core contribution is a dynamic, multi-agent model that accounts for AI's evolving capabilities in autonomous commerce.",
+      "url": "http://arxiv.org/abs/2607.13998v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13998v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.13998v1/diagram1_hall_architecture.png",
+      "figure_caption": "The Tripartite DVM-HALL Architecture, illustrating the bidirectional flows of trust, algorithmic loyalty, and emotional brand equity governed by overarching oversight frameworks across a multi-agent marketplace (human, personal agent, seller agents, and payment/settlement agents).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.13881v1",
+      "title": "Unleashing Multimodal Large Language Models for Training-free HOI Detection in the Wild",
+      "authors": [
+        "Ting Lei",
+        "Jialin Liu",
+        "Zhu Xu",
+        "Yuxin Peng",
+        "Yang Liu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces AgentHOI, a novel training-free framework for human-object interaction (HOI) detection. It leverages the inherent multimodal reasoning capabilities of foundation models, moving beyond simple prompting to enable more robust and generalizable HOI detection in open-world scenarios. The core contribution lies in its agentic approach, allowing for contextual reasoning without requiring dataset-specific supervision.",
+      "url": "http://arxiv.org/abs/2607.13881v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13881v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.13881v1/figures/teaser.png",
+      "figure_caption": "Framework comparison with previous methods. Most existing methods depend on manually annotated, large-scale HOI datasets for training, which is both time-consuming and resource-intensive. Moreover, they often exhibit limited generalizability in real-world settings. In contrast, our AgentHOI framework requires no annotation or training, offering strong generalizability by leveraging off-the-shelf vision foundation models.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.13988v1",
+      "title": "TRACE: Turn-level Reward Assignment via Credit Estimation for Long-Horizon Agents",
+      "authors": [
+        "Leitian Tao",
+        "Baolin Peng",
+        "Wenlin Yao",
+        "Tao Ge",
+        "Hao Cheng"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "TRACE addresses the challenge of assigning credit in long-horizon multi-turn agents by estimating rewards at each tool-call turn. It leverages a frozen reference model to calculate log-probabilities of the correct answer, transforming these into state values. By computing Temporal-Difference changes in these values, TRACE derives dense, per-action rewards, overcoming the sparsity and high variance of outcome-only rewards.",
+      "url": "http://arxiv.org/abs/2607.13988v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13988v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.13988v1/x1.png",
+      "figure_caption": "Credit assignment at tool-call boundaries in a search trajectory. The figure illustrates a long-horizon search rollout decomposed into tool-call turns. Early search and open actions can add task-relevant evidence to the transcript even when a later branch leads to an incorrect final answer. Outcome-reward training attaches one trajectory-level advantage to all actions in the rollout, whereas TRACE computes prefix values at tool boundaries and assigns turn credit from adjacent value changes.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.13920v1",
+      "title": "DeepStress: Stress-Testing Deep Search Agents",
+      "authors": [
+        "Ismael Rousseau",
+        "Geraldine Damnati",
+        "Frederic Bechet"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "DeepStress is a novel framework for stress-testing deep search agents by replacing their retrieval module with a controlled synthetic environment. This allows for systematic manipulation of evidence quality across trustworthiness, relevance, and factuality. The paper's contribution lies in demonstrating significant performance disparities among agents when faced with unreliable information and proposing new metrics to better evaluate their robustness and knowledge interaction.",
+      "url": "http://arxiv.org/abs/2607.13920v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13920v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
