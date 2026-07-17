@@ -1,0 +1,1261 @@
+{
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T11:08:01.984148+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.15216v1",
+          "title": "Symbal: Detecting Systematic Misalignments in Model-Generated Captions",
+          "authors": [
+            "Maya Varma",
+            "Jean-Benoit Delbrouck",
+            "Sophie Ostmeier",
+            "Akshay Chaudhari",
+            "Curtis Langlotz"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "Symbal addresses systematic misalignments in MLLM-generated captions, where specific visual features consistently lead to recurring errors. The paper's core method, Symbal, uses foundation models in a dual-stage process to detect these misalignments and summarize them. Its main contribution is this detection method and SymbalBench, a large benchmark for evaluating such systematic error detection.",
+          "url": "http://arxiv.org/abs/2607.15216v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15216v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.15216v1/figures/fig1.png",
+          "figure_caption": "Given an input dataset with thousands of images and paired MLLM-generated captions, the systematic misalignment detection task involves identifying recurring textual errors and associated visual features. Here, we provide example image-caption pairs from two datasets in SymbalBench with expected outputs.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.15218v1",
+          "title": "When Words Are Safe But Actions Kill: Probing Physical Danger Beyond Text Safety in Hidden-State Risk Space",
+          "authors": [
+            "Weimeng Wang",
+            "Ziqiang Wang",
+            "Zihang Zhan",
+            "Chuanpu Fu",
+            "Qi Li"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "This paper investigates the distinction between text-based safety and physically grounded danger in Large Language Models (LLMs). The core method involves analyzing LLM hidden states to show that these two types of danger are separable signals. The main contribution is the PRISM probe, which accurately detects physical danger in LLM outputs, outperforming LLM judges and addressing the critical issue of instructions safe in text but dangerous in action.",
+          "url": "http://arxiv.org/abs/2607.15218v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15218v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.15247v1",
+          "title": "AutoSynthesis: An agentic system for automated meta-analysis",
+          "authors": [
+            "Moein Taherinezhad",
+            "Sebastian Maier",
+            "Gerardo Vitagliano",
+            "Francesco Pierri",
+            "Stefan Feuerriegel"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "AutoSynthesis is an end-to-end multi-agent system that automates the entire meta-analysis process, from formulating search strategies to generating PRISMA-compliant reports. Its core method involves a series of agents that handle literature retrieval, screening, data extraction, and statistical analysis. The main contribution is enabling scalable and efficient quantitative evidence synthesis, significantly reducing the manual effort typically required.",
+          "url": "http://arxiv.org/abs/2607.15247v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15247v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.15247v1/x1.png",
+          "figure_caption": "Overview of the AutoSynthesis framework. A multi-agent framework including: a , The workflow begins by transforming the user’s research question into a structured review protocol and retrieving candidate studies from multiple scientific databases using LLM-generated search queries. b , Retrieved articles undergo full-text retrieval, eligibility assessment, and study mapping, where independent studies and research questions are identified within each paper. c , Statistical evidence is extracted, validated against the source article, and filtered to retain only the results relevant to the target meta-analysis before being standardized into a common representation. d , Standardized effect sizes are synthesized using a random-effects meta-analysis, followed by publication-bias assessment and automatic generation of a PRISMA-compliant report together with visualizations and complete audit records. The modular architecture enables every stage of the evidence-synthesis process to be independently inspected, verified, and compared with expert-conducted meta-analysis.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.15176v1",
+          "title": "Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy",
+          "authors": [
+            "Patrick Phuoc Do",
+            "Chau M. Ta",
+            "Chaoli Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.HC"
+          ],
+          "abstract": "This paper benchmarks six multimodal large language models (MLLMs) on a scientific visualization literacy assessment. The core method involves evaluating MLLMs against human performance on a standardized test covering various visualization techniques and tasks. The key contribution is demonstrating that current MLLMs have uneven scientific visualization literacy, with Gemini showing promising results while open-source models lag behind human capabilities.",
+          "url": "http://arxiv.org/abs/2607.15176v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15176v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.15176v1/x1.png",
+          "figure_caption": "\\( \\hot \\) Model and human performance across different techniques in SVLAT. Each dot shows the mean accuracy, with the bars indicating 95% confidence intervals.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.15079v1",
+          "title": "BrainPilot: Automating Brain Discovery with Agentic Research",
+          "authors": [
+            "Haoxuan Li",
+            "Tianci Gao",
+            "Jianhe Li",
+            "Yang Fan",
+            "Runze Shi"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "BrainPilot is a fully open-source multi-agent system designed to automate brain science research. Its core method involves a principal investigator (PI) agent coordinating specialist agents, all grounded in curated domain knowledge, to perform complex research tasks. The system's main contribution is accelerating discovery by providing traceable logs and agent-verified results, addressing limitations of current AI agents in domain expertise and reliability for brain science.",
+          "url": "http://arxiv.org/abs/2607.15079v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15079v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.15079v1/x1.png",
+          "figure_caption": "Overview of BrainPilot. (a) A curated knowledge base and skill library, built from neuroscience textbooks and papers, feed a harness in which a principal investigator (PI) agent coordinates specialist agents. (b) The targeted breadth of brain science research, from systems and circuits to cognition, disease, and foundational machine learning. (c) The researcher interacts with the PI agent, which delegates tasks to specialist agents while keeping the researcher in the loop.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.15095v1",
+          "title": "Digital Pantheon: Simulating and Auditing Coalition Formation with LLM Agents",
+          "authors": [
+            "Dylan Van Mulders",
+            "Matthias Bogaert",
+            "Dirk Van den Poel"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.MA"
+          ],
+          "abstract": "This paper introduces \"Digital Pantheon,\" a novel multi-agent framework for simulating political coalition formation. It combines SFT, DPO, and RAG to enable LLM agents to exhibit both factual grounding and strong partisan behavior, overcoming RLHF limitations. The framework's contribution lies in its ability to create realistic, ideologically aligned agents for simulating complex negotiations and its introduction of a \"Multi-Layered Information Lineage Topology\" for interpreting these emergent dynamics.",
+          "url": "http://arxiv.org/abs/2607.15095v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15095v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.15095v1/figs/methodology_overview.png",
+          "figure_caption": "Overview of the individual party alignment model process.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.15200v1",
+          "title": "Mask-Aware Policy Gradients for Diffusion Language Models",
+          "authors": [
+            "Haran Raajesh",
+            "Kulin Shah",
+            "Adam Klivans",
+            "Philipp Krähenbühl"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces a novel reinforcement learning method for Diffusion Language Models (DLMs) by addressing the intractability of log-likelihood estimation. The core method formalizes DLM generation as a two-stage action Markov Decision Process, decomposing the policy gradient into token and masking terms. This dual optimization significantly improves performance on reasoning and coding tasks, achieving state-of-the-art results on benchmarks like GSM8K and MBPP.",
+          "url": "http://arxiv.org/abs/2607.15200v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15200v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.15200v1/x1.png",
+          "figure_caption": "Test accuracy of our method and baseline methods on two mathematical reasoning and two code generation benchmarks. All methods use LLaDA-8B-Instruct as the base model and are evaluated with a generation length of 128. Full results are provided in Table 1 .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.15193v1",
+          "title": "Plover: Steering GUI Agents through Plan-Centric Interaction",
+          "authors": [
+            "Madhumitha Venkatesan",
+            "Shicheng Wen",
+            "Jiajing Guo",
+            "Jorge Piazentin Ono",
+            "Liu Ren"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "Plover addresses the challenge of GUI automation by externalizing task plans, making them inspectable and editable. This \"plan-centric\" approach allows users to supervise, correct, and guide the agent's actions directly on the plan, preserving progress during repairs. The core contribution is enabling explicit user control and adaptation in dynamic GUI environments.",
+          "url": "http://arxiv.org/abs/2607.15193v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15193v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.15193v1/f1_system_framework.png",
+          "figure_caption": "Figure 1. The Plover system architecture.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.15275v1",
+          "title": "RoboTTT: Context Scaling for Robot Policies",
+          "authors": [
+            "Yunfan Jiang",
+            "Yevgen Chebotar",
+            "Ruijie Zheng",
+            "Fengyuan Hu",
+            "Yunhao Ge"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.RO"
+          ],
+          "abstract": "RoboTTT scales robot policy context to 8,000 timesteps by using Test-Time Training (TTT) to update model parameters (fast weights) during inference. This allows robot foundation models to process long histories without increased latency, enabling capabilities like one-shot imitation, on-the-fly policy improvement, and better performance on long-horizon tasks. The core contribution is demonstrating that significantly longer context, achieved through TTT, unlocks new robot abilities and improves performance.",
+          "url": "http://arxiv.org/abs/2607.15275v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15275v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.15163v1",
+          "title": "Scaling Behavior Foundation Model for Humanoid Robots",
+          "authors": [
+            "Weishuai Zeng",
+            "Kangning Yin",
+            "Xiaojie Niu",
+            "Shunlin Lu",
+            "Weixiang Zhong"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.RO"
+          ],
+          "abstract": "This paper proposes a coordinated scaling approach for Behavior Foundation Models (BFMs) in humanoid robot control. Their core method reformulates diverse control problems as motion tracking, enabling the reproduction of integrated whole-body movements. This coordinated scaling of learning paradigm, data, and architecture leads to significant performance improvements and enhanced generalization for humanoid robots.",
+          "url": "http://arxiv.org/abs/2607.15163v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15163v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.15265v1",
+          "title": "SceneBind: Binding What and Where Across Vision, Audio and Language",
+          "authors": [
+            "Mingfei Chen",
+            "Zijun Cui",
+            "Ruoke Zhang",
+            "Hyeonggon Ryu",
+            "Eli Shlizerman"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV",
+            "cs.MM",
+            "cs.SD"
+          ],
+          "abstract": "SceneBind creates an omni-modal representation that jointly understands the \"what\" and \"where\" of realistic scenes across vision, audio, and language. Its core method uses object-centric semantic-spatial slots to explicitly capture object semantics, spatial attributes, and uncertainty, addressing the lack of spatial structure in existing omni-modal models. This representation enables cross-modal scene retrieval and object grounding through a novel semantic-spatial matching scheme.",
+          "url": "http://arxiv.org/abs/2607.15265v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15265v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.15265v1/x1.png",
+          "figure_caption": "SceneBind models scenes by jointly capturing semantics ( what ) and 3D spatial attributes ( where ) across vision, audio and language. SceneBind maps each modality into a shared global embedding with object-centric slots, enabling semantic–spatial representation of multimodal scenes.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.15257v1",
+          "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+          "authors": [
+            "Yuyao Zhang",
+            "Junjie Gao",
+            "Zhengxian Wu",
+            "Jiaming Fan",
+            "Jin Zhang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.IR"
+          ],
+          "abstract": "This paper introduces SearchOS-V1, a multi-agent framework designed to improve open-domain information-seeking agents. Its core method involves explicitly tracking task progress by representing information seeking as relational schema completion with grounded citations. The key contribution is the Search-Oriented Context Management (SOCM) system, which externalizes and shares the evolving state through components like a Frontier Task, Evidence Graph, Coverage Map, and Failure Memory, preventing agents from getting stuck in repetitive search loops.",
+          "url": "http://arxiv.org/abs/2607.15257v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15257v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.15257v1/figures/searchos-preview.png",
+          "figure_caption": "SearchOS interface for a long-horizon information-seeking task. The workspace exposes the orchestration trace, pipeline parallel agent activity, and relational schema coverage.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.15094v1",
+          "title": "AlphaWiSE: Adaptive Weight Interpolation for Continual Multimodal Representation Learning",
+          "authors": [
+            "Sarthak Jain",
+            "Qiran Hu",
+            "Zhen Zhu",
+            "Yaoyao Liu"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CV"
+          ],
+          "abstract": "AlphaWiSE addresses the challenge of maintaining cross-modal alignment in continual multimodal learning by proposing a post-hoc weight interpolation method. It composes two frozen checkpoints by fitting a single scalar coefficient per parameter tensor, allowing for adaptive weight blending. This approach creates a single interpolated checkpoint that balances stability and plasticity without increasing inference time, leading to improved cross-modal retrieval performance.",
+          "url": "http://arxiv.org/abs/2607.15094v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15094v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.15094v1/x1.png",
+          "figure_caption": "AlphaWiSE performs post-hoc, per-tensor fusion of two compatible continual-learning checkpoints. Both source checkpoints remain frozen. The exemplar memory is used only to optimize the coefficients 𝜷 \\( \\bm{\\beta} \\) , with α p = σ ​ ( β p ) \\( \\alpha_{p} \\)=\\( \\sigma \\)(\\( \\beta_{p} \\)) and θ ~ p = α p ​ θ p un + ( 1 − α p ) ​ θ p reg \\( \\tilde{\\theta}_{p} \\)=\\( \\alpha_{p} \\)\\( \\theta_{p} \\)^{\\( \\mathrm{un} \\)}+(1-\\( \\alpha_{p} \\))\\( \\theta_{p} \\)^{\\( \\mathrm{reg} \\)} . After optimization, the fused tensors are materialized into one checkpoint. The final model has the same architecture and inference-time computation as either source checkpoint.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.15207v1",
+          "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
+          "authors": [
+            "Qi Li",
+            "Xingyi Yang",
+            "Xinchao Wang"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.RO"
+          ],
+          "abstract": "This paper introduces BadWAM, a framework for evaluating adversarial attacks on World-Action Models (WAMs). It demonstrates that small visual perturbations can break the crucial link between a WAM's predicted future and its actual executed actions. BadWAM highlights that WAMs, despite their promise, are vulnerable to these \"World-Action Drift Attacks,\" which can be tuned for either maximum disruption or stealth.",
+          "url": "http://arxiv.org/abs/2607.15207v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15207v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.15207v1/x1.png",
+          "figure_caption": "Empirical motivation for world-action adversarial attacks. Failed episodes tend to have larger action shifts, while predicted-future shifts overlap across successful and failed executions. This motivates attacking the alignment between action and imagination.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.15253v1",
+          "title": "Bridge Evidence: Static Retrieval Utility Does Not Predict Causal Utility in Multi-Step Agentic Search",
+          "authors": [
+            "Debayan Mukhopadhyay",
+            "Utshab Kumar Ghosh",
+            "Shubham Chatterjee"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.IR"
+          ],
+          "abstract": "This paper argues that traditional methods of evaluating retrieval systems, which assess a document's usefulness in isolation, fail to capture its true value in multi-step agentic search. The authors introduce Counterfactual Trajectory Utility (CTU) to measure how a document's presence impacts an agent's subsequent actions and overall success. Their findings demonstrate a significant disconnect between static retrieval utility and this dynamic, causal utility.",
+          "url": "http://arxiv.org/abs/2607.15253v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15253v1",
+          "score": 7.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.15092v1",
+          "title": "Rubrics on Trial: Evolving Rubrics from a Single Query via Synthetic Pairwise Evidence",
+          "authors": [
+            "Haocheng Yang",
+            "Licheng Pan",
+            "Xiaoxi Li",
+            "Zhichao Chen",
+            "Zhiheng Zhang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces \"Rubrics on Trial,\" a novel method for automatically generating and refining rubrics for LLMs using only a single query. It synthesizes pairwise response evidence conditioned on candidate rubrics, validating each rubric's ability to discriminate answer quality before inclusion. This approach avoids external annotations and model training, effectively screening out unhelpful rubrics and improving LLM evaluation.",
+          "url": "http://arxiv.org/abs/2607.15092v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15092v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.15092v1/imgs/latestmain.png",
+          "figure_caption": "Overview of Rubrics on Trial . At evolution step t t , a proposer suggests an Add or Split patch. Response generators construct two rubric-conditioned pairs for each candidate rubric under the same trial background ℬ t \\( \\mathcal{B}_{t} \\) . A rubric-blind judge independently compares each pair in both orders. A deterministic lookup decides whether the patch updates the active-leaf rubric set, while both accepted and rejected outcomes enter evolution memory.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 22,
+        "papers_after_llm_filter": 16,
+        "count": 16
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "INSERM CHAIR Recruitment : Development of nano-imaging methods for complex patho-physiological processes monitoring",
+          "url": "https://euraxess.ec.europa.eu/jobs/453833",
+          "description": "The Inserm chair recruitments opened to Inserm are intended for researchers with strong potential to manage and lead research teams and participate in national, European or international projects.This recruitment, based on research and teaching projects, is aimed at researchers with a doctorate or... * Department: Departement des Ressources Humaines Work Locations: Number of offers: 1, France, U1182 - Laboratoire d'Optique et Biosciences, Paris Research Field: [Biological sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A38) Researcher Profile: [Established Researcher (R3)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A449)[Leading Researcher (R4)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A450) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 2 Sep 2026 - 17:00 (Europe/Paris) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 4: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [INSERM](https://euraxess.ec.europa.eu/partnering/organisations/profile/inserm) * [Field: Biological sciences]",
+          "institution": "",
+          "posted_date": "17 July 2026",
+          "deadline": "2 Sep 2026 - 17:00 (Europe/Paris)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Development of nano-imaging methods for complex patho-physiological processes monitoring\nKey Requirements: Doctorate, strong potential to manage and lead research teams, participate in national, European or international projects.\nApplication Info: deadline: 2 Sep 2026 - 17:00 (Europe/Paris), required materials: N/A, contact: N/A\nPosition Details: location: Paris, France (U1182 - Laboratoire d'Optique et Biosciences), contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+          "relevance_score": 7.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        },
+        {
+          "title": "2-year postdoc at Neurospin/INM, Paris: Computational and high field MRI characterization of learning and decision-making",
+          "url": "https://euraxess.ec.europa.eu/jobs/453829",
+          "description": "2-YEAR POSTDOCTORAL POSITION AVAILABLE AT NEUROSPIN/INM (PARIS, FRANCE)[https://computationalbrainteam.com/en/recruitment/2-year-postdoctoral-p…](https://computationalbrainteam.com/en/recruitment/2-year-postdoctoral-postion-available-with-florent-meyniel-4)** Project **Computational and high field MRI characterization of learning and decision-making** Supervisor and contact... * Department: neurospin Work Locations: Number of offers: 1, France, NEUROSPIN Research Field: [Neurosciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A317) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A324) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 9 Oct 2026 - 17:00 (Europe/Paris) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 5: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [INSERM](https://euraxess.ec.europa.eu/partnering/organisations/profile/inserm) * [Field: Neurosciences]",
+          "institution": "",
+          "posted_date": "17 July 2026",
+          "deadline": "9 Oct 2026 - 17:00 (Europe/Paris)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Computational and high field MRI characterization of learning and decision-making\nKey Requirements: N/A\nApplication Info: deadline: 9 Oct 2026 - 17:00 (Europe/Paris), required materials: N/A, contact: N/A\nPosition Details: location: Paris, France (Neurospin/INM), contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+          "relevance_score": 8.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 2
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 22,
+    "papers_after_llm_filter": 16,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 53
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.15216v1",
+      "title": "Symbal: Detecting Systematic Misalignments in Model-Generated Captions",
+      "authors": [
+        "Maya Varma",
+        "Jean-Benoit Delbrouck",
+        "Sophie Ostmeier",
+        "Akshay Chaudhari",
+        "Curtis Langlotz"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "Symbal addresses systematic misalignments in MLLM-generated captions, where specific visual features consistently lead to recurring errors. The paper's core method, Symbal, uses foundation models in a dual-stage process to detect these misalignments and summarize them. Its main contribution is this detection method and SymbalBench, a large benchmark for evaluating such systematic error detection.",
+      "url": "http://arxiv.org/abs/2607.15216v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15216v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.15216v1/figures/fig1.png",
+      "figure_caption": "Given an input dataset with thousands of images and paired MLLM-generated captions, the systematic misalignment detection task involves identifying recurring textual errors and associated visual features. Here, we provide example image-caption pairs from two datasets in SymbalBench with expected outputs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15218v1",
+      "title": "When Words Are Safe But Actions Kill: Probing Physical Danger Beyond Text Safety in Hidden-State Risk Space",
+      "authors": [
+        "Weimeng Wang",
+        "Ziqiang Wang",
+        "Zihang Zhan",
+        "Chuanpu Fu",
+        "Qi Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper investigates the distinction between text-based safety and physically grounded danger in Large Language Models (LLMs). The core method involves analyzing LLM hidden states to show that these two types of danger are separable signals. The main contribution is the PRISM probe, which accurately detects physical danger in LLM outputs, outperforming LLM judges and addressing the critical issue of instructions safe in text but dangerous in action.",
+      "url": "http://arxiv.org/abs/2607.15218v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15218v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15247v1",
+      "title": "AutoSynthesis: An agentic system for automated meta-analysis",
+      "authors": [
+        "Moein Taherinezhad",
+        "Sebastian Maier",
+        "Gerardo Vitagliano",
+        "Francesco Pierri",
+        "Stefan Feuerriegel"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "AutoSynthesis is an end-to-end multi-agent system that automates the entire meta-analysis process, from formulating search strategies to generating PRISMA-compliant reports. Its core method involves a series of agents that handle literature retrieval, screening, data extraction, and statistical analysis. The main contribution is enabling scalable and efficient quantitative evidence synthesis, significantly reducing the manual effort typically required.",
+      "url": "http://arxiv.org/abs/2607.15247v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15247v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15247v1/x1.png",
+      "figure_caption": "Overview of the AutoSynthesis framework. A multi-agent framework including: a , The workflow begins by transforming the user’s research question into a structured review protocol and retrieving candidate studies from multiple scientific databases using LLM-generated search queries. b , Retrieved articles undergo full-text retrieval, eligibility assessment, and study mapping, where independent studies and research questions are identified within each paper. c , Statistical evidence is extracted, validated against the source article, and filtered to retain only the results relevant to the target meta-analysis before being standardized into a common representation. d , Standardized effect sizes are synthesized using a random-effects meta-analysis, followed by publication-bias assessment and automatic generation of a PRISMA-compliant report together with visualizations and complete audit records. The modular architecture enables every stage of the evidence-synthesis process to be independently inspected, verified, and compared with expert-conducted meta-analysis.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15176v1",
+      "title": "Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy",
+      "authors": [
+        "Patrick Phuoc Do",
+        "Chau M. Ta",
+        "Chaoli Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "abstract": "This paper benchmarks six multimodal large language models (MLLMs) on a scientific visualization literacy assessment. The core method involves evaluating MLLMs against human performance on a standardized test covering various visualization techniques and tasks. The key contribution is demonstrating that current MLLMs have uneven scientific visualization literacy, with Gemini showing promising results while open-source models lag behind human capabilities.",
+      "url": "http://arxiv.org/abs/2607.15176v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15176v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15176v1/x1.png",
+      "figure_caption": "\\( \\hot \\) Model and human performance across different techniques in SVLAT. Each dot shows the mean accuracy, with the bars indicating 95% confidence intervals.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15079v1",
+      "title": "BrainPilot: Automating Brain Discovery with Agentic Research",
+      "authors": [
+        "Haoxuan Li",
+        "Tianci Gao",
+        "Jianhe Li",
+        "Yang Fan",
+        "Runze Shi"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "BrainPilot is a fully open-source multi-agent system designed to automate brain science research. Its core method involves a principal investigator (PI) agent coordinating specialist agents, all grounded in curated domain knowledge, to perform complex research tasks. The system's main contribution is accelerating discovery by providing traceable logs and agent-verified results, addressing limitations of current AI agents in domain expertise and reliability for brain science.",
+      "url": "http://arxiv.org/abs/2607.15079v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15079v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15079v1/x1.png",
+      "figure_caption": "Overview of BrainPilot. (a) A curated knowledge base and skill library, built from neuroscience textbooks and papers, feed a harness in which a principal investigator (PI) agent coordinates specialist agents. (b) The targeted breadth of brain science research, from systems and circuits to cognition, disease, and foundational machine learning. (c) The researcher interacts with the PI agent, which delegates tasks to specialist agents while keeping the researcher in the loop.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15095v1",
+      "title": "Digital Pantheon: Simulating and Auditing Coalition Formation with LLM Agents",
+      "authors": [
+        "Dylan Van Mulders",
+        "Matthias Bogaert",
+        "Dirk Van den Poel"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces \"Digital Pantheon,\" a novel multi-agent framework for simulating political coalition formation. It combines SFT, DPO, and RAG to enable LLM agents to exhibit both factual grounding and strong partisan behavior, overcoming RLHF limitations. The framework's contribution lies in its ability to create realistic, ideologically aligned agents for simulating complex negotiations and its introduction of a \"Multi-Layered Information Lineage Topology\" for interpreting these emergent dynamics.",
+      "url": "http://arxiv.org/abs/2607.15095v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15095v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15095v1/figs/methodology_overview.png",
+      "figure_caption": "Overview of the individual party alignment model process.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15200v1",
+      "title": "Mask-Aware Policy Gradients for Diffusion Language Models",
+      "authors": [
+        "Haran Raajesh",
+        "Kulin Shah",
+        "Adam Klivans",
+        "Philipp Krähenbühl"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a novel reinforcement learning method for Diffusion Language Models (DLMs) by addressing the intractability of log-likelihood estimation. The core method formalizes DLM generation as a two-stage action Markov Decision Process, decomposing the policy gradient into token and masking terms. This dual optimization significantly improves performance on reasoning and coding tasks, achieving state-of-the-art results on benchmarks like GSM8K and MBPP.",
+      "url": "http://arxiv.org/abs/2607.15200v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15200v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15200v1/x1.png",
+      "figure_caption": "Test accuracy of our method and baseline methods on two mathematical reasoning and two code generation benchmarks. All methods use LLaDA-8B-Instruct as the base model and are evaluated with a generation length of 128. Full results are provided in Table 1 .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15193v1",
+      "title": "Plover: Steering GUI Agents through Plan-Centric Interaction",
+      "authors": [
+        "Madhumitha Venkatesan",
+        "Shicheng Wen",
+        "Jiajing Guo",
+        "Jorge Piazentin Ono",
+        "Liu Ren"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Plover addresses the challenge of GUI automation by externalizing task plans, making them inspectable and editable. This \"plan-centric\" approach allows users to supervise, correct, and guide the agent's actions directly on the plan, preserving progress during repairs. The core contribution is enabling explicit user control and adaptation in dynamic GUI environments.",
+      "url": "http://arxiv.org/abs/2607.15193v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15193v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15193v1/f1_system_framework.png",
+      "figure_caption": "Figure 1. The Plover system architecture.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15275v1",
+      "title": "RoboTTT: Context Scaling for Robot Policies",
+      "authors": [
+        "Yunfan Jiang",
+        "Yevgen Chebotar",
+        "Ruijie Zheng",
+        "Fengyuan Hu",
+        "Yunhao Ge"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "abstract": "RoboTTT scales robot policy context to 8,000 timesteps by using Test-Time Training (TTT) to update model parameters (fast weights) during inference. This allows robot foundation models to process long histories without increased latency, enabling capabilities like one-shot imitation, on-the-fly policy improvement, and better performance on long-horizon tasks. The core contribution is demonstrating that significantly longer context, achieved through TTT, unlocks new robot abilities and improves performance.",
+      "url": "http://arxiv.org/abs/2607.15275v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15275v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15163v1",
+      "title": "Scaling Behavior Foundation Model for Humanoid Robots",
+      "authors": [
+        "Weishuai Zeng",
+        "Kangning Yin",
+        "Xiaojie Niu",
+        "Shunlin Lu",
+        "Weixiang Zhong"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper proposes a coordinated scaling approach for Behavior Foundation Models (BFMs) in humanoid robot control. Their core method reformulates diverse control problems as motion tracking, enabling the reproduction of integrated whole-body movements. This coordinated scaling of learning paradigm, data, and architecture leads to significant performance improvements and enhanced generalization for humanoid robots.",
+      "url": "http://arxiv.org/abs/2607.15163v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15163v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15265v1",
+      "title": "SceneBind: Binding What and Where Across Vision, Audio and Language",
+      "authors": [
+        "Mingfei Chen",
+        "Zijun Cui",
+        "Ruoke Zhang",
+        "Hyeonggon Ryu",
+        "Eli Shlizerman"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.MM",
+        "cs.SD"
+      ],
+      "abstract": "SceneBind creates an omni-modal representation that jointly understands the \"what\" and \"where\" of realistic scenes across vision, audio, and language. Its core method uses object-centric semantic-spatial slots to explicitly capture object semantics, spatial attributes, and uncertainty, addressing the lack of spatial structure in existing omni-modal models. This representation enables cross-modal scene retrieval and object grounding through a novel semantic-spatial matching scheme.",
+      "url": "http://arxiv.org/abs/2607.15265v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15265v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15265v1/x1.png",
+      "figure_caption": "SceneBind models scenes by jointly capturing semantics ( what ) and 3D spatial attributes ( where ) across vision, audio and language. SceneBind maps each modality into a shared global embedding with object-centric slots, enabling semantic–spatial representation of multimodal scenes.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15257v1",
+      "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+      "authors": [
+        "Yuyao Zhang",
+        "Junjie Gao",
+        "Zhengxian Wu",
+        "Jiaming Fan",
+        "Jin Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "abstract": "This paper introduces SearchOS-V1, a multi-agent framework designed to improve open-domain information-seeking agents. Its core method involves explicitly tracking task progress by representing information seeking as relational schema completion with grounded citations. The key contribution is the Search-Oriented Context Management (SOCM) system, which externalizes and shares the evolving state through components like a Frontier Task, Evidence Graph, Coverage Map, and Failure Memory, preventing agents from getting stuck in repetitive search loops.",
+      "url": "http://arxiv.org/abs/2607.15257v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15257v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15257v1/figures/searchos-preview.png",
+      "figure_caption": "SearchOS interface for a long-horizon information-seeking task. The workspace exposes the orchestration trace, pipeline parallel agent activity, and relational schema coverage.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15094v1",
+      "title": "AlphaWiSE: Adaptive Weight Interpolation for Continual Multimodal Representation Learning",
+      "authors": [
+        "Sarthak Jain",
+        "Qiran Hu",
+        "Zhen Zhu",
+        "Yaoyao Liu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "AlphaWiSE addresses the challenge of maintaining cross-modal alignment in continual multimodal learning by proposing a post-hoc weight interpolation method. It composes two frozen checkpoints by fitting a single scalar coefficient per parameter tensor, allowing for adaptive weight blending. This approach creates a single interpolated checkpoint that balances stability and plasticity without increasing inference time, leading to improved cross-modal retrieval performance.",
+      "url": "http://arxiv.org/abs/2607.15094v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15094v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15094v1/x1.png",
+      "figure_caption": "AlphaWiSE performs post-hoc, per-tensor fusion of two compatible continual-learning checkpoints. Both source checkpoints remain frozen. The exemplar memory is used only to optimize the coefficients 𝜷 \\( \\bm{\\beta} \\) , with α p = σ ​ ( β p ) \\( \\alpha_{p} \\)=\\( \\sigma \\)(\\( \\beta_{p} \\)) and θ ~ p = α p ​ θ p un + ( 1 − α p ) ​ θ p reg \\( \\tilde{\\theta}_{p} \\)=\\( \\alpha_{p} \\)\\( \\theta_{p} \\)^{\\( \\mathrm{un} \\)}+(1-\\( \\alpha_{p} \\))\\( \\theta_{p} \\)^{\\( \\mathrm{reg} \\)} . After optimization, the fused tensors are materialized into one checkpoint. The final model has the same architecture and inference-time computation as either source checkpoint.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.15207v1",
+      "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
+      "authors": [
+        "Qi Li",
+        "Xingyi Yang",
+        "Xinchao Wang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces BadWAM, a framework for evaluating adversarial attacks on World-Action Models (WAMs). It demonstrates that small visual perturbations can break the crucial link between a WAM's predicted future and its actual executed actions. BadWAM highlights that WAMs, despite their promise, are vulnerable to these \"World-Action Drift Attacks,\" which can be tuned for either maximum disruption or stealth.",
+      "url": "http://arxiv.org/abs/2607.15207v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15207v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15207v1/x1.png",
+      "figure_caption": "Empirical motivation for world-action adversarial attacks. Failed episodes tend to have larger action shifts, while predicted-future shifts overlap across successful and failed executions. This motivates attacking the alignment between action and imagination.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.15253v1",
+      "title": "Bridge Evidence: Static Retrieval Utility Does Not Predict Causal Utility in Multi-Step Agentic Search",
+      "authors": [
+        "Debayan Mukhopadhyay",
+        "Utshab Kumar Ghosh",
+        "Shubham Chatterjee"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "abstract": "This paper argues that traditional methods of evaluating retrieval systems, which assess a document's usefulness in isolation, fail to capture its true value in multi-step agentic search. The authors introduce Counterfactual Trajectory Utility (CTU) to measure how a document's presence impacts an agent's subsequent actions and overall success. Their findings demonstrate a significant disconnect between static retrieval utility and this dynamic, causal utility.",
+      "url": "http://arxiv.org/abs/2607.15253v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15253v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.15092v1",
+      "title": "Rubrics on Trial: Evolving Rubrics from a Single Query via Synthetic Pairwise Evidence",
+      "authors": [
+        "Haocheng Yang",
+        "Licheng Pan",
+        "Xiaoxi Li",
+        "Zhichao Chen",
+        "Zhiheng Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces \"Rubrics on Trial,\" a novel method for automatically generating and refining rubrics for LLMs using only a single query. It synthesizes pairwise response evidence conditioned on candidate rubrics, validating each rubric's ability to discriminate answer quality before inclusion. This approach avoids external annotations and model training, effectively screening out unhelpful rubrics and improving LLM evaluation.",
+      "url": "http://arxiv.org/abs/2607.15092v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15092v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15092v1/imgs/latestmain.png",
+      "figure_caption": "Overview of Rubrics on Trial . At evolution step t t , a proposer suggests an Add or Split patch. Response generators construct two rubric-conditioned pairs for each candidate rubric under the same trial background ℬ t \\( \\mathcal{B}_{t} \\) . A rubric-blind judge independently compares each pair in both orders. A deterministic lookup decides whether the patch updates the active-leaf rubric set, while both accepted and rejected outcomes enter evolution memory.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.15216v1",
+      "title": "Symbal: Detecting Systematic Misalignments in Model-Generated Captions",
+      "authors": [
+        "Maya Varma",
+        "Jean-Benoit Delbrouck",
+        "Sophie Ostmeier",
+        "Akshay Chaudhari",
+        "Curtis Langlotz"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "Symbal addresses systematic misalignments in MLLM-generated captions, where specific visual features consistently lead to recurring errors. The paper's core method, Symbal, uses foundation models in a dual-stage process to detect these misalignments and summarize them. Its main contribution is this detection method and SymbalBench, a large benchmark for evaluating such systematic error detection.",
+      "url": "http://arxiv.org/abs/2607.15216v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15216v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.15216v1/figures/fig1.png",
+      "figure_caption": "Given an input dataset with thousands of images and paired MLLM-generated captions, the systematic misalignment detection task involves identifying recurring textual errors and associated visual features. Here, we provide example image-caption pairs from two datasets in SymbalBench with expected outputs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15218v1",
+      "title": "When Words Are Safe But Actions Kill: Probing Physical Danger Beyond Text Safety in Hidden-State Risk Space",
+      "authors": [
+        "Weimeng Wang",
+        "Ziqiang Wang",
+        "Zihang Zhan",
+        "Chuanpu Fu",
+        "Qi Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper investigates the distinction between text-based safety and physically grounded danger in Large Language Models (LLMs). The core method involves analyzing LLM hidden states to show that these two types of danger are separable signals. The main contribution is the PRISM probe, which accurately detects physical danger in LLM outputs, outperforming LLM judges and addressing the critical issue of instructions safe in text but dangerous in action.",
+      "url": "http://arxiv.org/abs/2607.15218v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15218v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15247v1",
+      "title": "AutoSynthesis: An agentic system for automated meta-analysis",
+      "authors": [
+        "Moein Taherinezhad",
+        "Sebastian Maier",
+        "Gerardo Vitagliano",
+        "Francesco Pierri",
+        "Stefan Feuerriegel"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "AutoSynthesis is an end-to-end multi-agent system that automates the entire meta-analysis process, from formulating search strategies to generating PRISMA-compliant reports. Its core method involves a series of agents that handle literature retrieval, screening, data extraction, and statistical analysis. The main contribution is enabling scalable and efficient quantitative evidence synthesis, significantly reducing the manual effort typically required.",
+      "url": "http://arxiv.org/abs/2607.15247v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15247v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15247v1/x1.png",
+      "figure_caption": "Overview of the AutoSynthesis framework. A multi-agent framework including: a , The workflow begins by transforming the user’s research question into a structured review protocol and retrieving candidate studies from multiple scientific databases using LLM-generated search queries. b , Retrieved articles undergo full-text retrieval, eligibility assessment, and study mapping, where independent studies and research questions are identified within each paper. c , Statistical evidence is extracted, validated against the source article, and filtered to retain only the results relevant to the target meta-analysis before being standardized into a common representation. d , Standardized effect sizes are synthesized using a random-effects meta-analysis, followed by publication-bias assessment and automatic generation of a PRISMA-compliant report together with visualizations and complete audit records. The modular architecture enables every stage of the evidence-synthesis process to be independently inspected, verified, and compared with expert-conducted meta-analysis.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15176v1",
+      "title": "Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy",
+      "authors": [
+        "Patrick Phuoc Do",
+        "Chau M. Ta",
+        "Chaoli Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "abstract": "This paper benchmarks six multimodal large language models (MLLMs) on a scientific visualization literacy assessment. The core method involves evaluating MLLMs against human performance on a standardized test covering various visualization techniques and tasks. The key contribution is demonstrating that current MLLMs have uneven scientific visualization literacy, with Gemini showing promising results while open-source models lag behind human capabilities.",
+      "url": "http://arxiv.org/abs/2607.15176v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15176v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15176v1/x1.png",
+      "figure_caption": "\\( \\hot \\) Model and human performance across different techniques in SVLAT. Each dot shows the mean accuracy, with the bars indicating 95% confidence intervals.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15079v1",
+      "title": "BrainPilot: Automating Brain Discovery with Agentic Research",
+      "authors": [
+        "Haoxuan Li",
+        "Tianci Gao",
+        "Jianhe Li",
+        "Yang Fan",
+        "Runze Shi"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "BrainPilot is a fully open-source multi-agent system designed to automate brain science research. Its core method involves a principal investigator (PI) agent coordinating specialist agents, all grounded in curated domain knowledge, to perform complex research tasks. The system's main contribution is accelerating discovery by providing traceable logs and agent-verified results, addressing limitations of current AI agents in domain expertise and reliability for brain science.",
+      "url": "http://arxiv.org/abs/2607.15079v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15079v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15079v1/x1.png",
+      "figure_caption": "Overview of BrainPilot. (a) A curated knowledge base and skill library, built from neuroscience textbooks and papers, feed a harness in which a principal investigator (PI) agent coordinates specialist agents. (b) The targeted breadth of brain science research, from systems and circuits to cognition, disease, and foundational machine learning. (c) The researcher interacts with the PI agent, which delegates tasks to specialist agents while keeping the researcher in the loop.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15095v1",
+      "title": "Digital Pantheon: Simulating and Auditing Coalition Formation with LLM Agents",
+      "authors": [
+        "Dylan Van Mulders",
+        "Matthias Bogaert",
+        "Dirk Van den Poel"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces \"Digital Pantheon,\" a novel multi-agent framework for simulating political coalition formation. It combines SFT, DPO, and RAG to enable LLM agents to exhibit both factual grounding and strong partisan behavior, overcoming RLHF limitations. The framework's contribution lies in its ability to create realistic, ideologically aligned agents for simulating complex negotiations and its introduction of a \"Multi-Layered Information Lineage Topology\" for interpreting these emergent dynamics.",
+      "url": "http://arxiv.org/abs/2607.15095v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15095v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15095v1/figs/methodology_overview.png",
+      "figure_caption": "Overview of the individual party alignment model process.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15200v1",
+      "title": "Mask-Aware Policy Gradients for Diffusion Language Models",
+      "authors": [
+        "Haran Raajesh",
+        "Kulin Shah",
+        "Adam Klivans",
+        "Philipp Krähenbühl"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a novel reinforcement learning method for Diffusion Language Models (DLMs) by addressing the intractability of log-likelihood estimation. The core method formalizes DLM generation as a two-stage action Markov Decision Process, decomposing the policy gradient into token and masking terms. This dual optimization significantly improves performance on reasoning and coding tasks, achieving state-of-the-art results on benchmarks like GSM8K and MBPP.",
+      "url": "http://arxiv.org/abs/2607.15200v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15200v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15200v1/x1.png",
+      "figure_caption": "Test accuracy of our method and baseline methods on two mathematical reasoning and two code generation benchmarks. All methods use LLaDA-8B-Instruct as the base model and are evaluated with a generation length of 128. Full results are provided in Table 1 .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15193v1",
+      "title": "Plover: Steering GUI Agents through Plan-Centric Interaction",
+      "authors": [
+        "Madhumitha Venkatesan",
+        "Shicheng Wen",
+        "Jiajing Guo",
+        "Jorge Piazentin Ono",
+        "Liu Ren"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Plover addresses the challenge of GUI automation by externalizing task plans, making them inspectable and editable. This \"plan-centric\" approach allows users to supervise, correct, and guide the agent's actions directly on the plan, preserving progress during repairs. The core contribution is enabling explicit user control and adaptation in dynamic GUI environments.",
+      "url": "http://arxiv.org/abs/2607.15193v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15193v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15193v1/f1_system_framework.png",
+      "figure_caption": "Figure 1. The Plover system architecture.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15275v1",
+      "title": "RoboTTT: Context Scaling for Robot Policies",
+      "authors": [
+        "Yunfan Jiang",
+        "Yevgen Chebotar",
+        "Ruijie Zheng",
+        "Fengyuan Hu",
+        "Yunhao Ge"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "abstract": "RoboTTT scales robot policy context to 8,000 timesteps by using Test-Time Training (TTT) to update model parameters (fast weights) during inference. This allows robot foundation models to process long histories without increased latency, enabling capabilities like one-shot imitation, on-the-fly policy improvement, and better performance on long-horizon tasks. The core contribution is demonstrating that significantly longer context, achieved through TTT, unlocks new robot abilities and improves performance.",
+      "url": "http://arxiv.org/abs/2607.15275v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15275v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15163v1",
+      "title": "Scaling Behavior Foundation Model for Humanoid Robots",
+      "authors": [
+        "Weishuai Zeng",
+        "Kangning Yin",
+        "Xiaojie Niu",
+        "Shunlin Lu",
+        "Weixiang Zhong"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper proposes a coordinated scaling approach for Behavior Foundation Models (BFMs) in humanoid robot control. Their core method reformulates diverse control problems as motion tracking, enabling the reproduction of integrated whole-body movements. This coordinated scaling of learning paradigm, data, and architecture leads to significant performance improvements and enhanced generalization for humanoid robots.",
+      "url": "http://arxiv.org/abs/2607.15163v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15163v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15265v1",
+      "title": "SceneBind: Binding What and Where Across Vision, Audio and Language",
+      "authors": [
+        "Mingfei Chen",
+        "Zijun Cui",
+        "Ruoke Zhang",
+        "Hyeonggon Ryu",
+        "Eli Shlizerman"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.MM",
+        "cs.SD"
+      ],
+      "abstract": "SceneBind creates an omni-modal representation that jointly understands the \"what\" and \"where\" of realistic scenes across vision, audio, and language. Its core method uses object-centric semantic-spatial slots to explicitly capture object semantics, spatial attributes, and uncertainty, addressing the lack of spatial structure in existing omni-modal models. This representation enables cross-modal scene retrieval and object grounding through a novel semantic-spatial matching scheme.",
+      "url": "http://arxiv.org/abs/2607.15265v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15265v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15265v1/x1.png",
+      "figure_caption": "SceneBind models scenes by jointly capturing semantics ( what ) and 3D spatial attributes ( where ) across vision, audio and language. SceneBind maps each modality into a shared global embedding with object-centric slots, enabling semantic–spatial representation of multimodal scenes.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15257v1",
+      "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+      "authors": [
+        "Yuyao Zhang",
+        "Junjie Gao",
+        "Zhengxian Wu",
+        "Jiaming Fan",
+        "Jin Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "abstract": "This paper introduces SearchOS-V1, a multi-agent framework designed to improve open-domain information-seeking agents. Its core method involves explicitly tracking task progress by representing information seeking as relational schema completion with grounded citations. The key contribution is the Search-Oriented Context Management (SOCM) system, which externalizes and shares the evolving state through components like a Frontier Task, Evidence Graph, Coverage Map, and Failure Memory, preventing agents from getting stuck in repetitive search loops.",
+      "url": "http://arxiv.org/abs/2607.15257v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15257v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15257v1/figures/searchos-preview.png",
+      "figure_caption": "SearchOS interface for a long-horizon information-seeking task. The workspace exposes the orchestration trace, pipeline parallel agent activity, and relational schema coverage.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.15094v1",
+      "title": "AlphaWiSE: Adaptive Weight Interpolation for Continual Multimodal Representation Learning",
+      "authors": [
+        "Sarthak Jain",
+        "Qiran Hu",
+        "Zhen Zhu",
+        "Yaoyao Liu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "AlphaWiSE addresses the challenge of maintaining cross-modal alignment in continual multimodal learning by proposing a post-hoc weight interpolation method. It composes two frozen checkpoints by fitting a single scalar coefficient per parameter tensor, allowing for adaptive weight blending. This approach creates a single interpolated checkpoint that balances stability and plasticity without increasing inference time, leading to improved cross-modal retrieval performance.",
+      "url": "http://arxiv.org/abs/2607.15094v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15094v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15094v1/x1.png",
+      "figure_caption": "AlphaWiSE performs post-hoc, per-tensor fusion of two compatible continual-learning checkpoints. Both source checkpoints remain frozen. The exemplar memory is used only to optimize the coefficients 𝜷 \\( \\bm{\\beta} \\) , with α p = σ ​ ( β p ) \\( \\alpha_{p} \\)=\\( \\sigma \\)(\\( \\beta_{p} \\)) and θ ~ p = α p ​ θ p un + ( 1 − α p ) ​ θ p reg \\( \\tilde{\\theta}_{p} \\)=\\( \\alpha_{p} \\)\\( \\theta_{p} \\)^{\\( \\mathrm{un} \\)}+(1-\\( \\alpha_{p} \\))\\( \\theta_{p} \\)^{\\( \\mathrm{reg} \\)} . After optimization, the fused tensors are materialized into one checkpoint. The final model has the same architecture and inference-time computation as either source checkpoint.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.15207v1",
+      "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
+      "authors": [
+        "Qi Li",
+        "Xingyi Yang",
+        "Xinchao Wang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces BadWAM, a framework for evaluating adversarial attacks on World-Action Models (WAMs). It demonstrates that small visual perturbations can break the crucial link between a WAM's predicted future and its actual executed actions. BadWAM highlights that WAMs, despite their promise, are vulnerable to these \"World-Action Drift Attacks,\" which can be tuned for either maximum disruption or stealth.",
+      "url": "http://arxiv.org/abs/2607.15207v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15207v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15207v1/x1.png",
+      "figure_caption": "Empirical motivation for world-action adversarial attacks. Failed episodes tend to have larger action shifts, while predicted-future shifts overlap across successful and failed executions. This motivates attacking the alignment between action and imagination.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.15253v1",
+      "title": "Bridge Evidence: Static Retrieval Utility Does Not Predict Causal Utility in Multi-Step Agentic Search",
+      "authors": [
+        "Debayan Mukhopadhyay",
+        "Utshab Kumar Ghosh",
+        "Shubham Chatterjee"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "abstract": "This paper argues that traditional methods of evaluating retrieval systems, which assess a document's usefulness in isolation, fail to capture its true value in multi-step agentic search. The authors introduce Counterfactual Trajectory Utility (CTU) to measure how a document's presence impacts an agent's subsequent actions and overall success. Their findings demonstrate a significant disconnect between static retrieval utility and this dynamic, causal utility.",
+      "url": "http://arxiv.org/abs/2607.15253v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15253v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.15092v1",
+      "title": "Rubrics on Trial: Evolving Rubrics from a Single Query via Synthetic Pairwise Evidence",
+      "authors": [
+        "Haocheng Yang",
+        "Licheng Pan",
+        "Xiaoxi Li",
+        "Zhichao Chen",
+        "Zhiheng Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces \"Rubrics on Trial,\" a novel method for automatically generating and refining rubrics for LLMs using only a single query. It synthesizes pairwise response evidence conditioned on candidate rubrics, validating each rubric's ability to discriminate answer quality before inclusion. This approach avoids external annotations and model training, effectively screening out unhelpful rubrics and improving LLM evaluation.",
+      "url": "http://arxiv.org/abs/2607.15092v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15092v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.15092v1/imgs/latestmain.png",
+      "figure_caption": "Overview of Rubrics on Trial . At evolution step t t , a proposer suggests an Add or Split patch. Response generators construct two rubric-conditioned pairs for each candidate rubric under the same trial background ℬ t \\( \\mathcal{B}_{t} \\) . A rubric-blind judge independently compares each pair in both orders. A deterministic lookup decides whether the patch updates the active-leaf rubric set, while both accepted and rejected outcomes enter evolution memory.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "INSERM CHAIR Recruitment : Development of nano-imaging methods for complex patho-physiological processes monitoring",
+      "url": "https://euraxess.ec.europa.eu/jobs/453833",
+      "description": "The Inserm chair recruitments opened to Inserm are intended for researchers with strong potential to manage and lead research teams and participate in national, European or international projects.This recruitment, based on research and teaching projects, is aimed at researchers with a doctorate or... * Department: Departement des Ressources Humaines Work Locations: Number of offers: 1, France, U1182 - Laboratoire d'Optique et Biosciences, Paris Research Field: [Biological sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A38) Researcher Profile: [Established Researcher (R3)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A449)[Leading Researcher (R4)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A450) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 2 Sep 2026 - 17:00 (Europe/Paris) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 4: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [INSERM](https://euraxess.ec.europa.eu/partnering/organisations/profile/inserm) * [Field: Biological sciences]",
+      "institution": "",
+      "posted_date": "17 July 2026",
+      "deadline": "2 Sep 2026 - 17:00 (Europe/Paris)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Development of nano-imaging methods for complex patho-physiological processes monitoring\nKey Requirements: Doctorate, strong potential to manage and lead research teams, participate in national, European or international projects.\nApplication Info: deadline: 2 Sep 2026 - 17:00 (Europe/Paris), required materials: N/A, contact: N/A\nPosition Details: location: Paris, France (U1182 - Laboratoire d'Optique et Biosciences), contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "2-year postdoc at Neurospin/INM, Paris: Computational and high field MRI characterization of learning and decision-making",
+      "url": "https://euraxess.ec.europa.eu/jobs/453829",
+      "description": "2-YEAR POSTDOCTORAL POSITION AVAILABLE AT NEUROSPIN/INM (PARIS, FRANCE)[https://computationalbrainteam.com/en/recruitment/2-year-postdoctoral-p…](https://computationalbrainteam.com/en/recruitment/2-year-postdoctoral-postion-available-with-florent-meyniel-4)** Project **Computational and high field MRI characterization of learning and decision-making** Supervisor and contact... * Department: neurospin Work Locations: Number of offers: 1, France, NEUROSPIN Research Field: [Neurosciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A317) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A324) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 9 Oct 2026 - 17:00 (Europe/Paris) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 5: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [INSERM](https://euraxess.ec.europa.eu/partnering/organisations/profile/inserm) * [Field: Neurosciences]",
+      "institution": "",
+      "posted_date": "17 July 2026",
+      "deadline": "9 Oct 2026 - 17:00 (Europe/Paris)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Computational and high field MRI characterization of learning and decision-making\nKey Requirements: N/A\nApplication Info: deadline: 9 Oct 2026 - 17:00 (Europe/Paris), required materials: N/A, contact: N/A\nPosition Details: location: Paris, France (Neurospin/INM), contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "INSERM CHAIR Recruitment : Development of nano-imaging methods for complex patho-physiological processes monitoring",
+      "url": "https://euraxess.ec.europa.eu/jobs/453833",
+      "description": "The Inserm chair recruitments opened to Inserm are intended for researchers with strong potential to manage and lead research teams and participate in national, European or international projects.This recruitment, based on research and teaching projects, is aimed at researchers with a doctorate or... * Department: Departement des Ressources Humaines Work Locations: Number of offers: 1, France, U1182 - Laboratoire d'Optique et Biosciences, Paris Research Field: [Biological sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A38) Researcher Profile: [Established Researcher (R3)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A449)[Leading Researcher (R4)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A450) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 2 Sep 2026 - 17:00 (Europe/Paris) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 4: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [INSERM](https://euraxess.ec.europa.eu/partnering/organisations/profile/inserm) * [Field: Biological sciences]",
+      "institution": "",
+      "posted_date": "17 July 2026",
+      "deadline": "2 Sep 2026 - 17:00 (Europe/Paris)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Development of nano-imaging methods for complex patho-physiological processes monitoring\nKey Requirements: Doctorate, strong potential to manage and lead research teams, participate in national, European or international projects.\nApplication Info: deadline: 2 Sep 2026 - 17:00 (Europe/Paris), required materials: N/A, contact: N/A\nPosition Details: location: Paris, France (U1182 - Laboratoire d'Optique et Biosciences), contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "2-year postdoc at Neurospin/INM, Paris: Computational and high field MRI characterization of learning and decision-making",
+      "url": "https://euraxess.ec.europa.eu/jobs/453829",
+      "description": "2-YEAR POSTDOCTORAL POSITION AVAILABLE AT NEUROSPIN/INM (PARIS, FRANCE)[https://computationalbrainteam.com/en/recruitment/2-year-postdoctoral-p…](https://computationalbrainteam.com/en/recruitment/2-year-postdoctoral-postion-available-with-florent-meyniel-4)** Project **Computational and high field MRI characterization of learning and decision-making** Supervisor and contact... * Department: neurospin Work Locations: Number of offers: 1, France, NEUROSPIN Research Field: [Neurosciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A317) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A324) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 9 Oct 2026 - 17:00 (Europe/Paris) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * France ![Image 5: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [INSERM](https://euraxess.ec.europa.eu/partnering/organisations/profile/inserm) * [Field: Neurosciences]",
+      "institution": "",
+      "posted_date": "17 July 2026",
+      "deadline": "9 Oct 2026 - 17:00 (Europe/Paris)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Computational and high field MRI characterization of learning and decision-making\nKey Requirements: N/A\nApplication Info: deadline: 9 Oct 2026 - 17:00 (Europe/Paris), required materials: N/A, contact: N/A\nPosition Details: location: Paris, France (Neurospin/INM), contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
