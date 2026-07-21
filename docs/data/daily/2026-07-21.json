@@ -1,0 +1,886 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T11:26:18.715068+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.18114v1",
+          "title": "How Does Alignment Tuning Shape Representations of Sycophancy and Related Cue-Induced Biases in LLMs?",
+          "authors": [
+            "Prakhar Gupta",
+            "Terry Jingchen Zhang",
+            "Florent Draye",
+            "Bernhard Schölkopf",
+            "Zhijing Jin"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates how alignment tuning in LLMs introduces susceptibility to prompt-based biases like sycophancy. The core method involves extracting and analyzing \"bias directions\" within model hidden states using probing, transfer, and causal intervention. The key contribution is demonstrating that alignment tuning, not pretraining, installs these biases as distinct, steerable representational directions, and that these biases can be effectively mitigated by steering along these directions.",
+          "url": "http://arxiv.org/abs/2607.18114v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.18114v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.18114v1/figures/fig1.png",
+          "figure_caption": "Left: per-bias direction extraction and intervention. For each (biased, unbiased) prompt pair, the model either resists the cue (gives the correct answer) or flips (caves to the bias’s target letter). We extract d bias = μ flipped − μ resisted d_{\\( \\mathrm{bias} \\)}=\\( \\mu \\)_{\\( \\mathrm{flipped} \\)}-\\( \\mu \\)_{\\( \\mathrm{resisted} \\)} from last-token residual-stream activations (here illustrated for Suggested Answer ); subtracting α ⋅ d bias \\( \\alpha \\)\\( \\cdot \\) d_{\\( \\mathrm{bias} \\)} at inference time debiases the model (§ 8 ), adding amplifies cue-following. Right: scope of the problem. Per-(model, bias) flip rate: fraction of pairs the model would have answered correctly on the unbiased prompt but flips on when reframed with the bias cue. OLMo’s Post Hoc (99%) leaves no resisted contrast for LODO testing (§ 5 ).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.18102v1",
+          "title": "FinSAgent: Corpus-Aligned Multi-Agent RAG Framework for Evidence-Grounded SEC Filing Question Answering",
+          "authors": [
+            "Jijun Chi",
+            "Zhenghan Tai",
+            "Hanwei Wu",
+            "Tung Sum Thomas Kwok",
+            "Hailin He"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.IR",
+            "cs.MA"
+          ],
+          "abstract": "FinSAgent addresses the challenge of financial question answering over SEC filings by aligning retrieval with the corpus's unique structure and terminology. Its core method involves a multi-agent framework that plans retrieval based on corpus-side conditioning, correcting prior-corpus misalignment. This leads to more accurate evidence retrieval and synthesis, improving the quality of answers derived from complex financial documents.",
+          "url": "http://arxiv.org/abs/2607.18102v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.18102v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.18102v1/x1.png",
+          "figure_caption": "Figure 1. Answer correctness across five financial QA benchmarks. FinSAgent attains the highest correctness on every benchmark, outperforming single-agent RAG pipelines and multi-agent baselines under a matched evidence budget.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.18100v1",
+          "title": "Can We Break LLMs Out of Self-Loops? Fine-Grained Reasoning Control with Activation Steering",
+          "authors": [
+            "Sheldon Yu",
+            "Tong Yu",
+            "Xunyi Jiang",
+            "Rohan Surana",
+            "Gagan Mundada"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces SOPHIA, a method to control LLM reasoning by intervening on their internal latent states. It identifies that LLM reasoning failures often manifest as self-loops in these states. SOPHIA statistically characterizes these states and steers LLMs away from self-loops during inference, offering fine-grained control over the reasoning process beyond prompt-based methods.",
+          "url": "http://arxiv.org/abs/2607.18100v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.18100v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.18100v1/x1.png",
+          "figure_caption": "Self-loops in LRM reasoning traces. The model computes the correct value early (purple, $64) but cycles through redundant verification and re-questioning steps (red) before committing, wasting budget on work it has already done. Box colors denote latent reasoning states K = 5 K=5 that are induced unsupervisedly from activations rather than assigned from a hand-defined thought taxonomy Chen et al. ( 2025 ) , with transitions discovered automatically from generated traces. This makes failure modes like the loop above targetable as transition events at finer granularity than token- or prompt-level control allows.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.18144v1",
+          "title": "Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints",
+          "authors": [
+            "Thomas MacDougall",
+            "Maksim Kuznetsov",
+            "Roman Schutski",
+            "Rim Shayakhmetov",
+            "Maxim Malkov"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper benchmarks general-purpose Large Language Models (LLMs) against specialized diffusion models for 3D molecule generation under spatial constraints relevant to drug design. The core method involves evaluating LLMs' ability to incorporate complex 3D information, such as anchor fragments and interaction points, into ligand generation. The contribution is a systematic analysis and a new benchmark (3D-Fit) to assess LLMs' spatial reasoning capabilities in this critical domain.",
+          "url": "http://arxiv.org/abs/2607.18144v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.18144v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.18218v1",
+          "title": "GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Analysis",
+          "authors": [
+            "Naoto Usuyama",
+            "Jeya Maria Jose Valanarasu",
+            "Sicong Yao",
+            "Hanwen Xu",
+            "Jaspreet Bagga"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces GigaPath-Flash and GigaTIME-Flash, efficient foundation models for whole-slide pathology and spatial proteomics. Their core method involves a distilled, compact tile encoder shared between models, enabling efficient learning of transferable representations from large-scale histopathology data. The main contribution is overcoming computational limitations of existing models, making large-scale slide-level analysis more accessible for clinical and research applications.",
+          "url": "http://arxiv.org/abs/2607.18218v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.18218v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.18218v1/x1.png",
+          "figure_caption": "Overview of the GigaPath/GigaTIME model family. GigaPath-Flash provides efficient tile and slide encoders at 22M parameters. GigaTIME predicts spatial proteomics from H&E, scaling from CNN (9M) to ViT backbones.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.18147v1",
+          "title": "LLMs and Agentic AI Systems for Smart Grids: A Tutorial on Architectures and Applications",
+          "authors": [
+            "Daniela Rojas",
+            "Abdulwahab Albassam",
+            "Aidan G. Leung",
+            "Jett Ngo",
+            "Ryan Luo"
+          ],
+          "categories": [
+            "cs.AI",
+            "eess.SY"
+          ],
+          "abstract": "This paper proposes a \"solver-grounded\" design principle for LLM-based agentic AI systems in smart grids, ensuring numerical outputs are from trusted tools and explicitly verified. This addresses the lack of unified design and evaluation methods, preventing physically infeasible results. The contribution lies in providing a principled framework and reviewing architectures and applications for this emerging domain.",
+          "url": "http://arxiv.org/abs/2607.18147v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.18147v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.18147v1/x1.png",
+          "figure_caption": "Solver-grounded LLM and agentic workflow for smart grids. (a) Conventional power system studies rely on trusted numerical tools, followed by explicit verification before results are reported. (b) In the proposed solver-grounded agentic workflow, the LLM acts as an interface and orchestration layer: it parses natural language requests, retrieves relevant context, plans tool calls, and summarizes outputs, but numerical quantities are reported only if they originate from a trusted solver or simulator and pass a verification gate. If verification fails, the solver-grounded workflow either repairs the setup through bounded retries, or returns a safe failure message rather than fabricating numerical results.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.18163v1",
+          "title": "OR Else: A Differentiable Trust Region for Policy Optimization",
+          "authors": [
+            "Chinmay Rane",
+            "Kanishka Tyagi",
+            "Michael Manry"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces \"Output Reset\" (OR), a smooth alternative to the clipped surrogate objective used in policy optimization methods like PPO. OR replaces the abrupt derivative changes of clipping with a one-sided saturation rule, aiming to improve stability and performance, particularly for large language models. The core contribution is demonstrating that OR, when integrated into PPO and GRPO, can lead to higher reward model scores compared to their clipped counterparts on the hh-rlhf dataset.",
+          "url": "http://arxiv.org/abs/2607.18163v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.18163v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.18163v1/figures/fig1_reward_multiseed.png",
+          "figure_caption": "Training-time reward-model score over 500 rollout steps for all four methods, with three seeds per method. Curves are smoothed with a moving window of 10 steps, and shaded regions denote ± 1 \\( \\pm \\) 1 standard deviation across seeds. The shared reward scale supports descriptive within-experiment comparisons, but its numerical zero is not calibrated as a success threshold.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.18080v1",
+          "title": "Sparse Evidence Can Suffice: Agentic Evidence Seeking for Multimodal Video Misinformation Detection",
+          "authors": [
+            "Haochen Zhao",
+            "Yongxiu Xu",
+            "Xinkui Lin",
+            "Dong Xie",
+            "Jiarui Lu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper proposes SIEVE, a framework for multimodal video misinformation detection that decouples evidence acquisition from verification. Instead of processing the entire video, an agent actively seeks out sparse, decision-relevant clues. This compact evidence package is then used for a more efficient and accurate veracity judgment, addressing the redundancy of holistic video understanding.",
+          "url": "http://arxiv.org/abs/2607.18080v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.18080v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.18080v1/x1.png",
+          "figure_caption": "An example illustrating that sparse, claim-relevant evidence can suffice for video claim verification.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.18171v1",
+          "title": "FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications",
+          "authors": [
+            "Krish Agarwal",
+            "Zhuoming Chen",
+            "Yanyuan Qin",
+            "Zhenyu Gu",
+            "Atri Rudra"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "FlashRT is an agent harness that guides coding agents to optimize real-time multimodal applications. It uses a novel \"chain-of-program\" paradigm to transform simple reference implementations into efficient multi-GPU deployments, balancing metrics like latency and throughput. This allows for application-specific optimizations beyond what existing systems offer, reducing the need for manual tuning.",
+          "url": "http://arxiv.org/abs/2607.18171v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.18171v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.18171v1/x1.png",
+          "figure_caption": "Previously, efficiently serving diverse multimodal applications required manual systems effort per application. FlashRT solves this by guiding a coding agent to design efficient deployments.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.18199v1",
+          "title": "PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning",
+          "authors": [
+            "Hang Zhang",
+            "Warren J. Gross"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "PPL-Factory addresses the challenge of efficiently fine-tuning large language models by proposing a novel data selection framework. Its core method combines task-aware perplexity scores, which better reflect sample difficulty for both language modeling and reasoning, with budget-aware selection criteria. This approach aims to reduce computational costs and improve downstream performance by intelligently selecting the most informative training data.",
+          "url": "http://arxiv.org/abs/2607.18199v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.18199v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.18199v1/x1.png",
+          "figure_caption": "Overview of the proposed PPL-Factory framework. The orange-shaded block represents PPL-Factory. Purple-shaded blocks represent LLMs, green-shaded blocks represent datasets. The top, middle, and bottom rows illustrate the model fine-tuning, data selection flow, and internal components of PPL-Factory, respectively.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.18232v1",
+          "title": "It's Not What You Say, It's How You Say It: Evaluating LLM Responses to Expressions of Belief",
+          "authors": [
+            "Kevin Du",
+            "Clara Kümpel",
+            "Michelle Wastl",
+            "Alex Warstadt"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces a novel typology to systematically evaluate how different linguistic expressions of belief (EoBs) influence LLMs' adherence to contextual beliefs versus their prior knowledge. The typology categorizes EoBs across four dimensions: form, evidentiality, epistemic stance, and tone. By creating controlled benchmarks, the research demonstrates that the *way* a belief is expressed, not just its content, significantly impacts LLM behavior, offering a valuable tool for understanding and improving LLM reasoning.",
+          "url": "http://arxiv.org/abs/2607.18232v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.18232v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.18232v1/figures_full_data/rank_boxplot_sorted_dim_stars_left_new.png",
+          "figure_caption": "Certain expressions of belief (EoBs) are statistically significantly more or less likely to persuade a model to agree with its belief than others. Particularly persuasive ways include using child-directed tones 1 1 1 e.g., Okay sweetie, so the capital of France is London. , imperative forms 2 2 2 e.g., Remember that London is the capital of France. , formal tones , and appeals to authority . Meanwhile, particularly unconvincing ways include using counterfactuals 3 3 3 e.g., If Berlin weren’t the capital of Germany, London would be the capital of France. , belief reports 4 4 4 e.g., My brother believes the capital of France is London. , and weak epistemic stance . Our work suggests that when studying how LLMs are influenced by context, the EoB should be considered an important factor. Stars indicate statistical significance at different levels of false-discovery rate.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.18098v1",
+          "title": "VDAR-Router: Adaptive LLMs Routing via Verbalized Query Difficulty Analysis Retrieval",
+          "authors": [
+            "Yu-Chien Tang",
+            "Jun-Chen Hung",
+            "Wen-Chih Peng",
+            "An-Zi Yen"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "VDAR-Router addresses suboptimal LLM routing by introducing a difficulty-aware retrieval mechanism. It first verbalizes the query's difficulty and then retrieves historical examples with similar difficulty profiles. This allows for more accurate estimation of candidate model suitability, leading to improved cost-performance trade-offs in LLM selection.",
+          "url": "http://arxiv.org/abs/2607.18098v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.18098v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.18098v1/x1.png",
+          "figure_caption": "An example of using difficulty analysis to select model instead of using raw query.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 20,
+        "papers_after_llm_filter": 12,
+        "count": 12
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 20,
+    "papers_after_llm_filter": 12,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 56
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.18114v1",
+      "title": "How Does Alignment Tuning Shape Representations of Sycophancy and Related Cue-Induced Biases in LLMs?",
+      "authors": [
+        "Prakhar Gupta",
+        "Terry Jingchen Zhang",
+        "Florent Draye",
+        "Bernhard Schölkopf",
+        "Zhijing Jin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how alignment tuning in LLMs introduces susceptibility to prompt-based biases like sycophancy. The core method involves extracting and analyzing \"bias directions\" within model hidden states using probing, transfer, and causal intervention. The key contribution is demonstrating that alignment tuning, not pretraining, installs these biases as distinct, steerable representational directions, and that these biases can be effectively mitigated by steering along these directions.",
+      "url": "http://arxiv.org/abs/2607.18114v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18114v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.18114v1/figures/fig1.png",
+      "figure_caption": "Left: per-bias direction extraction and intervention. For each (biased, unbiased) prompt pair, the model either resists the cue (gives the correct answer) or flips (caves to the bias’s target letter). We extract d bias = μ flipped − μ resisted d_{\\( \\mathrm{bias} \\)}=\\( \\mu \\)_{\\( \\mathrm{flipped} \\)}-\\( \\mu \\)_{\\( \\mathrm{resisted} \\)} from last-token residual-stream activations (here illustrated for Suggested Answer ); subtracting α ⋅ d bias \\( \\alpha \\)\\( \\cdot \\) d_{\\( \\mathrm{bias} \\)} at inference time debiases the model (§ 8 ), adding amplifies cue-following. Right: scope of the problem. Per-(model, bias) flip rate: fraction of pairs the model would have answered correctly on the unbiased prompt but flips on when reframed with the bias cue. OLMo’s Post Hoc (99%) leaves no resisted contrast for LODO testing (§ 5 ).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.18102v1",
+      "title": "FinSAgent: Corpus-Aligned Multi-Agent RAG Framework for Evidence-Grounded SEC Filing Question Answering",
+      "authors": [
+        "Jijun Chi",
+        "Zhenghan Tai",
+        "Hanwei Wu",
+        "Tung Sum Thomas Kwok",
+        "Hailin He"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.IR",
+        "cs.MA"
+      ],
+      "abstract": "FinSAgent addresses the challenge of financial question answering over SEC filings by aligning retrieval with the corpus's unique structure and terminology. Its core method involves a multi-agent framework that plans retrieval based on corpus-side conditioning, correcting prior-corpus misalignment. This leads to more accurate evidence retrieval and synthesis, improving the quality of answers derived from complex financial documents.",
+      "url": "http://arxiv.org/abs/2607.18102v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18102v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.18102v1/x1.png",
+      "figure_caption": "Figure 1. Answer correctness across five financial QA benchmarks. FinSAgent attains the highest correctness on every benchmark, outperforming single-agent RAG pipelines and multi-agent baselines under a matched evidence budget.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.18100v1",
+      "title": "Can We Break LLMs Out of Self-Loops? Fine-Grained Reasoning Control with Activation Steering",
+      "authors": [
+        "Sheldon Yu",
+        "Tong Yu",
+        "Xunyi Jiang",
+        "Rohan Surana",
+        "Gagan Mundada"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces SOPHIA, a method to control LLM reasoning by intervening on their internal latent states. It identifies that LLM reasoning failures often manifest as self-loops in these states. SOPHIA statistically characterizes these states and steers LLMs away from self-loops during inference, offering fine-grained control over the reasoning process beyond prompt-based methods.",
+      "url": "http://arxiv.org/abs/2607.18100v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18100v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18100v1/x1.png",
+      "figure_caption": "Self-loops in LRM reasoning traces. The model computes the correct value early (purple, $64) but cycles through redundant verification and re-questioning steps (red) before committing, wasting budget on work it has already done. Box colors denote latent reasoning states K = 5 K=5 that are induced unsupervisedly from activations rather than assigned from a hand-defined thought taxonomy Chen et al. ( 2025 ) , with transitions discovered automatically from generated traces. This makes failure modes like the loop above targetable as transition events at finer granularity than token- or prompt-level control allows.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.18144v1",
+      "title": "Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints",
+      "authors": [
+        "Thomas MacDougall",
+        "Maksim Kuznetsov",
+        "Roman Schutski",
+        "Rim Shayakhmetov",
+        "Maxim Malkov"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper benchmarks general-purpose Large Language Models (LLMs) against specialized diffusion models for 3D molecule generation under spatial constraints relevant to drug design. The core method involves evaluating LLMs' ability to incorporate complex 3D information, such as anchor fragments and interaction points, into ligand generation. The contribution is a systematic analysis and a new benchmark (3D-Fit) to assess LLMs' spatial reasoning capabilities in this critical domain.",
+      "url": "http://arxiv.org/abs/2607.18144v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18144v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.18218v1",
+      "title": "GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Analysis",
+      "authors": [
+        "Naoto Usuyama",
+        "Jeya Maria Jose Valanarasu",
+        "Sicong Yao",
+        "Hanwen Xu",
+        "Jaspreet Bagga"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces GigaPath-Flash and GigaTIME-Flash, efficient foundation models for whole-slide pathology and spatial proteomics. Their core method involves a distilled, compact tile encoder shared between models, enabling efficient learning of transferable representations from large-scale histopathology data. The main contribution is overcoming computational limitations of existing models, making large-scale slide-level analysis more accessible for clinical and research applications.",
+      "url": "http://arxiv.org/abs/2607.18218v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18218v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18218v1/x1.png",
+      "figure_caption": "Overview of the GigaPath/GigaTIME model family. GigaPath-Flash provides efficient tile and slide encoders at 22M parameters. GigaTIME predicts spatial proteomics from H&E, scaling from CNN (9M) to ViT backbones.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.18147v1",
+      "title": "LLMs and Agentic AI Systems for Smart Grids: A Tutorial on Architectures and Applications",
+      "authors": [
+        "Daniela Rojas",
+        "Abdulwahab Albassam",
+        "Aidan G. Leung",
+        "Jett Ngo",
+        "Ryan Luo"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.SY"
+      ],
+      "abstract": "This paper proposes a \"solver-grounded\" design principle for LLM-based agentic AI systems in smart grids, ensuring numerical outputs are from trusted tools and explicitly verified. This addresses the lack of unified design and evaluation methods, preventing physically infeasible results. The contribution lies in providing a principled framework and reviewing architectures and applications for this emerging domain.",
+      "url": "http://arxiv.org/abs/2607.18147v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18147v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18147v1/x1.png",
+      "figure_caption": "Solver-grounded LLM and agentic workflow for smart grids. (a) Conventional power system studies rely on trusted numerical tools, followed by explicit verification before results are reported. (b) In the proposed solver-grounded agentic workflow, the LLM acts as an interface and orchestration layer: it parses natural language requests, retrieves relevant context, plans tool calls, and summarizes outputs, but numerical quantities are reported only if they originate from a trusted solver or simulator and pass a verification gate. If verification fails, the solver-grounded workflow either repairs the setup through bounded retries, or returns a safe failure message rather than fabricating numerical results.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.18163v1",
+      "title": "OR Else: A Differentiable Trust Region for Policy Optimization",
+      "authors": [
+        "Chinmay Rane",
+        "Kanishka Tyagi",
+        "Michael Manry"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces \"Output Reset\" (OR), a smooth alternative to the clipped surrogate objective used in policy optimization methods like PPO. OR replaces the abrupt derivative changes of clipping with a one-sided saturation rule, aiming to improve stability and performance, particularly for large language models. The core contribution is demonstrating that OR, when integrated into PPO and GRPO, can lead to higher reward model scores compared to their clipped counterparts on the hh-rlhf dataset.",
+      "url": "http://arxiv.org/abs/2607.18163v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18163v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18163v1/figures/fig1_reward_multiseed.png",
+      "figure_caption": "Training-time reward-model score over 500 rollout steps for all four methods, with three seeds per method. Curves are smoothed with a moving window of 10 steps, and shaded regions denote ± 1 \\( \\pm \\) 1 standard deviation across seeds. The shared reward scale supports descriptive within-experiment comparisons, but its numerical zero is not calibrated as a success threshold.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.18080v1",
+      "title": "Sparse Evidence Can Suffice: Agentic Evidence Seeking for Multimodal Video Misinformation Detection",
+      "authors": [
+        "Haochen Zhao",
+        "Yongxiu Xu",
+        "Xinkui Lin",
+        "Dong Xie",
+        "Jiarui Lu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper proposes SIEVE, a framework for multimodal video misinformation detection that decouples evidence acquisition from verification. Instead of processing the entire video, an agent actively seeks out sparse, decision-relevant clues. This compact evidence package is then used for a more efficient and accurate veracity judgment, addressing the redundancy of holistic video understanding.",
+      "url": "http://arxiv.org/abs/2607.18080v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18080v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18080v1/x1.png",
+      "figure_caption": "An example illustrating that sparse, claim-relevant evidence can suffice for video claim verification.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.18171v1",
+      "title": "FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications",
+      "authors": [
+        "Krish Agarwal",
+        "Zhuoming Chen",
+        "Yanyuan Qin",
+        "Zhenyu Gu",
+        "Atri Rudra"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "FlashRT is an agent harness that guides coding agents to optimize real-time multimodal applications. It uses a novel \"chain-of-program\" paradigm to transform simple reference implementations into efficient multi-GPU deployments, balancing metrics like latency and throughput. This allows for application-specific optimizations beyond what existing systems offer, reducing the need for manual tuning.",
+      "url": "http://arxiv.org/abs/2607.18171v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18171v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18171v1/x1.png",
+      "figure_caption": "Previously, efficiently serving diverse multimodal applications required manual systems effort per application. FlashRT solves this by guiding a coding agent to design efficient deployments.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.18199v1",
+      "title": "PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning",
+      "authors": [
+        "Hang Zhang",
+        "Warren J. Gross"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "PPL-Factory addresses the challenge of efficiently fine-tuning large language models by proposing a novel data selection framework. Its core method combines task-aware perplexity scores, which better reflect sample difficulty for both language modeling and reasoning, with budget-aware selection criteria. This approach aims to reduce computational costs and improve downstream performance by intelligently selecting the most informative training data.",
+      "url": "http://arxiv.org/abs/2607.18199v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18199v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18199v1/x1.png",
+      "figure_caption": "Overview of the proposed PPL-Factory framework. The orange-shaded block represents PPL-Factory. Purple-shaded blocks represent LLMs, green-shaded blocks represent datasets. The top, middle, and bottom rows illustrate the model fine-tuning, data selection flow, and internal components of PPL-Factory, respectively.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.18232v1",
+      "title": "It's Not What You Say, It's How You Say It: Evaluating LLM Responses to Expressions of Belief",
+      "authors": [
+        "Kevin Du",
+        "Clara Kümpel",
+        "Michelle Wastl",
+        "Alex Warstadt"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a novel typology to systematically evaluate how different linguistic expressions of belief (EoBs) influence LLMs' adherence to contextual beliefs versus their prior knowledge. The typology categorizes EoBs across four dimensions: form, evidentiality, epistemic stance, and tone. By creating controlled benchmarks, the research demonstrates that the *way* a belief is expressed, not just its content, significantly impacts LLM behavior, offering a valuable tool for understanding and improving LLM reasoning.",
+      "url": "http://arxiv.org/abs/2607.18232v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18232v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18232v1/figures_full_data/rank_boxplot_sorted_dim_stars_left_new.png",
+      "figure_caption": "Certain expressions of belief (EoBs) are statistically significantly more or less likely to persuade a model to agree with its belief than others. Particularly persuasive ways include using child-directed tones 1 1 1 e.g., Okay sweetie, so the capital of France is London. , imperative forms 2 2 2 e.g., Remember that London is the capital of France. , formal tones , and appeals to authority . Meanwhile, particularly unconvincing ways include using counterfactuals 3 3 3 e.g., If Berlin weren’t the capital of Germany, London would be the capital of France. , belief reports 4 4 4 e.g., My brother believes the capital of France is London. , and weak epistemic stance . Our work suggests that when studying how LLMs are influenced by context, the EoB should be considered an important factor. Stars indicate statistical significance at different levels of false-discovery rate.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.18098v1",
+      "title": "VDAR-Router: Adaptive LLMs Routing via Verbalized Query Difficulty Analysis Retrieval",
+      "authors": [
+        "Yu-Chien Tang",
+        "Jun-Chen Hung",
+        "Wen-Chih Peng",
+        "An-Zi Yen"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "VDAR-Router addresses suboptimal LLM routing by introducing a difficulty-aware retrieval mechanism. It first verbalizes the query's difficulty and then retrieves historical examples with similar difficulty profiles. This allows for more accurate estimation of candidate model suitability, leading to improved cost-performance trade-offs in LLM selection.",
+      "url": "http://arxiv.org/abs/2607.18098v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18098v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18098v1/x1.png",
+      "figure_caption": "An example of using difficulty analysis to select model instead of using raw query.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.18114v1",
+      "title": "How Does Alignment Tuning Shape Representations of Sycophancy and Related Cue-Induced Biases in LLMs?",
+      "authors": [
+        "Prakhar Gupta",
+        "Terry Jingchen Zhang",
+        "Florent Draye",
+        "Bernhard Schölkopf",
+        "Zhijing Jin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how alignment tuning in LLMs introduces susceptibility to prompt-based biases like sycophancy. The core method involves extracting and analyzing \"bias directions\" within model hidden states using probing, transfer, and causal intervention. The key contribution is demonstrating that alignment tuning, not pretraining, installs these biases as distinct, steerable representational directions, and that these biases can be effectively mitigated by steering along these directions.",
+      "url": "http://arxiv.org/abs/2607.18114v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18114v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.18114v1/figures/fig1.png",
+      "figure_caption": "Left: per-bias direction extraction and intervention. For each (biased, unbiased) prompt pair, the model either resists the cue (gives the correct answer) or flips (caves to the bias’s target letter). We extract d bias = μ flipped − μ resisted d_{\\( \\mathrm{bias} \\)}=\\( \\mu \\)_{\\( \\mathrm{flipped} \\)}-\\( \\mu \\)_{\\( \\mathrm{resisted} \\)} from last-token residual-stream activations (here illustrated for Suggested Answer ); subtracting α ⋅ d bias \\( \\alpha \\)\\( \\cdot \\) d_{\\( \\mathrm{bias} \\)} at inference time debiases the model (§ 8 ), adding amplifies cue-following. Right: scope of the problem. Per-(model, bias) flip rate: fraction of pairs the model would have answered correctly on the unbiased prompt but flips on when reframed with the bias cue. OLMo’s Post Hoc (99%) leaves no resisted contrast for LODO testing (§ 5 ).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.18102v1",
+      "title": "FinSAgent: Corpus-Aligned Multi-Agent RAG Framework for Evidence-Grounded SEC Filing Question Answering",
+      "authors": [
+        "Jijun Chi",
+        "Zhenghan Tai",
+        "Hanwei Wu",
+        "Tung Sum Thomas Kwok",
+        "Hailin He"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.IR",
+        "cs.MA"
+      ],
+      "abstract": "FinSAgent addresses the challenge of financial question answering over SEC filings by aligning retrieval with the corpus's unique structure and terminology. Its core method involves a multi-agent framework that plans retrieval based on corpus-side conditioning, correcting prior-corpus misalignment. This leads to more accurate evidence retrieval and synthesis, improving the quality of answers derived from complex financial documents.",
+      "url": "http://arxiv.org/abs/2607.18102v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18102v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.18102v1/x1.png",
+      "figure_caption": "Figure 1. Answer correctness across five financial QA benchmarks. FinSAgent attains the highest correctness on every benchmark, outperforming single-agent RAG pipelines and multi-agent baselines under a matched evidence budget.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.18100v1",
+      "title": "Can We Break LLMs Out of Self-Loops? Fine-Grained Reasoning Control with Activation Steering",
+      "authors": [
+        "Sheldon Yu",
+        "Tong Yu",
+        "Xunyi Jiang",
+        "Rohan Surana",
+        "Gagan Mundada"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces SOPHIA, a method to control LLM reasoning by intervening on their internal latent states. It identifies that LLM reasoning failures often manifest as self-loops in these states. SOPHIA statistically characterizes these states and steers LLMs away from self-loops during inference, offering fine-grained control over the reasoning process beyond prompt-based methods.",
+      "url": "http://arxiv.org/abs/2607.18100v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18100v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18100v1/x1.png",
+      "figure_caption": "Self-loops in LRM reasoning traces. The model computes the correct value early (purple, $64) but cycles through redundant verification and re-questioning steps (red) before committing, wasting budget on work it has already done. Box colors denote latent reasoning states K = 5 K=5 that are induced unsupervisedly from activations rather than assigned from a hand-defined thought taxonomy Chen et al. ( 2025 ) , with transitions discovered automatically from generated traces. This makes failure modes like the loop above targetable as transition events at finer granularity than token- or prompt-level control allows.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.18144v1",
+      "title": "Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints",
+      "authors": [
+        "Thomas MacDougall",
+        "Maksim Kuznetsov",
+        "Roman Schutski",
+        "Rim Shayakhmetov",
+        "Maxim Malkov"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper benchmarks general-purpose Large Language Models (LLMs) against specialized diffusion models for 3D molecule generation under spatial constraints relevant to drug design. The core method involves evaluating LLMs' ability to incorporate complex 3D information, such as anchor fragments and interaction points, into ligand generation. The contribution is a systematic analysis and a new benchmark (3D-Fit) to assess LLMs' spatial reasoning capabilities in this critical domain.",
+      "url": "http://arxiv.org/abs/2607.18144v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18144v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.18218v1",
+      "title": "GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Analysis",
+      "authors": [
+        "Naoto Usuyama",
+        "Jeya Maria Jose Valanarasu",
+        "Sicong Yao",
+        "Hanwen Xu",
+        "Jaspreet Bagga"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces GigaPath-Flash and GigaTIME-Flash, efficient foundation models for whole-slide pathology and spatial proteomics. Their core method involves a distilled, compact tile encoder shared between models, enabling efficient learning of transferable representations from large-scale histopathology data. The main contribution is overcoming computational limitations of existing models, making large-scale slide-level analysis more accessible for clinical and research applications.",
+      "url": "http://arxiv.org/abs/2607.18218v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18218v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18218v1/x1.png",
+      "figure_caption": "Overview of the GigaPath/GigaTIME model family. GigaPath-Flash provides efficient tile and slide encoders at 22M parameters. GigaTIME predicts spatial proteomics from H&E, scaling from CNN (9M) to ViT backbones.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.18147v1",
+      "title": "LLMs and Agentic AI Systems for Smart Grids: A Tutorial on Architectures and Applications",
+      "authors": [
+        "Daniela Rojas",
+        "Abdulwahab Albassam",
+        "Aidan G. Leung",
+        "Jett Ngo",
+        "Ryan Luo"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.SY"
+      ],
+      "abstract": "This paper proposes a \"solver-grounded\" design principle for LLM-based agentic AI systems in smart grids, ensuring numerical outputs are from trusted tools and explicitly verified. This addresses the lack of unified design and evaluation methods, preventing physically infeasible results. The contribution lies in providing a principled framework and reviewing architectures and applications for this emerging domain.",
+      "url": "http://arxiv.org/abs/2607.18147v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18147v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18147v1/x1.png",
+      "figure_caption": "Solver-grounded LLM and agentic workflow for smart grids. (a) Conventional power system studies rely on trusted numerical tools, followed by explicit verification before results are reported. (b) In the proposed solver-grounded agentic workflow, the LLM acts as an interface and orchestration layer: it parses natural language requests, retrieves relevant context, plans tool calls, and summarizes outputs, but numerical quantities are reported only if they originate from a trusted solver or simulator and pass a verification gate. If verification fails, the solver-grounded workflow either repairs the setup through bounded retries, or returns a safe failure message rather than fabricating numerical results.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.18163v1",
+      "title": "OR Else: A Differentiable Trust Region for Policy Optimization",
+      "authors": [
+        "Chinmay Rane",
+        "Kanishka Tyagi",
+        "Michael Manry"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces \"Output Reset\" (OR), a smooth alternative to the clipped surrogate objective used in policy optimization methods like PPO. OR replaces the abrupt derivative changes of clipping with a one-sided saturation rule, aiming to improve stability and performance, particularly for large language models. The core contribution is demonstrating that OR, when integrated into PPO and GRPO, can lead to higher reward model scores compared to their clipped counterparts on the hh-rlhf dataset.",
+      "url": "http://arxiv.org/abs/2607.18163v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18163v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18163v1/figures/fig1_reward_multiseed.png",
+      "figure_caption": "Training-time reward-model score over 500 rollout steps for all four methods, with three seeds per method. Curves are smoothed with a moving window of 10 steps, and shaded regions denote ± 1 \\( \\pm \\) 1 standard deviation across seeds. The shared reward scale supports descriptive within-experiment comparisons, but its numerical zero is not calibrated as a success threshold.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.18080v1",
+      "title": "Sparse Evidence Can Suffice: Agentic Evidence Seeking for Multimodal Video Misinformation Detection",
+      "authors": [
+        "Haochen Zhao",
+        "Yongxiu Xu",
+        "Xinkui Lin",
+        "Dong Xie",
+        "Jiarui Lu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper proposes SIEVE, a framework for multimodal video misinformation detection that decouples evidence acquisition from verification. Instead of processing the entire video, an agent actively seeks out sparse, decision-relevant clues. This compact evidence package is then used for a more efficient and accurate veracity judgment, addressing the redundancy of holistic video understanding.",
+      "url": "http://arxiv.org/abs/2607.18080v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18080v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18080v1/x1.png",
+      "figure_caption": "An example illustrating that sparse, claim-relevant evidence can suffice for video claim verification.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.18171v1",
+      "title": "FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications",
+      "authors": [
+        "Krish Agarwal",
+        "Zhuoming Chen",
+        "Yanyuan Qin",
+        "Zhenyu Gu",
+        "Atri Rudra"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "FlashRT is an agent harness that guides coding agents to optimize real-time multimodal applications. It uses a novel \"chain-of-program\" paradigm to transform simple reference implementations into efficient multi-GPU deployments, balancing metrics like latency and throughput. This allows for application-specific optimizations beyond what existing systems offer, reducing the need for manual tuning.",
+      "url": "http://arxiv.org/abs/2607.18171v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18171v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18171v1/x1.png",
+      "figure_caption": "Previously, efficiently serving diverse multimodal applications required manual systems effort per application. FlashRT solves this by guiding a coding agent to design efficient deployments.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.18199v1",
+      "title": "PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning",
+      "authors": [
+        "Hang Zhang",
+        "Warren J. Gross"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "PPL-Factory addresses the challenge of efficiently fine-tuning large language models by proposing a novel data selection framework. Its core method combines task-aware perplexity scores, which better reflect sample difficulty for both language modeling and reasoning, with budget-aware selection criteria. This approach aims to reduce computational costs and improve downstream performance by intelligently selecting the most informative training data.",
+      "url": "http://arxiv.org/abs/2607.18199v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18199v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18199v1/x1.png",
+      "figure_caption": "Overview of the proposed PPL-Factory framework. The orange-shaded block represents PPL-Factory. Purple-shaded blocks represent LLMs, green-shaded blocks represent datasets. The top, middle, and bottom rows illustrate the model fine-tuning, data selection flow, and internal components of PPL-Factory, respectively.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.18232v1",
+      "title": "It's Not What You Say, It's How You Say It: Evaluating LLM Responses to Expressions of Belief",
+      "authors": [
+        "Kevin Du",
+        "Clara Kümpel",
+        "Michelle Wastl",
+        "Alex Warstadt"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a novel typology to systematically evaluate how different linguistic expressions of belief (EoBs) influence LLMs' adherence to contextual beliefs versus their prior knowledge. The typology categorizes EoBs across four dimensions: form, evidentiality, epistemic stance, and tone. By creating controlled benchmarks, the research demonstrates that the *way* a belief is expressed, not just its content, significantly impacts LLM behavior, offering a valuable tool for understanding and improving LLM reasoning.",
+      "url": "http://arxiv.org/abs/2607.18232v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18232v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18232v1/figures_full_data/rank_boxplot_sorted_dim_stars_left_new.png",
+      "figure_caption": "Certain expressions of belief (EoBs) are statistically significantly more or less likely to persuade a model to agree with its belief than others. Particularly persuasive ways include using child-directed tones 1 1 1 e.g., Okay sweetie, so the capital of France is London. , imperative forms 2 2 2 e.g., Remember that London is the capital of France. , formal tones , and appeals to authority . Meanwhile, particularly unconvincing ways include using counterfactuals 3 3 3 e.g., If Berlin weren’t the capital of Germany, London would be the capital of France. , belief reports 4 4 4 e.g., My brother believes the capital of France is London. , and weak epistemic stance . Our work suggests that when studying how LLMs are influenced by context, the EoB should be considered an important factor. Stars indicate statistical significance at different levels of false-discovery rate.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.18098v1",
+      "title": "VDAR-Router: Adaptive LLMs Routing via Verbalized Query Difficulty Analysis Retrieval",
+      "authors": [
+        "Yu-Chien Tang",
+        "Jun-Chen Hung",
+        "Wen-Chih Peng",
+        "An-Zi Yen"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "VDAR-Router addresses suboptimal LLM routing by introducing a difficulty-aware retrieval mechanism. It first verbalizes the query's difficulty and then retrieves historical examples with similar difficulty profiles. This allows for more accurate estimation of candidate model suitability, leading to improved cost-performance trade-offs in LLM selection.",
+      "url": "http://arxiv.org/abs/2607.18098v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18098v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.18098v1/x1.png",
+      "figure_caption": "An example of using difficulty analysis to select model instead of using raw query.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
