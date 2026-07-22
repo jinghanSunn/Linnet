@@ -1,0 +1,1081 @@
+{
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T11:27:24.002106+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.19191v1",
+          "title": "ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU",
+          "authors": [
+            "Fan Jiang",
+            "Zhaoxu Sun",
+            "Mengchao Wang",
+            "Ziyu Zhu",
+            "Chiyu Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces ABot-World-0, an action-conditioned video world model enabling real-time, long-horizon closed-loop interaction. Its core method involves distilling a powerful teacher model into a causal student model using techniques like ODE distillation and LongForcing to mitigate distribution shift. The key contribution is a robust, data-driven approach to learning controllable world dynamics, allowing agents to interact within a simulated environment for extended periods with consistent identity.",
+          "url": "http://arxiv.org/abs/2607.19191v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.19191v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.19191v1/Figs/abot-world-0.png",
+          "figure_caption": "ABot-World-0 turns a single NVIDIA RTX 5090 GPU into a real-time interactive world simulator, enabling infinite action-conditioned world rollout at 720P and up to 16 FPS with 1.2 s action-to-first-frame latency within a peak-VRAM budget of approximately 19 GiB.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.19190v1",
+          "title": "Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents",
+          "authors": [
+            "Guanxiong Chen",
+            "Qianjun Xia",
+            "Jiawei Peng",
+            "Heng Zhang",
+            "Bole Ma"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.RO"
+          ],
+          "abstract": "This paper introduces Agentic Real2Sim, a framework that automates the creation of physics-based simulations from real-world robot interaction videos. It leverages vision-language agents to infer scene geometry, object states, and physical parameters, assembling them into a runnable simulation without manual tuning. The core contribution is a generalized, agent-driven approach to real-to-sim conversion, significantly streamlining the process for various robotic interaction scenarios.",
+          "url": "http://arxiv.org/abs/2607.19190v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.19190v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.19336v1",
+          "title": "Agents in the Wild: Where Research Meets Deployment",
+          "authors": [
+            "Grace Hui Yang",
+            "Pranav N. Venkit",
+            "Hooman Sedghamiz",
+            "Enrico Santus",
+            "Victor Dibia"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper bridges the gap between LLM agent research and real-world deployment. Its core method involves analyzing practical challenges like robustness and safety encountered in production, and proposing solutions through case studies. The main contribution is identifying successful design patterns and mitigation strategies for agentic systems, moving beyond purely algorithmic innovation to practical deployment considerations.",
+          "url": "http://arxiv.org/abs/2607.19336v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.19336v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.19345v1",
+          "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
+          "authors": [
+            "Lizhe Fang",
+            "Weizhou Shen",
+            "Tianyi Tang",
+            "Yisen Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper addresses the problem of repetitive copying in long-context reasoning by Large Language Models. They propose GEAR, a reinforcement learning method that penalizes copying irrelevant text and rewards grounding the reasoning in key evidence from the prompt. This approach aims to improve the accuracy and efficiency of LLMs in handling long contexts by encouraging them to focus on relevant information.",
+          "url": "http://arxiv.org/abs/2607.19345v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.19345v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.19261v1",
+          "title": "PathAgentBench: Benchmarking Evidence-Seeking Vision-Language Models on Whole-Slide Pathology Image",
+          "authors": [
+            "Dankai Liao",
+            "Tianyi Zhang",
+            "Yufeng Wu",
+            "Xinyue Zhang",
+            "Qiaochu Xue"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "PathAgentBench introduces a novel benchmark to evaluate vision-language models (VLMs) on their ability to acquire and integrate evidence from gigapixel whole-slide pathology images for diagnosis. It tests four key capabilities: evidence interpretation, verification, acquisition, and multi-scale reasoning, organized within a diagnostic tree structure. This benchmark addresses the gap in current evaluations by directly assessing VLMs' performance on raw WSIs, unlike previous methods relying on pre-cropped patches or features.",
+          "url": "http://arxiv.org/abs/2607.19261v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.19261v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.19261v1/x1.png",
+          "figure_caption": "Motivation for PathAgentBench. Current pathology benchmarks predominantly evaluate interpretation of preselected evidence, whereas real-world WSI diagnosis requires active evidence seeking across locations and magnifications. PathAgentBench is designed to bridge this gap.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.19257v1",
+          "title": "Prompt Design at Scale: How Format, Instruction Count, and Context Length Shape Instruction Adherence and Hallucination in Large Language Models",
+          "authors": [
+            "Netanel Eliav"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates how prompt design choices impact large language model performance. Through controlled experiments, it demonstrates that increasing the number of instructions significantly degrades instruction adherence, with perfect responses collapsing by 80 instructions. The study also reveals that instruction placement (system prompt vs. user turn) can have effects as large as formatting, though the direction of this impact is model-dependent.",
+          "url": "http://arxiv.org/abs/2607.19257v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.19257v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.19257v1/x1.png",
+          "figure_caption": "Perfect-response rate vs. instruction count N N , by format (color) and model (panel), pooled across system and user-turn placement. All five models converge to a perfect-response rate of zero by N = 80 N=80 , regardless of format.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.19223v1",
+          "title": "AdaFlash: Adaptive Speculative Decoding via On-Policy Distilled Diffusion Drafters",
+          "authors": [
+            "Yu-Yang Qian",
+            "Hao-Cong Wu",
+            "Chen Chen",
+            "Jiacheng Sun",
+            "Zhenhua Dong"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "AdaFlash addresses the high variance issue in diffusion-based speculative decoding by introducing an adaptive framework. It uses an on-policy distilled diffusion drafter that learns to adjust its drafting strategy based on the target model's feedback, leading to more stable and efficient draft generation. This adaptive approach improves the overall acceptance rate and reduces inference latency.",
+          "url": "http://arxiv.org/abs/2607.19223v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.19223v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.19223v1/x1.png",
+          "figure_caption": "Illustration of the high variance issue in diffusion drafters. (a) Probability density of the acceptance rate across three task domains (chat, code, and math), showing substantial distributional differences. (b) Box plots of the acceptance length over five different datasets. (c) Per-token acceptance probability for two nearly identical prefixes differing by only one token; the acceptance lengths diverge drastically, revealing high token-level variance of diffusion drafters.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.19219v1",
+          "title": "Beyond Score Prediction: LLM-Based Essay Scoring and Feedback Generation via Reinforcement Learning with Rubric Rewards",
+          "authors": [
+            "Xuefeng Jin",
+            "Jiashuo Zhang",
+            "Teng Cao",
+            "Bin Yang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces RLAES, a novel framework that uses reinforcement learning to jointly optimize essay scoring and feedback generation for LLMs. Its core contribution is the Rubric-based Feedback Evaluation (RFE) system, which uses an LLM-as-judge and fine-grained rubric items to provide measurable feedback quality. This enables Adaptive Gated Feedback Optimization (AGFO) to efficiently improve feedback quality during RL training.",
+          "url": "http://arxiv.org/abs/2607.19219v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.19219v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.19219v1/x1.png",
+          "figure_caption": "Construction of the RFE rubrics.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.19262v1",
+          "title": "BioSecBench-Surveillance: A Verifiable Benchmark for AI Agents in Pathogen Genomic Surveillance",
+          "authors": [
+            "Harmon Bhasin",
+            "Kevin Flyangolts",
+            "Dianzhuo Wang",
+            "Evan Seeyave",
+            "Arjun Banerjee"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces BioSecBench-Surveillance, a verifiable benchmark designed to evaluate AI agents' ability to select appropriate analysis pipelines for pathogen genomic surveillance. The benchmark provides AI agents with raw sequencing data and context, grading their structured answers deterministically across diverse tasks. Its core contribution is to quantify the current limitations of AI in this critical area, revealing that even top-performing models can only correctly infer the analysis pipeline about half the time.",
+          "url": "http://arxiv.org/abs/2607.19262v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.19262v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.19297v1",
+          "title": "Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes",
+          "authors": [
+            "Daniel Pearson",
+            "Sidney Shapiro",
+            "Emiliano Sebastian Gonzalez Venegas",
+            "Sanad Al-Khatib",
+            "Aurora Pinzón Arzola"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.SE"
+          ],
+          "abstract": "This paper presents a practitioner's guide to using LangGraph for complex, long-running, stateful AI business processes. It offers three executable recipes demonstrating how LangGraph's features like typed state and conditional routing enable robust workflows for tasks such as SQL analytics and human-in-the-loop review. The core contribution is showing LangGraph's value for workflow complexity, not as a universal default, by illustrating specific implementation patterns and when it's the appropriate choice over simpler alternatives.",
+          "url": "http://arxiv.org/abs/2607.19297v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.19297v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.19243v1",
+          "title": "Inference-Time Steering for Cross-Lingual Factual Consistency in LLMs",
+          "authors": [
+            "Alexander Manev"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper addresses cross-lingual factual inconsistency in LLMs, where models favor high-resource languages. The core method involves \"inference-time steering\" to make English-prompted models answer as if queried in other languages. The contribution lies in evaluating four techniques (persona prompting, CAA, DPO with factual and generalization data) to mitigate these biases and improve factual consistency across languages.",
+          "url": "http://arxiv.org/abs/2607.19243v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.19243v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.19313v1",
+          "title": "Off-Context GRPO: Learning to Reason on Hard Problems using Privileged Information",
+          "authors": [
+            "Priyank Agrawal",
+            "Ankur Samanta",
+            "Shervin Ghasemlou",
+            "Jalaj Bhandari",
+            "Kavosh Asadi"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces Off-Context GRPO (OC-GRPO) to improve reinforcement learning in large language models for complex reasoning tasks. The core method uses privileged information (like solution prefixes) during training to generate guided rollouts, providing a learning signal even for difficult problems. OC-GRPO then applies an importance-corrected objective to ensure these guided updates steer the model towards the original, unguided objective, preventing training instability and achieving significant performance gains.",
+          "url": "http://arxiv.org/abs/2607.19313v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.19313v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.19266v1",
+          "title": "Toward Auditable Fraud Detection: Combining Graph Features, Model Explanations, and Agentic Case Investigation",
+          "authors": [
+            "Rahil Sharma"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper proposes a fraud detection system that combines a gradient-boosted classifier with graph-derived features and an anomaly signal. Its core contribution is demonstrating that while these additions don't improve overall performance, they effectively highlight uncertain cases for a subsequent LLM-powered investigation agent. Crucially, the authors also identify and remove a data artifact that artificially inflates baseline performance.",
+          "url": "http://arxiv.org/abs/2607.19266v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.19266v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.19266v1/Diagram_1.png",
+          "figure_caption": "Overview of the proposed framework, from the operational tension motivating this work (Stage 0) through baseline detection, relational and behavioral feature augmentation, difficult-case isolation, agentic investigation, and the escalation policy that routes cases between automatic resolution and human review.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.19235v1",
+          "title": "MeetingToM: Evaluating Multimodal LLMs on Theory-of-Mind Reasoning in Multi-Party Meetings",
+          "authors": [
+            "Ziyi Wang",
+            "Yuhang Wu",
+            "Dongxu Piao",
+            "Xingyu Liu",
+            "Tianhui Zhou"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces MeetingToM, a novel benchmark designed to evaluate Multimodal Large Language Models (MLLMs) on Theory-of-Mind (ToM) reasoning within multi-party meetings. MeetingToM addresses limitations of existing benchmarks by focusing on complex social phenomena like pseudo-consensus and assessing ToM at subject, dyadic, and group levels, moving beyond overt visual cues to capture latent social states.",
+          "url": "http://arxiv.org/abs/2607.19235v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.19235v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.19235v1/x1.png",
+          "figure_caption": "Hierarchically structured tasks in our MeetingToM benchmark and example of pseudo-consensus. MeetingToM evaluates meeting-grounded ToM reasoning at three levels: subject-level mental states, dyadic addressee identification and attitude inference, and group-level consensus reasoning. The example shows pseudo-consensus, where verbal agreement masks non-verbal dissent under social pressure.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 29,
+        "papers_after_llm_filter": 14,
+        "count": 14
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "University Assistant (Doctorate/Ph.D.)",
+          "url": "https://euraxess.ec.europa.eu/jobs/454817",
+          "description": "The world is changing at an ever-faster pace. At the Johannes Kepler University Linz, we work on technologies and the ideas of tomorrow on a daily basis. At the same time, we educate over 27,000 young people to meet the demands of today’s job market. In short, we are Upper Austria’s largest... * Department: Institute of Medical Systems Biology Work Locations: Number of offers: 1, Austria, Johannes Kepler University, Linz, 4020, Krankenhausstraße 5 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Informatics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A87) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 19 Aug 2026 - 23:59 (Europe/Vienna) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Austria * [Johannes Kepler University](https://euraxess.ec.europa.eu/partnering/organisations/profile/johannes-kepler-university) * [Field: Computer science]",
+          "institution": "",
+          "posted_date": "22 July 2026",
+          "deadline": "19 Aug 2026 - 23:59 (Europe/Vienna)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Computer science, Informatics\nKey Requirements: Recognized Researcher (R2)\nApplication Info: deadline 19 Aug 2026 - 23:59 (Europe/Vienna), N/A materials, N/A contact\nPosition Details: Johannes Kepler University, Linz, Austria, N/A contract type, N/A workload, N/A salary\nOne-line Advice: N/A",
+          "relevance_score": 7.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        },
+        {
+          "title": "University Assistant (Doctorate/Ph.D.)",
+          "url": "https://euraxess.ec.europa.eu/jobs/454816",
+          "description": "The world is changing at an ever-faster pace. At the Johannes Kepler University Linz, we work on technologies and the ideas of tomorrow on a daily basis. At the same time, we educate over 27,000 young people to meet the demands of today’s job market. In short, we are Upper Austria’s largest... * Department: Institute of Medical Systems Biology Work Locations: Number of offers: 1, Austria, Johannes Kepler University, Linz, 4020, Krankenhausstraße 5 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Informatics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A87) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 19 Aug 2026 - 23:59 (Europe/Vienna) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Türkiye ![Image 3: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Koç University](https://euraxess.ec.europa.eu/partnering/organisations/profile/koc-university) * [Field: Computer science]",
+          "institution": "",
+          "posted_date": "22 July 2026",
+          "deadline": "19 Aug 2026 - 23:59 (Europe/Vienna)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Computer science / Informatics\nKey Requirements: Recognized Researcher (R2) profile.\nApplication Info: deadline 19 Aug 2026 - 23:59 (Europe/Vienna), N/A required materials, N/A contact.\nPosition Details: Johannes Kepler University, Linz, Austria. Contract type N/A, workload N/A, salary N/A.\nOne-line Advice: N/A",
+          "relevance_score": 7.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 2
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 29,
+    "papers_after_llm_filter": 14,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 56
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.19191v1",
+      "title": "ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU",
+      "authors": [
+        "Fan Jiang",
+        "Zhaoxu Sun",
+        "Mengchao Wang",
+        "Ziyu Zhu",
+        "Chiyu Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces ABot-World-0, an action-conditioned video world model enabling real-time, long-horizon closed-loop interaction. Its core method involves distilling a powerful teacher model into a causal student model using techniques like ODE distillation and LongForcing to mitigate distribution shift. The key contribution is a robust, data-driven approach to learning controllable world dynamics, allowing agents to interact within a simulated environment for extended periods with consistent identity.",
+      "url": "http://arxiv.org/abs/2607.19191v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19191v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.19191v1/Figs/abot-world-0.png",
+      "figure_caption": "ABot-World-0 turns a single NVIDIA RTX 5090 GPU into a real-time interactive world simulator, enabling infinite action-conditioned world rollout at 720P and up to 16 FPS with 1.2 s action-to-first-frame latency within a peak-VRAM budget of approximately 19 GiB.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19190v1",
+      "title": "Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents",
+      "authors": [
+        "Guanxiong Chen",
+        "Qianjun Xia",
+        "Jiawei Peng",
+        "Heng Zhang",
+        "Bole Ma"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces Agentic Real2Sim, a framework that automates the creation of physics-based simulations from real-world robot interaction videos. It leverages vision-language agents to infer scene geometry, object states, and physical parameters, assembling them into a runnable simulation without manual tuning. The core contribution is a generalized, agent-driven approach to real-to-sim conversion, significantly streamlining the process for various robotic interaction scenarios.",
+      "url": "http://arxiv.org/abs/2607.19190v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19190v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19336v1",
+      "title": "Agents in the Wild: Where Research Meets Deployment",
+      "authors": [
+        "Grace Hui Yang",
+        "Pranav N. Venkit",
+        "Hooman Sedghamiz",
+        "Enrico Santus",
+        "Victor Dibia"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper bridges the gap between LLM agent research and real-world deployment. Its core method involves analyzing practical challenges like robustness and safety encountered in production, and proposing solutions through case studies. The main contribution is identifying successful design patterns and mitigation strategies for agentic systems, moving beyond purely algorithmic innovation to practical deployment considerations.",
+      "url": "http://arxiv.org/abs/2607.19336v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19336v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19345v1",
+      "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
+      "authors": [
+        "Lizhe Fang",
+        "Weizhou Shen",
+        "Tianyi Tang",
+        "Yisen Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the problem of repetitive copying in long-context reasoning by Large Language Models. They propose GEAR, a reinforcement learning method that penalizes copying irrelevant text and rewards grounding the reasoning in key evidence from the prompt. This approach aims to improve the accuracy and efficiency of LLMs in handling long contexts by encouraging them to focus on relevant information.",
+      "url": "http://arxiv.org/abs/2607.19345v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19345v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19261v1",
+      "title": "PathAgentBench: Benchmarking Evidence-Seeking Vision-Language Models on Whole-Slide Pathology Image",
+      "authors": [
+        "Dankai Liao",
+        "Tianyi Zhang",
+        "Yufeng Wu",
+        "Xinyue Zhang",
+        "Qiaochu Xue"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "PathAgentBench introduces a novel benchmark to evaluate vision-language models (VLMs) on their ability to acquire and integrate evidence from gigapixel whole-slide pathology images for diagnosis. It tests four key capabilities: evidence interpretation, verification, acquisition, and multi-scale reasoning, organized within a diagnostic tree structure. This benchmark addresses the gap in current evaluations by directly assessing VLMs' performance on raw WSIs, unlike previous methods relying on pre-cropped patches or features.",
+      "url": "http://arxiv.org/abs/2607.19261v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19261v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.19261v1/x1.png",
+      "figure_caption": "Motivation for PathAgentBench. Current pathology benchmarks predominantly evaluate interpretation of preselected evidence, whereas real-world WSI diagnosis requires active evidence seeking across locations and magnifications. PathAgentBench is designed to bridge this gap.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19257v1",
+      "title": "Prompt Design at Scale: How Format, Instruction Count, and Context Length Shape Instruction Adherence and Hallucination in Large Language Models",
+      "authors": [
+        "Netanel Eliav"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how prompt design choices impact large language model performance. Through controlled experiments, it demonstrates that increasing the number of instructions significantly degrades instruction adherence, with perfect responses collapsing by 80 instructions. The study also reveals that instruction placement (system prompt vs. user turn) can have effects as large as formatting, though the direction of this impact is model-dependent.",
+      "url": "http://arxiv.org/abs/2607.19257v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19257v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.19257v1/x1.png",
+      "figure_caption": "Perfect-response rate vs. instruction count N N , by format (color) and model (panel), pooled across system and user-turn placement. All five models converge to a perfect-response rate of zero by N = 80 N=80 , regardless of format.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19223v1",
+      "title": "AdaFlash: Adaptive Speculative Decoding via On-Policy Distilled Diffusion Drafters",
+      "authors": [
+        "Yu-Yang Qian",
+        "Hao-Cong Wu",
+        "Chen Chen",
+        "Jiacheng Sun",
+        "Zhenhua Dong"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "AdaFlash addresses the high variance issue in diffusion-based speculative decoding by introducing an adaptive framework. It uses an on-policy distilled diffusion drafter that learns to adjust its drafting strategy based on the target model's feedback, leading to more stable and efficient draft generation. This adaptive approach improves the overall acceptance rate and reduces inference latency.",
+      "url": "http://arxiv.org/abs/2607.19223v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19223v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.19223v1/x1.png",
+      "figure_caption": "Illustration of the high variance issue in diffusion drafters. (a) Probability density of the acceptance rate across three task domains (chat, code, and math), showing substantial distributional differences. (b) Box plots of the acceptance length over five different datasets. (c) Per-token acceptance probability for two nearly identical prefixes differing by only one token; the acceptance lengths diverge drastically, revealing high token-level variance of diffusion drafters.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.19219v1",
+      "title": "Beyond Score Prediction: LLM-Based Essay Scoring and Feedback Generation via Reinforcement Learning with Rubric Rewards",
+      "authors": [
+        "Xuefeng Jin",
+        "Jiashuo Zhang",
+        "Teng Cao",
+        "Bin Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces RLAES, a novel framework that uses reinforcement learning to jointly optimize essay scoring and feedback generation for LLMs. Its core contribution is the Rubric-based Feedback Evaluation (RFE) system, which uses an LLM-as-judge and fine-grained rubric items to provide measurable feedback quality. This enables Adaptive Gated Feedback Optimization (AGFO) to efficiently improve feedback quality during RL training.",
+      "url": "http://arxiv.org/abs/2607.19219v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19219v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.19219v1/x1.png",
+      "figure_caption": "Construction of the RFE rubrics.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19262v1",
+      "title": "BioSecBench-Surveillance: A Verifiable Benchmark for AI Agents in Pathogen Genomic Surveillance",
+      "authors": [
+        "Harmon Bhasin",
+        "Kevin Flyangolts",
+        "Dianzhuo Wang",
+        "Evan Seeyave",
+        "Arjun Banerjee"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces BioSecBench-Surveillance, a verifiable benchmark designed to evaluate AI agents' ability to select appropriate analysis pipelines for pathogen genomic surveillance. The benchmark provides AI agents with raw sequencing data and context, grading their structured answers deterministically across diverse tasks. Its core contribution is to quantify the current limitations of AI in this critical area, revealing that even top-performing models can only correctly infer the analysis pipeline about half the time.",
+      "url": "http://arxiv.org/abs/2607.19262v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19262v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19297v1",
+      "title": "Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes",
+      "authors": [
+        "Daniel Pearson",
+        "Sidney Shapiro",
+        "Emiliano Sebastian Gonzalez Venegas",
+        "Sanad Al-Khatib",
+        "Aurora Pinzón Arzola"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper presents a practitioner's guide to using LangGraph for complex, long-running, stateful AI business processes. It offers three executable recipes demonstrating how LangGraph's features like typed state and conditional routing enable robust workflows for tasks such as SQL analytics and human-in-the-loop review. The core contribution is showing LangGraph's value for workflow complexity, not as a universal default, by illustrating specific implementation patterns and when it's the appropriate choice over simpler alternatives.",
+      "url": "http://arxiv.org/abs/2607.19297v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19297v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19243v1",
+      "title": "Inference-Time Steering for Cross-Lingual Factual Consistency in LLMs",
+      "authors": [
+        "Alexander Manev"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses cross-lingual factual inconsistency in LLMs, where models favor high-resource languages. The core method involves \"inference-time steering\" to make English-prompted models answer as if queried in other languages. The contribution lies in evaluating four techniques (persona prompting, CAA, DPO with factual and generalization data) to mitigate these biases and improve factual consistency across languages.",
+      "url": "http://arxiv.org/abs/2607.19243v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19243v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19313v1",
+      "title": "Off-Context GRPO: Learning to Reason on Hard Problems using Privileged Information",
+      "authors": [
+        "Priyank Agrawal",
+        "Ankur Samanta",
+        "Shervin Ghasemlou",
+        "Jalaj Bhandari",
+        "Kavosh Asadi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces Off-Context GRPO (OC-GRPO) to improve reinforcement learning in large language models for complex reasoning tasks. The core method uses privileged information (like solution prefixes) during training to generate guided rollouts, providing a learning signal even for difficult problems. OC-GRPO then applies an importance-corrected objective to ensure these guided updates steer the model towards the original, unguided objective, preventing training instability and achieving significant performance gains.",
+      "url": "http://arxiv.org/abs/2607.19313v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19313v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19266v1",
+      "title": "Toward Auditable Fraud Detection: Combining Graph Features, Model Explanations, and Agentic Case Investigation",
+      "authors": [
+        "Rahil Sharma"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper proposes a fraud detection system that combines a gradient-boosted classifier with graph-derived features and an anomaly signal. Its core contribution is demonstrating that while these additions don't improve overall performance, they effectively highlight uncertain cases for a subsequent LLM-powered investigation agent. Crucially, the authors also identify and remove a data artifact that artificially inflates baseline performance.",
+      "url": "http://arxiv.org/abs/2607.19266v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19266v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.19266v1/Diagram_1.png",
+      "figure_caption": "Overview of the proposed framework, from the operational tension motivating this work (Stage 0) through baseline detection, relational and behavioral feature augmentation, difficult-case isolation, agentic investigation, and the escalation policy that routes cases between automatic resolution and human review.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19235v1",
+      "title": "MeetingToM: Evaluating Multimodal LLMs on Theory-of-Mind Reasoning in Multi-Party Meetings",
+      "authors": [
+        "Ziyi Wang",
+        "Yuhang Wu",
+        "Dongxu Piao",
+        "Xingyu Liu",
+        "Tianhui Zhou"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces MeetingToM, a novel benchmark designed to evaluate Multimodal Large Language Models (MLLMs) on Theory-of-Mind (ToM) reasoning within multi-party meetings. MeetingToM addresses limitations of existing benchmarks by focusing on complex social phenomena like pseudo-consensus and assessing ToM at subject, dyadic, and group levels, moving beyond overt visual cues to capture latent social states.",
+      "url": "http://arxiv.org/abs/2607.19235v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19235v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.19235v1/x1.png",
+      "figure_caption": "Hierarchically structured tasks in our MeetingToM benchmark and example of pseudo-consensus. MeetingToM evaluates meeting-grounded ToM reasoning at three levels: subject-level mental states, dyadic addressee identification and attitude inference, and group-level consensus reasoning. The example shows pseudo-consensus, where verbal agreement masks non-verbal dissent under social pressure.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.19191v1",
+      "title": "ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU",
+      "authors": [
+        "Fan Jiang",
+        "Zhaoxu Sun",
+        "Mengchao Wang",
+        "Ziyu Zhu",
+        "Chiyu Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces ABot-World-0, an action-conditioned video world model enabling real-time, long-horizon closed-loop interaction. Its core method involves distilling a powerful teacher model into a causal student model using techniques like ODE distillation and LongForcing to mitigate distribution shift. The key contribution is a robust, data-driven approach to learning controllable world dynamics, allowing agents to interact within a simulated environment for extended periods with consistent identity.",
+      "url": "http://arxiv.org/abs/2607.19191v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19191v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.19191v1/Figs/abot-world-0.png",
+      "figure_caption": "ABot-World-0 turns a single NVIDIA RTX 5090 GPU into a real-time interactive world simulator, enabling infinite action-conditioned world rollout at 720P and up to 16 FPS with 1.2 s action-to-first-frame latency within a peak-VRAM budget of approximately 19 GiB.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19190v1",
+      "title": "Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents",
+      "authors": [
+        "Guanxiong Chen",
+        "Qianjun Xia",
+        "Jiawei Peng",
+        "Heng Zhang",
+        "Bole Ma"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces Agentic Real2Sim, a framework that automates the creation of physics-based simulations from real-world robot interaction videos. It leverages vision-language agents to infer scene geometry, object states, and physical parameters, assembling them into a runnable simulation without manual tuning. The core contribution is a generalized, agent-driven approach to real-to-sim conversion, significantly streamlining the process for various robotic interaction scenarios.",
+      "url": "http://arxiv.org/abs/2607.19190v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19190v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19336v1",
+      "title": "Agents in the Wild: Where Research Meets Deployment",
+      "authors": [
+        "Grace Hui Yang",
+        "Pranav N. Venkit",
+        "Hooman Sedghamiz",
+        "Enrico Santus",
+        "Victor Dibia"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper bridges the gap between LLM agent research and real-world deployment. Its core method involves analyzing practical challenges like robustness and safety encountered in production, and proposing solutions through case studies. The main contribution is identifying successful design patterns and mitigation strategies for agentic systems, moving beyond purely algorithmic innovation to practical deployment considerations.",
+      "url": "http://arxiv.org/abs/2607.19336v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19336v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19345v1",
+      "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
+      "authors": [
+        "Lizhe Fang",
+        "Weizhou Shen",
+        "Tianyi Tang",
+        "Yisen Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the problem of repetitive copying in long-context reasoning by Large Language Models. They propose GEAR, a reinforcement learning method that penalizes copying irrelevant text and rewards grounding the reasoning in key evidence from the prompt. This approach aims to improve the accuracy and efficiency of LLMs in handling long contexts by encouraging them to focus on relevant information.",
+      "url": "http://arxiv.org/abs/2607.19345v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19345v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19261v1",
+      "title": "PathAgentBench: Benchmarking Evidence-Seeking Vision-Language Models on Whole-Slide Pathology Image",
+      "authors": [
+        "Dankai Liao",
+        "Tianyi Zhang",
+        "Yufeng Wu",
+        "Xinyue Zhang",
+        "Qiaochu Xue"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "PathAgentBench introduces a novel benchmark to evaluate vision-language models (VLMs) on their ability to acquire and integrate evidence from gigapixel whole-slide pathology images for diagnosis. It tests four key capabilities: evidence interpretation, verification, acquisition, and multi-scale reasoning, organized within a diagnostic tree structure. This benchmark addresses the gap in current evaluations by directly assessing VLMs' performance on raw WSIs, unlike previous methods relying on pre-cropped patches or features.",
+      "url": "http://arxiv.org/abs/2607.19261v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19261v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.19261v1/x1.png",
+      "figure_caption": "Motivation for PathAgentBench. Current pathology benchmarks predominantly evaluate interpretation of preselected evidence, whereas real-world WSI diagnosis requires active evidence seeking across locations and magnifications. PathAgentBench is designed to bridge this gap.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19257v1",
+      "title": "Prompt Design at Scale: How Format, Instruction Count, and Context Length Shape Instruction Adherence and Hallucination in Large Language Models",
+      "authors": [
+        "Netanel Eliav"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how prompt design choices impact large language model performance. Through controlled experiments, it demonstrates that increasing the number of instructions significantly degrades instruction adherence, with perfect responses collapsing by 80 instructions. The study also reveals that instruction placement (system prompt vs. user turn) can have effects as large as formatting, though the direction of this impact is model-dependent.",
+      "url": "http://arxiv.org/abs/2607.19257v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19257v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.19257v1/x1.png",
+      "figure_caption": "Perfect-response rate vs. instruction count N N , by format (color) and model (panel), pooled across system and user-turn placement. All five models converge to a perfect-response rate of zero by N = 80 N=80 , regardless of format.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19223v1",
+      "title": "AdaFlash: Adaptive Speculative Decoding via On-Policy Distilled Diffusion Drafters",
+      "authors": [
+        "Yu-Yang Qian",
+        "Hao-Cong Wu",
+        "Chen Chen",
+        "Jiacheng Sun",
+        "Zhenhua Dong"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "AdaFlash addresses the high variance issue in diffusion-based speculative decoding by introducing an adaptive framework. It uses an on-policy distilled diffusion drafter that learns to adjust its drafting strategy based on the target model's feedback, leading to more stable and efficient draft generation. This adaptive approach improves the overall acceptance rate and reduces inference latency.",
+      "url": "http://arxiv.org/abs/2607.19223v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19223v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.19223v1/x1.png",
+      "figure_caption": "Illustration of the high variance issue in diffusion drafters. (a) Probability density of the acceptance rate across three task domains (chat, code, and math), showing substantial distributional differences. (b) Box plots of the acceptance length over five different datasets. (c) Per-token acceptance probability for two nearly identical prefixes differing by only one token; the acceptance lengths diverge drastically, revealing high token-level variance of diffusion drafters.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.19219v1",
+      "title": "Beyond Score Prediction: LLM-Based Essay Scoring and Feedback Generation via Reinforcement Learning with Rubric Rewards",
+      "authors": [
+        "Xuefeng Jin",
+        "Jiashuo Zhang",
+        "Teng Cao",
+        "Bin Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces RLAES, a novel framework that uses reinforcement learning to jointly optimize essay scoring and feedback generation for LLMs. Its core contribution is the Rubric-based Feedback Evaluation (RFE) system, which uses an LLM-as-judge and fine-grained rubric items to provide measurable feedback quality. This enables Adaptive Gated Feedback Optimization (AGFO) to efficiently improve feedback quality during RL training.",
+      "url": "http://arxiv.org/abs/2607.19219v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19219v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.19219v1/x1.png",
+      "figure_caption": "Construction of the RFE rubrics.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19262v1",
+      "title": "BioSecBench-Surveillance: A Verifiable Benchmark for AI Agents in Pathogen Genomic Surveillance",
+      "authors": [
+        "Harmon Bhasin",
+        "Kevin Flyangolts",
+        "Dianzhuo Wang",
+        "Evan Seeyave",
+        "Arjun Banerjee"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces BioSecBench-Surveillance, a verifiable benchmark designed to evaluate AI agents' ability to select appropriate analysis pipelines for pathogen genomic surveillance. The benchmark provides AI agents with raw sequencing data and context, grading their structured answers deterministically across diverse tasks. Its core contribution is to quantify the current limitations of AI in this critical area, revealing that even top-performing models can only correctly infer the analysis pipeline about half the time.",
+      "url": "http://arxiv.org/abs/2607.19262v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19262v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19297v1",
+      "title": "Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes",
+      "authors": [
+        "Daniel Pearson",
+        "Sidney Shapiro",
+        "Emiliano Sebastian Gonzalez Venegas",
+        "Sanad Al-Khatib",
+        "Aurora Pinzón Arzola"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper presents a practitioner's guide to using LangGraph for complex, long-running, stateful AI business processes. It offers three executable recipes demonstrating how LangGraph's features like typed state and conditional routing enable robust workflows for tasks such as SQL analytics and human-in-the-loop review. The core contribution is showing LangGraph's value for workflow complexity, not as a universal default, by illustrating specific implementation patterns and when it's the appropriate choice over simpler alternatives.",
+      "url": "http://arxiv.org/abs/2607.19297v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19297v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19243v1",
+      "title": "Inference-Time Steering for Cross-Lingual Factual Consistency in LLMs",
+      "authors": [
+        "Alexander Manev"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses cross-lingual factual inconsistency in LLMs, where models favor high-resource languages. The core method involves \"inference-time steering\" to make English-prompted models answer as if queried in other languages. The contribution lies in evaluating four techniques (persona prompting, CAA, DPO with factual and generalization data) to mitigate these biases and improve factual consistency across languages.",
+      "url": "http://arxiv.org/abs/2607.19243v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19243v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19313v1",
+      "title": "Off-Context GRPO: Learning to Reason on Hard Problems using Privileged Information",
+      "authors": [
+        "Priyank Agrawal",
+        "Ankur Samanta",
+        "Shervin Ghasemlou",
+        "Jalaj Bhandari",
+        "Kavosh Asadi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces Off-Context GRPO (OC-GRPO) to improve reinforcement learning in large language models for complex reasoning tasks. The core method uses privileged information (like solution prefixes) during training to generate guided rollouts, providing a learning signal even for difficult problems. OC-GRPO then applies an importance-corrected objective to ensure these guided updates steer the model towards the original, unguided objective, preventing training instability and achieving significant performance gains.",
+      "url": "http://arxiv.org/abs/2607.19313v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19313v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19266v1",
+      "title": "Toward Auditable Fraud Detection: Combining Graph Features, Model Explanations, and Agentic Case Investigation",
+      "authors": [
+        "Rahil Sharma"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper proposes a fraud detection system that combines a gradient-boosted classifier with graph-derived features and an anomaly signal. Its core contribution is demonstrating that while these additions don't improve overall performance, they effectively highlight uncertain cases for a subsequent LLM-powered investigation agent. Crucially, the authors also identify and remove a data artifact that artificially inflates baseline performance.",
+      "url": "http://arxiv.org/abs/2607.19266v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19266v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.19266v1/Diagram_1.png",
+      "figure_caption": "Overview of the proposed framework, from the operational tension motivating this work (Stage 0) through baseline detection, relational and behavioral feature augmentation, difficult-case isolation, agentic investigation, and the escalation policy that routes cases between automatic resolution and human review.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.19235v1",
+      "title": "MeetingToM: Evaluating Multimodal LLMs on Theory-of-Mind Reasoning in Multi-Party Meetings",
+      "authors": [
+        "Ziyi Wang",
+        "Yuhang Wu",
+        "Dongxu Piao",
+        "Xingyu Liu",
+        "Tianhui Zhou"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces MeetingToM, a novel benchmark designed to evaluate Multimodal Large Language Models (MLLMs) on Theory-of-Mind (ToM) reasoning within multi-party meetings. MeetingToM addresses limitations of existing benchmarks by focusing on complex social phenomena like pseudo-consensus and assessing ToM at subject, dyadic, and group levels, moving beyond overt visual cues to capture latent social states.",
+      "url": "http://arxiv.org/abs/2607.19235v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19235v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.19235v1/x1.png",
+      "figure_caption": "Hierarchically structured tasks in our MeetingToM benchmark and example of pseudo-consensus. MeetingToM evaluates meeting-grounded ToM reasoning at three levels: subject-level mental states, dyadic addressee identification and attitude inference, and group-level consensus reasoning. The example shows pseudo-consensus, where verbal agreement masks non-verbal dissent under social pressure.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "University Assistant (Doctorate/Ph.D.)",
+      "url": "https://euraxess.ec.europa.eu/jobs/454817",
+      "description": "The world is changing at an ever-faster pace. At the Johannes Kepler University Linz, we work on technologies and the ideas of tomorrow on a daily basis. At the same time, we educate over 27,000 young people to meet the demands of today’s job market. In short, we are Upper Austria’s largest... * Department: Institute of Medical Systems Biology Work Locations: Number of offers: 1, Austria, Johannes Kepler University, Linz, 4020, Krankenhausstraße 5 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Informatics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A87) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 19 Aug 2026 - 23:59 (Europe/Vienna) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Austria * [Johannes Kepler University](https://euraxess.ec.europa.eu/partnering/organisations/profile/johannes-kepler-university) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "22 July 2026",
+      "deadline": "19 Aug 2026 - 23:59 (Europe/Vienna)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Computer science, Informatics\nKey Requirements: Recognized Researcher (R2)\nApplication Info: deadline 19 Aug 2026 - 23:59 (Europe/Vienna), N/A materials, N/A contact\nPosition Details: Johannes Kepler University, Linz, Austria, N/A contract type, N/A workload, N/A salary\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "University Assistant (Doctorate/Ph.D.)",
+      "url": "https://euraxess.ec.europa.eu/jobs/454816",
+      "description": "The world is changing at an ever-faster pace. At the Johannes Kepler University Linz, we work on technologies and the ideas of tomorrow on a daily basis. At the same time, we educate over 27,000 young people to meet the demands of today’s job market. In short, we are Upper Austria’s largest... * Department: Institute of Medical Systems Biology Work Locations: Number of offers: 1, Austria, Johannes Kepler University, Linz, 4020, Krankenhausstraße 5 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Informatics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A87) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 19 Aug 2026 - 23:59 (Europe/Vienna) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Türkiye ![Image 3: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Koç University](https://euraxess.ec.europa.eu/partnering/organisations/profile/koc-university) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "22 July 2026",
+      "deadline": "19 Aug 2026 - 23:59 (Europe/Vienna)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Computer science / Informatics\nKey Requirements: Recognized Researcher (R2) profile.\nApplication Info: deadline 19 Aug 2026 - 23:59 (Europe/Vienna), N/A required materials, N/A contact.\nPosition Details: Johannes Kepler University, Linz, Austria. Contract type N/A, workload N/A, salary N/A.\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "University Assistant (Doctorate/Ph.D.)",
+      "url": "https://euraxess.ec.europa.eu/jobs/454817",
+      "description": "The world is changing at an ever-faster pace. At the Johannes Kepler University Linz, we work on technologies and the ideas of tomorrow on a daily basis. At the same time, we educate over 27,000 young people to meet the demands of today’s job market. In short, we are Upper Austria’s largest... * Department: Institute of Medical Systems Biology Work Locations: Number of offers: 1, Austria, Johannes Kepler University, Linz, 4020, Krankenhausstraße 5 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Informatics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A87) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 19 Aug 2026 - 23:59 (Europe/Vienna) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Austria * [Johannes Kepler University](https://euraxess.ec.europa.eu/partnering/organisations/profile/johannes-kepler-university) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "22 July 2026",
+      "deadline": "19 Aug 2026 - 23:59 (Europe/Vienna)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Computer science, Informatics\nKey Requirements: Recognized Researcher (R2)\nApplication Info: deadline 19 Aug 2026 - 23:59 (Europe/Vienna), N/A materials, N/A contact\nPosition Details: Johannes Kepler University, Linz, Austria, N/A contract type, N/A workload, N/A salary\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "University Assistant (Doctorate/Ph.D.)",
+      "url": "https://euraxess.ec.europa.eu/jobs/454816",
+      "description": "The world is changing at an ever-faster pace. At the Johannes Kepler University Linz, we work on technologies and the ideas of tomorrow on a daily basis. At the same time, we educate over 27,000 young people to meet the demands of today’s job market. In short, we are Upper Austria’s largest... * Department: Institute of Medical Systems Biology Work Locations: Number of offers: 1, Austria, Johannes Kepler University, Linz, 4020, Krankenhausstraße 5 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Informatics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A87) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 19 Aug 2026 - 23:59 (Europe/Vienna) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Türkiye ![Image 3: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Koç University](https://euraxess.ec.europa.eu/partnering/organisations/profile/koc-university) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "22 July 2026",
+      "deadline": "19 Aug 2026 - 23:59 (Europe/Vienna)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Computer science / Informatics\nKey Requirements: Recognized Researcher (R2) profile.\nApplication Info: deadline 19 Aug 2026 - 23:59 (Europe/Vienna), N/A required materials, N/A contact.\nPosition Details: Johannes Kepler University, Linz, Austria. Contract type N/A, workload N/A, salary N/A.\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
