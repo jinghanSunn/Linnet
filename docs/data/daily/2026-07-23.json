@@ -1,0 +1,718 @@
+{
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T11:27:03.686395+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.20286v1",
+          "title": "Sound Probabilistic Safety Bounds for Large Language Models",
+          "authors": [
+            "Mahdi Nazeri",
+            "Anne-Kathrin Schmuck",
+            "Sadegh Soudjani",
+            "Alessandro Abate"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces a framework to rigorously bound the probability of a Large Language Model (LLM) generating harmful output. Their core method adapts Clopper-Pearson confidence intervals and uses a novel algorithm that prioritizes exploring generation paths likely to be harmful based on latent space features. This allows for efficient computation of sound lower bounds on LLM harmfulness, even for rare events, providing a statistically certifiable evaluation.",
+          "url": "http://arxiv.org/abs/2607.20286v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.20286v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.20286v1/x1.png",
+          "figure_caption": "A practical instance of data generation for our problem setting, which leverages a classifier ℋ \\( \\mathcal{H} \\) that detects an harmful output by the LLM ℳ \\( \\mathcal{M} \\) under a fixed prompt 𝐱 \\( \\mathbf{x} \\) .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.20219v1",
+          "title": "HalluTruthQA: A Fine-Grained Benchmark for Hallucination Detection, Localization, and Explanation in Arabic Question Answering",
+          "authors": [
+            "Abdessalam Bouchekif",
+            "Mohammed-En-Nadhir Zighem",
+            "Salah Eddine Bekhouche",
+            "Hichem Telli",
+            "Somaya Eltanbouly"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "HalluTruthQA is a fine-grained Arabic benchmark designed to evaluate Large Language Models' (LLMs) ability to detect, localize, and explain factual hallucinations. Unlike previous benchmarks, it provides detailed annotations including erroneous spans, explanations, and candidate answers, enabling a deeper analysis of LLM failures. This contributes a crucial resource for improving the factual accuracy of Arabic LLMs.",
+          "url": "http://arxiv.org/abs/2607.20219v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.20219v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.20219v1/fig2.png",
+          "figure_caption": "Hallucination macro-type distribution across domains.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.20372v1",
+          "title": "Notes to Self: Can LLMs Benefit from Experiential Abstractions?",
+          "authors": [
+            "Chang Liu",
+            "Xinyu Li",
+            "Artur Dubrawski"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates if Large Language Models (LLMs) can improve their problem-solving by learning from their own past experiences, similar to how humans use distilled knowledge. The core method involves extracting natural-language \"experiential abstractions\" from LLM solution traces and then using these abstractions during inference or via reinforcement learning. The contribution is demonstrating that these self-generated abstractions significantly enhance LLM performance on reasoning tasks, suggesting LLMs can indeed benefit from and utilize distilled experience.",
+          "url": "http://arxiv.org/abs/2607.20372v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.20372v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.20372v1/x1.png",
+          "figure_caption": "Pipeline Overview. An extractor LLM (teacher or self) distills the target LLM’s training traces into a library of natural-language abstractions, used in two modes: (1) inference-time retrieval into the test prompt, and (2) GRPO (Shao et al. , 2024 ) post-training on abstraction-augmented prompts.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.20327v1",
+          "title": "PyroDash: Cost-Efficient Token-Level Small-Large Language Model Collaborative Inference",
+          "authors": [
+            "Niqi Lyu",
+            "Pengtao Shi",
+            "Wei Qiu",
+            "Jianlin Zhong",
+            "Sicong Xia"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "PyroDash enables cost-efficient inference by having a small language model (SLM) decide when to request help from a larger language model (LLM) for token-level generation. The SLM learns a policy to emit a control token, triggering a single handoff to a frozen LLM for completion, without needing LLM logits or retraining. This approach balances accuracy and cost by optimizing the SLM's decision-making process.",
+          "url": "http://arxiv.org/abs/2607.20327v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.20327v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.20327v1/figures/method/fig_inference_architecture.png",
+          "figure_caption": "The collaborative inference architecture of PyroDash (small-model-first, one-shot large-model completion). The data flow is labeled with – : q q enters the CE; the CE sends P s P_{s} and q q to M s M_{s} ; M s M_{s} streams generated tokens back to the CE; \\( \\tau \\)_{\\( \\mathrm{off} \\)} appears in the stream; the CE terminates SLM decoding and packages 𝒞 s \\( \\mathcal{C}_{s} \\) ; the CE initiates a single handoff to M l M_{l} using q + 𝒞 s q+\\( \\mathcal{C}_{s}{} \\) ; M l M_{l} returns completion tokens; and the CE concatenates O s O_{s} and O l O_{l} into the joint output O O and streams it to the user.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.20268v1",
+          "title": "PoTRE: Test-Time Reasoning inspired by Cognitive Heterogeneity",
+          "authors": [
+            "Anmol Kankariya",
+            "Sercan Ö. Arık"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "PoTRE is a novel framework that enhances LLM reasoning by employing four specialized agents (adversarial refinement, hierarchical planning, spectrum search, and direct chain) to tackle complex, long-horizon tasks. These agents' diverse perspectives are dynamically integrated by an aggregation layer, leading to more robust and accurate solutions. This approach achieves state-of-the-art results on challenging benchmarks like Humanity's Last Exam, demonstrating its effectiveness in overcoming LLM limitations.",
+          "url": "http://arxiv.org/abs/2607.20268v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.20268v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.20274v1",
+          "title": "Self-supervision drives representational convergence in medical foundation models more than clinical supervision",
+          "authors": [
+            "Soroosh Tayebi Arasteh",
+            "Sebastian Ziegelmayer",
+            "Mahshad Lotfinia",
+            "Lisa Adams",
+            "Sven Nebelung"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "This paper investigates why medical foundation models' representations converge. The core method involves a controlled dissection of various encoders, varying only the training objective (self-supervision vs. clinical supervision) while keeping data, architecture, and scale constant. The key contribution is demonstrating that self-supervised learning, not clinical supervision, is the primary driver of representational convergence in medical foundation models, leading to significantly better alignment between encoders.",
+          "url": "http://arxiv.org/abs/2607.20274v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.20274v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.20274v1/x1.png",
+          "figure_caption": "Study overview: motivation and design. a , Medical image encoders are increasingly reused as if interchangeable, which presumes that their representations converge to a shared geometry; the study asks whether this convergence is real, what produces it, and whether it is clinically usable. b , The frozen encoder panel of 18 image and 7 biomedical text encoders, spanning 7 million to 27 billion parameters and released from 2020 to 2025 by academic and industrial developers, grouped by pretraining family, with a randomly initialized vision transformer as the floor. c , The evaluation data across five imaging modalities: 650,982 chest radiographs from six datasets in three countries, with a pediatric cohort and five sites held out for external testing; gigapixel histopathology with 643,522 image-caption pairs from models trained on disjoint institutions; retinal fundus, dermoscopy, and mammography; and image-report pairs with a clinical ontology reference. d , The analysis measures pairwise representational alignment against the floor, isolates its driver with a controlled training matrix and a synthetic model, and tests usability through cross-encoder and cross-site classifier transfer, feature stitching, demographic audit, and expert reader studies.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.20265v1",
+          "title": "The Maskability Index: Predicting Task-Objective Alignment in Pretrained Language Models",
+          "authors": [
+            "Ahmad Pouramini",
+            "Mahsa Afsharzadeh"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces the Maskability Index (MI), a novel metric to predict how well a knowledge relation aligns with either masked or prefix-style prompting for pretrained language models. By analyzing differences in DepthRank scores between template types, MI quantifies this alignment. The contribution lies in providing a principled way to select optimal prompting strategies for knowledge extraction, improving performance, particularly in low-resource scenarios.",
+          "url": "http://arxiv.org/abs/2607.20265v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.20265v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.20265v1/deep.png",
+          "figure_caption": "Average DepthRank of different ATOMIC2020 relations as a function of the number of training samples, comparing Prompting and MaskedPrompting templates. Mask-style templates often reduce DR for lexical relations in low-resource settings, motivating the need for a metric to quantify template–objective alignment.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.20205v1",
+          "title": "Statistical Inference for Rank Allocation in Low-Rank Adaptation",
+          "authors": [
+            "Yihang Gao",
+            "Vincent Y. F. Tan"
+          ],
+          "categories": [
+            "cs.LG",
+            "stat.ML",
+            "math.ST"
+          ],
+          "abstract": "This paper proposes StatLoRA, a novel method for allocating rank in Low-Rank Adaptation (LoRA) for large language models. Instead of relying on heuristic importance scores, StatLoRA frames rank allocation as a statistical hypothesis testing problem. It uses estimated p-values derived from a central limit theorem to statistically determine which LoRA components are most beneficial to retain within a fixed parameter budget, thereby improving efficiency and expressiveness.",
+          "url": "http://arxiv.org/abs/2607.20205v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.20205v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.20410v1",
+          "title": "LKValues: Aligning Large Language Models with Sri Lankan Societal Values",
+          "authors": [
+            "Nethmi Muthugala",
+            " Supryadi",
+            "Surangika Ranathunga",
+            "Nisansa de Silva",
+            "Ruijie Tao"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper addresses the cultural bias in LLMs by introducing LKValues, a novel resource suite for aligning models with Sri Lankan societal values. It comprises a survey-driven collection of 40 values, a 150k-instance instruction corpus in Sinhala and English, and a 1,000-instance evaluation benchmark. LKValues aims to enable culturally sensitive evaluation and fine-tuning of LLMs for the Sri Lankan context.",
+          "url": "http://arxiv.org/abs/2607.20410v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.20410v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.20410v1/x1.png",
+          "figure_caption": "The flowchart shows the process for deriving Sri Lankan societal values, starting with selecting questions from established surveys, followed by manual and LLM-assisted value elicitation. This results in 51 candidate values, with 40 values retained after calculating endorsement percentages from 205 participants, using finite population correction.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.20270v1",
+          "title": "Which Values Do LLMs Confuse? A Schwartz-Based Recognition Study",
+          "authors": [
+            "Andrei Chetvergov",
+            "Stepan Ukolov",
+            "Timofei Sivoraksha",
+            "Alexander Evseev",
+            "Mikhail Solovev"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates whether Large Language Models (LLMs) can accurately identify specific values in given situations, using Schwartz's ten basic values as a framework. The core method involves a controlled recognition task where LLMs are asked to identify the value expressed in Russian situational texts. The main contribution is revealing that while LLMs often correctly identify the general motivational region, they frequently confuse adjacent values, with specific directed confusions recurring across various models.",
+          "url": "http://arxiv.org/abs/2607.20270v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.20270v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.20270v1/figures/task_overview.png",
+          "figure_caption": "Task overview. A model maps a situational text to one primary Schwartz value and two alternatives under a fixed ranked-response schema. Evaluation separates output reliability, top-1 recognition, top-3 coverage, and confusion structure.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 20,
+        "papers_after_llm_filter": 10,
+        "count": 10
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 20,
+    "papers_after_llm_filter": 10,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 56
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.20286v1",
+      "title": "Sound Probabilistic Safety Bounds for Large Language Models",
+      "authors": [
+        "Mahdi Nazeri",
+        "Anne-Kathrin Schmuck",
+        "Sadegh Soudjani",
+        "Alessandro Abate"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a framework to rigorously bound the probability of a Large Language Model (LLM) generating harmful output. Their core method adapts Clopper-Pearson confidence intervals and uses a novel algorithm that prioritizes exploring generation paths likely to be harmful based on latent space features. This allows for efficient computation of sound lower bounds on LLM harmfulness, even for rare events, providing a statistically certifiable evaluation.",
+      "url": "http://arxiv.org/abs/2607.20286v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20286v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.20286v1/x1.png",
+      "figure_caption": "A practical instance of data generation for our problem setting, which leverages a classifier ℋ \\( \\mathcal{H} \\) that detects an harmful output by the LLM ℳ \\( \\mathcal{M} \\) under a fixed prompt 𝐱 \\( \\mathbf{x} \\) .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.20219v1",
+      "title": "HalluTruthQA: A Fine-Grained Benchmark for Hallucination Detection, Localization, and Explanation in Arabic Question Answering",
+      "authors": [
+        "Abdessalam Bouchekif",
+        "Mohammed-En-Nadhir Zighem",
+        "Salah Eddine Bekhouche",
+        "Hichem Telli",
+        "Somaya Eltanbouly"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "HalluTruthQA is a fine-grained Arabic benchmark designed to evaluate Large Language Models' (LLMs) ability to detect, localize, and explain factual hallucinations. Unlike previous benchmarks, it provides detailed annotations including erroneous spans, explanations, and candidate answers, enabling a deeper analysis of LLM failures. This contributes a crucial resource for improving the factual accuracy of Arabic LLMs.",
+      "url": "http://arxiv.org/abs/2607.20219v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20219v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.20219v1/fig2.png",
+      "figure_caption": "Hallucination macro-type distribution across domains.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.20372v1",
+      "title": "Notes to Self: Can LLMs Benefit from Experiential Abstractions?",
+      "authors": [
+        "Chang Liu",
+        "Xinyu Li",
+        "Artur Dubrawski"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates if Large Language Models (LLMs) can improve their problem-solving by learning from their own past experiences, similar to how humans use distilled knowledge. The core method involves extracting natural-language \"experiential abstractions\" from LLM solution traces and then using these abstractions during inference or via reinforcement learning. The contribution is demonstrating that these self-generated abstractions significantly enhance LLM performance on reasoning tasks, suggesting LLMs can indeed benefit from and utilize distilled experience.",
+      "url": "http://arxiv.org/abs/2607.20372v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20372v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.20372v1/x1.png",
+      "figure_caption": "Pipeline Overview. An extractor LLM (teacher or self) distills the target LLM’s training traces into a library of natural-language abstractions, used in two modes: (1) inference-time retrieval into the test prompt, and (2) GRPO (Shao et al. , 2024 ) post-training on abstraction-augmented prompts.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.20327v1",
+      "title": "PyroDash: Cost-Efficient Token-Level Small-Large Language Model Collaborative Inference",
+      "authors": [
+        "Niqi Lyu",
+        "Pengtao Shi",
+        "Wei Qiu",
+        "Jianlin Zhong",
+        "Sicong Xia"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "PyroDash enables cost-efficient inference by having a small language model (SLM) decide when to request help from a larger language model (LLM) for token-level generation. The SLM learns a policy to emit a control token, triggering a single handoff to a frozen LLM for completion, without needing LLM logits or retraining. This approach balances accuracy and cost by optimizing the SLM's decision-making process.",
+      "url": "http://arxiv.org/abs/2607.20327v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20327v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.20327v1/figures/method/fig_inference_architecture.png",
+      "figure_caption": "The collaborative inference architecture of PyroDash (small-model-first, one-shot large-model completion). The data flow is labeled with – : q q enters the CE; the CE sends P s P_{s} and q q to M s M_{s} ; M s M_{s} streams generated tokens back to the CE; \\( \\tau \\)_{\\( \\mathrm{off} \\)} appears in the stream; the CE terminates SLM decoding and packages 𝒞 s \\( \\mathcal{C}_{s} \\) ; the CE initiates a single handoff to M l M_{l} using q + 𝒞 s q+\\( \\mathcal{C}_{s}{} \\) ; M l M_{l} returns completion tokens; and the CE concatenates O s O_{s} and O l O_{l} into the joint output O O and streams it to the user.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.20268v1",
+      "title": "PoTRE: Test-Time Reasoning inspired by Cognitive Heterogeneity",
+      "authors": [
+        "Anmol Kankariya",
+        "Sercan Ö. Arık"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "PoTRE is a novel framework that enhances LLM reasoning by employing four specialized agents (adversarial refinement, hierarchical planning, spectrum search, and direct chain) to tackle complex, long-horizon tasks. These agents' diverse perspectives are dynamically integrated by an aggregation layer, leading to more robust and accurate solutions. This approach achieves state-of-the-art results on challenging benchmarks like Humanity's Last Exam, demonstrating its effectiveness in overcoming LLM limitations.",
+      "url": "http://arxiv.org/abs/2607.20268v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20268v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.20274v1",
+      "title": "Self-supervision drives representational convergence in medical foundation models more than clinical supervision",
+      "authors": [
+        "Soroosh Tayebi Arasteh",
+        "Sebastian Ziegelmayer",
+        "Mahshad Lotfinia",
+        "Lisa Adams",
+        "Sven Nebelung"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper investigates why medical foundation models' representations converge. The core method involves a controlled dissection of various encoders, varying only the training objective (self-supervision vs. clinical supervision) while keeping data, architecture, and scale constant. The key contribution is demonstrating that self-supervised learning, not clinical supervision, is the primary driver of representational convergence in medical foundation models, leading to significantly better alignment between encoders.",
+      "url": "http://arxiv.org/abs/2607.20274v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20274v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.20274v1/x1.png",
+      "figure_caption": "Study overview: motivation and design. a , Medical image encoders are increasingly reused as if interchangeable, which presumes that their representations converge to a shared geometry; the study asks whether this convergence is real, what produces it, and whether it is clinically usable. b , The frozen encoder panel of 18 image and 7 biomedical text encoders, spanning 7 million to 27 billion parameters and released from 2020 to 2025 by academic and industrial developers, grouped by pretraining family, with a randomly initialized vision transformer as the floor. c , The evaluation data across five imaging modalities: 650,982 chest radiographs from six datasets in three countries, with a pediatric cohort and five sites held out for external testing; gigapixel histopathology with 643,522 image-caption pairs from models trained on disjoint institutions; retinal fundus, dermoscopy, and mammography; and image-report pairs with a clinical ontology reference. d , The analysis measures pairwise representational alignment against the floor, isolates its driver with a controlled training matrix and a synthetic model, and tests usability through cross-encoder and cross-site classifier transfer, feature stitching, demographic audit, and expert reader studies.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.20265v1",
+      "title": "The Maskability Index: Predicting Task-Objective Alignment in Pretrained Language Models",
+      "authors": [
+        "Ahmad Pouramini",
+        "Mahsa Afsharzadeh"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces the Maskability Index (MI), a novel metric to predict how well a knowledge relation aligns with either masked or prefix-style prompting for pretrained language models. By analyzing differences in DepthRank scores between template types, MI quantifies this alignment. The contribution lies in providing a principled way to select optimal prompting strategies for knowledge extraction, improving performance, particularly in low-resource scenarios.",
+      "url": "http://arxiv.org/abs/2607.20265v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20265v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.20265v1/deep.png",
+      "figure_caption": "Average DepthRank of different ATOMIC2020 relations as a function of the number of training samples, comparing Prompting and MaskedPrompting templates. Mask-style templates often reduce DR for lexical relations in low-resource settings, motivating the need for a metric to quantify template–objective alignment.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.20205v1",
+      "title": "Statistical Inference for Rank Allocation in Low-Rank Adaptation",
+      "authors": [
+        "Yihang Gao",
+        "Vincent Y. F. Tan"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML",
+        "math.ST"
+      ],
+      "abstract": "This paper proposes StatLoRA, a novel method for allocating rank in Low-Rank Adaptation (LoRA) for large language models. Instead of relying on heuristic importance scores, StatLoRA frames rank allocation as a statistical hypothesis testing problem. It uses estimated p-values derived from a central limit theorem to statistically determine which LoRA components are most beneficial to retain within a fixed parameter budget, thereby improving efficiency and expressiveness.",
+      "url": "http://arxiv.org/abs/2607.20205v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20205v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.20410v1",
+      "title": "LKValues: Aligning Large Language Models with Sri Lankan Societal Values",
+      "authors": [
+        "Nethmi Muthugala",
+        " Supryadi",
+        "Surangika Ranathunga",
+        "Nisansa de Silva",
+        "Ruijie Tao"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the cultural bias in LLMs by introducing LKValues, a novel resource suite for aligning models with Sri Lankan societal values. It comprises a survey-driven collection of 40 values, a 150k-instance instruction corpus in Sinhala and English, and a 1,000-instance evaluation benchmark. LKValues aims to enable culturally sensitive evaluation and fine-tuning of LLMs for the Sri Lankan context.",
+      "url": "http://arxiv.org/abs/2607.20410v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20410v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.20410v1/x1.png",
+      "figure_caption": "The flowchart shows the process for deriving Sri Lankan societal values, starting with selecting questions from established surveys, followed by manual and LLM-assisted value elicitation. This results in 51 candidate values, with 40 values retained after calculating endorsement percentages from 205 participants, using finite population correction.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.20270v1",
+      "title": "Which Values Do LLMs Confuse? A Schwartz-Based Recognition Study",
+      "authors": [
+        "Andrei Chetvergov",
+        "Stepan Ukolov",
+        "Timofei Sivoraksha",
+        "Alexander Evseev",
+        "Mikhail Solovev"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates whether Large Language Models (LLMs) can accurately identify specific values in given situations, using Schwartz's ten basic values as a framework. The core method involves a controlled recognition task where LLMs are asked to identify the value expressed in Russian situational texts. The main contribution is revealing that while LLMs often correctly identify the general motivational region, they frequently confuse adjacent values, with specific directed confusions recurring across various models.",
+      "url": "http://arxiv.org/abs/2607.20270v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20270v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.20270v1/figures/task_overview.png",
+      "figure_caption": "Task overview. A model maps a situational text to one primary Schwartz value and two alternatives under a fixed ranked-response schema. Evaluation separates output reliability, top-1 recognition, top-3 coverage, and confusion structure.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.20286v1",
+      "title": "Sound Probabilistic Safety Bounds for Large Language Models",
+      "authors": [
+        "Mahdi Nazeri",
+        "Anne-Kathrin Schmuck",
+        "Sadegh Soudjani",
+        "Alessandro Abate"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a framework to rigorously bound the probability of a Large Language Model (LLM) generating harmful output. Their core method adapts Clopper-Pearson confidence intervals and uses a novel algorithm that prioritizes exploring generation paths likely to be harmful based on latent space features. This allows for efficient computation of sound lower bounds on LLM harmfulness, even for rare events, providing a statistically certifiable evaluation.",
+      "url": "http://arxiv.org/abs/2607.20286v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20286v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.20286v1/x1.png",
+      "figure_caption": "A practical instance of data generation for our problem setting, which leverages a classifier ℋ \\( \\mathcal{H} \\) that detects an harmful output by the LLM ℳ \\( \\mathcal{M} \\) under a fixed prompt 𝐱 \\( \\mathbf{x} \\) .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.20219v1",
+      "title": "HalluTruthQA: A Fine-Grained Benchmark for Hallucination Detection, Localization, and Explanation in Arabic Question Answering",
+      "authors": [
+        "Abdessalam Bouchekif",
+        "Mohammed-En-Nadhir Zighem",
+        "Salah Eddine Bekhouche",
+        "Hichem Telli",
+        "Somaya Eltanbouly"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "HalluTruthQA is a fine-grained Arabic benchmark designed to evaluate Large Language Models' (LLMs) ability to detect, localize, and explain factual hallucinations. Unlike previous benchmarks, it provides detailed annotations including erroneous spans, explanations, and candidate answers, enabling a deeper analysis of LLM failures. This contributes a crucial resource for improving the factual accuracy of Arabic LLMs.",
+      "url": "http://arxiv.org/abs/2607.20219v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20219v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.20219v1/fig2.png",
+      "figure_caption": "Hallucination macro-type distribution across domains.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.20372v1",
+      "title": "Notes to Self: Can LLMs Benefit from Experiential Abstractions?",
+      "authors": [
+        "Chang Liu",
+        "Xinyu Li",
+        "Artur Dubrawski"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates if Large Language Models (LLMs) can improve their problem-solving by learning from their own past experiences, similar to how humans use distilled knowledge. The core method involves extracting natural-language \"experiential abstractions\" from LLM solution traces and then using these abstractions during inference or via reinforcement learning. The contribution is demonstrating that these self-generated abstractions significantly enhance LLM performance on reasoning tasks, suggesting LLMs can indeed benefit from and utilize distilled experience.",
+      "url": "http://arxiv.org/abs/2607.20372v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20372v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.20372v1/x1.png",
+      "figure_caption": "Pipeline Overview. An extractor LLM (teacher or self) distills the target LLM’s training traces into a library of natural-language abstractions, used in two modes: (1) inference-time retrieval into the test prompt, and (2) GRPO (Shao et al. , 2024 ) post-training on abstraction-augmented prompts.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.20327v1",
+      "title": "PyroDash: Cost-Efficient Token-Level Small-Large Language Model Collaborative Inference",
+      "authors": [
+        "Niqi Lyu",
+        "Pengtao Shi",
+        "Wei Qiu",
+        "Jianlin Zhong",
+        "Sicong Xia"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "PyroDash enables cost-efficient inference by having a small language model (SLM) decide when to request help from a larger language model (LLM) for token-level generation. The SLM learns a policy to emit a control token, triggering a single handoff to a frozen LLM for completion, without needing LLM logits or retraining. This approach balances accuracy and cost by optimizing the SLM's decision-making process.",
+      "url": "http://arxiv.org/abs/2607.20327v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20327v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.20327v1/figures/method/fig_inference_architecture.png",
+      "figure_caption": "The collaborative inference architecture of PyroDash (small-model-first, one-shot large-model completion). The data flow is labeled with – : q q enters the CE; the CE sends P s P_{s} and q q to M s M_{s} ; M s M_{s} streams generated tokens back to the CE; \\( \\tau \\)_{\\( \\mathrm{off} \\)} appears in the stream; the CE terminates SLM decoding and packages 𝒞 s \\( \\mathcal{C}_{s} \\) ; the CE initiates a single handoff to M l M_{l} using q + 𝒞 s q+\\( \\mathcal{C}_{s}{} \\) ; M l M_{l} returns completion tokens; and the CE concatenates O s O_{s} and O l O_{l} into the joint output O O and streams it to the user.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.20268v1",
+      "title": "PoTRE: Test-Time Reasoning inspired by Cognitive Heterogeneity",
+      "authors": [
+        "Anmol Kankariya",
+        "Sercan Ö. Arık"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "PoTRE is a novel framework that enhances LLM reasoning by employing four specialized agents (adversarial refinement, hierarchical planning, spectrum search, and direct chain) to tackle complex, long-horizon tasks. These agents' diverse perspectives are dynamically integrated by an aggregation layer, leading to more robust and accurate solutions. This approach achieves state-of-the-art results on challenging benchmarks like Humanity's Last Exam, demonstrating its effectiveness in overcoming LLM limitations.",
+      "url": "http://arxiv.org/abs/2607.20268v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20268v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.20274v1",
+      "title": "Self-supervision drives representational convergence in medical foundation models more than clinical supervision",
+      "authors": [
+        "Soroosh Tayebi Arasteh",
+        "Sebastian Ziegelmayer",
+        "Mahshad Lotfinia",
+        "Lisa Adams",
+        "Sven Nebelung"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper investigates why medical foundation models' representations converge. The core method involves a controlled dissection of various encoders, varying only the training objective (self-supervision vs. clinical supervision) while keeping data, architecture, and scale constant. The key contribution is demonstrating that self-supervised learning, not clinical supervision, is the primary driver of representational convergence in medical foundation models, leading to significantly better alignment between encoders.",
+      "url": "http://arxiv.org/abs/2607.20274v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20274v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.20274v1/x1.png",
+      "figure_caption": "Study overview: motivation and design. a , Medical image encoders are increasingly reused as if interchangeable, which presumes that their representations converge to a shared geometry; the study asks whether this convergence is real, what produces it, and whether it is clinically usable. b , The frozen encoder panel of 18 image and 7 biomedical text encoders, spanning 7 million to 27 billion parameters and released from 2020 to 2025 by academic and industrial developers, grouped by pretraining family, with a randomly initialized vision transformer as the floor. c , The evaluation data across five imaging modalities: 650,982 chest radiographs from six datasets in three countries, with a pediatric cohort and five sites held out for external testing; gigapixel histopathology with 643,522 image-caption pairs from models trained on disjoint institutions; retinal fundus, dermoscopy, and mammography; and image-report pairs with a clinical ontology reference. d , The analysis measures pairwise representational alignment against the floor, isolates its driver with a controlled training matrix and a synthetic model, and tests usability through cross-encoder and cross-site classifier transfer, feature stitching, demographic audit, and expert reader studies.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.20265v1",
+      "title": "The Maskability Index: Predicting Task-Objective Alignment in Pretrained Language Models",
+      "authors": [
+        "Ahmad Pouramini",
+        "Mahsa Afsharzadeh"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces the Maskability Index (MI), a novel metric to predict how well a knowledge relation aligns with either masked or prefix-style prompting for pretrained language models. By analyzing differences in DepthRank scores between template types, MI quantifies this alignment. The contribution lies in providing a principled way to select optimal prompting strategies for knowledge extraction, improving performance, particularly in low-resource scenarios.",
+      "url": "http://arxiv.org/abs/2607.20265v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20265v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.20265v1/deep.png",
+      "figure_caption": "Average DepthRank of different ATOMIC2020 relations as a function of the number of training samples, comparing Prompting and MaskedPrompting templates. Mask-style templates often reduce DR for lexical relations in low-resource settings, motivating the need for a metric to quantify template–objective alignment.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.20205v1",
+      "title": "Statistical Inference for Rank Allocation in Low-Rank Adaptation",
+      "authors": [
+        "Yihang Gao",
+        "Vincent Y. F. Tan"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML",
+        "math.ST"
+      ],
+      "abstract": "This paper proposes StatLoRA, a novel method for allocating rank in Low-Rank Adaptation (LoRA) for large language models. Instead of relying on heuristic importance scores, StatLoRA frames rank allocation as a statistical hypothesis testing problem. It uses estimated p-values derived from a central limit theorem to statistically determine which LoRA components are most beneficial to retain within a fixed parameter budget, thereby improving efficiency and expressiveness.",
+      "url": "http://arxiv.org/abs/2607.20205v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20205v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.20410v1",
+      "title": "LKValues: Aligning Large Language Models with Sri Lankan Societal Values",
+      "authors": [
+        "Nethmi Muthugala",
+        " Supryadi",
+        "Surangika Ranathunga",
+        "Nisansa de Silva",
+        "Ruijie Tao"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the cultural bias in LLMs by introducing LKValues, a novel resource suite for aligning models with Sri Lankan societal values. It comprises a survey-driven collection of 40 values, a 150k-instance instruction corpus in Sinhala and English, and a 1,000-instance evaluation benchmark. LKValues aims to enable culturally sensitive evaluation and fine-tuning of LLMs for the Sri Lankan context.",
+      "url": "http://arxiv.org/abs/2607.20410v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20410v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.20410v1/x1.png",
+      "figure_caption": "The flowchart shows the process for deriving Sri Lankan societal values, starting with selecting questions from established surveys, followed by manual and LLM-assisted value elicitation. This results in 51 candidate values, with 40 values retained after calculating endorsement percentages from 205 participants, using finite population correction.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.20270v1",
+      "title": "Which Values Do LLMs Confuse? A Schwartz-Based Recognition Study",
+      "authors": [
+        "Andrei Chetvergov",
+        "Stepan Ukolov",
+        "Timofei Sivoraksha",
+        "Alexander Evseev",
+        "Mikhail Solovev"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates whether Large Language Models (LLMs) can accurately identify specific values in given situations, using Schwartz's ten basic values as a framework. The core method involves a controlled recognition task where LLMs are asked to identify the value expressed in Russian situational texts. The main contribution is revealing that while LLMs often correctly identify the general motivational region, they frequently confuse adjacent values, with specific directed confusions recurring across various models.",
+      "url": "http://arxiv.org/abs/2607.20270v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20270v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.20270v1/figures/task_overview.png",
+      "figure_caption": "Task overview. A model maps a situational text to one primary Schwartz value and two alternatives under a fixed ranked-response schema. Evaluation separates output reliability, top-1 recognition, top-3 coverage, and confusion structure.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
