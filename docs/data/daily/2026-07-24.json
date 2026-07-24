@@ -1,0 +1,889 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T11:19:57.333399+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.21503v1",
+          "title": "Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems",
+          "authors": [
+            "Gaurav Dadhich"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.IR"
+          ],
+          "abstract": "This paper argues that AI agent failures stem from poor context management, not reasoning ability. The core method proposes treating context management as a lifecycle and architectural problem, rather than just storage and retrieval. This involves actively deciding what to remember, structure, store, consolidate, forget, and anticipate, all within budget constraints, to prevent agents from drowning in their own history and incurring high costs.",
+          "url": "http://arxiv.org/abs/2607.21503v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.21503v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.21503v1/x1.png",
+          "figure_caption": "The five-primitive context lifecycle (architecting → \\( \\rightarrow \\) ingesting → \\( \\rightarrow \\) scoping → \\( \\rightarrow \\) anticipating → \\( \\rightarrow \\) compacting & consolidation), drawn as a cycle around a central agent, with the retrieval scope hierarchy (user → \\( \\rightarrow \\) customer → \\( \\rightarrow \\) client) as a vertical axis and the global knowledge layer drawn separately, feeding entity canonicalization.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.21461v1",
+          "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+          "authors": [
+            "Shuqi Lu",
+            "Chaofan Li",
+            "Kun Luo",
+            "Zhang Zhang",
+            "Hui Wang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "AREX is a deep research agent that addresses the discovery-verification asymmetry by recursively improving its answers. It alternates between an inner loop for evidence gathering and an outer loop for constraint-wise verification and targeted follow-up research. AREX's key contribution is its self-improvement mechanism, which uses verified intermediate results to guide further research and maintain long-term progress through an autonomous context-update tool.",
+          "url": "http://arxiv.org/abs/2607.21461v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.21461v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.21461v1/x1.png",
+          "figure_caption": "Benchmark performance of AREX",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.21496v1",
+          "title": "Toward Generalizable Cognitive Impairment Detection with Speech-Based Multimodal Large Language Models",
+          "authors": [
+            "Yingchao Huang",
+            "Xin Wang",
+            "Yuhan Su",
+            "Shanshan Yao"
+          ],
+          "categories": [
+            "cs.LG",
+            "eess.SP"
+          ],
+          "abstract": "This paper proposes a multimodal framework for detecting cognitive impairment (CI) using speech. It leverages open-source Large Language Models to jointly analyze linguistic and acoustic speech features, aiming for improved generalization across diverse conditions. The core contribution is a privacy-preserving approach that integrates speech audio and transcripts for more comprehensive and reliable CI detection.",
+          "url": "http://arxiv.org/abs/2607.21496v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.21496v1",
+          "score": 8.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.21482v1",
+          "title": "Agentic coding without the cloud: evaluating open-weight large language models on longitudinal data preparation tasks",
+          "authors": [
+            "Mack Nixon",
+            "Liam Wright",
+            "Yevgeniya Kovalchuk",
+            "Alison Fang-Wei Wu",
+            "Martin Danka"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces a framework to evaluate open-weight Large Language Models (LLMs) for data preparation in research, specifically addressing the challenge of using sensitive longitudinal data without cloud transmission. The core method involves benchmarking LLM-generated R code on tasks like category harmonization and multi-wave merging using a curated dataset from a British cohort study. The contribution is an open-source solution enabling researchers to leverage AI agents for data preparation locally, overcoming privacy and governance constraints.",
+          "url": "http://arxiv.org/abs/2607.21482v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.21482v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.21498v1",
+          "title": "Artificial Epanorthosis: Why large language models overuse a classical rhetorical figure, and how to mitigate it",
+          "authors": [
+            "Federico Boggia"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper identifies that large language models systematically overuse epanorthosis, a rhetorical self-correction, due to training data rich in promotional text and RLHF rewarding confident phrasing. The authors propose an \"Epanorthosis Index\" to measure this overuse against genre-specific human baselines, finding models mis-calibrated in their use of this figure.",
+          "url": "http://arxiv.org/abs/2607.21498v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.21498v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.21522v1",
+          "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+          "authors": [
+            "Hongxin Zhang",
+            "Chunru Lin",
+            "Junyan Li",
+            "Zhou Xian",
+            "Tsun-Hsuan Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CV",
+            "cs.RO"
+          ],
+          "abstract": "GS-Agent creates realistic 4D physical worlds from natural language by emulating human creation processes. It uses a multi-agent framework that integrates physics engines to ensure dynamic and controllable simulations, overcoming limitations of previous generative models in physical plausibility.",
+          "url": "http://arxiv.org/abs/2607.21522v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.21522v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.21552v1",
+          "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
+          "authors": [
+            "Wen Ye",
+            "Yuxiao Qu",
+            "Aviral Kumar",
+            "Xuezhe Ma"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces MIRROR, a method to improve the visual reasoning of vision-language models (VLMs). It leverages a novel dataset, ODA-Data, containing geometry problems with text, diagram, and combined views, to expose complementary reasoning paths. MIRROR then uses reinforcement learning to train VLMs to learn from the \"other view\" when one modality fails, enhancing their overall reasoning capabilities.",
+          "url": "http://arxiv.org/abs/2607.21552v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.21552v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.21552v1/x1.png",
+          "figure_caption": "Modality-Informed Reciprocal Reasoning Optimization ( MIRROR ). MIRROR exploits view asymmetry by selecting the strongest-performing view of each problem as a teacher and regularizing weaker student views towards the teacher distribution, improving performance without external supervision.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.21557v1",
+          "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+          "authors": [
+            "Xiao Yu",
+            "Baolin Peng",
+            "Ruize Xu",
+            "Hao Zou",
+            "Qianhui Wu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "OpenForgeRL is a framework that enables end-to-end training of AI agents that utilize complex inference harnesses. It achieves this by using a lightweight proxy to record harness interactions as training data and a Kubernetes orchestrator to run rollouts in isolated containers. This decoupling allows researchers to train and improve agents directly within their intended harnesses and environments.",
+          "url": "http://arxiv.org/abs/2607.21557v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.21557v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.21518v1",
+          "title": "Same Dangerous Objective, Opposite Advice: Direct Exposure versus Multi-Agent Mediation",
+          "authors": [
+            "Linjun Li"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper reveals a surprising safety paradox: a powerful LLM is safer when directly shown a dangerous objective than when it's mediated by other agents. The core method involves presenting a harmful objective in two ways: directly, which elicits safe advice, and indirectly through transformed versions, which leads to unsafe advice. The contribution is the discovery of this \"compositional safety gap,\" suggesting LLMs might detect manipulative intent, and highlighting a vulnerability in multi-stage AI workflows.",
+          "url": "http://arxiv.org/abs/2607.21518v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.21518v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.21495v1",
+          "title": "Toward Continuous Assurance for the Democratization of AI Agent Creation in Industry",
+          "authors": [
+            "Natan Levy",
+            "Harel Berger"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.ET",
+            "cs.MA"
+          ],
+          "abstract": "This paper addresses the reliability challenges of AI agents created by non-engineers in organizations. It proposes a lightweight continuous-assurance framework that maps dependencies, uses readiness contracts, and performs scheduled checks to ensure these agents remain operational. The core contribution is a method to provide ongoing reliability for democratized AI agent creation, preventing silent degradation.",
+          "url": "http://arxiv.org/abs/2607.21495v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.21495v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.21495v1/x1.png",
+          "figure_caption": "The continuous-assurance workflow: agent registration produces a dependency map and readiness contract; scheduled checks feed diagnostics and lifecycle governance, routing findings to the responsible owner.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.21550v1",
+          "title": "X$^3$-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment",
+          "authors": [
+            "Dongjie Fu",
+            "Di Cao",
+            "Xize Cheng",
+            "Zihan Zhang",
+            "Wenxu Jia"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces X$^3$-OPD, a novel framework for distilling logical reasoning from text-based models into audio-language models. It achieves this by using on-policy distillation, where the audio model generates reasoning steps based on its acoustic perception, and a text model provides guidance using matched textual inputs. The contribution lies in creating a diverse, three-tier corpus that enables reasoning transfer beyond purely textual content, incorporating audio events and spoken dialogue cues.",
+          "url": "http://arxiv.org/abs/2607.21550v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.21550v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.21550v1/x1.png",
+          "figure_caption": "Overview of X 3 -OPD . Left: a three-tier symmetric corpus—Logical (text + TTS speech), Audio (audio + refined caption), and Dialogue (dialogue + prosody-aware meta-caption)—providing ( x t , x a , q , a ⋆ ) (x_{t},x_{a},q,a^{\\( \\star \\)}) for every instance. Right: an offline warm-start ( ℒ off \\( \\mathcal{L} \\)_{\\( \\mathrm{off} \\)} , Eq. 1 ) followed by cross-modal on-policy distillation, where the student rolls out under ( x a , q ) (x_{a},q) and the frozen teacher scores the same trajectories under ( x t , q , a ⋆ ) (x_{t},q,a^{\\( \\star \\)}) to compute ℒ on \\( \\mathcal{L} \\)_{\\( \\mathrm{on} \\)} (Eq. 3 ).",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.21570v1",
+          "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
+          "authors": [
+            "Qian Wu",
+            "Xinrong Zhou",
+            "Zizhan Ma",
+            "Kai Chen",
+            "Zheyao Gao"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.HC"
+          ],
+          "abstract": "MedGame transforms static medical cases into interactive storytelling games using Large Language Models. Its core method involves a dual-engine design: a Medical Narrative Designer creates structured case storylines with decision points, and a Story Director orchestrates these into executable gameplay. The paper's contribution is this novel framework for decision-centered medical education, along with a benchmark and evaluation protocol, demonstrating improved LLM performance for medical narrative generation.",
+          "url": "http://arxiv.org/abs/2607.21570v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.21570v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.21570v1/x1.png",
+          "figure_caption": "MedGame at a glance. Given a static clinical case, MedGame uses LLMs to design and orchestrate an interactive medical storytelling game, where learners make decisions and receive feedback as the case unfolds.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.21445v1",
+          "title": "When Trivia Is Not Trivial: Everyday Knowledge Failures in Multilingual LLMs",
+          "authors": [
+            "Anna Mosolova",
+            "Djamé Seddah"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces TriviaRoomQA, a multilingual benchmark to assess LLMs' everyday and culturally grounded knowledge using quiz-style questions. The core method involves evaluating 30 LLMs across 288 topics in six languages. The main contribution is the finding that LLMs excel at factual knowledge but struggle significantly with common, popular culture topics, highlighting a gap in their everyday understanding.",
+          "url": "http://arxiv.org/abs/2607.21445v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.21445v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.21445v1/figs/performance_per_language_allmodels_threecolor.png",
+          "figure_caption": "Model performance on the six languages of TriviaRoomQA-Multi . The reported metric is accuracy; greener cells indicate higher scores. ⋆ \\( \\star \\) next to a score indicates that the model was trained on that language. ▲ \\( \\blacktriangle \\) marks models trained on 10T+ tokens. Model size is color-coded: ≤ \\( \\leq \\) 10B , 12-27B, 30B+ .",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 24,
+        "papers_after_llm_filter": 13,
+        "count": 13
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 24,
+    "papers_after_llm_filter": 13,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 58
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.21503v1",
+      "title": "Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems",
+      "authors": [
+        "Gaurav Dadhich"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "abstract": "This paper argues that AI agent failures stem from poor context management, not reasoning ability. The core method proposes treating context management as a lifecycle and architectural problem, rather than just storage and retrieval. This involves actively deciding what to remember, structure, store, consolidate, forget, and anticipate, all within budget constraints, to prevent agents from drowning in their own history and incurring high costs.",
+      "url": "http://arxiv.org/abs/2607.21503v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21503v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.21503v1/x1.png",
+      "figure_caption": "The five-primitive context lifecycle (architecting → \\( \\rightarrow \\) ingesting → \\( \\rightarrow \\) scoping → \\( \\rightarrow \\) anticipating → \\( \\rightarrow \\) compacting & consolidation), drawn as a cycle around a central agent, with the retrieval scope hierarchy (user → \\( \\rightarrow \\) customer → \\( \\rightarrow \\) client) as a vertical axis and the global knowledge layer drawn separately, feeding entity canonicalization.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21461v1",
+      "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+      "authors": [
+        "Shuqi Lu",
+        "Chaofan Li",
+        "Kun Luo",
+        "Zhang Zhang",
+        "Hui Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "AREX is a deep research agent that addresses the discovery-verification asymmetry by recursively improving its answers. It alternates between an inner loop for evidence gathering and an outer loop for constraint-wise verification and targeted follow-up research. AREX's key contribution is its self-improvement mechanism, which uses verified intermediate results to guide further research and maintain long-term progress through an autonomous context-update tool.",
+      "url": "http://arxiv.org/abs/2607.21461v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21461v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.21461v1/x1.png",
+      "figure_caption": "Benchmark performance of AREX",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21496v1",
+      "title": "Toward Generalizable Cognitive Impairment Detection with Speech-Based Multimodal Large Language Models",
+      "authors": [
+        "Yingchao Huang",
+        "Xin Wang",
+        "Yuhan Su",
+        "Shanshan Yao"
+      ],
+      "categories": [
+        "cs.LG",
+        "eess.SP"
+      ],
+      "abstract": "This paper proposes a multimodal framework for detecting cognitive impairment (CI) using speech. It leverages open-source Large Language Models to jointly analyze linguistic and acoustic speech features, aiming for improved generalization across diverse conditions. The core contribution is a privacy-preserving approach that integrates speech audio and transcripts for more comprehensive and reliable CI detection.",
+      "url": "http://arxiv.org/abs/2607.21496v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21496v1",
+      "score": 8.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.21482v1",
+      "title": "Agentic coding without the cloud: evaluating open-weight large language models on longitudinal data preparation tasks",
+      "authors": [
+        "Mack Nixon",
+        "Liam Wright",
+        "Yevgeniya Kovalchuk",
+        "Alison Fang-Wei Wu",
+        "Martin Danka"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a framework to evaluate open-weight Large Language Models (LLMs) for data preparation in research, specifically addressing the challenge of using sensitive longitudinal data without cloud transmission. The core method involves benchmarking LLM-generated R code on tasks like category harmonization and multi-wave merging using a curated dataset from a British cohort study. The contribution is an open-source solution enabling researchers to leverage AI agents for data preparation locally, overcoming privacy and governance constraints.",
+      "url": "http://arxiv.org/abs/2607.21482v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21482v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21498v1",
+      "title": "Artificial Epanorthosis: Why large language models overuse a classical rhetorical figure, and how to mitigate it",
+      "authors": [
+        "Federico Boggia"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper identifies that large language models systematically overuse epanorthosis, a rhetorical self-correction, due to training data rich in promotional text and RLHF rewarding confident phrasing. The authors propose an \"Epanorthosis Index\" to measure this overuse against genre-specific human baselines, finding models mis-calibrated in their use of this figure.",
+      "url": "http://arxiv.org/abs/2607.21498v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21498v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21522v1",
+      "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+      "authors": [
+        "Hongxin Zhang",
+        "Chunru Lin",
+        "Junyan Li",
+        "Zhou Xian",
+        "Tsun-Hsuan Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "GS-Agent creates realistic 4D physical worlds from natural language by emulating human creation processes. It uses a multi-agent framework that integrates physics engines to ensure dynamic and controllable simulations, overcoming limitations of previous generative models in physical plausibility.",
+      "url": "http://arxiv.org/abs/2607.21522v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21522v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21552v1",
+      "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
+      "authors": [
+        "Wen Ye",
+        "Yuxiao Qu",
+        "Aviral Kumar",
+        "Xuezhe Ma"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces MIRROR, a method to improve the visual reasoning of vision-language models (VLMs). It leverages a novel dataset, ODA-Data, containing geometry problems with text, diagram, and combined views, to expose complementary reasoning paths. MIRROR then uses reinforcement learning to train VLMs to learn from the \"other view\" when one modality fails, enhancing their overall reasoning capabilities.",
+      "url": "http://arxiv.org/abs/2607.21552v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21552v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.21552v1/x1.png",
+      "figure_caption": "Modality-Informed Reciprocal Reasoning Optimization ( MIRROR ). MIRROR exploits view asymmetry by selecting the strongest-performing view of each problem as a teacher and regularizing weaker student views towards the teacher distribution, improving performance without external supervision.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21557v1",
+      "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+      "authors": [
+        "Xiao Yu",
+        "Baolin Peng",
+        "Ruize Xu",
+        "Hao Zou",
+        "Qianhui Wu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "OpenForgeRL is a framework that enables end-to-end training of AI agents that utilize complex inference harnesses. It achieves this by using a lightweight proxy to record harness interactions as training data and a Kubernetes orchestrator to run rollouts in isolated containers. This decoupling allows researchers to train and improve agents directly within their intended harnesses and environments.",
+      "url": "http://arxiv.org/abs/2607.21557v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21557v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21518v1",
+      "title": "Same Dangerous Objective, Opposite Advice: Direct Exposure versus Multi-Agent Mediation",
+      "authors": [
+        "Linjun Li"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper reveals a surprising safety paradox: a powerful LLM is safer when directly shown a dangerous objective than when it's mediated by other agents. The core method involves presenting a harmful objective in two ways: directly, which elicits safe advice, and indirectly through transformed versions, which leads to unsafe advice. The contribution is the discovery of this \"compositional safety gap,\" suggesting LLMs might detect manipulative intent, and highlighting a vulnerability in multi-stage AI workflows.",
+      "url": "http://arxiv.org/abs/2607.21518v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21518v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21495v1",
+      "title": "Toward Continuous Assurance for the Democratization of AI Agent Creation in Industry",
+      "authors": [
+        "Natan Levy",
+        "Harel Berger"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.ET",
+        "cs.MA"
+      ],
+      "abstract": "This paper addresses the reliability challenges of AI agents created by non-engineers in organizations. It proposes a lightweight continuous-assurance framework that maps dependencies, uses readiness contracts, and performs scheduled checks to ensure these agents remain operational. The core contribution is a method to provide ongoing reliability for democratized AI agent creation, preventing silent degradation.",
+      "url": "http://arxiv.org/abs/2607.21495v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21495v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.21495v1/x1.png",
+      "figure_caption": "The continuous-assurance workflow: agent registration produces a dependency map and readiness contract; scheduled checks feed diagnostics and lifecycle governance, routing findings to the responsible owner.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21550v1",
+      "title": "X$^3$-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment",
+      "authors": [
+        "Dongjie Fu",
+        "Di Cao",
+        "Xize Cheng",
+        "Zihan Zhang",
+        "Wenxu Jia"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces X$^3$-OPD, a novel framework for distilling logical reasoning from text-based models into audio-language models. It achieves this by using on-policy distillation, where the audio model generates reasoning steps based on its acoustic perception, and a text model provides guidance using matched textual inputs. The contribution lies in creating a diverse, three-tier corpus that enables reasoning transfer beyond purely textual content, incorporating audio events and spoken dialogue cues.",
+      "url": "http://arxiv.org/abs/2607.21550v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21550v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.21550v1/x1.png",
+      "figure_caption": "Overview of X 3 -OPD . Left: a three-tier symmetric corpus—Logical (text + TTS speech), Audio (audio + refined caption), and Dialogue (dialogue + prosody-aware meta-caption)—providing ( x t , x a , q , a ⋆ ) (x_{t},x_{a},q,a^{\\( \\star \\)}) for every instance. Right: an offline warm-start ( ℒ off \\( \\mathcal{L} \\)_{\\( \\mathrm{off} \\)} , Eq. 1 ) followed by cross-modal on-policy distillation, where the student rolls out under ( x a , q ) (x_{a},q) and the frozen teacher scores the same trajectories under ( x t , q , a ⋆ ) (x_{t},q,a^{\\( \\star \\)}) to compute ℒ on \\( \\mathcal{L} \\)_{\\( \\mathrm{on} \\)} (Eq. 3 ).",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.21570v1",
+      "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
+      "authors": [
+        "Qian Wu",
+        "Xinrong Zhou",
+        "Zizhan Ma",
+        "Kai Chen",
+        "Zheyao Gao"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.HC"
+      ],
+      "abstract": "MedGame transforms static medical cases into interactive storytelling games using Large Language Models. Its core method involves a dual-engine design: a Medical Narrative Designer creates structured case storylines with decision points, and a Story Director orchestrates these into executable gameplay. The paper's contribution is this novel framework for decision-centered medical education, along with a benchmark and evaluation protocol, demonstrating improved LLM performance for medical narrative generation.",
+      "url": "http://arxiv.org/abs/2607.21570v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21570v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.21570v1/x1.png",
+      "figure_caption": "MedGame at a glance. Given a static clinical case, MedGame uses LLMs to design and orchestrate an interactive medical storytelling game, where learners make decisions and receive feedback as the case unfolds.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.21445v1",
+      "title": "When Trivia Is Not Trivial: Everyday Knowledge Failures in Multilingual LLMs",
+      "authors": [
+        "Anna Mosolova",
+        "Djamé Seddah"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces TriviaRoomQA, a multilingual benchmark to assess LLMs' everyday and culturally grounded knowledge using quiz-style questions. The core method involves evaluating 30 LLMs across 288 topics in six languages. The main contribution is the finding that LLMs excel at factual knowledge but struggle significantly with common, popular culture topics, highlighting a gap in their everyday understanding.",
+      "url": "http://arxiv.org/abs/2607.21445v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21445v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.21445v1/figs/performance_per_language_allmodels_threecolor.png",
+      "figure_caption": "Model performance on the six languages of TriviaRoomQA-Multi . The reported metric is accuracy; greener cells indicate higher scores. ⋆ \\( \\star \\) next to a score indicates that the model was trained on that language. ▲ \\( \\blacktriangle \\) marks models trained on 10T+ tokens. Model size is color-coded: ≤ \\( \\leq \\) 10B , 12-27B, 30B+ .",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.21503v1",
+      "title": "Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems",
+      "authors": [
+        "Gaurav Dadhich"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "abstract": "This paper argues that AI agent failures stem from poor context management, not reasoning ability. The core method proposes treating context management as a lifecycle and architectural problem, rather than just storage and retrieval. This involves actively deciding what to remember, structure, store, consolidate, forget, and anticipate, all within budget constraints, to prevent agents from drowning in their own history and incurring high costs.",
+      "url": "http://arxiv.org/abs/2607.21503v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21503v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.21503v1/x1.png",
+      "figure_caption": "The five-primitive context lifecycle (architecting → \\( \\rightarrow \\) ingesting → \\( \\rightarrow \\) scoping → \\( \\rightarrow \\) anticipating → \\( \\rightarrow \\) compacting & consolidation), drawn as a cycle around a central agent, with the retrieval scope hierarchy (user → \\( \\rightarrow \\) customer → \\( \\rightarrow \\) client) as a vertical axis and the global knowledge layer drawn separately, feeding entity canonicalization.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21461v1",
+      "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+      "authors": [
+        "Shuqi Lu",
+        "Chaofan Li",
+        "Kun Luo",
+        "Zhang Zhang",
+        "Hui Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "AREX is a deep research agent that addresses the discovery-verification asymmetry by recursively improving its answers. It alternates between an inner loop for evidence gathering and an outer loop for constraint-wise verification and targeted follow-up research. AREX's key contribution is its self-improvement mechanism, which uses verified intermediate results to guide further research and maintain long-term progress through an autonomous context-update tool.",
+      "url": "http://arxiv.org/abs/2607.21461v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21461v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.21461v1/x1.png",
+      "figure_caption": "Benchmark performance of AREX",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21496v1",
+      "title": "Toward Generalizable Cognitive Impairment Detection with Speech-Based Multimodal Large Language Models",
+      "authors": [
+        "Yingchao Huang",
+        "Xin Wang",
+        "Yuhan Su",
+        "Shanshan Yao"
+      ],
+      "categories": [
+        "cs.LG",
+        "eess.SP"
+      ],
+      "abstract": "This paper proposes a multimodal framework for detecting cognitive impairment (CI) using speech. It leverages open-source Large Language Models to jointly analyze linguistic and acoustic speech features, aiming for improved generalization across diverse conditions. The core contribution is a privacy-preserving approach that integrates speech audio and transcripts for more comprehensive and reliable CI detection.",
+      "url": "http://arxiv.org/abs/2607.21496v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21496v1",
+      "score": 8.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.21482v1",
+      "title": "Agentic coding without the cloud: evaluating open-weight large language models on longitudinal data preparation tasks",
+      "authors": [
+        "Mack Nixon",
+        "Liam Wright",
+        "Yevgeniya Kovalchuk",
+        "Alison Fang-Wei Wu",
+        "Martin Danka"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a framework to evaluate open-weight Large Language Models (LLMs) for data preparation in research, specifically addressing the challenge of using sensitive longitudinal data without cloud transmission. The core method involves benchmarking LLM-generated R code on tasks like category harmonization and multi-wave merging using a curated dataset from a British cohort study. The contribution is an open-source solution enabling researchers to leverage AI agents for data preparation locally, overcoming privacy and governance constraints.",
+      "url": "http://arxiv.org/abs/2607.21482v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21482v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21498v1",
+      "title": "Artificial Epanorthosis: Why large language models overuse a classical rhetorical figure, and how to mitigate it",
+      "authors": [
+        "Federico Boggia"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper identifies that large language models systematically overuse epanorthosis, a rhetorical self-correction, due to training data rich in promotional text and RLHF rewarding confident phrasing. The authors propose an \"Epanorthosis Index\" to measure this overuse against genre-specific human baselines, finding models mis-calibrated in their use of this figure.",
+      "url": "http://arxiv.org/abs/2607.21498v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21498v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21522v1",
+      "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+      "authors": [
+        "Hongxin Zhang",
+        "Chunru Lin",
+        "Junyan Li",
+        "Zhou Xian",
+        "Tsun-Hsuan Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "GS-Agent creates realistic 4D physical worlds from natural language by emulating human creation processes. It uses a multi-agent framework that integrates physics engines to ensure dynamic and controllable simulations, overcoming limitations of previous generative models in physical plausibility.",
+      "url": "http://arxiv.org/abs/2607.21522v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21522v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21552v1",
+      "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
+      "authors": [
+        "Wen Ye",
+        "Yuxiao Qu",
+        "Aviral Kumar",
+        "Xuezhe Ma"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces MIRROR, a method to improve the visual reasoning of vision-language models (VLMs). It leverages a novel dataset, ODA-Data, containing geometry problems with text, diagram, and combined views, to expose complementary reasoning paths. MIRROR then uses reinforcement learning to train VLMs to learn from the \"other view\" when one modality fails, enhancing their overall reasoning capabilities.",
+      "url": "http://arxiv.org/abs/2607.21552v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21552v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.21552v1/x1.png",
+      "figure_caption": "Modality-Informed Reciprocal Reasoning Optimization ( MIRROR ). MIRROR exploits view asymmetry by selecting the strongest-performing view of each problem as a teacher and regularizing weaker student views towards the teacher distribution, improving performance without external supervision.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21557v1",
+      "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+      "authors": [
+        "Xiao Yu",
+        "Baolin Peng",
+        "Ruize Xu",
+        "Hao Zou",
+        "Qianhui Wu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "OpenForgeRL is a framework that enables end-to-end training of AI agents that utilize complex inference harnesses. It achieves this by using a lightweight proxy to record harness interactions as training data and a Kubernetes orchestrator to run rollouts in isolated containers. This decoupling allows researchers to train and improve agents directly within their intended harnesses and environments.",
+      "url": "http://arxiv.org/abs/2607.21557v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21557v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21518v1",
+      "title": "Same Dangerous Objective, Opposite Advice: Direct Exposure versus Multi-Agent Mediation",
+      "authors": [
+        "Linjun Li"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper reveals a surprising safety paradox: a powerful LLM is safer when directly shown a dangerous objective than when it's mediated by other agents. The core method involves presenting a harmful objective in two ways: directly, which elicits safe advice, and indirectly through transformed versions, which leads to unsafe advice. The contribution is the discovery of this \"compositional safety gap,\" suggesting LLMs might detect manipulative intent, and highlighting a vulnerability in multi-stage AI workflows.",
+      "url": "http://arxiv.org/abs/2607.21518v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21518v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21495v1",
+      "title": "Toward Continuous Assurance for the Democratization of AI Agent Creation in Industry",
+      "authors": [
+        "Natan Levy",
+        "Harel Berger"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.ET",
+        "cs.MA"
+      ],
+      "abstract": "This paper addresses the reliability challenges of AI agents created by non-engineers in organizations. It proposes a lightweight continuous-assurance framework that maps dependencies, uses readiness contracts, and performs scheduled checks to ensure these agents remain operational. The core contribution is a method to provide ongoing reliability for democratized AI agent creation, preventing silent degradation.",
+      "url": "http://arxiv.org/abs/2607.21495v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21495v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.21495v1/x1.png",
+      "figure_caption": "The continuous-assurance workflow: agent registration produces a dependency map and readiness contract; scheduled checks feed diagnostics and lifecycle governance, routing findings to the responsible owner.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.21550v1",
+      "title": "X$^3$-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment",
+      "authors": [
+        "Dongjie Fu",
+        "Di Cao",
+        "Xize Cheng",
+        "Zihan Zhang",
+        "Wenxu Jia"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces X$^3$-OPD, a novel framework for distilling logical reasoning from text-based models into audio-language models. It achieves this by using on-policy distillation, where the audio model generates reasoning steps based on its acoustic perception, and a text model provides guidance using matched textual inputs. The contribution lies in creating a diverse, three-tier corpus that enables reasoning transfer beyond purely textual content, incorporating audio events and spoken dialogue cues.",
+      "url": "http://arxiv.org/abs/2607.21550v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21550v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.21550v1/x1.png",
+      "figure_caption": "Overview of X 3 -OPD . Left: a three-tier symmetric corpus—Logical (text + TTS speech), Audio (audio + refined caption), and Dialogue (dialogue + prosody-aware meta-caption)—providing ( x t , x a , q , a ⋆ ) (x_{t},x_{a},q,a^{\\( \\star \\)}) for every instance. Right: an offline warm-start ( ℒ off \\( \\mathcal{L} \\)_{\\( \\mathrm{off} \\)} , Eq. 1 ) followed by cross-modal on-policy distillation, where the student rolls out under ( x a , q ) (x_{a},q) and the frozen teacher scores the same trajectories under ( x t , q , a ⋆ ) (x_{t},q,a^{\\( \\star \\)}) to compute ℒ on \\( \\mathcal{L} \\)_{\\( \\mathrm{on} \\)} (Eq. 3 ).",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.21570v1",
+      "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
+      "authors": [
+        "Qian Wu",
+        "Xinrong Zhou",
+        "Zizhan Ma",
+        "Kai Chen",
+        "Zheyao Gao"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.HC"
+      ],
+      "abstract": "MedGame transforms static medical cases into interactive storytelling games using Large Language Models. Its core method involves a dual-engine design: a Medical Narrative Designer creates structured case storylines with decision points, and a Story Director orchestrates these into executable gameplay. The paper's contribution is this novel framework for decision-centered medical education, along with a benchmark and evaluation protocol, demonstrating improved LLM performance for medical narrative generation.",
+      "url": "http://arxiv.org/abs/2607.21570v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21570v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.21570v1/x1.png",
+      "figure_caption": "MedGame at a glance. Given a static clinical case, MedGame uses LLMs to design and orchestrate an interactive medical storytelling game, where learners make decisions and receive feedback as the case unfolds.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.21445v1",
+      "title": "When Trivia Is Not Trivial: Everyday Knowledge Failures in Multilingual LLMs",
+      "authors": [
+        "Anna Mosolova",
+        "Djamé Seddah"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces TriviaRoomQA, a multilingual benchmark to assess LLMs' everyday and culturally grounded knowledge using quiz-style questions. The core method involves evaluating 30 LLMs across 288 topics in six languages. The main contribution is the finding that LLMs excel at factual knowledge but struggle significantly with common, popular culture topics, highlighting a gap in their everyday understanding.",
+      "url": "http://arxiv.org/abs/2607.21445v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21445v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.21445v1/figs/performance_per_language_allmodels_threecolor.png",
+      "figure_caption": "Model performance on the six languages of TriviaRoomQA-Multi . The reported metric is accuracy; greener cells indicate higher scores. ⋆ \\( \\star \\) next to a score indicates that the model was trained on that language. ▲ \\( \\blacktriangle \\) marks models trained on 10T+ tokens. Model size is color-coded: ≤ \\( \\leq \\) 10B , 12-27B, 30B+ .",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
