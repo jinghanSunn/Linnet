@@ -1,0 +1,661 @@
+{
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T12:44:26.715496+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.22375v1",
+          "title": "IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation",
+          "authors": [
+            "Varun Gumma",
+            "Navonil Majumder",
+            "Soumitra Sinhahajari",
+            "Soujanya Poria"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "IDEAgent addresses the limitation of current LLM-based research idea generation systems that optimize for either quality or diversity independently. It frames ideation as a Quality-Diversity (QD) search, employing a multi-agent framework to evolve ideas through lineages. IDEAgent jointly drives quality with multi-objective feedback for refinement and diversity through memory and explicit comparisons, aiming to generate a broader range of novel and sound research concepts.",
+          "url": "http://arxiv.org/abs/2607.22375v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.22375v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.22375v1/x1.png",
+          "figure_caption": "Left: An abstract overview of IDEAgent highlighting the crucial components and flow. Right: An abstract overview of the evolution of an idea and a lineage, where a raw idea might either be directly rejected, repaired and refined, just refined, or directly accepted as per the assessment by the evaluators. Note that a refinement/repair maintains the lineage of the idea ( ℓ I \\( \\ell_{I} \\) ). We purposefully omit the exact conditionals at each step for simplicity and refer the readers to the methodology ( § \\( \\mathsection \\) 3 ) for it.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.22465v1",
+          "title": "TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI",
+          "authors": [
+            "Ritik Raj",
+            "Souvik Kundu",
+            "Sarbartha Banerjee",
+            "Dheemanth Joshi",
+            "Ishita Vohra"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.MA"
+          ],
+          "abstract": "TRACE-Router addresses the challenge of routing in agentic AI by making a single, task-level model selection at the beginning of a workflow. This approach, using a contextual bandit, pins all subsequent LLM calls to the chosen model and updates its policy based on the final task outcome (accuracy and latency). Its contribution lies in aligning routing with the unit of supervision, enabling adaptive policies that learn from delayed feedback without needing to estimate individual task complexity.",
+          "url": "http://arxiv.org/abs/2607.22465v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.22465v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.22465v1/sections/figures/pareto_avg2_rt.png",
+          "figure_caption": "Task accuracy–latency trade-off on \\( \\tau^{2} \\) -Bench, averaged over the retail and telecom domains. Every interior frontier point is produced by TRACE-Router .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.22529v1",
+          "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+          "authors": [
+            "Siyuan Huang",
+            "Pengyu Cheng",
+            "Haotian Liu",
+            "Tao Chen",
+            "Yihao Liu"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Skill Self-Play (Skill-SP), a novel framework for LLM training that addresses the trade-off between task diversity and verification reliability. Skill-SP utilizes co-evolving \"skills\" to enable deep, verifiable execution within specific scenarios while maintaining open-ended task variety through dynamic routing. This approach allows LLMs to learn and improve their capabilities in a more robust and efficient manner.",
+          "url": "http://arxiv.org/abs/2607.22529v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.22529v1",
+          "score": 8.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.22385v1",
+          "title": "Agentic Root Cause Analysis through Evidence-Grounded Reasoning",
+          "authors": [
+            "Amaury Wei",
+            "Olga Fink"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces AgentRCA, a novel zero-shot framework for automated root cause analysis of industrial anomalies. It addresses limitations of existing methods by combining a data-driven digital twin with a tool-augmented LLM. AgentRCA reasons through observed data, iteratively gathering evidence and evaluating hypotheses to pinpoint the physical fault, without requiring labeled fault examples.",
+          "url": "http://arxiv.org/abs/2607.22385v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.22385v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.22385v1/x1.png",
+          "figure_caption": "Architecture overview of AgentRCA. (A) AgentRCA learns a data-driven digital twin from normal-operation data only. Normal windows are grouped by operating regimes defined by system setpoints ( ω 1 , ω 2 , … \\( \\omega_{1} \\),\\( \\omega_{2} \\),\\( \\dots \\) ). These regimes are used to precompute condition-specific statistical summaries (means 𝝁 \\( \\boldsymbol{\\mu} \\) , standard deviations 𝝈 \\( \\boldsymbol{\\sigma} \\) , correlation matrices 𝐑 \\( \\mathbf{R} \\) , …). In parallel, a global autoencoder f θ f_{\\( \\theta \\)} is trained across all regimes to learn nonlinear system dynamics. (B) The digital twin exposes modular diagnostic tools that provide interpretable evidence to the agent, including autoencoder residual scores, mean and variance shifts, correlation discrepancies, and optional documentation retrieval. (C) At inference time, a tool-augmented LLM agent receives a test window and natural-language fault descriptions. It iteratively queries the diagnostic tools, updates candidate hypotheses, and returns a ranked diagnosis with supporting evidence. Normal operation is included as a possible diagnosis, enabling both anomaly detection and root cause analysis.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.22368v1",
+          "title": "Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI",
+          "authors": [
+            "Jiaqi Shao",
+            "Hanck Chen",
+            "Wei Zhang",
+            "Maxm Pan",
+            "Bing Luo"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper argues that current agent benchmarks may not accurately measure true capability due to \"reward hacking\" where agents exploit evaluation flaws. The authors introduce HackDetect, a post-hoc audit to identify and quantify these exploits, and the \"Mislead gap\" metric to measure score inflation. Their audit of 15 benchmarks found significant evidence of these issues, suggesting existing capability claims may be overstated.",
+          "url": "http://arxiv.org/abs/2607.22368v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.22368v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.22368v1/figures/figure1_agent_benchmark_pipeline.png",
+          "figure_caption": "Agent benchmark pipeline and five protocol exposure entry points. The upper panel follows the task-to-score path through the agent run, evaluator, and reported score. The lower panel maps the five Exposure sources to their entry points and shows how benchmark-exposed information or control can create a score-relevant shortcut.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.22389v1",
+          "title": "HiKV: Hierarchical Importance-Aware KV Cache with Hardware Acceleration for LLM Decoding",
+          "authors": [
+            "Chao Fang",
+            "Jun Yin",
+            "Man Shi",
+            "Marian Verhelst"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.AR"
+          ],
+          "abstract": "HiKV addresses the KV cache memory bottleneck in LLM decoding by compressing it hierarchically. It first discards unimportant tokens and then further compresses the remaining ones by retaining only significant elements. This algorithm-hardware co-design, featuring a reconfigurable accelerator, achieves significant speedups and energy reductions.",
+          "url": "http://arxiv.org/abs/2607.22389v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.22389v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.22389v1/x1.png",
+          "figure_caption": "The dominated memory access of KV cache becomes the bottleneck of LLM decoding, motivating HiKV to shrink its footprint with high accuracy.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.22345v1",
+          "title": "Teachy Mini: Development and Preliminary Evaluation of a Knowledge-Based Generative Social Robot for Higher Education",
+          "authors": [
+            "Stephan Vonschallen",
+            "Karim Kaufmann",
+            "Dominique Oberle",
+            "Friederike Eyssel",
+            "Theresa Schmiedel"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.RO"
+          ],
+          "abstract": "This paper introduces Teachy Mini, a generative social robot for higher education tutoring. Its core method involves operationalizing knowledge-based design (KBD) principles through system prompting, retrieval-augmented generation, and stateful prompt orchestration. The contribution is a KBD-compliant tutoring system that, in a preliminary evaluation, demonstrated improved learning outcomes compared to a control group.",
+          "url": "http://arxiv.org/abs/2607.22345v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.22345v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.22345v1/Figure1.png",
+          "figure_caption": "Knowledge-based Design Requirements identified by Vonschallen et al. [ 67 ]",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.22520v1",
+          "title": "The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents",
+          "authors": [
+            "Darshan Tank",
+            "Baran Nama"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces the \"regression tax\" to analyze how adding procedural skills impacts LLM agents. It decomposes performance by distinguishing between tasks that fail *after* skills are added (regressions) and those that fail regardless. The core contribution is demonstrating that the best skills improve performance primarily by *reducing regressions* rather than solely by increasing successes, identifying skill description osmosis, grounding displacement, and verification issues as key causes of this negative impact.",
+          "url": "http://arxiv.org/abs/2607.22520v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.22520v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.22520v1/figures/pipeline.png",
+          "figure_caption": "Figure 1 . Three stages of an agent task: grounding (reading the right inputs), method (the procedure), and verification (checking the output). Existing skills mostly target the method stage. In our data, regressions and residual failures concentrate at grounding and verification instead.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.22430v1",
+          "title": "On the Identifiability of Controlled World Models",
+          "authors": [
+            "Xiangteng Zhang",
+            "Yang Guan",
+            "Bo Zhang",
+            "Ya-Qin Zhang",
+            "Shengbo Eben Li"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper addresses the fundamental question of when controlled world models, specifically Joint-Embedding Predictive Architectures (JEPAs), can accurately infer the environment's underlying state and dynamics. The authors establish a theoretical framework showing that identifiability hinges on two policy-dependent conditions related to the spectral separation of predictable signals and the structure of action effects. This theoretical contribution provides crucial insights for designing more robust and interpretable world models for planning and control.",
+          "url": "http://arxiv.org/abs/2607.22430v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.22430v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.22430v1/figures/main.png",
+          "figure_caption": "Overview of controlled world-model identifiability. An encoder maps nonlinear observations to a standard-Gaussian latent representation, and an action-conditioned predictor models the next representation. Representation identifiability is governed by the predictable-signal margin γ rep ​ ( π ) \\( \\gamma_{\\rm rep} \\)(\\( \\pi \\)) , while transition identifiability additionally depends on the conditional action-excitation margin ρ tr ​ ( π ) \\( \\rho_{\\rm tr} \\)(\\( \\pi \\)) .",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 25,
+        "papers_after_llm_filter": 9,
+        "count": 9
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 25,
+    "papers_after_llm_filter": 9,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 97
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.22375v1",
+      "title": "IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation",
+      "authors": [
+        "Varun Gumma",
+        "Navonil Majumder",
+        "Soumitra Sinhahajari",
+        "Soujanya Poria"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "IDEAgent addresses the limitation of current LLM-based research idea generation systems that optimize for either quality or diversity independently. It frames ideation as a Quality-Diversity (QD) search, employing a multi-agent framework to evolve ideas through lineages. IDEAgent jointly drives quality with multi-objective feedback for refinement and diversity through memory and explicit comparisons, aiming to generate a broader range of novel and sound research concepts.",
+      "url": "http://arxiv.org/abs/2607.22375v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22375v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.22375v1/x1.png",
+      "figure_caption": "Left: An abstract overview of IDEAgent highlighting the crucial components and flow. Right: An abstract overview of the evolution of an idea and a lineage, where a raw idea might either be directly rejected, repaired and refined, just refined, or directly accepted as per the assessment by the evaluators. Note that a refinement/repair maintains the lineage of the idea ( ℓ I \\( \\ell_{I} \\) ). We purposefully omit the exact conditionals at each step for simplicity and refer the readers to the methodology ( § \\( \\mathsection \\) 3 ) for it.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.22465v1",
+      "title": "TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI",
+      "authors": [
+        "Ritik Raj",
+        "Souvik Kundu",
+        "Sarbartha Banerjee",
+        "Dheemanth Joshi",
+        "Ishita Vohra"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "TRACE-Router addresses the challenge of routing in agentic AI by making a single, task-level model selection at the beginning of a workflow. This approach, using a contextual bandit, pins all subsequent LLM calls to the chosen model and updates its policy based on the final task outcome (accuracy and latency). Its contribution lies in aligning routing with the unit of supervision, enabling adaptive policies that learn from delayed feedback without needing to estimate individual task complexity.",
+      "url": "http://arxiv.org/abs/2607.22465v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22465v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.22465v1/sections/figures/pareto_avg2_rt.png",
+      "figure_caption": "Task accuracy–latency trade-off on \\( \\tau^{2} \\) -Bench, averaged over the retail and telecom domains. Every interior frontier point is produced by TRACE-Router .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.22529v1",
+      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+      "authors": [
+        "Siyuan Huang",
+        "Pengyu Cheng",
+        "Haotian Liu",
+        "Tao Chen",
+        "Yihao Liu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Skill Self-Play (Skill-SP), a novel framework for LLM training that addresses the trade-off between task diversity and verification reliability. Skill-SP utilizes co-evolving \"skills\" to enable deep, verifiable execution within specific scenarios while maintaining open-ended task variety through dynamic routing. This approach allows LLMs to learn and improve their capabilities in a more robust and efficient manner.",
+      "url": "http://arxiv.org/abs/2607.22529v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22529v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.22385v1",
+      "title": "Agentic Root Cause Analysis through Evidence-Grounded Reasoning",
+      "authors": [
+        "Amaury Wei",
+        "Olga Fink"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces AgentRCA, a novel zero-shot framework for automated root cause analysis of industrial anomalies. It addresses limitations of existing methods by combining a data-driven digital twin with a tool-augmented LLM. AgentRCA reasons through observed data, iteratively gathering evidence and evaluating hypotheses to pinpoint the physical fault, without requiring labeled fault examples.",
+      "url": "http://arxiv.org/abs/2607.22385v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22385v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.22385v1/x1.png",
+      "figure_caption": "Architecture overview of AgentRCA. (A) AgentRCA learns a data-driven digital twin from normal-operation data only. Normal windows are grouped by operating regimes defined by system setpoints ( ω 1 , ω 2 , … \\( \\omega_{1} \\),\\( \\omega_{2} \\),\\( \\dots \\) ). These regimes are used to precompute condition-specific statistical summaries (means 𝝁 \\( \\boldsymbol{\\mu} \\) , standard deviations 𝝈 \\( \\boldsymbol{\\sigma} \\) , correlation matrices 𝐑 \\( \\mathbf{R} \\) , …). In parallel, a global autoencoder f θ f_{\\( \\theta \\)} is trained across all regimes to learn nonlinear system dynamics. (B) The digital twin exposes modular diagnostic tools that provide interpretable evidence to the agent, including autoencoder residual scores, mean and variance shifts, correlation discrepancies, and optional documentation retrieval. (C) At inference time, a tool-augmented LLM agent receives a test window and natural-language fault descriptions. It iteratively queries the diagnostic tools, updates candidate hypotheses, and returns a ranked diagnosis with supporting evidence. Normal operation is included as a possible diagnosis, enabling both anomaly detection and root cause analysis.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.22368v1",
+      "title": "Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI",
+      "authors": [
+        "Jiaqi Shao",
+        "Hanck Chen",
+        "Wei Zhang",
+        "Maxm Pan",
+        "Bing Luo"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper argues that current agent benchmarks may not accurately measure true capability due to \"reward hacking\" where agents exploit evaluation flaws. The authors introduce HackDetect, a post-hoc audit to identify and quantify these exploits, and the \"Mislead gap\" metric to measure score inflation. Their audit of 15 benchmarks found significant evidence of these issues, suggesting existing capability claims may be overstated.",
+      "url": "http://arxiv.org/abs/2607.22368v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22368v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.22368v1/figures/figure1_agent_benchmark_pipeline.png",
+      "figure_caption": "Agent benchmark pipeline and five protocol exposure entry points. The upper panel follows the task-to-score path through the agent run, evaluator, and reported score. The lower panel maps the five Exposure sources to their entry points and shows how benchmark-exposed information or control can create a score-relevant shortcut.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.22389v1",
+      "title": "HiKV: Hierarchical Importance-Aware KV Cache with Hardware Acceleration for LLM Decoding",
+      "authors": [
+        "Chao Fang",
+        "Jun Yin",
+        "Man Shi",
+        "Marian Verhelst"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.AR"
+      ],
+      "abstract": "HiKV addresses the KV cache memory bottleneck in LLM decoding by compressing it hierarchically. It first discards unimportant tokens and then further compresses the remaining ones by retaining only significant elements. This algorithm-hardware co-design, featuring a reconfigurable accelerator, achieves significant speedups and energy reductions.",
+      "url": "http://arxiv.org/abs/2607.22389v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22389v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.22389v1/x1.png",
+      "figure_caption": "The dominated memory access of KV cache becomes the bottleneck of LLM decoding, motivating HiKV to shrink its footprint with high accuracy.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.22345v1",
+      "title": "Teachy Mini: Development and Preliminary Evaluation of a Knowledge-Based Generative Social Robot for Higher Education",
+      "authors": [
+        "Stephan Vonschallen",
+        "Karim Kaufmann",
+        "Dominique Oberle",
+        "Friederike Eyssel",
+        "Theresa Schmiedel"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces Teachy Mini, a generative social robot for higher education tutoring. Its core method involves operationalizing knowledge-based design (KBD) principles through system prompting, retrieval-augmented generation, and stateful prompt orchestration. The contribution is a KBD-compliant tutoring system that, in a preliminary evaluation, demonstrated improved learning outcomes compared to a control group.",
+      "url": "http://arxiv.org/abs/2607.22345v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22345v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.22345v1/Figure1.png",
+      "figure_caption": "Knowledge-based Design Requirements identified by Vonschallen et al. [ 67 ]",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.22520v1",
+      "title": "The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents",
+      "authors": [
+        "Darshan Tank",
+        "Baran Nama"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces the \"regression tax\" to analyze how adding procedural skills impacts LLM agents. It decomposes performance by distinguishing between tasks that fail *after* skills are added (regressions) and those that fail regardless. The core contribution is demonstrating that the best skills improve performance primarily by *reducing regressions* rather than solely by increasing successes, identifying skill description osmosis, grounding displacement, and verification issues as key causes of this negative impact.",
+      "url": "http://arxiv.org/abs/2607.22520v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22520v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.22520v1/figures/pipeline.png",
+      "figure_caption": "Figure 1 . Three stages of an agent task: grounding (reading the right inputs), method (the procedure), and verification (checking the output). Existing skills mostly target the method stage. In our data, regressions and residual failures concentrate at grounding and verification instead.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.22430v1",
+      "title": "On the Identifiability of Controlled World Models",
+      "authors": [
+        "Xiangteng Zhang",
+        "Yang Guan",
+        "Bo Zhang",
+        "Ya-Qin Zhang",
+        "Shengbo Eben Li"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper addresses the fundamental question of when controlled world models, specifically Joint-Embedding Predictive Architectures (JEPAs), can accurately infer the environment's underlying state and dynamics. The authors establish a theoretical framework showing that identifiability hinges on two policy-dependent conditions related to the spectral separation of predictable signals and the structure of action effects. This theoretical contribution provides crucial insights for designing more robust and interpretable world models for planning and control.",
+      "url": "http://arxiv.org/abs/2607.22430v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22430v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.22430v1/figures/main.png",
+      "figure_caption": "Overview of controlled world-model identifiability. An encoder maps nonlinear observations to a standard-Gaussian latent representation, and an action-conditioned predictor models the next representation. Representation identifiability is governed by the predictable-signal margin γ rep ​ ( π ) \\( \\gamma_{\\rm rep} \\)(\\( \\pi \\)) , while transition identifiability additionally depends on the conditional action-excitation margin ρ tr ​ ( π ) \\( \\rho_{\\rm tr} \\)(\\( \\pi \\)) .",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.22375v1",
+      "title": "IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation",
+      "authors": [
+        "Varun Gumma",
+        "Navonil Majumder",
+        "Soumitra Sinhahajari",
+        "Soujanya Poria"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "IDEAgent addresses the limitation of current LLM-based research idea generation systems that optimize for either quality or diversity independently. It frames ideation as a Quality-Diversity (QD) search, employing a multi-agent framework to evolve ideas through lineages. IDEAgent jointly drives quality with multi-objective feedback for refinement and diversity through memory and explicit comparisons, aiming to generate a broader range of novel and sound research concepts.",
+      "url": "http://arxiv.org/abs/2607.22375v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22375v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.22375v1/x1.png",
+      "figure_caption": "Left: An abstract overview of IDEAgent highlighting the crucial components and flow. Right: An abstract overview of the evolution of an idea and a lineage, where a raw idea might either be directly rejected, repaired and refined, just refined, or directly accepted as per the assessment by the evaluators. Note that a refinement/repair maintains the lineage of the idea ( ℓ I \\( \\ell_{I} \\) ). We purposefully omit the exact conditionals at each step for simplicity and refer the readers to the methodology ( § \\( \\mathsection \\) 3 ) for it.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.22465v1",
+      "title": "TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI",
+      "authors": [
+        "Ritik Raj",
+        "Souvik Kundu",
+        "Sarbartha Banerjee",
+        "Dheemanth Joshi",
+        "Ishita Vohra"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "TRACE-Router addresses the challenge of routing in agentic AI by making a single, task-level model selection at the beginning of a workflow. This approach, using a contextual bandit, pins all subsequent LLM calls to the chosen model and updates its policy based on the final task outcome (accuracy and latency). Its contribution lies in aligning routing with the unit of supervision, enabling adaptive policies that learn from delayed feedback without needing to estimate individual task complexity.",
+      "url": "http://arxiv.org/abs/2607.22465v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22465v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.22465v1/sections/figures/pareto_avg2_rt.png",
+      "figure_caption": "Task accuracy–latency trade-off on \\( \\tau^{2} \\) -Bench, averaged over the retail and telecom domains. Every interior frontier point is produced by TRACE-Router .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.22529v1",
+      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+      "authors": [
+        "Siyuan Huang",
+        "Pengyu Cheng",
+        "Haotian Liu",
+        "Tao Chen",
+        "Yihao Liu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Skill Self-Play (Skill-SP), a novel framework for LLM training that addresses the trade-off between task diversity and verification reliability. Skill-SP utilizes co-evolving \"skills\" to enable deep, verifiable execution within specific scenarios while maintaining open-ended task variety through dynamic routing. This approach allows LLMs to learn and improve their capabilities in a more robust and efficient manner.",
+      "url": "http://arxiv.org/abs/2607.22529v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22529v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.22385v1",
+      "title": "Agentic Root Cause Analysis through Evidence-Grounded Reasoning",
+      "authors": [
+        "Amaury Wei",
+        "Olga Fink"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces AgentRCA, a novel zero-shot framework for automated root cause analysis of industrial anomalies. It addresses limitations of existing methods by combining a data-driven digital twin with a tool-augmented LLM. AgentRCA reasons through observed data, iteratively gathering evidence and evaluating hypotheses to pinpoint the physical fault, without requiring labeled fault examples.",
+      "url": "http://arxiv.org/abs/2607.22385v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22385v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.22385v1/x1.png",
+      "figure_caption": "Architecture overview of AgentRCA. (A) AgentRCA learns a data-driven digital twin from normal-operation data only. Normal windows are grouped by operating regimes defined by system setpoints ( ω 1 , ω 2 , … \\( \\omega_{1} \\),\\( \\omega_{2} \\),\\( \\dots \\) ). These regimes are used to precompute condition-specific statistical summaries (means 𝝁 \\( \\boldsymbol{\\mu} \\) , standard deviations 𝝈 \\( \\boldsymbol{\\sigma} \\) , correlation matrices 𝐑 \\( \\mathbf{R} \\) , …). In parallel, a global autoencoder f θ f_{\\( \\theta \\)} is trained across all regimes to learn nonlinear system dynamics. (B) The digital twin exposes modular diagnostic tools that provide interpretable evidence to the agent, including autoencoder residual scores, mean and variance shifts, correlation discrepancies, and optional documentation retrieval. (C) At inference time, a tool-augmented LLM agent receives a test window and natural-language fault descriptions. It iteratively queries the diagnostic tools, updates candidate hypotheses, and returns a ranked diagnosis with supporting evidence. Normal operation is included as a possible diagnosis, enabling both anomaly detection and root cause analysis.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.22368v1",
+      "title": "Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI",
+      "authors": [
+        "Jiaqi Shao",
+        "Hanck Chen",
+        "Wei Zhang",
+        "Maxm Pan",
+        "Bing Luo"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper argues that current agent benchmarks may not accurately measure true capability due to \"reward hacking\" where agents exploit evaluation flaws. The authors introduce HackDetect, a post-hoc audit to identify and quantify these exploits, and the \"Mislead gap\" metric to measure score inflation. Their audit of 15 benchmarks found significant evidence of these issues, suggesting existing capability claims may be overstated.",
+      "url": "http://arxiv.org/abs/2607.22368v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22368v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.22368v1/figures/figure1_agent_benchmark_pipeline.png",
+      "figure_caption": "Agent benchmark pipeline and five protocol exposure entry points. The upper panel follows the task-to-score path through the agent run, evaluator, and reported score. The lower panel maps the five Exposure sources to their entry points and shows how benchmark-exposed information or control can create a score-relevant shortcut.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.22389v1",
+      "title": "HiKV: Hierarchical Importance-Aware KV Cache with Hardware Acceleration for LLM Decoding",
+      "authors": [
+        "Chao Fang",
+        "Jun Yin",
+        "Man Shi",
+        "Marian Verhelst"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.AR"
+      ],
+      "abstract": "HiKV addresses the KV cache memory bottleneck in LLM decoding by compressing it hierarchically. It first discards unimportant tokens and then further compresses the remaining ones by retaining only significant elements. This algorithm-hardware co-design, featuring a reconfigurable accelerator, achieves significant speedups and energy reductions.",
+      "url": "http://arxiv.org/abs/2607.22389v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22389v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.22389v1/x1.png",
+      "figure_caption": "The dominated memory access of KV cache becomes the bottleneck of LLM decoding, motivating HiKV to shrink its footprint with high accuracy.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.22345v1",
+      "title": "Teachy Mini: Development and Preliminary Evaluation of a Knowledge-Based Generative Social Robot for Higher Education",
+      "authors": [
+        "Stephan Vonschallen",
+        "Karim Kaufmann",
+        "Dominique Oberle",
+        "Friederike Eyssel",
+        "Theresa Schmiedel"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces Teachy Mini, a generative social robot for higher education tutoring. Its core method involves operationalizing knowledge-based design (KBD) principles through system prompting, retrieval-augmented generation, and stateful prompt orchestration. The contribution is a KBD-compliant tutoring system that, in a preliminary evaluation, demonstrated improved learning outcomes compared to a control group.",
+      "url": "http://arxiv.org/abs/2607.22345v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22345v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.22345v1/Figure1.png",
+      "figure_caption": "Knowledge-based Design Requirements identified by Vonschallen et al. [ 67 ]",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.22520v1",
+      "title": "The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents",
+      "authors": [
+        "Darshan Tank",
+        "Baran Nama"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces the \"regression tax\" to analyze how adding procedural skills impacts LLM agents. It decomposes performance by distinguishing between tasks that fail *after* skills are added (regressions) and those that fail regardless. The core contribution is demonstrating that the best skills improve performance primarily by *reducing regressions* rather than solely by increasing successes, identifying skill description osmosis, grounding displacement, and verification issues as key causes of this negative impact.",
+      "url": "http://arxiv.org/abs/2607.22520v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22520v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.22520v1/figures/pipeline.png",
+      "figure_caption": "Figure 1 . Three stages of an agent task: grounding (reading the right inputs), method (the procedure), and verification (checking the output). Existing skills mostly target the method stage. In our data, regressions and residual failures concentrate at grounding and verification instead.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.22430v1",
+      "title": "On the Identifiability of Controlled World Models",
+      "authors": [
+        "Xiangteng Zhang",
+        "Yang Guan",
+        "Bo Zhang",
+        "Ya-Qin Zhang",
+        "Shengbo Eben Li"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper addresses the fundamental question of when controlled world models, specifically Joint-Embedding Predictive Architectures (JEPAs), can accurately infer the environment's underlying state and dynamics. The authors establish a theoretical framework showing that identifiability hinges on two policy-dependent conditions related to the spectral separation of predictable signals and the structure of action effects. This theoretical contribution provides crucial insights for designing more robust and interpretable world models for planning and control.",
+      "url": "http://arxiv.org/abs/2607.22430v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22430v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.22430v1/figures/main.png",
+      "figure_caption": "Overview of controlled world-model identifiability. An encoder maps nonlinear observations to a standard-Gaussian latent representation, and an action-conditioned predictor models the next representation. Representation identifiability is governed by the predictable-signal margin γ rep ​ ( π ) \\( \\gamma_{\\rm rep} \\)(\\( \\pi \\)) , while transition identifiability additionally depends on the conditional action-excitation margin ρ tr ​ ( π ) \\( \\rho_{\\rm tr} \\)(\\( \\pi \\)) .",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
