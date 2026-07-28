@@ -1,0 +1,1141 @@
+{
+  "date": "2026-07-28",
+  "generated_at": "2026-07-28T11:37:33.445805+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.24743v1",
+          "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+          "authors": [
+            "Hangjie Yuan",
+            "Yichen Qian",
+            "Zhiwei Tang",
+            "Xianzhe Xu",
+            "Lirong Wu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "ClinFusion is a vision-centric multimodal LLM system designed for holistic medical understanding. Its core method involves a compositional and cascaded vision encoder that unifies diverse 2D and 3D medical image understanding using a novel Spatial-Aware Locality Fusion operator. The paper's contribution lies in this unified vision encoding and a new evaluation framework that aligns with radiologists' practices, ensuring clinically relevant and factually accurate assessments.",
+          "url": "http://arxiv.org/abs/2607.24743v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.24743v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2607.24743v1/x1.png",
+          "figure_caption": "Overview of the ClinFusion framework. a , Compositional vision encoder. We address the limitation of monolithic encoders by proposing a compositional architecture with a native 3D encoder and an array of 2D encoders unified via CaSL Fusion, supported by a 22M-sample data curation pipeline and a progressive 5-stage training recipe. b , Vision-grounded evaluation. We identify key evaluation limitations—lack of instruction-following assessment and reliance on global-level text-matching metrics—and introduce MedIF-Bench for medical instruction following and an RoI-Grounded Report Generation Evaluation scheme that assesses diagnostic accuracy at the region level using an LLM-as-a-Judge. c , Agentic tool use extension. To enhance deployment, we equip ClinFusion with perception expert tools and a retrieval-augmented generation pipeline within a plan–act workflow, demonstrating consistent improvements in both text-only and multimodal clinical scenarios.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.24586v1",
+          "title": "D-Score: A Spectral Hidden-State Signal for Hallucination Detection in Large Language Models",
+          "authors": [
+            "Bianca Raimondi",
+            "Davide Evangelista",
+            "Maurizio Gabbrielli",
+            "Elena Loli Piccolomini"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces the D-Score, a novel method for detecting hallucinations in Large Language Models. The D-Score is a spectral statistic derived from the geometry of hidden activations during a single forward pass. It quantifies how many singular directions in the activation matrix maintain a leading singular value, with higher scores indicating potential hallucinations due to conflicting internal representations.",
+          "url": "http://arxiv.org/abs/2607.24586v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.24586v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.24586v1/x1.png",
+          "figure_caption": "AUROC of the D-Score detector on FAVA-Annotation with Llama-3-8B-Instruct as a function of the tolerance parameter \\( \\tau \\) on the horizontal axis and the layer j j on the vertical axis. A broad region of nearby configurations achieves similar performance, indicating that the score is not tied to one isolated choice of \\( \\tau \\) and j j .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.24649v1",
+          "title": "Reason-Mediated Behavioral Models for Auditing LLM Social Simulators",
+          "authors": [
+            "Atharva Pandey",
+            "Gautam Jajoo"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces a method to audit Large Language Model (LLM) social simulators by analyzing the underlying \"reasons\" behind simulated behaviors, not just the final outcomes. The core contribution is demonstrating that human-derived rationales significantly improve prediction of behavioral intent, and that LLMs can be evaluated on their ability to simulate these reason patterns independently of observed outcomes. This \"reason-mediated\" approach offers a more robust way to assess the fidelity of LLM social simulations.",
+          "url": "http://arxiv.org/abs/2607.24649v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.24649v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.24649v1/figures/fig1_reason_model_tight.png",
+          "figure_caption": "The reason-mediated behavioral model. We hold D , K , X D,K,X fixed and test whether human or LLM-simulated reasons Z Z support the same behavioral readout. Bold arrows show the evaluated mediated path; dotted gray arrows show controlled direct paths.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.24720v1",
+          "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
+          "authors": [
+            "Tianyi Men",
+            "Zhuoran Jin",
+            "Kang Liu",
+            "Jun Zhao"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces a controlled environment to systematically study and improve multi-turn, long-horizon planning in foundation model agents. The core method involves analyzing planning ability acquisition during pre-training and shaping it through post-training techniques like GRPO and OPD. The key contribution is demonstrating that explicit world model construction and careful data curation are crucial for strong generalization, while suboptimal trajectories significantly degrade performance.",
+          "url": "http://arxiv.org/abs/2607.24720v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.24720v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.24720v1/x1.png",
+          "figure_caption": "An overview of the studying into physics of multi-turn long-horizon planning. It studies the long-horizon planning ability across three training stages: Large-scale pre-training , RL-based post-training (OPD and GRPO) , and Multi-teacher model consolidation post-training (MOPD) . The giraffe icon is used to represent the “L” in “Long”. Its long neck also reflects that the agents need to look far ahead in long-horizon planning.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.24653v1",
+          "title": "Kimi K3: Open Frontier Intelligence",
+          "authors": [
+            " Kimi Team",
+            "Tongtong Bai",
+            "Yifan Bai",
+            "Yiping Bao",
+            "M. C."
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "Kimi K3 is a 2.8T parameter Mixture-of-Experts model that achieves significant scaling efficiency improvements through novel architectural components like Kimi Delta Attention and Stable LatentMoE. Its core contribution lies in its enhanced information flow across sequence length and model depth, enabling a 1-million-token context window and robust long-horizon execution, particularly in agentic and coding tasks.",
+          "url": "http://arxiv.org/abs/2607.24653v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.24653v1",
+          "score": 8.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.24663v1",
+          "title": "A corrective agentic hybrid RAG and an operations-grounded evaluation for a scientific facility",
+          "authors": [
+            "Rajat Sainju",
+            "Dariusz Jarosz",
+            "Hairong Shang",
+            "Michael Prince",
+            "Ryan M. Aydelott"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.IR",
+            "physics.acc-ph"
+          ],
+          "abstract": "This paper introduces APS-RAG, a platform that makes the vast operational knowledge of a scientific facility accessible via natural language queries. Its core method fuses multiple retrieval methods (dense, sparse, KG) with an agentic corrective loop and a native-tool executor. The contribution lies in this novel retrieval system and an operations-grounded evaluation dataset (APS-Bench) demonstrating significant improvements in knowledge recall.",
+          "url": "http://arxiv.org/abs/2607.24663v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.24663v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.24663v1/figures/fig_1.png",
+          "figure_caption": "APS-RAG deployment overview. Through a single natural-language interface, APS staff can query the facility’s dispersed operational record. The platform pools information from nine distinct APS data sources: eight indexed knowledge bases are kept current by a daily diff-and-upsert pipeline, and the EPICS Archiver is not pre-indexed and is accessed at query time for live and historical process-variable data through the Model Context Protocol (MCP) tooling layer. Three user-selectable query modes are available: APS-RAG (Fast) for quicker responses, APS-RAG (Thinking) , which enables the corrective agentic loop, and AI Troubleshoot , which retrieves knowledge-graph-targeted fault-resolution steps.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.24625v1",
+          "title": "Agentic Permissions Policy Algebra for Taint Confinement in LLM Agents",
+          "authors": [
+            "Arseny Kravchenko",
+            "Vadim Liventsev",
+            "Innokentii Konstantinov",
+            "Ildar Iskhakov",
+            "Matvey Kukuy"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "This paper introduces APPA, a novel Information Flow Control framework for LLM agents. APPA addresses the usability bottleneck of traditional taint tracking by enabling engine-managed context branching and prospective acquisition enforcement. This allows agents to safely process mixed-confidentiality data by evaluating potential taint descents and generating remedy plans before data acquisition, thus preventing permanent context pollution and enhancing utility.",
+          "url": "http://arxiv.org/abs/2607.24625v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.24625v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.24625v1/figures/VisAbstract.png",
+          "figure_caption": "Figure 1. APPA architecture for taint confinement and prospective enforcement. When inspecting untrusted or restricted data, the harness spawns a speculative child branch with an inherited pre-branch transcript snapshot, post-branch isolation, and a descended Label. Raw returns that would narrow the parent are blocked pending explicit acceptance or remedy plans, while adequate raw values and validated sanitized derivatives may merge through the checked exit. All execution steps project in real time to a single append-only event log.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.24717v1",
+          "title": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
+          "authors": [
+            "Zhen Huang",
+            "Yikun Wang",
+            "Shijie Xia",
+            "Pengfei Liu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "DataOrchestra introduces a novel framework that dynamically orchestrates per-example data processing pipelines for LLM pretraining. Instead of uniform strategies, it intelligently decides whether to drop, keep, or clean data chunks, and for cleaning, it selects and instructs specific downstream tools (including LLM-based rewriting) to refine the data. This adaptive approach leads to stable performance gains across multiple benchmarks compared to fixed processing methods.",
+          "url": "http://arxiv.org/abs/2607.24717v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.24717v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.24553v1",
+          "title": "EchoBridge: Long-Tail-Aware ECG-Echocardiography Text Alignment for Echocardiography-Derived Cardiac Findings",
+          "authors": [
+            "Xiaocheng Fang",
+            "Jieyi Cai",
+            "Guangkun Nie",
+            "Haoyu Wang",
+            "Jiarui Jin"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "EchoBridge aligns ECGs with echocardiography text reports to learn ECG representations of cardiac findings. It uses Complementary Shared-Private Projection (CSPP) to disentangle modality-specific information and Adaptive Prototype Boundary Calibration (APBC) to handle the imbalanced distribution of cardiac findings, improving performance on rare conditions.",
+          "url": "http://arxiv.org/abs/2607.24553v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.24553v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.24553v1/x1.png",
+          "figure_caption": "Figure 1. Two challenges in ECG–echocardiography text alignment. Left: Global alignment entangles modality-specific factors and weakens clinically relevant cross-modal correspondence. Right: Prevalence imbalance provides fewer positive constraints and less reliable sample–prototype organization for low-prevalence findings.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.24562v1",
+          "title": "Hierarchical Group-Conditional Conformal Risk Control for Selective Prediction in Language Models",
+          "authors": [
+            "Murilo Salem",
+            "Luísa Böhm",
+            "Daniel Pontes",
+            "Anderson Ferrugem"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper addresses the limitation of standard Conformal Risk Control (CRC) in language models, which provides population-level risk guarantees but can fail to protect specific subgroups. They propose Hierarchical Group-Conditional CRC (HG-CRC), a post-hoc method that enforces risk control simultaneously across all levels of a user-defined group hierarchy. HG-CRC achieves this by applying a Bonferroni correction and a leaf-first policy, ensuring rigorous guarantees for all subgroups without retraining the model.",
+          "url": "http://arxiv.org/abs/2607.24562v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.24562v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.24562v1/x1.png",
+          "figure_caption": "Mixture shift violation rates (ARC Challenge). Global CRC (blue) violates the risk budget in 15–47% of trials. Groupwise CRC (orange) controls per-group risk. The dashed line marks α = 0.10 \\( \\alpha \\)=0.10 .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.24551v1",
+          "title": "LLM-Assisted Ontology Engineering and Construction of a French Legal Knowledge Graph",
+          "authors": [
+            "G{é}nesis Montenegro",
+            "Mokhtar Boumedyen Billami",
+            "Catherine Faron",
+            "Fabien Gandon",
+            "Pierre Monnin"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper presents a two-stage LLM-assisted workflow to build a French legal knowledge graph from maintenance regulations. The first stage uses LLMs for open extraction of entities and relations, followed by label normalization and property induction. The second stage leverages the developed ontology for closed extraction and RDF graph construction across the entire corpus, demonstrating robust structured outputs and significant efficiency gains.",
+          "url": "http://arxiv.org/abs/2607.24551v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.24551v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.24555v1",
+          "title": "LOCKS: Page-Local Compact Key Summaries for Efficient Long-Context Decoding",
+          "authors": [
+            "Junsung Hwang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "LOCKS addresses the KV cache bottleneck in long-context LLMs by creating compact, page-local spectral summaries. These summaries allow the model to efficiently estimate attention mass and select only the most relevant pages for reconstruction, significantly reducing computation. This method achieves near full-cache performance with a fraction of the KV cache access, especially in challenging long-form reasoning tasks.",
+          "url": "http://arxiv.org/abs/2607.24555v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.24555v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.24555v1/x1.png",
+          "figure_caption": "The locality thesis in one figure (Llama-3.1-8B, Qwen3-4B twin and full protocol in App. B ). (a) Exact vs. reconstructed page-mass share at matched bytes. (b) Carrier retention vs. per-head budget; the ceiling is 100 100 by construction. (c) The error ladder at matched bytes, one scope per row. (d) RULER-16K capability families at a 256 256 -token budget. Page scope hugs the exact diagonal, keeps carriers down to a 0.5 % 0.5\\% budget, improves every link, and traces FullKV.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.24588v1",
+          "title": "SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents",
+          "authors": [
+            "Hang Ni",
+            "Weijia Zhang",
+            "Fan Liu",
+            "Mengqian Lu",
+            "Hao Liu"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces SIREN, an end-to-end system for automated extreme weather early warning using LLM agents. Its core method involves developing a comprehensive benchmark (SIREN-Bench) to evaluate LLM capabilities across various warning tasks and then proposing a novel LLM agent framework to address identified gaps. The main contribution is demonstrating the feasibility of automating the entire warning-to-action process, moving beyond isolated scientific tasks.",
+          "url": "http://arxiv.org/abs/2607.24588v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.24588v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.24588v1/x1.png",
+          "figure_caption": "Figure 1. Connections to the EWS pipeline (Reichstein et al. , 2025 ) .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.24570v1",
+          "title": "The Visual Bottleneck: Sparse-Frame Adaptation of MLLMs for Joint Spatial-Temporal Video Grounding",
+          "authors": [
+            "Jiameng Zhang",
+            "Srikanth Madikeri"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper addresses the performance drop in multimodal large language models (MLLMs) for video grounding when processing sparse frames. The core method involves a systematic study revealing that visual feature extraction is the bottleneck. By adapting only the final three ViT layers, the model achieves significant performance gains on sparse inputs, demonstrating an effective strategy for real-world video moderation.",
+          "url": "http://arxiv.org/abs/2607.24570v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.24570v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.24570v1/figure1.png",
+          "figure_caption": "Overview of the train-dense/infer-sparse mismatch and our proposed solutions. Left: the Qwen3-VL 8B model drops from 56.0% to 22.3% temporal mIoU when frames are reduced from hundreds to 16. Center: our four key findings. Right: a fine-tuned 2B model outperforms a zero-shot 8B model on both temporal and spatial grounding.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.24665v1",
+          "title": "MMOE: Modernizing Diffusion Transformers with Efficient Expert Design",
+          "authors": [
+            "Yanhao Jia",
+            "Jiepeng Wang",
+            "Haibin Huang",
+            "Chi Zhang",
+            "Erik Cambria"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CV",
+            "cs.GR"
+          ],
+          "abstract": "This paper introduces ModernMOE (MMOE), a method to efficiently scale diffusion transformers for generative AI. MMOE adapts principles from efficient large language models, like sparse experts and residual connections, to diffusion models. This approach aims to balance generation quality with training and deployment costs, unlike previous methods that primarily increased parameter counts.",
+          "url": "http://arxiv.org/abs/2607.24665v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.24665v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.24665v1/x1.png",
+          "figure_caption": "Architecture of MMOE. Left: a vanilla MoE block that routes each token to a small pool of feed-forward experts. Right: the MMOE block, which adds MoE++ lightweight experts (copy, zero, and constant), gate-residual routing, and attention-residual aggregation over previously completed block states before both the attention and the expert sub-layer.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.24651v1",
+          "title": "Evidence Attribution in Visual Document Understanding without Coordinates or Region Labels",
+          "authors": [
+            "Zhuchenyang Liu",
+            "Yao Zhang",
+            "Yu Xiao"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.CV",
+            "cs.IR"
+          ],
+          "abstract": "This paper investigates \"Attribution Hallucination\" in visual document understanding, where models incorrectly identify evidence regions for their answers. The core method compares a traditional coordinate-based interface with a novel language interface that requires models to quote evidence verbatim. The contribution is demonstrating that this language-based approach, by limiting expression to text, may mitigate attribution failures compared to coordinate-based methods.",
+          "url": "http://arxiv.org/abs/2607.24651v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.24651v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.24651v1/x1.png",
+          "figure_caption": "The interface artifact in one example (Qwen3-VL-8B; page 2 of a 24-page input; question: what specific alloy is used for the internal contact pins). Both answers are correct. Only the evidence interface differs.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 23,
+        "papers_after_llm_filter": 16,
+        "count": 16
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 23,
+    "papers_after_llm_filter": 16,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 50
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.24743v1",
+      "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+      "authors": [
+        "Hangjie Yuan",
+        "Yichen Qian",
+        "Zhiwei Tang",
+        "Xianzhe Xu",
+        "Lirong Wu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "ClinFusion is a vision-centric multimodal LLM system designed for holistic medical understanding. Its core method involves a compositional and cascaded vision encoder that unifies diverse 2D and 3D medical image understanding using a novel Spatial-Aware Locality Fusion operator. The paper's contribution lies in this unified vision encoding and a new evaluation framework that aligns with radiologists' practices, ensuring clinically relevant and factually accurate assessments.",
+      "url": "http://arxiv.org/abs/2607.24743v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24743v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2607.24743v1/x1.png",
+      "figure_caption": "Overview of the ClinFusion framework. a , Compositional vision encoder. We address the limitation of monolithic encoders by proposing a compositional architecture with a native 3D encoder and an array of 2D encoders unified via CaSL Fusion, supported by a 22M-sample data curation pipeline and a progressive 5-stage training recipe. b , Vision-grounded evaluation. We identify key evaluation limitations—lack of instruction-following assessment and reliance on global-level text-matching metrics—and introduce MedIF-Bench for medical instruction following and an RoI-Grounded Report Generation Evaluation scheme that assesses diagnostic accuracy at the region level using an LLM-as-a-Judge. c , Agentic tool use extension. To enhance deployment, we equip ClinFusion with perception expert tools and a retrieval-augmented generation pipeline within a plan–act workflow, demonstrating consistent improvements in both text-only and multimodal clinical scenarios.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24586v1",
+      "title": "D-Score: A Spectral Hidden-State Signal for Hallucination Detection in Large Language Models",
+      "authors": [
+        "Bianca Raimondi",
+        "Davide Evangelista",
+        "Maurizio Gabbrielli",
+        "Elena Loli Piccolomini"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces the D-Score, a novel method for detecting hallucinations in Large Language Models. The D-Score is a spectral statistic derived from the geometry of hidden activations during a single forward pass. It quantifies how many singular directions in the activation matrix maintain a leading singular value, with higher scores indicating potential hallucinations due to conflicting internal representations.",
+      "url": "http://arxiv.org/abs/2607.24586v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24586v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.24586v1/x1.png",
+      "figure_caption": "AUROC of the D-Score detector on FAVA-Annotation with Llama-3-8B-Instruct as a function of the tolerance parameter \\( \\tau \\) on the horizontal axis and the layer j j on the vertical axis. A broad region of nearby configurations achieves similar performance, indicating that the score is not tied to one isolated choice of \\( \\tau \\) and j j .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24649v1",
+      "title": "Reason-Mediated Behavioral Models for Auditing LLM Social Simulators",
+      "authors": [
+        "Atharva Pandey",
+        "Gautam Jajoo"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a method to audit Large Language Model (LLM) social simulators by analyzing the underlying \"reasons\" behind simulated behaviors, not just the final outcomes. The core contribution is demonstrating that human-derived rationales significantly improve prediction of behavioral intent, and that LLMs can be evaluated on their ability to simulate these reason patterns independently of observed outcomes. This \"reason-mediated\" approach offers a more robust way to assess the fidelity of LLM social simulations.",
+      "url": "http://arxiv.org/abs/2607.24649v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24649v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.24649v1/figures/fig1_reason_model_tight.png",
+      "figure_caption": "The reason-mediated behavioral model. We hold D , K , X D,K,X fixed and test whether human or LLM-simulated reasons Z Z support the same behavioral readout. Bold arrows show the evaluated mediated path; dotted gray arrows show controlled direct paths.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24720v1",
+      "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
+      "authors": [
+        "Tianyi Men",
+        "Zhuoran Jin",
+        "Kang Liu",
+        "Jun Zhao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a controlled environment to systematically study and improve multi-turn, long-horizon planning in foundation model agents. The core method involves analyzing planning ability acquisition during pre-training and shaping it through post-training techniques like GRPO and OPD. The key contribution is demonstrating that explicit world model construction and careful data curation are crucial for strong generalization, while suboptimal trajectories significantly degrade performance.",
+      "url": "http://arxiv.org/abs/2607.24720v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24720v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.24720v1/x1.png",
+      "figure_caption": "An overview of the studying into physics of multi-turn long-horizon planning. It studies the long-horizon planning ability across three training stages: Large-scale pre-training , RL-based post-training (OPD and GRPO) , and Multi-teacher model consolidation post-training (MOPD) . The giraffe icon is used to represent the “L” in “Long”. Its long neck also reflects that the agents need to look far ahead in long-horizon planning.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24653v1",
+      "title": "Kimi K3: Open Frontier Intelligence",
+      "authors": [
+        " Kimi Team",
+        "Tongtong Bai",
+        "Yifan Bai",
+        "Yiping Bao",
+        "M. C."
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "Kimi K3 is a 2.8T parameter Mixture-of-Experts model that achieves significant scaling efficiency improvements through novel architectural components like Kimi Delta Attention and Stable LatentMoE. Its core contribution lies in its enhanced information flow across sequence length and model depth, enabling a 1-million-token context window and robust long-horizon execution, particularly in agentic and coding tasks.",
+      "url": "http://arxiv.org/abs/2607.24653v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24653v1",
+      "score": 8.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.24663v1",
+      "title": "A corrective agentic hybrid RAG and an operations-grounded evaluation for a scientific facility",
+      "authors": [
+        "Rajat Sainju",
+        "Dariusz Jarosz",
+        "Hairong Shang",
+        "Michael Prince",
+        "Ryan M. Aydelott"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.IR",
+        "physics.acc-ph"
+      ],
+      "abstract": "This paper introduces APS-RAG, a platform that makes the vast operational knowledge of a scientific facility accessible via natural language queries. Its core method fuses multiple retrieval methods (dense, sparse, KG) with an agentic corrective loop and a native-tool executor. The contribution lies in this novel retrieval system and an operations-grounded evaluation dataset (APS-Bench) demonstrating significant improvements in knowledge recall.",
+      "url": "http://arxiv.org/abs/2607.24663v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24663v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24663v1/figures/fig_1.png",
+      "figure_caption": "APS-RAG deployment overview. Through a single natural-language interface, APS staff can query the facility’s dispersed operational record. The platform pools information from nine distinct APS data sources: eight indexed knowledge bases are kept current by a daily diff-and-upsert pipeline, and the EPICS Archiver is not pre-indexed and is accessed at query time for live and historical process-variable data through the Model Context Protocol (MCP) tooling layer. Three user-selectable query modes are available: APS-RAG (Fast) for quicker responses, APS-RAG (Thinking) , which enables the corrective agentic loop, and AI Troubleshoot , which retrieves knowledge-graph-targeted fault-resolution steps.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24625v1",
+      "title": "Agentic Permissions Policy Algebra for Taint Confinement in LLM Agents",
+      "authors": [
+        "Arseny Kravchenko",
+        "Vadim Liventsev",
+        "Innokentii Konstantinov",
+        "Ildar Iskhakov",
+        "Matvey Kukuy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces APPA, a novel Information Flow Control framework for LLM agents. APPA addresses the usability bottleneck of traditional taint tracking by enabling engine-managed context branching and prospective acquisition enforcement. This allows agents to safely process mixed-confidentiality data by evaluating potential taint descents and generating remedy plans before data acquisition, thus preventing permanent context pollution and enhancing utility.",
+      "url": "http://arxiv.org/abs/2607.24625v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24625v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24625v1/figures/VisAbstract.png",
+      "figure_caption": "Figure 1. APPA architecture for taint confinement and prospective enforcement. When inspecting untrusted or restricted data, the harness spawns a speculative child branch with an inherited pre-branch transcript snapshot, post-branch isolation, and a descended Label. Raw returns that would narrow the parent are blocked pending explicit acceptance or remedy plans, while adequate raw values and validated sanitized derivatives may merge through the checked exit. All execution steps project in real time to a single append-only event log.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24717v1",
+      "title": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
+      "authors": [
+        "Zhen Huang",
+        "Yikun Wang",
+        "Shijie Xia",
+        "Pengfei Liu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "DataOrchestra introduces a novel framework that dynamically orchestrates per-example data processing pipelines for LLM pretraining. Instead of uniform strategies, it intelligently decides whether to drop, keep, or clean data chunks, and for cleaning, it selects and instructs specific downstream tools (including LLM-based rewriting) to refine the data. This adaptive approach leads to stable performance gains across multiple benchmarks compared to fixed processing methods.",
+      "url": "http://arxiv.org/abs/2607.24717v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24717v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24553v1",
+      "title": "EchoBridge: Long-Tail-Aware ECG-Echocardiography Text Alignment for Echocardiography-Derived Cardiac Findings",
+      "authors": [
+        "Xiaocheng Fang",
+        "Jieyi Cai",
+        "Guangkun Nie",
+        "Haoyu Wang",
+        "Jiarui Jin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "EchoBridge aligns ECGs with echocardiography text reports to learn ECG representations of cardiac findings. It uses Complementary Shared-Private Projection (CSPP) to disentangle modality-specific information and Adaptive Prototype Boundary Calibration (APBC) to handle the imbalanced distribution of cardiac findings, improving performance on rare conditions.",
+      "url": "http://arxiv.org/abs/2607.24553v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24553v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24553v1/x1.png",
+      "figure_caption": "Figure 1. Two challenges in ECG–echocardiography text alignment. Left: Global alignment entangles modality-specific factors and weakens clinically relevant cross-modal correspondence. Right: Prevalence imbalance provides fewer positive constraints and less reliable sample–prototype organization for low-prevalence findings.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24562v1",
+      "title": "Hierarchical Group-Conditional Conformal Risk Control for Selective Prediction in Language Models",
+      "authors": [
+        "Murilo Salem",
+        "Luísa Böhm",
+        "Daniel Pontes",
+        "Anderson Ferrugem"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper addresses the limitation of standard Conformal Risk Control (CRC) in language models, which provides population-level risk guarantees but can fail to protect specific subgroups. They propose Hierarchical Group-Conditional CRC (HG-CRC), a post-hoc method that enforces risk control simultaneously across all levels of a user-defined group hierarchy. HG-CRC achieves this by applying a Bonferroni correction and a leaf-first policy, ensuring rigorous guarantees for all subgroups without retraining the model.",
+      "url": "http://arxiv.org/abs/2607.24562v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24562v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24562v1/x1.png",
+      "figure_caption": "Mixture shift violation rates (ARC Challenge). Global CRC (blue) violates the risk budget in 15–47% of trials. Groupwise CRC (orange) controls per-group risk. The dashed line marks α = 0.10 \\( \\alpha \\)=0.10 .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24551v1",
+      "title": "LLM-Assisted Ontology Engineering and Construction of a French Legal Knowledge Graph",
+      "authors": [
+        "G{é}nesis Montenegro",
+        "Mokhtar Boumedyen Billami",
+        "Catherine Faron",
+        "Fabien Gandon",
+        "Pierre Monnin"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper presents a two-stage LLM-assisted workflow to build a French legal knowledge graph from maintenance regulations. The first stage uses LLMs for open extraction of entities and relations, followed by label normalization and property induction. The second stage leverages the developed ontology for closed extraction and RDF graph construction across the entire corpus, demonstrating robust structured outputs and significant efficiency gains.",
+      "url": "http://arxiv.org/abs/2607.24551v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24551v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24555v1",
+      "title": "LOCKS: Page-Local Compact Key Summaries for Efficient Long-Context Decoding",
+      "authors": [
+        "Junsung Hwang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "LOCKS addresses the KV cache bottleneck in long-context LLMs by creating compact, page-local spectral summaries. These summaries allow the model to efficiently estimate attention mass and select only the most relevant pages for reconstruction, significantly reducing computation. This method achieves near full-cache performance with a fraction of the KV cache access, especially in challenging long-form reasoning tasks.",
+      "url": "http://arxiv.org/abs/2607.24555v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24555v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24555v1/x1.png",
+      "figure_caption": "The locality thesis in one figure (Llama-3.1-8B, Qwen3-4B twin and full protocol in App. B ). (a) Exact vs. reconstructed page-mass share at matched bytes. (b) Carrier retention vs. per-head budget; the ceiling is 100 100 by construction. (c) The error ladder at matched bytes, one scope per row. (d) RULER-16K capability families at a 256 256 -token budget. Page scope hugs the exact diagonal, keeps carriers down to a 0.5 % 0.5\\% budget, improves every link, and traces FullKV.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24588v1",
+      "title": "SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents",
+      "authors": [
+        "Hang Ni",
+        "Weijia Zhang",
+        "Fan Liu",
+        "Mengqian Lu",
+        "Hao Liu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces SIREN, an end-to-end system for automated extreme weather early warning using LLM agents. Its core method involves developing a comprehensive benchmark (SIREN-Bench) to evaluate LLM capabilities across various warning tasks and then proposing a novel LLM agent framework to address identified gaps. The main contribution is demonstrating the feasibility of automating the entire warning-to-action process, moving beyond isolated scientific tasks.",
+      "url": "http://arxiv.org/abs/2607.24588v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24588v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24588v1/x1.png",
+      "figure_caption": "Figure 1. Connections to the EWS pipeline (Reichstein et al. , 2025 ) .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24570v1",
+      "title": "The Visual Bottleneck: Sparse-Frame Adaptation of MLLMs for Joint Spatial-Temporal Video Grounding",
+      "authors": [
+        "Jiameng Zhang",
+        "Srikanth Madikeri"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper addresses the performance drop in multimodal large language models (MLLMs) for video grounding when processing sparse frames. The core method involves a systematic study revealing that visual feature extraction is the bottleneck. By adapting only the final three ViT layers, the model achieves significant performance gains on sparse inputs, demonstrating an effective strategy for real-world video moderation.",
+      "url": "http://arxiv.org/abs/2607.24570v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24570v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24570v1/figure1.png",
+      "figure_caption": "Overview of the train-dense/infer-sparse mismatch and our proposed solutions. Left: the Qwen3-VL 8B model drops from 56.0% to 22.3% temporal mIoU when frames are reduced from hundreds to 16. Center: our four key findings. Right: a fine-tuned 2B model outperforms a zero-shot 8B model on both temporal and spatial grounding.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24665v1",
+      "title": "MMOE: Modernizing Diffusion Transformers with Efficient Expert Design",
+      "authors": [
+        "Yanhao Jia",
+        "Jiepeng Wang",
+        "Haibin Huang",
+        "Chi Zhang",
+        "Erik Cambria"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "abstract": "This paper introduces ModernMOE (MMOE), a method to efficiently scale diffusion transformers for generative AI. MMOE adapts principles from efficient large language models, like sparse experts and residual connections, to diffusion models. This approach aims to balance generation quality with training and deployment costs, unlike previous methods that primarily increased parameter counts.",
+      "url": "http://arxiv.org/abs/2607.24665v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24665v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24665v1/x1.png",
+      "figure_caption": "Architecture of MMOE. Left: a vanilla MoE block that routes each token to a small pool of feed-forward experts. Right: the MMOE block, which adds MoE++ lightweight experts (copy, zero, and constant), gate-residual routing, and attention-residual aggregation over previously completed block states before both the attention and the expert sub-layer.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.24651v1",
+      "title": "Evidence Attribution in Visual Document Understanding without Coordinates or Region Labels",
+      "authors": [
+        "Zhuchenyang Liu",
+        "Yao Zhang",
+        "Yu Xiao"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.IR"
+      ],
+      "abstract": "This paper investigates \"Attribution Hallucination\" in visual document understanding, where models incorrectly identify evidence regions for their answers. The core method compares a traditional coordinate-based interface with a novel language interface that requires models to quote evidence verbatim. The contribution is demonstrating that this language-based approach, by limiting expression to text, may mitigate attribution failures compared to coordinate-based methods.",
+      "url": "http://arxiv.org/abs/2607.24651v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24651v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24651v1/x1.png",
+      "figure_caption": "The interface artifact in one example (Qwen3-VL-8B; page 2 of a 24-page input; question: what specific alloy is used for the internal contact pins). Both answers are correct. Only the evidence interface differs.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.24743v1",
+      "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+      "authors": [
+        "Hangjie Yuan",
+        "Yichen Qian",
+        "Zhiwei Tang",
+        "Xianzhe Xu",
+        "Lirong Wu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "ClinFusion is a vision-centric multimodal LLM system designed for holistic medical understanding. Its core method involves a compositional and cascaded vision encoder that unifies diverse 2D and 3D medical image understanding using a novel Spatial-Aware Locality Fusion operator. The paper's contribution lies in this unified vision encoding and a new evaluation framework that aligns with radiologists' practices, ensuring clinically relevant and factually accurate assessments.",
+      "url": "http://arxiv.org/abs/2607.24743v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24743v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2607.24743v1/x1.png",
+      "figure_caption": "Overview of the ClinFusion framework. a , Compositional vision encoder. We address the limitation of monolithic encoders by proposing a compositional architecture with a native 3D encoder and an array of 2D encoders unified via CaSL Fusion, supported by a 22M-sample data curation pipeline and a progressive 5-stage training recipe. b , Vision-grounded evaluation. We identify key evaluation limitations—lack of instruction-following assessment and reliance on global-level text-matching metrics—and introduce MedIF-Bench for medical instruction following and an RoI-Grounded Report Generation Evaluation scheme that assesses diagnostic accuracy at the region level using an LLM-as-a-Judge. c , Agentic tool use extension. To enhance deployment, we equip ClinFusion with perception expert tools and a retrieval-augmented generation pipeline within a plan–act workflow, demonstrating consistent improvements in both text-only and multimodal clinical scenarios.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24586v1",
+      "title": "D-Score: A Spectral Hidden-State Signal for Hallucination Detection in Large Language Models",
+      "authors": [
+        "Bianca Raimondi",
+        "Davide Evangelista",
+        "Maurizio Gabbrielli",
+        "Elena Loli Piccolomini"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces the D-Score, a novel method for detecting hallucinations in Large Language Models. The D-Score is a spectral statistic derived from the geometry of hidden activations during a single forward pass. It quantifies how many singular directions in the activation matrix maintain a leading singular value, with higher scores indicating potential hallucinations due to conflicting internal representations.",
+      "url": "http://arxiv.org/abs/2607.24586v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24586v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.24586v1/x1.png",
+      "figure_caption": "AUROC of the D-Score detector on FAVA-Annotation with Llama-3-8B-Instruct as a function of the tolerance parameter \\( \\tau \\) on the horizontal axis and the layer j j on the vertical axis. A broad region of nearby configurations achieves similar performance, indicating that the score is not tied to one isolated choice of \\( \\tau \\) and j j .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24649v1",
+      "title": "Reason-Mediated Behavioral Models for Auditing LLM Social Simulators",
+      "authors": [
+        "Atharva Pandey",
+        "Gautam Jajoo"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a method to audit Large Language Model (LLM) social simulators by analyzing the underlying \"reasons\" behind simulated behaviors, not just the final outcomes. The core contribution is demonstrating that human-derived rationales significantly improve prediction of behavioral intent, and that LLMs can be evaluated on their ability to simulate these reason patterns independently of observed outcomes. This \"reason-mediated\" approach offers a more robust way to assess the fidelity of LLM social simulations.",
+      "url": "http://arxiv.org/abs/2607.24649v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24649v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.24649v1/figures/fig1_reason_model_tight.png",
+      "figure_caption": "The reason-mediated behavioral model. We hold D , K , X D,K,X fixed and test whether human or LLM-simulated reasons Z Z support the same behavioral readout. Bold arrows show the evaluated mediated path; dotted gray arrows show controlled direct paths.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24720v1",
+      "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
+      "authors": [
+        "Tianyi Men",
+        "Zhuoran Jin",
+        "Kang Liu",
+        "Jun Zhao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a controlled environment to systematically study and improve multi-turn, long-horizon planning in foundation model agents. The core method involves analyzing planning ability acquisition during pre-training and shaping it through post-training techniques like GRPO and OPD. The key contribution is demonstrating that explicit world model construction and careful data curation are crucial for strong generalization, while suboptimal trajectories significantly degrade performance.",
+      "url": "http://arxiv.org/abs/2607.24720v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24720v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.24720v1/x1.png",
+      "figure_caption": "An overview of the studying into physics of multi-turn long-horizon planning. It studies the long-horizon planning ability across three training stages: Large-scale pre-training , RL-based post-training (OPD and GRPO) , and Multi-teacher model consolidation post-training (MOPD) . The giraffe icon is used to represent the “L” in “Long”. Its long neck also reflects that the agents need to look far ahead in long-horizon planning.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24653v1",
+      "title": "Kimi K3: Open Frontier Intelligence",
+      "authors": [
+        " Kimi Team",
+        "Tongtong Bai",
+        "Yifan Bai",
+        "Yiping Bao",
+        "M. C."
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "Kimi K3 is a 2.8T parameter Mixture-of-Experts model that achieves significant scaling efficiency improvements through novel architectural components like Kimi Delta Attention and Stable LatentMoE. Its core contribution lies in its enhanced information flow across sequence length and model depth, enabling a 1-million-token context window and robust long-horizon execution, particularly in agentic and coding tasks.",
+      "url": "http://arxiv.org/abs/2607.24653v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24653v1",
+      "score": 8.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.24663v1",
+      "title": "A corrective agentic hybrid RAG and an operations-grounded evaluation for a scientific facility",
+      "authors": [
+        "Rajat Sainju",
+        "Dariusz Jarosz",
+        "Hairong Shang",
+        "Michael Prince",
+        "Ryan M. Aydelott"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.IR",
+        "physics.acc-ph"
+      ],
+      "abstract": "This paper introduces APS-RAG, a platform that makes the vast operational knowledge of a scientific facility accessible via natural language queries. Its core method fuses multiple retrieval methods (dense, sparse, KG) with an agentic corrective loop and a native-tool executor. The contribution lies in this novel retrieval system and an operations-grounded evaluation dataset (APS-Bench) demonstrating significant improvements in knowledge recall.",
+      "url": "http://arxiv.org/abs/2607.24663v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24663v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24663v1/figures/fig_1.png",
+      "figure_caption": "APS-RAG deployment overview. Through a single natural-language interface, APS staff can query the facility’s dispersed operational record. The platform pools information from nine distinct APS data sources: eight indexed knowledge bases are kept current by a daily diff-and-upsert pipeline, and the EPICS Archiver is not pre-indexed and is accessed at query time for live and historical process-variable data through the Model Context Protocol (MCP) tooling layer. Three user-selectable query modes are available: APS-RAG (Fast) for quicker responses, APS-RAG (Thinking) , which enables the corrective agentic loop, and AI Troubleshoot , which retrieves knowledge-graph-targeted fault-resolution steps.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24625v1",
+      "title": "Agentic Permissions Policy Algebra for Taint Confinement in LLM Agents",
+      "authors": [
+        "Arseny Kravchenko",
+        "Vadim Liventsev",
+        "Innokentii Konstantinov",
+        "Ildar Iskhakov",
+        "Matvey Kukuy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces APPA, a novel Information Flow Control framework for LLM agents. APPA addresses the usability bottleneck of traditional taint tracking by enabling engine-managed context branching and prospective acquisition enforcement. This allows agents to safely process mixed-confidentiality data by evaluating potential taint descents and generating remedy plans before data acquisition, thus preventing permanent context pollution and enhancing utility.",
+      "url": "http://arxiv.org/abs/2607.24625v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24625v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24625v1/figures/VisAbstract.png",
+      "figure_caption": "Figure 1. APPA architecture for taint confinement and prospective enforcement. When inspecting untrusted or restricted data, the harness spawns a speculative child branch with an inherited pre-branch transcript snapshot, post-branch isolation, and a descended Label. Raw returns that would narrow the parent are blocked pending explicit acceptance or remedy plans, while adequate raw values and validated sanitized derivatives may merge through the checked exit. All execution steps project in real time to a single append-only event log.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24717v1",
+      "title": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
+      "authors": [
+        "Zhen Huang",
+        "Yikun Wang",
+        "Shijie Xia",
+        "Pengfei Liu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "DataOrchestra introduces a novel framework that dynamically orchestrates per-example data processing pipelines for LLM pretraining. Instead of uniform strategies, it intelligently decides whether to drop, keep, or clean data chunks, and for cleaning, it selects and instructs specific downstream tools (including LLM-based rewriting) to refine the data. This adaptive approach leads to stable performance gains across multiple benchmarks compared to fixed processing methods.",
+      "url": "http://arxiv.org/abs/2607.24717v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24717v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24553v1",
+      "title": "EchoBridge: Long-Tail-Aware ECG-Echocardiography Text Alignment for Echocardiography-Derived Cardiac Findings",
+      "authors": [
+        "Xiaocheng Fang",
+        "Jieyi Cai",
+        "Guangkun Nie",
+        "Haoyu Wang",
+        "Jiarui Jin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "EchoBridge aligns ECGs with echocardiography text reports to learn ECG representations of cardiac findings. It uses Complementary Shared-Private Projection (CSPP) to disentangle modality-specific information and Adaptive Prototype Boundary Calibration (APBC) to handle the imbalanced distribution of cardiac findings, improving performance on rare conditions.",
+      "url": "http://arxiv.org/abs/2607.24553v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24553v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24553v1/x1.png",
+      "figure_caption": "Figure 1. Two challenges in ECG–echocardiography text alignment. Left: Global alignment entangles modality-specific factors and weakens clinically relevant cross-modal correspondence. Right: Prevalence imbalance provides fewer positive constraints and less reliable sample–prototype organization for low-prevalence findings.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24562v1",
+      "title": "Hierarchical Group-Conditional Conformal Risk Control for Selective Prediction in Language Models",
+      "authors": [
+        "Murilo Salem",
+        "Luísa Böhm",
+        "Daniel Pontes",
+        "Anderson Ferrugem"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper addresses the limitation of standard Conformal Risk Control (CRC) in language models, which provides population-level risk guarantees but can fail to protect specific subgroups. They propose Hierarchical Group-Conditional CRC (HG-CRC), a post-hoc method that enforces risk control simultaneously across all levels of a user-defined group hierarchy. HG-CRC achieves this by applying a Bonferroni correction and a leaf-first policy, ensuring rigorous guarantees for all subgroups without retraining the model.",
+      "url": "http://arxiv.org/abs/2607.24562v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24562v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24562v1/x1.png",
+      "figure_caption": "Mixture shift violation rates (ARC Challenge). Global CRC (blue) violates the risk budget in 15–47% of trials. Groupwise CRC (orange) controls per-group risk. The dashed line marks α = 0.10 \\( \\alpha \\)=0.10 .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24551v1",
+      "title": "LLM-Assisted Ontology Engineering and Construction of a French Legal Knowledge Graph",
+      "authors": [
+        "G{é}nesis Montenegro",
+        "Mokhtar Boumedyen Billami",
+        "Catherine Faron",
+        "Fabien Gandon",
+        "Pierre Monnin"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper presents a two-stage LLM-assisted workflow to build a French legal knowledge graph from maintenance regulations. The first stage uses LLMs for open extraction of entities and relations, followed by label normalization and property induction. The second stage leverages the developed ontology for closed extraction and RDF graph construction across the entire corpus, demonstrating robust structured outputs and significant efficiency gains.",
+      "url": "http://arxiv.org/abs/2607.24551v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24551v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24555v1",
+      "title": "LOCKS: Page-Local Compact Key Summaries for Efficient Long-Context Decoding",
+      "authors": [
+        "Junsung Hwang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "LOCKS addresses the KV cache bottleneck in long-context LLMs by creating compact, page-local spectral summaries. These summaries allow the model to efficiently estimate attention mass and select only the most relevant pages for reconstruction, significantly reducing computation. This method achieves near full-cache performance with a fraction of the KV cache access, especially in challenging long-form reasoning tasks.",
+      "url": "http://arxiv.org/abs/2607.24555v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24555v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24555v1/x1.png",
+      "figure_caption": "The locality thesis in one figure (Llama-3.1-8B, Qwen3-4B twin and full protocol in App. B ). (a) Exact vs. reconstructed page-mass share at matched bytes. (b) Carrier retention vs. per-head budget; the ceiling is 100 100 by construction. (c) The error ladder at matched bytes, one scope per row. (d) RULER-16K capability families at a 256 256 -token budget. Page scope hugs the exact diagonal, keeps carriers down to a 0.5 % 0.5\\% budget, improves every link, and traces FullKV.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24588v1",
+      "title": "SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents",
+      "authors": [
+        "Hang Ni",
+        "Weijia Zhang",
+        "Fan Liu",
+        "Mengqian Lu",
+        "Hao Liu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces SIREN, an end-to-end system for automated extreme weather early warning using LLM agents. Its core method involves developing a comprehensive benchmark (SIREN-Bench) to evaluate LLM capabilities across various warning tasks and then proposing a novel LLM agent framework to address identified gaps. The main contribution is demonstrating the feasibility of automating the entire warning-to-action process, moving beyond isolated scientific tasks.",
+      "url": "http://arxiv.org/abs/2607.24588v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24588v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24588v1/x1.png",
+      "figure_caption": "Figure 1. Connections to the EWS pipeline (Reichstein et al. , 2025 ) .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24570v1",
+      "title": "The Visual Bottleneck: Sparse-Frame Adaptation of MLLMs for Joint Spatial-Temporal Video Grounding",
+      "authors": [
+        "Jiameng Zhang",
+        "Srikanth Madikeri"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper addresses the performance drop in multimodal large language models (MLLMs) for video grounding when processing sparse frames. The core method involves a systematic study revealing that visual feature extraction is the bottleneck. By adapting only the final three ViT layers, the model achieves significant performance gains on sparse inputs, demonstrating an effective strategy for real-world video moderation.",
+      "url": "http://arxiv.org/abs/2607.24570v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24570v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24570v1/figure1.png",
+      "figure_caption": "Overview of the train-dense/infer-sparse mismatch and our proposed solutions. Left: the Qwen3-VL 8B model drops from 56.0% to 22.3% temporal mIoU when frames are reduced from hundreds to 16. Center: our four key findings. Right: a fine-tuned 2B model outperforms a zero-shot 8B model on both temporal and spatial grounding.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.24665v1",
+      "title": "MMOE: Modernizing Diffusion Transformers with Efficient Expert Design",
+      "authors": [
+        "Yanhao Jia",
+        "Jiepeng Wang",
+        "Haibin Huang",
+        "Chi Zhang",
+        "Erik Cambria"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "abstract": "This paper introduces ModernMOE (MMOE), a method to efficiently scale diffusion transformers for generative AI. MMOE adapts principles from efficient large language models, like sparse experts and residual connections, to diffusion models. This approach aims to balance generation quality with training and deployment costs, unlike previous methods that primarily increased parameter counts.",
+      "url": "http://arxiv.org/abs/2607.24665v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24665v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24665v1/x1.png",
+      "figure_caption": "Architecture of MMOE. Left: a vanilla MoE block that routes each token to a small pool of feed-forward experts. Right: the MMOE block, which adds MoE++ lightweight experts (copy, zero, and constant), gate-residual routing, and attention-residual aggregation over previously completed block states before both the attention and the expert sub-layer.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.24651v1",
+      "title": "Evidence Attribution in Visual Document Understanding without Coordinates or Region Labels",
+      "authors": [
+        "Zhuchenyang Liu",
+        "Yao Zhang",
+        "Yu Xiao"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.IR"
+      ],
+      "abstract": "This paper investigates \"Attribution Hallucination\" in visual document understanding, where models incorrectly identify evidence regions for their answers. The core method compares a traditional coordinate-based interface with a novel language interface that requires models to quote evidence verbatim. The contribution is demonstrating that this language-based approach, by limiting expression to text, may mitigate attribution failures compared to coordinate-based methods.",
+      "url": "http://arxiv.org/abs/2607.24651v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24651v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.24651v1/x1.png",
+      "figure_caption": "The interface artifact in one example (Qwen3-VL-8B; page 2 of a 24-page input; question: what specific alloy is used for the internal contact pins). Both answers are correct. Only the evidence interface differs.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
