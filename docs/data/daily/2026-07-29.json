@@ -1,0 +1,1051 @@
+{
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T11:41:45.763657+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.25947v1",
+          "title": "A Cost-Effective Multimodal LLM Reasoning Framework for Question Answering over Irregular Clinical Time Series",
+          "authors": [
+            "Frank Nie",
+            "Ethan B Liu",
+            "Yuan Zhu",
+            "Wei Fan",
+            "Jindong Han"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces ClinPRISM, a cost-effective multimodal LLM framework for question answering over irregular clinical time series. It addresses challenges like sparsity and asynchrony by using an irregularity-aware encoder and a temporal evidence distiller to create LLM-compatible tokens. The framework's contribution lies in its novel approach to effectively model and reason over complex clinical data for improved healthcare applications.",
+          "url": "http://arxiv.org/abs/2607.25947v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.25947v1",
+          "score": 9.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.26023v1",
+          "title": "CHARM: A Multimodal Graph Foundation Model with Hierarchical Context Modeling for Zero-Shot Transfer",
+          "authors": [
+            "Ankang Yang",
+            "Jitao Zhao",
+            "Di Jin",
+            "Yuxiao Huang",
+            "Dongxiao He"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "CHARM is a multimodal graph foundation model that addresses zero-shot transfer by modeling hierarchical context across different modalities. Its core method involves learning transferable cross-modal relations and disentangling domain-specific information. This allows CHARM to generalize to new graph domains and tasks without requiring downstream fine-tuning, a significant contribution to the underexplored area of zero-shot transfer on multimodal graphs.",
+          "url": "http://arxiv.org/abs/2607.26023v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.26023v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2607.26023v1/motivation.png",
+          "figure_caption": "Figure 1. Domain bias and semantic relevance in Toys-to-Grocery retrieval.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.25933v1",
+          "title": "Evaluating Multi-Turn Multimodal Diagnostic Reasoning on Challenging Real-World Clinical Cases",
+          "authors": [
+            "Rui Yang",
+            "Weihao Xuan",
+            "Yi Lin",
+            "Zhuhan Bao",
+            "Jonathan Chong Kai Liew"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces ClinMM-Bench, a novel benchmark designed to evaluate multi-turn multimodal diagnostic reasoning in AI models using challenging, real-world clinical cases. Its core method involves a two-level framework assessing both diagnostic accuracy and reasoning quality across 1,089 cases and 3,760 images. The key contribution is providing a more realistic evaluation of MLLMs by simulating the dynamic, progressive nature of clinical diagnosis, revealing that proprietary models currently perform best.",
+          "url": "http://arxiv.org/abs/2607.25933v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.25933v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.25933v1/x1.png",
+          "figure_caption": "Overview of ClinMM-Bench and evaluation framework. a, Data curation. ClinMM-Bench was developed through a six-stage pipeline: (1) Data collection and extraction, in which clinical case reports were collected from PubMed Central Open Access; (2) Data inspection, where case reports without medical images, those containing videos, and those with low-resolution medical images were excluded; (3) Data validation, using a dual-LLM consensus mechanism to identify cases suitable for the clinical diagnostic reasoning task; (4) Data conversion, where validated case reports were parsed and transformed into a standardized structured format; (5) Quality control, where an automated scoring procedure assessed the structured case reports and retained only those meeting a predefined quality threshold; and (6) Expert validation, where medical experts performed manual verification to ensure data reliability. b, Multi-turn multimodal evaluation. During evaluation, models perform diagnostic reasoning through multi-turn dialogues, with clinical information and images of each case progressively disclosed over the course of the dialogue. The evaluation framework comprises two levels: (1) Diagnostic accuracy evaluation, in which a dual-LLM consensus mechanism compares MLLM-predicted diagnoses against the ground-truth diagnoses, with judge LLMs assigning accuracy scores ranging from 0 to 2. (2) Diagnostic reasoning quality evaluation, where both MLLM-generated reasoning and reference reasoning are decomposed into atomic facts and quantified across three dimensions: fact recall, hallucination, and fact density.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.25992v1",
+          "title": "MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-based Agents",
+          "authors": [
+            "Shuyue Wei",
+            "Chang Liu",
+            "Zimu Zhou",
+            "Yongxin Tong",
+            "Lizhen Cui"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.DB"
+          ],
+          "abstract": "MemLens addresses the inefficiency of LLM memory systems by treating memory records as first-class data objects. Its core method involves a value-aware approach, using Shapley-style evaluation to prioritize important records. This allows for more effective memory management, leading to improved response quality and reduced latency in LLM-based agents.",
+          "url": "http://arxiv.org/abs/2607.25992v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.25992v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.25992v1/figures/motivation.png",
+          "figure_caption": "Figure 1 . Comparison between (a) utility-agnostic memory management and (b) value-aware memory management.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.26042v1",
+          "title": "VetClaw: An Edge-Cloud Multimodal Agentic System for Veterinary Disease Screening",
+          "authors": [
+            "Syed Mhamudul Hasan",
+            "Anas AlSobeh",
+            "Hussein Zangoti",
+            "Abdur R. Shahid"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CV"
+          ],
+          "abstract": "VetClaw is an edge-cloud system for veterinary disease screening that uses a camera and optional symptom descriptions. It leverages a vision-language model for zero-shot classification, with distinct edge (OpenClaw) and cloud (LangGraph) components managing interaction, workflow, and model invocation. This multimodal approach goes beyond static image analysis to provide more robust diagnostic support.",
+          "url": "http://arxiv.org/abs/2607.26042v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.26042v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.26042v1/i.png",
+          "figure_caption": "Edge-cloud Architecture of the VetClaw Veterinary Assistant Deployed on a Raspberry Pi for Early Skin Disease Prediction.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.25886v1",
+          "title": "RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement",
+          "authors": [
+            "Fanqing Meng",
+            "Lingxiao Du",
+            "Qiguang Chen",
+            "Ziqi Zhao",
+            "Haocheng Lu"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.SE"
+          ],
+          "abstract": "This paper introduces RSIBench-Data, a benchmark designed to isolate and evaluate the data-centric research capabilities of LLM agents for recursive self-improvement. The core method involves agents iteratively revising training data strategies for a fixed target model within a controlled post-training environment, separating research decisions from system complexities. The main contribution is providing a clean evaluation framework to assess how well LLM agents can autonomously diagnose model failures and generate improved training data, a crucial step for achieving recursive self-improvement.",
+          "url": "http://arxiv.org/abs/2607.25886v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.25886v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.25886v1/x1.png",
+          "figure_caption": "Existing evaluations entangle multiple post-training choices; RSIBench-Data isolates the LLM agent’s ability to conduct data-centric post-training research.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.25904v1",
+          "title": "Interactive Reward Agent: GUI Task Evaluation via Environment-State Verification",
+          "authors": [
+            "Chenrui Shi",
+            "Yuwei Wu",
+            "Yang Liu",
+            "Ruining Feng",
+            "Zirui Shang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper proposes an Interactive Reward Agent (IRA) for evaluating GUI task completion. The IRA uses a propose-then-verify framework, first suggesting task completion conditions and then confirming them by interacting with system, application, and GUI tools. This method's contribution is enabling reliable GUI task evaluation by incorporating crucial environment state information beyond just visual execution data.",
+          "url": "http://arxiv.org/abs/2607.25904v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.25904v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.25904v1/figure1.png",
+          "figure_caption": "Comparison between the interactive reward agent (ours) and a VLM-based evaluator on a task that requires output-file verification.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.25891v1",
+          "title": "Messier: A High-Resolution Corpus for Cross-Benchmark Agent Evaluation",
+          "authors": [
+            "Stefan Krsteski",
+            "Charlotte Meyer",
+            "Guillaume Allegre",
+            "Tony O'Halloran",
+            "Alexandre Sallinen"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.DB"
+          ],
+          "abstract": "This paper introduces Messier, a large, standardized corpus of over 950,000 agent evaluation records across 30 benchmarks and numerous agents and tasks. Its core method involves unifying fragmented evaluation data and supplementing it with new runs in underrepresented domains. Messier's contribution is enabling cross-benchmark agent comparison and revealing uneven progress, highlighting areas like \"function calling\" as saturated and \"enterprise workflows\" as challenging.",
+          "url": "http://arxiv.org/abs/2607.25891v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.25891v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.25891v1/x1.png",
+          "figure_caption": "Composition and frontier analysis. Panels summarize the corpus across the dimensions defined in § 3 : (a) tasks by benchmark group, (b) action space, (c) environment state, (d) aggregation rule, and (e) verifier type. Counts in (b)–(e) are on a log scale. Panel (f) tracks frontier pass rate by release quarter and benchmark group, with dumbbell markers connecting each group’s first and final observed quarter.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.25907v1",
+          "title": "Minimizing Targeted Activations: Input-Only Suppression of Evaluation-Awareness Latents in Large Language Models",
+          "authors": [
+            "Deepanshu Mody",
+            "Samarth Agarwal",
+            "Utkarsh Mittal",
+            "Dipesh Mahato"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces an \"input-only\" method to suppress specific internal model activations, like \"evaluation-awareness\" latents, by optimizing prompts without altering the model itself. Their core contribution is demonstrating that by adapting existing prompt optimization techniques with a negated feature term, they can effectively drive these targeted latents towards zero. This method offers a way to potentially prevent LLMs from behaving differently when they detect they are being evaluated, though the results also highlight potential cautionary implications.",
+          "url": "http://arxiv.org/abs/2607.25907v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.25907v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.25907v1/x1.png",
+          "figure_caption": "Suppression succeeds, but behavior does not follow. Left : prompt-side optimization drives diverse target latents from their base value f 0 f_{0} to zero or below—the direction and logit overshoot, and a causally-validated SAE feature is turned off completely. Right : yet a prompt optimized to suppress the eval-direction in front of a fixed eval body pushes the model’s behavioral eval log-odds above the eval-body baseline (more eval-like), while a random-direction prefix is neutral. Activation-readability is not behavioral controllability.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.25912v1",
+          "title": "SAM3D-Guided Object-Centric Representation Alignment for Vision-Language-Action Models",
+          "authors": [
+            "Zonghe Liu",
+            "Shanyuan Jie",
+            "Xiaoquan Sun",
+            "Chen Cao",
+            "Zetian Xu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.RO"
+          ],
+          "abstract": "This paper introduces a method to improve Vision-Language-Action (VLA) models by incorporating 3D object understanding. It uses a frozen 3D teacher (SAM3D) to guide the alignment of object-centric 3D representations with the VLA model's internal features during training. This allows the model to learn crucial 3D object information without needing explicit 3D data or modules at inference time, leading to better performance in complex manipulation tasks.",
+          "url": "http://arxiv.org/abs/2607.25912v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.25912v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.25912v1/x1.png",
+          "figure_caption": "Overview of SAM3D-VLA . We propose an object-centric 3D alignment framework that uses SAM3D as a frozen teacher during training. High-level instructions are decomposed into subtasks, and task-relevant object masks are used for SAM3D feature extraction. The extracted 3D features are spatially resampled and dimensionally projected to align with intermediate VLA representations, while inference follows the original pipeline using RGB and language instructions.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.26040v1",
+          "title": "Reinformed Dreamer: An Asymmetric World Model Efficiently Trained through Latent Guidance",
+          "authors": [
+            "Gaspard Lambrechts",
+            "Adrien Bolland",
+            "Daniel Ebi",
+            "Damien Ernst"
+          ],
+          "categories": [
+            "cs.LG",
+            "stat.ML"
+          ],
+          "abstract": "This paper introduces \"Reinformed Dreamer,\" an asymmetric world model for reinforcement learning. Its core method is a novel latent guidance objective that improves how the model learns from privileged information, addressing a limitation in prior work. The key contribution is a more efficient and effective training approach for model-based RL by better utilizing auxiliary state information.",
+          "url": "http://arxiv.org/abs/2607.26040v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.26040v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.26015v1",
+          "title": "Instruction-Tuned Models Locally Reuse Human Syntax More Than Humans Do",
+          "authors": [
+            "Zandi Eberstadt"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates whether instruction-tuned language models exhibit syntactic convergence, similar to humans, by analyzing their reuse of grammatical rules in dialogues. The core method involves comparing model generations' syntactic overlap with preceding human turns against unrelated human text. The key contribution is demonstrating that instruction-tuned models locally reuse human syntax more frequently than humans do, particularly for less common grammatical structures.",
+          "url": "http://arxiv.org/abs/2607.26015v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.26015v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.26015v1/x1.png",
+          "figure_caption": "Primary and pooled syntactic results. (a) Per-model actual-prime contrasts against the matched human response at centered mean rule frequency; error bars are 95% Wald intervals. (b) Pooled instruction-minus-pretraining coefficients under four estimands. Positive values favor instruction tuning. Conditional coefficients are evaluated at the target-size centering mean.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.26017v1",
+          "title": "UniMem: Complementary Episodic-to-Parametric Memory for Boundary-Agnostic Task Streams",
+          "authors": [
+            "Siyu Xia",
+            "Chenheng Zhang",
+            "Yanting Wu",
+            "Haoxuan Li",
+            "Jiajun Chai"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "UniMem addresses the stability-plasticity dilemma in LLM agents by proposing a self-routing framework that adaptively coordinates two complementary memory pathways. Novel tasks are stored in an episodic buffer for retrieval, while recurring patterns are consolidated into parametric memory for efficient, stable execution. This approach allows LLMs to effectively manage and reuse task experience across evolving task streams without explicit boundary definitions.",
+          "url": "http://arxiv.org/abs/2607.26017v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.26017v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.26017v1/x1.png",
+          "figure_caption": "The episodic-to-parametric conceptual workflow of UniMem . Initial Routing Construction initializes known-task routing embeddings and calibrates the novelty sentinel 𝐞 NOVEL \\( \\mathbf{e} \\)_{\\( \\texttt{NOVEL} \\)} . Episodic Buffering stores queries routed to 𝐞 NOVEL \\( \\mathbf{e} \\)_{\\( \\texttt{NOVEL} \\)} for retrieval-augmented execution. Parametric Consolidation clusters recurring buffered patterns and converts them into new routing embeddings with associated parametric memory units.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 24,
+        "papers_after_llm_filter": 13,
+        "count": 13
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "HRER2026/343-194 Research assistant /Asistente de investigación",
+          "url": "https://euraxess.ec.europa.eu/jobs/456931",
+          "description": "Research support for the ACK project. Design, development and validation of RAG-LLM components. Validation of cognitive state in the RAG assistant. Validation of hybrid human-automated assessment. Apoyo en la investigación para el proyecto ACK. Diseño, desarrollo y validación de los componentes del... * Department: HRS4R Work Locations: Number of offers: 1, Spain, ESCUELA TÉCNICA SUPERIOR DE INGENIEROS DE TELECOMUNICACIÓN, Madrid, 28040, MADRID, Av.Complutense 30 Research Field: [Communication sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A65) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A77) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 11 Aug 2026 - 23:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland ![Image 4: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Medical University of Silesia](https://euraxess.ec.europa.eu/partnering/organisations/profile/medical-university-silesia) * [Field: Communication sciences]",
+          "institution": "",
+          "posted_date": "29 July 2026",
+          "deadline": "11 Aug 2026 - 23:00 (Europe/Madrid)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Communication sciences, Other\nKey Requirements: Design, development, and validation of RAG-LLM components; validation of cognitive state in RAG assistants; validation of hybrid human-automated assessment.\nApplication Info: deadline: 11 Aug 2026 - 23:00 (Europe/Madrid), required materials: N/A, contact: N/A\nPosition Details: location: Madrid, Spain, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: Strong alignment for LLM/RAG development, potential for CV/medical imaging if applicable to cognitive state validation.",
+          "relevance_score": 8.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        },
+        {
+          "title": "Assistant professor",
+          "url": "https://euraxess.ec.europa.eu/jobs/456928",
+          "description": "The Assistant Professor will be responsible for planning, organizing, and carrying out research and teaching activities, as well as participating in organizational tasks that support the University's academic mission. The successful candidate should demonstrate creativity, initiative, and a high... * Department: Wydział Medyczny Work Locations: Number of offers: 1, Poland, Politechnika Bydgoska im. Jana i Jędrzeja Śniadeckich Wydział Medyczny Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Medicine](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A314) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 28 Aug 2026 - 00:00 (Europe/Warsaw) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland ![Image 5: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [SWPS University](https://euraxess.ec.europa.eu/partnering/organisations/profile/swps-university-0) * [Field: Medical sciences]",
+          "institution": "",
+          "posted_date": "29 July 2026",
+          "deadline": "28 Aug 2026 - 00:00 (Europe/Warsaw)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Medical sciences, Medicine\nKey Requirements: Demonstrated creativity, initiative, and a high level of academic accomplishment.\nApplication Info: Deadline: 28 Aug 2026 - 00:00 (Europe/Warsaw). Required materials and contact information are not specified.\nPosition Details: Location: Poland, Bydgoszcz (Politechnika Bydgoska im. Jana i Jędrzeja Śniadeckich, Wydział Medyczny). Contract type, workload, and salary are not specified.\nOne-line Advice: N/A",
+          "relevance_score": 7.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 2
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 24,
+    "papers_after_llm_filter": 13,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 42
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.25947v1",
+      "title": "A Cost-Effective Multimodal LLM Reasoning Framework for Question Answering over Irregular Clinical Time Series",
+      "authors": [
+        "Frank Nie",
+        "Ethan B Liu",
+        "Yuan Zhu",
+        "Wei Fan",
+        "Jindong Han"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ClinPRISM, a cost-effective multimodal LLM framework for question answering over irregular clinical time series. It addresses challenges like sparsity and asynchrony by using an irregularity-aware encoder and a temporal evidence distiller to create LLM-compatible tokens. The framework's contribution lies in its novel approach to effectively model and reason over complex clinical data for improved healthcare applications.",
+      "url": "http://arxiv.org/abs/2607.25947v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25947v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.26023v1",
+      "title": "CHARM: A Multimodal Graph Foundation Model with Hierarchical Context Modeling for Zero-Shot Transfer",
+      "authors": [
+        "Ankang Yang",
+        "Jitao Zhao",
+        "Di Jin",
+        "Yuxiao Huang",
+        "Dongxiao He"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "CHARM is a multimodal graph foundation model that addresses zero-shot transfer by modeling hierarchical context across different modalities. Its core method involves learning transferable cross-modal relations and disentangling domain-specific information. This allows CHARM to generalize to new graph domains and tasks without requiring downstream fine-tuning, a significant contribution to the underexplored area of zero-shot transfer on multimodal graphs.",
+      "url": "http://arxiv.org/abs/2607.26023v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26023v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2607.26023v1/motivation.png",
+      "figure_caption": "Figure 1. Domain bias and semantic relevance in Toys-to-Grocery retrieval.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.25933v1",
+      "title": "Evaluating Multi-Turn Multimodal Diagnostic Reasoning on Challenging Real-World Clinical Cases",
+      "authors": [
+        "Rui Yang",
+        "Weihao Xuan",
+        "Yi Lin",
+        "Zhuhan Bao",
+        "Jonathan Chong Kai Liew"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ClinMM-Bench, a novel benchmark designed to evaluate multi-turn multimodal diagnostic reasoning in AI models using challenging, real-world clinical cases. Its core method involves a two-level framework assessing both diagnostic accuracy and reasoning quality across 1,089 cases and 3,760 images. The key contribution is providing a more realistic evaluation of MLLMs by simulating the dynamic, progressive nature of clinical diagnosis, revealing that proprietary models currently perform best.",
+      "url": "http://arxiv.org/abs/2607.25933v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25933v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.25933v1/x1.png",
+      "figure_caption": "Overview of ClinMM-Bench and evaluation framework. a, Data curation. ClinMM-Bench was developed through a six-stage pipeline: (1) Data collection and extraction, in which clinical case reports were collected from PubMed Central Open Access; (2) Data inspection, where case reports without medical images, those containing videos, and those with low-resolution medical images were excluded; (3) Data validation, using a dual-LLM consensus mechanism to identify cases suitable for the clinical diagnostic reasoning task; (4) Data conversion, where validated case reports were parsed and transformed into a standardized structured format; (5) Quality control, where an automated scoring procedure assessed the structured case reports and retained only those meeting a predefined quality threshold; and (6) Expert validation, where medical experts performed manual verification to ensure data reliability. b, Multi-turn multimodal evaluation. During evaluation, models perform diagnostic reasoning through multi-turn dialogues, with clinical information and images of each case progressively disclosed over the course of the dialogue. The evaluation framework comprises two levels: (1) Diagnostic accuracy evaluation, in which a dual-LLM consensus mechanism compares MLLM-predicted diagnoses against the ground-truth diagnoses, with judge LLMs assigning accuracy scores ranging from 0 to 2. (2) Diagnostic reasoning quality evaluation, where both MLLM-generated reasoning and reference reasoning are decomposed into atomic facts and quantified across three dimensions: fact recall, hallucination, and fact density.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.25992v1",
+      "title": "MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-based Agents",
+      "authors": [
+        "Shuyue Wei",
+        "Chang Liu",
+        "Zimu Zhou",
+        "Yongxin Tong",
+        "Lizhen Cui"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.DB"
+      ],
+      "abstract": "MemLens addresses the inefficiency of LLM memory systems by treating memory records as first-class data objects. Its core method involves a value-aware approach, using Shapley-style evaluation to prioritize important records. This allows for more effective memory management, leading to improved response quality and reduced latency in LLM-based agents.",
+      "url": "http://arxiv.org/abs/2607.25992v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25992v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.25992v1/figures/motivation.png",
+      "figure_caption": "Figure 1 . Comparison between (a) utility-agnostic memory management and (b) value-aware memory management.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.26042v1",
+      "title": "VetClaw: An Edge-Cloud Multimodal Agentic System for Veterinary Disease Screening",
+      "authors": [
+        "Syed Mhamudul Hasan",
+        "Anas AlSobeh",
+        "Hussein Zangoti",
+        "Abdur R. Shahid"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "VetClaw is an edge-cloud system for veterinary disease screening that uses a camera and optional symptom descriptions. It leverages a vision-language model for zero-shot classification, with distinct edge (OpenClaw) and cloud (LangGraph) components managing interaction, workflow, and model invocation. This multimodal approach goes beyond static image analysis to provide more robust diagnostic support.",
+      "url": "http://arxiv.org/abs/2607.26042v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26042v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.26042v1/i.png",
+      "figure_caption": "Edge-cloud Architecture of the VetClaw Veterinary Assistant Deployed on a Raspberry Pi for Early Skin Disease Prediction.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.25886v1",
+      "title": "RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement",
+      "authors": [
+        "Fanqing Meng",
+        "Lingxiao Du",
+        "Qiguang Chen",
+        "Ziqi Zhao",
+        "Haocheng Lu"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces RSIBench-Data, a benchmark designed to isolate and evaluate the data-centric research capabilities of LLM agents for recursive self-improvement. The core method involves agents iteratively revising training data strategies for a fixed target model within a controlled post-training environment, separating research decisions from system complexities. The main contribution is providing a clean evaluation framework to assess how well LLM agents can autonomously diagnose model failures and generate improved training data, a crucial step for achieving recursive self-improvement.",
+      "url": "http://arxiv.org/abs/2607.25886v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25886v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.25886v1/x1.png",
+      "figure_caption": "Existing evaluations entangle multiple post-training choices; RSIBench-Data isolates the LLM agent’s ability to conduct data-centric post-training research.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.25904v1",
+      "title": "Interactive Reward Agent: GUI Task Evaluation via Environment-State Verification",
+      "authors": [
+        "Chenrui Shi",
+        "Yuwei Wu",
+        "Yang Liu",
+        "Ruining Feng",
+        "Zirui Shang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes an Interactive Reward Agent (IRA) for evaluating GUI task completion. The IRA uses a propose-then-verify framework, first suggesting task completion conditions and then confirming them by interacting with system, application, and GUI tools. This method's contribution is enabling reliable GUI task evaluation by incorporating crucial environment state information beyond just visual execution data.",
+      "url": "http://arxiv.org/abs/2607.25904v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25904v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.25904v1/figure1.png",
+      "figure_caption": "Comparison between the interactive reward agent (ours) and a VLM-based evaluator on a task that requires output-file verification.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.25891v1",
+      "title": "Messier: A High-Resolution Corpus for Cross-Benchmark Agent Evaluation",
+      "authors": [
+        "Stefan Krsteski",
+        "Charlotte Meyer",
+        "Guillaume Allegre",
+        "Tony O'Halloran",
+        "Alexandre Sallinen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.DB"
+      ],
+      "abstract": "This paper introduces Messier, a large, standardized corpus of over 950,000 agent evaluation records across 30 benchmarks and numerous agents and tasks. Its core method involves unifying fragmented evaluation data and supplementing it with new runs in underrepresented domains. Messier's contribution is enabling cross-benchmark agent comparison and revealing uneven progress, highlighting areas like \"function calling\" as saturated and \"enterprise workflows\" as challenging.",
+      "url": "http://arxiv.org/abs/2607.25891v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25891v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.25891v1/x1.png",
+      "figure_caption": "Composition and frontier analysis. Panels summarize the corpus across the dimensions defined in § 3 : (a) tasks by benchmark group, (b) action space, (c) environment state, (d) aggregation rule, and (e) verifier type. Counts in (b)–(e) are on a log scale. Panel (f) tracks frontier pass rate by release quarter and benchmark group, with dumbbell markers connecting each group’s first and final observed quarter.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.25907v1",
+      "title": "Minimizing Targeted Activations: Input-Only Suppression of Evaluation-Awareness Latents in Large Language Models",
+      "authors": [
+        "Deepanshu Mody",
+        "Samarth Agarwal",
+        "Utkarsh Mittal",
+        "Dipesh Mahato"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces an \"input-only\" method to suppress specific internal model activations, like \"evaluation-awareness\" latents, by optimizing prompts without altering the model itself. Their core contribution is demonstrating that by adapting existing prompt optimization techniques with a negated feature term, they can effectively drive these targeted latents towards zero. This method offers a way to potentially prevent LLMs from behaving differently when they detect they are being evaluated, though the results also highlight potential cautionary implications.",
+      "url": "http://arxiv.org/abs/2607.25907v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25907v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.25907v1/x1.png",
+      "figure_caption": "Suppression succeeds, but behavior does not follow. Left : prompt-side optimization drives diverse target latents from their base value f 0 f_{0} to zero or below—the direction and logit overshoot, and a causally-validated SAE feature is turned off completely. Right : yet a prompt optimized to suppress the eval-direction in front of a fixed eval body pushes the model’s behavioral eval log-odds above the eval-body baseline (more eval-like), while a random-direction prefix is neutral. Activation-readability is not behavioral controllability.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.25912v1",
+      "title": "SAM3D-Guided Object-Centric Representation Alignment for Vision-Language-Action Models",
+      "authors": [
+        "Zonghe Liu",
+        "Shanyuan Jie",
+        "Xiaoquan Sun",
+        "Chen Cao",
+        "Zetian Xu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces a method to improve Vision-Language-Action (VLA) models by incorporating 3D object understanding. It uses a frozen 3D teacher (SAM3D) to guide the alignment of object-centric 3D representations with the VLA model's internal features during training. This allows the model to learn crucial 3D object information without needing explicit 3D data or modules at inference time, leading to better performance in complex manipulation tasks.",
+      "url": "http://arxiv.org/abs/2607.25912v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25912v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.25912v1/x1.png",
+      "figure_caption": "Overview of SAM3D-VLA . We propose an object-centric 3D alignment framework that uses SAM3D as a frozen teacher during training. High-level instructions are decomposed into subtasks, and task-relevant object masks are used for SAM3D feature extraction. The extracted 3D features are spatially resampled and dimensionally projected to align with intermediate VLA representations, while inference follows the original pipeline using RGB and language instructions.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.26040v1",
+      "title": "Reinformed Dreamer: An Asymmetric World Model Efficiently Trained through Latent Guidance",
+      "authors": [
+        "Gaspard Lambrechts",
+        "Adrien Bolland",
+        "Daniel Ebi",
+        "Damien Ernst"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper introduces \"Reinformed Dreamer,\" an asymmetric world model for reinforcement learning. Its core method is a novel latent guidance objective that improves how the model learns from privileged information, addressing a limitation in prior work. The key contribution is a more efficient and effective training approach for model-based RL by better utilizing auxiliary state information.",
+      "url": "http://arxiv.org/abs/2607.26040v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26040v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.26015v1",
+      "title": "Instruction-Tuned Models Locally Reuse Human Syntax More Than Humans Do",
+      "authors": [
+        "Zandi Eberstadt"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates whether instruction-tuned language models exhibit syntactic convergence, similar to humans, by analyzing their reuse of grammatical rules in dialogues. The core method involves comparing model generations' syntactic overlap with preceding human turns against unrelated human text. The key contribution is demonstrating that instruction-tuned models locally reuse human syntax more frequently than humans do, particularly for less common grammatical structures.",
+      "url": "http://arxiv.org/abs/2607.26015v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26015v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.26015v1/x1.png",
+      "figure_caption": "Primary and pooled syntactic results. (a) Per-model actual-prime contrasts against the matched human response at centered mean rule frequency; error bars are 95% Wald intervals. (b) Pooled instruction-minus-pretraining coefficients under four estimands. Positive values favor instruction tuning. Conditional coefficients are evaluated at the target-size centering mean.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.26017v1",
+      "title": "UniMem: Complementary Episodic-to-Parametric Memory for Boundary-Agnostic Task Streams",
+      "authors": [
+        "Siyu Xia",
+        "Chenheng Zhang",
+        "Yanting Wu",
+        "Haoxuan Li",
+        "Jiajun Chai"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "UniMem addresses the stability-plasticity dilemma in LLM agents by proposing a self-routing framework that adaptively coordinates two complementary memory pathways. Novel tasks are stored in an episodic buffer for retrieval, while recurring patterns are consolidated into parametric memory for efficient, stable execution. This approach allows LLMs to effectively manage and reuse task experience across evolving task streams without explicit boundary definitions.",
+      "url": "http://arxiv.org/abs/2607.26017v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26017v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.26017v1/x1.png",
+      "figure_caption": "The episodic-to-parametric conceptual workflow of UniMem . Initial Routing Construction initializes known-task routing embeddings and calibrates the novelty sentinel 𝐞 NOVEL \\( \\mathbf{e} \\)_{\\( \\texttt{NOVEL} \\)} . Episodic Buffering stores queries routed to 𝐞 NOVEL \\( \\mathbf{e} \\)_{\\( \\texttt{NOVEL} \\)} for retrieval-augmented execution. Parametric Consolidation clusters recurring buffered patterns and converts them into new routing embeddings with associated parametric memory units.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.25947v1",
+      "title": "A Cost-Effective Multimodal LLM Reasoning Framework for Question Answering over Irregular Clinical Time Series",
+      "authors": [
+        "Frank Nie",
+        "Ethan B Liu",
+        "Yuan Zhu",
+        "Wei Fan",
+        "Jindong Han"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ClinPRISM, a cost-effective multimodal LLM framework for question answering over irregular clinical time series. It addresses challenges like sparsity and asynchrony by using an irregularity-aware encoder and a temporal evidence distiller to create LLM-compatible tokens. The framework's contribution lies in its novel approach to effectively model and reason over complex clinical data for improved healthcare applications.",
+      "url": "http://arxiv.org/abs/2607.25947v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25947v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.26023v1",
+      "title": "CHARM: A Multimodal Graph Foundation Model with Hierarchical Context Modeling for Zero-Shot Transfer",
+      "authors": [
+        "Ankang Yang",
+        "Jitao Zhao",
+        "Di Jin",
+        "Yuxiao Huang",
+        "Dongxiao He"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "CHARM is a multimodal graph foundation model that addresses zero-shot transfer by modeling hierarchical context across different modalities. Its core method involves learning transferable cross-modal relations and disentangling domain-specific information. This allows CHARM to generalize to new graph domains and tasks without requiring downstream fine-tuning, a significant contribution to the underexplored area of zero-shot transfer on multimodal graphs.",
+      "url": "http://arxiv.org/abs/2607.26023v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26023v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2607.26023v1/motivation.png",
+      "figure_caption": "Figure 1. Domain bias and semantic relevance in Toys-to-Grocery retrieval.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.25933v1",
+      "title": "Evaluating Multi-Turn Multimodal Diagnostic Reasoning on Challenging Real-World Clinical Cases",
+      "authors": [
+        "Rui Yang",
+        "Weihao Xuan",
+        "Yi Lin",
+        "Zhuhan Bao",
+        "Jonathan Chong Kai Liew"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ClinMM-Bench, a novel benchmark designed to evaluate multi-turn multimodal diagnostic reasoning in AI models using challenging, real-world clinical cases. Its core method involves a two-level framework assessing both diagnostic accuracy and reasoning quality across 1,089 cases and 3,760 images. The key contribution is providing a more realistic evaluation of MLLMs by simulating the dynamic, progressive nature of clinical diagnosis, revealing that proprietary models currently perform best.",
+      "url": "http://arxiv.org/abs/2607.25933v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25933v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.25933v1/x1.png",
+      "figure_caption": "Overview of ClinMM-Bench and evaluation framework. a, Data curation. ClinMM-Bench was developed through a six-stage pipeline: (1) Data collection and extraction, in which clinical case reports were collected from PubMed Central Open Access; (2) Data inspection, where case reports without medical images, those containing videos, and those with low-resolution medical images were excluded; (3) Data validation, using a dual-LLM consensus mechanism to identify cases suitable for the clinical diagnostic reasoning task; (4) Data conversion, where validated case reports were parsed and transformed into a standardized structured format; (5) Quality control, where an automated scoring procedure assessed the structured case reports and retained only those meeting a predefined quality threshold; and (6) Expert validation, where medical experts performed manual verification to ensure data reliability. b, Multi-turn multimodal evaluation. During evaluation, models perform diagnostic reasoning through multi-turn dialogues, with clinical information and images of each case progressively disclosed over the course of the dialogue. The evaluation framework comprises two levels: (1) Diagnostic accuracy evaluation, in which a dual-LLM consensus mechanism compares MLLM-predicted diagnoses against the ground-truth diagnoses, with judge LLMs assigning accuracy scores ranging from 0 to 2. (2) Diagnostic reasoning quality evaluation, where both MLLM-generated reasoning and reference reasoning are decomposed into atomic facts and quantified across three dimensions: fact recall, hallucination, and fact density.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.25992v1",
+      "title": "MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-based Agents",
+      "authors": [
+        "Shuyue Wei",
+        "Chang Liu",
+        "Zimu Zhou",
+        "Yongxin Tong",
+        "Lizhen Cui"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.DB"
+      ],
+      "abstract": "MemLens addresses the inefficiency of LLM memory systems by treating memory records as first-class data objects. Its core method involves a value-aware approach, using Shapley-style evaluation to prioritize important records. This allows for more effective memory management, leading to improved response quality and reduced latency in LLM-based agents.",
+      "url": "http://arxiv.org/abs/2607.25992v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25992v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.25992v1/figures/motivation.png",
+      "figure_caption": "Figure 1 . Comparison between (a) utility-agnostic memory management and (b) value-aware memory management.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.26042v1",
+      "title": "VetClaw: An Edge-Cloud Multimodal Agentic System for Veterinary Disease Screening",
+      "authors": [
+        "Syed Mhamudul Hasan",
+        "Anas AlSobeh",
+        "Hussein Zangoti",
+        "Abdur R. Shahid"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "VetClaw is an edge-cloud system for veterinary disease screening that uses a camera and optional symptom descriptions. It leverages a vision-language model for zero-shot classification, with distinct edge (OpenClaw) and cloud (LangGraph) components managing interaction, workflow, and model invocation. This multimodal approach goes beyond static image analysis to provide more robust diagnostic support.",
+      "url": "http://arxiv.org/abs/2607.26042v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26042v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.26042v1/i.png",
+      "figure_caption": "Edge-cloud Architecture of the VetClaw Veterinary Assistant Deployed on a Raspberry Pi for Early Skin Disease Prediction.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.25886v1",
+      "title": "RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement",
+      "authors": [
+        "Fanqing Meng",
+        "Lingxiao Du",
+        "Qiguang Chen",
+        "Ziqi Zhao",
+        "Haocheng Lu"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces RSIBench-Data, a benchmark designed to isolate and evaluate the data-centric research capabilities of LLM agents for recursive self-improvement. The core method involves agents iteratively revising training data strategies for a fixed target model within a controlled post-training environment, separating research decisions from system complexities. The main contribution is providing a clean evaluation framework to assess how well LLM agents can autonomously diagnose model failures and generate improved training data, a crucial step for achieving recursive self-improvement.",
+      "url": "http://arxiv.org/abs/2607.25886v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25886v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.25886v1/x1.png",
+      "figure_caption": "Existing evaluations entangle multiple post-training choices; RSIBench-Data isolates the LLM agent’s ability to conduct data-centric post-training research.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.25904v1",
+      "title": "Interactive Reward Agent: GUI Task Evaluation via Environment-State Verification",
+      "authors": [
+        "Chenrui Shi",
+        "Yuwei Wu",
+        "Yang Liu",
+        "Ruining Feng",
+        "Zirui Shang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes an Interactive Reward Agent (IRA) for evaluating GUI task completion. The IRA uses a propose-then-verify framework, first suggesting task completion conditions and then confirming them by interacting with system, application, and GUI tools. This method's contribution is enabling reliable GUI task evaluation by incorporating crucial environment state information beyond just visual execution data.",
+      "url": "http://arxiv.org/abs/2607.25904v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25904v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.25904v1/figure1.png",
+      "figure_caption": "Comparison between the interactive reward agent (ours) and a VLM-based evaluator on a task that requires output-file verification.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.25891v1",
+      "title": "Messier: A High-Resolution Corpus for Cross-Benchmark Agent Evaluation",
+      "authors": [
+        "Stefan Krsteski",
+        "Charlotte Meyer",
+        "Guillaume Allegre",
+        "Tony O'Halloran",
+        "Alexandre Sallinen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.DB"
+      ],
+      "abstract": "This paper introduces Messier, a large, standardized corpus of over 950,000 agent evaluation records across 30 benchmarks and numerous agents and tasks. Its core method involves unifying fragmented evaluation data and supplementing it with new runs in underrepresented domains. Messier's contribution is enabling cross-benchmark agent comparison and revealing uneven progress, highlighting areas like \"function calling\" as saturated and \"enterprise workflows\" as challenging.",
+      "url": "http://arxiv.org/abs/2607.25891v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25891v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.25891v1/x1.png",
+      "figure_caption": "Composition and frontier analysis. Panels summarize the corpus across the dimensions defined in § 3 : (a) tasks by benchmark group, (b) action space, (c) environment state, (d) aggregation rule, and (e) verifier type. Counts in (b)–(e) are on a log scale. Panel (f) tracks frontier pass rate by release quarter and benchmark group, with dumbbell markers connecting each group’s first and final observed quarter.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.25907v1",
+      "title": "Minimizing Targeted Activations: Input-Only Suppression of Evaluation-Awareness Latents in Large Language Models",
+      "authors": [
+        "Deepanshu Mody",
+        "Samarth Agarwal",
+        "Utkarsh Mittal",
+        "Dipesh Mahato"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces an \"input-only\" method to suppress specific internal model activations, like \"evaluation-awareness\" latents, by optimizing prompts without altering the model itself. Their core contribution is demonstrating that by adapting existing prompt optimization techniques with a negated feature term, they can effectively drive these targeted latents towards zero. This method offers a way to potentially prevent LLMs from behaving differently when they detect they are being evaluated, though the results also highlight potential cautionary implications.",
+      "url": "http://arxiv.org/abs/2607.25907v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25907v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.25907v1/x1.png",
+      "figure_caption": "Suppression succeeds, but behavior does not follow. Left : prompt-side optimization drives diverse target latents from their base value f 0 f_{0} to zero or below—the direction and logit overshoot, and a causally-validated SAE feature is turned off completely. Right : yet a prompt optimized to suppress the eval-direction in front of a fixed eval body pushes the model’s behavioral eval log-odds above the eval-body baseline (more eval-like), while a random-direction prefix is neutral. Activation-readability is not behavioral controllability.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.25912v1",
+      "title": "SAM3D-Guided Object-Centric Representation Alignment for Vision-Language-Action Models",
+      "authors": [
+        "Zonghe Liu",
+        "Shanyuan Jie",
+        "Xiaoquan Sun",
+        "Chen Cao",
+        "Zetian Xu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces a method to improve Vision-Language-Action (VLA) models by incorporating 3D object understanding. It uses a frozen 3D teacher (SAM3D) to guide the alignment of object-centric 3D representations with the VLA model's internal features during training. This allows the model to learn crucial 3D object information without needing explicit 3D data or modules at inference time, leading to better performance in complex manipulation tasks.",
+      "url": "http://arxiv.org/abs/2607.25912v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25912v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.25912v1/x1.png",
+      "figure_caption": "Overview of SAM3D-VLA . We propose an object-centric 3D alignment framework that uses SAM3D as a frozen teacher during training. High-level instructions are decomposed into subtasks, and task-relevant object masks are used for SAM3D feature extraction. The extracted 3D features are spatially resampled and dimensionally projected to align with intermediate VLA representations, while inference follows the original pipeline using RGB and language instructions.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.26040v1",
+      "title": "Reinformed Dreamer: An Asymmetric World Model Efficiently Trained through Latent Guidance",
+      "authors": [
+        "Gaspard Lambrechts",
+        "Adrien Bolland",
+        "Daniel Ebi",
+        "Damien Ernst"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper introduces \"Reinformed Dreamer,\" an asymmetric world model for reinforcement learning. Its core method is a novel latent guidance objective that improves how the model learns from privileged information, addressing a limitation in prior work. The key contribution is a more efficient and effective training approach for model-based RL by better utilizing auxiliary state information.",
+      "url": "http://arxiv.org/abs/2607.26040v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26040v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.26015v1",
+      "title": "Instruction-Tuned Models Locally Reuse Human Syntax More Than Humans Do",
+      "authors": [
+        "Zandi Eberstadt"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates whether instruction-tuned language models exhibit syntactic convergence, similar to humans, by analyzing their reuse of grammatical rules in dialogues. The core method involves comparing model generations' syntactic overlap with preceding human turns against unrelated human text. The key contribution is demonstrating that instruction-tuned models locally reuse human syntax more frequently than humans do, particularly for less common grammatical structures.",
+      "url": "http://arxiv.org/abs/2607.26015v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26015v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.26015v1/x1.png",
+      "figure_caption": "Primary and pooled syntactic results. (a) Per-model actual-prime contrasts against the matched human response at centered mean rule frequency; error bars are 95% Wald intervals. (b) Pooled instruction-minus-pretraining coefficients under four estimands. Positive values favor instruction tuning. Conditional coefficients are evaluated at the target-size centering mean.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.26017v1",
+      "title": "UniMem: Complementary Episodic-to-Parametric Memory for Boundary-Agnostic Task Streams",
+      "authors": [
+        "Siyu Xia",
+        "Chenheng Zhang",
+        "Yanting Wu",
+        "Haoxuan Li",
+        "Jiajun Chai"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "UniMem addresses the stability-plasticity dilemma in LLM agents by proposing a self-routing framework that adaptively coordinates two complementary memory pathways. Novel tasks are stored in an episodic buffer for retrieval, while recurring patterns are consolidated into parametric memory for efficient, stable execution. This approach allows LLMs to effectively manage and reuse task experience across evolving task streams without explicit boundary definitions.",
+      "url": "http://arxiv.org/abs/2607.26017v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26017v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.26017v1/x1.png",
+      "figure_caption": "The episodic-to-parametric conceptual workflow of UniMem . Initial Routing Construction initializes known-task routing embeddings and calibrates the novelty sentinel 𝐞 NOVEL \\( \\mathbf{e} \\)_{\\( \\texttt{NOVEL} \\)} . Episodic Buffering stores queries routed to 𝐞 NOVEL \\( \\mathbf{e} \\)_{\\( \\texttt{NOVEL} \\)} for retrieval-augmented execution. Parametric Consolidation clusters recurring buffered patterns and converts them into new routing embeddings with associated parametric memory units.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "HRER2026/343-194 Research assistant /Asistente de investigación",
+      "url": "https://euraxess.ec.europa.eu/jobs/456931",
+      "description": "Research support for the ACK project. Design, development and validation of RAG-LLM components. Validation of cognitive state in the RAG assistant. Validation of hybrid human-automated assessment. Apoyo en la investigación para el proyecto ACK. Diseño, desarrollo y validación de los componentes del... * Department: HRS4R Work Locations: Number of offers: 1, Spain, ESCUELA TÉCNICA SUPERIOR DE INGENIEROS DE TELECOMUNICACIÓN, Madrid, 28040, MADRID, Av.Complutense 30 Research Field: [Communication sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A65) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A77) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 11 Aug 2026 - 23:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland ![Image 4: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Medical University of Silesia](https://euraxess.ec.europa.eu/partnering/organisations/profile/medical-university-silesia) * [Field: Communication sciences]",
+      "institution": "",
+      "posted_date": "29 July 2026",
+      "deadline": "11 Aug 2026 - 23:00 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Communication sciences, Other\nKey Requirements: Design, development, and validation of RAG-LLM components; validation of cognitive state in RAG assistants; validation of hybrid human-automated assessment.\nApplication Info: deadline: 11 Aug 2026 - 23:00 (Europe/Madrid), required materials: N/A, contact: N/A\nPosition Details: location: Madrid, Spain, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: Strong alignment for LLM/RAG development, potential for CV/medical imaging if applicable to cognitive state validation.",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "Assistant professor",
+      "url": "https://euraxess.ec.europa.eu/jobs/456928",
+      "description": "The Assistant Professor will be responsible for planning, organizing, and carrying out research and teaching activities, as well as participating in organizational tasks that support the University's academic mission. The successful candidate should demonstrate creativity, initiative, and a high... * Department: Wydział Medyczny Work Locations: Number of offers: 1, Poland, Politechnika Bydgoska im. Jana i Jędrzeja Śniadeckich Wydział Medyczny Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Medicine](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A314) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 28 Aug 2026 - 00:00 (Europe/Warsaw) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland ![Image 5: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [SWPS University](https://euraxess.ec.europa.eu/partnering/organisations/profile/swps-university-0) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "29 July 2026",
+      "deadline": "28 Aug 2026 - 00:00 (Europe/Warsaw)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Medical sciences, Medicine\nKey Requirements: Demonstrated creativity, initiative, and a high level of academic accomplishment.\nApplication Info: Deadline: 28 Aug 2026 - 00:00 (Europe/Warsaw). Required materials and contact information are not specified.\nPosition Details: Location: Poland, Bydgoszcz (Politechnika Bydgoska im. Jana i Jędrzeja Śniadeckich, Wydział Medyczny). Contract type, workload, and salary are not specified.\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "HRER2026/343-194 Research assistant /Asistente de investigación",
+      "url": "https://euraxess.ec.europa.eu/jobs/456931",
+      "description": "Research support for the ACK project. Design, development and validation of RAG-LLM components. Validation of cognitive state in the RAG assistant. Validation of hybrid human-automated assessment. Apoyo en la investigación para el proyecto ACK. Diseño, desarrollo y validación de los componentes del... * Department: HRS4R Work Locations: Number of offers: 1, Spain, ESCUELA TÉCNICA SUPERIOR DE INGENIEROS DE TELECOMUNICACIÓN, Madrid, 28040, MADRID, Av.Complutense 30 Research Field: [Communication sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A65) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A77) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 11 Aug 2026 - 23:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland ![Image 4: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Medical University of Silesia](https://euraxess.ec.europa.eu/partnering/organisations/profile/medical-university-silesia) * [Field: Communication sciences]",
+      "institution": "",
+      "posted_date": "29 July 2026",
+      "deadline": "11 Aug 2026 - 23:00 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Communication sciences, Other\nKey Requirements: Design, development, and validation of RAG-LLM components; validation of cognitive state in RAG assistants; validation of hybrid human-automated assessment.\nApplication Info: deadline: 11 Aug 2026 - 23:00 (Europe/Madrid), required materials: N/A, contact: N/A\nPosition Details: location: Madrid, Spain, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: Strong alignment for LLM/RAG development, potential for CV/medical imaging if applicable to cognitive state validation.",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "Assistant professor",
+      "url": "https://euraxess.ec.europa.eu/jobs/456928",
+      "description": "The Assistant Professor will be responsible for planning, organizing, and carrying out research and teaching activities, as well as participating in organizational tasks that support the University's academic mission. The successful candidate should demonstrate creativity, initiative, and a high... * Department: Wydział Medyczny Work Locations: Number of offers: 1, Poland, Politechnika Bydgoska im. Jana i Jędrzeja Śniadeckich Wydział Medyczny Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Medicine](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A314) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 28 Aug 2026 - 00:00 (Europe/Warsaw) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland ![Image 5: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [SWPS University](https://euraxess.ec.europa.eu/partnering/organisations/profile/swps-university-0) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "29 July 2026",
+      "deadline": "28 Aug 2026 - 00:00 (Europe/Warsaw)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Medical sciences, Medicine\nKey Requirements: Demonstrated creativity, initiative, and a high level of academic accomplishment.\nApplication Info: Deadline: 28 Aug 2026 - 00:00 (Europe/Warsaw). Required materials and contact information are not specified.\nPosition Details: Location: Poland, Bydgoszcz (Politechnika Bydgoska im. Jana i Jędrzeja Śniadeckich, Wydział Medyczny). Contract type, workload, and salary are not specified.\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
