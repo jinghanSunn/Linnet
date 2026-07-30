@@ -1,0 +1,742 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T11:30:56.906843+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.27081v1",
+          "title": "On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment",
+          "authors": [
+            "Yongjian Guo",
+            "Wanlun Ma",
+            "Lingyu Shen",
+            "Xi Xiao",
+            "Sheng Wen"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.CR"
+          ],
+          "abstract": "This paper introduces Routing-based On-Policy Distillation (ROPD), a novel method to make LLMs safer by distilling knowledge from an aligned model to a potentially compromised one. ROPD focuses on modeling the difference between aligned and compromised output distributions, making it robust to unseen prompt templates and less prone to catastrophic forgetting or re-jailbreaking. Its core contribution is a template-agnostic approach to LLM safety realignment.",
+          "url": "http://arxiv.org/abs/2607.27081v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.27081v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.27081v1/x1.png",
+          "figure_caption": "The template-consistency trap in safety realignment.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.27201v1",
+          "title": "Mental World Modeling",
+          "authors": [
+            "Hao Fei",
+            "Yiran Zhao"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Mental World Modeling (MWM), a framework that extends traditional world models by incorporating agents' hidden mental states (beliefs, desires, intentions) alongside physical states. MWM's core method is to maintain a coupled physical-mental world state, predict how candidate actions will jointly update both, and simulate this process. The contribution is a more accurate prediction of human behavior by modeling not just the physical environment but also what agents know and believe about it.",
+          "url": "http://arxiv.org/abs/2607.27201v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.27201v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.27201v1/x1.png",
+          "figure_caption": "Mental World Modeling (MWM) represents a scene as a coupled physical and mental world state, renders a target-specific observation, predicts candidate target actions, and simulates the next physical and mental states. Unlike physical world modeling alone, MWM explicitly tracks the unobserved beliefs, goals, intentions, emotions, relations, and norms that shape what the target agent will actually do.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.27154v1",
+          "title": "Anatomy Contextualized Adaption of CT Foundation Models",
+          "authors": [
+            "Roshan Kenia",
+            "Stephanie L McNamara",
+            "William Lotter"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces Anatomy Contextualized Adaptation (ACA), a lightweight method to improve CT vision-language foundation models. ACA adapts frozen models by aligning anatomy-level visual features with specific text, while also preserving global context and avoiding expensive training from scratch. Its core contribution is a framework that efficiently enhances fine-grained anatomical understanding within CT images for better vision-language alignment.",
+          "url": "http://arxiv.org/abs/2607.27154v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.27154v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.27154v1/x1.png",
+          "figure_caption": "Overview of ACA. Anatomy-level visual embeddings are constructed from a frozen CT foundation model using TotalSegmentator segmentations, while anatomy-level text embeddings are extracted from radiology reports using an LLM and the corresponding frozen text encoder. An inter-anatomy transformer, augmented with spatial position and anatomy type embeddings, contextualizes the anatomy embeddings across the full set of structures. The resulting embeddings are aligned to per-anatomy text via ℒ anatomy \\( \\mathcal{L} \\)_{\\( \\text{anatomy} \\)} , while their mean-pooled scan-level embedding is aligned to the full report via ℒ scan \\( \\mathcal{L} \\)_{\\( \\text{scan} \\)} .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.27191v1",
+          "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
+          "authors": [
+            "Peter Kirgis",
+            "Sayash Kapoor",
+            "Andrew Schwartz",
+            "Stephan Rabanser",
+            "David Africa"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CY"
+          ],
+          "abstract": "This paper proposes \"shadow evaluations\" as a new method to assess AI agents' ability to conduct open-ended AI research. In this approach, AI agents tackle the core research question of an unpublished paper, and the original authors grade their progress. The study found that despite completing engineering tasks autonomously, current frontier AI agents failed to make substantial progress on complex research questions, leading to their \"rejection\" by the authors.",
+          "url": "http://arxiv.org/abs/2607.27191v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.27191v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.27155v1",
+          "title": "OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
+          "authors": [
+            "Jingbo Zhou",
+            "Yusai Zhao",
+            "Qi Bao",
+            "Jingjia Cao",
+            "Zhenghai Chen"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.HC"
+          ],
+          "abstract": "This paper introduces OmegaUse-OfficeVal, a new benchmark designed to evaluate LLM agents on complex, multi-step office tasks. Its core contribution is the inclusion of economic grounding, pairing each task with human labor time and a price proxy. This allows for cost-effective evaluation of LLM agent performance against human benchmarks.",
+          "url": "http://arxiv.org/abs/2607.27155v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.27155v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.27066v1",
+          "title": "SciFigAlign: Scoring Scientific Figures by Fine-tuned Alignment of Visuals with Manuscript Evidence",
+          "authors": [
+            "Chuanzhi Xu",
+            "Zihan Deng",
+            "Huiqi Liang",
+            "Chengkun Yue",
+            "Zhanlin Cui"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces SciFigAlign, a method for scoring scientific figures based on their alignment with manuscript evidence. It addresses limitations of existing image assessment tools by fine-tuning a model on a dataset of 3,857 annotated scientific figures. SciFigAlign's core contribution is its ability to evaluate figures not just on visual quality, but on their scientific relevance and clarity within the context of a research paper.",
+          "url": "http://arxiv.org/abs/2607.27066v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.27066v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.27066v1/x1.png",
+          "figure_caption": "Overview of SciFigAlign versus prior image assessment methods. Left: four prior paradigms and what each lacks for scientific figure scoring. Right: SciFigAlign binds a published figure to caption, citing paragraphs, and abstract/metadata, scores Clarity / Relevance / Informativeness / Structure (CL/RE/IN/ST) with a learnable CrossAttn+CubeMLP regressor, and keeps an LLM judge as a diagnostic baseline only.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.27083v1",
+          "title": "Scores Are Not Decisions: Cost-Aware Stopping for Tool Acquisition in LLM Agents",
+          "authors": [
+            "Yicheng Feng",
+            "Yan Zhang",
+            "Yan Cheng",
+            "Wei Qi"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper addresses the challenge of deciding how many tools an LLM agent should acquire from a ranked list, considering their diverse costs. The core method, CAM-DF, formulates this as a cost-aware stopping problem, training directly on the value of stopping versus continuing. Its contribution is a principled approach to tool acquisition that accounts for heterogeneous costs, proving that simple score-based methods are suboptimal in such scenarios.",
+          "url": "http://arxiv.org/abs/2607.27083v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.27083v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.27083v1/figs/fig1_placement_aaai.png",
+          "figure_caption": "CAM-DF as a pre-execution stop plugin inside one agent turn. The agent flow is unchanged: a router, retriever, scoring prompt, or shadow pass exposes a candidate order. CAM-DF virtually walks the ranking and fixes the prefix A ​ ( τ ) A(\\( \\tau \\)) before any selected tool executes. Offline labels define the regret-weighted target; deployment sees public features.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.27036v1",
+          "title": "Mitigating Compounding Error via Video Representation Regularization",
+          "authors": [
+            "Taiye Chen",
+            "Qi Zhang",
+            "Yisen Wang"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CV"
+          ],
+          "abstract": "This paper identifies that compounding error in video diffusion models for long-horizon generation is caused by dimensional collapse in the model's internal representations. The core method involves regularizing these representations to prevent degradation. The main contribution is demonstrating that this representational regularization, rather than simply scaling training data, is crucial for achieving stable and high-quality long-term video generation.",
+          "url": "http://arxiv.org/abs/2607.27036v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.27036v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.27036v1/Figures/figure1.png",
+          "figure_caption": "Overview of our proposed method. Existing autoregressive diffusion models suffer from compounding errors during long-range generation, and this issue cannot be effectively mitigated by simply scaling up training data. We introduce hidden states regularization into DiT layers to strengthen the model’s representation capacity, alleviate compounding errors, and enable consistent performance gains as training proceeds.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.27022v1",
+          "title": "Evaluating Regional Bias in LLMs From Abstract Stereotype to Concrete Social Decision-Making",
+          "authors": [
+            "Jiayuan Di",
+            "Haoyi Yang",
+            "Yufei Luo",
+            "Jiahui Qu",
+            "Yiming Wang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Stereotypes-to-Decisions (S2D), a framework to systematically evaluate regional bias in LLMs. S2D assesses how LLMs perceive Chinese regions in terms of warmth and competence, and how these perceptions influence decisions in education, occupation, and social interaction. The study finds significant and consistent regional biases across six LLMs, linking these biases to regional development indicators.",
+          "url": "http://arxiv.org/abs/2607.27022v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.27022v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.27022v1/x1.png",
+          "figure_caption": "Overview of our S2D evaluation framework for regional bias.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.27167v1",
+          "title": "SpecFirst: Behavioral Specification Elicitation as a First-Class Step in Agent-Based Program Synthesis from Scratch",
+          "authors": [
+            "Yihao Chen",
+            "Shi Chang",
+            "Feng Lin",
+            "Khaled Chawa",
+            "Boyuan Chen"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.SE"
+          ],
+          "abstract": "This paper introduces SpecFirst, a novel two-stage framework for agent-based program synthesis from scratch. Its core method separates behavioral specification elicitation from code synthesis, allowing a dedicated agent to thoroughly probe a binary and documentation before any code is generated. This approach aims to overcome limitations of existing single-pass methods by preventing context drift and misinterpretations, leading to more accurate program synthesis.",
+          "url": "http://arxiv.org/abs/2607.27167v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.27167v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.27167v1/x1.png",
+          "figure_caption": "Framework of SpecFirst . On top of the default code synthesis pipeline in the blue box, SpecFirst introduces spec agent to elicit the specification before implementation in the green box.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 22,
+        "papers_after_llm_filter": 10,
+        "count": 10
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 22,
+    "papers_after_llm_filter": 10,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 39
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.27081v1",
+      "title": "On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment",
+      "authors": [
+        "Yongjian Guo",
+        "Wanlun Ma",
+        "Lingyu Shen",
+        "Xi Xiao",
+        "Sheng Wen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces Routing-based On-Policy Distillation (ROPD), a novel method to make LLMs safer by distilling knowledge from an aligned model to a potentially compromised one. ROPD focuses on modeling the difference between aligned and compromised output distributions, making it robust to unseen prompt templates and less prone to catastrophic forgetting or re-jailbreaking. Its core contribution is a template-agnostic approach to LLM safety realignment.",
+      "url": "http://arxiv.org/abs/2607.27081v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27081v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.27081v1/x1.png",
+      "figure_caption": "The template-consistency trap in safety realignment.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.27201v1",
+      "title": "Mental World Modeling",
+      "authors": [
+        "Hao Fei",
+        "Yiran Zhao"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Mental World Modeling (MWM), a framework that extends traditional world models by incorporating agents' hidden mental states (beliefs, desires, intentions) alongside physical states. MWM's core method is to maintain a coupled physical-mental world state, predict how candidate actions will jointly update both, and simulate this process. The contribution is a more accurate prediction of human behavior by modeling not just the physical environment but also what agents know and believe about it.",
+      "url": "http://arxiv.org/abs/2607.27201v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27201v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.27201v1/x1.png",
+      "figure_caption": "Mental World Modeling (MWM) represents a scene as a coupled physical and mental world state, renders a target-specific observation, predicts candidate target actions, and simulates the next physical and mental states. Unlike physical world modeling alone, MWM explicitly tracks the unobserved beliefs, goals, intentions, emotions, relations, and norms that shape what the target agent will actually do.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.27154v1",
+      "title": "Anatomy Contextualized Adaption of CT Foundation Models",
+      "authors": [
+        "Roshan Kenia",
+        "Stephanie L McNamara",
+        "William Lotter"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces Anatomy Contextualized Adaptation (ACA), a lightweight method to improve CT vision-language foundation models. ACA adapts frozen models by aligning anatomy-level visual features with specific text, while also preserving global context and avoiding expensive training from scratch. Its core contribution is a framework that efficiently enhances fine-grained anatomical understanding within CT images for better vision-language alignment.",
+      "url": "http://arxiv.org/abs/2607.27154v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27154v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.27154v1/x1.png",
+      "figure_caption": "Overview of ACA. Anatomy-level visual embeddings are constructed from a frozen CT foundation model using TotalSegmentator segmentations, while anatomy-level text embeddings are extracted from radiology reports using an LLM and the corresponding frozen text encoder. An inter-anatomy transformer, augmented with spatial position and anatomy type embeddings, contextualizes the anatomy embeddings across the full set of structures. The resulting embeddings are aligned to per-anatomy text via ℒ anatomy \\( \\mathcal{L} \\)_{\\( \\text{anatomy} \\)} , while their mean-pooled scan-level embedding is aligned to the full report via ℒ scan \\( \\mathcal{L} \\)_{\\( \\text{scan} \\)} .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.27191v1",
+      "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
+      "authors": [
+        "Peter Kirgis",
+        "Sayash Kapoor",
+        "Andrew Schwartz",
+        "Stephan Rabanser",
+        "David Africa"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CY"
+      ],
+      "abstract": "This paper proposes \"shadow evaluations\" as a new method to assess AI agents' ability to conduct open-ended AI research. In this approach, AI agents tackle the core research question of an unpublished paper, and the original authors grade their progress. The study found that despite completing engineering tasks autonomously, current frontier AI agents failed to make substantial progress on complex research questions, leading to their \"rejection\" by the authors.",
+      "url": "http://arxiv.org/abs/2607.27191v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27191v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.27155v1",
+      "title": "OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
+      "authors": [
+        "Jingbo Zhou",
+        "Yusai Zhao",
+        "Qi Bao",
+        "Jingjia Cao",
+        "Zhenghai Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "abstract": "This paper introduces OmegaUse-OfficeVal, a new benchmark designed to evaluate LLM agents on complex, multi-step office tasks. Its core contribution is the inclusion of economic grounding, pairing each task with human labor time and a price proxy. This allows for cost-effective evaluation of LLM agent performance against human benchmarks.",
+      "url": "http://arxiv.org/abs/2607.27155v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27155v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.27066v1",
+      "title": "SciFigAlign: Scoring Scientific Figures by Fine-tuned Alignment of Visuals with Manuscript Evidence",
+      "authors": [
+        "Chuanzhi Xu",
+        "Zihan Deng",
+        "Huiqi Liang",
+        "Chengkun Yue",
+        "Zhanlin Cui"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces SciFigAlign, a method for scoring scientific figures based on their alignment with manuscript evidence. It addresses limitations of existing image assessment tools by fine-tuning a model on a dataset of 3,857 annotated scientific figures. SciFigAlign's core contribution is its ability to evaluate figures not just on visual quality, but on their scientific relevance and clarity within the context of a research paper.",
+      "url": "http://arxiv.org/abs/2607.27066v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27066v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.27066v1/x1.png",
+      "figure_caption": "Overview of SciFigAlign versus prior image assessment methods. Left: four prior paradigms and what each lacks for scientific figure scoring. Right: SciFigAlign binds a published figure to caption, citing paragraphs, and abstract/metadata, scores Clarity / Relevance / Informativeness / Structure (CL/RE/IN/ST) with a learnable CrossAttn+CubeMLP regressor, and keeps an LLM judge as a diagnostic baseline only.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.27083v1",
+      "title": "Scores Are Not Decisions: Cost-Aware Stopping for Tool Acquisition in LLM Agents",
+      "authors": [
+        "Yicheng Feng",
+        "Yan Zhang",
+        "Yan Cheng",
+        "Wei Qi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper addresses the challenge of deciding how many tools an LLM agent should acquire from a ranked list, considering their diverse costs. The core method, CAM-DF, formulates this as a cost-aware stopping problem, training directly on the value of stopping versus continuing. Its contribution is a principled approach to tool acquisition that accounts for heterogeneous costs, proving that simple score-based methods are suboptimal in such scenarios.",
+      "url": "http://arxiv.org/abs/2607.27083v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27083v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.27083v1/figs/fig1_placement_aaai.png",
+      "figure_caption": "CAM-DF as a pre-execution stop plugin inside one agent turn. The agent flow is unchanged: a router, retriever, scoring prompt, or shadow pass exposes a candidate order. CAM-DF virtually walks the ranking and fixes the prefix A ​ ( τ ) A(\\( \\tau \\)) before any selected tool executes. Offline labels define the regret-weighted target; deployment sees public features.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.27036v1",
+      "title": "Mitigating Compounding Error via Video Representation Regularization",
+      "authors": [
+        "Taiye Chen",
+        "Qi Zhang",
+        "Yisen Wang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "This paper identifies that compounding error in video diffusion models for long-horizon generation is caused by dimensional collapse in the model's internal representations. The core method involves regularizing these representations to prevent degradation. The main contribution is demonstrating that this representational regularization, rather than simply scaling training data, is crucial for achieving stable and high-quality long-term video generation.",
+      "url": "http://arxiv.org/abs/2607.27036v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27036v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.27036v1/Figures/figure1.png",
+      "figure_caption": "Overview of our proposed method. Existing autoregressive diffusion models suffer from compounding errors during long-range generation, and this issue cannot be effectively mitigated by simply scaling up training data. We introduce hidden states regularization into DiT layers to strengthen the model’s representation capacity, alleviate compounding errors, and enable consistent performance gains as training proceeds.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.27022v1",
+      "title": "Evaluating Regional Bias in LLMs From Abstract Stereotype to Concrete Social Decision-Making",
+      "authors": [
+        "Jiayuan Di",
+        "Haoyi Yang",
+        "Yufei Luo",
+        "Jiahui Qu",
+        "Yiming Wang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Stereotypes-to-Decisions (S2D), a framework to systematically evaluate regional bias in LLMs. S2D assesses how LLMs perceive Chinese regions in terms of warmth and competence, and how these perceptions influence decisions in education, occupation, and social interaction. The study finds significant and consistent regional biases across six LLMs, linking these biases to regional development indicators.",
+      "url": "http://arxiv.org/abs/2607.27022v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27022v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.27022v1/x1.png",
+      "figure_caption": "Overview of our S2D evaluation framework for regional bias.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.27167v1",
+      "title": "SpecFirst: Behavioral Specification Elicitation as a First-Class Step in Agent-Based Program Synthesis from Scratch",
+      "authors": [
+        "Yihao Chen",
+        "Shi Chang",
+        "Feng Lin",
+        "Khaled Chawa",
+        "Boyuan Chen"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces SpecFirst, a novel two-stage framework for agent-based program synthesis from scratch. Its core method separates behavioral specification elicitation from code synthesis, allowing a dedicated agent to thoroughly probe a binary and documentation before any code is generated. This approach aims to overcome limitations of existing single-pass methods by preventing context drift and misinterpretations, leading to more accurate program synthesis.",
+      "url": "http://arxiv.org/abs/2607.27167v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27167v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.27167v1/x1.png",
+      "figure_caption": "Framework of SpecFirst . On top of the default code synthesis pipeline in the blue box, SpecFirst introduces spec agent to elicit the specification before implementation in the green box.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.27081v1",
+      "title": "On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment",
+      "authors": [
+        "Yongjian Guo",
+        "Wanlun Ma",
+        "Lingyu Shen",
+        "Xi Xiao",
+        "Sheng Wen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces Routing-based On-Policy Distillation (ROPD), a novel method to make LLMs safer by distilling knowledge from an aligned model to a potentially compromised one. ROPD focuses on modeling the difference between aligned and compromised output distributions, making it robust to unseen prompt templates and less prone to catastrophic forgetting or re-jailbreaking. Its core contribution is a template-agnostic approach to LLM safety realignment.",
+      "url": "http://arxiv.org/abs/2607.27081v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27081v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.27081v1/x1.png",
+      "figure_caption": "The template-consistency trap in safety realignment.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.27201v1",
+      "title": "Mental World Modeling",
+      "authors": [
+        "Hao Fei",
+        "Yiran Zhao"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Mental World Modeling (MWM), a framework that extends traditional world models by incorporating agents' hidden mental states (beliefs, desires, intentions) alongside physical states. MWM's core method is to maintain a coupled physical-mental world state, predict how candidate actions will jointly update both, and simulate this process. The contribution is a more accurate prediction of human behavior by modeling not just the physical environment but also what agents know and believe about it.",
+      "url": "http://arxiv.org/abs/2607.27201v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27201v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.27201v1/x1.png",
+      "figure_caption": "Mental World Modeling (MWM) represents a scene as a coupled physical and mental world state, renders a target-specific observation, predicts candidate target actions, and simulates the next physical and mental states. Unlike physical world modeling alone, MWM explicitly tracks the unobserved beliefs, goals, intentions, emotions, relations, and norms that shape what the target agent will actually do.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.27154v1",
+      "title": "Anatomy Contextualized Adaption of CT Foundation Models",
+      "authors": [
+        "Roshan Kenia",
+        "Stephanie L McNamara",
+        "William Lotter"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces Anatomy Contextualized Adaptation (ACA), a lightweight method to improve CT vision-language foundation models. ACA adapts frozen models by aligning anatomy-level visual features with specific text, while also preserving global context and avoiding expensive training from scratch. Its core contribution is a framework that efficiently enhances fine-grained anatomical understanding within CT images for better vision-language alignment.",
+      "url": "http://arxiv.org/abs/2607.27154v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27154v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.27154v1/x1.png",
+      "figure_caption": "Overview of ACA. Anatomy-level visual embeddings are constructed from a frozen CT foundation model using TotalSegmentator segmentations, while anatomy-level text embeddings are extracted from radiology reports using an LLM and the corresponding frozen text encoder. An inter-anatomy transformer, augmented with spatial position and anatomy type embeddings, contextualizes the anatomy embeddings across the full set of structures. The resulting embeddings are aligned to per-anatomy text via ℒ anatomy \\( \\mathcal{L} \\)_{\\( \\text{anatomy} \\)} , while their mean-pooled scan-level embedding is aligned to the full report via ℒ scan \\( \\mathcal{L} \\)_{\\( \\text{scan} \\)} .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.27191v1",
+      "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
+      "authors": [
+        "Peter Kirgis",
+        "Sayash Kapoor",
+        "Andrew Schwartz",
+        "Stephan Rabanser",
+        "David Africa"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CY"
+      ],
+      "abstract": "This paper proposes \"shadow evaluations\" as a new method to assess AI agents' ability to conduct open-ended AI research. In this approach, AI agents tackle the core research question of an unpublished paper, and the original authors grade their progress. The study found that despite completing engineering tasks autonomously, current frontier AI agents failed to make substantial progress on complex research questions, leading to their \"rejection\" by the authors.",
+      "url": "http://arxiv.org/abs/2607.27191v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27191v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.27155v1",
+      "title": "OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
+      "authors": [
+        "Jingbo Zhou",
+        "Yusai Zhao",
+        "Qi Bao",
+        "Jingjia Cao",
+        "Zhenghai Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "abstract": "This paper introduces OmegaUse-OfficeVal, a new benchmark designed to evaluate LLM agents on complex, multi-step office tasks. Its core contribution is the inclusion of economic grounding, pairing each task with human labor time and a price proxy. This allows for cost-effective evaluation of LLM agent performance against human benchmarks.",
+      "url": "http://arxiv.org/abs/2607.27155v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27155v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.27066v1",
+      "title": "SciFigAlign: Scoring Scientific Figures by Fine-tuned Alignment of Visuals with Manuscript Evidence",
+      "authors": [
+        "Chuanzhi Xu",
+        "Zihan Deng",
+        "Huiqi Liang",
+        "Chengkun Yue",
+        "Zhanlin Cui"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces SciFigAlign, a method for scoring scientific figures based on their alignment with manuscript evidence. It addresses limitations of existing image assessment tools by fine-tuning a model on a dataset of 3,857 annotated scientific figures. SciFigAlign's core contribution is its ability to evaluate figures not just on visual quality, but on their scientific relevance and clarity within the context of a research paper.",
+      "url": "http://arxiv.org/abs/2607.27066v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27066v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.27066v1/x1.png",
+      "figure_caption": "Overview of SciFigAlign versus prior image assessment methods. Left: four prior paradigms and what each lacks for scientific figure scoring. Right: SciFigAlign binds a published figure to caption, citing paragraphs, and abstract/metadata, scores Clarity / Relevance / Informativeness / Structure (CL/RE/IN/ST) with a learnable CrossAttn+CubeMLP regressor, and keeps an LLM judge as a diagnostic baseline only.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.27083v1",
+      "title": "Scores Are Not Decisions: Cost-Aware Stopping for Tool Acquisition in LLM Agents",
+      "authors": [
+        "Yicheng Feng",
+        "Yan Zhang",
+        "Yan Cheng",
+        "Wei Qi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper addresses the challenge of deciding how many tools an LLM agent should acquire from a ranked list, considering their diverse costs. The core method, CAM-DF, formulates this as a cost-aware stopping problem, training directly on the value of stopping versus continuing. Its contribution is a principled approach to tool acquisition that accounts for heterogeneous costs, proving that simple score-based methods are suboptimal in such scenarios.",
+      "url": "http://arxiv.org/abs/2607.27083v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27083v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.27083v1/figs/fig1_placement_aaai.png",
+      "figure_caption": "CAM-DF as a pre-execution stop plugin inside one agent turn. The agent flow is unchanged: a router, retriever, scoring prompt, or shadow pass exposes a candidate order. CAM-DF virtually walks the ranking and fixes the prefix A ​ ( τ ) A(\\( \\tau \\)) before any selected tool executes. Offline labels define the regret-weighted target; deployment sees public features.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.27036v1",
+      "title": "Mitigating Compounding Error via Video Representation Regularization",
+      "authors": [
+        "Taiye Chen",
+        "Qi Zhang",
+        "Yisen Wang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "This paper identifies that compounding error in video diffusion models for long-horizon generation is caused by dimensional collapse in the model's internal representations. The core method involves regularizing these representations to prevent degradation. The main contribution is demonstrating that this representational regularization, rather than simply scaling training data, is crucial for achieving stable and high-quality long-term video generation.",
+      "url": "http://arxiv.org/abs/2607.27036v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27036v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.27036v1/Figures/figure1.png",
+      "figure_caption": "Overview of our proposed method. Existing autoregressive diffusion models suffer from compounding errors during long-range generation, and this issue cannot be effectively mitigated by simply scaling up training data. We introduce hidden states regularization into DiT layers to strengthen the model’s representation capacity, alleviate compounding errors, and enable consistent performance gains as training proceeds.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.27022v1",
+      "title": "Evaluating Regional Bias in LLMs From Abstract Stereotype to Concrete Social Decision-Making",
+      "authors": [
+        "Jiayuan Di",
+        "Haoyi Yang",
+        "Yufei Luo",
+        "Jiahui Qu",
+        "Yiming Wang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Stereotypes-to-Decisions (S2D), a framework to systematically evaluate regional bias in LLMs. S2D assesses how LLMs perceive Chinese regions in terms of warmth and competence, and how these perceptions influence decisions in education, occupation, and social interaction. The study finds significant and consistent regional biases across six LLMs, linking these biases to regional development indicators.",
+      "url": "http://arxiv.org/abs/2607.27022v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27022v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.27022v1/x1.png",
+      "figure_caption": "Overview of our S2D evaluation framework for regional bias.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.27167v1",
+      "title": "SpecFirst: Behavioral Specification Elicitation as a First-Class Step in Agent-Based Program Synthesis from Scratch",
+      "authors": [
+        "Yihao Chen",
+        "Shi Chang",
+        "Feng Lin",
+        "Khaled Chawa",
+        "Boyuan Chen"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces SpecFirst, a novel two-stage framework for agent-based program synthesis from scratch. Its core method separates behavioral specification elicitation from code synthesis, allowing a dedicated agent to thoroughly probe a binary and documentation before any code is generated. This approach aims to overcome limitations of existing single-pass methods by preventing context drift and misinterpretations, leading to more accurate program synthesis.",
+      "url": "http://arxiv.org/abs/2607.27167v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27167v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.27167v1/x1.png",
+      "figure_caption": "Framework of SpecFirst . On top of the default code synthesis pipeline in the blue box, SpecFirst introduces spec agent to elicit the specification before implementation in the green box.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
