@@ -1,0 +1,544 @@
+{
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T11:40:12.663046+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.28466v1",
+          "title": "A report-grounded vision-language foundation model for colonoscopy from 280000 routine reports",
+          "authors": [
+            "Jia Yu",
+            "Yan Zhu",
+            "Yili He",
+            "Zilong Wang",
+            "Xinyang Jiang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces EndoCLIP, a vision-language foundation model for colonoscopy. Its core method involves recovering and aligning lesion-level image-text pairs from routine colonoscopy reports. EndoCLIP's contribution is demonstrating superior performance in various colonoscopy tasks, including classification, by effectively bridging the gap between visual findings and expert descriptions, even approaching expert-level accuracy in distinguishing benign from malignant lesions.",
+          "url": "http://arxiv.org/abs/2607.28466v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.28466v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2607.28466v1/x1.png",
+          "figure_caption": "Weak report–image alignment and analysis of the pretraining dataset. a , Routine reports correspond to multi-frame, often multi-lesion cases. b , Dataset curation funnel, from 280.5k de-identified reports to 123.8k polyp-positive reports and a curated training set of 104.5k cases (37.3%) yielding 125.8k image–text pairs. c , Anatomical-site coverage across the 123.8k polyp reports. d , Frequency of morphology and surface descriptors. e , Lesion-size distribution. f , Report and finding-sentence length in words. g , Frames per case (n = 123.8k cases, 8.54M frames; median 65, mean 69). In e – g , bars mark distribution percentiles (P25–P99).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.28617v1",
+          "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+          "authors": [
+            "Xiangning Lin",
+            "Shenzhe Zhu",
+            "Shu Yang",
+            "Zhenyu Zhang",
+            "Haoqian Zhang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CY",
+            "cs.HC"
+          ],
+          "abstract": "This paper introduces AISPA, a user-centric framework for auditing system prompts in AI applications. AISPA evaluates system prompt instructions across eight user-relevant dimensions, classifying them as protective or problematic. The authors' audit of 3,249 instructions from 88 commercial AI products reveals significant variation in prompt design, highlighting a trust and accountability gap due to the lack of transparency.",
+          "url": "http://arxiv.org/abs/2607.28617v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.28617v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.28617v1/x1.png",
+          "figure_caption": "Overview of system prompt quality across organizations. Bars show the average number of protective instructions and problematic instructions of products created by an organization. Problematic instructions are ubiquitous in AI products, while organizations vary in protective instructions.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.28545v1",
+          "title": "ORCA-bench: How Ready Are Language Model Agents for Oncall?",
+          "authors": [
+            "Albert Gong",
+            "Kyuseong Choi",
+            "Abhineet Agarwal",
+            "Jason Schechner",
+            "Ryan Huang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.SE"
+          ],
+          "abstract": "This paper introduces ORCA-bench, a novel benchmark designed to evaluate the readiness of language model agents for on-call incident root cause analysis (RCA). ORCA-bench simulates a production environment with real telemetry data and source code, presenting agents with 1,079 realistic RCA tasks. The benchmark's core contribution is its realistic evaluation of LLM agents on complex RCA scenarios, revealing current limitations with the best agents achieving only 25.3% accuracy on medium-difficulty tasks.",
+          "url": "http://arxiv.org/abs/2607.28545v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.28545v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.28545v1/x1.png",
+          "figure_caption": "RCA accuracy measures whether agents identified all plausible root causes, and hallucination rate measures whether agents named a root cause matching none of the plausible root causes. We show the realistic Medium and Hard difficulties here and report Easy in Fig. ˜ 5 along with Claude Fable 5 results on a subset of tasks in Sec. ˜ 5 . Error bars display ± 1 \\( \\pm \\) 1 standard error across 884 incident tasks.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.28609v1",
+          "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
+          "authors": [
+            "Qiushi Sun",
+            "Kanzhi Cheng",
+            "Yian Wang",
+            "Bowen Yang",
+            "Hang Yan"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces OSReward, a benchmark for evaluating the reliability of vision-language models (VLMs) as judges for computer-using agents (CUAs). It addresses the critical need for scalable and accurate verification of CUA task completion by providing a realistic dataset of human-verified CUA trajectories with ground-truth verdicts. OSReward aims to standardize CUA evaluation and advance research in this area.",
+          "url": "http://arxiv.org/abs/2607.28609v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.28609v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.28609v1/x3.png",
+          "figure_caption": "Cost against binary accuracy on OSReward-Hard: reliable judges are expensive, and the OS-Shepherd models come nearest their accuracy at a fraction of the cost.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.28538v1",
+          "title": "ScaFE: Data-Efficient Scar Classification with LLM-Generated Clinical Feature Programs",
+          "authors": [
+            "Ruman Wang",
+            "Hangting Ye"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CV"
+          ],
+          "abstract": "ScaFE addresses data-limited scar classification by leveraging LLMs to generate executable \"feature programs\" that extract clinically relevant attributes from scar images. This method avoids direct image diagnosis by VLMs, respecting data privacy and auditability. The core contribution is a data-efficient approach that translates LLM knowledge into reproducible, locally executable scar feature extraction, enabling robust classification with minimal expert-labeled data.",
+          "url": "http://arxiv.org/abs/2607.28538v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.28538v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.28538v1/x1.png",
+          "figure_caption": "Overview of ScaFE. An LLM turns source-traceable clinical concepts into deterministic feature programs that process local images into interpretable features. A fixed RF evaluates candidates, and only aggregate diagnostics return for refinement. The selected program and RF are frozen for prediction; raw images never enter the LLM context.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.28568v1",
+          "title": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
+          "authors": [
+            "Junlin Yang",
+            "Che Jiang",
+            "Yu Fu",
+            "Tianwei Luo",
+            "Can Ren"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Frontis-MA1, an AI model designed for recursive self-improvement in machine learning engineering (MLE). Its core method involves training a meta-evolution agent on an open-source MLE testbed (OpenMLE) using four atomic program-evolution operators. The key contribution is demonstrating that this AI can significantly improve its own performance in MLE tasks through a coupled learning and evolution loop, achieving substantial gains on the MLE-Bench Lite benchmark.",
+          "url": "http://arxiv.org/abs/2607.28568v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.28568v1",
+          "score": 7.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.28478v1",
+          "title": "Would You Walk to the Car Wash? Revealing the Salience Bias of Large Language Models in Commonsense Reasoning",
+          "authors": [
+            "Zheng Wu",
+            "Chenhao Xue",
+            "Shijie Zheng",
+            "Yijie Lu",
+            "Cheng Yang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces \"Salience Bias,\" a vulnerability in LLMs where they over-prioritize explicit, often irrelevant, information, leading them to ignore crucial commonsense knowledge. The authors propose the SaliTrap Benchmark to demonstrate this bias across various LLMs, showing that models struggle to overcome misleading distractors even when they can identify them. Their contribution highlights a significant gap in LLMs' ability to apply commonsense reasoning in realistic scenarios.",
+          "url": "http://arxiv.org/abs/2607.28478v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.28478v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.28478v1/Figures/overview.png",
+          "figure_caption": "All LLMs suffer from salience bias, which stems from knowledge suppression, not absence.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 23,
+        "papers_after_llm_filter": 7,
+        "count": 7
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 23,
+    "papers_after_llm_filter": 7,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 43
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.28466v1",
+      "title": "A report-grounded vision-language foundation model for colonoscopy from 280000 routine reports",
+      "authors": [
+        "Jia Yu",
+        "Yan Zhu",
+        "Yili He",
+        "Zilong Wang",
+        "Xinyang Jiang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces EndoCLIP, a vision-language foundation model for colonoscopy. Its core method involves recovering and aligning lesion-level image-text pairs from routine colonoscopy reports. EndoCLIP's contribution is demonstrating superior performance in various colonoscopy tasks, including classification, by effectively bridging the gap between visual findings and expert descriptions, even approaching expert-level accuracy in distinguishing benign from malignant lesions.",
+      "url": "http://arxiv.org/abs/2607.28466v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28466v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2607.28466v1/x1.png",
+      "figure_caption": "Weak report–image alignment and analysis of the pretraining dataset. a , Routine reports correspond to multi-frame, often multi-lesion cases. b , Dataset curation funnel, from 280.5k de-identified reports to 123.8k polyp-positive reports and a curated training set of 104.5k cases (37.3%) yielding 125.8k image–text pairs. c , Anatomical-site coverage across the 123.8k polyp reports. d , Frequency of morphology and surface descriptors. e , Lesion-size distribution. f , Report and finding-sentence length in words. g , Frames per case (n = 123.8k cases, 8.54M frames; median 65, mean 69). In e – g , bars mark distribution percentiles (P25–P99).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.28617v1",
+      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+      "authors": [
+        "Xiangning Lin",
+        "Shenzhe Zhu",
+        "Shu Yang",
+        "Zhenyu Zhang",
+        "Haoqian Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY",
+        "cs.HC"
+      ],
+      "abstract": "This paper introduces AISPA, a user-centric framework for auditing system prompts in AI applications. AISPA evaluates system prompt instructions across eight user-relevant dimensions, classifying them as protective or problematic. The authors' audit of 3,249 instructions from 88 commercial AI products reveals significant variation in prompt design, highlighting a trust and accountability gap due to the lack of transparency.",
+      "url": "http://arxiv.org/abs/2607.28617v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28617v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.28617v1/x1.png",
+      "figure_caption": "Overview of system prompt quality across organizations. Bars show the average number of protective instructions and problematic instructions of products created by an organization. Problematic instructions are ubiquitous in AI products, while organizations vary in protective instructions.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.28545v1",
+      "title": "ORCA-bench: How Ready Are Language Model Agents for Oncall?",
+      "authors": [
+        "Albert Gong",
+        "Kyuseong Choi",
+        "Abhineet Agarwal",
+        "Jason Schechner",
+        "Ryan Huang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces ORCA-bench, a novel benchmark designed to evaluate the readiness of language model agents for on-call incident root cause analysis (RCA). ORCA-bench simulates a production environment with real telemetry data and source code, presenting agents with 1,079 realistic RCA tasks. The benchmark's core contribution is its realistic evaluation of LLM agents on complex RCA scenarios, revealing current limitations with the best agents achieving only 25.3% accuracy on medium-difficulty tasks.",
+      "url": "http://arxiv.org/abs/2607.28545v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28545v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.28545v1/x1.png",
+      "figure_caption": "RCA accuracy measures whether agents identified all plausible root causes, and hallucination rate measures whether agents named a root cause matching none of the plausible root causes. We show the realistic Medium and Hard difficulties here and report Easy in Fig. ˜ 5 along with Claude Fable 5 results on a subset of tasks in Sec. ˜ 5 . Error bars display ± 1 \\( \\pm \\) 1 standard error across 884 incident tasks.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.28609v1",
+      "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
+      "authors": [
+        "Qiushi Sun",
+        "Kanzhi Cheng",
+        "Yian Wang",
+        "Bowen Yang",
+        "Hang Yan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces OSReward, a benchmark for evaluating the reliability of vision-language models (VLMs) as judges for computer-using agents (CUAs). It addresses the critical need for scalable and accurate verification of CUA task completion by providing a realistic dataset of human-verified CUA trajectories with ground-truth verdicts. OSReward aims to standardize CUA evaluation and advance research in this area.",
+      "url": "http://arxiv.org/abs/2607.28609v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28609v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.28609v1/x3.png",
+      "figure_caption": "Cost against binary accuracy on OSReward-Hard: reliable judges are expensive, and the OS-Shepherd models come nearest their accuracy at a fraction of the cost.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.28538v1",
+      "title": "ScaFE: Data-Efficient Scar Classification with LLM-Generated Clinical Feature Programs",
+      "authors": [
+        "Ruman Wang",
+        "Hangting Ye"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "ScaFE addresses data-limited scar classification by leveraging LLMs to generate executable \"feature programs\" that extract clinically relevant attributes from scar images. This method avoids direct image diagnosis by VLMs, respecting data privacy and auditability. The core contribution is a data-efficient approach that translates LLM knowledge into reproducible, locally executable scar feature extraction, enabling robust classification with minimal expert-labeled data.",
+      "url": "http://arxiv.org/abs/2607.28538v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28538v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.28538v1/x1.png",
+      "figure_caption": "Overview of ScaFE. An LLM turns source-traceable clinical concepts into deterministic feature programs that process local images into interpretable features. A fixed RF evaluates candidates, and only aggregate diagnostics return for refinement. The selected program and RF are frozen for prediction; raw images never enter the LLM context.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.28568v1",
+      "title": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
+      "authors": [
+        "Junlin Yang",
+        "Che Jiang",
+        "Yu Fu",
+        "Tianwei Luo",
+        "Can Ren"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Frontis-MA1, an AI model designed for recursive self-improvement in machine learning engineering (MLE). Its core method involves training a meta-evolution agent on an open-source MLE testbed (OpenMLE) using four atomic program-evolution operators. The key contribution is demonstrating that this AI can significantly improve its own performance in MLE tasks through a coupled learning and evolution loop, achieving substantial gains on the MLE-Bench Lite benchmark.",
+      "url": "http://arxiv.org/abs/2607.28568v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28568v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.28478v1",
+      "title": "Would You Walk to the Car Wash? Revealing the Salience Bias of Large Language Models in Commonsense Reasoning",
+      "authors": [
+        "Zheng Wu",
+        "Chenhao Xue",
+        "Shijie Zheng",
+        "Yijie Lu",
+        "Cheng Yang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces \"Salience Bias,\" a vulnerability in LLMs where they over-prioritize explicit, often irrelevant, information, leading them to ignore crucial commonsense knowledge. The authors propose the SaliTrap Benchmark to demonstrate this bias across various LLMs, showing that models struggle to overcome misleading distractors even when they can identify them. Their contribution highlights a significant gap in LLMs' ability to apply commonsense reasoning in realistic scenarios.",
+      "url": "http://arxiv.org/abs/2607.28478v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28478v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.28478v1/Figures/overview.png",
+      "figure_caption": "All LLMs suffer from salience bias, which stems from knowledge suppression, not absence.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.28466v1",
+      "title": "A report-grounded vision-language foundation model for colonoscopy from 280000 routine reports",
+      "authors": [
+        "Jia Yu",
+        "Yan Zhu",
+        "Yili He",
+        "Zilong Wang",
+        "Xinyang Jiang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces EndoCLIP, a vision-language foundation model for colonoscopy. Its core method involves recovering and aligning lesion-level image-text pairs from routine colonoscopy reports. EndoCLIP's contribution is demonstrating superior performance in various colonoscopy tasks, including classification, by effectively bridging the gap between visual findings and expert descriptions, even approaching expert-level accuracy in distinguishing benign from malignant lesions.",
+      "url": "http://arxiv.org/abs/2607.28466v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28466v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2607.28466v1/x1.png",
+      "figure_caption": "Weak report–image alignment and analysis of the pretraining dataset. a , Routine reports correspond to multi-frame, often multi-lesion cases. b , Dataset curation funnel, from 280.5k de-identified reports to 123.8k polyp-positive reports and a curated training set of 104.5k cases (37.3%) yielding 125.8k image–text pairs. c , Anatomical-site coverage across the 123.8k polyp reports. d , Frequency of morphology and surface descriptors. e , Lesion-size distribution. f , Report and finding-sentence length in words. g , Frames per case (n = 123.8k cases, 8.54M frames; median 65, mean 69). In e – g , bars mark distribution percentiles (P25–P99).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.28617v1",
+      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+      "authors": [
+        "Xiangning Lin",
+        "Shenzhe Zhu",
+        "Shu Yang",
+        "Zhenyu Zhang",
+        "Haoqian Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY",
+        "cs.HC"
+      ],
+      "abstract": "This paper introduces AISPA, a user-centric framework for auditing system prompts in AI applications. AISPA evaluates system prompt instructions across eight user-relevant dimensions, classifying them as protective or problematic. The authors' audit of 3,249 instructions from 88 commercial AI products reveals significant variation in prompt design, highlighting a trust and accountability gap due to the lack of transparency.",
+      "url": "http://arxiv.org/abs/2607.28617v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28617v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.28617v1/x1.png",
+      "figure_caption": "Overview of system prompt quality across organizations. Bars show the average number of protective instructions and problematic instructions of products created by an organization. Problematic instructions are ubiquitous in AI products, while organizations vary in protective instructions.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.28545v1",
+      "title": "ORCA-bench: How Ready Are Language Model Agents for Oncall?",
+      "authors": [
+        "Albert Gong",
+        "Kyuseong Choi",
+        "Abhineet Agarwal",
+        "Jason Schechner",
+        "Ryan Huang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces ORCA-bench, a novel benchmark designed to evaluate the readiness of language model agents for on-call incident root cause analysis (RCA). ORCA-bench simulates a production environment with real telemetry data and source code, presenting agents with 1,079 realistic RCA tasks. The benchmark's core contribution is its realistic evaluation of LLM agents on complex RCA scenarios, revealing current limitations with the best agents achieving only 25.3% accuracy on medium-difficulty tasks.",
+      "url": "http://arxiv.org/abs/2607.28545v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28545v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.28545v1/x1.png",
+      "figure_caption": "RCA accuracy measures whether agents identified all plausible root causes, and hallucination rate measures whether agents named a root cause matching none of the plausible root causes. We show the realistic Medium and Hard difficulties here and report Easy in Fig. ˜ 5 along with Claude Fable 5 results on a subset of tasks in Sec. ˜ 5 . Error bars display ± 1 \\( \\pm \\) 1 standard error across 884 incident tasks.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.28609v1",
+      "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
+      "authors": [
+        "Qiushi Sun",
+        "Kanzhi Cheng",
+        "Yian Wang",
+        "Bowen Yang",
+        "Hang Yan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces OSReward, a benchmark for evaluating the reliability of vision-language models (VLMs) as judges for computer-using agents (CUAs). It addresses the critical need for scalable and accurate verification of CUA task completion by providing a realistic dataset of human-verified CUA trajectories with ground-truth verdicts. OSReward aims to standardize CUA evaluation and advance research in this area.",
+      "url": "http://arxiv.org/abs/2607.28609v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28609v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.28609v1/x3.png",
+      "figure_caption": "Cost against binary accuracy on OSReward-Hard: reliable judges are expensive, and the OS-Shepherd models come nearest their accuracy at a fraction of the cost.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.28538v1",
+      "title": "ScaFE: Data-Efficient Scar Classification with LLM-Generated Clinical Feature Programs",
+      "authors": [
+        "Ruman Wang",
+        "Hangting Ye"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "ScaFE addresses data-limited scar classification by leveraging LLMs to generate executable \"feature programs\" that extract clinically relevant attributes from scar images. This method avoids direct image diagnosis by VLMs, respecting data privacy and auditability. The core contribution is a data-efficient approach that translates LLM knowledge into reproducible, locally executable scar feature extraction, enabling robust classification with minimal expert-labeled data.",
+      "url": "http://arxiv.org/abs/2607.28538v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28538v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.28538v1/x1.png",
+      "figure_caption": "Overview of ScaFE. An LLM turns source-traceable clinical concepts into deterministic feature programs that process local images into interpretable features. A fixed RF evaluates candidates, and only aggregate diagnostics return for refinement. The selected program and RF are frozen for prediction; raw images never enter the LLM context.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.28568v1",
+      "title": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
+      "authors": [
+        "Junlin Yang",
+        "Che Jiang",
+        "Yu Fu",
+        "Tianwei Luo",
+        "Can Ren"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Frontis-MA1, an AI model designed for recursive self-improvement in machine learning engineering (MLE). Its core method involves training a meta-evolution agent on an open-source MLE testbed (OpenMLE) using four atomic program-evolution operators. The key contribution is demonstrating that this AI can significantly improve its own performance in MLE tasks through a coupled learning and evolution loop, achieving substantial gains on the MLE-Bench Lite benchmark.",
+      "url": "http://arxiv.org/abs/2607.28568v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28568v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.28478v1",
+      "title": "Would You Walk to the Car Wash? Revealing the Salience Bias of Large Language Models in Commonsense Reasoning",
+      "authors": [
+        "Zheng Wu",
+        "Chenhao Xue",
+        "Shijie Zheng",
+        "Yijie Lu",
+        "Cheng Yang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces \"Salience Bias,\" a vulnerability in LLMs where they over-prioritize explicit, often irrelevant, information, leading them to ignore crucial commonsense knowledge. The authors propose the SaliTrap Benchmark to demonstrate this bias across various LLMs, showing that models struggle to overcome misleading distractors even when they can identify them. Their contribution highlights a significant gap in LLMs' ability to apply commonsense reasoning in realistic scenarios.",
+      "url": "http://arxiv.org/abs/2607.28478v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28478v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.28478v1/Figures/overview.png",
+      "figure_caption": "All LLMs suffer from salience bias, which stems from knowledge suppression, not absence.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
