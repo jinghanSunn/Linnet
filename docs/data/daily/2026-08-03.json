@@ -1,0 +1,883 @@
+{
+  "date": "2026-08-03",
+  "generated_at": "2026-08-03T12:43:54.895295+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2607.29626v1",
+          "title": "AgentHPOBench: A Benchmark For Evaluating LLM Agents as Sequential Hyperparameter Optimizers",
+          "authors": [
+            "Tianyu Huai",
+            "Tingshuo Fan",
+            "Xinchi Chen",
+            "Yining Zheng",
+            "Yuxin Wang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces AgentHPOBench, a novel benchmark designed to evaluate LLM agents' capability in sequential hyperparameter optimization. Unlike previous benchmarks, it assesses how agents interpret experimental evidence to guide subsequent configuration choices across 30 executable machine learning tasks. The contribution lies in providing a standardized framework to measure and compare the experimental optimization abilities of LLM agents against traditional methods.",
+          "url": "http://arxiv.org/abs/2607.29626v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.29626v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.29549v1",
+          "title": "AMTFV: Agentic Mathematical Tool-Flow Verification for LLM Self-Correction",
+          "authors": [
+            "Rui Zou",
+            "Yutao Zhu",
+            "Mengqi Wei",
+            "Ji-Rong Wen"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "AMTFV introduces a novel approach to verify Large Language Model (LLM) mathematical answers by decoupling verification modeling from execution. It uses a \"Mathematical Tool Flow\" (MTF) interface, allowing an LLM agent to construct a verification workflow and delegate specific computations to a mathematical toolbox agent. This method ensures exact computation while maintaining flexibility in verification modeling.",
+          "url": "http://arxiv.org/abs/2607.29549v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.29549v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.29549v1/x1.png",
+          "figure_caption": "Comparison of natural-language reflection, direct code verification, and AMTFV for mathematical answer verification and correction.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.29440v1",
+          "title": "Beyond Retrieval: Analytic Memory for Multimodal Agents",
+          "authors": [
+            "Zhoujin Tian",
+            "Yao Tian",
+            "Hao Zhang",
+            "Cheng Chen",
+            "Yakun Li"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces \"analytic memory\" as a novel approach for multimodal agents, complementing existing \"retrieval memory.\" Analytic memory organizes recurring multimodal observations into queryable structures that enable complex computations like filtering, aggregation, and temporal comparison. The proposed AdaMM framework automatically extracts and structures these observations, allowing agents to perform sophisticated analysis beyond simple information retrieval.",
+          "url": "http://arxiv.org/abs/2607.29440v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.29440v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.29440v1/x1.png",
+          "figure_caption": "Long-term multimodal interaction histories contain observations distributed across sessions, modalities, and time. Answering user queries may require either retrieving specific past events or performing analytical operations, such as temporal selection and aggregation, over multiple observations.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.29559v1",
+          "title": "LEMUR: Learning to Align with Multi-Objective Reinforcement Learning from Preference Feedback",
+          "authors": [
+            "Manith Adikari",
+            "Bei Peng",
+            "Samuele Vinanzi",
+            "Angelo Cangelosi"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.RO"
+          ],
+          "abstract": "LEMUR addresses the challenge of training RL agents for tasks with multiple, conflicting objectives when explicit reward functions are unavailable. It combines Multi-Objective Reinforcement Learning (MORL) with Preference-based RL (PbRL) to learn a reward vector from human preference feedback. This allows agents to effectively navigate complex trade-offs and align their behavior with human values without requiring pre-defined, precise reward signals.",
+          "url": "http://arxiv.org/abs/2607.29559v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.29559v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.29559v1/Figures/lemur.png",
+          "figure_caption": "Illustration of our framework LEMUR: (1) Unsupervised Pre-training for the MORL agent to explore and collect diverse experiences via maximizing state entropy H(s). (2) Reward learning from Preference feedback, where each reward model is learned separately from the preferences queried from each teacher. The reward models are used to dynamically relabel the state-action pairs as a reward vector for each objective (i.e., each teacher’s preferences). (3) Multi-Objective RL agent denoted by π \\( \\pi_{\\phi} \\) uses each of the trained reward models to do multi-objective policy optimization to maximize the expected vector rewards.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.29613v1",
+          "title": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning",
+          "authors": [
+            "Senyu Fei",
+            "Xiaopeng Yu",
+            "Siyin Wang",
+            "Xianzhong Zhao",
+            "Jingjing Gong"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.CV",
+            "cs.RO"
+          ],
+          "abstract": "This paper introduces the World Critic Model (WCM) to improve reinforcement learning for robot control. WCM addresses the limitation of traditional critics by explicitly modeling the temporal dynamics of observations, overcoming the partial observability inherent in robot manipulation. Its core method involves a lightweight architecture that jointly predicts future latent states, enabling more accurate value estimation and better learning of cross-temporal dynamics.",
+          "url": "http://arxiv.org/abs/2607.29613v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.29613v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2607.29613v1/x1.png",
+          "figure_caption": "Overview of the World Critic Model (WCM). Prior critic models are hindered by partial observability, and naïve multi-frame architectures remain inadequate due to sparse scalar supervision over high-dimensional observations. WCM proposes an end-to-end architecture that jointly predicts future and estimates value, effectively leveraging historical information. WCM achieves state-of-the-art performance in simulation and strong results in real-world RL training.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2607.29602v1",
+          "title": "FriendBench: Benchmarking Dyadic Familiarity Inference in Humans and Multimodal Large Language Models",
+          "authors": [
+            "Jeffrey M. Girard",
+            "Jason Z. Zheng",
+            "Jacqueline R. Vertino",
+            "Antony D'Avirro",
+            "Benjamin Peloquin"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CV",
+            "cs.HC"
+          ],
+          "abstract": "This paper introduces FriendBench, a benchmark for evaluating how well humans and AI models can infer familiarity between two people based solely on their interaction during an ice-breaker conversation. The core method involves analyzing short video clips of dyadic conversations, where the only cue to familiarity is the manner of interaction. The contribution lies in demonstrating that while top multimodal LLMs can match human accuracy in inferring familiarity, they exhibit a bias towards predicting \"stranger,\" suggesting a difference in their underlying priors compared to humans who leverage visible behavior more effectively.",
+          "url": "http://arxiv.org/abs/2607.29602v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.29602v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.29602v1/x1.png",
+          "figure_caption": "Human vs. model accuracy by modality. Each rater point covers only the ∼ \\( \\sim \\) 32 trials that rater saw, so the rater cloud is widened by sampling noise and its upper tail is not a band of expert raters (§ 5.4 ). Horizontal bars are Wilson 95% CIs for the best model and crowd, not tests of human–model or cross-modality differences (§ 4 , § 5.3 ).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.29561v1",
+          "title": "MOT-SR: Multi-Objective Tool-Augmented Scientific Equation Discovery with Large Language Models",
+          "authors": [
+            "Boxiao Wang",
+            "Runxiang Wang",
+            "Kai Li",
+            "Chongming Li",
+            "Zhiwei Chen"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "MOT-SR addresses limitations in LLM-based scientific equation discovery by integrating external analytical tools to extract structural information and guide equation generation. It then employs a multi-objective evaluation that jointly optimizes for accuracy, complexity, and generalization, maintaining a dynamic Pareto front to avoid premature convergence and explore a wider equation space. This approach enhances the efficiency and effectiveness of discovering accurate and generalizable scientific equations.",
+          "url": "http://arxiv.org/abs/2607.29561v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.29561v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.29561v1/x1.png",
+          "figure_caption": "Figure 1 . Overview of MOT-SR. Given observed data ( X , y ) (X,y) , MOT-SR maintains a Pareto-frontier buffer 𝒫 t \\( \\mathcal{P}_{t} \\) of candidate equations and multi-objective scores. At iteration t t , a Meta Strategy Generator analyzes residuals of Pareto-optimal candidates, applies scientific tools, and outputs search strategy. Following this search strategy, an Equation Generator & Evaluation module performs diversity-aware parent selection, generates new equations, and evaluates them by NMSE \\( \\mathrm{NMSE} \\) on D train ID D_{\\( \\mathrm{train} \\)}^{\\( \\mathrm{ID} \\)} and D train OOD D_{\\( \\mathrm{train} \\)}^{\\( \\mathrm{OOD} \\)} (training-derived in-domain (ID)/out-of-domain (OOD) split) and by AST length for complexity. Non-dominated sorting and pruning update the frontier to 𝒫 t + 1 \\( \\mathcal{P}_{t+1} \\) , forming a closed-loop scientific equation discovery process.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.29468v1",
+          "title": "Self-Play Meets Skill Evolution: Self-Evolving Search Agents that Pose, Solve, and Remember",
+          "authors": [
+            "Zenghuang Fu",
+            "Zhaoyang Li",
+            "Qiuyuan Ai",
+            "Haoyu Wu",
+            "Minghui Wu"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces SESA, a self-play agent that co-evolves problem generation and skill memory. A challenger agent creates problems, while a solver agent retrieves and refines reusable skills from memory. This bidirectional loop allows the agent to continuously improve its problem-solving abilities by learning from its failures and adapting its training curriculum.",
+          "url": "http://arxiv.org/abs/2607.29468v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.29468v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.29468v1/x1.png",
+          "figure_caption": "Conceptual overview of SESA. Self-posed search failures are not discarded: they are distilled into reusable skills, stored in memory, and fed back to the solver so the next self-play round moves toward harder problems.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.29527v1",
+          "title": "TerraNova: A Foundation Model for the Anthropocene",
+          "authors": [
+            "Carlos Rodriguez-Pardo",
+            "Massimo Tavoni"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "stat.ML",
+            "cs.CY",
+            "econ.EM"
+          ],
+          "abstract": "TerraNova is a foundation model that addresses the challenge of modeling the Earth and human societies as a single coupled system. Its core method involves training on both continuous physical Earth data and discrete societal data in their native geometries, using dedicated encoders and cross-modal transformers to fuse this information into a shared spatiotemporal state. The paper's contribution is a novel representation that avoids lossy averaging over borders, enabling a more holistic understanding of human-environment interactions.",
+          "url": "http://arxiv.org/abs/2607.29527v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.29527v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.29527v1/x1.png",
+          "figure_caption": "The physical Earth is observed as continuous fields, whereas societal indicators are reported for discrete administrative units. Both are observations of one shared latent reality.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.29624v1",
+          "title": "The Theoretical Foundation of Socratic Tests: Dynamic, Multimodal, Conversational Examinations",
+          "authors": [
+            "Ilya Mikhelson"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CY",
+            "cs.HC"
+          ],
+          "abstract": "This paper introduces the \"Socratic Test,\" a novel conversational assessment system that moves beyond traditional static and oral exams. Its core method leverages Dynamic Assessment principles, multimodal interactions, and Bloom's and SOLO taxonomies to dynamically map student cognitive boundaries and quantify their Zone of Proximal Development. The key contribution is a reliable, mastery-focused grading architecture that prioritizes learning and human-AI alignment over punitive measures.",
+          "url": "http://arxiv.org/abs/2607.29624v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.29624v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.29624v1/x1.png",
+          "figure_caption": "Student Perceptions of the Socratic Test Modality (Spring 2026, N = 98 N=98 )",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2607.29601v1",
+          "title": "The Parts Are Greater Than the Sum: Automated Task Sequencing for Efficient Training of Multi-Policy LLMs",
+          "authors": [
+            "Jiajia Tang",
+            "Sizhe Yuen",
+            "Francisco Gomez Medina",
+            "Yali Du",
+            "Adam Sobey"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper addresses the problem of interference and poor transfer in Parameter-Efficient Fine-Tuning (PEFT) of Large Language Models (LLMs) when adapting to multiple tasks. Their core method is an automatic multi-policy PEFT architecture that organizes adaptation paths through task grouping and sequencing. This allows heterogeneous tasks to be optimized in decoupled adaptation spaces using independent Quantized Low-Rank Adapters (QLoRA), leading to more efficient training and better performance than traditional shared adapter approaches.",
+          "url": "http://arxiv.org/abs/2607.29601v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.29601v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.29601v1/x1.png",
+          "figure_caption": "Our approach automatically organizes optimization paths through task grouping and task sequencing. These organized paths are implemented using independent QLoRA policies, reducing interference while preserving positive transfer. This indeed provides a new design perspective for parameter-efficient fine-tuning over heterogeneous task sequences.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2607.29678v1",
+          "title": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
+          "authors": [
+            "Zhenyu Zhang",
+            "Zhichao Cao"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.DC",
+            "cs.PF"
+          ],
+          "abstract": "TokTier addresses the inefficiency of re-tokenizing entire prompts in agentic LLM serving by introducing a stateful tokenization service. Its core method involves re-tokenizing only a small window around new text and splicing tokens after a stable boundary check, ensuring exact token ID consistency with full re-tokenization. This significantly reduces tokenization time, a major bottleneck for coding agents, by leveraging prompt caching effectively.",
+          "url": "http://arxiv.org/abs/2607.29678v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.29678v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2607.29678v1/x1.png",
+          "figure_caption": "Figure 1. One agent turn through today’s stack and through TokTier . The request appends a median ∼ 1.4 {\\( \\sim \\)}1.4 K characters to a transcript that was tokenized on previous turns, and today’s front end re-scans the complete context before the prefix cache can act. TokTier repairs session continuations around the append, routes rare initializations and rebuilds to an exact GPU path or the reference CPU path, and samples all outputs through a shadow verifier. Latencies are measured P50 at 1 M-character contexts, and the two bold figures are each path’s best measured single-request throughput under the served-equivalent and scanned accountings, which are never mixed (§ 5.3 ).",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 24,
+        "papers_after_llm_filter": 12,
+        "count": 12
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 24,
+    "papers_after_llm_filter": 12,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 51
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2607.29626v1",
+      "title": "AgentHPOBench: A Benchmark For Evaluating LLM Agents as Sequential Hyperparameter Optimizers",
+      "authors": [
+        "Tianyu Huai",
+        "Tingshuo Fan",
+        "Xinchi Chen",
+        "Yining Zheng",
+        "Yuxin Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces AgentHPOBench, a novel benchmark designed to evaluate LLM agents' capability in sequential hyperparameter optimization. Unlike previous benchmarks, it assesses how agents interpret experimental evidence to guide subsequent configuration choices across 30 executable machine learning tasks. The contribution lies in providing a standardized framework to measure and compare the experimental optimization abilities of LLM agents against traditional methods.",
+      "url": "http://arxiv.org/abs/2607.29626v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29626v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29549v1",
+      "title": "AMTFV: Agentic Mathematical Tool-Flow Verification for LLM Self-Correction",
+      "authors": [
+        "Rui Zou",
+        "Yutao Zhu",
+        "Mengqi Wei",
+        "Ji-Rong Wen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "AMTFV introduces a novel approach to verify Large Language Model (LLM) mathematical answers by decoupling verification modeling from execution. It uses a \"Mathematical Tool Flow\" (MTF) interface, allowing an LLM agent to construct a verification workflow and delegate specific computations to a mathematical toolbox agent. This method ensures exact computation while maintaining flexibility in verification modeling.",
+      "url": "http://arxiv.org/abs/2607.29549v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29549v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.29549v1/x1.png",
+      "figure_caption": "Comparison of natural-language reflection, direct code verification, and AMTFV for mathematical answer verification and correction.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29440v1",
+      "title": "Beyond Retrieval: Analytic Memory for Multimodal Agents",
+      "authors": [
+        "Zhoujin Tian",
+        "Yao Tian",
+        "Hao Zhang",
+        "Cheng Chen",
+        "Yakun Li"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces \"analytic memory\" as a novel approach for multimodal agents, complementing existing \"retrieval memory.\" Analytic memory organizes recurring multimodal observations into queryable structures that enable complex computations like filtering, aggregation, and temporal comparison. The proposed AdaMM framework automatically extracts and structures these observations, allowing agents to perform sophisticated analysis beyond simple information retrieval.",
+      "url": "http://arxiv.org/abs/2607.29440v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29440v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.29440v1/x1.png",
+      "figure_caption": "Long-term multimodal interaction histories contain observations distributed across sessions, modalities, and time. Answering user queries may require either retrieving specific past events or performing analytical operations, such as temporal selection and aggregation, over multiple observations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29559v1",
+      "title": "LEMUR: Learning to Align with Multi-Objective Reinforcement Learning from Preference Feedback",
+      "authors": [
+        "Manith Adikari",
+        "Bei Peng",
+        "Samuele Vinanzi",
+        "Angelo Cangelosi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "LEMUR addresses the challenge of training RL agents for tasks with multiple, conflicting objectives when explicit reward functions are unavailable. It combines Multi-Objective Reinforcement Learning (MORL) with Preference-based RL (PbRL) to learn a reward vector from human preference feedback. This allows agents to effectively navigate complex trade-offs and align their behavior with human values without requiring pre-defined, precise reward signals.",
+      "url": "http://arxiv.org/abs/2607.29559v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29559v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.29559v1/Figures/lemur.png",
+      "figure_caption": "Illustration of our framework LEMUR: (1) Unsupervised Pre-training for the MORL agent to explore and collect diverse experiences via maximizing state entropy H(s). (2) Reward learning from Preference feedback, where each reward model is learned separately from the preferences queried from each teacher. The reward models are used to dynamically relabel the state-action pairs as a reward vector for each objective (i.e., each teacher’s preferences). (3) Multi-Objective RL agent denoted by π \\( \\pi_{\\phi} \\) uses each of the trained reward models to do multi-objective policy optimization to maximize the expected vector rewards.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29613v1",
+      "title": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning",
+      "authors": [
+        "Senyu Fei",
+        "Xiaopeng Yu",
+        "Siyin Wang",
+        "Xianzhong Zhao",
+        "Jingjing Gong"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces the World Critic Model (WCM) to improve reinforcement learning for robot control. WCM addresses the limitation of traditional critics by explicitly modeling the temporal dynamics of observations, overcoming the partial observability inherent in robot manipulation. Its core method involves a lightweight architecture that jointly predicts future latent states, enabling more accurate value estimation and better learning of cross-temporal dynamics.",
+      "url": "http://arxiv.org/abs/2607.29613v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29613v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.29613v1/x1.png",
+      "figure_caption": "Overview of the World Critic Model (WCM). Prior critic models are hindered by partial observability, and naïve multi-frame architectures remain inadequate due to sparse scalar supervision over high-dimensional observations. WCM proposes an end-to-end architecture that jointly predicts future and estimates value, effectively leveraging historical information. WCM achieves state-of-the-art performance in simulation and strong results in real-world RL training.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.29602v1",
+      "title": "FriendBench: Benchmarking Dyadic Familiarity Inference in Humans and Multimodal Large Language Models",
+      "authors": [
+        "Jeffrey M. Girard",
+        "Jason Z. Zheng",
+        "Jacqueline R. Vertino",
+        "Antony D'Avirro",
+        "Benjamin Peloquin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV",
+        "cs.HC"
+      ],
+      "abstract": "This paper introduces FriendBench, a benchmark for evaluating how well humans and AI models can infer familiarity between two people based solely on their interaction during an ice-breaker conversation. The core method involves analyzing short video clips of dyadic conversations, where the only cue to familiarity is the manner of interaction. The contribution lies in demonstrating that while top multimodal LLMs can match human accuracy in inferring familiarity, they exhibit a bias towards predicting \"stranger,\" suggesting a difference in their underlying priors compared to humans who leverage visible behavior more effectively.",
+      "url": "http://arxiv.org/abs/2607.29602v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29602v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.29602v1/x1.png",
+      "figure_caption": "Human vs. model accuracy by modality. Each rater point covers only the ∼ \\( \\sim \\) 32 trials that rater saw, so the rater cloud is widened by sampling noise and its upper tail is not a band of expert raters (§ 5.4 ). Horizontal bars are Wilson 95% CIs for the best model and crowd, not tests of human–model or cross-modality differences (§ 4 , § 5.3 ).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29561v1",
+      "title": "MOT-SR: Multi-Objective Tool-Augmented Scientific Equation Discovery with Large Language Models",
+      "authors": [
+        "Boxiao Wang",
+        "Runxiang Wang",
+        "Kai Li",
+        "Chongming Li",
+        "Zhiwei Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "MOT-SR addresses limitations in LLM-based scientific equation discovery by integrating external analytical tools to extract structural information and guide equation generation. It then employs a multi-objective evaluation that jointly optimizes for accuracy, complexity, and generalization, maintaining a dynamic Pareto front to avoid premature convergence and explore a wider equation space. This approach enhances the efficiency and effectiveness of discovering accurate and generalizable scientific equations.",
+      "url": "http://arxiv.org/abs/2607.29561v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29561v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.29561v1/x1.png",
+      "figure_caption": "Figure 1 . Overview of MOT-SR. Given observed data ( X , y ) (X,y) , MOT-SR maintains a Pareto-frontier buffer 𝒫 t \\( \\mathcal{P}_{t} \\) of candidate equations and multi-objective scores. At iteration t t , a Meta Strategy Generator analyzes residuals of Pareto-optimal candidates, applies scientific tools, and outputs search strategy. Following this search strategy, an Equation Generator & Evaluation module performs diversity-aware parent selection, generates new equations, and evaluates them by NMSE \\( \\mathrm{NMSE} \\) on D train ID D_{\\( \\mathrm{train} \\)}^{\\( \\mathrm{ID} \\)} and D train OOD D_{\\( \\mathrm{train} \\)}^{\\( \\mathrm{OOD} \\)} (training-derived in-domain (ID)/out-of-domain (OOD) split) and by AST length for complexity. Non-dominated sorting and pruning update the frontier to 𝒫 t + 1 \\( \\mathcal{P}_{t+1} \\) , forming a closed-loop scientific equation discovery process.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29468v1",
+      "title": "Self-Play Meets Skill Evolution: Self-Evolving Search Agents that Pose, Solve, and Remember",
+      "authors": [
+        "Zenghuang Fu",
+        "Zhaoyang Li",
+        "Qiuyuan Ai",
+        "Haoyu Wu",
+        "Minghui Wu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces SESA, a self-play agent that co-evolves problem generation and skill memory. A challenger agent creates problems, while a solver agent retrieves and refines reusable skills from memory. This bidirectional loop allows the agent to continuously improve its problem-solving abilities by learning from its failures and adapting its training curriculum.",
+      "url": "http://arxiv.org/abs/2607.29468v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29468v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.29468v1/x1.png",
+      "figure_caption": "Conceptual overview of SESA. Self-posed search failures are not discarded: they are distilled into reusable skills, stored in memory, and fed back to the solver so the next self-play round moves toward harder problems.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29527v1",
+      "title": "TerraNova: A Foundation Model for the Anthropocene",
+      "authors": [
+        "Carlos Rodriguez-Pardo",
+        "Massimo Tavoni"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "stat.ML",
+        "cs.CY",
+        "econ.EM"
+      ],
+      "abstract": "TerraNova is a foundation model that addresses the challenge of modeling the Earth and human societies as a single coupled system. Its core method involves training on both continuous physical Earth data and discrete societal data in their native geometries, using dedicated encoders and cross-modal transformers to fuse this information into a shared spatiotemporal state. The paper's contribution is a novel representation that avoids lossy averaging over borders, enabling a more holistic understanding of human-environment interactions.",
+      "url": "http://arxiv.org/abs/2607.29527v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29527v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.29527v1/x1.png",
+      "figure_caption": "The physical Earth is observed as continuous fields, whereas societal indicators are reported for discrete administrative units. Both are observations of one shared latent reality.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29624v1",
+      "title": "The Theoretical Foundation of Socratic Tests: Dynamic, Multimodal, Conversational Examinations",
+      "authors": [
+        "Ilya Mikhelson"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CY",
+        "cs.HC"
+      ],
+      "abstract": "This paper introduces the \"Socratic Test,\" a novel conversational assessment system that moves beyond traditional static and oral exams. Its core method leverages Dynamic Assessment principles, multimodal interactions, and Bloom's and SOLO taxonomies to dynamically map student cognitive boundaries and quantify their Zone of Proximal Development. The key contribution is a reliable, mastery-focused grading architecture that prioritizes learning and human-AI alignment over punitive measures.",
+      "url": "http://arxiv.org/abs/2607.29624v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29624v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.29624v1/x1.png",
+      "figure_caption": "Student Perceptions of the Socratic Test Modality (Spring 2026, N = 98 N=98 )",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29601v1",
+      "title": "The Parts Are Greater Than the Sum: Automated Task Sequencing for Efficient Training of Multi-Policy LLMs",
+      "authors": [
+        "Jiajia Tang",
+        "Sizhe Yuen",
+        "Francisco Gomez Medina",
+        "Yali Du",
+        "Adam Sobey"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper addresses the problem of interference and poor transfer in Parameter-Efficient Fine-Tuning (PEFT) of Large Language Models (LLMs) when adapting to multiple tasks. Their core method is an automatic multi-policy PEFT architecture that organizes adaptation paths through task grouping and sequencing. This allows heterogeneous tasks to be optimized in decoupled adaptation spaces using independent Quantized Low-Rank Adapters (QLoRA), leading to more efficient training and better performance than traditional shared adapter approaches.",
+      "url": "http://arxiv.org/abs/2607.29601v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29601v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.29601v1/x1.png",
+      "figure_caption": "Our approach automatically organizes optimization paths through task grouping and task sequencing. These organized paths are implemented using independent QLoRA policies, reducing interference while preserving positive transfer. This indeed provides a new design perspective for parameter-efficient fine-tuning over heterogeneous task sequences.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.29678v1",
+      "title": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
+      "authors": [
+        "Zhenyu Zhang",
+        "Zhichao Cao"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.DC",
+        "cs.PF"
+      ],
+      "abstract": "TokTier addresses the inefficiency of re-tokenizing entire prompts in agentic LLM serving by introducing a stateful tokenization service. Its core method involves re-tokenizing only a small window around new text and splicing tokens after a stable boundary check, ensuring exact token ID consistency with full re-tokenization. This significantly reduces tokenization time, a major bottleneck for coding agents, by leveraging prompt caching effectively.",
+      "url": "http://arxiv.org/abs/2607.29678v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29678v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.29678v1/x1.png",
+      "figure_caption": "Figure 1. One agent turn through today’s stack and through TokTier . The request appends a median ∼ 1.4 {\\( \\sim \\)}1.4 K characters to a transcript that was tokenized on previous turns, and today’s front end re-scans the complete context before the prefix cache can act. TokTier repairs session continuations around the append, routes rare initializations and rebuilds to an exact GPU path or the reference CPU path, and samples all outputs through a shadow verifier. Latencies are measured P50 at 1 M-character contexts, and the two bold figures are each path’s best measured single-request throughput under the served-equivalent and scanned accountings, which are never mixed (§ 5.3 ).",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.29626v1",
+      "title": "AgentHPOBench: A Benchmark For Evaluating LLM Agents as Sequential Hyperparameter Optimizers",
+      "authors": [
+        "Tianyu Huai",
+        "Tingshuo Fan",
+        "Xinchi Chen",
+        "Yining Zheng",
+        "Yuxin Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces AgentHPOBench, a novel benchmark designed to evaluate LLM agents' capability in sequential hyperparameter optimization. Unlike previous benchmarks, it assesses how agents interpret experimental evidence to guide subsequent configuration choices across 30 executable machine learning tasks. The contribution lies in providing a standardized framework to measure and compare the experimental optimization abilities of LLM agents against traditional methods.",
+      "url": "http://arxiv.org/abs/2607.29626v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29626v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29549v1",
+      "title": "AMTFV: Agentic Mathematical Tool-Flow Verification for LLM Self-Correction",
+      "authors": [
+        "Rui Zou",
+        "Yutao Zhu",
+        "Mengqi Wei",
+        "Ji-Rong Wen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "AMTFV introduces a novel approach to verify Large Language Model (LLM) mathematical answers by decoupling verification modeling from execution. It uses a \"Mathematical Tool Flow\" (MTF) interface, allowing an LLM agent to construct a verification workflow and delegate specific computations to a mathematical toolbox agent. This method ensures exact computation while maintaining flexibility in verification modeling.",
+      "url": "http://arxiv.org/abs/2607.29549v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29549v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.29549v1/x1.png",
+      "figure_caption": "Comparison of natural-language reflection, direct code verification, and AMTFV for mathematical answer verification and correction.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29440v1",
+      "title": "Beyond Retrieval: Analytic Memory for Multimodal Agents",
+      "authors": [
+        "Zhoujin Tian",
+        "Yao Tian",
+        "Hao Zhang",
+        "Cheng Chen",
+        "Yakun Li"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces \"analytic memory\" as a novel approach for multimodal agents, complementing existing \"retrieval memory.\" Analytic memory organizes recurring multimodal observations into queryable structures that enable complex computations like filtering, aggregation, and temporal comparison. The proposed AdaMM framework automatically extracts and structures these observations, allowing agents to perform sophisticated analysis beyond simple information retrieval.",
+      "url": "http://arxiv.org/abs/2607.29440v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29440v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.29440v1/x1.png",
+      "figure_caption": "Long-term multimodal interaction histories contain observations distributed across sessions, modalities, and time. Answering user queries may require either retrieving specific past events or performing analytical operations, such as temporal selection and aggregation, over multiple observations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29559v1",
+      "title": "LEMUR: Learning to Align with Multi-Objective Reinforcement Learning from Preference Feedback",
+      "authors": [
+        "Manith Adikari",
+        "Bei Peng",
+        "Samuele Vinanzi",
+        "Angelo Cangelosi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "LEMUR addresses the challenge of training RL agents for tasks with multiple, conflicting objectives when explicit reward functions are unavailable. It combines Multi-Objective Reinforcement Learning (MORL) with Preference-based RL (PbRL) to learn a reward vector from human preference feedback. This allows agents to effectively navigate complex trade-offs and align their behavior with human values without requiring pre-defined, precise reward signals.",
+      "url": "http://arxiv.org/abs/2607.29559v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29559v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.29559v1/Figures/lemur.png",
+      "figure_caption": "Illustration of our framework LEMUR: (1) Unsupervised Pre-training for the MORL agent to explore and collect diverse experiences via maximizing state entropy H(s). (2) Reward learning from Preference feedback, where each reward model is learned separately from the preferences queried from each teacher. The reward models are used to dynamically relabel the state-action pairs as a reward vector for each objective (i.e., each teacher’s preferences). (3) Multi-Objective RL agent denoted by π \\( \\pi_{\\phi} \\) uses each of the trained reward models to do multi-objective policy optimization to maximize the expected vector rewards.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29613v1",
+      "title": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning",
+      "authors": [
+        "Senyu Fei",
+        "Xiaopeng Yu",
+        "Siyin Wang",
+        "Xianzhong Zhao",
+        "Jingjing Gong"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces the World Critic Model (WCM) to improve reinforcement learning for robot control. WCM addresses the limitation of traditional critics by explicitly modeling the temporal dynamics of observations, overcoming the partial observability inherent in robot manipulation. Its core method involves a lightweight architecture that jointly predicts future latent states, enabling more accurate value estimation and better learning of cross-temporal dynamics.",
+      "url": "http://arxiv.org/abs/2607.29613v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29613v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2607.29613v1/x1.png",
+      "figure_caption": "Overview of the World Critic Model (WCM). Prior critic models are hindered by partial observability, and naïve multi-frame architectures remain inadequate due to sparse scalar supervision over high-dimensional observations. WCM proposes an end-to-end architecture that jointly predicts future and estimates value, effectively leveraging historical information. WCM achieves state-of-the-art performance in simulation and strong results in real-world RL training.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2607.29602v1",
+      "title": "FriendBench: Benchmarking Dyadic Familiarity Inference in Humans and Multimodal Large Language Models",
+      "authors": [
+        "Jeffrey M. Girard",
+        "Jason Z. Zheng",
+        "Jacqueline R. Vertino",
+        "Antony D'Avirro",
+        "Benjamin Peloquin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV",
+        "cs.HC"
+      ],
+      "abstract": "This paper introduces FriendBench, a benchmark for evaluating how well humans and AI models can infer familiarity between two people based solely on their interaction during an ice-breaker conversation. The core method involves analyzing short video clips of dyadic conversations, where the only cue to familiarity is the manner of interaction. The contribution lies in demonstrating that while top multimodal LLMs can match human accuracy in inferring familiarity, they exhibit a bias towards predicting \"stranger,\" suggesting a difference in their underlying priors compared to humans who leverage visible behavior more effectively.",
+      "url": "http://arxiv.org/abs/2607.29602v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29602v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.29602v1/x1.png",
+      "figure_caption": "Human vs. model accuracy by modality. Each rater point covers only the ∼ \\( \\sim \\) 32 trials that rater saw, so the rater cloud is widened by sampling noise and its upper tail is not a band of expert raters (§ 5.4 ). Horizontal bars are Wilson 95% CIs for the best model and crowd, not tests of human–model or cross-modality differences (§ 4 , § 5.3 ).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29561v1",
+      "title": "MOT-SR: Multi-Objective Tool-Augmented Scientific Equation Discovery with Large Language Models",
+      "authors": [
+        "Boxiao Wang",
+        "Runxiang Wang",
+        "Kai Li",
+        "Chongming Li",
+        "Zhiwei Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "MOT-SR addresses limitations in LLM-based scientific equation discovery by integrating external analytical tools to extract structural information and guide equation generation. It then employs a multi-objective evaluation that jointly optimizes for accuracy, complexity, and generalization, maintaining a dynamic Pareto front to avoid premature convergence and explore a wider equation space. This approach enhances the efficiency and effectiveness of discovering accurate and generalizable scientific equations.",
+      "url": "http://arxiv.org/abs/2607.29561v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29561v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.29561v1/x1.png",
+      "figure_caption": "Figure 1 . Overview of MOT-SR. Given observed data ( X , y ) (X,y) , MOT-SR maintains a Pareto-frontier buffer 𝒫 t \\( \\mathcal{P}_{t} \\) of candidate equations and multi-objective scores. At iteration t t , a Meta Strategy Generator analyzes residuals of Pareto-optimal candidates, applies scientific tools, and outputs search strategy. Following this search strategy, an Equation Generator & Evaluation module performs diversity-aware parent selection, generates new equations, and evaluates them by NMSE \\( \\mathrm{NMSE} \\) on D train ID D_{\\( \\mathrm{train} \\)}^{\\( \\mathrm{ID} \\)} and D train OOD D_{\\( \\mathrm{train} \\)}^{\\( \\mathrm{OOD} \\)} (training-derived in-domain (ID)/out-of-domain (OOD) split) and by AST length for complexity. Non-dominated sorting and pruning update the frontier to 𝒫 t + 1 \\( \\mathcal{P}_{t+1} \\) , forming a closed-loop scientific equation discovery process.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29468v1",
+      "title": "Self-Play Meets Skill Evolution: Self-Evolving Search Agents that Pose, Solve, and Remember",
+      "authors": [
+        "Zenghuang Fu",
+        "Zhaoyang Li",
+        "Qiuyuan Ai",
+        "Haoyu Wu",
+        "Minghui Wu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces SESA, a self-play agent that co-evolves problem generation and skill memory. A challenger agent creates problems, while a solver agent retrieves and refines reusable skills from memory. This bidirectional loop allows the agent to continuously improve its problem-solving abilities by learning from its failures and adapting its training curriculum.",
+      "url": "http://arxiv.org/abs/2607.29468v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29468v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.29468v1/x1.png",
+      "figure_caption": "Conceptual overview of SESA. Self-posed search failures are not discarded: they are distilled into reusable skills, stored in memory, and fed back to the solver so the next self-play round moves toward harder problems.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29527v1",
+      "title": "TerraNova: A Foundation Model for the Anthropocene",
+      "authors": [
+        "Carlos Rodriguez-Pardo",
+        "Massimo Tavoni"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "stat.ML",
+        "cs.CY",
+        "econ.EM"
+      ],
+      "abstract": "TerraNova is a foundation model that addresses the challenge of modeling the Earth and human societies as a single coupled system. Its core method involves training on both continuous physical Earth data and discrete societal data in their native geometries, using dedicated encoders and cross-modal transformers to fuse this information into a shared spatiotemporal state. The paper's contribution is a novel representation that avoids lossy averaging over borders, enabling a more holistic understanding of human-environment interactions.",
+      "url": "http://arxiv.org/abs/2607.29527v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29527v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.29527v1/x1.png",
+      "figure_caption": "The physical Earth is observed as continuous fields, whereas societal indicators are reported for discrete administrative units. Both are observations of one shared latent reality.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29624v1",
+      "title": "The Theoretical Foundation of Socratic Tests: Dynamic, Multimodal, Conversational Examinations",
+      "authors": [
+        "Ilya Mikhelson"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CY",
+        "cs.HC"
+      ],
+      "abstract": "This paper introduces the \"Socratic Test,\" a novel conversational assessment system that moves beyond traditional static and oral exams. Its core method leverages Dynamic Assessment principles, multimodal interactions, and Bloom's and SOLO taxonomies to dynamically map student cognitive boundaries and quantify their Zone of Proximal Development. The key contribution is a reliable, mastery-focused grading architecture that prioritizes learning and human-AI alignment over punitive measures.",
+      "url": "http://arxiv.org/abs/2607.29624v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29624v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.29624v1/x1.png",
+      "figure_caption": "Student Perceptions of the Socratic Test Modality (Spring 2026, N = 98 N=98 )",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2607.29601v1",
+      "title": "The Parts Are Greater Than the Sum: Automated Task Sequencing for Efficient Training of Multi-Policy LLMs",
+      "authors": [
+        "Jiajia Tang",
+        "Sizhe Yuen",
+        "Francisco Gomez Medina",
+        "Yali Du",
+        "Adam Sobey"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper addresses the problem of interference and poor transfer in Parameter-Efficient Fine-Tuning (PEFT) of Large Language Models (LLMs) when adapting to multiple tasks. Their core method is an automatic multi-policy PEFT architecture that organizes adaptation paths through task grouping and sequencing. This allows heterogeneous tasks to be optimized in decoupled adaptation spaces using independent Quantized Low-Rank Adapters (QLoRA), leading to more efficient training and better performance than traditional shared adapter approaches.",
+      "url": "http://arxiv.org/abs/2607.29601v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29601v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.29601v1/x1.png",
+      "figure_caption": "Our approach automatically organizes optimization paths through task grouping and task sequencing. These organized paths are implemented using independent QLoRA policies, reducing interference while preserving positive transfer. This indeed provides a new design perspective for parameter-efficient fine-tuning over heterogeneous task sequences.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2607.29678v1",
+      "title": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
+      "authors": [
+        "Zhenyu Zhang",
+        "Zhichao Cao"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.DC",
+        "cs.PF"
+      ],
+      "abstract": "TokTier addresses the inefficiency of re-tokenizing entire prompts in agentic LLM serving by introducing a stateful tokenization service. Its core method involves re-tokenizing only a small window around new text and splicing tokens after a stable boundary check, ensuring exact token ID consistency with full re-tokenization. This significantly reduces tokenization time, a major bottleneck for coding agents, by leveraging prompt caching effectively.",
+      "url": "http://arxiv.org/abs/2607.29678v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29678v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2607.29678v1/x1.png",
+      "figure_caption": "Figure 1. One agent turn through today’s stack and through TokTier . The request appends a median ∼ 1.4 {\\( \\sim \\)}1.4 K characters to a transcript that was tokenized on previous turns, and today’s front end re-scans the complete context before the prefix cache can act. TokTier repairs session continuations around the append, routes rare initializations and rebuilds to an exact GPU path or the reference CPU path, and samples all outputs through a shadow verifier. Latencies are measured P50 at 1 M-character contexts, and the two bold figures are each path’s best measured single-request throughput under the served-equivalent and scanned accountings, which are never mixed (§ 5.3 ).",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
