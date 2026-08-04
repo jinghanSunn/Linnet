@@ -1,0 +1,1054 @@
+{
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04T11:42:16.028087+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2608.02520v1",
+          "title": "MedPRESS: A Multi-turn Benchmark for Patient-Pressure-Induced Medical Sycophancy in LLMs",
+          "authors": [
+            "Saman Sarker Joy",
+            "Niloy Farhan"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces MedPRESS, a novel multi-turn benchmark designed to evaluate how Large Language Models (LLMs) respond to patient pressure in medical advice scenarios. MedPRESS simulates realistic dialogues where LLMs are subjected to escalating patient demands and adversarial challenges, revealing their tendency towards unsafe sycophancy. The study demonstrates that many LLMs, particularly larger and proprietary ones, are prone to agreeing with unsafe patient requests under sustained pressure, highlighting a critical safety concern in their medical applications.",
+          "url": "http://arxiv.org/abs/2608.02520v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.02520v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2608.02520v1/x1.png",
+          "figure_caption": "MedPRESS Construction Pipeline.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.02553v1",
+          "title": "A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI",
+          "authors": [
+            "Taye Akinrele",
+            "Sindhuja Penchala",
+            "Noorbakhsh Amiri Golilarz",
+            "Sudip Mittal",
+            "Shahram Rahimi"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper identifies key cognitive capability gaps hindering the development of truly intelligent AI systems, moving beyond simple generation or task execution. It proposes a taxonomy categorizing these gaps across five dimensions like persistent memory and self-regulation. The contribution lies in organizing existing research, highlighting limitations, and outlining a conceptual architecture (ACIA) to address these challenges for more robust and adaptive AI.",
+          "url": "http://arxiv.org/abs/2608.02553v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.02553v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.02553v1/x1.png",
+          "figure_caption": "Conceptual evolution from Generative AI to Agentic AI and Cognitive AI, highlighting the additional cognitive capabilities introduced at each stage and the closed-loop perception–reasoning–action cycle underlying sustained cognitive behavior.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.02464v1",
+          "title": "Real-Time Detection and Repair of LLM Agent Failures",
+          "authors": [
+            "Sunny Dubey"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.SE"
+          ],
+          "abstract": "This paper proposes a novel method for real-time detection of LLM agent failures using only observable step telemetry, avoiding the high cost of a second LLM judge. Their approach, an echo-state-network ensemble with CUSUM alarms, effectively identifies various failure modes with a low false-alarm rate. The core contribution lies in demonstrating that efficient, telemetry-based monitoring can achieve significant failure detection accuracy, outperforming memoryless baselines and showing promising transferability across different datasets and models.",
+          "url": "http://arxiv.org/abs/2608.02464v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.02464v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.02464v1/fig1_score_traces_real.png",
+          "figure_caption": "Real agent traces ( ollama7b : qwen2.5:7b against real tools). One-class CUSUM score streams per failure class; dashed = threshold at the 5% validation FA budget, dotted = verified injection onset. The healthy run stays two orders of magnitude below the line, and every injected class — context corruption, goal drift , looping and tool cascade — alarms one step after onset. The sixth panel is grounding loss , and it is different in kind: fabrication cannot be injected into a live run, so this episode is a genuine one from the organic (non-injected) corpus, scored against that corpus’s own healthy null. The CUSUM stays flat – a fabricated figure perturbs no behavioural channel – and the class is caught instead by the deterministic grounding verifier. That is the blind spot the verifier exists to cover, shown rather than asserted. Note the y y axis is symlog: real streams span twelve orders of magnitude, because the CUSUM accumulates multiplicatively once a failure takes hold.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.02442v1",
+          "title": "Right Answer, Wrong Method: Shortcut Hacking Misleads the Evaluation of LLM Reasoning on Frontier Science Benchmarks",
+          "authors": [
+            "Xuan Ren",
+            "Weiqi Zhai",
+            "Tianle Pu",
+            "Yihua Zhu",
+            "Yihua Zhu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces \"Solution Hacking,\" a phenomenon where LLMs achieve correct answers on scientific reasoning benchmarks through invalid shortcuts rather than genuine reasoning. The authors demonstrate that this hacking significantly inflates accuracy scores, especially on difficult problems, and propose expert-inspired strategies to mitigate it. Their contribution lies in highlighting this crucial evaluation flaw and offering methods to ensure LLMs are truly reasoning, not just guessing or searching.",
+          "url": "http://arxiv.org/abs/2608.02442v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.02442v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.02442v1/x1.png",
+          "figure_caption": "Three solution paths for the same quadratic-equation problem. The upper path represents the expected reasoning process, in which the LLM exercises the targeted reasoning capability and derives the correct answer. The middle path represents a reasoning error, where an invalid derivation leads to an incorrect answer. The lower path represents Solution Hacking, where the LLM obtains the correct answer through enumeration, guessing, search, or answer-first verification without completing the targeted derivation. Traditional evaluation can distinguish the upper and middle paths, but may fail to distinguish the upper and lower paths because both yield the correct final answer.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.02602v1",
+          "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
+          "authors": [
+            "Jiajun Liang",
+            "Yucheng Liao",
+            "Yukang Cao",
+            "Jiazhe Wei",
+            "Ken Li"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "AURORA-LM introduces a novel approach to continuous-latent diffusion language modeling by decoupling representation learning from distribution modeling. It constructs a high-capacity, decodable text latent representation using a query-based encoder-decoder and then trains a diffusion transformer to directly learn the distribution of this latent space. This method preserves token-level fidelity while enabling continuous generation, addressing limitations of previous continuous language models.",
+          "url": "http://arxiv.org/abs/2608.02602v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.02602v1",
+          "score": 8.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.02470v1",
+          "title": "Grounding Agentic VLMs with Dedicated Segmentation for Fine-Grained Vehicle Damage Assessment",
+          "authors": [
+            "Vishwajeet Shivaji Hogale",
+            "Anjali Pai",
+            "Nitya Ravi"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper addresses the spatial grounding limitations of Vision-Language Models (VLMs) in fine-grained vehicle damage assessment. Their core method, TinyDamage, separates spatial localization to a dedicated segmentation model, while the VLM handles semantic reasoning and report generation. This hybrid approach significantly improves the reliability and accuracy of identifying subtle damages like scratches and cracks, overcoming the VLM's tendency to hallucinate or miss such defects.",
+          "url": "http://arxiv.org/abs/2608.02470v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.02470v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.02470v1/x1.png",
+          "figure_caption": "System architecture. Top: multi-task segmentation model with swappable backbone (U-Net, YOLOv8, Mask2Former), FPN encoder, contrastive projection head, gradient-aware boundary module, and auxiliary classifier. Middle: 7-node LangGraph pipeline grounding VLM generation in segmentation output. Bottom: swappable VLM providers and observability infrastructure.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.02491v1",
+          "title": "Long-term Measurements: Towards a Longitudinal Understanding of Human-AI Interactions",
+          "authors": [
+            "Nicole Mitchell",
+            "Dhruv Agarwal",
+            "Maty Bohacek",
+            "Remi Denton",
+            "Roma Patel"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper argues for a shift in NLP research from short-term evaluations to long-term measurements of human-AI interactions. The core method involves adapting social science measurement techniques to understand the potential cognitive, developmental, and socio-affective risks of prolonged AI use. The contribution is a framework for longitudinal studies to guide AI development towards positive human outcomes.",
+          "url": "http://arxiv.org/abs/2608.02491v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.02491v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.02491v1/assets/synchronic_diachronic.png",
+          "figure_caption": "Two scenarios where a user’s reference to depressive thoughts might indicate long-term safety risks: a single synchronic interaction (Scenario A ) vs. a diachronic trend (Scenario B ). The longitudinal trend in B provides a more complete understanding of high-risk user behaviors compared to single-session 3 3 3 We define a session to be an uninterrupted period of time in which a user converses with a chatbot. evaluations.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.02518v1",
+          "title": "Magnet: Detecting Cross-Session AI Misuse Through Capability Accumulation",
+          "authors": [
+            "Natalie Isak",
+            "Matthew Dressman"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CY"
+          ],
+          "abstract": "This paper introduces **Magnet**, a method for detecting AI misuse that spans multiple, isolated agent sessions. Its core idea is to track the accumulation of \"capabilities\" – intermediate artifacts produced by an AI – across sessions, recognizing that an attacker can build up harmful potential incrementally. Magnet's contribution is to address the blind spot of existing detection methods that only monitor single sessions, enabling the identification of sophisticated, cross-session attack strategies.",
+          "url": "http://arxiv.org/abs/2608.02518v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.02518v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.02518v1/images/image1.png",
+          "figure_caption": "The data generation pipeline. An expert-authored decomposition of target objective T T into sub-capabilities c 1 , … , c n c_{1},\\( \\ldots \\),c_{n} is dispatched sequentially, with each subtask handled by a freshly instantiated assistant–user agent pair that iterates until the subtask produces a completed artifact.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.02444v1",
+          "title": "ParEvalLayer: When Partial LLM-Agent Evaluations Support a Decision",
+          "authors": [
+            "Wei-Jung Huang",
+            "Bonan Shen"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces ParEvalLayer, a novel decision layer for LLM-agent evaluations. Its core method is to analyze partial benchmark results using a pre-defined comparison policy, determining if one agent is definitively better, not better, needs more evidence, or should abstain. The key contribution is enabling reliable decision-making even when evaluations are incomplete, preventing premature and potentially misleading conclusions.",
+          "url": "http://arxiv.org/abs/2608.02444v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.02444v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.02444v1/x1.png",
+          "figure_caption": "ParEvalLayer reads task outcome rows and a comparison policy chosen in advance, then writes a decision record for the current budget.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.02583v1",
+          "title": "UEmbed: Unified Sparse and Dense Multimodal Embeddings",
+          "authors": [
+            "Tingyu Song",
+            "Mingxin Li",
+            "Yanzhao Zhang",
+            "Dingkun Long",
+            "Pengjun Xie"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CV",
+            "cs.IR"
+          ],
+          "abstract": "This paper introduces UEmbed, a novel decoder-only multimodal embedding model that generates both sparse lexical and dense representations in a single forward pass. Its core method involves appending special tokens to the input, each responsible for predicting sparse weights over a distinct subset of the vocabulary. UEmbed's contribution lies in unifying sparse and dense multimodal retrieval within a single, efficient architecture, overcoming limitations of previous encoder-style and auxiliary-module-dependent approaches.",
+          "url": "http://arxiv.org/abs/2608.02583v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.02583v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.02583v1/x1.png",
+          "figure_caption": "Overview of UEmbed . (a) Framework: we append N N learnable special tokens to a decoder-only MLLM and assign each token a disjoint vocabulary subset. (b) Sparse cases: examples of activated lexical tokens produced by UEmbed -9B. (c) Performance: UEmbed achieves strong sparse and dense retrieval results on MMEB-v2.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.02585v1",
+          "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+          "authors": [
+            "Zhaoxin Yu",
+            "Qi Shen",
+            "Hengli Li",
+            "Zhaowei Zhang",
+            "Song-Chun Zhu"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "GradCuit introduces a novel method for test-time latent reasoning in LLMs by directly optimizing continuous latent states inserted within a Transformer layer. This approach enables direct, reward-weighted gradient assignment from the entire generated output back to these latents, unlike previous methods that relied on indirect token-level connections. The core contribution is achieving more robust and interpretable reasoning by establishing a clear causal link between latent updates and the final output.",
+          "url": "http://arxiv.org/abs/2608.02585v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.02585v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.02585v1/x1.png",
+          "figure_caption": "The GradCuit framework. The Transformer’s self-attention mechanism functions as a gradient-routing circuit, enabling direct backward credit assignment from generated tokens to the latents along attention pathways. The red feedback loop visualizes the policy gradient update ( z ← z + ∇ z 𝒥 z\\( \\leftarrow \\) z+\\( \\nabla_{z} \\)\\( \\mathcal{J} \\) ), used to iteratively refine the latents during inference without updating the base model parameters.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.02515v1",
+          "title": "LiveMem: Maintaining Memory State Continuity in Long-Running LLM Inference",
+          "authors": [
+            "Zhichen Liu",
+            "Ruihan Sun",
+            "Hengjie Yang",
+            "Zipeng Wu",
+            "Zhaohan Chen"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "LiveMem tackles the challenge of maintaining consistent memory for long-running LLMs by introducing \"state continuity under context turnover.\" Its core method augments a pretrained LLM with a persistent memory state that preserves historical information independently of the active, bounded KV window. This allows the LLM to retain crucial context over its entire lifecycle, even as new interactions replace older ones, enabling more robust and continuous AI agents.",
+          "url": "http://arxiv.org/abs/2608.02515v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.02515v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.02515v1/x1.png",
+          "figure_caption": "LiveMem enables stateful continual inference under context turnover. A bounded working context provides precise short-term access, while a fixed-capacity recurrent memory state preserves information across the model lifecycle.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.02575v1",
+          "title": "Pseudorandom Streams within Diffusion Models Act as Learnable Inputs That Affect Generation Quality",
+          "authors": [
+            "Shengzhi Deng",
+            "Chenqi Ye",
+            "Yanze Guo"
+          ],
+          "categories": [
+            "cs.LG",
+            "stat.ML"
+          ],
+          "abstract": "This paper reveals",
+          "url": "http://arxiv.org/abs/2608.02575v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.02575v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.02508v1",
+          "title": "RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States",
+          "authors": [
+            "Yi Yang",
+            "Zhennan Chen",
+            "Yihong Zhuang",
+            "Tiehan Fan",
+            "Yinan Chen"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces RoMeRL, a method to improve memory systems for self-evolving LLM agents. It addresses the problem of feedback dilution and the \"memory-reward trap\" by representing memory utilities with a fixed-dimensional state, factorized by outcome polarity and memory dynamics. This approach concentrates feedback, leading to more effective learning and preventing irrelevant experiences from negatively impacting memory updates.",
+          "url": "http://arxiv.org/abs/2608.02508v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.02508v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.02508v1/x1.png",
+          "figure_caption": "Memory-reward trap : Stronger exploration retrieves more low-access-count memories, including weakly relevant, noisy, outdated, or failed experiences. When such a memory appears in a successful episode, the shared trajectory reward can promote it despite no causal contribution. Exploration therefore increases feedback coverage but also raises the risk of reward misattribution.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.02472v1",
+          "title": "CTRAG: An In-Context Retrieval-based Framework for Automated Compliance Checking using LLMs",
+          "authors": [
+            "Muhammad Roman",
+            "Karen Rafferty",
+            "Barry Devereux"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "CTRAG is a Retrieval-Augmented Generation (RAG) framework that automates compliance checking. Its core method involves adaptive chunking, dynamic retrieval, and in-context learning to extract relevant control questions from regulatory texts. This approach aims to improve the precision and relevance of automated compliance assessments, addressing the limitations of manual methods.",
+          "url": "http://arxiv.org/abs/2608.02472v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.02472v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.02472v1/images/figure1.png",
+          "figure_caption": "Flow of third party compliance checking performed manually by a compliance tester and validated",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 24,
+        "papers_after_llm_filter": 15,
+        "count": 15
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 24,
+    "papers_after_llm_filter": 15,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 56
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2608.02520v1",
+      "title": "MedPRESS: A Multi-turn Benchmark for Patient-Pressure-Induced Medical Sycophancy in LLMs",
+      "authors": [
+        "Saman Sarker Joy",
+        "Niloy Farhan"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces MedPRESS, a novel multi-turn benchmark designed to evaluate how Large Language Models (LLMs) respond to patient pressure in medical advice scenarios. MedPRESS simulates realistic dialogues where LLMs are subjected to escalating patient demands and adversarial challenges, revealing their tendency towards unsafe sycophancy. The study demonstrates that many LLMs, particularly larger and proprietary ones, are prone to agreeing with unsafe patient requests under sustained pressure, highlighting a critical safety concern in their medical applications.",
+      "url": "http://arxiv.org/abs/2608.02520v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02520v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2608.02520v1/x1.png",
+      "figure_caption": "MedPRESS Construction Pipeline.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.02553v1",
+      "title": "A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI",
+      "authors": [
+        "Taye Akinrele",
+        "Sindhuja Penchala",
+        "Noorbakhsh Amiri Golilarz",
+        "Sudip Mittal",
+        "Shahram Rahimi"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper identifies key cognitive capability gaps hindering the development of truly intelligent AI systems, moving beyond simple generation or task execution. It proposes a taxonomy categorizing these gaps across five dimensions like persistent memory and self-regulation. The contribution lies in organizing existing research, highlighting limitations, and outlining a conceptual architecture (ACIA) to address these challenges for more robust and adaptive AI.",
+      "url": "http://arxiv.org/abs/2608.02553v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02553v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.02553v1/x1.png",
+      "figure_caption": "Conceptual evolution from Generative AI to Agentic AI and Cognitive AI, highlighting the additional cognitive capabilities introduced at each stage and the closed-loop perception–reasoning–action cycle underlying sustained cognitive behavior.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.02464v1",
+      "title": "Real-Time Detection and Repair of LLM Agent Failures",
+      "authors": [
+        "Sunny Dubey"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.SE"
+      ],
+      "abstract": "This paper proposes a novel method for real-time detection of LLM agent failures using only observable step telemetry, avoiding the high cost of a second LLM judge. Their approach, an echo-state-network ensemble with CUSUM alarms, effectively identifies various failure modes with a low false-alarm rate. The core contribution lies in demonstrating that efficient, telemetry-based monitoring can achieve significant failure detection accuracy, outperforming memoryless baselines and showing promising transferability across different datasets and models.",
+      "url": "http://arxiv.org/abs/2608.02464v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02464v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.02464v1/fig1_score_traces_real.png",
+      "figure_caption": "Real agent traces ( ollama7b : qwen2.5:7b against real tools). One-class CUSUM score streams per failure class; dashed = threshold at the 5% validation FA budget, dotted = verified injection onset. The healthy run stays two orders of magnitude below the line, and every injected class — context corruption, goal drift , looping and tool cascade — alarms one step after onset. The sixth panel is grounding loss , and it is different in kind: fabrication cannot be injected into a live run, so this episode is a genuine one from the organic (non-injected) corpus, scored against that corpus’s own healthy null. The CUSUM stays flat – a fabricated figure perturbs no behavioural channel – and the class is caught instead by the deterministic grounding verifier. That is the blind spot the verifier exists to cover, shown rather than asserted. Note the y y axis is symlog: real streams span twelve orders of magnitude, because the CUSUM accumulates multiplicatively once a failure takes hold.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.02442v1",
+      "title": "Right Answer, Wrong Method: Shortcut Hacking Misleads the Evaluation of LLM Reasoning on Frontier Science Benchmarks",
+      "authors": [
+        "Xuan Ren",
+        "Weiqi Zhai",
+        "Tianle Pu",
+        "Yihua Zhu",
+        "Yihua Zhu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces \"Solution Hacking,\" a phenomenon where LLMs achieve correct answers on scientific reasoning benchmarks through invalid shortcuts rather than genuine reasoning. The authors demonstrate that this hacking significantly inflates accuracy scores, especially on difficult problems, and propose expert-inspired strategies to mitigate it. Their contribution lies in highlighting this crucial evaluation flaw and offering methods to ensure LLMs are truly reasoning, not just guessing or searching.",
+      "url": "http://arxiv.org/abs/2608.02442v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02442v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.02442v1/x1.png",
+      "figure_caption": "Three solution paths for the same quadratic-equation problem. The upper path represents the expected reasoning process, in which the LLM exercises the targeted reasoning capability and derives the correct answer. The middle path represents a reasoning error, where an invalid derivation leads to an incorrect answer. The lower path represents Solution Hacking, where the LLM obtains the correct answer through enumeration, guessing, search, or answer-first verification without completing the targeted derivation. Traditional evaluation can distinguish the upper and middle paths, but may fail to distinguish the upper and lower paths because both yield the correct final answer.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.02602v1",
+      "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
+      "authors": [
+        "Jiajun Liang",
+        "Yucheng Liao",
+        "Yukang Cao",
+        "Jiazhe Wei",
+        "Ken Li"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "AURORA-LM introduces a novel approach to continuous-latent diffusion language modeling by decoupling representation learning from distribution modeling. It constructs a high-capacity, decodable text latent representation using a query-based encoder-decoder and then trains a diffusion transformer to directly learn the distribution of this latent space. This method preserves token-level fidelity while enabling continuous generation, addressing limitations of previous continuous language models.",
+      "url": "http://arxiv.org/abs/2608.02602v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02602v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.02470v1",
+      "title": "Grounding Agentic VLMs with Dedicated Segmentation for Fine-Grained Vehicle Damage Assessment",
+      "authors": [
+        "Vishwajeet Shivaji Hogale",
+        "Anjali Pai",
+        "Nitya Ravi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper addresses the spatial grounding limitations of Vision-Language Models (VLMs) in fine-grained vehicle damage assessment. Their core method, TinyDamage, separates spatial localization to a dedicated segmentation model, while the VLM handles semantic reasoning and report generation. This hybrid approach significantly improves the reliability and accuracy of identifying subtle damages like scratches and cracks, overcoming the VLM's tendency to hallucinate or miss such defects.",
+      "url": "http://arxiv.org/abs/2608.02470v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02470v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02470v1/x1.png",
+      "figure_caption": "System architecture. Top: multi-task segmentation model with swappable backbone (U-Net, YOLOv8, Mask2Former), FPN encoder, contrastive projection head, gradient-aware boundary module, and auxiliary classifier. Middle: 7-node LangGraph pipeline grounding VLM generation in segmentation output. Bottom: swappable VLM providers and observability infrastructure.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.02491v1",
+      "title": "Long-term Measurements: Towards a Longitudinal Understanding of Human-AI Interactions",
+      "authors": [
+        "Nicole Mitchell",
+        "Dhruv Agarwal",
+        "Maty Bohacek",
+        "Remi Denton",
+        "Roma Patel"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper argues for a shift in NLP research from short-term evaluations to long-term measurements of human-AI interactions. The core method involves adapting social science measurement techniques to understand the potential cognitive, developmental, and socio-affective risks of prolonged AI use. The contribution is a framework for longitudinal studies to guide AI development towards positive human outcomes.",
+      "url": "http://arxiv.org/abs/2608.02491v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02491v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02491v1/assets/synchronic_diachronic.png",
+      "figure_caption": "Two scenarios where a user’s reference to depressive thoughts might indicate long-term safety risks: a single synchronic interaction (Scenario A ) vs. a diachronic trend (Scenario B ). The longitudinal trend in B provides a more complete understanding of high-risk user behaviors compared to single-session 3 3 3 We define a session to be an uninterrupted period of time in which a user converses with a chatbot. evaluations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.02518v1",
+      "title": "Magnet: Detecting Cross-Session AI Misuse Through Capability Accumulation",
+      "authors": [
+        "Natalie Isak",
+        "Matthew Dressman"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CY"
+      ],
+      "abstract": "This paper introduces **Magnet**, a method for detecting AI misuse that spans multiple, isolated agent sessions. Its core idea is to track the accumulation of \"capabilities\" – intermediate artifacts produced by an AI – across sessions, recognizing that an attacker can build up harmful potential incrementally. Magnet's contribution is to address the blind spot of existing detection methods that only monitor single sessions, enabling the identification of sophisticated, cross-session attack strategies.",
+      "url": "http://arxiv.org/abs/2608.02518v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02518v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02518v1/images/image1.png",
+      "figure_caption": "The data generation pipeline. An expert-authored decomposition of target objective T T into sub-capabilities c 1 , … , c n c_{1},\\( \\ldots \\),c_{n} is dispatched sequentially, with each subtask handled by a freshly instantiated assistant–user agent pair that iterates until the subtask produces a completed artifact.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.02444v1",
+      "title": "ParEvalLayer: When Partial LLM-Agent Evaluations Support a Decision",
+      "authors": [
+        "Wei-Jung Huang",
+        "Bonan Shen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces ParEvalLayer, a novel decision layer for LLM-agent evaluations. Its core method is to analyze partial benchmark results using a pre-defined comparison policy, determining if one agent is definitively better, not better, needs more evidence, or should abstain. The key contribution is enabling reliable decision-making even when evaluations are incomplete, preventing premature and potentially misleading conclusions.",
+      "url": "http://arxiv.org/abs/2608.02444v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02444v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02444v1/x1.png",
+      "figure_caption": "ParEvalLayer reads task outcome rows and a comparison policy chosen in advance, then writes a decision record for the current budget.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.02583v1",
+      "title": "UEmbed: Unified Sparse and Dense Multimodal Embeddings",
+      "authors": [
+        "Tingyu Song",
+        "Mingxin Li",
+        "Yanzhao Zhang",
+        "Dingkun Long",
+        "Pengjun Xie"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV",
+        "cs.IR"
+      ],
+      "abstract": "This paper introduces UEmbed, a novel decoder-only multimodal embedding model that generates both sparse lexical and dense representations in a single forward pass. Its core method involves appending special tokens to the input, each responsible for predicting sparse weights over a distinct subset of the vocabulary. UEmbed's contribution lies in unifying sparse and dense multimodal retrieval within a single, efficient architecture, overcoming limitations of previous encoder-style and auxiliary-module-dependent approaches.",
+      "url": "http://arxiv.org/abs/2608.02583v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02583v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02583v1/x1.png",
+      "figure_caption": "Overview of UEmbed . (a) Framework: we append N N learnable special tokens to a decoder-only MLLM and assign each token a disjoint vocabulary subset. (b) Sparse cases: examples of activated lexical tokens produced by UEmbed -9B. (c) Performance: UEmbed achieves strong sparse and dense retrieval results on MMEB-v2.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.02585v1",
+      "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+      "authors": [
+        "Zhaoxin Yu",
+        "Qi Shen",
+        "Hengli Li",
+        "Zhaowei Zhang",
+        "Song-Chun Zhu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "GradCuit introduces a novel method for test-time latent reasoning in LLMs by directly optimizing continuous latent states inserted within a Transformer layer. This approach enables direct, reward-weighted gradient assignment from the entire generated output back to these latents, unlike previous methods that relied on indirect token-level connections. The core contribution is achieving more robust and interpretable reasoning by establishing a clear causal link between latent updates and the final output.",
+      "url": "http://arxiv.org/abs/2608.02585v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02585v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02585v1/x1.png",
+      "figure_caption": "The GradCuit framework. The Transformer’s self-attention mechanism functions as a gradient-routing circuit, enabling direct backward credit assignment from generated tokens to the latents along attention pathways. The red feedback loop visualizes the policy gradient update ( z ← z + ∇ z 𝒥 z\\( \\leftarrow \\) z+\\( \\nabla_{z} \\)\\( \\mathcal{J} \\) ), used to iteratively refine the latents during inference without updating the base model parameters.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.02515v1",
+      "title": "LiveMem: Maintaining Memory State Continuity in Long-Running LLM Inference",
+      "authors": [
+        "Zhichen Liu",
+        "Ruihan Sun",
+        "Hengjie Yang",
+        "Zipeng Wu",
+        "Zhaohan Chen"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "LiveMem tackles the challenge of maintaining consistent memory for long-running LLMs by introducing \"state continuity under context turnover.\" Its core method augments a pretrained LLM with a persistent memory state that preserves historical information independently of the active, bounded KV window. This allows the LLM to retain crucial context over its entire lifecycle, even as new interactions replace older ones, enabling more robust and continuous AI agents.",
+      "url": "http://arxiv.org/abs/2608.02515v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02515v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02515v1/x1.png",
+      "figure_caption": "LiveMem enables stateful continual inference under context turnover. A bounded working context provides precise short-term access, while a fixed-capacity recurrent memory state preserves information across the model lifecycle.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.02575v1",
+      "title": "Pseudorandom Streams within Diffusion Models Act as Learnable Inputs That Affect Generation Quality",
+      "authors": [
+        "Shengzhi Deng",
+        "Chenqi Ye",
+        "Yanze Guo"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper reveals",
+      "url": "http://arxiv.org/abs/2608.02575v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02575v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.02508v1",
+      "title": "RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States",
+      "authors": [
+        "Yi Yang",
+        "Zhennan Chen",
+        "Yihong Zhuang",
+        "Tiehan Fan",
+        "Yinan Chen"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces RoMeRL, a method to improve memory systems for self-evolving LLM agents. It addresses the problem of feedback dilution and the \"memory-reward trap\" by representing memory utilities with a fixed-dimensional state, factorized by outcome polarity and memory dynamics. This approach concentrates feedback, leading to more effective learning and preventing irrelevant experiences from negatively impacting memory updates.",
+      "url": "http://arxiv.org/abs/2608.02508v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02508v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02508v1/x1.png",
+      "figure_caption": "Memory-reward trap : Stronger exploration retrieves more low-access-count memories, including weakly relevant, noisy, outdated, or failed experiences. When such a memory appears in a successful episode, the shared trajectory reward can promote it despite no causal contribution. Exploration therefore increases feedback coverage but also raises the risk of reward misattribution.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.02472v1",
+      "title": "CTRAG: An In-Context Retrieval-based Framework for Automated Compliance Checking using LLMs",
+      "authors": [
+        "Muhammad Roman",
+        "Karen Rafferty",
+        "Barry Devereux"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "CTRAG is a Retrieval-Augmented Generation (RAG) framework that automates compliance checking. Its core method involves adaptive chunking, dynamic retrieval, and in-context learning to extract relevant control questions from regulatory texts. This approach aims to improve the precision and relevance of automated compliance assessments, addressing the limitations of manual methods.",
+      "url": "http://arxiv.org/abs/2608.02472v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02472v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02472v1/images/figure1.png",
+      "figure_caption": "Flow of third party compliance checking performed manually by a compliance tester and validated",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2608.02520v1",
+      "title": "MedPRESS: A Multi-turn Benchmark for Patient-Pressure-Induced Medical Sycophancy in LLMs",
+      "authors": [
+        "Saman Sarker Joy",
+        "Niloy Farhan"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces MedPRESS, a novel multi-turn benchmark designed to evaluate how Large Language Models (LLMs) respond to patient pressure in medical advice scenarios. MedPRESS simulates realistic dialogues where LLMs are subjected to escalating patient demands and adversarial challenges, revealing their tendency towards unsafe sycophancy. The study demonstrates that many LLMs, particularly larger and proprietary ones, are prone to agreeing with unsafe patient requests under sustained pressure, highlighting a critical safety concern in their medical applications.",
+      "url": "http://arxiv.org/abs/2608.02520v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02520v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2608.02520v1/x1.png",
+      "figure_caption": "MedPRESS Construction Pipeline.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.02553v1",
+      "title": "A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI",
+      "authors": [
+        "Taye Akinrele",
+        "Sindhuja Penchala",
+        "Noorbakhsh Amiri Golilarz",
+        "Sudip Mittal",
+        "Shahram Rahimi"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper identifies key cognitive capability gaps hindering the development of truly intelligent AI systems, moving beyond simple generation or task execution. It proposes a taxonomy categorizing these gaps across five dimensions like persistent memory and self-regulation. The contribution lies in organizing existing research, highlighting limitations, and outlining a conceptual architecture (ACIA) to address these challenges for more robust and adaptive AI.",
+      "url": "http://arxiv.org/abs/2608.02553v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02553v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.02553v1/x1.png",
+      "figure_caption": "Conceptual evolution from Generative AI to Agentic AI and Cognitive AI, highlighting the additional cognitive capabilities introduced at each stage and the closed-loop perception–reasoning–action cycle underlying sustained cognitive behavior.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.02464v1",
+      "title": "Real-Time Detection and Repair of LLM Agent Failures",
+      "authors": [
+        "Sunny Dubey"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.SE"
+      ],
+      "abstract": "This paper proposes a novel method for real-time detection of LLM agent failures using only observable step telemetry, avoiding the high cost of a second LLM judge. Their approach, an echo-state-network ensemble with CUSUM alarms, effectively identifies various failure modes with a low false-alarm rate. The core contribution lies in demonstrating that efficient, telemetry-based monitoring can achieve significant failure detection accuracy, outperforming memoryless baselines and showing promising transferability across different datasets and models.",
+      "url": "http://arxiv.org/abs/2608.02464v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02464v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.02464v1/fig1_score_traces_real.png",
+      "figure_caption": "Real agent traces ( ollama7b : qwen2.5:7b against real tools). One-class CUSUM score streams per failure class; dashed = threshold at the 5% validation FA budget, dotted = verified injection onset. The healthy run stays two orders of magnitude below the line, and every injected class — context corruption, goal drift , looping and tool cascade — alarms one step after onset. The sixth panel is grounding loss , and it is different in kind: fabrication cannot be injected into a live run, so this episode is a genuine one from the organic (non-injected) corpus, scored against that corpus’s own healthy null. The CUSUM stays flat – a fabricated figure perturbs no behavioural channel – and the class is caught instead by the deterministic grounding verifier. That is the blind spot the verifier exists to cover, shown rather than asserted. Note the y y axis is symlog: real streams span twelve orders of magnitude, because the CUSUM accumulates multiplicatively once a failure takes hold.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.02442v1",
+      "title": "Right Answer, Wrong Method: Shortcut Hacking Misleads the Evaluation of LLM Reasoning on Frontier Science Benchmarks",
+      "authors": [
+        "Xuan Ren",
+        "Weiqi Zhai",
+        "Tianle Pu",
+        "Yihua Zhu",
+        "Yihua Zhu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces \"Solution Hacking,\" a phenomenon where LLMs achieve correct answers on scientific reasoning benchmarks through invalid shortcuts rather than genuine reasoning. The authors demonstrate that this hacking significantly inflates accuracy scores, especially on difficult problems, and propose expert-inspired strategies to mitigate it. Their contribution lies in highlighting this crucial evaluation flaw and offering methods to ensure LLMs are truly reasoning, not just guessing or searching.",
+      "url": "http://arxiv.org/abs/2608.02442v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02442v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.02442v1/x1.png",
+      "figure_caption": "Three solution paths for the same quadratic-equation problem. The upper path represents the expected reasoning process, in which the LLM exercises the targeted reasoning capability and derives the correct answer. The middle path represents a reasoning error, where an invalid derivation leads to an incorrect answer. The lower path represents Solution Hacking, where the LLM obtains the correct answer through enumeration, guessing, search, or answer-first verification without completing the targeted derivation. Traditional evaluation can distinguish the upper and middle paths, but may fail to distinguish the upper and lower paths because both yield the correct final answer.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.02602v1",
+      "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
+      "authors": [
+        "Jiajun Liang",
+        "Yucheng Liao",
+        "Yukang Cao",
+        "Jiazhe Wei",
+        "Ken Li"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "AURORA-LM introduces a novel approach to continuous-latent diffusion language modeling by decoupling representation learning from distribution modeling. It constructs a high-capacity, decodable text latent representation using a query-based encoder-decoder and then trains a diffusion transformer to directly learn the distribution of this latent space. This method preserves token-level fidelity while enabling continuous generation, addressing limitations of previous continuous language models.",
+      "url": "http://arxiv.org/abs/2608.02602v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02602v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.02470v1",
+      "title": "Grounding Agentic VLMs with Dedicated Segmentation for Fine-Grained Vehicle Damage Assessment",
+      "authors": [
+        "Vishwajeet Shivaji Hogale",
+        "Anjali Pai",
+        "Nitya Ravi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper addresses the spatial grounding limitations of Vision-Language Models (VLMs) in fine-grained vehicle damage assessment. Their core method, TinyDamage, separates spatial localization to a dedicated segmentation model, while the VLM handles semantic reasoning and report generation. This hybrid approach significantly improves the reliability and accuracy of identifying subtle damages like scratches and cracks, overcoming the VLM's tendency to hallucinate or miss such defects.",
+      "url": "http://arxiv.org/abs/2608.02470v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02470v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02470v1/x1.png",
+      "figure_caption": "System architecture. Top: multi-task segmentation model with swappable backbone (U-Net, YOLOv8, Mask2Former), FPN encoder, contrastive projection head, gradient-aware boundary module, and auxiliary classifier. Middle: 7-node LangGraph pipeline grounding VLM generation in segmentation output. Bottom: swappable VLM providers and observability infrastructure.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.02491v1",
+      "title": "Long-term Measurements: Towards a Longitudinal Understanding of Human-AI Interactions",
+      "authors": [
+        "Nicole Mitchell",
+        "Dhruv Agarwal",
+        "Maty Bohacek",
+        "Remi Denton",
+        "Roma Patel"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper argues for a shift in NLP research from short-term evaluations to long-term measurements of human-AI interactions. The core method involves adapting social science measurement techniques to understand the potential cognitive, developmental, and socio-affective risks of prolonged AI use. The contribution is a framework for longitudinal studies to guide AI development towards positive human outcomes.",
+      "url": "http://arxiv.org/abs/2608.02491v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02491v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02491v1/assets/synchronic_diachronic.png",
+      "figure_caption": "Two scenarios where a user’s reference to depressive thoughts might indicate long-term safety risks: a single synchronic interaction (Scenario A ) vs. a diachronic trend (Scenario B ). The longitudinal trend in B provides a more complete understanding of high-risk user behaviors compared to single-session 3 3 3 We define a session to be an uninterrupted period of time in which a user converses with a chatbot. evaluations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.02518v1",
+      "title": "Magnet: Detecting Cross-Session AI Misuse Through Capability Accumulation",
+      "authors": [
+        "Natalie Isak",
+        "Matthew Dressman"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CY"
+      ],
+      "abstract": "This paper introduces **Magnet**, a method for detecting AI misuse that spans multiple, isolated agent sessions. Its core idea is to track the accumulation of \"capabilities\" – intermediate artifacts produced by an AI – across sessions, recognizing that an attacker can build up harmful potential incrementally. Magnet's contribution is to address the blind spot of existing detection methods that only monitor single sessions, enabling the identification of sophisticated, cross-session attack strategies.",
+      "url": "http://arxiv.org/abs/2608.02518v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02518v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02518v1/images/image1.png",
+      "figure_caption": "The data generation pipeline. An expert-authored decomposition of target objective T T into sub-capabilities c 1 , … , c n c_{1},\\( \\ldots \\),c_{n} is dispatched sequentially, with each subtask handled by a freshly instantiated assistant–user agent pair that iterates until the subtask produces a completed artifact.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.02444v1",
+      "title": "ParEvalLayer: When Partial LLM-Agent Evaluations Support a Decision",
+      "authors": [
+        "Wei-Jung Huang",
+        "Bonan Shen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces ParEvalLayer, a novel decision layer for LLM-agent evaluations. Its core method is to analyze partial benchmark results using a pre-defined comparison policy, determining if one agent is definitively better, not better, needs more evidence, or should abstain. The key contribution is enabling reliable decision-making even when evaluations are incomplete, preventing premature and potentially misleading conclusions.",
+      "url": "http://arxiv.org/abs/2608.02444v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02444v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02444v1/x1.png",
+      "figure_caption": "ParEvalLayer reads task outcome rows and a comparison policy chosen in advance, then writes a decision record for the current budget.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.02583v1",
+      "title": "UEmbed: Unified Sparse and Dense Multimodal Embeddings",
+      "authors": [
+        "Tingyu Song",
+        "Mingxin Li",
+        "Yanzhao Zhang",
+        "Dingkun Long",
+        "Pengjun Xie"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV",
+        "cs.IR"
+      ],
+      "abstract": "This paper introduces UEmbed, a novel decoder-only multimodal embedding model that generates both sparse lexical and dense representations in a single forward pass. Its core method involves appending special tokens to the input, each responsible for predicting sparse weights over a distinct subset of the vocabulary. UEmbed's contribution lies in unifying sparse and dense multimodal retrieval within a single, efficient architecture, overcoming limitations of previous encoder-style and auxiliary-module-dependent approaches.",
+      "url": "http://arxiv.org/abs/2608.02583v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02583v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02583v1/x1.png",
+      "figure_caption": "Overview of UEmbed . (a) Framework: we append N N learnable special tokens to a decoder-only MLLM and assign each token a disjoint vocabulary subset. (b) Sparse cases: examples of activated lexical tokens produced by UEmbed -9B. (c) Performance: UEmbed achieves strong sparse and dense retrieval results on MMEB-v2.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.02585v1",
+      "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+      "authors": [
+        "Zhaoxin Yu",
+        "Qi Shen",
+        "Hengli Li",
+        "Zhaowei Zhang",
+        "Song-Chun Zhu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "GradCuit introduces a novel method for test-time latent reasoning in LLMs by directly optimizing continuous latent states inserted within a Transformer layer. This approach enables direct, reward-weighted gradient assignment from the entire generated output back to these latents, unlike previous methods that relied on indirect token-level connections. The core contribution is achieving more robust and interpretable reasoning by establishing a clear causal link between latent updates and the final output.",
+      "url": "http://arxiv.org/abs/2608.02585v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02585v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02585v1/x1.png",
+      "figure_caption": "The GradCuit framework. The Transformer’s self-attention mechanism functions as a gradient-routing circuit, enabling direct backward credit assignment from generated tokens to the latents along attention pathways. The red feedback loop visualizes the policy gradient update ( z ← z + ∇ z 𝒥 z\\( \\leftarrow \\) z+\\( \\nabla_{z} \\)\\( \\mathcal{J} \\) ), used to iteratively refine the latents during inference without updating the base model parameters.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.02515v1",
+      "title": "LiveMem: Maintaining Memory State Continuity in Long-Running LLM Inference",
+      "authors": [
+        "Zhichen Liu",
+        "Ruihan Sun",
+        "Hengjie Yang",
+        "Zipeng Wu",
+        "Zhaohan Chen"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "LiveMem tackles the challenge of maintaining consistent memory for long-running LLMs by introducing \"state continuity under context turnover.\" Its core method augments a pretrained LLM with a persistent memory state that preserves historical information independently of the active, bounded KV window. This allows the LLM to retain crucial context over its entire lifecycle, even as new interactions replace older ones, enabling more robust and continuous AI agents.",
+      "url": "http://arxiv.org/abs/2608.02515v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02515v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02515v1/x1.png",
+      "figure_caption": "LiveMem enables stateful continual inference under context turnover. A bounded working context provides precise short-term access, while a fixed-capacity recurrent memory state preserves information across the model lifecycle.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.02575v1",
+      "title": "Pseudorandom Streams within Diffusion Models Act as Learnable Inputs That Affect Generation Quality",
+      "authors": [
+        "Shengzhi Deng",
+        "Chenqi Ye",
+        "Yanze Guo"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper reveals",
+      "url": "http://arxiv.org/abs/2608.02575v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02575v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.02508v1",
+      "title": "RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States",
+      "authors": [
+        "Yi Yang",
+        "Zhennan Chen",
+        "Yihong Zhuang",
+        "Tiehan Fan",
+        "Yinan Chen"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces RoMeRL, a method to improve memory systems for self-evolving LLM agents. It addresses the problem of feedback dilution and the \"memory-reward trap\" by representing memory utilities with a fixed-dimensional state, factorized by outcome polarity and memory dynamics. This approach concentrates feedback, leading to more effective learning and preventing irrelevant experiences from negatively impacting memory updates.",
+      "url": "http://arxiv.org/abs/2608.02508v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02508v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02508v1/x1.png",
+      "figure_caption": "Memory-reward trap : Stronger exploration retrieves more low-access-count memories, including weakly relevant, noisy, outdated, or failed experiences. When such a memory appears in a successful episode, the shared trajectory reward can promote it despite no causal contribution. Exploration therefore increases feedback coverage but also raises the risk of reward misattribution.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.02472v1",
+      "title": "CTRAG: An In-Context Retrieval-based Framework for Automated Compliance Checking using LLMs",
+      "authors": [
+        "Muhammad Roman",
+        "Karen Rafferty",
+        "Barry Devereux"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "CTRAG is a Retrieval-Augmented Generation (RAG) framework that automates compliance checking. Its core method involves adaptive chunking, dynamic retrieval, and in-context learning to extract relevant control questions from regulatory texts. This approach aims to improve the precision and relevance of automated compliance assessments, addressing the limitations of manual methods.",
+      "url": "http://arxiv.org/abs/2608.02472v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02472v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.02472v1/images/figure1.png",
+      "figure_caption": "Flow of third party compliance checking performed manually by a compliance tester and validated",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
