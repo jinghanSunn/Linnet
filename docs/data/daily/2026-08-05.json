@@ -1,0 +1,1378 @@
+{
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05T11:39:00.455227+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2608.03890v1",
+          "title": "CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+          "authors": [
+            "Mercy Prasanna Ranjit",
+            "Anirban Porya",
+            "Sathvik Joel",
+            "Niharika Vadlamudi",
+            "Nikhilesh Chowdary Eathamukkala"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "CARE-X unifies radiology report generation with discriminative tasks like classification and localization. It achieves this by co-training a generative VLM with auxiliary focal-loss classification and composite-loss grounding heads. This approach enables clinically useful features such as tunable decision thresholds and precise spatial localization, ultimately improving both report quality and diagnostic accuracy.",
+          "url": "http://arxiv.org/abs/2608.03890v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.03890v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2608.03890v1/x1.png",
+          "figure_caption": "The CARE-X model. (Left) Supervised fine-tuning with three task-specific heads for classification, grounding, and report generation/VQA. (Right) DAPO with task-specific rewards. See Section 3.1.1 for details.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.03874v1",
+          "title": "ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities?",
+          "authors": [
+            "Tianyi Guan",
+            "Yiding Wang",
+            "Haotong Yang",
+            "Siyuan Cao",
+            "Shirui Liu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces ContinualSkillBench, a novel evaluation framework to assess if LLM agents can truly evolve and improve their skills over time. The framework uses interconnected subtasks across five domains to measure skill learning and reuse. Experiments reveal that while sequential execution boosts performance, the gains are inconsistent across models and domains, suggesting that adaptation to context plays a significant role alongside explicit skill abstraction.",
+          "url": "http://arxiv.org/abs/2608.03874v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.03874v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.03874v1/x1.png",
+          "figure_caption": "Overview of the ContinualSkillBench pipeline. Phase 1 collects approximately 30,000 tasks from five domains. Phase 2 uses LLM-assisted filtering, skill-dependency analysis, task ordering, and human review to construct five sequential task streams. Phase 3 evaluates agents through instruction, execution, and reflection, comparing Sequential and Independent execution with their performance difference reported as \\( \\Delta \\) .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.04007v1",
+          "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
+          "authors": [
+            "Changle Qu",
+            "Sunhao Dai",
+            "Hengyi Cai",
+            "Yuqi Zhou",
+            "Xinran Chen"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "TurnSight addresses limitations in tool-integrated reasoning for LLMs by introducing turn-level hindsight self-distillation. Its core method generates supervision signals directly from execution-conditioned hindsight, creating multiple \"hindsight views\" with varying lookahead horizons. The framework then selects reliable supervision by identifying agreement across these views, improving fine-grained credit assignment in complex, multi-turn tasks.",
+          "url": "http://arxiv.org/abs/2608.04007v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.04007v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.04007v1/x1.png",
+          "figure_caption": "Comparison of credit assignment strategies for TIR. (a) Trajectory-level RL assigns identical credit to all turns. (b) Existing OPSD may use state-misaligned privileged context and produce conflicting token-level signals. (c) TurnSight derives coherent turn-level credit from execution-conditioned hindsight across multiple lookahead depths.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.03929v1",
+          "title": "Latent Reward Registers for Diffusion Preference Alignment",
+          "authors": [
+            "Yuanshen Guan",
+            "Zipeng Feng",
+            "Zhiwei Xiong",
+            "Peiqin Sun"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces Latent Reward Registers to address the temporal credit assignment problem in aligning diffusion models with human preferences. By adding learnable tokens to intermediate latents, it estimates terminal preferences directly, providing a dense, differentiable reward signal. This enables efficient training via Reward-Gradient On-Policy Distillation and improved inference through Reward-Guided Sampling.",
+          "url": "http://arxiv.org/abs/2608.03929v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.03929v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.03929v1/x1.png",
+          "figure_caption": "Latent Reward Registers vs. existing paradigms. Unlike conventional alignment methods that rely on delayed, sparse feedback from a clean image (Left) or require intrusive fine-tuning of the generator (Middle), our approach (Right) appends learnable registers to a frozen DiT. This enables the direct estimation of step-wise rewards from intermediate noisy latents ( z t z_{t} ). Consequently, we derive dense, differentiable reward gradients ( ∇ R \\( \\nabla \\) R ) for generation while keeping the pretrained generative dynamics fully intact.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.03958v1",
+          "title": "A game theory for foundation models shows new paths to rational cooperation through similarity inference",
+          "authors": [
+            "Alexander Meulemans",
+            "Maciej Wołczyk",
+            "Marissa A. Weis",
+            "Rajai Nasser",
+            "Roberta Rocca"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces a new game theory framework for foundation models, moving beyond classical assumptions of decoupled agency. It proposes the \"embedded Bayesian agent\" model, demonstrating that foundation model agents engaging in optimal planning can achieve stable cooperation in social dilemmas, contrary to traditional predictions of mutual defection. This work offers new insights into how AI agents can achieve rational cooperation through similarity inference.",
+          "url": "http://arxiv.org/abs/2608.03958v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.03958v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.03875v1",
+          "title": "Enhancing VLM Reward Models Through Structure-Aware Fine-Tuning",
+          "authors": [
+            "Pyrros Koussios",
+            "Chenhao Li",
+            "Xin Chen",
+            "Andreas Krause"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces Structure-Aware Fine-Tuning (SAFT), a self-supervised method to improve the reliability of reward models derived from Vision-Language Models (VLMs). SAFT uses LoRA adapters to regularize the VLM's latent space based on intrinsic structural priors, denoising noisy reward signals without requiring ground-truth data. This approach leads to faster policy convergence and better alignment in reinforcement learning tasks.",
+          "url": "http://arxiv.org/abs/2608.03875v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.03875v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.03875v1/x1.png",
+          "figure_caption": "Structure-Aware Fine-Tuning (SAFT) improves VLM reward models for RL by enforcing inherent structural priors, without ground-truth labels.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.03892v1",
+          "title": "Intertemporal Preference Steering in Qwen3 via Contrastive Activation Addition",
+          "authors": [
+            "Michal Mráz",
+            "Justin Shenk"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper identifies linear directions in Qwen3's internal representations that correspond to short-term versus long-term preferences. By training contrastive probes on temporal choice data, they discover these directions and use them to steer the model's behavior. The core contribution is demonstrating that simple linear steering can induce significant, bidirectional changes in the model's intertemporal decision-making, impacting recommendations and planning capabilities.",
+          "url": "http://arxiv.org/abs/2608.03892v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.03892v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.03892v1/figures_arxiv/qwen3_32b_explicit_train_probe_comparison.png",
+          "figure_caption": "Layerwise explicit-trained probe accuracies from the probe-variation experiment. The left panel reports explicit test set accuracy; the right panel reports full implicit set accuracy.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.03972v1",
+          "title": "ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning",
+          "authors": [
+            "Jinhe Bi",
+            "Chennan Zhou",
+            "Zengjie Jin",
+            " Aniri",
+            "Shuo Lu"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "ReflectRL proposes learning from \"Golden Negative Trajectories\" – expert model failures on hard problems – by treating them as opportunities for reflection rather than discarded negative samples. The core method involves a lightweight framework that elicits reflective reasoning from these flawed trajectories, arguing that reflecting on errors is often easier and more effective than solving problems from scratch. This approach enhances on-policy training by leveraging previously ignored supervision signals to improve LLM reasoning.",
+          "url": "http://arxiv.org/abs/2608.03972v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.03972v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.03972v1/x1.png",
+          "figure_caption": "Understanding the Reflection Advantage through behavioral, descriptive, and intervention evidence on Qwen2.5-Math-7B. (a) Behavioral Evidence : Reflection Gain Δ ref = 𝔼 o ∼ π ​ [ r ​ ( q , o ) ∣ q , o − ] − 𝔼 o ∼ π ​ [ r ​ ( q , o ) ∣ q ] \\( \\Delta \\)_{\\( \\text{ref} \\)}=\\( \\mathbb{E}_{o\\sim\\pi} \\)[r(q,o)\\( \\mid \\) q,o^{-}]-\\( \\mathbb{E}_{o\\sim\\pi} \\)[r(q,o)\\( \\mid \\) q] over training steps. Reflecting on a GNT yields the largest gain, which steadily grows during training, whereas self-failures offer limited benefits, and weak-model failures or mismatched GNT (incase length bias) leads to negative gain. (b) Descriptive Evidence : Qwen2.5-Math-PRM-7B score profiles of failure sources and process metrics (inset). GNT maintains a higher valid prefix of reasoning compared to other failure sources before dropping at localized error points. (c) Intervention Evidence : Ablation of GNT trajectory components. Both the valid prefix and the error region causally drive the reflection gain, whereas removing these components (Shuffled GNT, Answer Only) reduces accuracy below the direct baseline.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.03970v1",
+          "title": "Should We Type or Talk to LLM Agents? A Comprehensive Study of Voice and Keyboard Input Perturbations",
+          "authors": [
+            "Zizhao Hu",
+            "Nathan Elijah Segura",
+            "Mohammad Rostami",
+            "Jesse Thomason"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper investigates how voice and keyboard input affect Large Language Model (LLM) performance. The authors introduce HIVE, a tool to simulate real-world input variations, and find that voice transcription errors, particularly structural changes, significantly degrade LLM accuracy. Keyboard input perturbations are less impactful, with both input types' performance degradation stemming from the loss of original query tokens.",
+          "url": "http://arxiv.org/abs/2608.03970v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.03970v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.03970v1/figures/hive_taxonomy.png",
+          "figure_caption": "The HIVE taxonomy at a glance. A user either ad-libs a question or passes existing information along, and it reaches the model through voice, a QWERTY keyboard, or copy-paste, which delivers the question verbatim and is the clean reference. Colour marks the channel, not how an operator is built: the voice operators are a mix of few-shot LLM style transfer and deterministic rules, and the keyboard operators are all deterministic. Every example shown is a real item from the released data. The right panel shows how a model replies under degraded input. Table 4 gives the full specification.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.03910v1",
+          "title": "Socially Grounded Agentic AI: Coordinating Plural Perspectives through Social Theory",
+          "authors": [
+            "Matt Ratto",
+            "Abhishek Moturu",
+            "Daniel Silver"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.MA"
+          ],
+          "abstract": "This paper proposes \"Socially Grounded Agentic AI\" to address pluralistic alignment by leveraging social theory. It argues that AI systems need to represent and coordinate multiple legitimate perspectives, moving beyond single-value optimization. The core method involves using sociological concepts like roles, interaction, and power dynamics to inform AI design for better handling diverse social contexts.",
+          "url": "http://arxiv.org/abs/2608.03910v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.03910v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.04001v1",
+          "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
+          "authors": [
+            "Mohsen Hariri",
+            "Weicong Chen",
+            "Nahal Shahini",
+            "Vikash Singh",
+            "Kai Ye"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper proposes a systematic framework to understand and compare different \"test-time scaling\" methods for LLMs. It formalizes these methods as budgeted inference over an implicit prefix tree, categorizing them into three structural regimes. This work's contribution is to provide a unified account that addresses the current lack of comparability in research due to diverse inference protocols.",
+          "url": "http://arxiv.org/abs/2608.04001v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.04001v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.04001v1/x1.png",
+          "figure_caption": "A selective chronicle of reasoning systems, from elicited chains to budgeted inference. Test-time inference expanded from single-trajectory elicitation and leaf-level sampling with terminal reduction to include prefix-level search and budget-aware control ( Section ˜ 2.1 ), while model and interface mechanisms evolved through verified distillation, reward optimization, explicit reasoning controls, and parameter-space composition (Appendices D and E ). The lower bands summarize the evaluation and reproducibility requirements developed in Section ˜ 3 and the evaluated object used throughout this paper: checkpoint, prompt, decoder, controller or reducer, verifier or judge, budget, and stopping rule, with utility, candidate-bank profile, cost, and uncertainty reported together. Green dots mark families represented in the experimental roster; dashed boxes denote contextual milestones. Era labels indicate shifts in emphasis rather than mutually exclusive periods.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.03921v1",
+          "title": "The Transformer Revolution, Part 1: Dynamic Processing through Output- Weight Interconnections",
+          "authors": [
+            "Marco Giunti",
+            "Fabrizia Giulia Garavaglia"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.NE"
+          ],
+          "abstract": "This paper proposes a new interpretation of Transformer inference, arguing that they perform dynamic, prompt-dependent transformations rather than simply reproducing training data. The core method, Sequence-level Interactive Dynamic Parallel Processing (SIDPP), views Transformers as systems that transform concepts (token vectors) using other concepts (parameterized transformations, which can be dynamic). The key contribution is identifying how output-weight interconnections, where outputs influence weights, enable this dynamic computation.",
+          "url": "http://arxiv.org/abs/2608.03921v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.03921v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.03979v1",
+          "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
+          "authors": [
+            "Zhen Fang",
+            "Yu Zeng",
+            "Wenxuan Huang",
+            "Yiming Zhao",
+            "Shiting Huang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces Video-DeepResearch (Video-DR), a multimodal agent designed for open-web exploration of video streams. Its core method involves a decoupled perception-exploration pipeline that prioritizes dense spatiotemporal visual grounding before web retrieval, addressing modality bias and parametric knowledge leakage. The contribution lies in this novel framework and its two-stage training, enabling autonomous exploration beyond imitation learning, and a new benchmark for evaluating such agents.",
+          "url": "http://arxiv.org/abs/2608.03979v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.03979v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.03979v1/x3.png",
+          "figure_caption": "Overview of the Video-DeepResearch pipeline.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.03966v1",
+          "title": "HalluTruthQA-4K: A Fine-Grained Corpus and Annotation Process for Arabic Hallucination Detection and Truth Verification",
+          "authors": [
+            "Salah Eddine Bekhouche",
+            "Abdessalam Bouchekif",
+            "Hichem Telli",
+            "Mohammed-En-Nadhir Zighem",
+            "Abdenour Hadid"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces HalluTruthQA-4K, a detailed Arabic dataset for detecting and verifying factual errors in language model responses. Its core method involves expert curation of 4,000 question-answering instances with character-level annotations of hallucinations, providing more granular insights than previous binary labels. The contribution lies in offering a richer resource to improve Arabic hallucination detection and truth verification.",
+          "url": "http://arxiv.org/abs/2608.03966v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.03966v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.03966v1/fig1.png",
+          "figure_caption": "Overview of the HalluTruthQA-4K construction and annotation pipeline. Questions and reference answers are prepared and verified by domain experts, free-form answers are generated using Fanar-1-9B-Instruct , and the resulting instances undergo expert annotation followed by an independent verification pass.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.04010v1",
+          "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
+          "authors": [
+            "Yang Yang",
+            "Qinyu Zhao",
+            "Mouxiang Chen",
+            "Xiaohui Li",
+            "Lixin Gu"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces ParVL, a framework for scaling Multimodal Large Language Models (MLLMs) by reusing existing backbone parameters across parallel vision and language branches.  Instead of increasing model size or sequential inference, ParVL reallocates computation to optimize task-specific performance. Its core contribution is a novel parallel scaling strategy that addresses the rigid computation allocation in existing MLLMs.",
+          "url": "http://arxiv.org/abs/2608.04010v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.04010v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.04010v1/x1.png",
+          "figure_caption": "Fixed vs. expandable compute allocation in MLLMs. (Left) Existing multimodal models suffer from a fixed compute allocation between ViT (vision) and LLM (language) components during the SFT phase, which is visualized as a locked seesaw. (Right) Our ParVL framework enables expandable and flexible compute for the two modules. By leveraging extensive parameter reuse, our parallel architecture independently scales computation in the vision and language modules during SFT, enabling controlled comparison of different vision–language allocations across branch-count configurations.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.04003v1",
+          "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
+          "authors": [
+            "Shuhan Xue",
+            "Zixin Ding",
+            "Yichen Shen",
+            "Yinjie Wang",
+            "Zhenfei Yin"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "PAST-Bench is a new benchmark designed to systematically evaluate whether personal AI agents improve over time by effectively utilizing their retained experience. The core method involves running agents through task sequences with and without access to their past experiences, under matched conditions. The paper's contribution is demonstrating that while recursive self-improvement is real in these agents, its effectiveness varies significantly across different capabilities and agent frameworks, and often lacks clear evidence of proper experience utilization.",
+          "url": "http://arxiv.org/abs/2608.04003v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.04003v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.04003v1/x1.png",
+          "figure_caption": "Overview of PAST-Bench . The benchmark tests whether agents improve across sessions by reusing retained experience, covering four capability dimensions, 26 task-family scenarios, and 204 episode tasks with matched no-persistence controls.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.04009v1",
+          "title": "SocietyBench: Forecasting Counterfactual Social-World Evolution",
+          "authors": [
+            "Zhenran Wang",
+            "Zhonghan Bian",
+            "Jinsong Li",
+            "Zhangyang Qi"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "SocietyBench introduces a novel benchmark for evaluating LLMs' ability to forecast social-world evolution. Its core method involves creating counterfactual timelines of real-world events by anonymizing entities and shifting dates, then posing forecasting questions about future developments. The contribution lies in providing a structured way to measure LLMs' understanding of social dynamics and temporal accuracy, moving beyond task completion to assess predictive social intelligence.",
+          "url": "http://arxiv.org/abs/2608.04009v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.04009v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.04009v1/x1.png",
+          "figure_caption": "Why SocietyBench evaluates counterfactual forecasting rather than event recall. Evaluated on a real, widely reported event in its original form, a model can score well simply by recognizing the event from pre-training data. SocietyBench replaces the entities and shifts the dates while preserving the causal and temporal structure, so the model has to forecast the future of an arc it cannot recognize.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.04008v1",
+          "title": "WorldCup Arena: Prospective, Leakage-Free Evaluation of Frontier LLMs on a Live Tournament",
+          "authors": [
+            "Zhenran Wang",
+            "Zhonghan Bian",
+            "Jinsong Li",
+            "Zhangyang Qi"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces WorldCup Arena, a novel method for evaluating Large Language Models' (LLMs) forecasting abilities in real-time, preventing data leakage by querying models before events occur. The study tracked six frontier LLMs' predictions for the 2026 FIFA World Cup, revealing that their accuracy on match outcomes, while competitive, largely mirrors betting on favorites, and they exhibit high agreement with each other.",
+          "url": "http://arxiv.org/abs/2608.04008v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.04008v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.04008v1/x1.png",
+          "figure_caption": "Top: a retrospective evaluation asks after the event resolves; this study asks before kickoff. Bottom: the pipeline at one fixture, from the frozen pre-match package to the settled result.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 29,
+        "papers_after_llm_filter": 18,
+        "count": 18
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Hosting Offer at Sabanci University - Marie Sklodowska-Curie Actions Postdoctoral Fellowships (MSCA-PF) 2026",
+          "url": "https://euraxess.ec.europa.eu/jobs/hosting/hosting-offer-sabanci-university-marie-sklodowska-curie-actions-postdoctoral-16",
+          "description": "HOST INSTITUTION: Sabancı University (SU) is one of Türkiye's leading research institutions. In the 2026 Times Higher Education (THE) Rankings, it is placed between 351-400 worldwide and ranks first in Türkiye. Additionally, it holds a position of #=404 in the QS World University Rankings for 2026... * Funding Programme: [Horizon Europe - MSCA](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4348) Deadline: 5 September 2026 Website: [https://www.sabanciuniv.edu/en](https://www.sabanciuniv.edu/en) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland ![Image 5: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Warsaw University of Technology](https://euraxess.ec.europa.eu/partnering/organisations/profile/warsaw-university-technology-0) *",
+          "institution": "",
+          "posted_date": "5 August 2026",
+          "deadline": "5 September 2026   Website:  [https://www",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: N/A\nKey Requirements: N/A\nApplication Info: deadline/start date: 5 September 2026, required materials: N/A, contact: N/A\nPosition Details: location: N/A, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+          "relevance_score": 7.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        },
+        {
+          "title": "Assistant Professor (Postdoctoral Researcher).",
+          "url": "https://euraxess.ec.europa.eu/jobs/458813",
+          "description": "The position is funded under the project “Centre for Credible AI at the Warsaw University of Technology”, financed through the FENG MAB programme (contract no. FENG.02.01-IP.05-0058/24). Candidates are required:1) a PhD in Math, Computer Science, Physics, Artificial Intelligence or similar field/... * Work Locations: Number of offers: 2, Poland, Company /institute: Centre for Credible AI at Warsaw University of Technology, Warsaw, 00-661, Rektorska 4 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Informatics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A87) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Other EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A6053) Application Deadline: 4 Sep 2026 - 23:59 (Europe/Warsaw) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Portugal * [Instituto de Telecomunicações](https://euraxess.ec.europa.eu/partnering/organisations/profile/instituto-de-telecomunicacoes-1) * [Field: Computer science]",
+          "institution": "",
+          "posted_date": "5 August 2026",
+          "deadline": "4 Sep 2026 - 23:59 (Europe/Warsaw)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Computer Science, Informatics, Artificial Intelligence\nKey Requirements: PhD in Math, Computer Science, Physics, Artificial Intelligence or similar field.\nApplication Info: Deadline: 4 Sep 2026 - 23:59 (Europe/Warsaw). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Warsaw, Poland. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: N/A",
+          "relevance_score": 8.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 2
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 29,
+    "papers_after_llm_filter": 18,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 54
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2608.03890v1",
+      "title": "CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+      "authors": [
+        "Mercy Prasanna Ranjit",
+        "Anirban Porya",
+        "Sathvik Joel",
+        "Niharika Vadlamudi",
+        "Nikhilesh Chowdary Eathamukkala"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "CARE-X unifies radiology report generation with discriminative tasks like classification and localization. It achieves this by co-training a generative VLM with auxiliary focal-loss classification and composite-loss grounding heads. This approach enables clinically useful features such as tunable decision thresholds and precise spatial localization, ultimately improving both report quality and diagnostic accuracy.",
+      "url": "http://arxiv.org/abs/2608.03890v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03890v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2608.03890v1/x1.png",
+      "figure_caption": "The CARE-X model. (Left) Supervised fine-tuning with three task-specific heads for classification, grounding, and report generation/VQA. (Right) DAPO with task-specific rewards. See Section 3.1.1 for details.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03874v1",
+      "title": "ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities?",
+      "authors": [
+        "Tianyi Guan",
+        "Yiding Wang",
+        "Haotong Yang",
+        "Siyuan Cao",
+        "Shirui Liu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ContinualSkillBench, a novel evaluation framework to assess if LLM agents can truly evolve and improve their skills over time. The framework uses interconnected subtasks across five domains to measure skill learning and reuse. Experiments reveal that while sequential execution boosts performance, the gains are inconsistent across models and domains, suggesting that adaptation to context plays a significant role alongside explicit skill abstraction.",
+      "url": "http://arxiv.org/abs/2608.03874v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03874v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.03874v1/x1.png",
+      "figure_caption": "Overview of the ContinualSkillBench pipeline. Phase 1 collects approximately 30,000 tasks from five domains. Phase 2 uses LLM-assisted filtering, skill-dependency analysis, task ordering, and human review to construct five sequential task streams. Phase 3 evaluates agents through instruction, execution, and reflection, comparing Sequential and Independent execution with their performance difference reported as \\( \\Delta \\) .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.04007v1",
+      "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
+      "authors": [
+        "Changle Qu",
+        "Sunhao Dai",
+        "Hengyi Cai",
+        "Yuqi Zhou",
+        "Xinran Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "TurnSight addresses limitations in tool-integrated reasoning for LLMs by introducing turn-level hindsight self-distillation. Its core method generates supervision signals directly from execution-conditioned hindsight, creating multiple \"hindsight views\" with varying lookahead horizons. The framework then selects reliable supervision by identifying agreement across these views, improving fine-grained credit assignment in complex, multi-turn tasks.",
+      "url": "http://arxiv.org/abs/2608.04007v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04007v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.04007v1/x1.png",
+      "figure_caption": "Comparison of credit assignment strategies for TIR. (a) Trajectory-level RL assigns identical credit to all turns. (b) Existing OPSD may use state-misaligned privileged context and produce conflicting token-level signals. (c) TurnSight derives coherent turn-level credit from execution-conditioned hindsight across multiple lookahead depths.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03929v1",
+      "title": "Latent Reward Registers for Diffusion Preference Alignment",
+      "authors": [
+        "Yuanshen Guan",
+        "Zipeng Feng",
+        "Zhiwei Xiong",
+        "Peiqin Sun"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces Latent Reward Registers to address the temporal credit assignment problem in aligning diffusion models with human preferences. By adding learnable tokens to intermediate latents, it estimates terminal preferences directly, providing a dense, differentiable reward signal. This enables efficient training via Reward-Gradient On-Policy Distillation and improved inference through Reward-Guided Sampling.",
+      "url": "http://arxiv.org/abs/2608.03929v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03929v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.03929v1/x1.png",
+      "figure_caption": "Latent Reward Registers vs. existing paradigms. Unlike conventional alignment methods that rely on delayed, sparse feedback from a clean image (Left) or require intrusive fine-tuning of the generator (Middle), our approach (Right) appends learnable registers to a frozen DiT. This enables the direct estimation of step-wise rewards from intermediate noisy latents ( z t z_{t} ). Consequently, we derive dense, differentiable reward gradients ( ∇ R \\( \\nabla \\) R ) for generation while keeping the pretrained generative dynamics fully intact.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.03958v1",
+      "title": "A game theory for foundation models shows new paths to rational cooperation through similarity inference",
+      "authors": [
+        "Alexander Meulemans",
+        "Maciej Wołczyk",
+        "Marissa A. Weis",
+        "Rajai Nasser",
+        "Roberta Rocca"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a new game theory framework for foundation models, moving beyond classical assumptions of decoupled agency. It proposes the \"embedded Bayesian agent\" model, demonstrating that foundation model agents engaging in optimal planning can achieve stable cooperation in social dilemmas, contrary to traditional predictions of mutual defection. This work offers new insights into how AI agents can achieve rational cooperation through similarity inference.",
+      "url": "http://arxiv.org/abs/2608.03958v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03958v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03875v1",
+      "title": "Enhancing VLM Reward Models Through Structure-Aware Fine-Tuning",
+      "authors": [
+        "Pyrros Koussios",
+        "Chenhao Li",
+        "Xin Chen",
+        "Andreas Krause"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces Structure-Aware Fine-Tuning (SAFT), a self-supervised method to improve the reliability of reward models derived from Vision-Language Models (VLMs). SAFT uses LoRA adapters to regularize the VLM's latent space based on intrinsic structural priors, denoising noisy reward signals without requiring ground-truth data. This approach leads to faster policy convergence and better alignment in reinforcement learning tasks.",
+      "url": "http://arxiv.org/abs/2608.03875v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03875v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.03875v1/x1.png",
+      "figure_caption": "Structure-Aware Fine-Tuning (SAFT) improves VLM reward models for RL by enforcing inherent structural priors, without ground-truth labels.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03892v1",
+      "title": "Intertemporal Preference Steering in Qwen3 via Contrastive Activation Addition",
+      "authors": [
+        "Michal Mráz",
+        "Justin Shenk"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper identifies linear directions in Qwen3's internal representations that correspond to short-term versus long-term preferences. By training contrastive probes on temporal choice data, they discover these directions and use them to steer the model's behavior. The core contribution is demonstrating that simple linear steering can induce significant, bidirectional changes in the model's intertemporal decision-making, impacting recommendations and planning capabilities.",
+      "url": "http://arxiv.org/abs/2608.03892v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03892v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.03892v1/figures_arxiv/qwen3_32b_explicit_train_probe_comparison.png",
+      "figure_caption": "Layerwise explicit-trained probe accuracies from the probe-variation experiment. The left panel reports explicit test set accuracy; the right panel reports full implicit set accuracy.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03972v1",
+      "title": "ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning",
+      "authors": [
+        "Jinhe Bi",
+        "Chennan Zhou",
+        "Zengjie Jin",
+        " Aniri",
+        "Shuo Lu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "ReflectRL proposes learning from \"Golden Negative Trajectories\" – expert model failures on hard problems – by treating them as opportunities for reflection rather than discarded negative samples. The core method involves a lightweight framework that elicits reflective reasoning from these flawed trajectories, arguing that reflecting on errors is often easier and more effective than solving problems from scratch. This approach enhances on-policy training by leveraging previously ignored supervision signals to improve LLM reasoning.",
+      "url": "http://arxiv.org/abs/2608.03972v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03972v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.03972v1/x1.png",
+      "figure_caption": "Understanding the Reflection Advantage through behavioral, descriptive, and intervention evidence on Qwen2.5-Math-7B. (a) Behavioral Evidence : Reflection Gain Δ ref = 𝔼 o ∼ π ​ [ r ​ ( q , o ) ∣ q , o − ] − 𝔼 o ∼ π ​ [ r ​ ( q , o ) ∣ q ] \\( \\Delta \\)_{\\( \\text{ref} \\)}=\\( \\mathbb{E}_{o\\sim\\pi} \\)[r(q,o)\\( \\mid \\) q,o^{-}]-\\( \\mathbb{E}_{o\\sim\\pi} \\)[r(q,o)\\( \\mid \\) q] over training steps. Reflecting on a GNT yields the largest gain, which steadily grows during training, whereas self-failures offer limited benefits, and weak-model failures or mismatched GNT (incase length bias) leads to negative gain. (b) Descriptive Evidence : Qwen2.5-Math-PRM-7B score profiles of failure sources and process metrics (inset). GNT maintains a higher valid prefix of reasoning compared to other failure sources before dropping at localized error points. (c) Intervention Evidence : Ablation of GNT trajectory components. Both the valid prefix and the error region causally drive the reflection gain, whereas removing these components (Shuffled GNT, Answer Only) reduces accuracy below the direct baseline.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03970v1",
+      "title": "Should We Type or Talk to LLM Agents? A Comprehensive Study of Voice and Keyboard Input Perturbations",
+      "authors": [
+        "Zizhao Hu",
+        "Nathan Elijah Segura",
+        "Mohammad Rostami",
+        "Jesse Thomason"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper investigates how voice and keyboard input affect Large Language Model (LLM) performance. The authors introduce HIVE, a tool to simulate real-world input variations, and find that voice transcription errors, particularly structural changes, significantly degrade LLM accuracy. Keyboard input perturbations are less impactful, with both input types' performance degradation stemming from the loss of original query tokens.",
+      "url": "http://arxiv.org/abs/2608.03970v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03970v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.03970v1/figures/hive_taxonomy.png",
+      "figure_caption": "The HIVE taxonomy at a glance. A user either ad-libs a question or passes existing information along, and it reaches the model through voice, a QWERTY keyboard, or copy-paste, which delivers the question verbatim and is the clean reference. Colour marks the channel, not how an operator is built: the voice operators are a mix of few-shot LLM style transfer and deterministic rules, and the keyboard operators are all deterministic. Every example shown is a real item from the released data. The right panel shows how a model replies under degraded input. Table 4 gives the full specification.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03910v1",
+      "title": "Socially Grounded Agentic AI: Coordinating Plural Perspectives through Social Theory",
+      "authors": [
+        "Matt Ratto",
+        "Abhishek Moturu",
+        "Daniel Silver"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "This paper proposes \"Socially Grounded Agentic AI\" to address pluralistic alignment by leveraging social theory. It argues that AI systems need to represent and coordinate multiple legitimate perspectives, moving beyond single-value optimization. The core method involves using sociological concepts like roles, interaction, and power dynamics to inform AI design for better handling diverse social contexts.",
+      "url": "http://arxiv.org/abs/2608.03910v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03910v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.04001v1",
+      "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
+      "authors": [
+        "Mohsen Hariri",
+        "Weicong Chen",
+        "Nahal Shahini",
+        "Vikash Singh",
+        "Kai Ye"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper proposes a systematic framework to understand and compare different \"test-time scaling\" methods for LLMs. It formalizes these methods as budgeted inference over an implicit prefix tree, categorizing them into three structural regimes. This work's contribution is to provide a unified account that addresses the current lack of comparability in research due to diverse inference protocols.",
+      "url": "http://arxiv.org/abs/2608.04001v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04001v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.04001v1/x1.png",
+      "figure_caption": "A selective chronicle of reasoning systems, from elicited chains to budgeted inference. Test-time inference expanded from single-trajectory elicitation and leaf-level sampling with terminal reduction to include prefix-level search and budget-aware control ( Section ˜ 2.1 ), while model and interface mechanisms evolved through verified distillation, reward optimization, explicit reasoning controls, and parameter-space composition (Appendices D and E ). The lower bands summarize the evaluation and reproducibility requirements developed in Section ˜ 3 and the evaluated object used throughout this paper: checkpoint, prompt, decoder, controller or reducer, verifier or judge, budget, and stopping rule, with utility, candidate-bank profile, cost, and uncertainty reported together. Green dots mark families represented in the experimental roster; dashed boxes denote contextual milestones. Era labels indicate shifts in emphasis rather than mutually exclusive periods.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03921v1",
+      "title": "The Transformer Revolution, Part 1: Dynamic Processing through Output- Weight Interconnections",
+      "authors": [
+        "Marco Giunti",
+        "Fabrizia Giulia Garavaglia"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.NE"
+      ],
+      "abstract": "This paper proposes a new interpretation of Transformer inference, arguing that they perform dynamic, prompt-dependent transformations rather than simply reproducing training data. The core method, Sequence-level Interactive Dynamic Parallel Processing (SIDPP), views Transformers as systems that transform concepts (token vectors) using other concepts (parameterized transformations, which can be dynamic). The key contribution is identifying how output-weight interconnections, where outputs influence weights, enable this dynamic computation.",
+      "url": "http://arxiv.org/abs/2608.03921v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03921v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03979v1",
+      "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
+      "authors": [
+        "Zhen Fang",
+        "Yu Zeng",
+        "Wenxuan Huang",
+        "Yiming Zhao",
+        "Shiting Huang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces Video-DeepResearch (Video-DR), a multimodal agent designed for open-web exploration of video streams. Its core method involves a decoupled perception-exploration pipeline that prioritizes dense spatiotemporal visual grounding before web retrieval, addressing modality bias and parametric knowledge leakage. The contribution lies in this novel framework and its two-stage training, enabling autonomous exploration beyond imitation learning, and a new benchmark for evaluating such agents.",
+      "url": "http://arxiv.org/abs/2608.03979v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03979v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.03979v1/x3.png",
+      "figure_caption": "Overview of the Video-DeepResearch pipeline.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03966v1",
+      "title": "HalluTruthQA-4K: A Fine-Grained Corpus and Annotation Process for Arabic Hallucination Detection and Truth Verification",
+      "authors": [
+        "Salah Eddine Bekhouche",
+        "Abdessalam Bouchekif",
+        "Hichem Telli",
+        "Mohammed-En-Nadhir Zighem",
+        "Abdenour Hadid"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces HalluTruthQA-4K, a detailed Arabic dataset for detecting and verifying factual errors in language model responses. Its core method involves expert curation of 4,000 question-answering instances with character-level annotations of hallucinations, providing more granular insights than previous binary labels. The contribution lies in offering a richer resource to improve Arabic hallucination detection and truth verification.",
+      "url": "http://arxiv.org/abs/2608.03966v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03966v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.03966v1/fig1.png",
+      "figure_caption": "Overview of the HalluTruthQA-4K construction and annotation pipeline. Questions and reference answers are prepared and verified by domain experts, free-form answers are generated using Fanar-1-9B-Instruct , and the resulting instances undergo expert annotation followed by an independent verification pass.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.04010v1",
+      "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
+      "authors": [
+        "Yang Yang",
+        "Qinyu Zhao",
+        "Mouxiang Chen",
+        "Xiaohui Li",
+        "Lixin Gu"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces ParVL, a framework for scaling Multimodal Large Language Models (MLLMs) by reusing existing backbone parameters across parallel vision and language branches.  Instead of increasing model size or sequential inference, ParVL reallocates computation to optimize task-specific performance. Its core contribution is a novel parallel scaling strategy that addresses the rigid computation allocation in existing MLLMs.",
+      "url": "http://arxiv.org/abs/2608.04010v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04010v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.04010v1/x1.png",
+      "figure_caption": "Fixed vs. expandable compute allocation in MLLMs. (Left) Existing multimodal models suffer from a fixed compute allocation between ViT (vision) and LLM (language) components during the SFT phase, which is visualized as a locked seesaw. (Right) Our ParVL framework enables expandable and flexible compute for the two modules. By leveraging extensive parameter reuse, our parallel architecture independently scales computation in the vision and language modules during SFT, enabling controlled comparison of different vision–language allocations across branch-count configurations.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.04003v1",
+      "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
+      "authors": [
+        "Shuhan Xue",
+        "Zixin Ding",
+        "Yichen Shen",
+        "Yinjie Wang",
+        "Zhenfei Yin"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "PAST-Bench is a new benchmark designed to systematically evaluate whether personal AI agents improve over time by effectively utilizing their retained experience. The core method involves running agents through task sequences with and without access to their past experiences, under matched conditions. The paper's contribution is demonstrating that while recursive self-improvement is real in these agents, its effectiveness varies significantly across different capabilities and agent frameworks, and often lacks clear evidence of proper experience utilization.",
+      "url": "http://arxiv.org/abs/2608.04003v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04003v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.04003v1/x1.png",
+      "figure_caption": "Overview of PAST-Bench . The benchmark tests whether agents improve across sessions by reusing retained experience, covering four capability dimensions, 26 task-family scenarios, and 204 episode tasks with matched no-persistence controls.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.04009v1",
+      "title": "SocietyBench: Forecasting Counterfactual Social-World Evolution",
+      "authors": [
+        "Zhenran Wang",
+        "Zhonghan Bian",
+        "Jinsong Li",
+        "Zhangyang Qi"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "SocietyBench introduces a novel benchmark for evaluating LLMs' ability to forecast social-world evolution. Its core method involves creating counterfactual timelines of real-world events by anonymizing entities and shifting dates, then posing forecasting questions about future developments. The contribution lies in providing a structured way to measure LLMs' understanding of social dynamics and temporal accuracy, moving beyond task completion to assess predictive social intelligence.",
+      "url": "http://arxiv.org/abs/2608.04009v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04009v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.04009v1/x1.png",
+      "figure_caption": "Why SocietyBench evaluates counterfactual forecasting rather than event recall. Evaluated on a real, widely reported event in its original form, a model can score well simply by recognizing the event from pre-training data. SocietyBench replaces the entities and shifts the dates while preserving the causal and temporal structure, so the model has to forecast the future of an arc it cannot recognize.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.04008v1",
+      "title": "WorldCup Arena: Prospective, Leakage-Free Evaluation of Frontier LLMs on a Live Tournament",
+      "authors": [
+        "Zhenran Wang",
+        "Zhonghan Bian",
+        "Jinsong Li",
+        "Zhangyang Qi"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces WorldCup Arena, a novel method for evaluating Large Language Models' (LLMs) forecasting abilities in real-time, preventing data leakage by querying models before events occur. The study tracked six frontier LLMs' predictions for the 2026 FIFA World Cup, revealing that their accuracy on match outcomes, while competitive, largely mirrors betting on favorites, and they exhibit high agreement with each other.",
+      "url": "http://arxiv.org/abs/2608.04008v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04008v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.04008v1/x1.png",
+      "figure_caption": "Top: a retrospective evaluation asks after the event resolves; this study asks before kickoff. Bottom: the pipeline at one fixture, from the frozen pre-match package to the settled result.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2608.03890v1",
+      "title": "CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+      "authors": [
+        "Mercy Prasanna Ranjit",
+        "Anirban Porya",
+        "Sathvik Joel",
+        "Niharika Vadlamudi",
+        "Nikhilesh Chowdary Eathamukkala"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "CARE-X unifies radiology report generation with discriminative tasks like classification and localization. It achieves this by co-training a generative VLM with auxiliary focal-loss classification and composite-loss grounding heads. This approach enables clinically useful features such as tunable decision thresholds and precise spatial localization, ultimately improving both report quality and diagnostic accuracy.",
+      "url": "http://arxiv.org/abs/2608.03890v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03890v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2608.03890v1/x1.png",
+      "figure_caption": "The CARE-X model. (Left) Supervised fine-tuning with three task-specific heads for classification, grounding, and report generation/VQA. (Right) DAPO with task-specific rewards. See Section 3.1.1 for details.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03874v1",
+      "title": "ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities?",
+      "authors": [
+        "Tianyi Guan",
+        "Yiding Wang",
+        "Haotong Yang",
+        "Siyuan Cao",
+        "Shirui Liu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ContinualSkillBench, a novel evaluation framework to assess if LLM agents can truly evolve and improve their skills over time. The framework uses interconnected subtasks across five domains to measure skill learning and reuse. Experiments reveal that while sequential execution boosts performance, the gains are inconsistent across models and domains, suggesting that adaptation to context plays a significant role alongside explicit skill abstraction.",
+      "url": "http://arxiv.org/abs/2608.03874v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03874v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.03874v1/x1.png",
+      "figure_caption": "Overview of the ContinualSkillBench pipeline. Phase 1 collects approximately 30,000 tasks from five domains. Phase 2 uses LLM-assisted filtering, skill-dependency analysis, task ordering, and human review to construct five sequential task streams. Phase 3 evaluates agents through instruction, execution, and reflection, comparing Sequential and Independent execution with their performance difference reported as \\( \\Delta \\) .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.04007v1",
+      "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
+      "authors": [
+        "Changle Qu",
+        "Sunhao Dai",
+        "Hengyi Cai",
+        "Yuqi Zhou",
+        "Xinran Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "TurnSight addresses limitations in tool-integrated reasoning for LLMs by introducing turn-level hindsight self-distillation. Its core method generates supervision signals directly from execution-conditioned hindsight, creating multiple \"hindsight views\" with varying lookahead horizons. The framework then selects reliable supervision by identifying agreement across these views, improving fine-grained credit assignment in complex, multi-turn tasks.",
+      "url": "http://arxiv.org/abs/2608.04007v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04007v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.04007v1/x1.png",
+      "figure_caption": "Comparison of credit assignment strategies for TIR. (a) Trajectory-level RL assigns identical credit to all turns. (b) Existing OPSD may use state-misaligned privileged context and produce conflicting token-level signals. (c) TurnSight derives coherent turn-level credit from execution-conditioned hindsight across multiple lookahead depths.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03929v1",
+      "title": "Latent Reward Registers for Diffusion Preference Alignment",
+      "authors": [
+        "Yuanshen Guan",
+        "Zipeng Feng",
+        "Zhiwei Xiong",
+        "Peiqin Sun"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces Latent Reward Registers to address the temporal credit assignment problem in aligning diffusion models with human preferences. By adding learnable tokens to intermediate latents, it estimates terminal preferences directly, providing a dense, differentiable reward signal. This enables efficient training via Reward-Gradient On-Policy Distillation and improved inference through Reward-Guided Sampling.",
+      "url": "http://arxiv.org/abs/2608.03929v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03929v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.03929v1/x1.png",
+      "figure_caption": "Latent Reward Registers vs. existing paradigms. Unlike conventional alignment methods that rely on delayed, sparse feedback from a clean image (Left) or require intrusive fine-tuning of the generator (Middle), our approach (Right) appends learnable registers to a frozen DiT. This enables the direct estimation of step-wise rewards from intermediate noisy latents ( z t z_{t} ). Consequently, we derive dense, differentiable reward gradients ( ∇ R \\( \\nabla \\) R ) for generation while keeping the pretrained generative dynamics fully intact.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.03958v1",
+      "title": "A game theory for foundation models shows new paths to rational cooperation through similarity inference",
+      "authors": [
+        "Alexander Meulemans",
+        "Maciej Wołczyk",
+        "Marissa A. Weis",
+        "Rajai Nasser",
+        "Roberta Rocca"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a new game theory framework for foundation models, moving beyond classical assumptions of decoupled agency. It proposes the \"embedded Bayesian agent\" model, demonstrating that foundation model agents engaging in optimal planning can achieve stable cooperation in social dilemmas, contrary to traditional predictions of mutual defection. This work offers new insights into how AI agents can achieve rational cooperation through similarity inference.",
+      "url": "http://arxiv.org/abs/2608.03958v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03958v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03875v1",
+      "title": "Enhancing VLM Reward Models Through Structure-Aware Fine-Tuning",
+      "authors": [
+        "Pyrros Koussios",
+        "Chenhao Li",
+        "Xin Chen",
+        "Andreas Krause"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces Structure-Aware Fine-Tuning (SAFT), a self-supervised method to improve the reliability of reward models derived from Vision-Language Models (VLMs). SAFT uses LoRA adapters to regularize the VLM's latent space based on intrinsic structural priors, denoising noisy reward signals without requiring ground-truth data. This approach leads to faster policy convergence and better alignment in reinforcement learning tasks.",
+      "url": "http://arxiv.org/abs/2608.03875v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03875v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.03875v1/x1.png",
+      "figure_caption": "Structure-Aware Fine-Tuning (SAFT) improves VLM reward models for RL by enforcing inherent structural priors, without ground-truth labels.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03892v1",
+      "title": "Intertemporal Preference Steering in Qwen3 via Contrastive Activation Addition",
+      "authors": [
+        "Michal Mráz",
+        "Justin Shenk"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper identifies linear directions in Qwen3's internal representations that correspond to short-term versus long-term preferences. By training contrastive probes on temporal choice data, they discover these directions and use them to steer the model's behavior. The core contribution is demonstrating that simple linear steering can induce significant, bidirectional changes in the model's intertemporal decision-making, impacting recommendations and planning capabilities.",
+      "url": "http://arxiv.org/abs/2608.03892v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03892v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.03892v1/figures_arxiv/qwen3_32b_explicit_train_probe_comparison.png",
+      "figure_caption": "Layerwise explicit-trained probe accuracies from the probe-variation experiment. The left panel reports explicit test set accuracy; the right panel reports full implicit set accuracy.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03972v1",
+      "title": "ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning",
+      "authors": [
+        "Jinhe Bi",
+        "Chennan Zhou",
+        "Zengjie Jin",
+        " Aniri",
+        "Shuo Lu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "ReflectRL proposes learning from \"Golden Negative Trajectories\" – expert model failures on hard problems – by treating them as opportunities for reflection rather than discarded negative samples. The core method involves a lightweight framework that elicits reflective reasoning from these flawed trajectories, arguing that reflecting on errors is often easier and more effective than solving problems from scratch. This approach enhances on-policy training by leveraging previously ignored supervision signals to improve LLM reasoning.",
+      "url": "http://arxiv.org/abs/2608.03972v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03972v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.03972v1/x1.png",
+      "figure_caption": "Understanding the Reflection Advantage through behavioral, descriptive, and intervention evidence on Qwen2.5-Math-7B. (a) Behavioral Evidence : Reflection Gain Δ ref = 𝔼 o ∼ π ​ [ r ​ ( q , o ) ∣ q , o − ] − 𝔼 o ∼ π ​ [ r ​ ( q , o ) ∣ q ] \\( \\Delta \\)_{\\( \\text{ref} \\)}=\\( \\mathbb{E}_{o\\sim\\pi} \\)[r(q,o)\\( \\mid \\) q,o^{-}]-\\( \\mathbb{E}_{o\\sim\\pi} \\)[r(q,o)\\( \\mid \\) q] over training steps. Reflecting on a GNT yields the largest gain, which steadily grows during training, whereas self-failures offer limited benefits, and weak-model failures or mismatched GNT (incase length bias) leads to negative gain. (b) Descriptive Evidence : Qwen2.5-Math-PRM-7B score profiles of failure sources and process metrics (inset). GNT maintains a higher valid prefix of reasoning compared to other failure sources before dropping at localized error points. (c) Intervention Evidence : Ablation of GNT trajectory components. Both the valid prefix and the error region causally drive the reflection gain, whereas removing these components (Shuffled GNT, Answer Only) reduces accuracy below the direct baseline.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03970v1",
+      "title": "Should We Type or Talk to LLM Agents? A Comprehensive Study of Voice and Keyboard Input Perturbations",
+      "authors": [
+        "Zizhao Hu",
+        "Nathan Elijah Segura",
+        "Mohammad Rostami",
+        "Jesse Thomason"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper investigates how voice and keyboard input affect Large Language Model (LLM) performance. The authors introduce HIVE, a tool to simulate real-world input variations, and find that voice transcription errors, particularly structural changes, significantly degrade LLM accuracy. Keyboard input perturbations are less impactful, with both input types' performance degradation stemming from the loss of original query tokens.",
+      "url": "http://arxiv.org/abs/2608.03970v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03970v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.03970v1/figures/hive_taxonomy.png",
+      "figure_caption": "The HIVE taxonomy at a glance. A user either ad-libs a question or passes existing information along, and it reaches the model through voice, a QWERTY keyboard, or copy-paste, which delivers the question verbatim and is the clean reference. Colour marks the channel, not how an operator is built: the voice operators are a mix of few-shot LLM style transfer and deterministic rules, and the keyboard operators are all deterministic. Every example shown is a real item from the released data. The right panel shows how a model replies under degraded input. Table 4 gives the full specification.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03910v1",
+      "title": "Socially Grounded Agentic AI: Coordinating Plural Perspectives through Social Theory",
+      "authors": [
+        "Matt Ratto",
+        "Abhishek Moturu",
+        "Daniel Silver"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "This paper proposes \"Socially Grounded Agentic AI\" to address pluralistic alignment by leveraging social theory. It argues that AI systems need to represent and coordinate multiple legitimate perspectives, moving beyond single-value optimization. The core method involves using sociological concepts like roles, interaction, and power dynamics to inform AI design for better handling diverse social contexts.",
+      "url": "http://arxiv.org/abs/2608.03910v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03910v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.04001v1",
+      "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
+      "authors": [
+        "Mohsen Hariri",
+        "Weicong Chen",
+        "Nahal Shahini",
+        "Vikash Singh",
+        "Kai Ye"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper proposes a systematic framework to understand and compare different \"test-time scaling\" methods for LLMs. It formalizes these methods as budgeted inference over an implicit prefix tree, categorizing them into three structural regimes. This work's contribution is to provide a unified account that addresses the current lack of comparability in research due to diverse inference protocols.",
+      "url": "http://arxiv.org/abs/2608.04001v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04001v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.04001v1/x1.png",
+      "figure_caption": "A selective chronicle of reasoning systems, from elicited chains to budgeted inference. Test-time inference expanded from single-trajectory elicitation and leaf-level sampling with terminal reduction to include prefix-level search and budget-aware control ( Section ˜ 2.1 ), while model and interface mechanisms evolved through verified distillation, reward optimization, explicit reasoning controls, and parameter-space composition (Appendices D and E ). The lower bands summarize the evaluation and reproducibility requirements developed in Section ˜ 3 and the evaluated object used throughout this paper: checkpoint, prompt, decoder, controller or reducer, verifier or judge, budget, and stopping rule, with utility, candidate-bank profile, cost, and uncertainty reported together. Green dots mark families represented in the experimental roster; dashed boxes denote contextual milestones. Era labels indicate shifts in emphasis rather than mutually exclusive periods.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03921v1",
+      "title": "The Transformer Revolution, Part 1: Dynamic Processing through Output- Weight Interconnections",
+      "authors": [
+        "Marco Giunti",
+        "Fabrizia Giulia Garavaglia"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.NE"
+      ],
+      "abstract": "This paper proposes a new interpretation of Transformer inference, arguing that they perform dynamic, prompt-dependent transformations rather than simply reproducing training data. The core method, Sequence-level Interactive Dynamic Parallel Processing (SIDPP), views Transformers as systems that transform concepts (token vectors) using other concepts (parameterized transformations, which can be dynamic). The key contribution is identifying how output-weight interconnections, where outputs influence weights, enable this dynamic computation.",
+      "url": "http://arxiv.org/abs/2608.03921v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03921v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03979v1",
+      "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
+      "authors": [
+        "Zhen Fang",
+        "Yu Zeng",
+        "Wenxuan Huang",
+        "Yiming Zhao",
+        "Shiting Huang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces Video-DeepResearch (Video-DR), a multimodal agent designed for open-web exploration of video streams. Its core method involves a decoupled perception-exploration pipeline that prioritizes dense spatiotemporal visual grounding before web retrieval, addressing modality bias and parametric knowledge leakage. The contribution lies in this novel framework and its two-stage training, enabling autonomous exploration beyond imitation learning, and a new benchmark for evaluating such agents.",
+      "url": "http://arxiv.org/abs/2608.03979v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03979v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.03979v1/x3.png",
+      "figure_caption": "Overview of the Video-DeepResearch pipeline.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.03966v1",
+      "title": "HalluTruthQA-4K: A Fine-Grained Corpus and Annotation Process for Arabic Hallucination Detection and Truth Verification",
+      "authors": [
+        "Salah Eddine Bekhouche",
+        "Abdessalam Bouchekif",
+        "Hichem Telli",
+        "Mohammed-En-Nadhir Zighem",
+        "Abdenour Hadid"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces HalluTruthQA-4K, a detailed Arabic dataset for detecting and verifying factual errors in language model responses. Its core method involves expert curation of 4,000 question-answering instances with character-level annotations of hallucinations, providing more granular insights than previous binary labels. The contribution lies in offering a richer resource to improve Arabic hallucination detection and truth verification.",
+      "url": "http://arxiv.org/abs/2608.03966v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03966v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.03966v1/fig1.png",
+      "figure_caption": "Overview of the HalluTruthQA-4K construction and annotation pipeline. Questions and reference answers are prepared and verified by domain experts, free-form answers are generated using Fanar-1-9B-Instruct , and the resulting instances undergo expert annotation followed by an independent verification pass.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.04010v1",
+      "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
+      "authors": [
+        "Yang Yang",
+        "Qinyu Zhao",
+        "Mouxiang Chen",
+        "Xiaohui Li",
+        "Lixin Gu"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces ParVL, a framework for scaling Multimodal Large Language Models (MLLMs) by reusing existing backbone parameters across parallel vision and language branches.  Instead of increasing model size or sequential inference, ParVL reallocates computation to optimize task-specific performance. Its core contribution is a novel parallel scaling strategy that addresses the rigid computation allocation in existing MLLMs.",
+      "url": "http://arxiv.org/abs/2608.04010v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04010v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.04010v1/x1.png",
+      "figure_caption": "Fixed vs. expandable compute allocation in MLLMs. (Left) Existing multimodal models suffer from a fixed compute allocation between ViT (vision) and LLM (language) components during the SFT phase, which is visualized as a locked seesaw. (Right) Our ParVL framework enables expandable and flexible compute for the two modules. By leveraging extensive parameter reuse, our parallel architecture independently scales computation in the vision and language modules during SFT, enabling controlled comparison of different vision–language allocations across branch-count configurations.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.04003v1",
+      "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
+      "authors": [
+        "Shuhan Xue",
+        "Zixin Ding",
+        "Yichen Shen",
+        "Yinjie Wang",
+        "Zhenfei Yin"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "PAST-Bench is a new benchmark designed to systematically evaluate whether personal AI agents improve over time by effectively utilizing their retained experience. The core method involves running agents through task sequences with and without access to their past experiences, under matched conditions. The paper's contribution is demonstrating that while recursive self-improvement is real in these agents, its effectiveness varies significantly across different capabilities and agent frameworks, and often lacks clear evidence of proper experience utilization.",
+      "url": "http://arxiv.org/abs/2608.04003v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04003v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.04003v1/x1.png",
+      "figure_caption": "Overview of PAST-Bench . The benchmark tests whether agents improve across sessions by reusing retained experience, covering four capability dimensions, 26 task-family scenarios, and 204 episode tasks with matched no-persistence controls.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.04009v1",
+      "title": "SocietyBench: Forecasting Counterfactual Social-World Evolution",
+      "authors": [
+        "Zhenran Wang",
+        "Zhonghan Bian",
+        "Jinsong Li",
+        "Zhangyang Qi"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "SocietyBench introduces a novel benchmark for evaluating LLMs' ability to forecast social-world evolution. Its core method involves creating counterfactual timelines of real-world events by anonymizing entities and shifting dates, then posing forecasting questions about future developments. The contribution lies in providing a structured way to measure LLMs' understanding of social dynamics and temporal accuracy, moving beyond task completion to assess predictive social intelligence.",
+      "url": "http://arxiv.org/abs/2608.04009v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04009v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.04009v1/x1.png",
+      "figure_caption": "Why SocietyBench evaluates counterfactual forecasting rather than event recall. Evaluated on a real, widely reported event in its original form, a model can score well simply by recognizing the event from pre-training data. SocietyBench replaces the entities and shifts the dates while preserving the causal and temporal structure, so the model has to forecast the future of an arc it cannot recognize.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.04008v1",
+      "title": "WorldCup Arena: Prospective, Leakage-Free Evaluation of Frontier LLMs on a Live Tournament",
+      "authors": [
+        "Zhenran Wang",
+        "Zhonghan Bian",
+        "Jinsong Li",
+        "Zhangyang Qi"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces WorldCup Arena, a novel method for evaluating Large Language Models' (LLMs) forecasting abilities in real-time, preventing data leakage by querying models before events occur. The study tracked six frontier LLMs' predictions for the 2026 FIFA World Cup, revealing that their accuracy on match outcomes, while competitive, largely mirrors betting on favorites, and they exhibit high agreement with each other.",
+      "url": "http://arxiv.org/abs/2608.04008v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04008v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.04008v1/x1.png",
+      "figure_caption": "Top: a retrospective evaluation asks after the event resolves; this study asks before kickoff. Bottom: the pipeline at one fixture, from the frozen pre-match package to the settled result.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Hosting Offer at Sabanci University - Marie Sklodowska-Curie Actions Postdoctoral Fellowships (MSCA-PF) 2026",
+      "url": "https://euraxess.ec.europa.eu/jobs/hosting/hosting-offer-sabanci-university-marie-sklodowska-curie-actions-postdoctoral-16",
+      "description": "HOST INSTITUTION: Sabancı University (SU) is one of Türkiye's leading research institutions. In the 2026 Times Higher Education (THE) Rankings, it is placed between 351-400 worldwide and ranks first in Türkiye. Additionally, it holds a position of #=404 in the QS World University Rankings for 2026... * Funding Programme: [Horizon Europe - MSCA](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4348) Deadline: 5 September 2026 Website: [https://www.sabanciuniv.edu/en](https://www.sabanciuniv.edu/en) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland ![Image 5: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Warsaw University of Technology](https://euraxess.ec.europa.eu/partnering/organisations/profile/warsaw-university-technology-0) *",
+      "institution": "",
+      "posted_date": "5 August 2026",
+      "deadline": "5 September 2026   Website:  [https://www",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: N/A\nKey Requirements: N/A\nApplication Info: deadline/start date: 5 September 2026, required materials: N/A, contact: N/A\nPosition Details: location: N/A, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "Assistant Professor (Postdoctoral Researcher).",
+      "url": "https://euraxess.ec.europa.eu/jobs/458813",
+      "description": "The position is funded under the project “Centre for Credible AI at the Warsaw University of Technology”, financed through the FENG MAB programme (contract no. FENG.02.01-IP.05-0058/24). Candidates are required:1) a PhD in Math, Computer Science, Physics, Artificial Intelligence or similar field/... * Work Locations: Number of offers: 2, Poland, Company /institute: Centre for Credible AI at Warsaw University of Technology, Warsaw, 00-661, Rektorska 4 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Informatics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A87) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Other EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A6053) Application Deadline: 4 Sep 2026 - 23:59 (Europe/Warsaw) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Portugal * [Instituto de Telecomunicações](https://euraxess.ec.europa.eu/partnering/organisations/profile/instituto-de-telecomunicacoes-1) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "5 August 2026",
+      "deadline": "4 Sep 2026 - 23:59 (Europe/Warsaw)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Computer Science, Informatics, Artificial Intelligence\nKey Requirements: PhD in Math, Computer Science, Physics, Artificial Intelligence or similar field.\nApplication Info: Deadline: 4 Sep 2026 - 23:59 (Europe/Warsaw). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Warsaw, Poland. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: N/A",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Hosting Offer at Sabanci University - Marie Sklodowska-Curie Actions Postdoctoral Fellowships (MSCA-PF) 2026",
+      "url": "https://euraxess.ec.europa.eu/jobs/hosting/hosting-offer-sabanci-university-marie-sklodowska-curie-actions-postdoctoral-16",
+      "description": "HOST INSTITUTION: Sabancı University (SU) is one of Türkiye's leading research institutions. In the 2026 Times Higher Education (THE) Rankings, it is placed between 351-400 worldwide and ranks first in Türkiye. Additionally, it holds a position of #=404 in the QS World University Rankings for 2026... * Funding Programme: [Horizon Europe - MSCA](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4348) Deadline: 5 September 2026 Website: [https://www.sabanciuniv.edu/en](https://www.sabanciuniv.edu/en) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland ![Image 5: The Human Resources Strategy for Researchers](https://euraxess.ec.europa.eu/themes/custom/rtd_euraxess/images/badges/hr_no_tagline.jpg) * [Warsaw University of Technology](https://euraxess.ec.europa.eu/partnering/organisations/profile/warsaw-university-technology-0) *",
+      "institution": "",
+      "posted_date": "5 August 2026",
+      "deadline": "5 September 2026   Website:  [https://www",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: N/A\nKey Requirements: N/A\nApplication Info: deadline/start date: 5 September 2026, required materials: N/A, contact: N/A\nPosition Details: location: N/A, contract type: N/A, workload: N/A, salary: N/A\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "Assistant Professor (Postdoctoral Researcher).",
+      "url": "https://euraxess.ec.europa.eu/jobs/458813",
+      "description": "The position is funded under the project “Centre for Credible AI at the Warsaw University of Technology”, financed through the FENG MAB programme (contract no. FENG.02.01-IP.05-0058/24). Candidates are required:1) a PhD in Math, Computer Science, Physics, Artificial Intelligence or similar field/... * Work Locations: Number of offers: 2, Poland, Company /institute: Centre for Credible AI at Warsaw University of Technology, Warsaw, 00-661, Rektorska 4 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) » [Informatics](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A87) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Other EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A6053) Application Deadline: 4 Sep 2026 - 23:59 (Europe/Warsaw) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Portugal * [Instituto de Telecomunicações](https://euraxess.ec.europa.eu/partnering/organisations/profile/instituto-de-telecomunicacoes-1) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "5 August 2026",
+      "deadline": "4 Sep 2026 - 23:59 (Europe/Warsaw)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Computer Science, Informatics, Artificial Intelligence\nKey Requirements: PhD in Math, Computer Science, Physics, Artificial Intelligence or similar field.\nApplication Info: Deadline: 4 Sep 2026 - 23:59 (Europe/Warsaw). Required materials: N/A. Contact: N/A.\nPosition Details: Location: Warsaw, Poland. Contract type: N/A. Workload: N/A. Salary: N/A.\nOne-line Advice: N/A",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
