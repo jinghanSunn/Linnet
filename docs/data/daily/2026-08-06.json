@@ -1,0 +1,1027 @@
+{
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06T11:47:16.572366+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2608.05144v1",
+          "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
+          "authors": [
+            "Boxiu Li",
+            "Zimo Wen",
+            "Yijia Fan",
+            "Junxiang Lei",
+            "Sufeng Guo"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "Argus is a general-purpose agentic runtime designed for long-horizon reasoning. Its core method involves a persistent, self-evolving system with distinct roles (Manager, Planner, Engineer, Reviewer) that manage durable project state and execute bounded missions. Argus's contribution lies in its ability to separate stable user intent from operational details, enabling robust adaptation and improved performance on complex reasoning tasks, as demonstrated by its significant outperformance on SWE-Bench Pro compared to existing methods.",
+          "url": "http://arxiv.org/abs/2608.05144v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.05144v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.05144v1/x1.png",
+          "figure_caption": "Argus runtime and breadth evidence. The central diagram shows Manager authority over tasks, research verticals, and Stage transitions; Planner, Engineer, and Reviewer operate over a shared workspace whose knowledge, event log, artifacts, backlog, budget, daemon, and memory persist across bounded missions. The surrounding cards report outcomes from seven task-native evaluations. Their bars use independent scales and indicate comparison direction with arrows; they are breadth evidence rather than a single normalized leaderboard.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.05124v1",
+          "title": "Chained Recursive Language Models for Multi-Iteration Reasoning",
+          "authors": [
+            "Purbesh Mitra",
+            "Sennur Ulukus"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.IT",
+            "eess.SP"
+          ],
+          "abstract": "This paper introduces Chained Recursive Language Models (Chained RLM), an inference-time architecture that breaks down complex reasoning tasks into smaller, manageable steps. Instead of a single, long inference, Chained RLM repeatedly calls the same model with a fresh \"reasoning root,\" providing it with the original problem, context, and a concise summary and \"blackboard\" of previous steps. This approach aims to mitigate error propagation in multi-iteration reasoning by allowing each stage to focus on a partial task without being overwhelmed by the full conversational history.",
+          "url": "http://arxiv.org/abs/2608.05124v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.05124v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.05124v1/figs/chaiined_RLM.png",
+          "figure_caption": "Chained RLM architecture with 3 RLM calls.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.05095v1",
+          "title": "Hierarchical Graph Memory for LLM Agents with Path-level Localization and Rewrite",
+          "authors": [
+            "Xiawei Yue",
+            "Boran Wang",
+            "Xiaoqing Zhang",
+            "Shuxin Zheng",
+            "Ziwei Zhang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces HiGram, a hierarchical graph memory for LLM agents designed for long-term reasoning. Its core method organizes memories into a coarse-to-fine structure, reducing irrelevant context and improving retrieval efficiency. HiGram's key contribution is enabling path-level localization and rewriting, allowing for more effective and efficient memory updates compared to flat graph approaches.",
+          "url": "http://arxiv.org/abs/2608.05095v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.05095v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.05095v1/x1.png",
+          "figure_caption": "An overview of HiGram . Our method organizes memory into a hierarchical graph structure with upper-level nodes connecting MemoryUnits that store factual information. Then, given a query and an update, our MicroGraph-based path-level localization module retrieves relevant memory MicroGraphs to build a support subgraph, and identifies the affected evidence path. Lastly, coordinated rewriting updates MemoryUnit states and dependency structures within the localized evidence path to maintain consistent memory updates.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.05102v1",
+          "title": "ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment",
+          "authors": [
+            "Yijun Lu",
+            "Rui Ye",
+            "Jiajun Wang",
+            "Yuwen Du",
+            "Tian Jin"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "ABSeeker trains long-horizon search agents by assigning credit at a granular, step-by-step level rather than just at the trajectory's end. Its core method, Answer-Backtracked Credit Assignment (ABC), recovers intermediate clues from the ground-truth answer to create dense supervision, rewarding helpful actions and penalizing unhelpful ones throughout the search process. This approach improves agent performance by providing more informative feedback during training.",
+          "url": "http://arxiv.org/abs/2608.05102v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.05102v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.05102v1/x1.png",
+          "figure_caption": "ABSeeker achieves the best performance among 4B models and remains competitive with several larger search agents. Striped regions indicate results with context management enabled.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.05107v1",
+          "title": "CoPlan: A Trustworthy Co-Intelligence Interface for Care Planning through Role-Based Contestable Argument Graphs",
+          "authors": [
+            "Hung Truong Thanh Nguyen",
+            "Hélène Fournier",
+            "Piper Jackson",
+            "Makoto Itoh",
+            "Shannon Freeman"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.MA",
+            "cs.SE"
+          ],
+          "abstract": "CoPlan is a co-intelligent interface for care planning that uses specialized AI agents to generate candidate interventions and supporting or challenging arguments. Its core method involves a multi-agent workflow where human care planners can inspect, revise, and justify AI recommendations, fostering trust and collaboration. The main contribution is a contestable interface that allows for human-AI co-intelligence, ensuring plans align with clinical judgment and patient values.",
+          "url": "http://arxiv.org/abs/2608.05107v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.05107v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.05107v1/media/CAI.png",
+          "figure_caption": "Human-AI Co-Intelligence Mechanism through Contestability for Agentic AI in Care Planning Systems.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.05045v1",
+          "title": "Gradient Immunity: Null-Space Resistance to Malicious Fine-Tuning",
+          "authors": [
+            "Yuxuan Huang",
+            "Xingyu Zeng",
+            "Tianhang Zheng",
+            "Chaochao Lu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CR"
+          ],
+          "abstract": "This paper introduces \"Gradient Immunity\" to defend against malicious fine-tuning of open-weight language models. The core method is the Unidirectional Safety Gate (USG), which uses a cubic layer to block harmful gradients and an inverse adapter to preserve normal model behavior. This approach protects models in a partially protected open-weight release setting, where most weights are trainable but a safety component is preserved.",
+          "url": "http://arxiv.org/abs/2608.05045v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.05045v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.05045v1/x1.png",
+          "figure_caption": "The figure illustrates the idealized behavior of a USG-style safeguard. For harmful data, it functions as a diode: during backpropagation, the USG sets gradients to zero, inducing gradient vanishing and thereby blocking gradient propagation. For safe data, it acts as a wire without inducing gradient vanishing in the idealized exact-blocking definition. Its core idea is the controllable induction of gradient vanishing—normally an undesirable behavior in model training.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.05131v1",
+          "title": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
+          "authors": [
+            " Aniri",
+            "Jinhe Bi",
+            "Peng Liao",
+            "Zengjie Jin",
+            "Volker Tresp"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces OPD-V, a novel visual on-policy self-distillation method for multimodal large language models (MLLMs). It addresses the issue of modality imbalance, where text often dominates over visual information during reasoning. OPD-V leverages the concept of modality balance itself as privileged information, using a \"Positive Teacher\" (Zoom-In Image) to guide distillation and improve the model's ability to integrate diverse visual inputs.",
+          "url": "http://arxiv.org/abs/2608.05131v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.05131v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.05131v1/x1.png",
+          "figure_caption": "Modality Balance as privileged information, evaluated on 5K samples drawn from multiple domains. Left: the Modality-Balance Attention Ratio is lowest for the Negative Teacher with the Mask Image, intermediate for the student with the Original Image, and highest for the Positive Teacher with the Zoom-In Image. These matched conditions expose distinct degrees of Modality Imbalance. Right: as the Modality-Balance Logits Margin increases, the gap between the Positive and Negative Teacher attention ratios widens, accompanied by higher student correctness. For each margin interval b b , the blue curve reports Δ ​ ρ b = | b | − 1 ​ ∑ i ∈ b [ ρ ​ ( c + ; y i ) − ρ ​ ( c − ; y i ) ] \\( \\Delta \\)\\( \\rho_{b} \\)=|b|^{-1}\\( \\sum_{i\\in b} \\)[\\( \\rho \\)(c^{+};y_{i})-\\( \\rho \\)(c^{-};y_{i})] , where y i y_{i} is the response trajectory for sample i i , and c + c^{+} and c − c^{-} denote the Zoom-In Image and Mask Image conditions, respectively.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.04980v1",
+          "title": "Protoreasoning in Tiny Transformers",
+          "authors": [
+            "Eduardo Valle",
+            "Fergal Reid"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces \"protoreasoning,\" a simplified Chain of Thought method for tiny transformer models. By applying this to reasoning-friendly tasks on Dyck languages, the authors demonstrate that these small models can achieve improved out-of-distribution generalization. This approach allows for detailed analysis of step-by-step reasoning in models far smaller than typical LLMs, offering insights into how such reasoning is learned.",
+          "url": "http://arxiv.org/abs/2608.04980v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.04980v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.05120v1",
+          "title": "DASyR-LLM: Domain-Aware Symbolic Regression with LLMs for Kinetic Model Discovery",
+          "authors": [
+            "Roberto Aliaga Medina",
+            "Paulina Quintanilla",
+            "Antonio del Rio Chanona"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CE",
+            "cs.SC"
+          ],
+          "abstract": "This paper introduces DASyR-LLM, a novel framework for automated kinetic model discovery. It integrates a Large Language Model (LLM) into an iterative symbolic regression process. The LLM acts as a domain expert, critiquing candidate models for physical plausibility and proposing new, chemically informed rate expressions, thereby improving the accuracy and interpretability of discovered kinetic models.",
+          "url": "http://arxiv.org/abs/2608.05120v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.05120v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.05033v1",
+          "title": "SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System",
+          "authors": [
+            "Shiyang Li",
+            "Guangyan Sun",
+            "Jinwei Tang",
+            "Yanzhi Wang",
+            "Mingyi Hong"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.DC"
+          ],
+          "abstract": "SparseDitto tackles the challenge of optimizing GPU sparse matrix kernels by using an LLM-based agentic system. Its core method involves analyzing input matrix sparsity patterns and target GPUs to dynamically generate customized kernels. The key contribution is a system that adapts representation, execution strategy, and hardware mapping for each specific workload, overcoming the limitations of static, one-size-fits-all implementations and achieving significant performance gains.",
+          "url": "http://arxiv.org/abs/2608.05033v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.05033v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.05033v1/x1.png",
+          "figure_caption": "Figure 1. One 16 × 16 16\\( \\times \\) 16 matrix exposes intrinsic pattern cues and format-induced costs. The matrix contains an irregular dense tile, a high-degree column, an empty row, and uneven row lengths. CSR and CSC traverse compressed rows and columns, respectively. SELL-C with C = 8 C=8 introduces slice-local padding, while 4 × 4 4\\( \\times \\) 4 BSR introduces block fill. The right column shows the resulting work granularity and imbalance for rows, columns, slice slots, and blocks.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.05139v1",
+          "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
+          "authors": [
+            "Yinghui He",
+            "Ling Yang",
+            "Jiarui Liu",
+            "Yongjin Yang",
+            "Lechen Zhang"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces \"Skill Entropy\" to measure the difficulty of skill switching in long-horizon reasoning tasks. They propose \"Skill^2-Bench,\" a benchmark designed to evaluate and train LLMs on these cross-skill tasks. Their findings reveal a significant \"skill-switching gap\" in current LLMs, where performance degrades as tasks require more complex skill transitions.",
+          "url": "http://arxiv.org/abs/2608.05139v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.05139v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.05139v1/x1.png",
+          "figure_caption": "Skill Entropy for Benchmarking and Training Skill-Native LLMs. We define a cross-skill long-horizon task as a sequence of question steps that each invoke a different reasoning skill, and skill entropy as a quantity measuring the difficulty of switching from one skill to another. We present: (1) Skill 2 -Bench : a benchmark over 558 558 skills across 9 9 verifiable and open-ended domains. Each task is graded by a task-level skill entropy; frontier models degrade nearly monotonically as task-level skill entropy increases. (2) Skill-Entropy RL: an RL framework where the model predicts not only the answer at each step but also the skill used to produce it. The reward combines step-level correctness with a skill-entropy reward that measures alignment between the model-predicted skill sequence and the gold skill chain. See Section ˜ 3 and Section ˜ 4 for details.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.05000v1",
+          "title": "Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes",
+          "authors": [
+            "Junlin Han",
+            "Shengbang Tong",
+            "David Fan",
+            "Minghao Chen",
+            "Philip Torr"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CV",
+            "cs.MM"
+          ],
+          "abstract": "This paper investigates the underlying principles of multimodal pretraining by systematically exploring how different modalities interact. Its core contribution lies in empirically identifying four key \"physics\" of this process: knowledge flow patterns, the conditions for synergy versus competition between modalities, the benefits of early unification, and practical \"recipes\" for effective multimodal training.",
+          "url": "http://arxiv.org/abs/2608.05000v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.05000v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.05000v1/x1.png",
+          "figure_caption": "Impact of scaling language data on visual understanding and generation. Increasing the language ratio universally improves both vision capabilities.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.05004v1",
+          "title": "DelusionEval: Measuring Delusion-Linked Behaviors in AI Chatbots",
+          "authors": [
+            "Jared Moore",
+            "Andrea Mock",
+            "Yifan Mai",
+            "Jacy Reese Anthis",
+            "Ryan Louie"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "DelusionEval is a novel evaluation protocol designed to measure how AI chatbots might exacerbate user delusions. It uses real-world conversation histories from individuals who experienced psychological harm to prompt LLMs and assess their tendency to engage in delusion-promoting behaviors. The study found that model size or reasoning capabilities didn't predict this tendency, but longer conversation histories significantly increased the risk.",
+          "url": "http://arxiv.org/abs/2608.05004v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.05004v1",
+          "score": 7.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.05126v1",
+          "title": "Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models",
+          "authors": [
+            "Yuezhang Peng",
+            "Yuxin Liu",
+            "Changfeng Gao",
+            "Zhifu Gao",
+            "Xiangang Li"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.MM"
+          ],
+          "abstract": "This paper introduces Spoken Function Calling (SFC), a novel approach to Spoken Language Understanding (SLU) for large audio language models. SFC optimizes semantic understanding by using structured rule definitions, moving beyond the limitations of traditional closed-set SLU. The contribution lies in developing the SFC framework, creating a benchmark dataset (SFC-Bench), and demonstrating its effectiveness in enhancing the function-calling capabilities of audio language models.",
+          "url": "http://arxiv.org/abs/2608.05126v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.05126v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.05126v1/x1.png",
+          "figure_caption": "Figure 1. Comparison of traditional SLU and proposed SFC. SFC resolves parameter ambiguity through a precise and structured function definition.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 25,
+        "papers_after_llm_filter": 14,
+        "count": 14
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 25,
+    "papers_after_llm_filter": 14,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 56
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2608.05144v1",
+      "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
+      "authors": [
+        "Boxiu Li",
+        "Zimo Wen",
+        "Yijia Fan",
+        "Junxiang Lei",
+        "Sufeng Guo"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Argus is a general-purpose agentic runtime designed for long-horizon reasoning. Its core method involves a persistent, self-evolving system with distinct roles (Manager, Planner, Engineer, Reviewer) that manage durable project state and execute bounded missions. Argus's contribution lies in its ability to separate stable user intent from operational details, enabling robust adaptation and improved performance on complex reasoning tasks, as demonstrated by its significant outperformance on SWE-Bench Pro compared to existing methods.",
+      "url": "http://arxiv.org/abs/2608.05144v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05144v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.05144v1/x1.png",
+      "figure_caption": "Argus runtime and breadth evidence. The central diagram shows Manager authority over tasks, research verticals, and Stage transitions; Planner, Engineer, and Reviewer operate over a shared workspace whose knowledge, event log, artifacts, backlog, budget, daemon, and memory persist across bounded missions. The surrounding cards report outcomes from seven task-native evaluations. Their bars use independent scales and indicate comparison direction with arrows; they are breadth evidence rather than a single normalized leaderboard.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.05124v1",
+      "title": "Chained Recursive Language Models for Multi-Iteration Reasoning",
+      "authors": [
+        "Purbesh Mitra",
+        "Sennur Ulukus"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.IT",
+        "eess.SP"
+      ],
+      "abstract": "This paper introduces Chained Recursive Language Models (Chained RLM), an inference-time architecture that breaks down complex reasoning tasks into smaller, manageable steps. Instead of a single, long inference, Chained RLM repeatedly calls the same model with a fresh \"reasoning root,\" providing it with the original problem, context, and a concise summary and \"blackboard\" of previous steps. This approach aims to mitigate error propagation in multi-iteration reasoning by allowing each stage to focus on a partial task without being overwhelmed by the full conversational history.",
+      "url": "http://arxiv.org/abs/2608.05124v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05124v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.05124v1/figs/chaiined_RLM.png",
+      "figure_caption": "Chained RLM architecture with 3 RLM calls.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.05095v1",
+      "title": "Hierarchical Graph Memory for LLM Agents with Path-level Localization and Rewrite",
+      "authors": [
+        "Xiawei Yue",
+        "Boran Wang",
+        "Xiaoqing Zhang",
+        "Shuxin Zheng",
+        "Ziwei Zhang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces HiGram, a hierarchical graph memory for LLM agents designed for long-term reasoning. Its core method organizes memories into a coarse-to-fine structure, reducing irrelevant context and improving retrieval efficiency. HiGram's key contribution is enabling path-level localization and rewriting, allowing for more effective and efficient memory updates compared to flat graph approaches.",
+      "url": "http://arxiv.org/abs/2608.05095v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05095v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.05095v1/x1.png",
+      "figure_caption": "An overview of HiGram . Our method organizes memory into a hierarchical graph structure with upper-level nodes connecting MemoryUnits that store factual information. Then, given a query and an update, our MicroGraph-based path-level localization module retrieves relevant memory MicroGraphs to build a support subgraph, and identifies the affected evidence path. Lastly, coordinated rewriting updates MemoryUnit states and dependency structures within the localized evidence path to maintain consistent memory updates.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.05102v1",
+      "title": "ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment",
+      "authors": [
+        "Yijun Lu",
+        "Rui Ye",
+        "Jiajun Wang",
+        "Yuwen Du",
+        "Tian Jin"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "ABSeeker trains long-horizon search agents by assigning credit at a granular, step-by-step level rather than just at the trajectory's end. Its core method, Answer-Backtracked Credit Assignment (ABC), recovers intermediate clues from the ground-truth answer to create dense supervision, rewarding helpful actions and penalizing unhelpful ones throughout the search process. This approach improves agent performance by providing more informative feedback during training.",
+      "url": "http://arxiv.org/abs/2608.05102v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05102v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.05102v1/x1.png",
+      "figure_caption": "ABSeeker achieves the best performance among 4B models and remains competitive with several larger search agents. Striped regions indicate results with context management enabled.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.05107v1",
+      "title": "CoPlan: A Trustworthy Co-Intelligence Interface for Care Planning through Role-Based Contestable Argument Graphs",
+      "authors": [
+        "Hung Truong Thanh Nguyen",
+        "Hélène Fournier",
+        "Piper Jackson",
+        "Makoto Itoh",
+        "Shannon Freeman"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.MA",
+        "cs.SE"
+      ],
+      "abstract": "CoPlan is a co-intelligent interface for care planning that uses specialized AI agents to generate candidate interventions and supporting or challenging arguments. Its core method involves a multi-agent workflow where human care planners can inspect, revise, and justify AI recommendations, fostering trust and collaboration. The main contribution is a contestable interface that allows for human-AI co-intelligence, ensuring plans align with clinical judgment and patient values.",
+      "url": "http://arxiv.org/abs/2608.05107v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05107v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.05107v1/media/CAI.png",
+      "figure_caption": "Human-AI Co-Intelligence Mechanism through Contestability for Agentic AI in Care Planning Systems.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.05045v1",
+      "title": "Gradient Immunity: Null-Space Resistance to Malicious Fine-Tuning",
+      "authors": [
+        "Yuxuan Huang",
+        "Xingyu Zeng",
+        "Tianhang Zheng",
+        "Chaochao Lu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces \"Gradient Immunity\" to defend against malicious fine-tuning of open-weight language models. The core method is the Unidirectional Safety Gate (USG), which uses a cubic layer to block harmful gradients and an inverse adapter to preserve normal model behavior. This approach protects models in a partially protected open-weight release setting, where most weights are trainable but a safety component is preserved.",
+      "url": "http://arxiv.org/abs/2608.05045v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05045v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.05045v1/x1.png",
+      "figure_caption": "The figure illustrates the idealized behavior of a USG-style safeguard. For harmful data, it functions as a diode: during backpropagation, the USG sets gradients to zero, inducing gradient vanishing and thereby blocking gradient propagation. For safe data, it acts as a wire without inducing gradient vanishing in the idealized exact-blocking definition. Its core idea is the controllable induction of gradient vanishing—normally an undesirable behavior in model training.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.05131v1",
+      "title": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
+      "authors": [
+        " Aniri",
+        "Jinhe Bi",
+        "Peng Liao",
+        "Zengjie Jin",
+        "Volker Tresp"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces OPD-V, a novel visual on-policy self-distillation method for multimodal large language models (MLLMs). It addresses the issue of modality imbalance, where text often dominates over visual information during reasoning. OPD-V leverages the concept of modality balance itself as privileged information, using a \"Positive Teacher\" (Zoom-In Image) to guide distillation and improve the model's ability to integrate diverse visual inputs.",
+      "url": "http://arxiv.org/abs/2608.05131v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05131v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.05131v1/x1.png",
+      "figure_caption": "Modality Balance as privileged information, evaluated on 5K samples drawn from multiple domains. Left: the Modality-Balance Attention Ratio is lowest for the Negative Teacher with the Mask Image, intermediate for the student with the Original Image, and highest for the Positive Teacher with the Zoom-In Image. These matched conditions expose distinct degrees of Modality Imbalance. Right: as the Modality-Balance Logits Margin increases, the gap between the Positive and Negative Teacher attention ratios widens, accompanied by higher student correctness. For each margin interval b b , the blue curve reports Δ ​ ρ b = | b | − 1 ​ ∑ i ∈ b [ ρ ​ ( c + ; y i ) − ρ ​ ( c − ; y i ) ] \\( \\Delta \\)\\( \\rho_{b} \\)=|b|^{-1}\\( \\sum_{i\\in b} \\)[\\( \\rho \\)(c^{+};y_{i})-\\( \\rho \\)(c^{-};y_{i})] , where y i y_{i} is the response trajectory for sample i i , and c + c^{+} and c − c^{-} denote the Zoom-In Image and Mask Image conditions, respectively.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.04980v1",
+      "title": "Protoreasoning in Tiny Transformers",
+      "authors": [
+        "Eduardo Valle",
+        "Fergal Reid"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces \"protoreasoning,\" a simplified Chain of Thought method for tiny transformer models. By applying this to reasoning-friendly tasks on Dyck languages, the authors demonstrate that these small models can achieve improved out-of-distribution generalization. This approach allows for detailed analysis of step-by-step reasoning in models far smaller than typical LLMs, offering insights into how such reasoning is learned.",
+      "url": "http://arxiv.org/abs/2608.04980v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04980v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.05120v1",
+      "title": "DASyR-LLM: Domain-Aware Symbolic Regression with LLMs for Kinetic Model Discovery",
+      "authors": [
+        "Roberto Aliaga Medina",
+        "Paulina Quintanilla",
+        "Antonio del Rio Chanona"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CE",
+        "cs.SC"
+      ],
+      "abstract": "This paper introduces DASyR-LLM, a novel framework for automated kinetic model discovery. It integrates a Large Language Model (LLM) into an iterative symbolic regression process. The LLM acts as a domain expert, critiquing candidate models for physical plausibility and proposing new, chemically informed rate expressions, thereby improving the accuracy and interpretability of discovered kinetic models.",
+      "url": "http://arxiv.org/abs/2608.05120v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05120v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.05033v1",
+      "title": "SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System",
+      "authors": [
+        "Shiyang Li",
+        "Guangyan Sun",
+        "Jinwei Tang",
+        "Yanzhi Wang",
+        "Mingyi Hong"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.DC"
+      ],
+      "abstract": "SparseDitto tackles the challenge of optimizing GPU sparse matrix kernels by using an LLM-based agentic system. Its core method involves analyzing input matrix sparsity patterns and target GPUs to dynamically generate customized kernels. The key contribution is a system that adapts representation, execution strategy, and hardware mapping for each specific workload, overcoming the limitations of static, one-size-fits-all implementations and achieving significant performance gains.",
+      "url": "http://arxiv.org/abs/2608.05033v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05033v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.05033v1/x1.png",
+      "figure_caption": "Figure 1. One 16 × 16 16\\( \\times \\) 16 matrix exposes intrinsic pattern cues and format-induced costs. The matrix contains an irregular dense tile, a high-degree column, an empty row, and uneven row lengths. CSR and CSC traverse compressed rows and columns, respectively. SELL-C with C = 8 C=8 introduces slice-local padding, while 4 × 4 4\\( \\times \\) 4 BSR introduces block fill. The right column shows the resulting work granularity and imbalance for rows, columns, slice slots, and blocks.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.05139v1",
+      "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
+      "authors": [
+        "Yinghui He",
+        "Ling Yang",
+        "Jiarui Liu",
+        "Yongjin Yang",
+        "Lechen Zhang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces \"Skill Entropy\" to measure the difficulty of skill switching in long-horizon reasoning tasks. They propose \"Skill^2-Bench,\" a benchmark designed to evaluate and train LLMs on these cross-skill tasks. Their findings reveal a significant \"skill-switching gap\" in current LLMs, where performance degrades as tasks require more complex skill transitions.",
+      "url": "http://arxiv.org/abs/2608.05139v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05139v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.05139v1/x1.png",
+      "figure_caption": "Skill Entropy for Benchmarking and Training Skill-Native LLMs. We define a cross-skill long-horizon task as a sequence of question steps that each invoke a different reasoning skill, and skill entropy as a quantity measuring the difficulty of switching from one skill to another. We present: (1) Skill 2 -Bench : a benchmark over 558 558 skills across 9 9 verifiable and open-ended domains. Each task is graded by a task-level skill entropy; frontier models degrade nearly monotonically as task-level skill entropy increases. (2) Skill-Entropy RL: an RL framework where the model predicts not only the answer at each step but also the skill used to produce it. The reward combines step-level correctness with a skill-entropy reward that measures alignment between the model-predicted skill sequence and the gold skill chain. See Section ˜ 3 and Section ˜ 4 for details.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.05000v1",
+      "title": "Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes",
+      "authors": [
+        "Junlin Han",
+        "Shengbang Tong",
+        "David Fan",
+        "Minghao Chen",
+        "Philip Torr"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV",
+        "cs.MM"
+      ],
+      "abstract": "This paper investigates the underlying principles of multimodal pretraining by systematically exploring how different modalities interact. Its core contribution lies in empirically identifying four key \"physics\" of this process: knowledge flow patterns, the conditions for synergy versus competition between modalities, the benefits of early unification, and practical \"recipes\" for effective multimodal training.",
+      "url": "http://arxiv.org/abs/2608.05000v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05000v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.05000v1/x1.png",
+      "figure_caption": "Impact of scaling language data on visual understanding and generation. Increasing the language ratio universally improves both vision capabilities.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.05004v1",
+      "title": "DelusionEval: Measuring Delusion-Linked Behaviors in AI Chatbots",
+      "authors": [
+        "Jared Moore",
+        "Andrea Mock",
+        "Yifan Mai",
+        "Jacy Reese Anthis",
+        "Ryan Louie"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "DelusionEval is a novel evaluation protocol designed to measure how AI chatbots might exacerbate user delusions. It uses real-world conversation histories from individuals who experienced psychological harm to prompt LLMs and assess their tendency to engage in delusion-promoting behaviors. The study found that model size or reasoning capabilities didn't predict this tendency, but longer conversation histories significantly increased the risk.",
+      "url": "http://arxiv.org/abs/2608.05004v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05004v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.05126v1",
+      "title": "Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models",
+      "authors": [
+        "Yuezhang Peng",
+        "Yuxin Liu",
+        "Changfeng Gao",
+        "Zhifu Gao",
+        "Xiangang Li"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.MM"
+      ],
+      "abstract": "This paper introduces Spoken Function Calling (SFC), a novel approach to Spoken Language Understanding (SLU) for large audio language models. SFC optimizes semantic understanding by using structured rule definitions, moving beyond the limitations of traditional closed-set SLU. The contribution lies in developing the SFC framework, creating a benchmark dataset (SFC-Bench), and demonstrating its effectiveness in enhancing the function-calling capabilities of audio language models.",
+      "url": "http://arxiv.org/abs/2608.05126v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05126v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.05126v1/x1.png",
+      "figure_caption": "Figure 1. Comparison of traditional SLU and proposed SFC. SFC resolves parameter ambiguity through a precise and structured function definition.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2608.05144v1",
+      "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
+      "authors": [
+        "Boxiu Li",
+        "Zimo Wen",
+        "Yijia Fan",
+        "Junxiang Lei",
+        "Sufeng Guo"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Argus is a general-purpose agentic runtime designed for long-horizon reasoning. Its core method involves a persistent, self-evolving system with distinct roles (Manager, Planner, Engineer, Reviewer) that manage durable project state and execute bounded missions. Argus's contribution lies in its ability to separate stable user intent from operational details, enabling robust adaptation and improved performance on complex reasoning tasks, as demonstrated by its significant outperformance on SWE-Bench Pro compared to existing methods.",
+      "url": "http://arxiv.org/abs/2608.05144v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05144v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.05144v1/x1.png",
+      "figure_caption": "Argus runtime and breadth evidence. The central diagram shows Manager authority over tasks, research verticals, and Stage transitions; Planner, Engineer, and Reviewer operate over a shared workspace whose knowledge, event log, artifacts, backlog, budget, daemon, and memory persist across bounded missions. The surrounding cards report outcomes from seven task-native evaluations. Their bars use independent scales and indicate comparison direction with arrows; they are breadth evidence rather than a single normalized leaderboard.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.05124v1",
+      "title": "Chained Recursive Language Models for Multi-Iteration Reasoning",
+      "authors": [
+        "Purbesh Mitra",
+        "Sennur Ulukus"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.IT",
+        "eess.SP"
+      ],
+      "abstract": "This paper introduces Chained Recursive Language Models (Chained RLM), an inference-time architecture that breaks down complex reasoning tasks into smaller, manageable steps. Instead of a single, long inference, Chained RLM repeatedly calls the same model with a fresh \"reasoning root,\" providing it with the original problem, context, and a concise summary and \"blackboard\" of previous steps. This approach aims to mitigate error propagation in multi-iteration reasoning by allowing each stage to focus on a partial task without being overwhelmed by the full conversational history.",
+      "url": "http://arxiv.org/abs/2608.05124v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05124v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.05124v1/figs/chaiined_RLM.png",
+      "figure_caption": "Chained RLM architecture with 3 RLM calls.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.05095v1",
+      "title": "Hierarchical Graph Memory for LLM Agents with Path-level Localization and Rewrite",
+      "authors": [
+        "Xiawei Yue",
+        "Boran Wang",
+        "Xiaoqing Zhang",
+        "Shuxin Zheng",
+        "Ziwei Zhang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces HiGram, a hierarchical graph memory for LLM agents designed for long-term reasoning. Its core method organizes memories into a coarse-to-fine structure, reducing irrelevant context and improving retrieval efficiency. HiGram's key contribution is enabling path-level localization and rewriting, allowing for more effective and efficient memory updates compared to flat graph approaches.",
+      "url": "http://arxiv.org/abs/2608.05095v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05095v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.05095v1/x1.png",
+      "figure_caption": "An overview of HiGram . Our method organizes memory into a hierarchical graph structure with upper-level nodes connecting MemoryUnits that store factual information. Then, given a query and an update, our MicroGraph-based path-level localization module retrieves relevant memory MicroGraphs to build a support subgraph, and identifies the affected evidence path. Lastly, coordinated rewriting updates MemoryUnit states and dependency structures within the localized evidence path to maintain consistent memory updates.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.05102v1",
+      "title": "ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment",
+      "authors": [
+        "Yijun Lu",
+        "Rui Ye",
+        "Jiajun Wang",
+        "Yuwen Du",
+        "Tian Jin"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "ABSeeker trains long-horizon search agents by assigning credit at a granular, step-by-step level rather than just at the trajectory's end. Its core method, Answer-Backtracked Credit Assignment (ABC), recovers intermediate clues from the ground-truth answer to create dense supervision, rewarding helpful actions and penalizing unhelpful ones throughout the search process. This approach improves agent performance by providing more informative feedback during training.",
+      "url": "http://arxiv.org/abs/2608.05102v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05102v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.05102v1/x1.png",
+      "figure_caption": "ABSeeker achieves the best performance among 4B models and remains competitive with several larger search agents. Striped regions indicate results with context management enabled.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.05107v1",
+      "title": "CoPlan: A Trustworthy Co-Intelligence Interface for Care Planning through Role-Based Contestable Argument Graphs",
+      "authors": [
+        "Hung Truong Thanh Nguyen",
+        "Hélène Fournier",
+        "Piper Jackson",
+        "Makoto Itoh",
+        "Shannon Freeman"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.MA",
+        "cs.SE"
+      ],
+      "abstract": "CoPlan is a co-intelligent interface for care planning that uses specialized AI agents to generate candidate interventions and supporting or challenging arguments. Its core method involves a multi-agent workflow where human care planners can inspect, revise, and justify AI recommendations, fostering trust and collaboration. The main contribution is a contestable interface that allows for human-AI co-intelligence, ensuring plans align with clinical judgment and patient values.",
+      "url": "http://arxiv.org/abs/2608.05107v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05107v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.05107v1/media/CAI.png",
+      "figure_caption": "Human-AI Co-Intelligence Mechanism through Contestability for Agentic AI in Care Planning Systems.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.05045v1",
+      "title": "Gradient Immunity: Null-Space Resistance to Malicious Fine-Tuning",
+      "authors": [
+        "Yuxuan Huang",
+        "Xingyu Zeng",
+        "Tianhang Zheng",
+        "Chaochao Lu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces \"Gradient Immunity\" to defend against malicious fine-tuning of open-weight language models. The core method is the Unidirectional Safety Gate (USG), which uses a cubic layer to block harmful gradients and an inverse adapter to preserve normal model behavior. This approach protects models in a partially protected open-weight release setting, where most weights are trainable but a safety component is preserved.",
+      "url": "http://arxiv.org/abs/2608.05045v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05045v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.05045v1/x1.png",
+      "figure_caption": "The figure illustrates the idealized behavior of a USG-style safeguard. For harmful data, it functions as a diode: during backpropagation, the USG sets gradients to zero, inducing gradient vanishing and thereby blocking gradient propagation. For safe data, it acts as a wire without inducing gradient vanishing in the idealized exact-blocking definition. Its core idea is the controllable induction of gradient vanishing—normally an undesirable behavior in model training.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.05131v1",
+      "title": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
+      "authors": [
+        " Aniri",
+        "Jinhe Bi",
+        "Peng Liao",
+        "Zengjie Jin",
+        "Volker Tresp"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces OPD-V, a novel visual on-policy self-distillation method for multimodal large language models (MLLMs). It addresses the issue of modality imbalance, where text often dominates over visual information during reasoning. OPD-V leverages the concept of modality balance itself as privileged information, using a \"Positive Teacher\" (Zoom-In Image) to guide distillation and improve the model's ability to integrate diverse visual inputs.",
+      "url": "http://arxiv.org/abs/2608.05131v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05131v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.05131v1/x1.png",
+      "figure_caption": "Modality Balance as privileged information, evaluated on 5K samples drawn from multiple domains. Left: the Modality-Balance Attention Ratio is lowest for the Negative Teacher with the Mask Image, intermediate for the student with the Original Image, and highest for the Positive Teacher with the Zoom-In Image. These matched conditions expose distinct degrees of Modality Imbalance. Right: as the Modality-Balance Logits Margin increases, the gap between the Positive and Negative Teacher attention ratios widens, accompanied by higher student correctness. For each margin interval b b , the blue curve reports Δ ​ ρ b = | b | − 1 ​ ∑ i ∈ b [ ρ ​ ( c + ; y i ) − ρ ​ ( c − ; y i ) ] \\( \\Delta \\)\\( \\rho_{b} \\)=|b|^{-1}\\( \\sum_{i\\in b} \\)[\\( \\rho \\)(c^{+};y_{i})-\\( \\rho \\)(c^{-};y_{i})] , where y i y_{i} is the response trajectory for sample i i , and c + c^{+} and c − c^{-} denote the Zoom-In Image and Mask Image conditions, respectively.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.04980v1",
+      "title": "Protoreasoning in Tiny Transformers",
+      "authors": [
+        "Eduardo Valle",
+        "Fergal Reid"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces \"protoreasoning,\" a simplified Chain of Thought method for tiny transformer models. By applying this to reasoning-friendly tasks on Dyck languages, the authors demonstrate that these small models can achieve improved out-of-distribution generalization. This approach allows for detailed analysis of step-by-step reasoning in models far smaller than typical LLMs, offering insights into how such reasoning is learned.",
+      "url": "http://arxiv.org/abs/2608.04980v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04980v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.05120v1",
+      "title": "DASyR-LLM: Domain-Aware Symbolic Regression with LLMs for Kinetic Model Discovery",
+      "authors": [
+        "Roberto Aliaga Medina",
+        "Paulina Quintanilla",
+        "Antonio del Rio Chanona"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CE",
+        "cs.SC"
+      ],
+      "abstract": "This paper introduces DASyR-LLM, a novel framework for automated kinetic model discovery. It integrates a Large Language Model (LLM) into an iterative symbolic regression process. The LLM acts as a domain expert, critiquing candidate models for physical plausibility and proposing new, chemically informed rate expressions, thereby improving the accuracy and interpretability of discovered kinetic models.",
+      "url": "http://arxiv.org/abs/2608.05120v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05120v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.05033v1",
+      "title": "SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System",
+      "authors": [
+        "Shiyang Li",
+        "Guangyan Sun",
+        "Jinwei Tang",
+        "Yanzhi Wang",
+        "Mingyi Hong"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.DC"
+      ],
+      "abstract": "SparseDitto tackles the challenge of optimizing GPU sparse matrix kernels by using an LLM-based agentic system. Its core method involves analyzing input matrix sparsity patterns and target GPUs to dynamically generate customized kernels. The key contribution is a system that adapts representation, execution strategy, and hardware mapping for each specific workload, overcoming the limitations of static, one-size-fits-all implementations and achieving significant performance gains.",
+      "url": "http://arxiv.org/abs/2608.05033v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05033v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.05033v1/x1.png",
+      "figure_caption": "Figure 1. One 16 × 16 16\\( \\times \\) 16 matrix exposes intrinsic pattern cues and format-induced costs. The matrix contains an irregular dense tile, a high-degree column, an empty row, and uneven row lengths. CSR and CSC traverse compressed rows and columns, respectively. SELL-C with C = 8 C=8 introduces slice-local padding, while 4 × 4 4\\( \\times \\) 4 BSR introduces block fill. The right column shows the resulting work granularity and imbalance for rows, columns, slice slots, and blocks.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.05139v1",
+      "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
+      "authors": [
+        "Yinghui He",
+        "Ling Yang",
+        "Jiarui Liu",
+        "Yongjin Yang",
+        "Lechen Zhang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces \"Skill Entropy\" to measure the difficulty of skill switching in long-horizon reasoning tasks. They propose \"Skill^2-Bench,\" a benchmark designed to evaluate and train LLMs on these cross-skill tasks. Their findings reveal a significant \"skill-switching gap\" in current LLMs, where performance degrades as tasks require more complex skill transitions.",
+      "url": "http://arxiv.org/abs/2608.05139v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05139v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.05139v1/x1.png",
+      "figure_caption": "Skill Entropy for Benchmarking and Training Skill-Native LLMs. We define a cross-skill long-horizon task as a sequence of question steps that each invoke a different reasoning skill, and skill entropy as a quantity measuring the difficulty of switching from one skill to another. We present: (1) Skill 2 -Bench : a benchmark over 558 558 skills across 9 9 verifiable and open-ended domains. Each task is graded by a task-level skill entropy; frontier models degrade nearly monotonically as task-level skill entropy increases. (2) Skill-Entropy RL: an RL framework where the model predicts not only the answer at each step but also the skill used to produce it. The reward combines step-level correctness with a skill-entropy reward that measures alignment between the model-predicted skill sequence and the gold skill chain. See Section ˜ 3 and Section ˜ 4 for details.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.05000v1",
+      "title": "Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes",
+      "authors": [
+        "Junlin Han",
+        "Shengbang Tong",
+        "David Fan",
+        "Minghao Chen",
+        "Philip Torr"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV",
+        "cs.MM"
+      ],
+      "abstract": "This paper investigates the underlying principles of multimodal pretraining by systematically exploring how different modalities interact. Its core contribution lies in empirically identifying four key \"physics\" of this process: knowledge flow patterns, the conditions for synergy versus competition between modalities, the benefits of early unification, and practical \"recipes\" for effective multimodal training.",
+      "url": "http://arxiv.org/abs/2608.05000v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05000v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.05000v1/x1.png",
+      "figure_caption": "Impact of scaling language data on visual understanding and generation. Increasing the language ratio universally improves both vision capabilities.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.05004v1",
+      "title": "DelusionEval: Measuring Delusion-Linked Behaviors in AI Chatbots",
+      "authors": [
+        "Jared Moore",
+        "Andrea Mock",
+        "Yifan Mai",
+        "Jacy Reese Anthis",
+        "Ryan Louie"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "DelusionEval is a novel evaluation protocol designed to measure how AI chatbots might exacerbate user delusions. It uses real-world conversation histories from individuals who experienced psychological harm to prompt LLMs and assess their tendency to engage in delusion-promoting behaviors. The study found that model size or reasoning capabilities didn't predict this tendency, but longer conversation histories significantly increased the risk.",
+      "url": "http://arxiv.org/abs/2608.05004v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05004v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.05126v1",
+      "title": "Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models",
+      "authors": [
+        "Yuezhang Peng",
+        "Yuxin Liu",
+        "Changfeng Gao",
+        "Zhifu Gao",
+        "Xiangang Li"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.MM"
+      ],
+      "abstract": "This paper introduces Spoken Function Calling (SFC), a novel approach to Spoken Language Understanding (SLU) for large audio language models. SFC optimizes semantic understanding by using structured rule definitions, moving beyond the limitations of traditional closed-set SLU. The contribution lies in developing the SFC framework, creating a benchmark dataset (SFC-Bench), and demonstrating its effectiveness in enhancing the function-calling capabilities of audio language models.",
+      "url": "http://arxiv.org/abs/2608.05126v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05126v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.05126v1/x1.png",
+      "figure_caption": "Figure 1. Comparison of traditional SLU and proposed SFC. SFC resolves parameter ambiguity through a precise and structured function definition.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
