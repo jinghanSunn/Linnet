@@ -1,0 +1,772 @@
+{
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T10:03:29.678100+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2608.19075v1",
+          "title": "ReWEIGH the Evidence: Calibrating Token-Level Ordinal Visual Evidence to Mitigate Hallucinations in Large Vision-Language Models",
+          "authors": [
+            "Jihae Jeong",
+            "Junha Choi",
+            "Hwanjo Yu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces ReWEIGH, a training-free method to reduce hallucinations in large vision-language models. ReWEIGH calibrates visual evidence for each token by pooling rank-based probabilities across image positions and comparing them to a token-specific reference derived from unlabeled images. This approach helps ensure generated content is well-supported by the input image.",
+          "url": "http://arxiv.org/abs/2608.19075v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.19075v1",
+          "score": 9.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.19029v1",
+          "title": "Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering",
+          "authors": [
+            "Pradeep Murugesan",
+            "Luoxiao Yang",
+            "Xueli Chen",
+            "Xinqi Fan"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.MA"
+          ],
+          "abstract": "This paper introduces an Adaptive Memory and Reflection (AMR) multi-agent system for medical question answering. Its core method involves specialized agents with dedicated memory and reflection mechanisms to retrieve prior cases and refine reasoning. The key contribution is a novel framework that enhances adaptability and responsible decision-making through complexity-based workflows and consensus/ethical oversight, outperforming existing single-agent systems.",
+          "url": "http://arxiv.org/abs/2608.19029v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.19029v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.19047v1",
+          "title": "Eureka: Task-Conditioned Meta-Agent Orchestration for Scientific Discovery",
+          "authors": [
+            "Alizer Wong",
+            "Heng Cui",
+            "Yi Tan",
+            "Xiongchao Zhan",
+            "Liang Lin"
+          ],
+          "categories": [
+            "cs.AI",
+            "math.NT"
+          ],
+          "abstract": "Eureka's core method is a task-conditioned meta-agent that orchestrates specialized \"Macro-Agents\" to tackle complex, long-horizon scientific discovery tasks. It achieves this by dynamically compiling tasks into obligation graphs, using receding-horizon planning and architecture promotion for efficient execution, and employing cost-benefit-gated evolution to adapt its internal structure. The paper's main contribution is a novel, robust meta-agent architecture that demonstrably achieves high success rates and efficiency in scientific discovery, significantly reducing computational overhead and ensuring reliable output.",
+          "url": "http://arxiv.org/abs/2608.19047v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.19047v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.19047v1/Eureka_framework_figure_final_v2.png",
+          "figure_caption": "Overview of Eureka. The Meta-Agent compiles a task into a dynamic obligation graph, forms task-conditioned specialized agents when architecture hotspots emerge, governs local evolution, and coordinates recursive long-horizon execution under typed verification.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.19025v1",
+          "title": "Self-prompting and cross-model consensus enable reproducible data extraction from scientific literature with large language models",
+          "authors": [
+            "Valentin Romanov",
+            "Monique Bax",
+            "Steven Niederer"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.DB"
+          ],
+          "abstract": "This paper introduces a \"self-prompting\" method where large language models (LLMs) generate their own prompts to extract data from scientific literature, achieving performance comparable to expert-written prompts. The core contribution is demonstrating that LLMs, when guided by expert-defined evidence standards and cross-checked through consensus, can reliably and reproducibly extract nuanced data, though a human-in-the-loop remains necessary.",
+          "url": "http://arxiv.org/abs/2608.19025v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.19025v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.19002v1",
+          "title": "A Theory of Post-hoc Debate Judgement",
+          "authors": [
+            "Xiang Yin",
+            "Adam Dejl",
+            "Antonio Rago",
+            "Lihu Chen",
+            "Francesca Toni"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper proposes a formal theory for post-hoc debate judgment, aiming to improve the reliability and interpretability of AI debates. The core method involves identifying and testing formal properties like reproducibility and groundedness for judgment mechanisms. The contribution lies in providing a theoretical framework and empirical validation for evaluating debate outcomes, particularly for claim verification tasks.",
+          "url": "http://arxiv.org/abs/2608.19002v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.19002v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.19161v1",
+          "title": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
+          "authors": [
+            "Ramneet Kaur",
+            "Pradyumna Chari",
+            "Ramesh Raskar",
+            "Jugad Singh",
+            "Sumit Kumar Jha"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "This paper introduces Verifiable Latent Alignments (VLA), a framework to detect and control covert coordination in multi-agent language models by analyzing their hidden communication states. VLA links private latent states to public actions for causal analysis, offering a novel three-layer monitor and a steerability framework. Its core contribution is enabling the detection of hidden harmful coordination and providing mechanisms to influence these private communication channels.",
+          "url": "http://arxiv.org/abs/2608.19161v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.19161v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.19085v1",
+          "title": "DA-WAM: Decision-Aligned Future Latents for Driving World Models",
+          "authors": [
+            "Ruiguo Zhong",
+            "Benshan Ma",
+            "Xiaolong Chen",
+            "Lang Zhang",
+            "Mingyue Feng"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.RO"
+          ],
+          "abstract": "DA-WAM unifies future prediction and trajectory selection for autonomous driving by learning decision-informative latent representations. Its core method involves an action-conditioned world model that directly influences trajectory scoring, ensuring predicted futures guide planning. This approach's contribution is enabling world models to actively shape decision-making, rather than just providing passive predictions.",
+          "url": "http://arxiv.org/abs/2608.19085v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.19085v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.19085v1/Figures/pipeline_compare.png",
+          "figure_caption": "Prediction–action alignment in trajectory scoring. (a) Trajectory-only prediction provides no explicit future representation to the scorer. (b) Loosely coupled latent fusion incorporates a future representation but generates only a single trajectory proposal, precluding candidate-specific future comparison. (c) Sharing one future latent across multiple candidates creates a prediction–action mismatch. (d) DA-WAM predicts a distinct future latent for each candidate and scores the trajectory with its corresponding latent, establishing a one-to-one trajectory–future correspondence.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.19013v1",
+          "title": "Harness Continual Learning: Continual Adaptation Beyond Model Parameters",
+          "authors": [
+            "Borui Kang",
+            "Jinrui Gu",
+            "Junhan Lv",
+            "Wenbin Li",
+            "Lei Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces Harness Continual Learning (HCL), a new paradigm where an agent adapts by evolving its \"harness\" of prompts, memories, tools, and routing rules around a frozen foundation model, rather than just updating model parameters. The core contribution is addressing \"harness-level forgetting,\" where changes to these external components can disrupt previously learned behaviors. HCL proposes mechanisms like guarded harness evolution to manage this adaptation and retain acquired capabilities.",
+          "url": "http://arxiv.org/abs/2608.19013v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.19013v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.19013v1/intro.png",
+          "figure_caption": "The shift in the object of continual learning. Model-centric methods update model parameters \\( \\theta \\) over sequential experience. HCL instead updates harness state around a frozen foundation model. In both settings, adaptation can improve new behavior while interfering with behavior acquired earlier.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.19197v1",
+          "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+          "authors": [
+            "Bo Liu",
+            "Simon Yu",
+            "Yiding Jiang",
+            "Ao Qu",
+            "Andrew Zhao"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "SPADE is a self-play reinforcement learning framework where a single LLM acts as both an Environment Designer and a Reasoning Agent. The Environment Designer generates diverse, long-horizon training environments as executable code, while the Reasoning Agent learns to act within them. This allows for continuous self-improvement by adaptively creating new training scenarios based on the agent's learning progress, measured by its regret.",
+          "url": "http://arxiv.org/abs/2608.19197v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.19197v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.19072v1",
+          "title": "What is Missing from AI Post-Training AI: An Empirical Analysis",
+          "authors": [
+            "Joy Jia Yin Lim",
+            "Xin Huang",
+            "Hao Peng",
+            "Yaxi Lu",
+            "Xin Cong"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper empirically analyzes LLM agents performing post-training tasks. It distinguishes between execution-level capability (iterating within a strategy) and strategy-level capability (revising the strategy). The authors find that current agents are largely limited to the former, spending their entire budget on local adjustments within an initial, fixed strategy. Their contribution lies in demonstrating this limitation and proposing an experience-driven scaffold to improve performance by enabling strategy revision.",
+          "url": "http://arxiv.org/abs/2608.19072v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.19072v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.19009v1",
+          "title": "Grading the Graders: Verification Autonomy Levels (L0-L5) for LLM Reasoning",
+          "authors": [
+            "Yajie Yin"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Verification Autonomy Levels (VAL), a new framework to standardize how we evaluate LLM verifiers. VAL classifies verification methods based on the origin of their specifications and the guarantees they provide, ranging from LLM self-assessment (L0) to provable correctness (L3/L4). The core contribution is a unified way to understand and compare the reliability and autonomy of different LLM verification techniques.",
+          "url": "http://arxiv.org/abs/2608.19009v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.19009v1",
+          "score": 7.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 20,
+        "papers_after_llm_filter": 11,
+        "count": 11
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 20,
+    "papers_after_llm_filter": 11,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 61
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2608.19075v1",
+      "title": "ReWEIGH the Evidence: Calibrating Token-Level Ordinal Visual Evidence to Mitigate Hallucinations in Large Vision-Language Models",
+      "authors": [
+        "Jihae Jeong",
+        "Junha Choi",
+        "Hwanjo Yu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces ReWEIGH, a training-free method to reduce hallucinations in large vision-language models. ReWEIGH calibrates visual evidence for each token by pooling rank-based probabilities across image positions and comparing them to a token-specific reference derived from unlabeled images. This approach helps ensure generated content is well-supported by the input image.",
+      "url": "http://arxiv.org/abs/2608.19075v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19075v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19029v1",
+      "title": "Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering",
+      "authors": [
+        "Pradeep Murugesan",
+        "Luoxiao Yang",
+        "Xueli Chen",
+        "Xinqi Fan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces an Adaptive Memory and Reflection (AMR) multi-agent system for medical question answering. Its core method involves specialized agents with dedicated memory and reflection mechanisms to retrieve prior cases and refine reasoning. The key contribution is a novel framework that enhances adaptability and responsible decision-making through complexity-based workflows and consensus/ethical oversight, outperforming existing single-agent systems.",
+      "url": "http://arxiv.org/abs/2608.19029v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19029v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19047v1",
+      "title": "Eureka: Task-Conditioned Meta-Agent Orchestration for Scientific Discovery",
+      "authors": [
+        "Alizer Wong",
+        "Heng Cui",
+        "Yi Tan",
+        "Xiongchao Zhan",
+        "Liang Lin"
+      ],
+      "categories": [
+        "cs.AI",
+        "math.NT"
+      ],
+      "abstract": "Eureka's core method is a task-conditioned meta-agent that orchestrates specialized \"Macro-Agents\" to tackle complex, long-horizon scientific discovery tasks. It achieves this by dynamically compiling tasks into obligation graphs, using receding-horizon planning and architecture promotion for efficient execution, and employing cost-benefit-gated evolution to adapt its internal structure. The paper's main contribution is a novel, robust meta-agent architecture that demonstrably achieves high success rates and efficiency in scientific discovery, significantly reducing computational overhead and ensuring reliable output.",
+      "url": "http://arxiv.org/abs/2608.19047v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19047v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.19047v1/Eureka_framework_figure_final_v2.png",
+      "figure_caption": "Overview of Eureka. The Meta-Agent compiles a task into a dynamic obligation graph, forms task-conditioned specialized agents when architecture hotspots emerge, governs local evolution, and coordinates recursive long-horizon execution under typed verification.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19025v1",
+      "title": "Self-prompting and cross-model consensus enable reproducible data extraction from scientific literature with large language models",
+      "authors": [
+        "Valentin Romanov",
+        "Monique Bax",
+        "Steven Niederer"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.DB"
+      ],
+      "abstract": "This paper introduces a \"self-prompting\" method where large language models (LLMs) generate their own prompts to extract data from scientific literature, achieving performance comparable to expert-written prompts. The core contribution is demonstrating that LLMs, when guided by expert-defined evidence standards and cross-checked through consensus, can reliably and reproducibly extract nuanced data, though a human-in-the-loop remains necessary.",
+      "url": "http://arxiv.org/abs/2608.19025v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19025v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19002v1",
+      "title": "A Theory of Post-hoc Debate Judgement",
+      "authors": [
+        "Xiang Yin",
+        "Adam Dejl",
+        "Antonio Rago",
+        "Lihu Chen",
+        "Francesca Toni"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes a formal theory for post-hoc debate judgment, aiming to improve the reliability and interpretability of AI debates. The core method involves identifying and testing formal properties like reproducibility and groundedness for judgment mechanisms. The contribution lies in providing a theoretical framework and empirical validation for evaluating debate outcomes, particularly for claim verification tasks.",
+      "url": "http://arxiv.org/abs/2608.19002v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19002v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19161v1",
+      "title": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
+      "authors": [
+        "Ramneet Kaur",
+        "Pradyumna Chari",
+        "Ramesh Raskar",
+        "Jugad Singh",
+        "Sumit Kumar Jha"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces Verifiable Latent Alignments (VLA), a framework to detect and control covert coordination in multi-agent language models by analyzing their hidden communication states. VLA links private latent states to public actions for causal analysis, offering a novel three-layer monitor and a steerability framework. Its core contribution is enabling the detection of hidden harmful coordination and providing mechanisms to influence these private communication channels.",
+      "url": "http://arxiv.org/abs/2608.19161v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19161v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19085v1",
+      "title": "DA-WAM: Decision-Aligned Future Latents for Driving World Models",
+      "authors": [
+        "Ruiguo Zhong",
+        "Benshan Ma",
+        "Xiaolong Chen",
+        "Lang Zhang",
+        "Mingyue Feng"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "DA-WAM unifies future prediction and trajectory selection for autonomous driving by learning decision-informative latent representations. Its core method involves an action-conditioned world model that directly influences trajectory scoring, ensuring predicted futures guide planning. This approach's contribution is enabling world models to actively shape decision-making, rather than just providing passive predictions.",
+      "url": "http://arxiv.org/abs/2608.19085v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19085v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.19085v1/Figures/pipeline_compare.png",
+      "figure_caption": "Prediction–action alignment in trajectory scoring. (a) Trajectory-only prediction provides no explicit future representation to the scorer. (b) Loosely coupled latent fusion incorporates a future representation but generates only a single trajectory proposal, precluding candidate-specific future comparison. (c) Sharing one future latent across multiple candidates creates a prediction–action mismatch. (d) DA-WAM predicts a distinct future latent for each candidate and scores the trajectory with its corresponding latent, establishing a one-to-one trajectory–future correspondence.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19013v1",
+      "title": "Harness Continual Learning: Continual Adaptation Beyond Model Parameters",
+      "authors": [
+        "Borui Kang",
+        "Jinrui Gu",
+        "Junhan Lv",
+        "Wenbin Li",
+        "Lei Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces Harness Continual Learning (HCL), a new paradigm where an agent adapts by evolving its \"harness\" of prompts, memories, tools, and routing rules around a frozen foundation model, rather than just updating model parameters. The core contribution is addressing \"harness-level forgetting,\" where changes to these external components can disrupt previously learned behaviors. HCL proposes mechanisms like guarded harness evolution to manage this adaptation and retain acquired capabilities.",
+      "url": "http://arxiv.org/abs/2608.19013v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19013v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.19013v1/intro.png",
+      "figure_caption": "The shift in the object of continual learning. Model-centric methods update model parameters \\( \\theta \\) over sequential experience. HCL instead updates harness state around a frozen foundation model. In both settings, adaptation can improve new behavior while interfering with behavior acquired earlier.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19197v1",
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "authors": [
+        "Bo Liu",
+        "Simon Yu",
+        "Yiding Jiang",
+        "Ao Qu",
+        "Andrew Zhao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "SPADE is a self-play reinforcement learning framework where a single LLM acts as both an Environment Designer and a Reasoning Agent. The Environment Designer generates diverse, long-horizon training environments as executable code, while the Reasoning Agent learns to act within them. This allows for continuous self-improvement by adaptively creating new training scenarios based on the agent's learning progress, measured by its regret.",
+      "url": "http://arxiv.org/abs/2608.19197v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19197v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19072v1",
+      "title": "What is Missing from AI Post-Training AI: An Empirical Analysis",
+      "authors": [
+        "Joy Jia Yin Lim",
+        "Xin Huang",
+        "Hao Peng",
+        "Yaxi Lu",
+        "Xin Cong"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper empirically analyzes LLM agents performing post-training tasks. It distinguishes between execution-level capability (iterating within a strategy) and strategy-level capability (revising the strategy). The authors find that current agents are largely limited to the former, spending their entire budget on local adjustments within an initial, fixed strategy. Their contribution lies in demonstrating this limitation and proposing an experience-driven scaffold to improve performance by enabling strategy revision.",
+      "url": "http://arxiv.org/abs/2608.19072v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19072v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19009v1",
+      "title": "Grading the Graders: Verification Autonomy Levels (L0-L5) for LLM Reasoning",
+      "authors": [
+        "Yajie Yin"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Verification Autonomy Levels (VAL), a new framework to standardize how we evaluate LLM verifiers. VAL classifies verification methods based on the origin of their specifications and the guarantees they provide, ranging from LLM self-assessment (L0) to provable correctness (L3/L4). The core contribution is a unified way to understand and compare the reliability and autonomy of different LLM verification techniques.",
+      "url": "http://arxiv.org/abs/2608.19009v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19009v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2608.19075v1",
+      "title": "ReWEIGH the Evidence: Calibrating Token-Level Ordinal Visual Evidence to Mitigate Hallucinations in Large Vision-Language Models",
+      "authors": [
+        "Jihae Jeong",
+        "Junha Choi",
+        "Hwanjo Yu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces ReWEIGH, a training-free method to reduce hallucinations in large vision-language models. ReWEIGH calibrates visual evidence for each token by pooling rank-based probabilities across image positions and comparing them to a token-specific reference derived from unlabeled images. This approach helps ensure generated content is well-supported by the input image.",
+      "url": "http://arxiv.org/abs/2608.19075v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19075v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19029v1",
+      "title": "Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering",
+      "authors": [
+        "Pradeep Murugesan",
+        "Luoxiao Yang",
+        "Xueli Chen",
+        "Xinqi Fan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "This paper introduces an Adaptive Memory and Reflection (AMR) multi-agent system for medical question answering. Its core method involves specialized agents with dedicated memory and reflection mechanisms to retrieve prior cases and refine reasoning. The key contribution is a novel framework that enhances adaptability and responsible decision-making through complexity-based workflows and consensus/ethical oversight, outperforming existing single-agent systems.",
+      "url": "http://arxiv.org/abs/2608.19029v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19029v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19047v1",
+      "title": "Eureka: Task-Conditioned Meta-Agent Orchestration for Scientific Discovery",
+      "authors": [
+        "Alizer Wong",
+        "Heng Cui",
+        "Yi Tan",
+        "Xiongchao Zhan",
+        "Liang Lin"
+      ],
+      "categories": [
+        "cs.AI",
+        "math.NT"
+      ],
+      "abstract": "Eureka's core method is a task-conditioned meta-agent that orchestrates specialized \"Macro-Agents\" to tackle complex, long-horizon scientific discovery tasks. It achieves this by dynamically compiling tasks into obligation graphs, using receding-horizon planning and architecture promotion for efficient execution, and employing cost-benefit-gated evolution to adapt its internal structure. The paper's main contribution is a novel, robust meta-agent architecture that demonstrably achieves high success rates and efficiency in scientific discovery, significantly reducing computational overhead and ensuring reliable output.",
+      "url": "http://arxiv.org/abs/2608.19047v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19047v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.19047v1/Eureka_framework_figure_final_v2.png",
+      "figure_caption": "Overview of Eureka. The Meta-Agent compiles a task into a dynamic obligation graph, forms task-conditioned specialized agents when architecture hotspots emerge, governs local evolution, and coordinates recursive long-horizon execution under typed verification.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19025v1",
+      "title": "Self-prompting and cross-model consensus enable reproducible data extraction from scientific literature with large language models",
+      "authors": [
+        "Valentin Romanov",
+        "Monique Bax",
+        "Steven Niederer"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.DB"
+      ],
+      "abstract": "This paper introduces a \"self-prompting\" method where large language models (LLMs) generate their own prompts to extract data from scientific literature, achieving performance comparable to expert-written prompts. The core contribution is demonstrating that LLMs, when guided by expert-defined evidence standards and cross-checked through consensus, can reliably and reproducibly extract nuanced data, though a human-in-the-loop remains necessary.",
+      "url": "http://arxiv.org/abs/2608.19025v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19025v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19002v1",
+      "title": "A Theory of Post-hoc Debate Judgement",
+      "authors": [
+        "Xiang Yin",
+        "Adam Dejl",
+        "Antonio Rago",
+        "Lihu Chen",
+        "Francesca Toni"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes a formal theory for post-hoc debate judgment, aiming to improve the reliability and interpretability of AI debates. The core method involves identifying and testing formal properties like reproducibility and groundedness for judgment mechanisms. The contribution lies in providing a theoretical framework and empirical validation for evaluating debate outcomes, particularly for claim verification tasks.",
+      "url": "http://arxiv.org/abs/2608.19002v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19002v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19161v1",
+      "title": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
+      "authors": [
+        "Ramneet Kaur",
+        "Pradyumna Chari",
+        "Ramesh Raskar",
+        "Jugad Singh",
+        "Sumit Kumar Jha"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces Verifiable Latent Alignments (VLA), a framework to detect and control covert coordination in multi-agent language models by analyzing their hidden communication states. VLA links private latent states to public actions for causal analysis, offering a novel three-layer monitor and a steerability framework. Its core contribution is enabling the detection of hidden harmful coordination and providing mechanisms to influence these private communication channels.",
+      "url": "http://arxiv.org/abs/2608.19161v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19161v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19085v1",
+      "title": "DA-WAM: Decision-Aligned Future Latents for Driving World Models",
+      "authors": [
+        "Ruiguo Zhong",
+        "Benshan Ma",
+        "Xiaolong Chen",
+        "Lang Zhang",
+        "Mingyue Feng"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "DA-WAM unifies future prediction and trajectory selection for autonomous driving by learning decision-informative latent representations. Its core method involves an action-conditioned world model that directly influences trajectory scoring, ensuring predicted futures guide planning. This approach's contribution is enabling world models to actively shape decision-making, rather than just providing passive predictions.",
+      "url": "http://arxiv.org/abs/2608.19085v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19085v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.19085v1/Figures/pipeline_compare.png",
+      "figure_caption": "Prediction–action alignment in trajectory scoring. (a) Trajectory-only prediction provides no explicit future representation to the scorer. (b) Loosely coupled latent fusion incorporates a future representation but generates only a single trajectory proposal, precluding candidate-specific future comparison. (c) Sharing one future latent across multiple candidates creates a prediction–action mismatch. (d) DA-WAM predicts a distinct future latent for each candidate and scores the trajectory with its corresponding latent, establishing a one-to-one trajectory–future correspondence.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19013v1",
+      "title": "Harness Continual Learning: Continual Adaptation Beyond Model Parameters",
+      "authors": [
+        "Borui Kang",
+        "Jinrui Gu",
+        "Junhan Lv",
+        "Wenbin Li",
+        "Lei Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces Harness Continual Learning (HCL), a new paradigm where an agent adapts by evolving its \"harness\" of prompts, memories, tools, and routing rules around a frozen foundation model, rather than just updating model parameters. The core contribution is addressing \"harness-level forgetting,\" where changes to these external components can disrupt previously learned behaviors. HCL proposes mechanisms like guarded harness evolution to manage this adaptation and retain acquired capabilities.",
+      "url": "http://arxiv.org/abs/2608.19013v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19013v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.19013v1/intro.png",
+      "figure_caption": "The shift in the object of continual learning. Model-centric methods update model parameters \\( \\theta \\) over sequential experience. HCL instead updates harness state around a frozen foundation model. In both settings, adaptation can improve new behavior while interfering with behavior acquired earlier.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19197v1",
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "authors": [
+        "Bo Liu",
+        "Simon Yu",
+        "Yiding Jiang",
+        "Ao Qu",
+        "Andrew Zhao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "SPADE is a self-play reinforcement learning framework where a single LLM acts as both an Environment Designer and a Reasoning Agent. The Environment Designer generates diverse, long-horizon training environments as executable code, while the Reasoning Agent learns to act within them. This allows for continuous self-improvement by adaptively creating new training scenarios based on the agent's learning progress, measured by its regret.",
+      "url": "http://arxiv.org/abs/2608.19197v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19197v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19072v1",
+      "title": "What is Missing from AI Post-Training AI: An Empirical Analysis",
+      "authors": [
+        "Joy Jia Yin Lim",
+        "Xin Huang",
+        "Hao Peng",
+        "Yaxi Lu",
+        "Xin Cong"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper empirically analyzes LLM agents performing post-training tasks. It distinguishes between execution-level capability (iterating within a strategy) and strategy-level capability (revising the strategy). The authors find that current agents are largely limited to the former, spending their entire budget on local adjustments within an initial, fixed strategy. Their contribution lies in demonstrating this limitation and proposing an experience-driven scaffold to improve performance by enabling strategy revision.",
+      "url": "http://arxiv.org/abs/2608.19072v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19072v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.19009v1",
+      "title": "Grading the Graders: Verification Autonomy Levels (L0-L5) for LLM Reasoning",
+      "authors": [
+        "Yajie Yin"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Verification Autonomy Levels (VAL), a new framework to standardize how we evaluate LLM verifiers. VAL classifies verification methods based on the origin of their specifications and the guarantees they provide, ranging from LLM self-assessment (L0) to provable correctness (L3/L4). The core contribution is a unified way to understand and compare the reliability and autonomy of different LLM verification techniques.",
+      "url": "http://arxiv.org/abs/2608.19009v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19009v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
