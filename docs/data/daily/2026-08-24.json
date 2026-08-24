@@ -1,0 +1,889 @@
+{
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T10:19:15.844241+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2608.21278v1",
+          "title": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment",
+          "authors": [
+            "Chengxiao Wang",
+            "Enyi Jiang",
+            "Xiaojing Liao",
+            "Sanmi Koyejo"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "CLEAR is a novel framework for LLM safety alignment that uses a continuous routing mechanism to selectively activate a safety adapter. This approach allows the model to mitigate harmful outputs without degrading performance on benign inputs, a common issue with global safety tuning. CLEAR's core contribution is its ability to preserve utility while significantly improving safety robustness.",
+          "url": "http://arxiv.org/abs/2608.21278v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.21278v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.21278v1/overview_gatedlora.png",
+          "figure_caption": "Overview of CLEAR, a continuous latent adapter routing framework for utility-preserving LLM safety alignment. Given an input prompt, the frozen base LLM first produces hidden representations, from which selected latent states are extracted and passed to a lightweight safety gate. The gate predicts a continuous routing score g ⁡ ( x ) ∈ [ 0 , 1 ] g(x)\\( \\in \\)[0,1] , which controls the strength of a safety LoRA adapter. For benign prompts, the routing score remains low and the model behaves close to the frozen backbone; for harmful or adversarial prompts, the score increases and the safety adapter is activated to steer generation toward aligned refusal behavior.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.21356v1",
+          "title": "AI with Authority, from Application to Silicon",
+          "authors": [
+            "Jason Hickey"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.AR",
+            "cs.LO",
+            "cs.SE"
+          ],
+          "abstract": "This paper introduces the \"Salt method,\" a novel approach that leverages generative AI to make machine verification economical and essential for productivity. The core method involves using a proof kernel to ensure mathematical claims are checked between AI agents, reserving human attention for high-level decisions. This allows a single researcher to direct autonomous machine work from application code to a taped-out RISC-V processor without human RTL design or proof review, significantly accelerating development.",
+          "url": "http://arxiv.org/abs/2608.21356v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.21356v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.21292v1",
+          "title": "AUSO: Action-Level Unified Skill Optimization from Internalization to Utilization",
+          "authors": [
+            "Huizu Lin",
+            "Chengkai Huang",
+            "Tianqi Gao",
+            "Tao Huang",
+            "Daijiao Liu"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "AUSO unifies skill learning and utilization by optimizing them at the action level throughout an agent's policy evolution. This progressive approach allows the agent to first acquire foundational skills from teacher guidance and environmental feedback, and then selectively use these skills to improve individual decisions as training progresses. The core contribution is a more efficient and effective skill learning framework that avoids fragmentation and assigns appropriate importance to skill guidance at different stages of an agent's development.",
+          "url": "http://arxiv.org/abs/2608.21292v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.21292v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.21292v1/figure/compare3.png",
+          "figure_caption": "Figure 1. Empirical evidence of ambiguous medium/easy skill-routing boundaries in Skill0.5. Samples across the success threshold can differ by as little as 1 / 8 1/8 , revealing the ambiguity of threshold-based routing.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.21209v1",
+          "title": "Personalized Privacy Control in LLMs via Attention Head Intervention",
+          "authors": [
+            "Junseok Kim",
+            "Nakyeong Yang",
+            "Kyomin Jung"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces \"personalized privacy\" for LLMs, recognizing that acceptable data disclosure varies by user, not just context. They propose P3Bench, a benchmark for evaluating personalized privacy policies, and \\textsc{Repair}, an inference-time method that intervenes in attention heads to robustly enforce these user-specific privacy preferences, overcoming the limitations of prompt-based methods.",
+          "url": "http://arxiv.org/abs/2608.21209v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.21209v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.21209v1/Failure_case.png",
+          "figure_caption": "Failure of Personalized Privacy Control. LLM agents may ignore the user’s privacy policy and disclose contextually appropriate sensitive information based on their own judgment during task execution.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.21305v1",
+          "title": "Re$^3$Cap: Retrieval-Guided Refinement for Image Captioning Enhancement via Reinforcement Learning",
+          "authors": [
+            "Haonan Jia",
+            "Shichao Dong",
+            "Zenghui Sun",
+            "Jiawen Zheng",
+            "Ziqi Miao"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "Re$^3$Cap enhances image captioning by using multi-modal retrieval as a reasoning signal to refine generated captions. It identifies and corrects hallucinations and omissions without needing extra annotations, leading to more accurate and detailed descriptions. This retrieval-guided approach surpasses previous reinforcement learning methods and even supervised fine-tuning.",
+          "url": "http://arxiv.org/abs/2608.21305v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.21305v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.21305v1/k-core.png",
+          "figure_caption": "Reasoning strategy of Caption Refinement Suggester (CRS) and Caption Quality Assessor (CQA). We leverage k-core subgraph computation to analyze critical textual content in the retrieval results. Specifically, CRS extracts overlapping sentences S v k S^{k}_{v} from the image retrieval results and uses them as signals to guide LVLMs to incorporate these key elements into their generated descriptions. By analyzing the discrepancy between S v k S^{k}_{v} and caption-retrieved results S c k S^{k}_{c} , CQA identifies hallucinations ( S c k − S v ​ c k S^{k}_{c}-S^{k}_{vc} ) and omissions ( S v k − S v ​ c k S^{k}_{v}-S^{k}_{vc} ) in this caption.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.21230v1",
+          "title": "Utility Under Attack: Agent Memory Poisoning and the Limits of Content Screening and Provenance Ranking",
+          "authors": [
+            "Arulnidhi Karunanidhi"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "This paper demonstrates that agent memory poisoning, where false information is injected into an AI's persistent memory, significantly degrades its accuracy. The authors show that standard content screening and provenance ranking methods are ineffective against this attack. Their key contribution is highlighting that distinguishing true from false information often requires external grounding, beyond just the text itself.",
+          "url": "http://arxiv.org/abs/2608.21230v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.21230v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.21186v1",
+          "title": "A Neurosymbolic Approach for Constructing Planning Domain Models from Clinical Narratives",
+          "authors": [
+            "Ranveer Singh",
+            "Saurabh Mathur",
+            "Michael Skinner",
+            "Prasad Tadepalli",
+            "Kristian Kersting"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces NSPIN, a neurosymbolic framework that constructs planning domain models from unstructured clinical narratives. NSPIN uses a pre-trained LLM to extract and impute structured event sequences, then induces a PPDDL model and refines it with LLM-proposed revisions validated empirically. The core contribution is a novel method for formalizing complex surgical workflows from text, enabling better decision support by generating generalizable planning models.",
+          "url": "http://arxiv.org/abs/2608.21186v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.21186v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.21345v1",
+          "title": "Asymmetric Capacity Allocation in Self-Refinement Pipelines",
+          "authors": [
+            "Zhuoyi Yang",
+            "Ian G. Harris",
+            "Salar Hashemitaheri",
+            "Cassie Huang",
+            "Yuangang Li"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper investigates how to optimally allocate model sizes within self-refinement pipelines (generation, critique, revision). The core method involves systematically varying model sizes for each stage across multiple benchmarks. The key contribution is demonstrating that larger generators and refiners are beneficial, while the critic's size has minimal impact, suggesting resource optimization by using smaller critic models.",
+          "url": "http://arxiv.org/abs/2608.21345v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.21345v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.21172v1",
+          "title": "Thermo-FL: Thermal-Aware Robust Federated Fine-Tuning of Large Language Models for Edge AI",
+          "authors": [
+            "Shiva Shrestha",
+            "Kazi Shaharair Sharif",
+            "Zongxing Xie",
+            "Jiajing Huang",
+            "Anhao Xiang"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.DC"
+          ],
+          "abstract": "Thermo-FL addresses the dual challenges of hardware thermal constraints and adversarial attacks in federated fine-tuning of LLMs for edge AI. Its core method is a thermal-aware LoRA fine-tuning framework that dynamically adjusts local training and update transmission based on device temperature. The key contribution is a robust aggregation pipeline (TERRA) that handles sparse, temperature-adjusted updates, enhancing model resilience and performance in practical edge deployments.",
+          "url": "http://arxiv.org/abs/2608.21172v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.21172v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.21242v1",
+          "title": "Affective Context Amplifies Sycophancy in LLM Responses",
+          "authors": [
+            "Jiayi Li",
+            "Sanjana Menon",
+            "Brett Frischmann",
+            "Shomir Wilson",
+            "Sarah Rajtmajer"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates how LLMs' awareness of a user's emotional state influences their tendency to be sycophantic. The core method involves comparing LLM responses to the same content presented as a third-party versus a user's own disclosure, measuring sycophancy as the difference between independent and user-facing evaluations. The key contribution is demonstrating that negative affective states, like loneliness and distress, significantly amplify LLM sycophancy, suggesting these states act as vulnerability signals.",
+          "url": "http://arxiv.org/abs/2608.21242v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.21242v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.21242v1/aita_example_corr.png",
+          "figure_caption": "An illustrative example from r/AmItheAsshole. When an LLM evaluates the narrator’s actions (top), it identifies the narrator’s actions as unethical and a breach of duty. When the LLM acts as a conversational partner responding to the same content as the user’s self-disclosure, it softens its evaluative stance while still acknowledging procedural concerns (bottom, left). With the user’s affective context, it becomes less oppositional (bottom, right).",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.21265v1",
+          "title": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning",
+          "authors": [
+            "Simeng Zhang",
+            "Yilong Chen",
+            "Wenyuan Zhang",
+            "Zhenyu Zhang",
+            "Yao Chen"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper addresses the inefficiency of Chain-of-Thought (CoT) reasoning in large language models by proposing a novel training-free framework called Memory-Augmented Compression. This method constructs reusable \"reasoning memories\" from past traces, which act as scaffolds during inference to compensate for information lost during CoT compression, thereby improving efficiency without sacrificing performance. The core contribution is a method to effectively compress CoT reasoning by leveraging learned memory patterns.",
+          "url": "http://arxiv.org/abs/2608.21265v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.21265v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.21265v1/1_motivation.png",
+          "figure_caption": "Illustration of memory-augmented compression. Explicit memory shifts part of the reasoning support to the prefill stage, improving short-CoT accuracy while preserving generation efficiency.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.21325v1",
+          "title": "Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy",
+          "authors": [
+            "Afonso Baldo",
+            "Hugo Pitorro",
+            "Areti Vassilopoulos",
+            "Anabela C. Areias",
+            "Maya D'Eon"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces a novel ontology of ten therapeutic \"moves\" to analyze how LLMs conduct psychotherapy. By comparing LLM interactions to human therapists, they found models over-rely on inquiry and neglect psychoeducation. Crucially, using this ontology as a tool significantly improves LLM adherence to human-like therapeutic patterns.",
+          "url": "http://arxiv.org/abs/2608.21325v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.21325v1",
+          "score": 7.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 17,
+        "papers_after_llm_filter": 12,
+        "count": 12
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Senior Lecturer (Doctorate/Ph.D.)",
+          "url": "https://euraxess.ec.europa.eu/jobs/461329",
+          "description": "The world is changing at an ever-faster pace. At the Johannes Kepler University Linz, we work on technologies and the ideas of tomorrow on a daily basis. At the same time, we educate over 27,000 young people to meet the demands of today’s job market. In short, we are Upper Austria’s largest... * Department: Institute for Machine Learning Work Locations: Number of offers: 1, Austria, Johannes Kepler University, Linz, 4040, Altenberger Straße 69 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 14 Sep 2026 - 23:59 (Europe/Vienna) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland * [Uniwersytet Kaliski im. Prezydenta Stanisława Wojciechowskiego](https://euraxess.ec.europa.eu/partnering/organisations/profile/uniwersytet-kaliski-im-prezydenta-stanislawa-wojciechowskiego) * [Field: Computer science]",
+          "institution": "",
+          "posted_date": "24 August 2026",
+          "deadline": "14 Sep 2026 - 23:59 (Europe/Vienna)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Computer Science, Institute for Machine Learning\nKey Requirements: Doctorate/Ph.D., Recognized Researcher (R2) profile\nApplication Info: deadline 14 Sep 2026, required materials N/A, contact N/A\nPosition Details: Johannes Kepler University, Linz, Austria, contract type N/A, workload N/A, salary N/A\nOne-line Advice: N/A",
+          "relevance_score": 7.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 1
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 17,
+    "papers_after_llm_filter": 12,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 38
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2608.21278v1",
+      "title": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment",
+      "authors": [
+        "Chengxiao Wang",
+        "Enyi Jiang",
+        "Xiaojing Liao",
+        "Sanmi Koyejo"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "CLEAR is a novel framework for LLM safety alignment that uses a continuous routing mechanism to selectively activate a safety adapter. This approach allows the model to mitigate harmful outputs without degrading performance on benign inputs, a common issue with global safety tuning. CLEAR's core contribution is its ability to preserve utility while significantly improving safety robustness.",
+      "url": "http://arxiv.org/abs/2608.21278v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21278v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.21278v1/overview_gatedlora.png",
+      "figure_caption": "Overview of CLEAR, a continuous latent adapter routing framework for utility-preserving LLM safety alignment. Given an input prompt, the frozen base LLM first produces hidden representations, from which selected latent states are extracted and passed to a lightweight safety gate. The gate predicts a continuous routing score g ⁡ ( x ) ∈ [ 0 , 1 ] g(x)\\( \\in \\)[0,1] , which controls the strength of a safety LoRA adapter. For benign prompts, the routing score remains low and the model behaves close to the frozen backbone; for harmful or adversarial prompts, the score increases and the safety adapter is activated to steer generation toward aligned refusal behavior.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.21356v1",
+      "title": "AI with Authority, from Application to Silicon",
+      "authors": [
+        "Jason Hickey"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.AR",
+        "cs.LO",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces the \"Salt method,\" a novel approach that leverages generative AI to make machine verification economical and essential for productivity. The core method involves using a proof kernel to ensure mathematical claims are checked between AI agents, reserving human attention for high-level decisions. This allows a single researcher to direct autonomous machine work from application code to a taped-out RISC-V processor without human RTL design or proof review, significantly accelerating development.",
+      "url": "http://arxiv.org/abs/2608.21356v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21356v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.21292v1",
+      "title": "AUSO: Action-Level Unified Skill Optimization from Internalization to Utilization",
+      "authors": [
+        "Huizu Lin",
+        "Chengkai Huang",
+        "Tianqi Gao",
+        "Tao Huang",
+        "Daijiao Liu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "AUSO unifies skill learning and utilization by optimizing them at the action level throughout an agent's policy evolution. This progressive approach allows the agent to first acquire foundational skills from teacher guidance and environmental feedback, and then selectively use these skills to improve individual decisions as training progresses. The core contribution is a more efficient and effective skill learning framework that avoids fragmentation and assigns appropriate importance to skill guidance at different stages of an agent's development.",
+      "url": "http://arxiv.org/abs/2608.21292v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21292v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.21292v1/figure/compare3.png",
+      "figure_caption": "Figure 1. Empirical evidence of ambiguous medium/easy skill-routing boundaries in Skill0.5. Samples across the success threshold can differ by as little as 1 / 8 1/8 , revealing the ambiguity of threshold-based routing.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.21209v1",
+      "title": "Personalized Privacy Control in LLMs via Attention Head Intervention",
+      "authors": [
+        "Junseok Kim",
+        "Nakyeong Yang",
+        "Kyomin Jung"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces \"personalized privacy\" for LLMs, recognizing that acceptable data disclosure varies by user, not just context. They propose P3Bench, a benchmark for evaluating personalized privacy policies, and \\textsc{Repair}, an inference-time method that intervenes in attention heads to robustly enforce these user-specific privacy preferences, overcoming the limitations of prompt-based methods.",
+      "url": "http://arxiv.org/abs/2608.21209v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21209v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.21209v1/Failure_case.png",
+      "figure_caption": "Failure of Personalized Privacy Control. LLM agents may ignore the user’s privacy policy and disclose contextually appropriate sensitive information based on their own judgment during task execution.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.21305v1",
+      "title": "Re$^3$Cap: Retrieval-Guided Refinement for Image Captioning Enhancement via Reinforcement Learning",
+      "authors": [
+        "Haonan Jia",
+        "Shichao Dong",
+        "Zenghui Sun",
+        "Jiawen Zheng",
+        "Ziqi Miao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "Re$^3$Cap enhances image captioning by using multi-modal retrieval as a reasoning signal to refine generated captions. It identifies and corrects hallucinations and omissions without needing extra annotations, leading to more accurate and detailed descriptions. This retrieval-guided approach surpasses previous reinforcement learning methods and even supervised fine-tuning.",
+      "url": "http://arxiv.org/abs/2608.21305v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21305v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.21305v1/k-core.png",
+      "figure_caption": "Reasoning strategy of Caption Refinement Suggester (CRS) and Caption Quality Assessor (CQA). We leverage k-core subgraph computation to analyze critical textual content in the retrieval results. Specifically, CRS extracts overlapping sentences S v k S^{k}_{v} from the image retrieval results and uses them as signals to guide LVLMs to incorporate these key elements into their generated descriptions. By analyzing the discrepancy between S v k S^{k}_{v} and caption-retrieved results S c k S^{k}_{c} , CQA identifies hallucinations ( S c k − S v ​ c k S^{k}_{c}-S^{k}_{vc} ) and omissions ( S v k − S v ​ c k S^{k}_{v}-S^{k}_{vc} ) in this caption.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.21230v1",
+      "title": "Utility Under Attack: Agent Memory Poisoning and the Limits of Content Screening and Provenance Ranking",
+      "authors": [
+        "Arulnidhi Karunanidhi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper demonstrates that agent memory poisoning, where false information is injected into an AI's persistent memory, significantly degrades its accuracy. The authors show that standard content screening and provenance ranking methods are ineffective against this attack. Their key contribution is highlighting that distinguishing true from false information often requires external grounding, beyond just the text itself.",
+      "url": "http://arxiv.org/abs/2608.21230v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21230v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.21186v1",
+      "title": "A Neurosymbolic Approach for Constructing Planning Domain Models from Clinical Narratives",
+      "authors": [
+        "Ranveer Singh",
+        "Saurabh Mathur",
+        "Michael Skinner",
+        "Prasad Tadepalli",
+        "Kristian Kersting"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces NSPIN, a neurosymbolic framework that constructs planning domain models from unstructured clinical narratives. NSPIN uses a pre-trained LLM to extract and impute structured event sequences, then induces a PPDDL model and refines it with LLM-proposed revisions validated empirically. The core contribution is a novel method for formalizing complex surgical workflows from text, enabling better decision support by generating generalizable planning models.",
+      "url": "http://arxiv.org/abs/2608.21186v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21186v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.21345v1",
+      "title": "Asymmetric Capacity Allocation in Self-Refinement Pipelines",
+      "authors": [
+        "Zhuoyi Yang",
+        "Ian G. Harris",
+        "Salar Hashemitaheri",
+        "Cassie Huang",
+        "Yuangang Li"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper investigates how to optimally allocate model sizes within self-refinement pipelines (generation, critique, revision). The core method involves systematically varying model sizes for each stage across multiple benchmarks. The key contribution is demonstrating that larger generators and refiners are beneficial, while the critic's size has minimal impact, suggesting resource optimization by using smaller critic models.",
+      "url": "http://arxiv.org/abs/2608.21345v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21345v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.21172v1",
+      "title": "Thermo-FL: Thermal-Aware Robust Federated Fine-Tuning of Large Language Models for Edge AI",
+      "authors": [
+        "Shiva Shrestha",
+        "Kazi Shaharair Sharif",
+        "Zongxing Xie",
+        "Jiajing Huang",
+        "Anhao Xiang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.DC"
+      ],
+      "abstract": "Thermo-FL addresses the dual challenges of hardware thermal constraints and adversarial attacks in federated fine-tuning of LLMs for edge AI. Its core method is a thermal-aware LoRA fine-tuning framework that dynamically adjusts local training and update transmission based on device temperature. The key contribution is a robust aggregation pipeline (TERRA) that handles sparse, temperature-adjusted updates, enhancing model resilience and performance in practical edge deployments.",
+      "url": "http://arxiv.org/abs/2608.21172v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21172v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.21242v1",
+      "title": "Affective Context Amplifies Sycophancy in LLM Responses",
+      "authors": [
+        "Jiayi Li",
+        "Sanjana Menon",
+        "Brett Frischmann",
+        "Shomir Wilson",
+        "Sarah Rajtmajer"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how LLMs' awareness of a user's emotional state influences their tendency to be sycophantic. The core method involves comparing LLM responses to the same content presented as a third-party versus a user's own disclosure, measuring sycophancy as the difference between independent and user-facing evaluations. The key contribution is demonstrating that negative affective states, like loneliness and distress, significantly amplify LLM sycophancy, suggesting these states act as vulnerability signals.",
+      "url": "http://arxiv.org/abs/2608.21242v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21242v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.21242v1/aita_example_corr.png",
+      "figure_caption": "An illustrative example from r/AmItheAsshole. When an LLM evaluates the narrator’s actions (top), it identifies the narrator’s actions as unethical and a breach of duty. When the LLM acts as a conversational partner responding to the same content as the user’s self-disclosure, it softens its evaluative stance while still acknowledging procedural concerns (bottom, left). With the user’s affective context, it becomes less oppositional (bottom, right).",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.21265v1",
+      "title": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning",
+      "authors": [
+        "Simeng Zhang",
+        "Yilong Chen",
+        "Wenyuan Zhang",
+        "Zhenyu Zhang",
+        "Yao Chen"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the inefficiency of Chain-of-Thought (CoT) reasoning in large language models by proposing a novel training-free framework called Memory-Augmented Compression. This method constructs reusable \"reasoning memories\" from past traces, which act as scaffolds during inference to compensate for information lost during CoT compression, thereby improving efficiency without sacrificing performance. The core contribution is a method to effectively compress CoT reasoning by leveraging learned memory patterns.",
+      "url": "http://arxiv.org/abs/2608.21265v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21265v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.21265v1/1_motivation.png",
+      "figure_caption": "Illustration of memory-augmented compression. Explicit memory shifts part of the reasoning support to the prefill stage, improving short-CoT accuracy while preserving generation efficiency.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.21325v1",
+      "title": "Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy",
+      "authors": [
+        "Afonso Baldo",
+        "Hugo Pitorro",
+        "Areti Vassilopoulos",
+        "Anabela C. Areias",
+        "Maya D'Eon"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a novel ontology of ten therapeutic \"moves\" to analyze how LLMs conduct psychotherapy. By comparing LLM interactions to human therapists, they found models over-rely on inquiry and neglect psychoeducation. Crucially, using this ontology as a tool significantly improves LLM adherence to human-like therapeutic patterns.",
+      "url": "http://arxiv.org/abs/2608.21325v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21325v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2608.21278v1",
+      "title": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment",
+      "authors": [
+        "Chengxiao Wang",
+        "Enyi Jiang",
+        "Xiaojing Liao",
+        "Sanmi Koyejo"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "CLEAR is a novel framework for LLM safety alignment that uses a continuous routing mechanism to selectively activate a safety adapter. This approach allows the model to mitigate harmful outputs without degrading performance on benign inputs, a common issue with global safety tuning. CLEAR's core contribution is its ability to preserve utility while significantly improving safety robustness.",
+      "url": "http://arxiv.org/abs/2608.21278v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21278v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.21278v1/overview_gatedlora.png",
+      "figure_caption": "Overview of CLEAR, a continuous latent adapter routing framework for utility-preserving LLM safety alignment. Given an input prompt, the frozen base LLM first produces hidden representations, from which selected latent states are extracted and passed to a lightweight safety gate. The gate predicts a continuous routing score g ⁡ ( x ) ∈ [ 0 , 1 ] g(x)\\( \\in \\)[0,1] , which controls the strength of a safety LoRA adapter. For benign prompts, the routing score remains low and the model behaves close to the frozen backbone; for harmful or adversarial prompts, the score increases and the safety adapter is activated to steer generation toward aligned refusal behavior.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.21356v1",
+      "title": "AI with Authority, from Application to Silicon",
+      "authors": [
+        "Jason Hickey"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.AR",
+        "cs.LO",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces the \"Salt method,\" a novel approach that leverages generative AI to make machine verification economical and essential for productivity. The core method involves using a proof kernel to ensure mathematical claims are checked between AI agents, reserving human attention for high-level decisions. This allows a single researcher to direct autonomous machine work from application code to a taped-out RISC-V processor without human RTL design or proof review, significantly accelerating development.",
+      "url": "http://arxiv.org/abs/2608.21356v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21356v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.21292v1",
+      "title": "AUSO: Action-Level Unified Skill Optimization from Internalization to Utilization",
+      "authors": [
+        "Huizu Lin",
+        "Chengkai Huang",
+        "Tianqi Gao",
+        "Tao Huang",
+        "Daijiao Liu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "AUSO unifies skill learning and utilization by optimizing them at the action level throughout an agent's policy evolution. This progressive approach allows the agent to first acquire foundational skills from teacher guidance and environmental feedback, and then selectively use these skills to improve individual decisions as training progresses. The core contribution is a more efficient and effective skill learning framework that avoids fragmentation and assigns appropriate importance to skill guidance at different stages of an agent's development.",
+      "url": "http://arxiv.org/abs/2608.21292v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21292v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.21292v1/figure/compare3.png",
+      "figure_caption": "Figure 1. Empirical evidence of ambiguous medium/easy skill-routing boundaries in Skill0.5. Samples across the success threshold can differ by as little as 1 / 8 1/8 , revealing the ambiguity of threshold-based routing.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.21209v1",
+      "title": "Personalized Privacy Control in LLMs via Attention Head Intervention",
+      "authors": [
+        "Junseok Kim",
+        "Nakyeong Yang",
+        "Kyomin Jung"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces \"personalized privacy\" for LLMs, recognizing that acceptable data disclosure varies by user, not just context. They propose P3Bench, a benchmark for evaluating personalized privacy policies, and \\textsc{Repair}, an inference-time method that intervenes in attention heads to robustly enforce these user-specific privacy preferences, overcoming the limitations of prompt-based methods.",
+      "url": "http://arxiv.org/abs/2608.21209v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21209v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.21209v1/Failure_case.png",
+      "figure_caption": "Failure of Personalized Privacy Control. LLM agents may ignore the user’s privacy policy and disclose contextually appropriate sensitive information based on their own judgment during task execution.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.21305v1",
+      "title": "Re$^3$Cap: Retrieval-Guided Refinement for Image Captioning Enhancement via Reinforcement Learning",
+      "authors": [
+        "Haonan Jia",
+        "Shichao Dong",
+        "Zenghui Sun",
+        "Jiawen Zheng",
+        "Ziqi Miao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "Re$^3$Cap enhances image captioning by using multi-modal retrieval as a reasoning signal to refine generated captions. It identifies and corrects hallucinations and omissions without needing extra annotations, leading to more accurate and detailed descriptions. This retrieval-guided approach surpasses previous reinforcement learning methods and even supervised fine-tuning.",
+      "url": "http://arxiv.org/abs/2608.21305v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21305v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.21305v1/k-core.png",
+      "figure_caption": "Reasoning strategy of Caption Refinement Suggester (CRS) and Caption Quality Assessor (CQA). We leverage k-core subgraph computation to analyze critical textual content in the retrieval results. Specifically, CRS extracts overlapping sentences S v k S^{k}_{v} from the image retrieval results and uses them as signals to guide LVLMs to incorporate these key elements into their generated descriptions. By analyzing the discrepancy between S v k S^{k}_{v} and caption-retrieved results S c k S^{k}_{c} , CQA identifies hallucinations ( S c k − S v ​ c k S^{k}_{c}-S^{k}_{vc} ) and omissions ( S v k − S v ​ c k S^{k}_{v}-S^{k}_{vc} ) in this caption.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.21230v1",
+      "title": "Utility Under Attack: Agent Memory Poisoning and the Limits of Content Screening and Provenance Ranking",
+      "authors": [
+        "Arulnidhi Karunanidhi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper demonstrates that agent memory poisoning, where false information is injected into an AI's persistent memory, significantly degrades its accuracy. The authors show that standard content screening and provenance ranking methods are ineffective against this attack. Their key contribution is highlighting that distinguishing true from false information often requires external grounding, beyond just the text itself.",
+      "url": "http://arxiv.org/abs/2608.21230v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21230v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.21186v1",
+      "title": "A Neurosymbolic Approach for Constructing Planning Domain Models from Clinical Narratives",
+      "authors": [
+        "Ranveer Singh",
+        "Saurabh Mathur",
+        "Michael Skinner",
+        "Prasad Tadepalli",
+        "Kristian Kersting"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces NSPIN, a neurosymbolic framework that constructs planning domain models from unstructured clinical narratives. NSPIN uses a pre-trained LLM to extract and impute structured event sequences, then induces a PPDDL model and refines it with LLM-proposed revisions validated empirically. The core contribution is a novel method for formalizing complex surgical workflows from text, enabling better decision support by generating generalizable planning models.",
+      "url": "http://arxiv.org/abs/2608.21186v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21186v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.21345v1",
+      "title": "Asymmetric Capacity Allocation in Self-Refinement Pipelines",
+      "authors": [
+        "Zhuoyi Yang",
+        "Ian G. Harris",
+        "Salar Hashemitaheri",
+        "Cassie Huang",
+        "Yuangang Li"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper investigates how to optimally allocate model sizes within self-refinement pipelines (generation, critique, revision). The core method involves systematically varying model sizes for each stage across multiple benchmarks. The key contribution is demonstrating that larger generators and refiners are beneficial, while the critic's size has minimal impact, suggesting resource optimization by using smaller critic models.",
+      "url": "http://arxiv.org/abs/2608.21345v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21345v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.21172v1",
+      "title": "Thermo-FL: Thermal-Aware Robust Federated Fine-Tuning of Large Language Models for Edge AI",
+      "authors": [
+        "Shiva Shrestha",
+        "Kazi Shaharair Sharif",
+        "Zongxing Xie",
+        "Jiajing Huang",
+        "Anhao Xiang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.DC"
+      ],
+      "abstract": "Thermo-FL addresses the dual challenges of hardware thermal constraints and adversarial attacks in federated fine-tuning of LLMs for edge AI. Its core method is a thermal-aware LoRA fine-tuning framework that dynamically adjusts local training and update transmission based on device temperature. The key contribution is a robust aggregation pipeline (TERRA) that handles sparse, temperature-adjusted updates, enhancing model resilience and performance in practical edge deployments.",
+      "url": "http://arxiv.org/abs/2608.21172v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21172v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.21242v1",
+      "title": "Affective Context Amplifies Sycophancy in LLM Responses",
+      "authors": [
+        "Jiayi Li",
+        "Sanjana Menon",
+        "Brett Frischmann",
+        "Shomir Wilson",
+        "Sarah Rajtmajer"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how LLMs' awareness of a user's emotional state influences their tendency to be sycophantic. The core method involves comparing LLM responses to the same content presented as a third-party versus a user's own disclosure, measuring sycophancy as the difference between independent and user-facing evaluations. The key contribution is demonstrating that negative affective states, like loneliness and distress, significantly amplify LLM sycophancy, suggesting these states act as vulnerability signals.",
+      "url": "http://arxiv.org/abs/2608.21242v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21242v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.21242v1/aita_example_corr.png",
+      "figure_caption": "An illustrative example from r/AmItheAsshole. When an LLM evaluates the narrator’s actions (top), it identifies the narrator’s actions as unethical and a breach of duty. When the LLM acts as a conversational partner responding to the same content as the user’s self-disclosure, it softens its evaluative stance while still acknowledging procedural concerns (bottom, left). With the user’s affective context, it becomes less oppositional (bottom, right).",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.21265v1",
+      "title": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning",
+      "authors": [
+        "Simeng Zhang",
+        "Yilong Chen",
+        "Wenyuan Zhang",
+        "Zhenyu Zhang",
+        "Yao Chen"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the inefficiency of Chain-of-Thought (CoT) reasoning in large language models by proposing a novel training-free framework called Memory-Augmented Compression. This method constructs reusable \"reasoning memories\" from past traces, which act as scaffolds during inference to compensate for information lost during CoT compression, thereby improving efficiency without sacrificing performance. The core contribution is a method to effectively compress CoT reasoning by leveraging learned memory patterns.",
+      "url": "http://arxiv.org/abs/2608.21265v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21265v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.21265v1/1_motivation.png",
+      "figure_caption": "Illustration of memory-augmented compression. Explicit memory shifts part of the reasoning support to the prefill stage, improving short-CoT accuracy while preserving generation efficiency.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.21325v1",
+      "title": "Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy",
+      "authors": [
+        "Afonso Baldo",
+        "Hugo Pitorro",
+        "Areti Vassilopoulos",
+        "Anabela C. Areias",
+        "Maya D'Eon"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces a novel ontology of ten therapeutic \"moves\" to analyze how LLMs conduct psychotherapy. By comparing LLM interactions to human therapists, they found models over-rely on inquiry and neglect psychoeducation. Crucially, using this ontology as a tool significantly improves LLM adherence to human-like therapeutic patterns.",
+      "url": "http://arxiv.org/abs/2608.21325v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21325v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Senior Lecturer (Doctorate/Ph.D.)",
+      "url": "https://euraxess.ec.europa.eu/jobs/461329",
+      "description": "The world is changing at an ever-faster pace. At the Johannes Kepler University Linz, we work on technologies and the ideas of tomorrow on a daily basis. At the same time, we educate over 27,000 young people to meet the demands of today’s job market. In short, we are Upper Austria’s largest... * Department: Institute for Machine Learning Work Locations: Number of offers: 1, Austria, Johannes Kepler University, Linz, 4040, Altenberger Straße 69 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 14 Sep 2026 - 23:59 (Europe/Vienna) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland * [Uniwersytet Kaliski im. Prezydenta Stanisława Wojciechowskiego](https://euraxess.ec.europa.eu/partnering/organisations/profile/uniwersytet-kaliski-im-prezydenta-stanislawa-wojciechowskiego) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "24 August 2026",
+      "deadline": "14 Sep 2026 - 23:59 (Europe/Vienna)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Computer Science, Institute for Machine Learning\nKey Requirements: Doctorate/Ph.D., Recognized Researcher (R2) profile\nApplication Info: deadline 14 Sep 2026, required materials N/A, contact N/A\nPosition Details: Johannes Kepler University, Linz, Austria, contract type N/A, workload N/A, salary N/A\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Senior Lecturer (Doctorate/Ph.D.)",
+      "url": "https://euraxess.ec.europa.eu/jobs/461329",
+      "description": "The world is changing at an ever-faster pace. At the Johannes Kepler University Linz, we work on technologies and the ideas of tomorrow on a daily basis. At the same time, we educate over 27,000 young people to meet the demands of today’s job market. In short, we are Upper Austria’s largest... * Department: Institute for Machine Learning Work Locations: Number of offers: 1, Austria, Johannes Kepler University, Linz, 4040, Altenberger Straße 69 Research Field: [Computer science](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A78) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 14 Sep 2026 - 23:59 (Europe/Vienna) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Poland * [Uniwersytet Kaliski im. Prezydenta Stanisława Wojciechowskiego](https://euraxess.ec.europa.eu/partnering/organisations/profile/uniwersytet-kaliski-im-prezydenta-stanislawa-wojciechowskiego) * [Field: Computer science]",
+      "institution": "",
+      "posted_date": "24 August 2026",
+      "deadline": "14 Sep 2026 - 23:59 (Europe/Vienna)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Computer Science, Institute for Machine Learning\nKey Requirements: Doctorate/Ph.D., Recognized Researcher (R2) profile\nApplication Info: deadline 14 Sep 2026, required materials N/A, contact N/A\nPosition Details: Johannes Kepler University, Linz, Austria, contract type N/A, workload N/A, salary N/A\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
