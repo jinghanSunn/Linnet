@@ -1,0 +1,814 @@
+{
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T10:03:28.194863+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2608.23566v1",
+          "title": "How to Train a Critic Stably and Efficiently",
+          "authors": [
+            "Penghui Qi",
+            "Xiangxin Zhou",
+            "Wee Sun Lee"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper addresses the instability of training critics in reinforcement learning for large language models. Their core method, Best-Practice Critic Optimization (BPCO), combines several techniques like bounded value predictions and adaptive advantage estimation to achieve stable and efficient critic training. BPCO's contribution is a robust critic training recipe that can also leverage reward-defining information hidden from the policy, leading to consistent performance improvements across various model sizes and tasks.",
+          "url": "http://arxiv.org/abs/2608.23566v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.23566v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.23471v1",
+          "title": "InjecMEM: Memory Injection Attack on LLM Agent Memory Systems",
+          "authors": [
+            "Hanling Tian",
+            "Gengyu Zhang",
+            "Zeyang Sha",
+            "Jingying Wang",
+            "Yuhang Liu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "InjecMEM is a novel memory injection attack targeting LLM agent memory systems. It requires only a single interaction to steer future responses by crafting an injection with a retriever-agnostic anchor and an adversarial command. This attack leverages the retrieval-then-generate mechanism to ensure the injected memory is consistently retrieved and effectively influences the agent's output.",
+          "url": "http://arxiv.org/abs/2608.23471v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.23471v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.23471v1/fig/attackpipe.png",
+          "figure_caption": "InjecMEM attack pipeline. The attacker inputs adversarial prompt, memory logs it. Benign users query about \\( \\tau \\) , the poisoned page will be retrieved and thus steers responses.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.23397v1",
+          "title": "MediSkill-Evo: Process-Constrained Self-Evolution for Evidence-Grounded Clinical Interaction",
+          "authors": [
+            "Ruoyu Wu",
+            "Shenfu Xie",
+            "Yinqian Sun",
+            "Haibo Tong",
+            "Feifei Zhao"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "MediSkill-Evo is a clinical agent that improves diagnosis accuracy by evolving its process knowledge without retraining its core model. It achieves this by separating clinical experience into distinct knowledge banks and using a novel \"Process-Constrained Preference Harness\" to ensure actions are grounded in evidence and adhere to care-process constraints, prioritizing safety.",
+          "url": "http://arxiv.org/abs/2608.23397v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.23397v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.23397v1/mediskill_evo_online_offline_overview.png",
+          "figure_caption": "Figure 1. Online inference and offline learning and governance in MediSkill-Evo. Left: the online pipeline retrieves four-bank context, generates and verifies candidate actions, executes the selected action, and incorporates environment feedback. Right: completed trajectories are reflected into typed memory operations, validated for label/evidence leakage, controller-defined safety, support, and replayability, and published as the next memory snapshot. Two equally sized MediSkill-Evo diagrams separated by a vertical dashed line. The left panel presents the seven-stage online inference pipeline, and the right panel presents the six-stage offline learning and governance pipeline.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.23552v1",
+          "title": "Prime Agent: A Self-Improving RLM Harness",
+          "authors": [
+            "Seth Karten",
+            "Alex L. Zhang",
+            "Kevin Thomas",
+            "Sebastian Müller",
+            "Elie Bakouch"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.SE"
+          ],
+          "abstract": "Prime Agent is an open-source harness designed to enable long-horizon agency in language models by providing external information and computation. Its core method involves a persistent IPython REPL for programmatic context processing and a Continual Harness to preserve histories and skills across agent interactions. The main contribution is a standardized, low-friction environment that allows models to focus on strategy while the harness handles execution, recovery, and resource management, pushing towards measuring the model's true capabilities.",
+          "url": "http://arxiv.org/abs/2608.23552v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.23552v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.23395v1",
+          "title": "Right-Sizing LLM-Agent Decomposition in VAT Determination: A Pilot Controlled Sweep",
+          "authors": [
+            "Pedro Santos"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.MA",
+            "cs.SE"
+          ],
+          "abstract": "This paper investigates the optimal decomposition of Large Language Model (LLM) agents for VAT determination. By systematically varying the number of agents from one broad agent to five narrow ones, while keeping other system components constant, the study found that intermediate configurations achieved the highest accuracy. This suggests a \"right-sizing\" of agent decomposition is crucial for performance in complex tasks.",
+          "url": "http://arxiv.org/abs/2608.23395v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.23395v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.23417v1",
+          "title": "SkillAlchemy: Open-World Agent Skill Creation",
+          "authors": [
+            "Hengjun Wang",
+            "Shuyue Wei",
+            "Boyi Liu",
+            "Jun Yang",
+            "Yongxin Tong"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "SkillAlchemy addresses the challenge of creating reusable agent skills for unfamiliar tasks by leveraging open-world materials. Its core method involves an \"admission-centered\" framework that identifies implicit requirements through contrastive evidence and admits candidate procedures based on their evidential support. The contribution is a novel approach to automatically generating reliable agent skills from underspecified briefs and source materials, reducing reliance on human authorship.",
+          "url": "http://arxiv.org/abs/2608.23417v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.23417v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.23493v1",
+          "title": "SRPO: Self-Reflective Policy Optimization for Long-Horizon Reasoning",
+          "authors": [
+            "Jialong Liu",
+            "Yuling Shi",
+            "Ning Yang",
+            "Xiaodong Gu",
+            "Zuchao Li"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "SRPO enables LLMs to improve long-horizon reasoning by internally reflecting on their own generated sequences. It synthesizes errors into \"reflection patches\" which then guide token-level learning on subsequent attempts, transforming sparse feedback into dense training signals without external critics. This self-reflective process leads to state-of-the-art performance and high data efficiency on complex reasoning tasks.",
+          "url": "http://arxiv.org/abs/2608.23493v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.23493v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.23526v1",
+          "title": "Correcting a learned physical invariant improves world-model rollouts",
+          "authors": [
+            "Richard Bao"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper proposes a method to improve world model predictions by identifying and correcting a learned physical invariant. The core method involves a label-free search to recover energy-like invariants from video data. The contribution is demonstrating that by projecting latent states back to their initial invariant level sets, world model rollouts can be significantly improved, addressing a failure mode where models learn but then violate physical constraints during prediction.",
+          "url": "http://arxiv.org/abs/2608.23526v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.23526v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.23497v1",
+          "title": "Mitigating Reasoning-Induced Misalignment via Safety-Direction Penalty",
+          "authors": [
+            "Yipeng Zhao",
+            "Qishun Yang",
+            "Shenzhe Zhu",
+            "Shu Yang",
+            "Di Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper identifies \"Reasoning-Induced Misalignment\" (RIM) as a problem where reasoning fine-tuning can unexpectedly lead to harmful LLM behaviors. The authors propose the Safety-Direction Penalty (SDP) as a training-time solution. SDP penalizes the model for moving in a learned \"safety direction\" during reasoning fine-tuning, thereby mitigating the harmful side effects.",
+          "url": "http://arxiv.org/abs/2608.23497v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.23497v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.23565v1",
+          "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+          "authors": [
+            "Zhifei Chen",
+            "Luozhou Wang",
+            "Guibao Shen",
+            "Dongyu Yan",
+            "Shuai Yang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "ReWorld tackles the challenge of interactive world models by separating control (short horizon) and memory (long horizon) during training. At inference, it uses a bounded KV cache and a pose-indexed landmark bank to efficiently access the entire past history within a fixed budget. This allows the model to follow user actions while retaining long-term spatial memory.",
+          "url": "http://arxiv.org/abs/2608.23565v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.23565v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.23475v1",
+          "title": "StrategyBench: Evaluating Explicit Strategy Induction in Large Language Models",
+          "authors": [
+            "Jinghan Tan",
+            "Yuanzheng Wang",
+            "Lu Chen",
+            "Zijun Chen",
+            "Yuqian Wang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "StrategyBench evaluates a large language model's ability to explicitly induce and utilize task strategies, mimicking human learning. It introduces a benchmark of strategy-inducible tasks, reference strategies, and metrics for strategy quality and downstream utility. The contribution lies in providing a framework to assess and analyze this crucial capability, moving beyond simple in-context learning.",
+          "url": "http://arxiv.org/abs/2608.23475v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.23475v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.23476v1",
+          "title": "On the Threat Model of Weird Generalization and Emergent Misalignment",
+          "authors": [
+            "Miriam Wanner",
+            "Mark Dredze",
+            "William Walden"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates \"weird generalization\" (WG), where narrow fine-tuning causes broad, unexpected behavioral changes in AI models. The core method involves systematically testing how dataset features like composition, language, and novelty influence WG. The main contribution is demonstrating that WG is primarily driven by dataset composition and language, is stronger for familiar data, and is sensitive to evaluation methods, highlighting a potential source of emergent misalignment.",
+          "url": "http://arxiv.org/abs/2608.23476v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.23476v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.23476v1/weird-gen-data-fig1.png",
+          "figure_caption": "Eliciting emergent misalignment or weird generalization (top) requires careful engineering of fine-tuning data: even minor data changes—like adding a few examples from a second domain (bottom)—can suppress them. This makes both more plausible as adversarial threats than as hazards of normal fine-tuning.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 23,
+        "papers_after_llm_filter": 12,
+        "count": 12
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 23,
+    "papers_after_llm_filter": 12,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 49
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2608.23566v1",
+      "title": "How to Train a Critic Stably and Efficiently",
+      "authors": [
+        "Penghui Qi",
+        "Xiangxin Zhou",
+        "Wee Sun Lee"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the instability of training critics in reinforcement learning for large language models. Their core method, Best-Practice Critic Optimization (BPCO), combines several techniques like bounded value predictions and adaptive advantage estimation to achieve stable and efficient critic training. BPCO's contribution is a robust critic training recipe that can also leverage reward-defining information hidden from the policy, leading to consistent performance improvements across various model sizes and tasks.",
+      "url": "http://arxiv.org/abs/2608.23566v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23566v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23471v1",
+      "title": "InjecMEM: Memory Injection Attack on LLM Agent Memory Systems",
+      "authors": [
+        "Hanling Tian",
+        "Gengyu Zhang",
+        "Zeyang Sha",
+        "Jingying Wang",
+        "Yuhang Liu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "InjecMEM is a novel memory injection attack targeting LLM agent memory systems. It requires only a single interaction to steer future responses by crafting an injection with a retriever-agnostic anchor and an adversarial command. This attack leverages the retrieval-then-generate mechanism to ensure the injected memory is consistently retrieved and effectively influences the agent's output.",
+      "url": "http://arxiv.org/abs/2608.23471v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23471v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.23471v1/fig/attackpipe.png",
+      "figure_caption": "InjecMEM attack pipeline. The attacker inputs adversarial prompt, memory logs it. Benign users query about \\( \\tau \\) , the poisoned page will be retrieved and thus steers responses.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23397v1",
+      "title": "MediSkill-Evo: Process-Constrained Self-Evolution for Evidence-Grounded Clinical Interaction",
+      "authors": [
+        "Ruoyu Wu",
+        "Shenfu Xie",
+        "Yinqian Sun",
+        "Haibo Tong",
+        "Feifei Zhao"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "MediSkill-Evo is a clinical agent that improves diagnosis accuracy by evolving its process knowledge without retraining its core model. It achieves this by separating clinical experience into distinct knowledge banks and using a novel \"Process-Constrained Preference Harness\" to ensure actions are grounded in evidence and adhere to care-process constraints, prioritizing safety.",
+      "url": "http://arxiv.org/abs/2608.23397v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23397v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.23397v1/mediskill_evo_online_offline_overview.png",
+      "figure_caption": "Figure 1. Online inference and offline learning and governance in MediSkill-Evo. Left: the online pipeline retrieves four-bank context, generates and verifies candidate actions, executes the selected action, and incorporates environment feedback. Right: completed trajectories are reflected into typed memory operations, validated for label/evidence leakage, controller-defined safety, support, and replayability, and published as the next memory snapshot. Two equally sized MediSkill-Evo diagrams separated by a vertical dashed line. The left panel presents the seven-stage online inference pipeline, and the right panel presents the six-stage offline learning and governance pipeline.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23552v1",
+      "title": "Prime Agent: A Self-Improving RLM Harness",
+      "authors": [
+        "Seth Karten",
+        "Alex L. Zhang",
+        "Kevin Thomas",
+        "Sebastian Müller",
+        "Elie Bakouch"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "Prime Agent is an open-source harness designed to enable long-horizon agency in language models by providing external information and computation. Its core method involves a persistent IPython REPL for programmatic context processing and a Continual Harness to preserve histories and skills across agent interactions. The main contribution is a standardized, low-friction environment that allows models to focus on strategy while the harness handles execution, recovery, and resource management, pushing towards measuring the model's true capabilities.",
+      "url": "http://arxiv.org/abs/2608.23552v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23552v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23395v1",
+      "title": "Right-Sizing LLM-Agent Decomposition in VAT Determination: A Pilot Controlled Sweep",
+      "authors": [
+        "Pedro Santos"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.MA",
+        "cs.SE"
+      ],
+      "abstract": "This paper investigates the optimal decomposition of Large Language Model (LLM) agents for VAT determination. By systematically varying the number of agents from one broad agent to five narrow ones, while keeping other system components constant, the study found that intermediate configurations achieved the highest accuracy. This suggests a \"right-sizing\" of agent decomposition is crucial for performance in complex tasks.",
+      "url": "http://arxiv.org/abs/2608.23395v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23395v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23417v1",
+      "title": "SkillAlchemy: Open-World Agent Skill Creation",
+      "authors": [
+        "Hengjun Wang",
+        "Shuyue Wei",
+        "Boyi Liu",
+        "Jun Yang",
+        "Yongxin Tong"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "SkillAlchemy addresses the challenge of creating reusable agent skills for unfamiliar tasks by leveraging open-world materials. Its core method involves an \"admission-centered\" framework that identifies implicit requirements through contrastive evidence and admits candidate procedures based on their evidential support. The contribution is a novel approach to automatically generating reliable agent skills from underspecified briefs and source materials, reducing reliance on human authorship.",
+      "url": "http://arxiv.org/abs/2608.23417v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23417v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23493v1",
+      "title": "SRPO: Self-Reflective Policy Optimization for Long-Horizon Reasoning",
+      "authors": [
+        "Jialong Liu",
+        "Yuling Shi",
+        "Ning Yang",
+        "Xiaodong Gu",
+        "Zuchao Li"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "SRPO enables LLMs to improve long-horizon reasoning by internally reflecting on their own generated sequences. It synthesizes errors into \"reflection patches\" which then guide token-level learning on subsequent attempts, transforming sparse feedback into dense training signals without external critics. This self-reflective process leads to state-of-the-art performance and high data efficiency on complex reasoning tasks.",
+      "url": "http://arxiv.org/abs/2608.23493v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23493v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23526v1",
+      "title": "Correcting a learned physical invariant improves world-model rollouts",
+      "authors": [
+        "Richard Bao"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes a method to improve world model predictions by identifying and correcting a learned physical invariant. The core method involves a label-free search to recover energy-like invariants from video data. The contribution is demonstrating that by projecting latent states back to their initial invariant level sets, world model rollouts can be significantly improved, addressing a failure mode where models learn but then violate physical constraints during prediction.",
+      "url": "http://arxiv.org/abs/2608.23526v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23526v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23497v1",
+      "title": "Mitigating Reasoning-Induced Misalignment via Safety-Direction Penalty",
+      "authors": [
+        "Yipeng Zhao",
+        "Qishun Yang",
+        "Shenzhe Zhu",
+        "Shu Yang",
+        "Di Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper identifies \"Reasoning-Induced Misalignment\" (RIM) as a problem where reasoning fine-tuning can unexpectedly lead to harmful LLM behaviors. The authors propose the Safety-Direction Penalty (SDP) as a training-time solution. SDP penalizes the model for moving in a learned \"safety direction\" during reasoning fine-tuning, thereby mitigating the harmful side effects.",
+      "url": "http://arxiv.org/abs/2608.23497v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23497v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23565v1",
+      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+      "authors": [
+        "Zhifei Chen",
+        "Luozhou Wang",
+        "Guibao Shen",
+        "Dongyu Yan",
+        "Shuai Yang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "ReWorld tackles the challenge of interactive world models by separating control (short horizon) and memory (long horizon) during training. At inference, it uses a bounded KV cache and a pose-indexed landmark bank to efficiently access the entire past history within a fixed budget. This allows the model to follow user actions while retaining long-term spatial memory.",
+      "url": "http://arxiv.org/abs/2608.23565v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23565v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23475v1",
+      "title": "StrategyBench: Evaluating Explicit Strategy Induction in Large Language Models",
+      "authors": [
+        "Jinghan Tan",
+        "Yuanzheng Wang",
+        "Lu Chen",
+        "Zijun Chen",
+        "Yuqian Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "StrategyBench evaluates a large language model's ability to explicitly induce and utilize task strategies, mimicking human learning. It introduces a benchmark of strategy-inducible tasks, reference strategies, and metrics for strategy quality and downstream utility. The contribution lies in providing a framework to assess and analyze this crucial capability, moving beyond simple in-context learning.",
+      "url": "http://arxiv.org/abs/2608.23475v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23475v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23476v1",
+      "title": "On the Threat Model of Weird Generalization and Emergent Misalignment",
+      "authors": [
+        "Miriam Wanner",
+        "Mark Dredze",
+        "William Walden"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates \"weird generalization\" (WG), where narrow fine-tuning causes broad, unexpected behavioral changes in AI models. The core method involves systematically testing how dataset features like composition, language, and novelty influence WG. The main contribution is demonstrating that WG is primarily driven by dataset composition and language, is stronger for familiar data, and is sensitive to evaluation methods, highlighting a potential source of emergent misalignment.",
+      "url": "http://arxiv.org/abs/2608.23476v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23476v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.23476v1/weird-gen-data-fig1.png",
+      "figure_caption": "Eliciting emergent misalignment or weird generalization (top) requires careful engineering of fine-tuning data: even minor data changes—like adding a few examples from a second domain (bottom)—can suppress them. This makes both more plausible as adversarial threats than as hazards of normal fine-tuning.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2608.23566v1",
+      "title": "How to Train a Critic Stably and Efficiently",
+      "authors": [
+        "Penghui Qi",
+        "Xiangxin Zhou",
+        "Wee Sun Lee"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper addresses the instability of training critics in reinforcement learning for large language models. Their core method, Best-Practice Critic Optimization (BPCO), combines several techniques like bounded value predictions and adaptive advantage estimation to achieve stable and efficient critic training. BPCO's contribution is a robust critic training recipe that can also leverage reward-defining information hidden from the policy, leading to consistent performance improvements across various model sizes and tasks.",
+      "url": "http://arxiv.org/abs/2608.23566v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23566v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23471v1",
+      "title": "InjecMEM: Memory Injection Attack on LLM Agent Memory Systems",
+      "authors": [
+        "Hanling Tian",
+        "Gengyu Zhang",
+        "Zeyang Sha",
+        "Jingying Wang",
+        "Yuhang Liu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "InjecMEM is a novel memory injection attack targeting LLM agent memory systems. It requires only a single interaction to steer future responses by crafting an injection with a retriever-agnostic anchor and an adversarial command. This attack leverages the retrieval-then-generate mechanism to ensure the injected memory is consistently retrieved and effectively influences the agent's output.",
+      "url": "http://arxiv.org/abs/2608.23471v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23471v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.23471v1/fig/attackpipe.png",
+      "figure_caption": "InjecMEM attack pipeline. The attacker inputs adversarial prompt, memory logs it. Benign users query about \\( \\tau \\) , the poisoned page will be retrieved and thus steers responses.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23397v1",
+      "title": "MediSkill-Evo: Process-Constrained Self-Evolution for Evidence-Grounded Clinical Interaction",
+      "authors": [
+        "Ruoyu Wu",
+        "Shenfu Xie",
+        "Yinqian Sun",
+        "Haibo Tong",
+        "Feifei Zhao"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "MediSkill-Evo is a clinical agent that improves diagnosis accuracy by evolving its process knowledge without retraining its core model. It achieves this by separating clinical experience into distinct knowledge banks and using a novel \"Process-Constrained Preference Harness\" to ensure actions are grounded in evidence and adhere to care-process constraints, prioritizing safety.",
+      "url": "http://arxiv.org/abs/2608.23397v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23397v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.23397v1/mediskill_evo_online_offline_overview.png",
+      "figure_caption": "Figure 1. Online inference and offline learning and governance in MediSkill-Evo. Left: the online pipeline retrieves four-bank context, generates and verifies candidate actions, executes the selected action, and incorporates environment feedback. Right: completed trajectories are reflected into typed memory operations, validated for label/evidence leakage, controller-defined safety, support, and replayability, and published as the next memory snapshot. Two equally sized MediSkill-Evo diagrams separated by a vertical dashed line. The left panel presents the seven-stage online inference pipeline, and the right panel presents the six-stage offline learning and governance pipeline.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23552v1",
+      "title": "Prime Agent: A Self-Improving RLM Harness",
+      "authors": [
+        "Seth Karten",
+        "Alex L. Zhang",
+        "Kevin Thomas",
+        "Sebastian Müller",
+        "Elie Bakouch"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "Prime Agent is an open-source harness designed to enable long-horizon agency in language models by providing external information and computation. Its core method involves a persistent IPython REPL for programmatic context processing and a Continual Harness to preserve histories and skills across agent interactions. The main contribution is a standardized, low-friction environment that allows models to focus on strategy while the harness handles execution, recovery, and resource management, pushing towards measuring the model's true capabilities.",
+      "url": "http://arxiv.org/abs/2608.23552v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23552v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23395v1",
+      "title": "Right-Sizing LLM-Agent Decomposition in VAT Determination: A Pilot Controlled Sweep",
+      "authors": [
+        "Pedro Santos"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.MA",
+        "cs.SE"
+      ],
+      "abstract": "This paper investigates the optimal decomposition of Large Language Model (LLM) agents for VAT determination. By systematically varying the number of agents from one broad agent to five narrow ones, while keeping other system components constant, the study found that intermediate configurations achieved the highest accuracy. This suggests a \"right-sizing\" of agent decomposition is crucial for performance in complex tasks.",
+      "url": "http://arxiv.org/abs/2608.23395v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23395v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23417v1",
+      "title": "SkillAlchemy: Open-World Agent Skill Creation",
+      "authors": [
+        "Hengjun Wang",
+        "Shuyue Wei",
+        "Boyi Liu",
+        "Jun Yang",
+        "Yongxin Tong"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "SkillAlchemy addresses the challenge of creating reusable agent skills for unfamiliar tasks by leveraging open-world materials. Its core method involves an \"admission-centered\" framework that identifies implicit requirements through contrastive evidence and admits candidate procedures based on their evidential support. The contribution is a novel approach to automatically generating reliable agent skills from underspecified briefs and source materials, reducing reliance on human authorship.",
+      "url": "http://arxiv.org/abs/2608.23417v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23417v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23493v1",
+      "title": "SRPO: Self-Reflective Policy Optimization for Long-Horizon Reasoning",
+      "authors": [
+        "Jialong Liu",
+        "Yuling Shi",
+        "Ning Yang",
+        "Xiaodong Gu",
+        "Zuchao Li"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "SRPO enables LLMs to improve long-horizon reasoning by internally reflecting on their own generated sequences. It synthesizes errors into \"reflection patches\" which then guide token-level learning on subsequent attempts, transforming sparse feedback into dense training signals without external critics. This self-reflective process leads to state-of-the-art performance and high data efficiency on complex reasoning tasks.",
+      "url": "http://arxiv.org/abs/2608.23493v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23493v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23526v1",
+      "title": "Correcting a learned physical invariant improves world-model rollouts",
+      "authors": [
+        "Richard Bao"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes a method to improve world model predictions by identifying and correcting a learned physical invariant. The core method involves a label-free search to recover energy-like invariants from video data. The contribution is demonstrating that by projecting latent states back to their initial invariant level sets, world model rollouts can be significantly improved, addressing a failure mode where models learn but then violate physical constraints during prediction.",
+      "url": "http://arxiv.org/abs/2608.23526v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23526v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23497v1",
+      "title": "Mitigating Reasoning-Induced Misalignment via Safety-Direction Penalty",
+      "authors": [
+        "Yipeng Zhao",
+        "Qishun Yang",
+        "Shenzhe Zhu",
+        "Shu Yang",
+        "Di Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper identifies \"Reasoning-Induced Misalignment\" (RIM) as a problem where reasoning fine-tuning can unexpectedly lead to harmful LLM behaviors. The authors propose the Safety-Direction Penalty (SDP) as a training-time solution. SDP penalizes the model for moving in a learned \"safety direction\" during reasoning fine-tuning, thereby mitigating the harmful side effects.",
+      "url": "http://arxiv.org/abs/2608.23497v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23497v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23565v1",
+      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+      "authors": [
+        "Zhifei Chen",
+        "Luozhou Wang",
+        "Guibao Shen",
+        "Dongyu Yan",
+        "Shuai Yang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "ReWorld tackles the challenge of interactive world models by separating control (short horizon) and memory (long horizon) during training. At inference, it uses a bounded KV cache and a pose-indexed landmark bank to efficiently access the entire past history within a fixed budget. This allows the model to follow user actions while retaining long-term spatial memory.",
+      "url": "http://arxiv.org/abs/2608.23565v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23565v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23475v1",
+      "title": "StrategyBench: Evaluating Explicit Strategy Induction in Large Language Models",
+      "authors": [
+        "Jinghan Tan",
+        "Yuanzheng Wang",
+        "Lu Chen",
+        "Zijun Chen",
+        "Yuqian Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "StrategyBench evaluates a large language model's ability to explicitly induce and utilize task strategies, mimicking human learning. It introduces a benchmark of strategy-inducible tasks, reference strategies, and metrics for strategy quality and downstream utility. The contribution lies in providing a framework to assess and analyze this crucial capability, moving beyond simple in-context learning.",
+      "url": "http://arxiv.org/abs/2608.23475v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23475v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.23476v1",
+      "title": "On the Threat Model of Weird Generalization and Emergent Misalignment",
+      "authors": [
+        "Miriam Wanner",
+        "Mark Dredze",
+        "William Walden"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates \"weird generalization\" (WG), where narrow fine-tuning causes broad, unexpected behavioral changes in AI models. The core method involves systematically testing how dataset features like composition, language, and novelty influence WG. The main contribution is demonstrating that WG is primarily driven by dataset composition and language, is stronger for familiar data, and is sensitive to evaluation methods, highlighting a potential source of emergent misalignment.",
+      "url": "http://arxiv.org/abs/2608.23476v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23476v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.23476v1/weird-gen-data-fig1.png",
+      "figure_caption": "Eliciting emergent misalignment or weird generalization (top) requires careful engineering of fine-tuning data: even minor data changes—like adding a few examples from a second domain (bottom)—can suppress them. This makes both more plausible as adversarial threats than as hazards of normal fine-tuning.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
