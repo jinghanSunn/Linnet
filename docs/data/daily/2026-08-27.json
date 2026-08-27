@@ -1,0 +1,1333 @@
+{
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T19:57:27.205778+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2608.25986v1",
+          "title": "Multi-Granularity Context-Enhanced RAG over Multimodal Knowledge Graphs",
+          "authors": [
+            "Zongyu Wu",
+            "Yilong Wang",
+            "Xiaochen Wang",
+            "Minhua Lin",
+            "Zhichao Xu"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper proposes a novel framework for multimodal retrieval-augmented generation (RAG) that addresses the semantic gap between text and images in multimodal knowledge graphs. Its core method enhances RAG by deeply integrating textual context throughout the multimodal knowledge extraction and fusion process, rather than processing modalities independently. This approach aims to improve the performance of RAG for multimodal large language models by creating a richer, more coherent understanding of multimodal information.",
+          "url": "http://arxiv.org/abs/2608.25986v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.25986v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2608.25986v1/Figs/IntroMMKG.png",
+          "figure_caption": "Figure 1. An illustration of node-based Multimodal Knowledge Graph where image is also treated as a node. An illustration of node-based Multimodal Knowledge Graph.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.26013v1",
+          "title": "VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following",
+          "authors": [
+            "Min Zeng",
+            "Guanxin Tan",
+            "Libin Cen",
+            "Yawei Wen",
+            "Rui Hu"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "VISA is an agentic framework that iteratively synthesizes multimodal instruction-following data. It employs a self-evolving loop to generate diverse, verifiable, and challenging instruction-image pairs by analyzing failures, leveraging persistent memory, and using executable tools and LLM judges for verification. This approach overcomes the limitations of one-pass synthesis by continuously learning from feedback to improve data quality and model performance.",
+          "url": "http://arxiv.org/abs/2608.26013v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.26013v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2608.26013v1/paper_oa.png",
+          "figure_caption": "Overview of VISA. The framework iteratively performs perception, planning and execution, reflection, and memory update, allowing verifier feedback and target-model difficulty signals to guide subsequent synthesis rounds.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.26004v1",
+          "title": "AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs",
+          "authors": [
+            "Sheng Liang",
+            "Yongyue Zhang",
+            "Nathanael Brian",
+            "Hang Lv",
+            "Hao Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "AsymSpec addresses the inference cost of agentic LLMs by introducing asymmetric speculative decoding. It uses a lightweight drafter with full context to guide a verifier operating on compressed context, achieving significant speedups while retaining high accuracy. This approach breaks the symmetry of traditional speculative decoding, enabling a better trade-off between latency and task performance.",
+          "url": "http://arxiv.org/abs/2608.26004v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.26004v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.26004v1/figures/pipeline_0526_v4.png",
+          "figure_caption": "AsymSpec speculation step. (a) Drafting & verification: drafter S S reads x full x_{\\( \\text{full} \\)} (logits a a , drafts d 1 : K d_{1:K} ) and x comp x_{\\( \\text{comp} \\)} (logits b b ); verifier L L reads x comp x_{\\( \\text{comp} \\)} (logits t t ). (b) CDA gate & \\( \\delta \\) -fusion: γ eff ​ ( i ) \\( \\gamma \\)_{\\( \\text{eff} \\)}(i) relaxes as full-vs-compressed divergence grows; accepted drafts are committed, otherwise the \\( \\delta \\) -fused arg ⁡ max \\( \\arg \\)\\( \\max \\) is emitted. Only S S consumes x full x_{\\( \\text{full} \\)} .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.25927v1",
+          "title": "Code World Model: Coding Agent as World Brain",
+          "authors": [
+            "Yiwen Chen",
+            "Guosheng Lin",
+            "Chi Zhang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces the Code World Model, which addresses limitations in video-based world models by separating world evolution from visual generation. Its core method uses a language model as a \"coding agent\" to reason about events and generate executable code for persistent world state and rule-consistent evolution. The contribution lies in this novel approach, which allows for more coherent and open-ended world simulations by explicitly modeling underlying rules and mechanisms.",
+          "url": "http://arxiv.org/abs/2608.25927v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.25927v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.25992v1",
+          "title": "ProgRouter: Online Progress-Guided Orchestration for Multi-Agent LLM Workflows under Quality-Cost Tradeoffs",
+          "authors": [
+            "Songyuan Li",
+            "Ahmed M. Abdelmoniem",
+            "Shiqiang Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.MA"
+          ],
+          "abstract": "ProgRouter addresses the high cost of multi-agent LLM workflows by introducing an online, progress-guided orchestration method. It adaptively selects LLM agents at each step based on a multi-view progress scorer that considers task outcomes, subtask completion, and trends. This allows for dynamic routing to maintain task quality while staying within time and cost budgets.",
+          "url": "http://arxiv.org/abs/2608.25992v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.25992v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.25992v1/system-model.png",
+          "figure_caption": "Overview of LLM agent orchestration in collaborative multi-agent LLM workflows.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.25973v1",
+          "title": "SciMIF: Understanding Multimodal Instruction Following in Scientific Domains",
+          "authors": [
+            "Ye Shen",
+            "Yuting Zheng",
+            "Dun Pei",
+            "Zijian Chen",
+            "Wenlong Zhang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces SciMIF, a benchmark for evaluating Multimodal Large Language Models (MLLMs) on complex scientific instructions. It proposes a taxonomy of 10 constraint groups derived from analyzing 22 tasks across 5 scientific disciplines, and uses this to create augmented datasets. The study reveals significant performance gaps in MLLMs across different scientific fields, highlighting chemistry as particularly challenging.",
+          "url": "http://arxiv.org/abs/2608.25973v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.25973v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.25973v1/constraints.png",
+          "figure_caption": "An overview of SciMIF, illustrating its coverage of five scientific disciplines, one general constraint domain, and ten functional constraint categories for constructing diverse scientific instruction-following constraints.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.26081v1",
+          "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
+          "authors": [
+            "Subhadeep Pal",
+            "Fiona Y. Wang",
+            "Markus J. Buehler"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cond-mat.mtrl-sci"
+          ],
+          "abstract": "This paper introduces SwarmWorld, a novel framework where language-model agents collectively evolve technologies through stigmergy. Instead of direct communication or predefined roles, agents interact indirectly by modifying a shared environment, leading to emergent technological societies. The core contribution is demonstrating that decentralized LLM agents can autonomously build functional, persistent artifacts and controllers that outperform independent search, even under novel conditions.",
+          "url": "http://arxiv.org/abs/2608.26081v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.26081v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.26081v1/figure-01-historical-lineage-tree.png",
+          "figure_caption": "Conceptual lineages leading to SwarmWorld; connectors indicate conceptual convergence rather than direct descent between every adjacent item. (A) Biological collectives and swarm-computing methods contribute decentralized coordination, feedback, and stigmergy. (B) Local-rule models and artificial societies contribute persistent worlds in which local actions alter shared state and generate population-level organization. (C) Distributed-agent and LLM systems contribute explicit agent state, memory-guided planning, embodiment, communication, and reusable executable skills. (D) SwarmWorld combines these elements in a materially constrained multi-agent world where agents build persistent artifacts and inherit or modify their programs. The resulting technological ecology can be evaluated after the agents are removed. Image credits. Ant photograph by Kiran Vati K, CC BY 4.0 , cropped and color-adjusted. Boids still from a video by Andrew Magill, CC BY 2.0 , with a frame extracted, cropped, and color-adjusted. Game of Life glider-gun diagram by Bryan.burgers, public domain , placed on a grid background. Micropolis screenshot based on the original software by Will Wright and Maxis Software/Electronic Arts, the Unix port by Don Hopkins and DUX Software, screenshot by Tomhannen, and edit by bayo; GPLv3 or later with Section 7 additional terms , cropped and color-adjusted. The Sugarscape view, method schematics, and SwarmWorld rendering were created by the authors.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.26053v1",
+          "title": "$R^3$: Training Robots to Reason in Natural Language via Reinforcement Learning",
+          "authors": [
+            "Lehong Wu",
+            "Yuxiao Qu",
+            "Zheyuan Hu",
+            "Ivan Zhang",
+            "Limin Wei"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.RO"
+          ],
+          "abstract": "This paper introduces $R^3$, a method to train Vision-Language Models (VLMs) to reason in natural language for robotic manipulation. $R^3$ uses a two-stage process: initial mid-training on expert reasoning traces followed by reinforcement learning from offline action data. The core contribution is enabling VLMs to perform free-form language reasoning to guide robot actions, unlike prior methods relying on structured supervision.",
+          "url": "http://arxiv.org/abs/2608.26053v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.26053v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.26053v1/workflow_v4.png",
+          "figure_caption": "Two-stage training of ℛ 3 \\( \\mathcal{R}^{3} \\) . ℛ 3 \\( \\mathcal{R}^{3} \\) trains a high-level VLM to reason in natural language and steer a fixed low-level robot policy for robotic manipulation tasks. ℛ 3 \\( \\mathcal{R}^{3} \\) proceeds in two stages: Stage I (mid-training) imbues an off-the-shelf VLM with the reasoning style and behaviors needed to produce useful instructions for the low-level policy. Stage II (single-step RL) further improves the VLM by training it to generate reasoning traces that match the expert instruction in offline data.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.25937v1",
+          "title": "Candidate supply and answer selection shape the value of LLM judging in multi-agent systems",
+          "authors": [
+            "Jia-Hao Ji",
+            "Sijie Li",
+            "Jiabei Cheng",
+            "Zixi She",
+            "Jin-Tai Yu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.MA"
+          ],
+          "abstract": "This paper investigates how LLM judges can improve multi-agent system (MAS) performance by providing selection pressure on candidate answers. The core method involves conceptualizing MAS reasoning as an evolutionary pipeline and analyzing how LLM judges influence candidate generation, communication, and selection. The main contribution is demonstrating that LLM judges can effectively improve MAS accuracy by supplying a signal of answer correctness, particularly when the MAS itself has the potential to generate correct answers but fails to select them.",
+          "url": "http://arxiv.org/abs/2608.25937v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.25937v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.25970v1",
+          "title": "PANDA - Prototype-Anchored Alignment for Partially Unpaired Multimodal Learning, with Applications to Alzheimers MRI and TCGA Pathology",
+          "authors": [
+            "Sheethal Bhat",
+            "Mahfuzur Rahman Chowdhury",
+            "Paula Andrea Perez-Toro",
+            "Stephan Wunderlich",
+            "Rose Dawn Bharat"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "PANDA addresses partially unpaired multimodal learning by first learning a shared embedding and estimating class prototypes from auxiliary modalities on the paired subset. It then trains a primary-modality model on all subjects by aligning its embeddings to these frozen prototypes, enabling information transfer without auxiliary inputs at inference. This method effectively handles arbitrary pairing rates, including zero overlap, making it suitable for real-world scenarios with incomplete multimodal data.",
+          "url": "http://arxiv.org/abs/2608.25970v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.25970v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.26088v1",
+          "title": "Planetary Prediction Engine: Autonomous Geospatial Prediction via Intelligent Data Selection and Foundation Model Embeddings",
+          "authors": [
+            "Evelyn Ma",
+            "Rama Kumar Pasumarthi",
+            "Kishwar Shafin",
+            "Mandar Sharma",
+            "Mimi Sun"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "The Planetary Prediction Engine (PPE) is an autonomous AI system that addresses the challenges of building high-fidelity geospatial predictive models. Its core method involves synthesizing multimodal datasets on-the-fly by retrieving relevant data from various platforms and fusing it with foundation model embeddings. The main contribution is its ability to execute this entire workflow, from data retrieval to model selection, directly from natural-language queries, significantly streamlining and automating geospatial prediction.",
+          "url": "http://arxiv.org/abs/2608.26088v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.26088v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.26088v1/figures/ppe_workflow.png",
+          "figure_caption": "The Planetary Prediction Engine ’s end-to-end workflow. The system decomposes the predictive workflow into three modular stages: (1) Intelligent data selection, (2) dataset curation, and (3) AutoML & prediction to produce the predictions and report. Off-the-shelf LLMs serve as orchestrators within each stage.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.26036v1",
+          "title": "Trace Integrity for LLM Data Agents: A Vision for Auditable Structured Reasoning in Real-World Systems",
+          "authors": [
+            "Srimonti Dutta",
+            "Akshata Kishore Moharir"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces \"Trace Integrity\" as a crucial reliability criterion for LLM data agents, going beyond simple answer accuracy. It proposes that the computational steps leading to an answer must be explicit, executable, and verifiable. The core contribution is the operationalization of Trace Integrity through \"execution contracts\" and the introduction of the \"CAIT Rate\" to measure the prevalence of correct answers derived from invalid computation.",
+          "url": "http://arxiv.org/abs/2608.26036v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.26036v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.26086v1",
+          "title": "TraceML: An Empirical Analysis of Human-Agent Planning in Machine Learning Development",
+          "authors": [
+            "Jiarui Yan",
+            "Weiwei Sun",
+            "Sijie Li",
+            "Wenhan Li",
+            "Yiming Yang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "TraceML introduces a novel dataset and methodology to analyze the human-agent gap in machine learning development. By meticulously tracking every code version, its associated score, and the intent behind each edit, TraceML reveals that humans iteratively refine data, models, and validation strategies, often revisiting earlier approaches. This empirical analysis provides concrete insights into the causes of current agent limitations in complex, multi-stage ML tasks.",
+          "url": "http://arxiv.org/abs/2608.26086v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.26086v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.26105v1",
+          "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
+          "authors": [
+            "Junxiang Xu",
+            "Ruisi Wang",
+            "Fanyi Pu",
+            "Maijunxian Wang",
+            "Ran Ji"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CV",
+            "cs.MM",
+            "cs.RO"
+          ],
+          "abstract": "VBVR-Pro introduces a novel framework for \"native visual reasoning,\" where image and video generation are integral to problem-solving, not just inputs or outputs. Its core method involves a scalable testbed with 300 procedurally generated tasks and verifiable reward scorers. The main contribution is enabling trainable, verifiable, and controllable visual reasoning through generation, demonstrating strong transfer learning to external benchmarks.",
+          "url": "http://arxiv.org/abs/2608.26105v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.26105v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.26105v1/figures/teaser/v9.png",
+          "figure_caption": "Overview of VBVR-Pro. VBVR-Pro establishes a closed-loop testbed for native visual reasoning, providing 300 visual reasoning tasks that support controlled studies of image, interleaved, and video generators under a unified task distribution. Its verifiable reward scorers provide reproducible, human-aligned evaluation and further serve as task-grounded reward functions for large-scale multi-task reinforcement learning.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.25941v1",
+          "title": "When Pruning Meets Interpretability: Preserving Sparse Autoencoder Robustness in LLMs",
+          "authors": [
+            "Suchit Gupte",
+            "Xueru Zhang",
+            "Mohammad Mahdi Khalili"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper investigates how model pruning affects the interpretability of Sparse Autoencoders (SAEs) in LLMs. The core contribution is demonstrating that activation-aware pruning methods, unlike magnitude pruning, better preserve SAE functionality by implicitly controlling a theoretical metric called \"perturbation energy.\" The study also identifies middle layers as particularly vulnerable to pruning, leading to a proposed layer-wise sparsity allocation strategy for improved robustness.",
+          "url": "http://arxiv.org/abs/2608.25941v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.25941v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.25941v1/fig3.png",
+          "figure_caption": "Figure 2: Heatmap of per-layer, per-method percentage degradation from the dense baseline for gemma-2-2b at 50% sparsity. Each row corresponds to a pruning method; each column to a layer; colour intensity encodes the magnitude of degradation (darker = = larger change). This heatmap presents the same underlying data as Figure 1 , reorganized to expose spatial patterns across the full method × \\( \\times \\) layer grid simultaneously.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.26008v1",
+          "title": "A Self-Evolving Multi-Agent Framework Defense against LLM Jailbreak Attacks",
+          "authors": [
+            "Tongyan Hu",
+            "Bryan Hooi"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.CR"
+          ],
+          "abstract": "This paper introduces a novel, self-evolving defense framework for LLMs against jailbreak attacks. Its core method involves a persistent rule memory that learns from successful attacks by abstracting them into generalizable, method-level rules. This allows the defense to adapt and defend against new attack strategies without requiring model retraining, significantly improving robustness.",
+          "url": "http://arxiv.org/abs/2608.26008v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.26008v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.26008v1/figures/main.png",
+          "figure_caption": "Overview of our self-evolving multi-agent defense framework. A1 (Rule Triggering Agent) classifies the input and retrieves relevant rules; A2 (Policy Decision Agent) determines the response policy; A3 (Response Generation Agent) produces the final output; A4 (Self-Reflection Agent) induces new rules when a violation is detected and updates the rule memory base.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.25999v1",
+          "title": "Distinct dynamics of conceptual and referential disruptions in human reading and large language model processing",
+          "authors": [
+            "Rui He",
+            "Nihal Altay",
+            "Wolfram Hinzen"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates how humans and large language models (LLMs) process disruptions in conceptual versus referential meaning. The core method involves introducing specific disruptions to narratives and observing their impact on reading speed in humans and on LLM processing. The key contribution is revealing distinct dynamics: humans show localized costs for conceptual errors and more distributed, boundary-sensitive costs for referential errors, while LLMs exhibit immediate disruptions for both, with surprisal patterns mirroring human conceptual processing.",
+          "url": "http://arxiv.org/abs/2608.25999v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.25999v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.25999v1/Fig_1.png",
+          "figure_caption": "Comparability of stimulus versions on whole-story and lexical characteristics. Distributions of (A) whole-story perplexity, (B) mean lexical frequency (Zipf scale), and (C) mean word length across Original, conceptually distorted (CD), and referentially distorted (RD) versions of the 21 stories. Points represent individual stories, with grey connecting lines linking the three matched versions of each story. Pairwise differences were evaluated using Siegel–Castellan comparisons following the corresponding Friedman test. Significance labels indicate FDR-adjusted p p values: n.s., p ≥ 0.05 p\\( \\geq \\) 0.05 ; *, p < 0.05 p<0.05 ; **, p < 0.01 p<0.01 ; ***, p < 0.001 p<0.001 .",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.25944v1",
+          "title": "Unveiling Spectral Mechanisms in Training-Free LLM Text Detection",
+          "authors": [
+            "Haitong Luo",
+            "Xuying Meng",
+            "Weiyao Zhang",
+            "Wenji Zou",
+            "Shengfeng Lou"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces spectral analysis as a novel method for training-free LLM text detection, moving beyond simple confidence scores. It reveals that human writing exhibits \"generative vitality\" characterized by signal fluctuations, which spectral analysis effectively captures by linking frequency-domain indicators to variance in proxy log-probabilities. The contribution lies in theoretically and empirically demonstrating how human token choices create these fluctuations and identifying that this spectral signal is strongest in longer, more constrained generated texts.",
+          "url": "http://arxiv.org/abs/2608.25944v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.25944v1",
+          "score": 7.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.25977v1",
+          "title": "When Personality Meets Quantization: A Layer-wise MBTI Analysis of Quantized LLMs",
+          "authors": [
+            "Yao Fu",
+            "Lijia Huang",
+            "Xiaomin Li",
+            "Runchao Li",
+            "Yu Yin"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates the personality of quantized Large Language Models (LLMs) using the MBTI framework, moving beyond full-precision models and output-level analysis. It introduces a layer-wise examination of personality emergence and a novel method, Uncertainty-Amplified Layer Decoding (UALD), to study how quantization and decoding affect LLM personality. The core contribution is revealing that LLM personality is not static but dynamically shaped by internal layer dynamics and inference-time processes.",
+          "url": "http://arxiv.org/abs/2608.25977v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.25977v1",
+          "score": 7.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 26,
+        "papers_after_llm_filter": 19,
+        "count": 19
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 26,
+    "papers_after_llm_filter": 19,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 63
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2608.25986v1",
+      "title": "Multi-Granularity Context-Enhanced RAG over Multimodal Knowledge Graphs",
+      "authors": [
+        "Zongyu Wu",
+        "Yilong Wang",
+        "Xiaochen Wang",
+        "Minhua Lin",
+        "Zhichao Xu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes a novel framework for multimodal retrieval-augmented generation (RAG) that addresses the semantic gap between text and images in multimodal knowledge graphs. Its core method enhances RAG by deeply integrating textual context throughout the multimodal knowledge extraction and fusion process, rather than processing modalities independently. This approach aims to improve the performance of RAG for multimodal large language models by creating a richer, more coherent understanding of multimodal information.",
+      "url": "http://arxiv.org/abs/2608.25986v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25986v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2608.25986v1/Figs/IntroMMKG.png",
+      "figure_caption": "Figure 1. An illustration of node-based Multimodal Knowledge Graph where image is also treated as a node. An illustration of node-based Multimodal Knowledge Graph.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.26013v1",
+      "title": "VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following",
+      "authors": [
+        "Min Zeng",
+        "Guanxin Tan",
+        "Libin Cen",
+        "Yawei Wen",
+        "Rui Hu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "VISA is an agentic framework that iteratively synthesizes multimodal instruction-following data. It employs a self-evolving loop to generate diverse, verifiable, and challenging instruction-image pairs by analyzing failures, leveraging persistent memory, and using executable tools and LLM judges for verification. This approach overcomes the limitations of one-pass synthesis by continuously learning from feedback to improve data quality and model performance.",
+      "url": "http://arxiv.org/abs/2608.26013v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26013v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2608.26013v1/paper_oa.png",
+      "figure_caption": "Overview of VISA. The framework iteratively performs perception, planning and execution, reflection, and memory update, allowing verifier feedback and target-model difficulty signals to guide subsequent synthesis rounds.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.26004v1",
+      "title": "AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs",
+      "authors": [
+        "Sheng Liang",
+        "Yongyue Zhang",
+        "Nathanael Brian",
+        "Hang Lv",
+        "Hao Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "AsymSpec addresses the inference cost of agentic LLMs by introducing asymmetric speculative decoding. It uses a lightweight drafter with full context to guide a verifier operating on compressed context, achieving significant speedups while retaining high accuracy. This approach breaks the symmetry of traditional speculative decoding, enabling a better trade-off between latency and task performance.",
+      "url": "http://arxiv.org/abs/2608.26004v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26004v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.26004v1/figures/pipeline_0526_v4.png",
+      "figure_caption": "AsymSpec speculation step. (a) Drafting & verification: drafter S S reads x full x_{\\( \\text{full} \\)} (logits a a , drafts d 1 : K d_{1:K} ) and x comp x_{\\( \\text{comp} \\)} (logits b b ); verifier L L reads x comp x_{\\( \\text{comp} \\)} (logits t t ). (b) CDA gate & \\( \\delta \\) -fusion: γ eff ​ ( i ) \\( \\gamma \\)_{\\( \\text{eff} \\)}(i) relaxes as full-vs-compressed divergence grows; accepted drafts are committed, otherwise the \\( \\delta \\) -fused arg ⁡ max \\( \\arg \\)\\( \\max \\) is emitted. Only S S consumes x full x_{\\( \\text{full} \\)} .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.25927v1",
+      "title": "Code World Model: Coding Agent as World Brain",
+      "authors": [
+        "Yiwen Chen",
+        "Guosheng Lin",
+        "Chi Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces the Code World Model, which addresses limitations in video-based world models by separating world evolution from visual generation. Its core method uses a language model as a \"coding agent\" to reason about events and generate executable code for persistent world state and rule-consistent evolution. The contribution lies in this novel approach, which allows for more coherent and open-ended world simulations by explicitly modeling underlying rules and mechanisms.",
+      "url": "http://arxiv.org/abs/2608.25927v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25927v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.25992v1",
+      "title": "ProgRouter: Online Progress-Guided Orchestration for Multi-Agent LLM Workflows under Quality-Cost Tradeoffs",
+      "authors": [
+        "Songyuan Li",
+        "Ahmed M. Abdelmoniem",
+        "Shiqiang Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "abstract": "ProgRouter addresses the high cost of multi-agent LLM workflows by introducing an online, progress-guided orchestration method. It adaptively selects LLM agents at each step based on a multi-view progress scorer that considers task outcomes, subtask completion, and trends. This allows for dynamic routing to maintain task quality while staying within time and cost budgets.",
+      "url": "http://arxiv.org/abs/2608.25992v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25992v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.25992v1/system-model.png",
+      "figure_caption": "Overview of LLM agent orchestration in collaborative multi-agent LLM workflows.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.25973v1",
+      "title": "SciMIF: Understanding Multimodal Instruction Following in Scientific Domains",
+      "authors": [
+        "Ye Shen",
+        "Yuting Zheng",
+        "Dun Pei",
+        "Zijian Chen",
+        "Wenlong Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces SciMIF, a benchmark for evaluating Multimodal Large Language Models (MLLMs) on complex scientific instructions. It proposes a taxonomy of 10 constraint groups derived from analyzing 22 tasks across 5 scientific disciplines, and uses this to create augmented datasets. The study reveals significant performance gaps in MLLMs across different scientific fields, highlighting chemistry as particularly challenging.",
+      "url": "http://arxiv.org/abs/2608.25973v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25973v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.25973v1/constraints.png",
+      "figure_caption": "An overview of SciMIF, illustrating its coverage of five scientific disciplines, one general constraint domain, and ten functional constraint categories for constructing diverse scientific instruction-following constraints.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.26081v1",
+      "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
+      "authors": [
+        "Subhadeep Pal",
+        "Fiona Y. Wang",
+        "Markus J. Buehler"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cond-mat.mtrl-sci"
+      ],
+      "abstract": "This paper introduces SwarmWorld, a novel framework where language-model agents collectively evolve technologies through stigmergy. Instead of direct communication or predefined roles, agents interact indirectly by modifying a shared environment, leading to emergent technological societies. The core contribution is demonstrating that decentralized LLM agents can autonomously build functional, persistent artifacts and controllers that outperform independent search, even under novel conditions.",
+      "url": "http://arxiv.org/abs/2608.26081v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26081v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.26081v1/figure-01-historical-lineage-tree.png",
+      "figure_caption": "Conceptual lineages leading to SwarmWorld; connectors indicate conceptual convergence rather than direct descent between every adjacent item. (A) Biological collectives and swarm-computing methods contribute decentralized coordination, feedback, and stigmergy. (B) Local-rule models and artificial societies contribute persistent worlds in which local actions alter shared state and generate population-level organization. (C) Distributed-agent and LLM systems contribute explicit agent state, memory-guided planning, embodiment, communication, and reusable executable skills. (D) SwarmWorld combines these elements in a materially constrained multi-agent world where agents build persistent artifacts and inherit or modify their programs. The resulting technological ecology can be evaluated after the agents are removed. Image credits. Ant photograph by Kiran Vati K, CC BY 4.0 , cropped and color-adjusted. Boids still from a video by Andrew Magill, CC BY 2.0 , with a frame extracted, cropped, and color-adjusted. Game of Life glider-gun diagram by Bryan.burgers, public domain , placed on a grid background. Micropolis screenshot based on the original software by Will Wright and Maxis Software/Electronic Arts, the Unix port by Don Hopkins and DUX Software, screenshot by Tomhannen, and edit by bayo; GPLv3 or later with Section 7 additional terms , cropped and color-adjusted. The Sugarscape view, method schematics, and SwarmWorld rendering were created by the authors.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.26053v1",
+      "title": "$R^3$: Training Robots to Reason in Natural Language via Reinforcement Learning",
+      "authors": [
+        "Lehong Wu",
+        "Yuxiao Qu",
+        "Zheyuan Hu",
+        "Ivan Zhang",
+        "Limin Wei"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces $R^3$, a method to train Vision-Language Models (VLMs) to reason in natural language for robotic manipulation. $R^3$ uses a two-stage process: initial mid-training on expert reasoning traces followed by reinforcement learning from offline action data. The core contribution is enabling VLMs to perform free-form language reasoning to guide robot actions, unlike prior methods relying on structured supervision.",
+      "url": "http://arxiv.org/abs/2608.26053v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26053v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.26053v1/workflow_v4.png",
+      "figure_caption": "Two-stage training of ℛ 3 \\( \\mathcal{R}^{3} \\) . ℛ 3 \\( \\mathcal{R}^{3} \\) trains a high-level VLM to reason in natural language and steer a fixed low-level robot policy for robotic manipulation tasks. ℛ 3 \\( \\mathcal{R}^{3} \\) proceeds in two stages: Stage I (mid-training) imbues an off-the-shelf VLM with the reasoning style and behaviors needed to produce useful instructions for the low-level policy. Stage II (single-step RL) further improves the VLM by training it to generate reasoning traces that match the expert instruction in offline data.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.25937v1",
+      "title": "Candidate supply and answer selection shape the value of LLM judging in multi-agent systems",
+      "authors": [
+        "Jia-Hao Ji",
+        "Sijie Li",
+        "Jiabei Cheng",
+        "Zixi She",
+        "Jin-Tai Yu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "abstract": "This paper investigates how LLM judges can improve multi-agent system (MAS) performance by providing selection pressure on candidate answers. The core method involves conceptualizing MAS reasoning as an evolutionary pipeline and analyzing how LLM judges influence candidate generation, communication, and selection. The main contribution is demonstrating that LLM judges can effectively improve MAS accuracy by supplying a signal of answer correctness, particularly when the MAS itself has the potential to generate correct answers but fails to select them.",
+      "url": "http://arxiv.org/abs/2608.25937v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25937v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.25970v1",
+      "title": "PANDA - Prototype-Anchored Alignment for Partially Unpaired Multimodal Learning, with Applications to Alzheimers MRI and TCGA Pathology",
+      "authors": [
+        "Sheethal Bhat",
+        "Mahfuzur Rahman Chowdhury",
+        "Paula Andrea Perez-Toro",
+        "Stephan Wunderlich",
+        "Rose Dawn Bharat"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "PANDA addresses partially unpaired multimodal learning by first learning a shared embedding and estimating class prototypes from auxiliary modalities on the paired subset. It then trains a primary-modality model on all subjects by aligning its embeddings to these frozen prototypes, enabling information transfer without auxiliary inputs at inference. This method effectively handles arbitrary pairing rates, including zero overlap, making it suitable for real-world scenarios with incomplete multimodal data.",
+      "url": "http://arxiv.org/abs/2608.25970v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25970v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.26088v1",
+      "title": "Planetary Prediction Engine: Autonomous Geospatial Prediction via Intelligent Data Selection and Foundation Model Embeddings",
+      "authors": [
+        "Evelyn Ma",
+        "Rama Kumar Pasumarthi",
+        "Kishwar Shafin",
+        "Mandar Sharma",
+        "Mimi Sun"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "The Planetary Prediction Engine (PPE) is an autonomous AI system that addresses the challenges of building high-fidelity geospatial predictive models. Its core method involves synthesizing multimodal datasets on-the-fly by retrieving relevant data from various platforms and fusing it with foundation model embeddings. The main contribution is its ability to execute this entire workflow, from data retrieval to model selection, directly from natural-language queries, significantly streamlining and automating geospatial prediction.",
+      "url": "http://arxiv.org/abs/2608.26088v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26088v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.26088v1/figures/ppe_workflow.png",
+      "figure_caption": "The Planetary Prediction Engine ’s end-to-end workflow. The system decomposes the predictive workflow into three modular stages: (1) Intelligent data selection, (2) dataset curation, and (3) AutoML & prediction to produce the predictions and report. Off-the-shelf LLMs serve as orchestrators within each stage.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.26036v1",
+      "title": "Trace Integrity for LLM Data Agents: A Vision for Auditable Structured Reasoning in Real-World Systems",
+      "authors": [
+        "Srimonti Dutta",
+        "Akshata Kishore Moharir"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces \"Trace Integrity\" as a crucial reliability criterion for LLM data agents, going beyond simple answer accuracy. It proposes that the computational steps leading to an answer must be explicit, executable, and verifiable. The core contribution is the operationalization of Trace Integrity through \"execution contracts\" and the introduction of the \"CAIT Rate\" to measure the prevalence of correct answers derived from invalid computation.",
+      "url": "http://arxiv.org/abs/2608.26036v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26036v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.26086v1",
+      "title": "TraceML: An Empirical Analysis of Human-Agent Planning in Machine Learning Development",
+      "authors": [
+        "Jiarui Yan",
+        "Weiwei Sun",
+        "Sijie Li",
+        "Wenhan Li",
+        "Yiming Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "TraceML introduces a novel dataset and methodology to analyze the human-agent gap in machine learning development. By meticulously tracking every code version, its associated score, and the intent behind each edit, TraceML reveals that humans iteratively refine data, models, and validation strategies, often revisiting earlier approaches. This empirical analysis provides concrete insights into the causes of current agent limitations in complex, multi-stage ML tasks.",
+      "url": "http://arxiv.org/abs/2608.26086v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26086v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.26105v1",
+      "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
+      "authors": [
+        "Junxiang Xu",
+        "Ruisi Wang",
+        "Fanyi Pu",
+        "Maijunxian Wang",
+        "Ran Ji"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CV",
+        "cs.MM",
+        "cs.RO"
+      ],
+      "abstract": "VBVR-Pro introduces a novel framework for \"native visual reasoning,\" where image and video generation are integral to problem-solving, not just inputs or outputs. Its core method involves a scalable testbed with 300 procedurally generated tasks and verifiable reward scorers. The main contribution is enabling trainable, verifiable, and controllable visual reasoning through generation, demonstrating strong transfer learning to external benchmarks.",
+      "url": "http://arxiv.org/abs/2608.26105v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26105v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.26105v1/figures/teaser/v9.png",
+      "figure_caption": "Overview of VBVR-Pro. VBVR-Pro establishes a closed-loop testbed for native visual reasoning, providing 300 visual reasoning tasks that support controlled studies of image, interleaved, and video generators under a unified task distribution. Its verifiable reward scorers provide reproducible, human-aligned evaluation and further serve as task-grounded reward functions for large-scale multi-task reinforcement learning.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.25941v1",
+      "title": "When Pruning Meets Interpretability: Preserving Sparse Autoencoder Robustness in LLMs",
+      "authors": [
+        "Suchit Gupte",
+        "Xueru Zhang",
+        "Mohammad Mahdi Khalili"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper investigates how model pruning affects the interpretability of Sparse Autoencoders (SAEs) in LLMs. The core contribution is demonstrating that activation-aware pruning methods, unlike magnitude pruning, better preserve SAE functionality by implicitly controlling a theoretical metric called \"perturbation energy.\" The study also identifies middle layers as particularly vulnerable to pruning, leading to a proposed layer-wise sparsity allocation strategy for improved robustness.",
+      "url": "http://arxiv.org/abs/2608.25941v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25941v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.25941v1/fig3.png",
+      "figure_caption": "Figure 2: Heatmap of per-layer, per-method percentage degradation from the dense baseline for gemma-2-2b at 50% sparsity. Each row corresponds to a pruning method; each column to a layer; colour intensity encodes the magnitude of degradation (darker = = larger change). This heatmap presents the same underlying data as Figure 1 , reorganized to expose spatial patterns across the full method × \\( \\times \\) layer grid simultaneously.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.26008v1",
+      "title": "A Self-Evolving Multi-Agent Framework Defense against LLM Jailbreak Attacks",
+      "authors": [
+        "Tongyan Hu",
+        "Bryan Hooi"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces a novel, self-evolving defense framework for LLMs against jailbreak attacks. Its core method involves a persistent rule memory that learns from successful attacks by abstracting them into generalizable, method-level rules. This allows the defense to adapt and defend against new attack strategies without requiring model retraining, significantly improving robustness.",
+      "url": "http://arxiv.org/abs/2608.26008v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26008v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.26008v1/figures/main.png",
+      "figure_caption": "Overview of our self-evolving multi-agent defense framework. A1 (Rule Triggering Agent) classifies the input and retrieves relevant rules; A2 (Policy Decision Agent) determines the response policy; A3 (Response Generation Agent) produces the final output; A4 (Self-Reflection Agent) induces new rules when a violation is detected and updates the rule memory base.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.25999v1",
+      "title": "Distinct dynamics of conceptual and referential disruptions in human reading and large language model processing",
+      "authors": [
+        "Rui He",
+        "Nihal Altay",
+        "Wolfram Hinzen"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how humans and large language models (LLMs) process disruptions in conceptual versus referential meaning. The core method involves introducing specific disruptions to narratives and observing their impact on reading speed in humans and on LLM processing. The key contribution is revealing distinct dynamics: humans show localized costs for conceptual errors and more distributed, boundary-sensitive costs for referential errors, while LLMs exhibit immediate disruptions for both, with surprisal patterns mirroring human conceptual processing.",
+      "url": "http://arxiv.org/abs/2608.25999v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25999v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.25999v1/Fig_1.png",
+      "figure_caption": "Comparability of stimulus versions on whole-story and lexical characteristics. Distributions of (A) whole-story perplexity, (B) mean lexical frequency (Zipf scale), and (C) mean word length across Original, conceptually distorted (CD), and referentially distorted (RD) versions of the 21 stories. Points represent individual stories, with grey connecting lines linking the three matched versions of each story. Pairwise differences were evaluated using Siegel–Castellan comparisons following the corresponding Friedman test. Significance labels indicate FDR-adjusted p p values: n.s., p ≥ 0.05 p\\( \\geq \\) 0.05 ; *, p < 0.05 p<0.05 ; **, p < 0.01 p<0.01 ; ***, p < 0.001 p<0.001 .",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.25944v1",
+      "title": "Unveiling Spectral Mechanisms in Training-Free LLM Text Detection",
+      "authors": [
+        "Haitong Luo",
+        "Xuying Meng",
+        "Weiyao Zhang",
+        "Wenji Zou",
+        "Shengfeng Lou"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces spectral analysis as a novel method for training-free LLM text detection, moving beyond simple confidence scores. It reveals that human writing exhibits \"generative vitality\" characterized by signal fluctuations, which spectral analysis effectively captures by linking frequency-domain indicators to variance in proxy log-probabilities. The contribution lies in theoretically and empirically demonstrating how human token choices create these fluctuations and identifying that this spectral signal is strongest in longer, more constrained generated texts.",
+      "url": "http://arxiv.org/abs/2608.25944v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25944v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.25977v1",
+      "title": "When Personality Meets Quantization: A Layer-wise MBTI Analysis of Quantized LLMs",
+      "authors": [
+        "Yao Fu",
+        "Lijia Huang",
+        "Xiaomin Li",
+        "Runchao Li",
+        "Yu Yin"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates the personality of quantized Large Language Models (LLMs) using the MBTI framework, moving beyond full-precision models and output-level analysis. It introduces a layer-wise examination of personality emergence and a novel method, Uncertainty-Amplified Layer Decoding (UALD), to study how quantization and decoding affect LLM personality. The core contribution is revealing that LLM personality is not static but dynamically shaped by internal layer dynamics and inference-time processes.",
+      "url": "http://arxiv.org/abs/2608.25977v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25977v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2608.25986v1",
+      "title": "Multi-Granularity Context-Enhanced RAG over Multimodal Knowledge Graphs",
+      "authors": [
+        "Zongyu Wu",
+        "Yilong Wang",
+        "Xiaochen Wang",
+        "Minhua Lin",
+        "Zhichao Xu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes a novel framework for multimodal retrieval-augmented generation (RAG) that addresses the semantic gap between text and images in multimodal knowledge graphs. Its core method enhances RAG by deeply integrating textual context throughout the multimodal knowledge extraction and fusion process, rather than processing modalities independently. This approach aims to improve the performance of RAG for multimodal large language models by creating a richer, more coherent understanding of multimodal information.",
+      "url": "http://arxiv.org/abs/2608.25986v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25986v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2608.25986v1/Figs/IntroMMKG.png",
+      "figure_caption": "Figure 1. An illustration of node-based Multimodal Knowledge Graph where image is also treated as a node. An illustration of node-based Multimodal Knowledge Graph.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.26013v1",
+      "title": "VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following",
+      "authors": [
+        "Min Zeng",
+        "Guanxin Tan",
+        "Libin Cen",
+        "Yawei Wen",
+        "Rui Hu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "VISA is an agentic framework that iteratively synthesizes multimodal instruction-following data. It employs a self-evolving loop to generate diverse, verifiable, and challenging instruction-image pairs by analyzing failures, leveraging persistent memory, and using executable tools and LLM judges for verification. This approach overcomes the limitations of one-pass synthesis by continuously learning from feedback to improve data quality and model performance.",
+      "url": "http://arxiv.org/abs/2608.26013v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26013v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2608.26013v1/paper_oa.png",
+      "figure_caption": "Overview of VISA. The framework iteratively performs perception, planning and execution, reflection, and memory update, allowing verifier feedback and target-model difficulty signals to guide subsequent synthesis rounds.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.26004v1",
+      "title": "AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs",
+      "authors": [
+        "Sheng Liang",
+        "Yongyue Zhang",
+        "Nathanael Brian",
+        "Hang Lv",
+        "Hao Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "AsymSpec addresses the inference cost of agentic LLMs by introducing asymmetric speculative decoding. It uses a lightweight drafter with full context to guide a verifier operating on compressed context, achieving significant speedups while retaining high accuracy. This approach breaks the symmetry of traditional speculative decoding, enabling a better trade-off between latency and task performance.",
+      "url": "http://arxiv.org/abs/2608.26004v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26004v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.26004v1/figures/pipeline_0526_v4.png",
+      "figure_caption": "AsymSpec speculation step. (a) Drafting & verification: drafter S S reads x full x_{\\( \\text{full} \\)} (logits a a , drafts d 1 : K d_{1:K} ) and x comp x_{\\( \\text{comp} \\)} (logits b b ); verifier L L reads x comp x_{\\( \\text{comp} \\)} (logits t t ). (b) CDA gate & \\( \\delta \\) -fusion: γ eff ​ ( i ) \\( \\gamma \\)_{\\( \\text{eff} \\)}(i) relaxes as full-vs-compressed divergence grows; accepted drafts are committed, otherwise the \\( \\delta \\) -fused arg ⁡ max \\( \\arg \\)\\( \\max \\) is emitted. Only S S consumes x full x_{\\( \\text{full} \\)} .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.25927v1",
+      "title": "Code World Model: Coding Agent as World Brain",
+      "authors": [
+        "Yiwen Chen",
+        "Guosheng Lin",
+        "Chi Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces the Code World Model, which addresses limitations in video-based world models by separating world evolution from visual generation. Its core method uses a language model as a \"coding agent\" to reason about events and generate executable code for persistent world state and rule-consistent evolution. The contribution lies in this novel approach, which allows for more coherent and open-ended world simulations by explicitly modeling underlying rules and mechanisms.",
+      "url": "http://arxiv.org/abs/2608.25927v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25927v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.25992v1",
+      "title": "ProgRouter: Online Progress-Guided Orchestration for Multi-Agent LLM Workflows under Quality-Cost Tradeoffs",
+      "authors": [
+        "Songyuan Li",
+        "Ahmed M. Abdelmoniem",
+        "Shiqiang Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "abstract": "ProgRouter addresses the high cost of multi-agent LLM workflows by introducing an online, progress-guided orchestration method. It adaptively selects LLM agents at each step based on a multi-view progress scorer that considers task outcomes, subtask completion, and trends. This allows for dynamic routing to maintain task quality while staying within time and cost budgets.",
+      "url": "http://arxiv.org/abs/2608.25992v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25992v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.25992v1/system-model.png",
+      "figure_caption": "Overview of LLM agent orchestration in collaborative multi-agent LLM workflows.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.25973v1",
+      "title": "SciMIF: Understanding Multimodal Instruction Following in Scientific Domains",
+      "authors": [
+        "Ye Shen",
+        "Yuting Zheng",
+        "Dun Pei",
+        "Zijian Chen",
+        "Wenlong Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces SciMIF, a benchmark for evaluating Multimodal Large Language Models (MLLMs) on complex scientific instructions. It proposes a taxonomy of 10 constraint groups derived from analyzing 22 tasks across 5 scientific disciplines, and uses this to create augmented datasets. The study reveals significant performance gaps in MLLMs across different scientific fields, highlighting chemistry as particularly challenging.",
+      "url": "http://arxiv.org/abs/2608.25973v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25973v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.25973v1/constraints.png",
+      "figure_caption": "An overview of SciMIF, illustrating its coverage of five scientific disciplines, one general constraint domain, and ten functional constraint categories for constructing diverse scientific instruction-following constraints.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.26081v1",
+      "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
+      "authors": [
+        "Subhadeep Pal",
+        "Fiona Y. Wang",
+        "Markus J. Buehler"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cond-mat.mtrl-sci"
+      ],
+      "abstract": "This paper introduces SwarmWorld, a novel framework where language-model agents collectively evolve technologies through stigmergy. Instead of direct communication or predefined roles, agents interact indirectly by modifying a shared environment, leading to emergent technological societies. The core contribution is demonstrating that decentralized LLM agents can autonomously build functional, persistent artifacts and controllers that outperform independent search, even under novel conditions.",
+      "url": "http://arxiv.org/abs/2608.26081v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26081v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.26081v1/figure-01-historical-lineage-tree.png",
+      "figure_caption": "Conceptual lineages leading to SwarmWorld; connectors indicate conceptual convergence rather than direct descent between every adjacent item. (A) Biological collectives and swarm-computing methods contribute decentralized coordination, feedback, and stigmergy. (B) Local-rule models and artificial societies contribute persistent worlds in which local actions alter shared state and generate population-level organization. (C) Distributed-agent and LLM systems contribute explicit agent state, memory-guided planning, embodiment, communication, and reusable executable skills. (D) SwarmWorld combines these elements in a materially constrained multi-agent world where agents build persistent artifacts and inherit or modify their programs. The resulting technological ecology can be evaluated after the agents are removed. Image credits. Ant photograph by Kiran Vati K, CC BY 4.0 , cropped and color-adjusted. Boids still from a video by Andrew Magill, CC BY 2.0 , with a frame extracted, cropped, and color-adjusted. Game of Life glider-gun diagram by Bryan.burgers, public domain , placed on a grid background. Micropolis screenshot based on the original software by Will Wright and Maxis Software/Electronic Arts, the Unix port by Don Hopkins and DUX Software, screenshot by Tomhannen, and edit by bayo; GPLv3 or later with Section 7 additional terms , cropped and color-adjusted. The Sugarscape view, method schematics, and SwarmWorld rendering were created by the authors.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.26053v1",
+      "title": "$R^3$: Training Robots to Reason in Natural Language via Reinforcement Learning",
+      "authors": [
+        "Lehong Wu",
+        "Yuxiao Qu",
+        "Zheyuan Hu",
+        "Ivan Zhang",
+        "Limin Wei"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces $R^3$, a method to train Vision-Language Models (VLMs) to reason in natural language for robotic manipulation. $R^3$ uses a two-stage process: initial mid-training on expert reasoning traces followed by reinforcement learning from offline action data. The core contribution is enabling VLMs to perform free-form language reasoning to guide robot actions, unlike prior methods relying on structured supervision.",
+      "url": "http://arxiv.org/abs/2608.26053v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26053v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.26053v1/workflow_v4.png",
+      "figure_caption": "Two-stage training of ℛ 3 \\( \\mathcal{R}^{3} \\) . ℛ 3 \\( \\mathcal{R}^{3} \\) trains a high-level VLM to reason in natural language and steer a fixed low-level robot policy for robotic manipulation tasks. ℛ 3 \\( \\mathcal{R}^{3} \\) proceeds in two stages: Stage I (mid-training) imbues an off-the-shelf VLM with the reasoning style and behaviors needed to produce useful instructions for the low-level policy. Stage II (single-step RL) further improves the VLM by training it to generate reasoning traces that match the expert instruction in offline data.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.25937v1",
+      "title": "Candidate supply and answer selection shape the value of LLM judging in multi-agent systems",
+      "authors": [
+        "Jia-Hao Ji",
+        "Sijie Li",
+        "Jiabei Cheng",
+        "Zixi She",
+        "Jin-Tai Yu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "abstract": "This paper investigates how LLM judges can improve multi-agent system (MAS) performance by providing selection pressure on candidate answers. The core method involves conceptualizing MAS reasoning as an evolutionary pipeline and analyzing how LLM judges influence candidate generation, communication, and selection. The main contribution is demonstrating that LLM judges can effectively improve MAS accuracy by supplying a signal of answer correctness, particularly when the MAS itself has the potential to generate correct answers but fails to select them.",
+      "url": "http://arxiv.org/abs/2608.25937v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25937v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.25970v1",
+      "title": "PANDA - Prototype-Anchored Alignment for Partially Unpaired Multimodal Learning, with Applications to Alzheimers MRI and TCGA Pathology",
+      "authors": [
+        "Sheethal Bhat",
+        "Mahfuzur Rahman Chowdhury",
+        "Paula Andrea Perez-Toro",
+        "Stephan Wunderlich",
+        "Rose Dawn Bharat"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "PANDA addresses partially unpaired multimodal learning by first learning a shared embedding and estimating class prototypes from auxiliary modalities on the paired subset. It then trains a primary-modality model on all subjects by aligning its embeddings to these frozen prototypes, enabling information transfer without auxiliary inputs at inference. This method effectively handles arbitrary pairing rates, including zero overlap, making it suitable for real-world scenarios with incomplete multimodal data.",
+      "url": "http://arxiv.org/abs/2608.25970v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25970v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.26088v1",
+      "title": "Planetary Prediction Engine: Autonomous Geospatial Prediction via Intelligent Data Selection and Foundation Model Embeddings",
+      "authors": [
+        "Evelyn Ma",
+        "Rama Kumar Pasumarthi",
+        "Kishwar Shafin",
+        "Mandar Sharma",
+        "Mimi Sun"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "The Planetary Prediction Engine (PPE) is an autonomous AI system that addresses the challenges of building high-fidelity geospatial predictive models. Its core method involves synthesizing multimodal datasets on-the-fly by retrieving relevant data from various platforms and fusing it with foundation model embeddings. The main contribution is its ability to execute this entire workflow, from data retrieval to model selection, directly from natural-language queries, significantly streamlining and automating geospatial prediction.",
+      "url": "http://arxiv.org/abs/2608.26088v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26088v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.26088v1/figures/ppe_workflow.png",
+      "figure_caption": "The Planetary Prediction Engine ’s end-to-end workflow. The system decomposes the predictive workflow into three modular stages: (1) Intelligent data selection, (2) dataset curation, and (3) AutoML & prediction to produce the predictions and report. Off-the-shelf LLMs serve as orchestrators within each stage.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.26036v1",
+      "title": "Trace Integrity for LLM Data Agents: A Vision for Auditable Structured Reasoning in Real-World Systems",
+      "authors": [
+        "Srimonti Dutta",
+        "Akshata Kishore Moharir"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces \"Trace Integrity\" as a crucial reliability criterion for LLM data agents, going beyond simple answer accuracy. It proposes that the computational steps leading to an answer must be explicit, executable, and verifiable. The core contribution is the operationalization of Trace Integrity through \"execution contracts\" and the introduction of the \"CAIT Rate\" to measure the prevalence of correct answers derived from invalid computation.",
+      "url": "http://arxiv.org/abs/2608.26036v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26036v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.26086v1",
+      "title": "TraceML: An Empirical Analysis of Human-Agent Planning in Machine Learning Development",
+      "authors": [
+        "Jiarui Yan",
+        "Weiwei Sun",
+        "Sijie Li",
+        "Wenhan Li",
+        "Yiming Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "TraceML introduces a novel dataset and methodology to analyze the human-agent gap in machine learning development. By meticulously tracking every code version, its associated score, and the intent behind each edit, TraceML reveals that humans iteratively refine data, models, and validation strategies, often revisiting earlier approaches. This empirical analysis provides concrete insights into the causes of current agent limitations in complex, multi-stage ML tasks.",
+      "url": "http://arxiv.org/abs/2608.26086v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26086v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.26105v1",
+      "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
+      "authors": [
+        "Junxiang Xu",
+        "Ruisi Wang",
+        "Fanyi Pu",
+        "Maijunxian Wang",
+        "Ran Ji"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CV",
+        "cs.MM",
+        "cs.RO"
+      ],
+      "abstract": "VBVR-Pro introduces a novel framework for \"native visual reasoning,\" where image and video generation are integral to problem-solving, not just inputs or outputs. Its core method involves a scalable testbed with 300 procedurally generated tasks and verifiable reward scorers. The main contribution is enabling trainable, verifiable, and controllable visual reasoning through generation, demonstrating strong transfer learning to external benchmarks.",
+      "url": "http://arxiv.org/abs/2608.26105v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26105v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.26105v1/figures/teaser/v9.png",
+      "figure_caption": "Overview of VBVR-Pro. VBVR-Pro establishes a closed-loop testbed for native visual reasoning, providing 300 visual reasoning tasks that support controlled studies of image, interleaved, and video generators under a unified task distribution. Its verifiable reward scorers provide reproducible, human-aligned evaluation and further serve as task-grounded reward functions for large-scale multi-task reinforcement learning.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.25941v1",
+      "title": "When Pruning Meets Interpretability: Preserving Sparse Autoencoder Robustness in LLMs",
+      "authors": [
+        "Suchit Gupte",
+        "Xueru Zhang",
+        "Mohammad Mahdi Khalili"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper investigates how model pruning affects the interpretability of Sparse Autoencoders (SAEs) in LLMs. The core contribution is demonstrating that activation-aware pruning methods, unlike magnitude pruning, better preserve SAE functionality by implicitly controlling a theoretical metric called \"perturbation energy.\" The study also identifies middle layers as particularly vulnerable to pruning, leading to a proposed layer-wise sparsity allocation strategy for improved robustness.",
+      "url": "http://arxiv.org/abs/2608.25941v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25941v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.25941v1/fig3.png",
+      "figure_caption": "Figure 2: Heatmap of per-layer, per-method percentage degradation from the dense baseline for gemma-2-2b at 50% sparsity. Each row corresponds to a pruning method; each column to a layer; colour intensity encodes the magnitude of degradation (darker = = larger change). This heatmap presents the same underlying data as Figure 1 , reorganized to expose spatial patterns across the full method × \\( \\times \\) layer grid simultaneously.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.26008v1",
+      "title": "A Self-Evolving Multi-Agent Framework Defense against LLM Jailbreak Attacks",
+      "authors": [
+        "Tongyan Hu",
+        "Bryan Hooi"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces a novel, self-evolving defense framework for LLMs against jailbreak attacks. Its core method involves a persistent rule memory that learns from successful attacks by abstracting them into generalizable, method-level rules. This allows the defense to adapt and defend against new attack strategies without requiring model retraining, significantly improving robustness.",
+      "url": "http://arxiv.org/abs/2608.26008v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26008v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.26008v1/figures/main.png",
+      "figure_caption": "Overview of our self-evolving multi-agent defense framework. A1 (Rule Triggering Agent) classifies the input and retrieves relevant rules; A2 (Policy Decision Agent) determines the response policy; A3 (Response Generation Agent) produces the final output; A4 (Self-Reflection Agent) induces new rules when a violation is detected and updates the rule memory base.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.25999v1",
+      "title": "Distinct dynamics of conceptual and referential disruptions in human reading and large language model processing",
+      "authors": [
+        "Rui He",
+        "Nihal Altay",
+        "Wolfram Hinzen"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how humans and large language models (LLMs) process disruptions in conceptual versus referential meaning. The core method involves introducing specific disruptions to narratives and observing their impact on reading speed in humans and on LLM processing. The key contribution is revealing distinct dynamics: humans show localized costs for conceptual errors and more distributed, boundary-sensitive costs for referential errors, while LLMs exhibit immediate disruptions for both, with surprisal patterns mirroring human conceptual processing.",
+      "url": "http://arxiv.org/abs/2608.25999v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25999v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.25999v1/Fig_1.png",
+      "figure_caption": "Comparability of stimulus versions on whole-story and lexical characteristics. Distributions of (A) whole-story perplexity, (B) mean lexical frequency (Zipf scale), and (C) mean word length across Original, conceptually distorted (CD), and referentially distorted (RD) versions of the 21 stories. Points represent individual stories, with grey connecting lines linking the three matched versions of each story. Pairwise differences were evaluated using Siegel–Castellan comparisons following the corresponding Friedman test. Significance labels indicate FDR-adjusted p p values: n.s., p ≥ 0.05 p\\( \\geq \\) 0.05 ; *, p < 0.05 p<0.05 ; **, p < 0.01 p<0.01 ; ***, p < 0.001 p<0.001 .",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.25944v1",
+      "title": "Unveiling Spectral Mechanisms in Training-Free LLM Text Detection",
+      "authors": [
+        "Haitong Luo",
+        "Xuying Meng",
+        "Weiyao Zhang",
+        "Wenji Zou",
+        "Shengfeng Lou"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces spectral analysis as a novel method for training-free LLM text detection, moving beyond simple confidence scores. It reveals that human writing exhibits \"generative vitality\" characterized by signal fluctuations, which spectral analysis effectively captures by linking frequency-domain indicators to variance in proxy log-probabilities. The contribution lies in theoretically and empirically demonstrating how human token choices create these fluctuations and identifying that this spectral signal is strongest in longer, more constrained generated texts.",
+      "url": "http://arxiv.org/abs/2608.25944v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25944v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.25977v1",
+      "title": "When Personality Meets Quantization: A Layer-wise MBTI Analysis of Quantized LLMs",
+      "authors": [
+        "Yao Fu",
+        "Lijia Huang",
+        "Xiaomin Li",
+        "Runchao Li",
+        "Yu Yin"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates the personality of quantized Large Language Models (LLMs) using the MBTI framework, moving beyond full-precision models and output-level analysis. It introduces a layer-wise examination of personality emergence and a novel method, Uncertainty-Amplified Layer Decoding (UALD), to study how quantization and decoding affect LLM personality. The core contribution is revealing that LLM personality is not static but dynamically shaped by internal layer dynamics and inference-time processes.",
+      "url": "http://arxiv.org/abs/2608.25977v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25977v1",
+      "score": 7.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
