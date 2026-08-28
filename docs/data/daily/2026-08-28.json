@@ -1,0 +1,1033 @@
+{
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T20:59:07.805415+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2608.27345v1",
+          "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
+          "authors": [
+            "Yuandong Pu",
+            "Le Zhuo",
+            "Sayak Paul",
+            "Gabriel Jorge Menezes",
+            "Avram Đorđević"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces PAWBench, a new benchmark designed to evaluate video generation models as \"world models.\" The core method is to assess whether these models can accurately reproduce the *distribution* of possible physical outcomes, not just individual plausible trajectories. The key contribution is formalizing \"probabilistic alignment\" and providing a benchmark to measure how far current models are from achieving this crucial property for true world modeling.",
+          "url": "http://arxiv.org/abs/2608.27345v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.27345v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.27345v1/one_plausible_future.png",
+          "figure_caption": "One plausible future is not enough. A single rollout from a video generation model can appear physically plausible, yet repeated rollouts from the same initial observation and action may reveal a probabilistically unaligned world: outcomes concentrate on a narrow subset of futures instead of matching the valid stochastic support. PAWBench evaluates this induced distribution or support over repeated futures, rather than judging a model by one sampled video.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.27439v1",
+          "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+          "authors": [
+            "Junjie Zhang",
+            "Hui Liu",
+            "Kecheng Chen",
+            "Xianbo Mo",
+            "Changsheng Chen"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "RedEvoAgent addresses the limitations of fixed attacks and trajectory-based retrieval in LLM red-teaming. Its core method distills complex attack trajectories into concise, human-readable \"attack skills\" that adaptively evolve. This evolution is driven by profiling tool effectiveness and attributing credit for successful attacks, ensuring only performance-improving updates are retained, leading to more efficient and interpretable red-teaming.",
+          "url": "http://arxiv.org/abs/2608.27439v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.27439v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.27439v1/fig1_overview.png",
+          "figure_caption": "RedEvoAgent overview. Given a jailbreak prompt, the attacker agent uses the current attack skill to select and call tools from an extensible attack toolbox, such as GCG and FlipAttack, and iteratively attacks a product-level target agent. On the training split, RedEvoAgent collects successful and failed attack trajectories and independently evaluates each attack tool to build a tool-effectiveness profile. Skill evolution combines the profile with these trajectories to extract tool priorities and attack strategies. A candidate attack skill update is accepted only if it improves attack performance on the validation split, while the test split remains locked for final evaluation.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.27348v1",
+          "title": "INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment",
+          "authors": [
+            "Yutong Zhang",
+            "Jianshuo Dong",
+            "Peng Xu",
+            "Long Wang",
+            "Jie Zhang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces INTENT-AS-A-TOOL, a method to track agentic misalignment in LLMs by giving them dedicated \"intent tools\" to express commitment to target behaviors. This approach provides a fine-grained, judge-free signal of the model's tendency towards specific actions, complementing existing chain-of-thought monitoring. The contribution lies in enabling more precise identification of critical moments for intervention during agent execution.",
+          "url": "http://arxiv.org/abs/2608.27348v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.27348v1",
+          "score": 8.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.27406v1",
+          "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
+          "authors": [
+            "Kechen Liu",
+            "Ola Shorinwa"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV",
+            "cs.RO"
+          ],
+          "abstract": "CLAP is a framework for training action-conditioned video generation models on diverse human and robotic videos. Its core method reconciles varying action representations (end-effector poses, language, latent actions) to learn universal physical laws. This allows CLAP to act as a zero-shot physical simulator, generalizing beyond single robot embodiments.",
+          "url": "http://arxiv.org/abs/2608.27406v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.27406v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.27406v1/teaser.png",
+          "figure_caption": "We introduce CLAP , a cross-embodiment learning framework that trains action-conditioned video models on diverse human and robot video data to learn fundamental physical priors that are critical for fine-grained dynamics prediction.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.27266v1",
+          "title": "Naive Prompt Optimization: Rethinking the Need for Complex Prompt Search",
+          "authors": [
+            "Yuan Chang",
+            "Xiaoqi Chen"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Naive Prompt Optimization (NPO), a simple, single-lineage method for improving AI agent prompts. NPO uses a teacher model with feedback to iteratively revise prompts, achieving comparable or better performance than complex methods with fewer computational resources. Its success highlights that stronger teacher model reasoning can reduce the need for complex prompt search strategies.",
+          "url": "http://arxiv.org/abs/2608.27266v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.27266v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.27427v1",
+          "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
+          "authors": [
+            "Yisen Xi"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.SE"
+          ],
+          "abstract": "This paper introduces Persona-Execution Separation (PES), an architectural pattern for LLM agents. PES separates the agent's evolving persona from its stateful, auditable execution into distinct trust domains. This allows for flexible persona changes while ensuring traceable and secure execution, addressing the conflict between free persona evolution and strict execution auditing.",
+          "url": "http://arxiv.org/abs/2608.27427v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.27427v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.27364v1",
+          "title": "Sophistication in GenAI Use: Field Evidence from a Large Firm",
+          "authors": [
+            "Nicholas J. Hallman",
+            "Zachary T. Kowaleski",
+            "Anu Puvvada",
+            "Jaime J. Schmidt"
+          ],
+          "categories": [
+            "cs.AI",
+            "econ.GN"
+          ],
+          "abstract": "This paper analyzes sophisticated generative AI (genAI) use among back-office employees in a large firm, using extensive prompt data. It finds that senior employees and those in strategy-focused roles demonstrate higher sophistication, suggesting expertise and strategic alignment are key. The study also highlights that improving sophisticated genAI use is challenging, with no significant gains observed over time or after formal training.",
+          "url": "http://arxiv.org/abs/2608.27364v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.27364v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.27367v1",
+          "title": "Successive Capacity Growth: Task-Complexity-Driven Width and Depth Expansion for Vision Transformer Encoders in JEPA World Models",
+          "authors": [
+            "Frederik Berenz"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces Successive Capacity Growth (SCG), a method to dynamically expand Vision Transformer encoders in JEPA world models. SCG incrementally increases encoder width or depth based on task complexity, starting from a minimal architecture and safely trialing changes to optimize prediction loss. This approach addresses the inefficiency of fixed-size encoders, leading to more adaptable and performant world models.",
+          "url": "http://arxiv.org/abs/2608.27367v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.27367v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.27367v1/architecture_growth_two_room_42.png",
+          "figure_caption": "Upper: Two-Room seed 42. Width expansion (d_model 64 → \\( \\to \\) 128) at epoch ∼ \\( \\sim \\) 15, triggered by prediction loss plateau. Lower: 30-Object seed 3072. Depth expansion (2 → \\( \\to \\) 3 layers) at epoch ∼ \\( \\sim \\) 20, triggered by prediction loss plateau. Green dashed lines mark kept expansions, red dashed lines mark roll backed expansions, black dashed lines mark converged models.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.27449v1",
+          "title": "SWE-Prime: Fewer Trajectories, Better Performance",
+          "authors": [
+            "Dewu Zheng",
+            "Ruizhe Ye",
+            "Yanlin Wang",
+            "Yang Ye",
+            "Hongyu Zhang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.SE"
+          ],
+          "abstract": "SWE-Prime addresses the issue of noisy supervision in LLM training for software issue resolution by introducing a two-stage data selection method. It first filters entire successful trajectories based on quality and representativeness, then refines this by selecting high-quality segments of actions within those trajectories. This approach aims to improve LLM performance by focusing on effective problem-solving behaviors and reducing imitation of undesirable steps.",
+          "url": "http://arxiv.org/abs/2608.27449v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.27449v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.27449v1/motivating-example.png",
+          "figure_caption": "Motivating example comparing outcome-only, trajectory-level, and segment-level data selection.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.27260v1",
+          "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents",
+          "authors": [
+            "Xingshan Zeng",
+            "Zishan Xu",
+            "Boju Zhang",
+            "Yuzhou Wu",
+            "Lingzhi Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper proposes a unified framework for generating high-quality data for LLM agents. It represents agentic data as a structured object $(E,q,τ,v)$ and organizes generation methods based on their core components. The authors then introduce the ACE lens (Accuracy-Complexity-divErsity) to guide data generation, ensuring it is both effective and diverse.",
+          "url": "http://arxiv.org/abs/2608.27260v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.27260v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.27260v1/ace_lens.png",
+          "figure_caption": "The ACE lens views agentic data generation as constrained distribution design: Accuracy defines valid support, while learner-relative Complexity and Diversity shape useful, non-redundant experience over ( E , q , τ , v ) (E,q,\\( \\tau \\),v) .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.27454v1",
+          "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+          "authors": [
+            "Liyan Tang",
+            "Cyrus Rashtchian",
+            "Chun-Sung Ferng",
+            "Andrew Tomkins",
+            "Da-Cheng Juan"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "WikiSkill addresses the issue of scattered agent experience by introducing a persistent knowledge base (wiki) that co-evolves with agent skills. This framework consolidates raw experience into the wiki, allowing subsequent skill updates to build upon accumulated knowledge, leading to more systematic skill evolution. WikiSkill consistently outperforms existing methods by enabling agents to learn and reuse insights across iterations.",
+          "url": "http://arxiv.org/abs/2608.27454v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.27454v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.27409v1",
+          "title": "Consolidating RLVR Capabilities Across Domains: A Deep Dive into Fusion Paradigms",
+          "authors": [
+            "Siye Wu",
+            "Kai Yang",
+            "Yuchen Cai",
+            "Xin Xu",
+            "Peng-Yuan Wang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates three methods for combining Reinforcement Learning with Verifiable Rewards (RLVR) capabilities in large language models: Merge, Mix RL, and Multi-Teacher On-Policy Distillation (MOPD). By comparing these paradigms on a multi-domain benchmark, the authors reveal that while average performance differences are small, significant variations exist across specific tasks, influenced by cross-domain relationships. The study clarifies how to select the most suitable fusion method based on these dynamics and observed constraints.",
+          "url": "http://arxiv.org/abs/2608.27409v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.27409v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.27409v1/intro2.png",
+          "figure_caption": "Three paradigms for consolidating domain-specific capabilities acquired through RLVR into one model. Merge combines expert task vectors, Mix RL trains jointly on mixed-domain data, and MOPD draws on both through multi-teacher on-policy distillation.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.27455v1",
+          "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+          "authors": [
+            "Yufan Wu",
+            "Yinghui He",
+            "Zhengyi Hu",
+            "Lang Wei",
+            "Ruichen Li"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "CritICL is an inference-time framework that improves LLM reasoning by leveraging structured failure patterns observed across different model scales. Instead of discarding weak model failures, CritICL uses them as guidance through critique-based in-context examples, enhancing efficiency and performance.",
+          "url": "http://arxiv.org/abs/2608.27455v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.27455v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.27455v1/design.png",
+          "figure_caption": "CritICL is a two-stage, inference-time W2SG method. Stage 1: Construct CritBank. We use SLMs to generate responses and reasoning on a dataset. Then we leverage a frontier LLM to produce critiques and assigns failure mode labels. Stage 2: Perform LLM inference with CritICL. For a given query, CritICL-static constructs model-specific failure mode profiles from CritBank, while CritICL-dynamic identifies failure modes relevant to the query. We then performs failure mode-based in-context sample selection from CritBank to provide in-context examples for target LLMs.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.27448v1",
+          "title": "TTPO: Test-Time Policy Optimization",
+          "authors": [
+            "Aozhe Wang",
+            "Zhengxi Lu",
+            "Jianze Wang",
+            "Shangke Lv",
+            "Ying Liu"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "TTPO addresses the limitation of test-time training in LLMs by proposing an asymmetric objective. It leverages agreeing rollouts for distillation and penalizes disagreeing rollouts with Grouped RL, while token-level selection refines both processes. This method enables effective test-time adaptation without relying on ground-truth labels.",
+          "url": "http://arxiv.org/abs/2608.27448v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.27448v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.27448v1/intro.png",
+          "figure_caption": "(a) Motivation: When pseudo-labels are wrong, most disagreeing rollouts are genuinely wrong too, during Qwen3-1.7B TTT on AIME 2026. (b) Overview of TTPO . (c) Performance: Average accuracy of Qwen3-1.7B across AIME 2026, HMMT 2026, and BRUMO 2025.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 21,
+        "papers_after_llm_filter": 14,
+        "count": 14
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Postdoctoral Researcher/Research Associate - DigiStent, 1 FTE, School of Engineering, 011947",
+          "url": "https://euraxess.ec.europa.eu/jobs/462373",
+          "description": "Applications are invited from suitably qualified candidates for a full-time, fixed term position as a Postdoctoral Researcher/Research Associate with the Translational Medical Device Lab at the University of Galway, Ireland. The Translational Medical Device Lab (TMD Lab) at University of Galway is... * Work Locations: Number of offers: 1, Ireland, University of Galway Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Computer engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A172) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 11 Sep 2026 - 17:00 (Europe/London) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Spain * [agencia estatal consejo superior de investigaciones cientificas](https://euraxess.ec.europa.eu/partnering/organisations/profile/agencia-estatal-consejo-superior-de-investigaciones-cientificas-24) * [Field: Engineering]",
+          "institution": "",
+          "posted_date": "28 August 2026",
+          "deadline": "11 Sep 2026 - 17:00 (Europe/London)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Engineering, Computer Engineering (specifically Translational Medical Device Lab)\nKey Requirements: Suitably qualified candidates, Recognised Researcher (R2) profile\nApplication Info: deadline 11 Sep 2026 - 17:00 (Europe/London), required materials N/A, contact N/A\nPosition Details: Ireland, University of Galway, full-time, fixed term, 1 FTE, salary N/A\nOne-line Advice: N/A",
+          "relevance_score": 8.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 1
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 21,
+    "papers_after_llm_filter": 14,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 50
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2608.27345v1",
+      "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
+      "authors": [
+        "Yuandong Pu",
+        "Le Zhuo",
+        "Sayak Paul",
+        "Gabriel Jorge Menezes",
+        "Avram Đorđević"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces PAWBench, a new benchmark designed to evaluate video generation models as \"world models.\" The core method is to assess whether these models can accurately reproduce the *distribution* of possible physical outcomes, not just individual plausible trajectories. The key contribution is formalizing \"probabilistic alignment\" and providing a benchmark to measure how far current models are from achieving this crucial property for true world modeling.",
+      "url": "http://arxiv.org/abs/2608.27345v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27345v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.27345v1/one_plausible_future.png",
+      "figure_caption": "One plausible future is not enough. A single rollout from a video generation model can appear physically plausible, yet repeated rollouts from the same initial observation and action may reveal a probabilistically unaligned world: outcomes concentrate on a narrow subset of futures instead of matching the valid stochastic support. PAWBench evaluates this induced distribution or support over repeated futures, rather than judging a model by one sampled video.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27439v1",
+      "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+      "authors": [
+        "Junjie Zhang",
+        "Hui Liu",
+        "Kecheng Chen",
+        "Xianbo Mo",
+        "Changsheng Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "RedEvoAgent addresses the limitations of fixed attacks and trajectory-based retrieval in LLM red-teaming. Its core method distills complex attack trajectories into concise, human-readable \"attack skills\" that adaptively evolve. This evolution is driven by profiling tool effectiveness and attributing credit for successful attacks, ensuring only performance-improving updates are retained, leading to more efficient and interpretable red-teaming.",
+      "url": "http://arxiv.org/abs/2608.27439v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27439v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.27439v1/fig1_overview.png",
+      "figure_caption": "RedEvoAgent overview. Given a jailbreak prompt, the attacker agent uses the current attack skill to select and call tools from an extensible attack toolbox, such as GCG and FlipAttack, and iteratively attacks a product-level target agent. On the training split, RedEvoAgent collects successful and failed attack trajectories and independently evaluates each attack tool to build a tool-effectiveness profile. Skill evolution combines the profile with these trajectories to extract tool priorities and attack strategies. A candidate attack skill update is accepted only if it improves attack performance on the validation split, while the test split remains locked for final evaluation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27348v1",
+      "title": "INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment",
+      "authors": [
+        "Yutong Zhang",
+        "Jianshuo Dong",
+        "Peng Xu",
+        "Long Wang",
+        "Jie Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces INTENT-AS-A-TOOL, a method to track agentic misalignment in LLMs by giving them dedicated \"intent tools\" to express commitment to target behaviors. This approach provides a fine-grained, judge-free signal of the model's tendency towards specific actions, complementing existing chain-of-thought monitoring. The contribution lies in enabling more precise identification of critical moments for intervention during agent execution.",
+      "url": "http://arxiv.org/abs/2608.27348v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27348v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.27406v1",
+      "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
+      "authors": [
+        "Kechen Liu",
+        "Ola Shorinwa"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "CLAP is a framework for training action-conditioned video generation models on diverse human and robotic videos. Its core method reconciles varying action representations (end-effector poses, language, latent actions) to learn universal physical laws. This allows CLAP to act as a zero-shot physical simulator, generalizing beyond single robot embodiments.",
+      "url": "http://arxiv.org/abs/2608.27406v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27406v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.27406v1/teaser.png",
+      "figure_caption": "We introduce CLAP , a cross-embodiment learning framework that trains action-conditioned video models on diverse human and robot video data to learn fundamental physical priors that are critical for fine-grained dynamics prediction.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27266v1",
+      "title": "Naive Prompt Optimization: Rethinking the Need for Complex Prompt Search",
+      "authors": [
+        "Yuan Chang",
+        "Xiaoqi Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Naive Prompt Optimization (NPO), a simple, single-lineage method for improving AI agent prompts. NPO uses a teacher model with feedback to iteratively revise prompts, achieving comparable or better performance than complex methods with fewer computational resources. Its success highlights that stronger teacher model reasoning can reduce the need for complex prompt search strategies.",
+      "url": "http://arxiv.org/abs/2608.27266v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27266v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27427v1",
+      "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
+      "authors": [
+        "Yisen Xi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces Persona-Execution Separation (PES), an architectural pattern for LLM agents. PES separates the agent's evolving persona from its stateful, auditable execution into distinct trust domains. This allows for flexible persona changes while ensuring traceable and secure execution, addressing the conflict between free persona evolution and strict execution auditing.",
+      "url": "http://arxiv.org/abs/2608.27427v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27427v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27364v1",
+      "title": "Sophistication in GenAI Use: Field Evidence from a Large Firm",
+      "authors": [
+        "Nicholas J. Hallman",
+        "Zachary T. Kowaleski",
+        "Anu Puvvada",
+        "Jaime J. Schmidt"
+      ],
+      "categories": [
+        "cs.AI",
+        "econ.GN"
+      ],
+      "abstract": "This paper analyzes sophisticated generative AI (genAI) use among back-office employees in a large firm, using extensive prompt data. It finds that senior employees and those in strategy-focused roles demonstrate higher sophistication, suggesting expertise and strategic alignment are key. The study also highlights that improving sophisticated genAI use is challenging, with no significant gains observed over time or after formal training.",
+      "url": "http://arxiv.org/abs/2608.27364v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27364v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27367v1",
+      "title": "Successive Capacity Growth: Task-Complexity-Driven Width and Depth Expansion for Vision Transformer Encoders in JEPA World Models",
+      "authors": [
+        "Frederik Berenz"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces Successive Capacity Growth (SCG), a method to dynamically expand Vision Transformer encoders in JEPA world models. SCG incrementally increases encoder width or depth based on task complexity, starting from a minimal architecture and safely trialing changes to optimize prediction loss. This approach addresses the inefficiency of fixed-size encoders, leading to more adaptable and performant world models.",
+      "url": "http://arxiv.org/abs/2608.27367v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27367v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.27367v1/architecture_growth_two_room_42.png",
+      "figure_caption": "Upper: Two-Room seed 42. Width expansion (d_model 64 → \\( \\to \\) 128) at epoch ∼ \\( \\sim \\) 15, triggered by prediction loss plateau. Lower: 30-Object seed 3072. Depth expansion (2 → \\( \\to \\) 3 layers) at epoch ∼ \\( \\sim \\) 20, triggered by prediction loss plateau. Green dashed lines mark kept expansions, red dashed lines mark roll backed expansions, black dashed lines mark converged models.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27449v1",
+      "title": "SWE-Prime: Fewer Trajectories, Better Performance",
+      "authors": [
+        "Dewu Zheng",
+        "Ruizhe Ye",
+        "Yanlin Wang",
+        "Yang Ye",
+        "Hongyu Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "SWE-Prime addresses the issue of noisy supervision in LLM training for software issue resolution by introducing a two-stage data selection method. It first filters entire successful trajectories based on quality and representativeness, then refines this by selecting high-quality segments of actions within those trajectories. This approach aims to improve LLM performance by focusing on effective problem-solving behaviors and reducing imitation of undesirable steps.",
+      "url": "http://arxiv.org/abs/2608.27449v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27449v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.27449v1/motivating-example.png",
+      "figure_caption": "Motivating example comparing outcome-only, trajectory-level, and segment-level data selection.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27260v1",
+      "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents",
+      "authors": [
+        "Xingshan Zeng",
+        "Zishan Xu",
+        "Boju Zhang",
+        "Yuzhou Wu",
+        "Lingzhi Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes a unified framework for generating high-quality data for LLM agents. It represents agentic data as a structured object $(E,q,τ,v)$ and organizes generation methods based on their core components. The authors then introduce the ACE lens (Accuracy-Complexity-divErsity) to guide data generation, ensuring it is both effective and diverse.",
+      "url": "http://arxiv.org/abs/2608.27260v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27260v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.27260v1/ace_lens.png",
+      "figure_caption": "The ACE lens views agentic data generation as constrained distribution design: Accuracy defines valid support, while learner-relative Complexity and Diversity shape useful, non-redundant experience over ( E , q , τ , v ) (E,q,\\( \\tau \\),v) .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27454v1",
+      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+      "authors": [
+        "Liyan Tang",
+        "Cyrus Rashtchian",
+        "Chun-Sung Ferng",
+        "Andrew Tomkins",
+        "Da-Cheng Juan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "WikiSkill addresses the issue of scattered agent experience by introducing a persistent knowledge base (wiki) that co-evolves with agent skills. This framework consolidates raw experience into the wiki, allowing subsequent skill updates to build upon accumulated knowledge, leading to more systematic skill evolution. WikiSkill consistently outperforms existing methods by enabling agents to learn and reuse insights across iterations.",
+      "url": "http://arxiv.org/abs/2608.27454v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27454v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27409v1",
+      "title": "Consolidating RLVR Capabilities Across Domains: A Deep Dive into Fusion Paradigms",
+      "authors": [
+        "Siye Wu",
+        "Kai Yang",
+        "Yuchen Cai",
+        "Xin Xu",
+        "Peng-Yuan Wang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates three methods for combining Reinforcement Learning with Verifiable Rewards (RLVR) capabilities in large language models: Merge, Mix RL, and Multi-Teacher On-Policy Distillation (MOPD). By comparing these paradigms on a multi-domain benchmark, the authors reveal that while average performance differences are small, significant variations exist across specific tasks, influenced by cross-domain relationships. The study clarifies how to select the most suitable fusion method based on these dynamics and observed constraints.",
+      "url": "http://arxiv.org/abs/2608.27409v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27409v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.27409v1/intro2.png",
+      "figure_caption": "Three paradigms for consolidating domain-specific capabilities acquired through RLVR into one model. Merge combines expert task vectors, Mix RL trains jointly on mixed-domain data, and MOPD draws on both through multi-teacher on-policy distillation.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.27455v1",
+      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+      "authors": [
+        "Yufan Wu",
+        "Yinghui He",
+        "Zhengyi Hu",
+        "Lang Wei",
+        "Ruichen Li"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "CritICL is an inference-time framework that improves LLM reasoning by leveraging structured failure patterns observed across different model scales. Instead of discarding weak model failures, CritICL uses them as guidance through critique-based in-context examples, enhancing efficiency and performance.",
+      "url": "http://arxiv.org/abs/2608.27455v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27455v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.27455v1/design.png",
+      "figure_caption": "CritICL is a two-stage, inference-time W2SG method. Stage 1: Construct CritBank. We use SLMs to generate responses and reasoning on a dataset. Then we leverage a frontier LLM to produce critiques and assigns failure mode labels. Stage 2: Perform LLM inference with CritICL. For a given query, CritICL-static constructs model-specific failure mode profiles from CritBank, while CritICL-dynamic identifies failure modes relevant to the query. We then performs failure mode-based in-context sample selection from CritBank to provide in-context examples for target LLMs.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.27448v1",
+      "title": "TTPO: Test-Time Policy Optimization",
+      "authors": [
+        "Aozhe Wang",
+        "Zhengxi Lu",
+        "Jianze Wang",
+        "Shangke Lv",
+        "Ying Liu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "TTPO addresses the limitation of test-time training in LLMs by proposing an asymmetric objective. It leverages agreeing rollouts for distillation and penalizes disagreeing rollouts with Grouped RL, while token-level selection refines both processes. This method enables effective test-time adaptation without relying on ground-truth labels.",
+      "url": "http://arxiv.org/abs/2608.27448v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27448v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.27448v1/intro.png",
+      "figure_caption": "(a) Motivation: When pseudo-labels are wrong, most disagreeing rollouts are genuinely wrong too, during Qwen3-1.7B TTT on AIME 2026. (b) Overview of TTPO . (c) Performance: Average accuracy of Qwen3-1.7B across AIME 2026, HMMT 2026, and BRUMO 2025.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2608.27345v1",
+      "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
+      "authors": [
+        "Yuandong Pu",
+        "Le Zhuo",
+        "Sayak Paul",
+        "Gabriel Jorge Menezes",
+        "Avram Đorđević"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces PAWBench, a new benchmark designed to evaluate video generation models as \"world models.\" The core method is to assess whether these models can accurately reproduce the *distribution* of possible physical outcomes, not just individual plausible trajectories. The key contribution is formalizing \"probabilistic alignment\" and providing a benchmark to measure how far current models are from achieving this crucial property for true world modeling.",
+      "url": "http://arxiv.org/abs/2608.27345v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27345v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.27345v1/one_plausible_future.png",
+      "figure_caption": "One plausible future is not enough. A single rollout from a video generation model can appear physically plausible, yet repeated rollouts from the same initial observation and action may reveal a probabilistically unaligned world: outcomes concentrate on a narrow subset of futures instead of matching the valid stochastic support. PAWBench evaluates this induced distribution or support over repeated futures, rather than judging a model by one sampled video.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27439v1",
+      "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+      "authors": [
+        "Junjie Zhang",
+        "Hui Liu",
+        "Kecheng Chen",
+        "Xianbo Mo",
+        "Changsheng Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "RedEvoAgent addresses the limitations of fixed attacks and trajectory-based retrieval in LLM red-teaming. Its core method distills complex attack trajectories into concise, human-readable \"attack skills\" that adaptively evolve. This evolution is driven by profiling tool effectiveness and attributing credit for successful attacks, ensuring only performance-improving updates are retained, leading to more efficient and interpretable red-teaming.",
+      "url": "http://arxiv.org/abs/2608.27439v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27439v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.27439v1/fig1_overview.png",
+      "figure_caption": "RedEvoAgent overview. Given a jailbreak prompt, the attacker agent uses the current attack skill to select and call tools from an extensible attack toolbox, such as GCG and FlipAttack, and iteratively attacks a product-level target agent. On the training split, RedEvoAgent collects successful and failed attack trajectories and independently evaluates each attack tool to build a tool-effectiveness profile. Skill evolution combines the profile with these trajectories to extract tool priorities and attack strategies. A candidate attack skill update is accepted only if it improves attack performance on the validation split, while the test split remains locked for final evaluation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27348v1",
+      "title": "INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment",
+      "authors": [
+        "Yutong Zhang",
+        "Jianshuo Dong",
+        "Peng Xu",
+        "Long Wang",
+        "Jie Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces INTENT-AS-A-TOOL, a method to track agentic misalignment in LLMs by giving them dedicated \"intent tools\" to express commitment to target behaviors. This approach provides a fine-grained, judge-free signal of the model's tendency towards specific actions, complementing existing chain-of-thought monitoring. The contribution lies in enabling more precise identification of critical moments for intervention during agent execution.",
+      "url": "http://arxiv.org/abs/2608.27348v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27348v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.27406v1",
+      "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
+      "authors": [
+        "Kechen Liu",
+        "Ola Shorinwa"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "CLAP is a framework for training action-conditioned video generation models on diverse human and robotic videos. Its core method reconciles varying action representations (end-effector poses, language, latent actions) to learn universal physical laws. This allows CLAP to act as a zero-shot physical simulator, generalizing beyond single robot embodiments.",
+      "url": "http://arxiv.org/abs/2608.27406v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27406v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.27406v1/teaser.png",
+      "figure_caption": "We introduce CLAP , a cross-embodiment learning framework that trains action-conditioned video models on diverse human and robot video data to learn fundamental physical priors that are critical for fine-grained dynamics prediction.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27266v1",
+      "title": "Naive Prompt Optimization: Rethinking the Need for Complex Prompt Search",
+      "authors": [
+        "Yuan Chang",
+        "Xiaoqi Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Naive Prompt Optimization (NPO), a simple, single-lineage method for improving AI agent prompts. NPO uses a teacher model with feedback to iteratively revise prompts, achieving comparable or better performance than complex methods with fewer computational resources. Its success highlights that stronger teacher model reasoning can reduce the need for complex prompt search strategies.",
+      "url": "http://arxiv.org/abs/2608.27266v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27266v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27427v1",
+      "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
+      "authors": [
+        "Yisen Xi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces Persona-Execution Separation (PES), an architectural pattern for LLM agents. PES separates the agent's evolving persona from its stateful, auditable execution into distinct trust domains. This allows for flexible persona changes while ensuring traceable and secure execution, addressing the conflict between free persona evolution and strict execution auditing.",
+      "url": "http://arxiv.org/abs/2608.27427v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27427v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27364v1",
+      "title": "Sophistication in GenAI Use: Field Evidence from a Large Firm",
+      "authors": [
+        "Nicholas J. Hallman",
+        "Zachary T. Kowaleski",
+        "Anu Puvvada",
+        "Jaime J. Schmidt"
+      ],
+      "categories": [
+        "cs.AI",
+        "econ.GN"
+      ],
+      "abstract": "This paper analyzes sophisticated generative AI (genAI) use among back-office employees in a large firm, using extensive prompt data. It finds that senior employees and those in strategy-focused roles demonstrate higher sophistication, suggesting expertise and strategic alignment are key. The study also highlights that improving sophisticated genAI use is challenging, with no significant gains observed over time or after formal training.",
+      "url": "http://arxiv.org/abs/2608.27364v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27364v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27367v1",
+      "title": "Successive Capacity Growth: Task-Complexity-Driven Width and Depth Expansion for Vision Transformer Encoders in JEPA World Models",
+      "authors": [
+        "Frederik Berenz"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces Successive Capacity Growth (SCG), a method to dynamically expand Vision Transformer encoders in JEPA world models. SCG incrementally increases encoder width or depth based on task complexity, starting from a minimal architecture and safely trialing changes to optimize prediction loss. This approach addresses the inefficiency of fixed-size encoders, leading to more adaptable and performant world models.",
+      "url": "http://arxiv.org/abs/2608.27367v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27367v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.27367v1/architecture_growth_two_room_42.png",
+      "figure_caption": "Upper: Two-Room seed 42. Width expansion (d_model 64 → \\( \\to \\) 128) at epoch ∼ \\( \\sim \\) 15, triggered by prediction loss plateau. Lower: 30-Object seed 3072. Depth expansion (2 → \\( \\to \\) 3 layers) at epoch ∼ \\( \\sim \\) 20, triggered by prediction loss plateau. Green dashed lines mark kept expansions, red dashed lines mark roll backed expansions, black dashed lines mark converged models.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27449v1",
+      "title": "SWE-Prime: Fewer Trajectories, Better Performance",
+      "authors": [
+        "Dewu Zheng",
+        "Ruizhe Ye",
+        "Yanlin Wang",
+        "Yang Ye",
+        "Hongyu Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "SWE-Prime addresses the issue of noisy supervision in LLM training for software issue resolution by introducing a two-stage data selection method. It first filters entire successful trajectories based on quality and representativeness, then refines this by selecting high-quality segments of actions within those trajectories. This approach aims to improve LLM performance by focusing on effective problem-solving behaviors and reducing imitation of undesirable steps.",
+      "url": "http://arxiv.org/abs/2608.27449v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27449v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.27449v1/motivating-example.png",
+      "figure_caption": "Motivating example comparing outcome-only, trajectory-level, and segment-level data selection.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27260v1",
+      "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents",
+      "authors": [
+        "Xingshan Zeng",
+        "Zishan Xu",
+        "Boju Zhang",
+        "Yuzhou Wu",
+        "Lingzhi Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes a unified framework for generating high-quality data for LLM agents. It represents agentic data as a structured object $(E,q,τ,v)$ and organizes generation methods based on their core components. The authors then introduce the ACE lens (Accuracy-Complexity-divErsity) to guide data generation, ensuring it is both effective and diverse.",
+      "url": "http://arxiv.org/abs/2608.27260v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27260v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.27260v1/ace_lens.png",
+      "figure_caption": "The ACE lens views agentic data generation as constrained distribution design: Accuracy defines valid support, while learner-relative Complexity and Diversity shape useful, non-redundant experience over ( E , q , τ , v ) (E,q,\\( \\tau \\),v) .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27454v1",
+      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+      "authors": [
+        "Liyan Tang",
+        "Cyrus Rashtchian",
+        "Chun-Sung Ferng",
+        "Andrew Tomkins",
+        "Da-Cheng Juan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "WikiSkill addresses the issue of scattered agent experience by introducing a persistent knowledge base (wiki) that co-evolves with agent skills. This framework consolidates raw experience into the wiki, allowing subsequent skill updates to build upon accumulated knowledge, leading to more systematic skill evolution. WikiSkill consistently outperforms existing methods by enabling agents to learn and reuse insights across iterations.",
+      "url": "http://arxiv.org/abs/2608.27454v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27454v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.27409v1",
+      "title": "Consolidating RLVR Capabilities Across Domains: A Deep Dive into Fusion Paradigms",
+      "authors": [
+        "Siye Wu",
+        "Kai Yang",
+        "Yuchen Cai",
+        "Xin Xu",
+        "Peng-Yuan Wang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates three methods for combining Reinforcement Learning with Verifiable Rewards (RLVR) capabilities in large language models: Merge, Mix RL, and Multi-Teacher On-Policy Distillation (MOPD). By comparing these paradigms on a multi-domain benchmark, the authors reveal that while average performance differences are small, significant variations exist across specific tasks, influenced by cross-domain relationships. The study clarifies how to select the most suitable fusion method based on these dynamics and observed constraints.",
+      "url": "http://arxiv.org/abs/2608.27409v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27409v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.27409v1/intro2.png",
+      "figure_caption": "Three paradigms for consolidating domain-specific capabilities acquired through RLVR into one model. Merge combines expert task vectors, Mix RL trains jointly on mixed-domain data, and MOPD draws on both through multi-teacher on-policy distillation.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.27455v1",
+      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+      "authors": [
+        "Yufan Wu",
+        "Yinghui He",
+        "Zhengyi Hu",
+        "Lang Wei",
+        "Ruichen Li"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "CritICL is an inference-time framework that improves LLM reasoning by leveraging structured failure patterns observed across different model scales. Instead of discarding weak model failures, CritICL uses them as guidance through critique-based in-context examples, enhancing efficiency and performance.",
+      "url": "http://arxiv.org/abs/2608.27455v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27455v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.27455v1/design.png",
+      "figure_caption": "CritICL is a two-stage, inference-time W2SG method. Stage 1: Construct CritBank. We use SLMs to generate responses and reasoning on a dataset. Then we leverage a frontier LLM to produce critiques and assigns failure mode labels. Stage 2: Perform LLM inference with CritICL. For a given query, CritICL-static constructs model-specific failure mode profiles from CritBank, while CritICL-dynamic identifies failure modes relevant to the query. We then performs failure mode-based in-context sample selection from CritBank to provide in-context examples for target LLMs.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.27448v1",
+      "title": "TTPO: Test-Time Policy Optimization",
+      "authors": [
+        "Aozhe Wang",
+        "Zhengxi Lu",
+        "Jianze Wang",
+        "Shangke Lv",
+        "Ying Liu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "TTPO addresses the limitation of test-time training in LLMs by proposing an asymmetric objective. It leverages agreeing rollouts for distillation and penalizes disagreeing rollouts with Grouped RL, while token-level selection refines both processes. This method enables effective test-time adaptation without relying on ground-truth labels.",
+      "url": "http://arxiv.org/abs/2608.27448v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27448v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.27448v1/intro.png",
+      "figure_caption": "(a) Motivation: When pseudo-labels are wrong, most disagreeing rollouts are genuinely wrong too, during Qwen3-1.7B TTT on AIME 2026. (b) Overview of TTPO . (c) Performance: Average accuracy of Qwen3-1.7B across AIME 2026, HMMT 2026, and BRUMO 2025.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Postdoctoral Researcher/Research Associate - DigiStent, 1 FTE, School of Engineering, 011947",
+      "url": "https://euraxess.ec.europa.eu/jobs/462373",
+      "description": "Applications are invited from suitably qualified candidates for a full-time, fixed term position as a Postdoctoral Researcher/Research Associate with the Translational Medical Device Lab at the University of Galway, Ireland. The Translational Medical Device Lab (TMD Lab) at University of Galway is... * Work Locations: Number of offers: 1, Ireland, University of Galway Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Computer engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A172) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 11 Sep 2026 - 17:00 (Europe/London) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Spain * [agencia estatal consejo superior de investigaciones cientificas](https://euraxess.ec.europa.eu/partnering/organisations/profile/agencia-estatal-consejo-superior-de-investigaciones-cientificas-24) * [Field: Engineering]",
+      "institution": "",
+      "posted_date": "28 August 2026",
+      "deadline": "11 Sep 2026 - 17:00 (Europe/London)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Engineering, Computer Engineering (specifically Translational Medical Device Lab)\nKey Requirements: Suitably qualified candidates, Recognised Researcher (R2) profile\nApplication Info: deadline 11 Sep 2026 - 17:00 (Europe/London), required materials N/A, contact N/A\nPosition Details: Ireland, University of Galway, full-time, fixed term, 1 FTE, salary N/A\nOne-line Advice: N/A",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Postdoctoral Researcher/Research Associate - DigiStent, 1 FTE, School of Engineering, 011947",
+      "url": "https://euraxess.ec.europa.eu/jobs/462373",
+      "description": "Applications are invited from suitably qualified candidates for a full-time, fixed term position as a Postdoctoral Researcher/Research Associate with the Translational Medical Device Lab at the University of Galway, Ireland. The Translational Medical Device Lab (TMD Lab) at University of Galway is... * Work Locations: Number of offers: 1, Ireland, University of Galway Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Computer engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A172) Researcher Profile: [Recognised Researcher (R2)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A448) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 11 Sep 2026 - 17:00 (Europe/London) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Spain * [agencia estatal consejo superior de investigaciones cientificas](https://euraxess.ec.europa.eu/partnering/organisations/profile/agencia-estatal-consejo-superior-de-investigaciones-cientificas-24) * [Field: Engineering]",
+      "institution": "",
+      "posted_date": "28 August 2026",
+      "deadline": "11 Sep 2026 - 17:00 (Europe/London)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Engineering, Computer Engineering (specifically Translational Medical Device Lab)\nKey Requirements: Suitably qualified candidates, Recognised Researcher (R2) profile\nApplication Info: deadline 11 Sep 2026 - 17:00 (Europe/London), required materials N/A, contact N/A\nPosition Details: Ireland, University of Galway, full-time, fixed term, 1 FTE, salary N/A\nOne-line Advice: N/A",
+      "relevance_score": 8.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
