@@ -1,0 +1,640 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T17:13:10.385234+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2608.28478v1",
+          "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
+          "authors": [
+            "Zhuoshi Pan",
+            "Junru Lu",
+            "Yan Qian",
+            "H. Vicky Zhao",
+            "Di Yin"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces ElephantBench, a dataset designed to test Large Language Models' (LLMs) ability to retain divergent accounts of long-tail facts, moving beyond the assumption of single canonical answers. The core method involves a graph-based pipeline to identify and generate questions with naturally occurring disagreements from low-exposure web documents. The key contribution is demonstrating that even state-of-the-art LLMs struggle to recall both divergent accounts, typically recalling only one, highlighting their epistemic myopia.",
+          "url": "http://arxiv.org/abs/2608.28478v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.28478v1",
+          "score": 8.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.28476v1",
+          "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
+          "authors": [
+            "Zhuoshi Pan",
+            "Qizhi Pei",
+            "Junru Lu",
+            "Honglin Lin",
+            "H. Vicky Zhao"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "ContextPilot addresses the challenge of managing extensive context in long-horizon agentic tasks by introducing a novel framework for proactive context management. Its core method involves fine-grained Reinforcement Learning (RL) to teach agents how to intelligently edit their working context. The key contribution is enabling agents to go beyond simple search and delete operations, allowing for more sophisticated context manipulation like global planning and adaptive compression, while also improving RL efficiency through differentiated action credit assignment.",
+          "url": "http://arxiv.org/abs/2608.28476v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.28476v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.28476v1/main_figure.png",
+          "figure_caption": "Overview of ContextPilot : (a) Extending the context management tools to support planning, long-term memory, and soft context offloading; (b) Improved RL training algorithm with context-aware partial rollout and (c) fine-grained snapshot-level credit assignment.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.28455v1",
+          "title": "ARC-CT: Anatomy-Routed Contrastive Vision-Language Learning for 3D Chest CT",
+          "authors": [
+            "Huseyin Umut Isik",
+            "Mehmet Alp Ozaydin",
+            "Sila Kurugol",
+            "Şeyda Ertekin"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces ARC-CT, a novel vision-language learning method for 3D chest CT analysis. It addresses limitations of global contrastive learning by using an \"AnatomyQFormer\" to focus on localized abnormalities and a \"label-Jaccard similarity\" to correctly handle multiple scans with shared findings. ARC-CT learns abnormality classifiers without manual annotations, relying solely on LLM-extracted labels from radiology reports.",
+          "url": "http://arxiv.org/abs/2608.28455v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.28455v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.28455v1/fig1_pipeline.png",
+          "figure_caption": "ARC-CT overview. Stage 1 pretrains a 3D ResNet-18 on 18 LLM-extracted abnormality labels, warm-starting Stage 2. In Stage 2, the encoder’s feature map is cross-attended by the AnatomyQFormer’s anatomy, pathology, and global queries, while an LLM parses reports into per-organ sentences. Embeddings are projected into a shared space and trained with a label-Jaccard soft InfoNCE contrastive loss with per-organ alignment and query supervision.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.28439v1",
+          "title": "Fidelity Is Not Enough: Dispatch-Level Instrumentation for Agentic Datasheet Extraction",
+          "authors": [
+            "Qing Ye",
+            "Meng-Hsuan Lin"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper argues that fidelity alone is insufficient for evaluating agentic data extraction. Its core method introduces \"dispatch-level instrumentation\" to log every tool call made by an agent. The contribution is a new set of instruments that detect silent failures and misattributions by analyzing tool usage patterns, thereby revealing issues that standard fidelity checks miss.",
+          "url": "http://arxiv.org/abs/2608.28439v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.28439v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.28439v1/figures/reproducibility_perturbation.png",
+          "figure_caption": "Reproducibility verdict under controlled perturbation of the DPS310 operating-range claim: the real cross-sensor measurement ( 945.285 ± 0.080 945.285\\( \\pm \\) 0.080 hPa) is held fixed while the datasheet-stated bound is shrunk through it; the verdict flips exactly at the combined uncertainty (shaded). The perturbation is a controlled vehicle, not a claim that the datasheet is in error.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.28447v1",
+          "title": "Learning to Use Tools: Reinforcement Learning for Tool-Integrated Mathematical Reasoning",
+          "authors": [
+            "Minghui Xu",
+            "Zi Wang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces a method for improving mathematical reasoning in LLMs by integrating calculator tool use. They address calculation errors by creating supervised fine-tuning datasets and then apply reinforcement learning techniques with automated reward signals. The core contribution is demonstrating that this tool integration significantly enhances LLM performance on mathematical tasks, as validated on a new benchmark.",
+          "url": "http://arxiv.org/abs/2608.28447v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.28447v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.28447v1/rl_tool_framework.png",
+          "figure_caption": "Schematic of RL for tool-integrated LLM on math reasoning.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.28411v1",
+          "title": "LongPIBench: A Long-Context Benchmark for Prompt Injection",
+          "authors": [
+            "Yupei Liu",
+            "Yuqi Jia",
+            "Neil Zhenqiang Gong",
+            "Jinyuan Jia"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "This paper introduces LongPIBench, a novel benchmark designed to evaluate prompt injection attacks and defenses in long-context scenarios, which have been largely overlooked. By creating datasets for realistic applications like peer review and resume screening with thousands of tokens, LongPIBench demonstrates that current defenses are significantly less effective than previously thought, with even simple attacks achieving high success rates.",
+          "url": "http://arxiv.org/abs/2608.28411v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.28411v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.28411v1/illustration.png",
+          "figure_caption": "Overview of LongPIBench .",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.28497v1",
+          "title": "On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces",
+          "authors": [
+            "Ahmed Hereiz",
+            "Yingzhe Lyu",
+            "Hao Li",
+            "Bram Adams",
+            "Ahmed E. Hassan"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.SE"
+          ],
+          "abstract": "This paper empirically studies Claude Code plugin marketplaces to understand how these AI agent extensions are maintained and evolve. The core method involves analyzing a large dataset of plugin repositories and commits. The key contribution is the finding that these plugins are actively maintained and co-evolve across their components, rather than being static one-off creations, and that the marketplace is experiencing rapid growth.",
+          "url": "http://arxiv.org/abs/2608.28497v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.28497v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.28497v1/plugin_overview_final.png",
+          "figure_caption": "Figure 1 . Structure and control flow of a Claude Code plugin. The left box illustrates the components in a real plugin (python-api-plugin) installed on disk, and the middle and right boxes illustrate how Claude Code loads and uses the same components over the course of a single task.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.28458v1",
+          "title": "Acquire, Repair, Preserve: A Diagnosis-Guided Post-Training Recipe for Small-Model Dialogue Game Agents",
+          "authors": [
+            "Nan Li"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper proposes a three-step post-training recipe for improving small dialogue game agents. The method first acquires broad game participation, then repairs specific, turn-local decision failures using preference pairs, and finally preserves general capabilities. This diagnosis-guided approach significantly boosts performance in dialogue games while maintaining static benchmark scores.",
+          "url": "http://arxiv.org/abs/2608.28458v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.28458v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.28444v1",
+          "title": "Sliding-window beats linear attention",
+          "authors": [
+            "Alexia Jolicoeur-Martineau",
+            "Rhea Sanjay Sukthanker",
+            "Pashmina Cameron",
+            "Emy Gervais"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper's core method is to demonstrate that Sliding Window Attention (SWA) with sinks can match or surpass the performance of Linear Attention in Large Language Models. The key contribution is showing that this simpler SWA approach achieves significantly better results, especially on long-context reasoning tasks, while addressing the memory and energy inefficiencies of traditional quadratic attention.",
+          "url": "http://arxiv.org/abs/2608.28444v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.28444v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.28444v1/SWA_beats_linear_attention3.png",
+          "figure_caption": "Different types of attention masks: Full attention (FA), LoLCATs/Liger-GLA (mixture of linear attention and SWA), and Sliding Window Attention (SWA) with sinks.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 28,
+        "papers_after_llm_filter": 9,
+        "count": 9
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 28,
+    "papers_after_llm_filter": 9,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 43
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2608.28478v1",
+      "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
+      "authors": [
+        "Zhuoshi Pan",
+        "Junru Lu",
+        "Yan Qian",
+        "H. Vicky Zhao",
+        "Di Yin"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ElephantBench, a dataset designed to test Large Language Models' (LLMs) ability to retain divergent accounts of long-tail facts, moving beyond the assumption of single canonical answers. The core method involves a graph-based pipeline to identify and generate questions with naturally occurring disagreements from low-exposure web documents. The key contribution is demonstrating that even state-of-the-art LLMs struggle to recall both divergent accounts, typically recalling only one, highlighting their epistemic myopia.",
+      "url": "http://arxiv.org/abs/2608.28478v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28478v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.28476v1",
+      "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
+      "authors": [
+        "Zhuoshi Pan",
+        "Qizhi Pei",
+        "Junru Lu",
+        "Honglin Lin",
+        "H. Vicky Zhao"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "ContextPilot addresses the challenge of managing extensive context in long-horizon agentic tasks by introducing a novel framework for proactive context management. Its core method involves fine-grained Reinforcement Learning (RL) to teach agents how to intelligently edit their working context. The key contribution is enabling agents to go beyond simple search and delete operations, allowing for more sophisticated context manipulation like global planning and adaptive compression, while also improving RL efficiency through differentiated action credit assignment.",
+      "url": "http://arxiv.org/abs/2608.28476v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28476v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.28476v1/main_figure.png",
+      "figure_caption": "Overview of ContextPilot : (a) Extending the context management tools to support planning, long-term memory, and soft context offloading; (b) Improved RL training algorithm with context-aware partial rollout and (c) fine-grained snapshot-level credit assignment.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.28455v1",
+      "title": "ARC-CT: Anatomy-Routed Contrastive Vision-Language Learning for 3D Chest CT",
+      "authors": [
+        "Huseyin Umut Isik",
+        "Mehmet Alp Ozaydin",
+        "Sila Kurugol",
+        "Şeyda Ertekin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces ARC-CT, a novel vision-language learning method for 3D chest CT analysis. It addresses limitations of global contrastive learning by using an \"AnatomyQFormer\" to focus on localized abnormalities and a \"label-Jaccard similarity\" to correctly handle multiple scans with shared findings. ARC-CT learns abnormality classifiers without manual annotations, relying solely on LLM-extracted labels from radiology reports.",
+      "url": "http://arxiv.org/abs/2608.28455v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28455v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.28455v1/fig1_pipeline.png",
+      "figure_caption": "ARC-CT overview. Stage 1 pretrains a 3D ResNet-18 on 18 LLM-extracted abnormality labels, warm-starting Stage 2. In Stage 2, the encoder’s feature map is cross-attended by the AnatomyQFormer’s anatomy, pathology, and global queries, while an LLM parses reports into per-organ sentences. Embeddings are projected into a shared space and trained with a label-Jaccard soft InfoNCE contrastive loss with per-organ alignment and query supervision.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.28439v1",
+      "title": "Fidelity Is Not Enough: Dispatch-Level Instrumentation for Agentic Datasheet Extraction",
+      "authors": [
+        "Qing Ye",
+        "Meng-Hsuan Lin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper argues that fidelity alone is insufficient for evaluating agentic data extraction. Its core method introduces \"dispatch-level instrumentation\" to log every tool call made by an agent. The contribution is a new set of instruments that detect silent failures and misattributions by analyzing tool usage patterns, thereby revealing issues that standard fidelity checks miss.",
+      "url": "http://arxiv.org/abs/2608.28439v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28439v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.28439v1/figures/reproducibility_perturbation.png",
+      "figure_caption": "Reproducibility verdict under controlled perturbation of the DPS310 operating-range claim: the real cross-sensor measurement ( 945.285 ± 0.080 945.285\\( \\pm \\) 0.080 hPa) is held fixed while the datasheet-stated bound is shrunk through it; the verdict flips exactly at the combined uncertainty (shaded). The perturbation is a controlled vehicle, not a claim that the datasheet is in error.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.28447v1",
+      "title": "Learning to Use Tools: Reinforcement Learning for Tool-Integrated Mathematical Reasoning",
+      "authors": [
+        "Minghui Xu",
+        "Zi Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a method for improving mathematical reasoning in LLMs by integrating calculator tool use. They address calculation errors by creating supervised fine-tuning datasets and then apply reinforcement learning techniques with automated reward signals. The core contribution is demonstrating that this tool integration significantly enhances LLM performance on mathematical tasks, as validated on a new benchmark.",
+      "url": "http://arxiv.org/abs/2608.28447v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28447v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.28447v1/rl_tool_framework.png",
+      "figure_caption": "Schematic of RL for tool-integrated LLM on math reasoning.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.28411v1",
+      "title": "LongPIBench: A Long-Context Benchmark for Prompt Injection",
+      "authors": [
+        "Yupei Liu",
+        "Yuqi Jia",
+        "Neil Zhenqiang Gong",
+        "Jinyuan Jia"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces LongPIBench, a novel benchmark designed to evaluate prompt injection attacks and defenses in long-context scenarios, which have been largely overlooked. By creating datasets for realistic applications like peer review and resume screening with thousands of tokens, LongPIBench demonstrates that current defenses are significantly less effective than previously thought, with even simple attacks achieving high success rates.",
+      "url": "http://arxiv.org/abs/2608.28411v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28411v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.28411v1/illustration.png",
+      "figure_caption": "Overview of LongPIBench .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.28497v1",
+      "title": "On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces",
+      "authors": [
+        "Ahmed Hereiz",
+        "Yingzhe Lyu",
+        "Hao Li",
+        "Bram Adams",
+        "Ahmed E. Hassan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper empirically studies Claude Code plugin marketplaces to understand how these AI agent extensions are maintained and evolve. The core method involves analyzing a large dataset of plugin repositories and commits. The key contribution is the finding that these plugins are actively maintained and co-evolve across their components, rather than being static one-off creations, and that the marketplace is experiencing rapid growth.",
+      "url": "http://arxiv.org/abs/2608.28497v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28497v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.28497v1/plugin_overview_final.png",
+      "figure_caption": "Figure 1 . Structure and control flow of a Claude Code plugin. The left box illustrates the components in a real plugin (python-api-plugin) installed on disk, and the middle and right boxes illustrate how Claude Code loads and uses the same components over the course of a single task.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.28458v1",
+      "title": "Acquire, Repair, Preserve: A Diagnosis-Guided Post-Training Recipe for Small-Model Dialogue Game Agents",
+      "authors": [
+        "Nan Li"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes a three-step post-training recipe for improving small dialogue game agents. The method first acquires broad game participation, then repairs specific, turn-local decision failures using preference pairs, and finally preserves general capabilities. This diagnosis-guided approach significantly boosts performance in dialogue games while maintaining static benchmark scores.",
+      "url": "http://arxiv.org/abs/2608.28458v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28458v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.28444v1",
+      "title": "Sliding-window beats linear attention",
+      "authors": [
+        "Alexia Jolicoeur-Martineau",
+        "Rhea Sanjay Sukthanker",
+        "Pashmina Cameron",
+        "Emy Gervais"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper's core method is to demonstrate that Sliding Window Attention (SWA) with sinks can match or surpass the performance of Linear Attention in Large Language Models. The key contribution is showing that this simpler SWA approach achieves significantly better results, especially on long-context reasoning tasks, while addressing the memory and energy inefficiencies of traditional quadratic attention.",
+      "url": "http://arxiv.org/abs/2608.28444v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28444v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.28444v1/SWA_beats_linear_attention3.png",
+      "figure_caption": "Different types of attention masks: Full attention (FA), LoLCATs/Liger-GLA (mixture of linear attention and SWA), and Sliding Window Attention (SWA) with sinks.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "papers": [
+    {
+      "id": "2608.28478v1",
+      "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
+      "authors": [
+        "Zhuoshi Pan",
+        "Junru Lu",
+        "Yan Qian",
+        "H. Vicky Zhao",
+        "Di Yin"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ElephantBench, a dataset designed to test Large Language Models' (LLMs) ability to retain divergent accounts of long-tail facts, moving beyond the assumption of single canonical answers. The core method involves a graph-based pipeline to identify and generate questions with naturally occurring disagreements from low-exposure web documents. The key contribution is demonstrating that even state-of-the-art LLMs struggle to recall both divergent accounts, typically recalling only one, highlighting their epistemic myopia.",
+      "url": "http://arxiv.org/abs/2608.28478v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28478v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.28476v1",
+      "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
+      "authors": [
+        "Zhuoshi Pan",
+        "Qizhi Pei",
+        "Junru Lu",
+        "Honglin Lin",
+        "H. Vicky Zhao"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "ContextPilot addresses the challenge of managing extensive context in long-horizon agentic tasks by introducing a novel framework for proactive context management. Its core method involves fine-grained Reinforcement Learning (RL) to teach agents how to intelligently edit their working context. The key contribution is enabling agents to go beyond simple search and delete operations, allowing for more sophisticated context manipulation like global planning and adaptive compression, while also improving RL efficiency through differentiated action credit assignment.",
+      "url": "http://arxiv.org/abs/2608.28476v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28476v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.28476v1/main_figure.png",
+      "figure_caption": "Overview of ContextPilot : (a) Extending the context management tools to support planning, long-term memory, and soft context offloading; (b) Improved RL training algorithm with context-aware partial rollout and (c) fine-grained snapshot-level credit assignment.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.28455v1",
+      "title": "ARC-CT: Anatomy-Routed Contrastive Vision-Language Learning for 3D Chest CT",
+      "authors": [
+        "Huseyin Umut Isik",
+        "Mehmet Alp Ozaydin",
+        "Sila Kurugol",
+        "Şeyda Ertekin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces ARC-CT, a novel vision-language learning method for 3D chest CT analysis. It addresses limitations of global contrastive learning by using an \"AnatomyQFormer\" to focus on localized abnormalities and a \"label-Jaccard similarity\" to correctly handle multiple scans with shared findings. ARC-CT learns abnormality classifiers without manual annotations, relying solely on LLM-extracted labels from radiology reports.",
+      "url": "http://arxiv.org/abs/2608.28455v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28455v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.28455v1/fig1_pipeline.png",
+      "figure_caption": "ARC-CT overview. Stage 1 pretrains a 3D ResNet-18 on 18 LLM-extracted abnormality labels, warm-starting Stage 2. In Stage 2, the encoder’s feature map is cross-attended by the AnatomyQFormer’s anatomy, pathology, and global queries, while an LLM parses reports into per-organ sentences. Embeddings are projected into a shared space and trained with a label-Jaccard soft InfoNCE contrastive loss with per-organ alignment and query supervision.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.28439v1",
+      "title": "Fidelity Is Not Enough: Dispatch-Level Instrumentation for Agentic Datasheet Extraction",
+      "authors": [
+        "Qing Ye",
+        "Meng-Hsuan Lin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper argues that fidelity alone is insufficient for evaluating agentic data extraction. Its core method introduces \"dispatch-level instrumentation\" to log every tool call made by an agent. The contribution is a new set of instruments that detect silent failures and misattributions by analyzing tool usage patterns, thereby revealing issues that standard fidelity checks miss.",
+      "url": "http://arxiv.org/abs/2608.28439v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28439v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.28439v1/figures/reproducibility_perturbation.png",
+      "figure_caption": "Reproducibility verdict under controlled perturbation of the DPS310 operating-range claim: the real cross-sensor measurement ( 945.285 ± 0.080 945.285\\( \\pm \\) 0.080 hPa) is held fixed while the datasheet-stated bound is shrunk through it; the verdict flips exactly at the combined uncertainty (shaded). The perturbation is a controlled vehicle, not a claim that the datasheet is in error.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.28447v1",
+      "title": "Learning to Use Tools: Reinforcement Learning for Tool-Integrated Mathematical Reasoning",
+      "authors": [
+        "Minghui Xu",
+        "Zi Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a method for improving mathematical reasoning in LLMs by integrating calculator tool use. They address calculation errors by creating supervised fine-tuning datasets and then apply reinforcement learning techniques with automated reward signals. The core contribution is demonstrating that this tool integration significantly enhances LLM performance on mathematical tasks, as validated on a new benchmark.",
+      "url": "http://arxiv.org/abs/2608.28447v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28447v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.28447v1/rl_tool_framework.png",
+      "figure_caption": "Schematic of RL for tool-integrated LLM on math reasoning.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.28411v1",
+      "title": "LongPIBench: A Long-Context Benchmark for Prompt Injection",
+      "authors": [
+        "Yupei Liu",
+        "Yuqi Jia",
+        "Neil Zhenqiang Gong",
+        "Jinyuan Jia"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces LongPIBench, a novel benchmark designed to evaluate prompt injection attacks and defenses in long-context scenarios, which have been largely overlooked. By creating datasets for realistic applications like peer review and resume screening with thousands of tokens, LongPIBench demonstrates that current defenses are significantly less effective than previously thought, with even simple attacks achieving high success rates.",
+      "url": "http://arxiv.org/abs/2608.28411v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28411v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.28411v1/illustration.png",
+      "figure_caption": "Overview of LongPIBench .",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.28497v1",
+      "title": "On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces",
+      "authors": [
+        "Ahmed Hereiz",
+        "Yingzhe Lyu",
+        "Hao Li",
+        "Bram Adams",
+        "Ahmed E. Hassan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "abstract": "This paper empirically studies Claude Code plugin marketplaces to understand how these AI agent extensions are maintained and evolve. The core method involves analyzing a large dataset of plugin repositories and commits. The key contribution is the finding that these plugins are actively maintained and co-evolve across their components, rather than being static one-off creations, and that the marketplace is experiencing rapid growth.",
+      "url": "http://arxiv.org/abs/2608.28497v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28497v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.28497v1/plugin_overview_final.png",
+      "figure_caption": "Figure 1 . Structure and control flow of a Claude Code plugin. The left box illustrates the components in a real plugin (python-api-plugin) installed on disk, and the middle and right boxes illustrate how Claude Code loads and uses the same components over the course of a single task.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.28458v1",
+      "title": "Acquire, Repair, Preserve: A Diagnosis-Guided Post-Training Recipe for Small-Model Dialogue Game Agents",
+      "authors": [
+        "Nan Li"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes a three-step post-training recipe for improving small dialogue game agents. The method first acquires broad game participation, then repairs specific, turn-local decision failures using preference pairs, and finally preserves general capabilities. This diagnosis-guided approach significantly boosts performance in dialogue games while maintaining static benchmark scores.",
+      "url": "http://arxiv.org/abs/2608.28458v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28458v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.28444v1",
+      "title": "Sliding-window beats linear attention",
+      "authors": [
+        "Alexia Jolicoeur-Martineau",
+        "Rhea Sanjay Sukthanker",
+        "Pashmina Cameron",
+        "Emy Gervais"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper's core method is to demonstrate that Sliding Window Attention (SWA) with sinks can match or surpass the performance of Linear Attention in Large Language Models. The key contribution is showing that this simpler SWA approach achieves significantly better results, especially on long-context reasoning tasks, while addressing the memory and energy inefficiencies of traditional quadratic attention.",
+      "url": "http://arxiv.org/abs/2608.28444v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28444v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.28444v1/SWA_beats_linear_attention3.png",
+      "figure_caption": "Different types of attention masks: Full attention (FA), LoLCATs/Liger-GLA (mixture of linear attention and SWA), and Sliding Window Attention (SWA) with sinks.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
