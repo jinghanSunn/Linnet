@@ -1,0 +1,982 @@
+{
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T14:16:24.491398+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2608.31082v1",
+          "title": "Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data",
+          "authors": [
+            "Milad Rezaei Hajidehi",
+            "Qitong Wang",
+            "Stratos Idreos"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.DB"
+          ],
+          "abstract": "This paper introduces \"agentic data cracking\" to reduce the high cost of LLM agents reasoning over unstructured data. The core method adaptively structures unstructured documents only when needed, based on incoming queries. This approach aims to make data reasoning more efficient by pre-processing only the relevant information, significantly lowering token consumption and computational cost compared to processing entire documents for each query.",
+          "url": "http://arxiv.org/abs/2608.31082v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.31082v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.31082v1/figure1.png",
+          "figure_caption": "Figure 1. Left: On the full FanOutQA ( Zhu et al., 2024 ) benchmark over Wikipedia, agentic reasoning far outperforms fixed top- k k RAG but at high cost. Our approach, agentic data cracking , preserves almost all of this accuracy advantage while reducing cost by 53%. Right: On ten sampled questions, we extracted every fact required to answer each question from the unstructured documents and stored it in a database. Reasoning over this ideal store is 28 × \\( \\times \\) cheaper. This gap is the cost reduction available to adaptive structuring systems.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.31128v1",
+          "title": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
+          "authors": [
+            "Yung Wei Shueh",
+            "Zhi-Jie Chen",
+            "Chia-Hsuan Hsu",
+            "Hsin-Ling Hsu",
+            "Donghua Zhang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "DIASENTINEL is a multi-agent system designed for auditable diabetes risk screening using electronic health records. It combines risk prediction, guideline grounding via Reciprocal Rank Fusion with ADA recommendations, and a hybrid verification layer to ensure accuracy and prevent LLM hallucinations. The system's contribution lies in providing a practical, privacy-preserving framework for reliable LLM-based clinical decision support with transparent, cited recommendations.",
+          "url": "http://arxiv.org/abs/2608.31128v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.31128v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.31128v1/Figures/figure1.jpg",
+          "figure_caption": "The pipeline architecture. Blue: LLM-based; gray: deterministic; purple: hybrid.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.31100v1",
+          "title": "S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?",
+          "authors": [
+            "Jiajun Shi",
+            "Siyuan Tao",
+            "Yuhao Wu",
+            "Zexuan Wang",
+            "Jingyuan Zhang"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces S3Gym, a benchmark designed to evaluate if Large Language Models (LLMs) can improve themselves through interaction. S3Gym tests an LLM's ability to **self-test** its actions, **self-judge** the outcomes, and then **self-improve** its future decisions. The core contribution is demonstrating that while self-improvement is possible, it's not automatic and depends on how interaction experience is incorporated.",
+          "url": "http://arxiv.org/abs/2608.31100v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.31100v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2608.31100v1/pics/intro.png",
+          "figure_caption": "Conceptual overview of experience-driven improvement in humans and LLM agents. Both processes involve generating experience through Self-Testing, interpreting it through Self-Judging, and incorporating it through reusable memory or learning mechanisms.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2608.31076v1",
+          "title": "Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents",
+          "authors": [
+            "Xuehai Wang",
+            "Haowei Qin",
+            "Tongxin Liu",
+            "Junkai Li",
+            "Buqiang Xu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL",
+            "cs.IR",
+            "cs.MA",
+            "cs.SE"
+          ],
+          "abstract": "This paper introduces AutoSciRub, a framework for autonomous research agents that prioritizes evaluation before execution. It addresses underspecified research tasks by automatically inducing an executable rubric that defines specific, verifiable criteria for success. This rubric guides the agent's research process, ensuring thorough analysis, appropriate methods, and evidence-based conclusions.",
+          "url": "http://arxiv.org/abs/2608.31076v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.31076v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.31076v1/intro.png",
+          "figure_caption": "Why autonomous research agents struggle with open-ended research tasks.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.31077v1",
+          "title": "Reconciling Process Supervision with Outcome-Based Credit in Agentic Policy Optimization",
+          "authors": [
+            "Jingxiao Yang",
+            "Wangjie Gan",
+            "Yingxuan Zhuang",
+            "Wenqi Zhang",
+            "Jintao Chen"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper addresses the \"supervision-credit gap\" in agentic policy optimization, where outcome-based feedback is too coarse and privileged information for self-distillation doesn't directly translate to action credit. The core method, TASPO, reconciles these by converting privileged supervision into outcome-grounded action credit, allowing agents to learn more effectively from verified task outcomes.",
+          "url": "http://arxiv.org/abs/2608.31077v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.31077v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.31077v1/motivation.png",
+          "figure_caption": "An explanation of why privileged process supervision should refine, rather than replace, verified outcome credit. (a) Uniform outcome credit and dense process signals can conflict when directly combined. (b) Self-distillation performance depends strongly on the source and relevance of privileged information. (c) Action-level aggregation yields more accurate credit assignment than token-level aggregation across trajectory outcomes and action qualities.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.31075v1",
+          "title": "Scaling Large Reasoning Models beyond Human Supervision: A Path toward Superintelligence",
+          "authors": [
+            "Zhiqin Yang",
+            "Jingwen Fu",
+            "Yuhan Liu",
+            "Hengyu Liu",
+            "Yonggang Zhang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper proposes a method for scaling large reasoning models beyond human supervision by gradually reducing reliance on direct human feedback. It explores two key dimensions: developing automated reward systems that don't require human judgment and enabling models to generate their own learning experiences and environments. The core contribution is a framework for autonomous model improvement, moving towards superintelligence by self-generating curricula and environments.",
+          "url": "http://arxiv.org/abs/2608.31075v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.31075v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.31075v1/level.png",
+          "figure_caption": "The receding-supervision ladder. Human involvement moves from judgments supplied for individual instances toward learning loops that increasingly obtain rewards and produce experience with less continued human provision. The ladder describes operational responsibility during learning and does not imply the absence of human-originated objectives, data, tools, or environments.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.31118v1",
+          "title": "When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning",
+          "authors": [
+            "Hamed Babaei Giglou",
+            "Sören Auer",
+            "Jennifer D'Souza"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper investigates how Large Language Model (LLM) scale impacts ontology learning. Through a controlled study of various Qwen and GPT models, they found that increasing parameter count generally improves precision, with significant gains between 9B and 27B parameters. Notably, even smaller dense models can outperform much larger sparse models on specific tasks like term typing, highlighting that scale's benefit is not uniform across all tasks and model architectures.",
+          "url": "http://arxiv.org/abs/2608.31118v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.31118v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.31068v1",
+          "title": "Wrong Prediction, Right Answer: Recovering Evidence from Collapsed LLM Sequence Scores",
+          "authors": [
+            "Qiyao Yan",
+            "Chenpeng Wang",
+            "Liangming Pan"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper argues that Large Language Models (LLMs) may possess reasoning capabilities even when their direct output fails. The core method involves using hidden-state probes to decode correct answers from collapsed sequence scores and then applying a simple additive correction to recover these latent decisions. The main contribution is demonstrating that this approach can significantly improve LLM performance on reasoning tasks by addressing \"expression failures\" rather than fundamental capability gaps.",
+          "url": "http://arxiv.org/abs/2608.31068v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.31068v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.31068v1/fig1.png",
+          "figure_caption": "Diagnosing collapsed candidate-answer scores. Raw candidate-answer string scores can select the wrong label even when a linear probe decodes the gold label from a hidden state. We apply a prior-conditioned additive offset ( s y ​ ( x ) ↦ s y ​ ( x ) + b y s_{y}(x)\\( \\mapsto \\) s_{y}(x)+b_{y} ) as a diagnostic intervention; held-out rescue and permutation controls test whether the correction exposes example-specific structure.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2608.31069v1",
+          "title": "A Model with No Head and Many Thoughts",
+          "authors": [
+            "Nikita Koriagin",
+            "Yaroslav Aksenov",
+            "George Bredis",
+            "Gleb Gerasimov",
+            "Nikita Balagansky"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Soft Latent Thinking, a method that replaces the computationally expensive language model head with a lightweight projector during reasoning. This allows for autoregressive rollouts in embedding space, keeping reasoning steps continuous rather than tokenized. The core contribution is demonstrating that effective chain-of-thought reasoning can be achieved in continuous space, leading to improved performance and reduced per-step compute.",
+          "url": "http://arxiv.org/abs/2608.31069v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.31069v1",
+          "score": 7.0,
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.31079v1",
+          "title": "Sycophantic Agreement Transfers with Neutral Data via Contrastive Preference Optimization",
+          "authors": [
+            "Camila Blank",
+            "Zhuofan Ying",
+            "Christopher Potts",
+            "Peter Hase",
+            "Jing Huang"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper reveals that sycophantic agreement in language models can be an unintended byproduct of contrastive preference optimization. The core method involves demonstrating that a student model's sycophancy directly correlates with the sycophancy of its teacher models, a phenomenon observed across various preference optimization objectives and not solely due to specific training examples. The main contribution is identifying this transfer mechanism, highlighting a critical flaw in current alignment techniques.",
+          "url": "http://arxiv.org/abs/2608.31079v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.31079v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.31079v1/image_39.png",
+          "figure_caption": "Sycophantic agreement can transfer through seemingly neutral preference data during training under contrastive optimization objectives. (A) During data production, a more sycophantic model producing chosen responses and a less sycophantic model producing rejected responses generate similar, innocuous-looking completions. This means that sycophancy is not easily detectable on the datapoint level, but a diffuse sycophancy signal emerges on the dataset level. (B) During training, contrastive preference optimization methods transfer the chosen model’s sycophancy to the student. A model trained on data from a sycophantic chosen model displays sycophantic agreement, while a model trained on data from a non-sycophantic chosen model does not.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.31013v1",
+          "title": "TSPFN: A Temporal Tabular Foundation Model for Physiological Time Series Classification",
+          "authors": [
+            "Jérémie Stym-Popper",
+            "Clément Rambour",
+            "Federica Granese",
+            "Nicolas Thome",
+            "Olivier Bernard"
+          ],
+          "categories": [
+            "cs.LG",
+            "cs.CV"
+          ],
+          "abstract": "TSPFN is a temporal foundation model designed for physiological time series classification, addressing the challenge of limited data in medical machine learning. It adapts the TabPFN architecture by incorporating structured temporal representations and positional embeddings to capture complex dependencies within time series. Pretrained on a large, diverse dataset, TSPFN offers a unified and generalizable framework for learning medical time series patterns.",
+          "url": "http://arxiv.org/abs/2608.31013v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.31013v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.31013v1/figures/overview_FINAL_v7.png",
+          "figure_caption": "Overview of the proposed TSPFN framework. Physiological time series are structured into a unified tabular representation with explicit temporal and channel organization, enabling in-context learning for time series classification.",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2608.31111v1",
+          "title": "Aspire: Can Models Self-Evolve from Vague Goals?",
+          "authors": [
+            "Yuhao Wu",
+            "Jingyuan Zhang",
+            "Jiajun Shi",
+            "Yuxuan Zhang",
+            "Xinping Lei"
+          ],
+          "categories": [
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces ASPIRE, a benchmark for LLM self-evolution that moves beyond pre-defined tasks and metrics. ASPIRE challenges models to interpret vague natural-language goals, autonomously decide how to learn (data and update methods), and create their own evaluation signals. The core contribution is a framework that enables LLMs to self-direct their learning process from ambiguous objectives, mirroring human learning more closely.",
+          "url": "http://arxiv.org/abs/2608.31111v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.31111v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2608.31111v1/figure1_motivation_ppt.png",
+          "figure_caption": "From explicit-task optimization to vague-goal-driven self-evolution. (a) With an explicit task definition, humans specify the task format and composition, difficulty anchor, metric, and success criterion, leaving the agent to search primarily over how to improve a fixed objective. (b) With only a broad capability direction, the agent must diagnose capability gaps, decompose sub-goals, construct learning and validation signals, and thereby decide what to optimize as well as how . Official evaluation items remain sealed; external evaluation tests whether gains on an agent-built proxy transfer to the intended capability.",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 18,
+        "papers_after_llm_filter": 12,
+        "count": 12
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [
+        {
+          "title": "Research Fellowship: 1 vacancy - CALG_AMALIA_2026_04 (1)",
+          "url": "https://euraxess.ec.europa.eu/jobs/462918",
+          "description": "ANNOUNCEMENT FOR THE AWARD OF A RESEARCH FELLOWSHIPTitle: Research Fellowship; 1 vacancyReference: CALG_AMALIA_2026_04 (1) A call for applications is now open for the attribution of (1) research grant within the scope of the I&D project AMALIA - Criação do Modelo de Linguagem em Grande Escala da... ... * Department: Centro ALGORITMI Work Locations: Number of offers: 1, Portugal, University of Minho, Braga, 4710-017, Braga, Campus de Gualtar Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Computer engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A172) Researcher Profile: [Other Profession](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A6054) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 15 Sep 2026 - 23:59 (Europe/Lisbon) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Spain * [Universidad Complutense de Madrid](https://euraxess.ec.europa.eu/partnering/organisations/profile/universidad-complutense-de-madrid) * [Field: Engineering]",
+          "institution": "",
+          "posted_date": "1 September 2026",
+          "deadline": "15 Sep 2026 - 23:59 (Europe/Lisbon)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: Engineering » Computer engineering (focus on Large Language Model creation)\nKey Requirements: N/A\nApplication Info: deadline 15 Sep 2026, required materials N/A, contact N/A\nPosition Details: University of Minho, Braga, Portugal, contract type N/A, workload N/A, salary N/A\nOne-line Advice: N/A",
+          "relevance_score": 7.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        },
+        {
+          "title": "HRER2026/357-222 Perfil R1 para desarrollo de algoritmos de IA / R1 profile to develop AI algorithms",
+          "url": "https://euraxess.ec.europa.eu/jobs/462916",
+          "description": "Desarrollar Software para el proyecto Europeo SkincAIr. // Software development for the European project SkincAIr.Desarrollo de algoritmos de IA para la detección de enfermedades tropicales desatendidas // Development of AIalgorithms for the detection of Neglected Tropical Diseases * Department: HRS4R Work Locations: Number of offers: 1, Spain, ETSISI, Madrid, 28031, Madrid, Calle Alan Turing, S/N Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A316) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Horizon Europe](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4344) Application Deadline: 14 Sep 2026 - 23:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Slovenia * [University of Ljubljana / Univerza v Ljubljani](https://euraxess.ec.europa.eu/partnering/organisations/profile/university-ljubljana/univerza-v-ljubljani) * [Field: Medical sciences]",
+          "institution": "",
+          "posted_date": "1 September 2026",
+          "deadline": "14 Sep 2026 - 23:00 (Europe/Madrid)",
+          "source": "EURAXESS Postdoc",
+          "requirements": "Research Area: AI algorithms for the detection of Neglected Tropical Diseases, Software development for the European project SkincAIr.\nKey Requirements: First Stage Researcher (R1) profile.\nApplication Info: Deadline: 14 Sep 2026 - 23:00 (Europe/Madrid). Required materials and contact information are not specified.\nPosition Details: Location: Madrid, Spain. Contract type, workload, and salary are not specified.\nOne-line Advice: N/A",
+          "relevance_score": 9.0,
+          "location": "",
+          "salary": "",
+          "hours": "",
+          "contract_type": "",
+          "placed_on": "",
+          "job_ref": ""
+        }
+      ],
+      "meta": {
+        "count": 2
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 18,
+    "papers_after_llm_filter": 12,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 51
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2608.31082v1",
+      "title": "Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data",
+      "authors": [
+        "Milad Rezaei Hajidehi",
+        "Qitong Wang",
+        "Stratos Idreos"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.DB"
+      ],
+      "abstract": "This paper introduces \"agentic data cracking\" to reduce the high cost of LLM agents reasoning over unstructured data. The core method adaptively structures unstructured documents only when needed, based on incoming queries. This approach aims to make data reasoning more efficient by pre-processing only the relevant information, significantly lowering token consumption and computational cost compared to processing entire documents for each query.",
+      "url": "http://arxiv.org/abs/2608.31082v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31082v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.31082v1/figure1.png",
+      "figure_caption": "Figure 1. Left: On the full FanOutQA ( Zhu et al., 2024 ) benchmark over Wikipedia, agentic reasoning far outperforms fixed top- k k RAG but at high cost. Our approach, agentic data cracking , preserves almost all of this accuracy advantage while reducing cost by 53%. Right: On ten sampled questions, we extracted every fact required to answer each question from the unstructured documents and stored it in a database. Reasoning over this ideal store is 28 × \\( \\times \\) cheaper. This gap is the cost reduction available to adaptive structuring systems.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.31128v1",
+      "title": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
+      "authors": [
+        "Yung Wei Shueh",
+        "Zhi-Jie Chen",
+        "Chia-Hsuan Hsu",
+        "Hsin-Ling Hsu",
+        "Donghua Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "DIASENTINEL is a multi-agent system designed for auditable diabetes risk screening using electronic health records. It combines risk prediction, guideline grounding via Reciprocal Rank Fusion with ADA recommendations, and a hybrid verification layer to ensure accuracy and prevent LLM hallucinations. The system's contribution lies in providing a practical, privacy-preserving framework for reliable LLM-based clinical decision support with transparent, cited recommendations.",
+      "url": "http://arxiv.org/abs/2608.31128v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31128v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.31128v1/Figures/figure1.jpg",
+      "figure_caption": "The pipeline architecture. Blue: LLM-based; gray: deterministic; purple: hybrid.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.31100v1",
+      "title": "S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?",
+      "authors": [
+        "Jiajun Shi",
+        "Siyuan Tao",
+        "Yuhao Wu",
+        "Zexuan Wang",
+        "Jingyuan Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces S3Gym, a benchmark designed to evaluate if Large Language Models (LLMs) can improve themselves through interaction. S3Gym tests an LLM's ability to **self-test** its actions, **self-judge** the outcomes, and then **self-improve** its future decisions. The core contribution is demonstrating that while self-improvement is possible, it's not automatic and depends on how interaction experience is incorporated.",
+      "url": "http://arxiv.org/abs/2608.31100v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31100v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.31100v1/pics/intro.png",
+      "figure_caption": "Conceptual overview of experience-driven improvement in humans and LLM agents. Both processes involve generating experience through Self-Testing, interpreting it through Self-Judging, and incorporating it through reusable memory or learning mechanisms.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.31076v1",
+      "title": "Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents",
+      "authors": [
+        "Xuehai Wang",
+        "Haowei Qin",
+        "Tongxin Liu",
+        "Junkai Li",
+        "Buqiang Xu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.IR",
+        "cs.MA",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces AutoSciRub, a framework for autonomous research agents that prioritizes evaluation before execution. It addresses underspecified research tasks by automatically inducing an executable rubric that defines specific, verifiable criteria for success. This rubric guides the agent's research process, ensuring thorough analysis, appropriate methods, and evidence-based conclusions.",
+      "url": "http://arxiv.org/abs/2608.31076v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31076v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.31076v1/intro.png",
+      "figure_caption": "Why autonomous research agents struggle with open-ended research tasks.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.31077v1",
+      "title": "Reconciling Process Supervision with Outcome-Based Credit in Agentic Policy Optimization",
+      "authors": [
+        "Jingxiao Yang",
+        "Wangjie Gan",
+        "Yingxuan Zhuang",
+        "Wenqi Zhang",
+        "Jintao Chen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper addresses the \"supervision-credit gap\" in agentic policy optimization, where outcome-based feedback is too coarse and privileged information for self-distillation doesn't directly translate to action credit. The core method, TASPO, reconciles these by converting privileged supervision into outcome-grounded action credit, allowing agents to learn more effectively from verified task outcomes.",
+      "url": "http://arxiv.org/abs/2608.31077v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31077v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.31077v1/motivation.png",
+      "figure_caption": "An explanation of why privileged process supervision should refine, rather than replace, verified outcome credit. (a) Uniform outcome credit and dense process signals can conflict when directly combined. (b) Self-distillation performance depends strongly on the source and relevance of privileged information. (c) Action-level aggregation yields more accurate credit assignment than token-level aggregation across trajectory outcomes and action qualities.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.31075v1",
+      "title": "Scaling Large Reasoning Models beyond Human Supervision: A Path toward Superintelligence",
+      "authors": [
+        "Zhiqin Yang",
+        "Jingwen Fu",
+        "Yuhan Liu",
+        "Hengyu Liu",
+        "Yonggang Zhang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes a method for scaling large reasoning models beyond human supervision by gradually reducing reliance on direct human feedback. It explores two key dimensions: developing automated reward systems that don't require human judgment and enabling models to generate their own learning experiences and environments. The core contribution is a framework for autonomous model improvement, moving towards superintelligence by self-generating curricula and environments.",
+      "url": "http://arxiv.org/abs/2608.31075v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31075v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.31075v1/level.png",
+      "figure_caption": "The receding-supervision ladder. Human involvement moves from judgments supplied for individual instances toward learning loops that increasingly obtain rewards and produce experience with less continued human provision. The ladder describes operational responsibility during learning and does not imply the absence of human-originated objectives, data, tools, or environments.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.31118v1",
+      "title": "When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning",
+      "authors": [
+        "Hamed Babaei Giglou",
+        "Sören Auer",
+        "Jennifer D'Souza"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper investigates how Large Language Model (LLM) scale impacts ontology learning. Through a controlled study of various Qwen and GPT models, they found that increasing parameter count generally improves precision, with significant gains between 9B and 27B parameters. Notably, even smaller dense models can outperform much larger sparse models on specific tasks like term typing, highlighting that scale's benefit is not uniform across all tasks and model architectures.",
+      "url": "http://arxiv.org/abs/2608.31118v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31118v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.31068v1",
+      "title": "Wrong Prediction, Right Answer: Recovering Evidence from Collapsed LLM Sequence Scores",
+      "authors": [
+        "Qiyao Yan",
+        "Chenpeng Wang",
+        "Liangming Pan"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper argues that Large Language Models (LLMs) may possess reasoning capabilities even when their direct output fails. The core method involves using hidden-state probes to decode correct answers from collapsed sequence scores and then applying a simple additive correction to recover these latent decisions. The main contribution is demonstrating that this approach can significantly improve LLM performance on reasoning tasks by addressing \"expression failures\" rather than fundamental capability gaps.",
+      "url": "http://arxiv.org/abs/2608.31068v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31068v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.31068v1/fig1.png",
+      "figure_caption": "Diagnosing collapsed candidate-answer scores. Raw candidate-answer string scores can select the wrong label even when a linear probe decodes the gold label from a hidden state. We apply a prior-conditioned additive offset ( s y ​ ( x ) ↦ s y ​ ( x ) + b y s_{y}(x)\\( \\mapsto \\) s_{y}(x)+b_{y} ) as a diagnostic intervention; held-out rescue and permutation controls test whether the correction exposes example-specific structure.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.31069v1",
+      "title": "A Model with No Head and Many Thoughts",
+      "authors": [
+        "Nikita Koriagin",
+        "Yaroslav Aksenov",
+        "George Bredis",
+        "Gleb Gerasimov",
+        "Nikita Balagansky"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Soft Latent Thinking, a method that replaces the computationally expensive language model head with a lightweight projector during reasoning. This allows for autoregressive rollouts in embedding space, keeping reasoning steps continuous rather than tokenized. The core contribution is demonstrating that effective chain-of-thought reasoning can be achieved in continuous space, leading to improved performance and reduced per-step compute.",
+      "url": "http://arxiv.org/abs/2608.31069v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31069v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.31079v1",
+      "title": "Sycophantic Agreement Transfers with Neutral Data via Contrastive Preference Optimization",
+      "authors": [
+        "Camila Blank",
+        "Zhuofan Ying",
+        "Christopher Potts",
+        "Peter Hase",
+        "Jing Huang"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper reveals that sycophantic agreement in language models can be an unintended byproduct of contrastive preference optimization. The core method involves demonstrating that a student model's sycophancy directly correlates with the sycophancy of its teacher models, a phenomenon observed across various preference optimization objectives and not solely due to specific training examples. The main contribution is identifying this transfer mechanism, highlighting a critical flaw in current alignment techniques.",
+      "url": "http://arxiv.org/abs/2608.31079v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31079v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.31079v1/image_39.png",
+      "figure_caption": "Sycophantic agreement can transfer through seemingly neutral preference data during training under contrastive optimization objectives. (A) During data production, a more sycophantic model producing chosen responses and a less sycophantic model producing rejected responses generate similar, innocuous-looking completions. This means that sycophancy is not easily detectable on the datapoint level, but a diffuse sycophancy signal emerges on the dataset level. (B) During training, contrastive preference optimization methods transfer the chosen model’s sycophancy to the student. A model trained on data from a sycophantic chosen model displays sycophantic agreement, while a model trained on data from a non-sycophantic chosen model does not.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.31013v1",
+      "title": "TSPFN: A Temporal Tabular Foundation Model for Physiological Time Series Classification",
+      "authors": [
+        "Jérémie Stym-Popper",
+        "Clément Rambour",
+        "Federica Granese",
+        "Nicolas Thome",
+        "Olivier Bernard"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "TSPFN is a temporal foundation model designed for physiological time series classification, addressing the challenge of limited data in medical machine learning. It adapts the TabPFN architecture by incorporating structured temporal representations and positional embeddings to capture complex dependencies within time series. Pretrained on a large, diverse dataset, TSPFN offers a unified and generalizable framework for learning medical time series patterns.",
+      "url": "http://arxiv.org/abs/2608.31013v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31013v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.31013v1/figures/overview_FINAL_v7.png",
+      "figure_caption": "Overview of the proposed TSPFN framework. Physiological time series are structured into a unified tabular representation with explicit temporal and channel organization, enabling in-context learning for time series classification.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.31111v1",
+      "title": "Aspire: Can Models Self-Evolve from Vague Goals?",
+      "authors": [
+        "Yuhao Wu",
+        "Jingyuan Zhang",
+        "Jiajun Shi",
+        "Yuxuan Zhang",
+        "Xinping Lei"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ASPIRE, a benchmark for LLM self-evolution that moves beyond pre-defined tasks and metrics. ASPIRE challenges models to interpret vague natural-language goals, autonomously decide how to learn (data and update methods), and create their own evaluation signals. The core contribution is a framework that enables LLMs to self-direct their learning process from ambiguous objectives, mirroring human learning more closely.",
+      "url": "http://arxiv.org/abs/2608.31111v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31111v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.31111v1/figure1_motivation_ppt.png",
+      "figure_caption": "From explicit-task optimization to vague-goal-driven self-evolution. (a) With an explicit task definition, humans specify the task format and composition, difficulty anchor, metric, and success criterion, leaving the agent to search primarily over how to improve a fixed objective. (b) With only a broad capability direction, the agent must diagnose capability gaps, decompose sub-goals, construct learning and validation signals, and thereby decide what to optimize as well as how . Official evaluation items remain sealed; external evaluation tests whether gains on an agent-built proxy transfer to the intended capability.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2608.31082v1",
+      "title": "Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data",
+      "authors": [
+        "Milad Rezaei Hajidehi",
+        "Qitong Wang",
+        "Stratos Idreos"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.DB"
+      ],
+      "abstract": "This paper introduces \"agentic data cracking\" to reduce the high cost of LLM agents reasoning over unstructured data. The core method adaptively structures unstructured documents only when needed, based on incoming queries. This approach aims to make data reasoning more efficient by pre-processing only the relevant information, significantly lowering token consumption and computational cost compared to processing entire documents for each query.",
+      "url": "http://arxiv.org/abs/2608.31082v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31082v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.31082v1/figure1.png",
+      "figure_caption": "Figure 1. Left: On the full FanOutQA ( Zhu et al., 2024 ) benchmark over Wikipedia, agentic reasoning far outperforms fixed top- k k RAG but at high cost. Our approach, agentic data cracking , preserves almost all of this accuracy advantage while reducing cost by 53%. Right: On ten sampled questions, we extracted every fact required to answer each question from the unstructured documents and stored it in a database. Reasoning over this ideal store is 28 × \\( \\times \\) cheaper. This gap is the cost reduction available to adaptive structuring systems.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.31128v1",
+      "title": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
+      "authors": [
+        "Yung Wei Shueh",
+        "Zhi-Jie Chen",
+        "Chia-Hsuan Hsu",
+        "Hsin-Ling Hsu",
+        "Donghua Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "DIASENTINEL is a multi-agent system designed for auditable diabetes risk screening using electronic health records. It combines risk prediction, guideline grounding via Reciprocal Rank Fusion with ADA recommendations, and a hybrid verification layer to ensure accuracy and prevent LLM hallucinations. The system's contribution lies in providing a practical, privacy-preserving framework for reliable LLM-based clinical decision support with transparent, cited recommendations.",
+      "url": "http://arxiv.org/abs/2608.31128v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31128v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.31128v1/Figures/figure1.jpg",
+      "figure_caption": "The pipeline architecture. Blue: LLM-based; gray: deterministic; purple: hybrid.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.31100v1",
+      "title": "S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?",
+      "authors": [
+        "Jiajun Shi",
+        "Siyuan Tao",
+        "Yuhao Wu",
+        "Zexuan Wang",
+        "Jingyuan Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces S3Gym, a benchmark designed to evaluate if Large Language Models (LLMs) can improve themselves through interaction. S3Gym tests an LLM's ability to **self-test** its actions, **self-judge** the outcomes, and then **self-improve** its future decisions. The core contribution is demonstrating that while self-improvement is possible, it's not automatic and depends on how interaction experience is incorporated.",
+      "url": "http://arxiv.org/abs/2608.31100v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31100v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2608.31100v1/pics/intro.png",
+      "figure_caption": "Conceptual overview of experience-driven improvement in humans and LLM agents. Both processes involve generating experience through Self-Testing, interpreting it through Self-Judging, and incorporating it through reusable memory or learning mechanisms.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2608.31076v1",
+      "title": "Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents",
+      "authors": [
+        "Xuehai Wang",
+        "Haowei Qin",
+        "Tongxin Liu",
+        "Junkai Li",
+        "Buqiang Xu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL",
+        "cs.IR",
+        "cs.MA",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces AutoSciRub, a framework for autonomous research agents that prioritizes evaluation before execution. It addresses underspecified research tasks by automatically inducing an executable rubric that defines specific, verifiable criteria for success. This rubric guides the agent's research process, ensuring thorough analysis, appropriate methods, and evidence-based conclusions.",
+      "url": "http://arxiv.org/abs/2608.31076v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31076v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.31076v1/intro.png",
+      "figure_caption": "Why autonomous research agents struggle with open-ended research tasks.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.31077v1",
+      "title": "Reconciling Process Supervision with Outcome-Based Credit in Agentic Policy Optimization",
+      "authors": [
+        "Jingxiao Yang",
+        "Wangjie Gan",
+        "Yingxuan Zhuang",
+        "Wenqi Zhang",
+        "Jintao Chen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper addresses the \"supervision-credit gap\" in agentic policy optimization, where outcome-based feedback is too coarse and privileged information for self-distillation doesn't directly translate to action credit. The core method, TASPO, reconciles these by converting privileged supervision into outcome-grounded action credit, allowing agents to learn more effectively from verified task outcomes.",
+      "url": "http://arxiv.org/abs/2608.31077v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31077v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.31077v1/motivation.png",
+      "figure_caption": "An explanation of why privileged process supervision should refine, rather than replace, verified outcome credit. (a) Uniform outcome credit and dense process signals can conflict when directly combined. (b) Self-distillation performance depends strongly on the source and relevance of privileged information. (c) Action-level aggregation yields more accurate credit assignment than token-level aggregation across trajectory outcomes and action qualities.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.31075v1",
+      "title": "Scaling Large Reasoning Models beyond Human Supervision: A Path toward Superintelligence",
+      "authors": [
+        "Zhiqin Yang",
+        "Jingwen Fu",
+        "Yuhan Liu",
+        "Hengyu Liu",
+        "Yonggang Zhang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper proposes a method for scaling large reasoning models beyond human supervision by gradually reducing reliance on direct human feedback. It explores two key dimensions: developing automated reward systems that don't require human judgment and enabling models to generate their own learning experiences and environments. The core contribution is a framework for autonomous model improvement, moving towards superintelligence by self-generating curricula and environments.",
+      "url": "http://arxiv.org/abs/2608.31075v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31075v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.31075v1/level.png",
+      "figure_caption": "The receding-supervision ladder. Human involvement moves from judgments supplied for individual instances toward learning loops that increasingly obtain rewards and produce experience with less continued human provision. The ladder describes operational responsibility during learning and does not imply the absence of human-originated objectives, data, tools, or environments.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.31118v1",
+      "title": "When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning",
+      "authors": [
+        "Hamed Babaei Giglou",
+        "Sören Auer",
+        "Jennifer D'Souza"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper investigates how Large Language Model (LLM) scale impacts ontology learning. Through a controlled study of various Qwen and GPT models, they found that increasing parameter count generally improves precision, with significant gains between 9B and 27B parameters. Notably, even smaller dense models can outperform much larger sparse models on specific tasks like term typing, highlighting that scale's benefit is not uniform across all tasks and model architectures.",
+      "url": "http://arxiv.org/abs/2608.31118v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31118v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.31068v1",
+      "title": "Wrong Prediction, Right Answer: Recovering Evidence from Collapsed LLM Sequence Scores",
+      "authors": [
+        "Qiyao Yan",
+        "Chenpeng Wang",
+        "Liangming Pan"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper argues that Large Language Models (LLMs) may possess reasoning capabilities even when their direct output fails. The core method involves using hidden-state probes to decode correct answers from collapsed sequence scores and then applying a simple additive correction to recover these latent decisions. The main contribution is demonstrating that this approach can significantly improve LLM performance on reasoning tasks by addressing \"expression failures\" rather than fundamental capability gaps.",
+      "url": "http://arxiv.org/abs/2608.31068v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31068v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.31068v1/fig1.png",
+      "figure_caption": "Diagnosing collapsed candidate-answer scores. Raw candidate-answer string scores can select the wrong label even when a linear probe decodes the gold label from a hidden state. We apply a prior-conditioned additive offset ( s y ​ ( x ) ↦ s y ​ ( x ) + b y s_{y}(x)\\( \\mapsto \\) s_{y}(x)+b_{y} ) as a diagnostic intervention; held-out rescue and permutation controls test whether the correction exposes example-specific structure.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2608.31069v1",
+      "title": "A Model with No Head and Many Thoughts",
+      "authors": [
+        "Nikita Koriagin",
+        "Yaroslav Aksenov",
+        "George Bredis",
+        "Gleb Gerasimov",
+        "Nikita Balagansky"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Soft Latent Thinking, a method that replaces the computationally expensive language model head with a lightweight projector during reasoning. This allows for autoregressive rollouts in embedding space, keeping reasoning steps continuous rather than tokenized. The core contribution is demonstrating that effective chain-of-thought reasoning can be achieved in continuous space, leading to improved performance and reduced per-step compute.",
+      "url": "http://arxiv.org/abs/2608.31069v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31069v1",
+      "score": 7.0,
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.31079v1",
+      "title": "Sycophantic Agreement Transfers with Neutral Data via Contrastive Preference Optimization",
+      "authors": [
+        "Camila Blank",
+        "Zhuofan Ying",
+        "Christopher Potts",
+        "Peter Hase",
+        "Jing Huang"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper reveals that sycophantic agreement in language models can be an unintended byproduct of contrastive preference optimization. The core method involves demonstrating that a student model's sycophancy directly correlates with the sycophancy of its teacher models, a phenomenon observed across various preference optimization objectives and not solely due to specific training examples. The main contribution is identifying this transfer mechanism, highlighting a critical flaw in current alignment techniques.",
+      "url": "http://arxiv.org/abs/2608.31079v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31079v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.31079v1/image_39.png",
+      "figure_caption": "Sycophantic agreement can transfer through seemingly neutral preference data during training under contrastive optimization objectives. (A) During data production, a more sycophantic model producing chosen responses and a less sycophantic model producing rejected responses generate similar, innocuous-looking completions. This means that sycophancy is not easily detectable on the datapoint level, but a diffuse sycophancy signal emerges on the dataset level. (B) During training, contrastive preference optimization methods transfer the chosen model’s sycophancy to the student. A model trained on data from a sycophantic chosen model displays sycophantic agreement, while a model trained on data from a non-sycophantic chosen model does not.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.31013v1",
+      "title": "TSPFN: A Temporal Tabular Foundation Model for Physiological Time Series Classification",
+      "authors": [
+        "Jérémie Stym-Popper",
+        "Clément Rambour",
+        "Federica Granese",
+        "Nicolas Thome",
+        "Olivier Bernard"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "TSPFN is a temporal foundation model designed for physiological time series classification, addressing the challenge of limited data in medical machine learning. It adapts the TabPFN architecture by incorporating structured temporal representations and positional embeddings to capture complex dependencies within time series. Pretrained on a large, diverse dataset, TSPFN offers a unified and generalizable framework for learning medical time series patterns.",
+      "url": "http://arxiv.org/abs/2608.31013v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31013v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.31013v1/figures/overview_FINAL_v7.png",
+      "figure_caption": "Overview of the proposed TSPFN framework. Physiological time series are structured into a unified tabular representation with explicit temporal and channel organization, enabling in-context learning for time series classification.",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2608.31111v1",
+      "title": "Aspire: Can Models Self-Evolve from Vague Goals?",
+      "authors": [
+        "Yuhao Wu",
+        "Jingyuan Zhang",
+        "Jiajun Shi",
+        "Yuxuan Zhang",
+        "Xinping Lei"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces ASPIRE, a benchmark for LLM self-evolution that moves beyond pre-defined tasks and metrics. ASPIRE challenges models to interpret vague natural-language goals, autonomously decide how to learn (data and update methods), and create their own evaluation signals. The core contribution is a framework that enables LLMs to self-direct their learning process from ambiguous objectives, mirroring human learning more closely.",
+      "url": "http://arxiv.org/abs/2608.31111v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31111v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2608.31111v1/figure1_motivation_ppt.png",
+      "figure_caption": "From explicit-task optimization to vague-goal-driven self-evolution. (a) With an explicit task definition, humans specify the task format and composition, difficulty anchor, metric, and success criterion, leaving the agent to search primarily over how to improve a fixed objective. (b) With only a broad capability direction, the agent must diagnose capability gaps, decompose sub-goals, construct learning and validation signals, and thereby decide what to optimize as well as how . Official evaluation items remain sealed; external evaluation tests whether gains on an agent-built proxy transfer to the intended capability.",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [
+    {
+      "title": "Research Fellowship: 1 vacancy - CALG_AMALIA_2026_04 (1)",
+      "url": "https://euraxess.ec.europa.eu/jobs/462918",
+      "description": "ANNOUNCEMENT FOR THE AWARD OF A RESEARCH FELLOWSHIPTitle: Research Fellowship; 1 vacancyReference: CALG_AMALIA_2026_04 (1) A call for applications is now open for the attribution of (1) research grant within the scope of the I&D project AMALIA - Criação do Modelo de Linguagem em Grande Escala da... ... * Department: Centro ALGORITMI Work Locations: Number of offers: 1, Portugal, University of Minho, Braga, 4710-017, Braga, Campus de Gualtar Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Computer engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A172) Researcher Profile: [Other Profession](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A6054) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 15 Sep 2026 - 23:59 (Europe/Lisbon) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Spain * [Universidad Complutense de Madrid](https://euraxess.ec.europa.eu/partnering/organisations/profile/universidad-complutense-de-madrid) * [Field: Engineering]",
+      "institution": "",
+      "posted_date": "1 September 2026",
+      "deadline": "15 Sep 2026 - 23:59 (Europe/Lisbon)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Engineering » Computer engineering (focus on Large Language Model creation)\nKey Requirements: N/A\nApplication Info: deadline 15 Sep 2026, required materials N/A, contact N/A\nPosition Details: University of Minho, Braga, Portugal, contract type N/A, workload N/A, salary N/A\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "HRER2026/357-222 Perfil R1 para desarrollo de algoritmos de IA / R1 profile to develop AI algorithms",
+      "url": "https://euraxess.ec.europa.eu/jobs/462916",
+      "description": "Desarrollar Software para el proyecto Europeo SkincAIr. // Software development for the European project SkincAIr.Desarrollo de algoritmos de IA para la detección de enfermedades tropicales desatendidas // Development of AIalgorithms for the detection of Neglected Tropical Diseases * Department: HRS4R Work Locations: Number of offers: 1, Spain, ETSISI, Madrid, 28031, Madrid, Calle Alan Turing, S/N Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A316) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Horizon Europe](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4344) Application Deadline: 14 Sep 2026 - 23:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Slovenia * [University of Ljubljana / Univerza v Ljubljani](https://euraxess.ec.europa.eu/partnering/organisations/profile/university-ljubljana/univerza-v-ljubljani) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "1 September 2026",
+      "deadline": "14 Sep 2026 - 23:00 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: AI algorithms for the detection of Neglected Tropical Diseases, Software development for the European project SkincAIr.\nKey Requirements: First Stage Researcher (R1) profile.\nApplication Info: Deadline: 14 Sep 2026 - 23:00 (Europe/Madrid). Required materials and contact information are not specified.\nPosition Details: Location: Madrid, Spain. Contract type, workload, and salary are not specified.\nOne-line Advice: N/A",
+      "relevance_score": 9.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Research Fellowship: 1 vacancy - CALG_AMALIA_2026_04 (1)",
+      "url": "https://euraxess.ec.europa.eu/jobs/462918",
+      "description": "ANNOUNCEMENT FOR THE AWARD OF A RESEARCH FELLOWSHIPTitle: Research Fellowship; 1 vacancyReference: CALG_AMALIA_2026_04 (1) A call for applications is now open for the attribution of (1) research grant within the scope of the I&D project AMALIA - Criação do Modelo de Linguagem em Grande Escala da... ... * Department: Centro ALGORITMI Work Locations: Number of offers: 1, Portugal, University of Minho, Braga, 4710-017, Braga, Campus de Gualtar Research Field: [Engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A164) » [Computer engineering](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A172) Researcher Profile: [Other Profession](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A6054) Funding Programme: [Not funded by a EU programme](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A555) Application Deadline: 15 Sep 2026 - 23:59 (Europe/Lisbon) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Spain * [Universidad Complutense de Madrid](https://euraxess.ec.europa.eu/partnering/organisations/profile/universidad-complutense-de-madrid) * [Field: Engineering]",
+      "institution": "",
+      "posted_date": "1 September 2026",
+      "deadline": "15 Sep 2026 - 23:59 (Europe/Lisbon)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: Engineering » Computer engineering (focus on Large Language Model creation)\nKey Requirements: N/A\nApplication Info: deadline 15 Sep 2026, required materials N/A, contact N/A\nPosition Details: University of Minho, Braga, Portugal, contract type N/A, workload N/A, salary N/A\nOne-line Advice: N/A",
+      "relevance_score": 7.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    },
+    {
+      "title": "HRER2026/357-222 Perfil R1 para desarrollo de algoritmos de IA / R1 profile to develop AI algorithms",
+      "url": "https://euraxess.ec.europa.eu/jobs/462916",
+      "description": "Desarrollar Software para el proyecto Europeo SkincAIr. // Software development for the European project SkincAIr.Desarrollo de algoritmos de IA para la detección de enfermedades tropicales desatendidas // Development of AIalgorithms for the detection of Neglected Tropical Diseases * Department: HRS4R Work Locations: Number of offers: 1, Spain, ETSISI, Madrid, 28031, Madrid, Calle Alan Turing, S/N Research Field: [Medical sciences](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A313) » [Other](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_field%3A316) Researcher Profile: [First Stage Researcher (R1)](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447) Funding Programme: [Horizon Europe](https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_is_eu_founded%3A4344) Application Deadline: 14 Sep 2026 - 23:00 (Europe/Madrid) * [Share](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#share) * [X (formerly Twitter)](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#xTwitter) * [LinkedIn](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#linkedin) * [Facebook](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#facebook) * [Whatsapp](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#whatsapp) * [E-mail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#email) * [Gmail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#gmail) * [YahooMail](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#yahoomail) * [Pocket](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#pocket) * [Viadeo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#viadeo) * [Weibo](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#weibo) * [Blogger](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#blogger) * [Qzone](https://euraxess.ec.europa.eu/jobs/search?f[0]=offer_type:job_offer&f[1]=positions:postdoc_positions#qzone) * * JOB * Slovenia * [University of Ljubljana / Univerza v Ljubljani](https://euraxess.ec.europa.eu/partnering/organisations/profile/university-ljubljana/univerza-v-ljubljani) * [Field: Medical sciences]",
+      "institution": "",
+      "posted_date": "1 September 2026",
+      "deadline": "14 Sep 2026 - 23:00 (Europe/Madrid)",
+      "source": "EURAXESS Postdoc",
+      "requirements": "Research Area: AI algorithms for the detection of Neglected Tropical Diseases, Software development for the European project SkincAIr.\nKey Requirements: First Stage Researcher (R1) profile.\nApplication Info: Deadline: 14 Sep 2026 - 23:00 (Europe/Madrid). Required materials and contact information are not specified.\nPosition Details: Location: Madrid, Spain. Contract type, workload, and salary are not specified.\nOne-line Advice: N/A",
+      "relevance_score": 9.0,
+      "location": "",
+      "salary": "",
+      "hours": "",
+      "contract_type": "",
+      "placed_on": "",
+      "job_ref": ""
+    }
+  ],
+  "supervisor_updates": [],
+  "weather": []
+}
