@@ -1,0 +1,1006 @@
+{
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T13:49:26.617700+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2609.01597v1",
+          "title": "The Rise of Verbal Reinforcement Learning",
+          "authors": [
+            "Kshitij Tayal",
+            "Arun Sharma",
+            "Genta Indra Winata",
+            "Anirban Das",
+            "Sambit Sahu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Verbal Reinforcement Learning (VRL), a paradigm where natural language serves as the feedback mechanism for language agents. It unifies existing work by categorizing VRL based on *when* verbal feedback is applied and *what* it modifies, leading to three core pillars: language as a grounding signal (defining the task), deliberative feedback (guiding reasoning at test time), and learning signal (shaping model parameters during training). The paper's contribution is a structured overview and synthesis of this emerging field.",
+          "url": "http://arxiv.org/abs/2609.01597v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.01597v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2609.01597v1/main_figure.png",
+          "figure_caption": "Language plays three complementary roles in agent’s development lifecycle: grounding the environment, scaffolding intermediate reasoning, and providing learning signal for further training.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.01491v1",
+          "title": "GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions",
+          "authors": [
+            "Elias Stengel-Eskin",
+            "Newton Sander",
+            "Carlos Bonetti",
+            "Sasha Boguraev",
+            "James Bowler"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.MA"
+          ],
+          "abstract": "GlossoGen is a novel platform for studying emergent language in complex multi-agent LLM interactions. The paper demonstrates that LLM agents, under pressure and with partial information, can develop compositional and morphologically productive languages that are incomprehensible to humans. This evolution is driven by efficiency pressures, model strength, and a postmortem stage for convention agreement.",
+          "url": "http://arxiv.org/abs/2609.01491v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.01491v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2609.01491v1/fig1_draft1.png",
+          "figure_caption": "Example of language emergence under budget pressure in an emergency response scenario (example from Sonnet 4.6). In our fictional SaveVeyru scenario, a Field Observer has access to an ailing alien, Veyru. The field observer reports observed symptoms to the Specialist, who can provide remedies which the Observer implements. Agents must handle information asymmetry, forcing them to communicate, and time pressure, encouraging them to develop novel languages, as seen in Round 13.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.01560v1",
+          "title": "H3-World: Turning Language Understanding into World Control",
+          "authors": [
+            "Danze Chen",
+            "Zeqing Wang",
+            "Ziyue Lin",
+            "Xingyi Yang",
+            "Yeying Jin"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "H3-World transforms a large video generator into an interactive world model by leveraging language as a precise control interface. Its core method involves representing actions as structured character and camera instructions, temporally grounded with video latents via temporal attention routing. The contribution is enabling fine-grained, zero-shot control of video generation using natural language, without needing specialized action modules, by directly utilizing the generator's learned semantic representations.",
+          "url": "http://arxiv.org/abs/2609.01560v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.01560v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2609.01560v1/H3-World-Intro-Prior.png",
+          "figure_caption": "Vanilla MiniMax-H3 already exhibits coarse zero-shot control through textual motion instructions.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.01567v1",
+          "title": "Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers",
+          "authors": [
+            "Matteo Merler",
+            "Giovanni Bonetta",
+            "Davide Zago",
+            "Rossella Cancelliere",
+            "Bernardo Magnini"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces SAGE, a framework that learns an efficient autonomous policy from an imperfect Vision-Language Model (VLM) teacher. SAGE selectively queries the VLM only when the learning agent is uncertain, distilling its guidance into a lightweight Reinforcement Learning policy. A key contribution is weighting VLM advice based on environmental feedback, leading to improved performance over standard RL in visual reasoning and navigation tasks.",
+          "url": "http://arxiv.org/abs/2609.01567v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.01567v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.01437v1",
+          "title": "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
+          "authors": [
+            "Yuhao Wu",
+            "Jingyuan Zhang",
+            "Jiajun Shi",
+            "Xinping Lei",
+            "Qingshui Gu"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.SE"
+          ],
+          "abstract": "This paper introduces HarnessDev, a benchmark that evaluates an LLM's ability to create and improve its own agent execution infrastructure (harness). The core method involves two stages: **Creation**, where the LLM builds a harness from scratch, and **Evolution**, where it iteratively refines its existing harness based on performance feedback. The key contribution is shifting evaluation from task outputs to the runnable infrastructure itself, assessing both the harness's capability and efficiency.",
+          "url": "http://arxiv.org/abs/2609.01437v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.01437v1",
+          "score": 8.0,
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2609.01600v1",
+          "title": "CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?",
+          "authors": [
+            "Damien Sileo",
+            "Dimitri Kachler"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces CordisBench, a new benchmark designed to test language models' ability to reason about component lifecycles in dynamic agent harnesses. The benchmark features 1,200 questions covering tasks like identifying affected components and predicting system states after changes. The study finds that current models perform well on simple systems but struggle with increasing complexity and reasoning across multiple interactions, particularly when predicting final states and handling teardown orders.",
+          "url": "http://arxiv.org/abs/2609.01600v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.01600v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.01588v1",
+          "title": "Designing Proactive Thought Partners for Writing",
+          "authors": [
+            "Chao Zhang",
+            "Abe Davis",
+            "Chih-Wei Chen",
+            "Chin-Chia Hsu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.HC"
+          ],
+          "abstract": "This paper introduces \"proactive thought partners,\" AI agents designed to offer customizable, higher-level cognitive support during the writing process. The core method involved building and testing a technology probe where users configured AI partners to proactively offer suggestions for idea generation and self-monitoring. The contribution lies in demonstrating the potential of such agents to provide timely, tailored assistance beyond basic text completion, enhancing writers' planning and reflection.",
+          "url": "http://arxiv.org/abs/2609.01588v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.01588v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2609.01588v1/figures/design_space.jpg",
+          "figure_caption": "Proactive thought partners in the design space of intelligent writing assistants. We position intelligent writing assistants along two dimensions: initiative, distinguishing reactive user-invoked support from proactive system-initiated support, and level of support, distinguishing textual assistance from higher-level cognitive assistance. Proactive thought partners fall within the proactive and cognitive quadrant, where AI offers higher-level cognitive support during writing without requiring explicit user prompting.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.01431v1",
+          "title": "Efficiently Estimating Optimal Hyperparameter Scaling Laws through Power-Law Entropy Search",
+          "authors": [
+            "Zhiliang Chen",
+            "Sebastian Ament",
+            "David Eriksson",
+            "Maximilian Balandat",
+            "Eytan Bakshy"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces Power-Law Entropy Search (PLES), a novel method for efficiently estimating optimal hyperparameter scaling laws for LLMs. PLES utilizes multi-fidelity Bayesian optimization to adaptively select experiments that minimize the uncertainty of scaling law estimates per unit computational cost, drastically reducing the need for expensive large-scale tuning. Its core contribution lies in its cost-aware search strategy that focuses on improving the overall scaling law prediction rather than optimizing a single hyperparameter.",
+          "url": "http://arxiv.org/abs/2609.01431v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.01431v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2609.01431v1/pictures/LR_scaling_law_convergence.png",
+          "figure_caption": "Through small-scale experiments that share information across different model and data scales, PLES produces an optimal hyperparameter scaling law estimate ( red line ) that converges to the ground-truth optimal hyperparameter scaling law (black dotted line). In addition, PLES produces uncertainty intervals (red horizontal bars) that indicate our confidence of the scaling law estimate.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.01526v1",
+          "title": "EvoSCM: Scientific Belief Revision Through Causal Model Evolution and Experimentation",
+          "authors": [
+            "Qing Zhao",
+            "Haowei Li",
+            "Weijian Deng",
+            "Pengxu Wei",
+            "Liang Lin"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "EvoSCM enables scientific agents to learn and revise beliefs by explicitly representing them as evolving structural causal models (SCMs). It maintains a population of competing SCM hypotheses, which are refined through a cycle of abducing mechanisms, designing experiments, and updating models based on observed discrepancies between predictions and reality. This closed discovery loop allows for systematic and testable scientific belief revision.",
+          "url": "http://arxiv.org/abs/2609.01526v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.01526v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2609.01526v1/first_image.png",
+          "figure_caption": "The discovery performance and transferability of EvoSCM on DiscoverPhysics ( Wiemann et al., 2026 ) . (a) Faster Convergence & Lower Error: EvoSCM achieves significantly better performance while requiring fewer experiment episodes compared to the baseline agent. (b) Cross-Model Transferability: evolved SCMs can be directly transferred across different base models.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.01595v1",
+          "title": "Mechanism Design for Alignment and Control",
+          "authors": [
+            "Dirk Bergemann",
+            "Andrew Koh",
+            "Stephen Morris"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.GT",
+            "econ.TH"
+          ],
+          "abstract": "This paper proposes a mechanism design framework for AI agents with unknown preferences and capabilities. The core method involves a one-sided imitation structure that incentivizes both honesty and obedience, leading to a revelation principle and conditions for disciplining multiple agents. The contribution lies in providing a general approach to aligning and controlling AI agents, with applications to issues like sandbagging, alignment-interpretability trade-offs, and scalable oversight.",
+          "url": "http://arxiv.org/abs/2609.01595v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.01595v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.01519v1",
+          "title": "When Guardrails Look Effective: Construct Validity Failures in LLM Agent Commerce Evaluation",
+          "authors": [
+            "Peiying Zhu",
+            "Sidi Chang"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper argues that current evaluations of LLM agents in simulated markets may be misleading. The core method involves an interactive buyer-seller testbed where researchers found that seemingly positive economic outcomes from marketplace \"guardrails\" were often artifacts of implementation details, not genuine behavioral changes. The main contribution is demonstrating how construct validity failures can inflate perceived effectiveness, highlighting the need for more rigorous evaluation methods.",
+          "url": "http://arxiv.org/abs/2609.01519v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.01519v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.01455v1",
+          "title": "When Safety Routing Breaks: Understanding Alignment Fragility under Benign Fine-Tuning",
+          "authors": [
+            "Yitong Guo",
+            "Xiaoyi Chen",
+            "Siyuan Zhang",
+            "Xiaofeng Wang",
+            "Haixu Tang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "This paper argues that safety alignment in LLMs is fragile due to a \"flattening\" of the safety geometry, which creates a preserved output-routing pathway. Benign fine-tuning selectively re-sharpens this pathway in specific MLP modules, leading to a collapse in safety while general utility remains largely intact. This Fisher-geometric perspective explains the asymmetric fragility and the effectiveness of few-shot safety restoration.",
+          "url": "http://arxiv.org/abs/2609.01455v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.01455v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.01449v1",
+          "title": "Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning",
+          "authors": [
+            "Mariia Drozdova",
+            "Aidan Sirbu",
+            "Pietro Miotti",
+            "Robert Obryk",
+            "Mayalen Etcheverry"
+          ],
+          "categories": [
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces a novel training curriculum for iterative reasoning models by adapting diffusion models. The core method involves adding a persistent hidden state to a diffusion denoiser and removing timestep conditioning, allowing it to function as a single, arbitrarily deep update mechanism. The key contribution is an \"anytime solver\" that achieves high accuracy on complex tasks like Sudoku and Maze, even when inference involves injecting maximum noise at each step, demonstrating efficient exploration of the solution space without complex external mechanisms.",
+          "url": "http://arxiv.org/abs/2609.01449v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.01449v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2609.01449v1/results/diagram.png",
+          "figure_caption": "Denoiser schematic used for Sudoku-Extreme. The transformer’s attention mask for the example blue target cell is also depicted. We detail architectural modifications for Maze-Unique/Maze-Hard in App. B .",
+          "primary_category": "cs.LG",
+          "primary_category_anchor": "cs-lg",
+          "primary_category_rank": 1
+        },
+        {
+          "id": "2609.01432v1",
+          "title": "Citing Less Critically: LLMs Reshape the Rhetoric and Reach of Scientific Citation",
+          "authors": [
+            "Yixuan Liu",
+            "Lin Chen",
+            "Zhuoqi Liu",
+            "Jianglin Lu",
+            "Dakota Murray"
+          ],
+          "categories": [
+            "cs.CL",
+            "cs.CY",
+            "cs.DL",
+            "cs.SI"
+          ],
+          "abstract": "This paper investigates how Large Language Models (LLMs) alter scientific citation practices. Using a masked-citation task, they found LLMs cite less critically than humans, favoring popular and older works. This suggests LLMs may reshape the rhetorical intent and reach of scientific discourse by promoting a less nuanced citation landscape.",
+          "url": "http://arxiv.org/abs/2609.01432v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.01432v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2609.01432v1/plot_diagram_better_v1.png",
+          "figure_caption": "Framework for auditing how LLMs reshape scientific citation behavior by intent. From 1,746 main-track papers (with available .tex and .bib from arXiv), we extract every citation sentence and run the pipeline: Stage 1 : Masking and reconstruction. Each citation sentence is replaced by a masked placeholder, preserving title, venue, section, ± \\( \\pm \\) 1-sentence context, and required citation count. LLMs independently fill each slot with real papers, a fill sentence, and a self-reported intent. Stage 2 : LLM-as-judge intent labeling. An independent judge labels every original and reconstructed sentence as supporting / contrasting / mentioning on identical context, without seeing cited-paper titles, so the label reflects the rhetorical move, not which work is cited. The example paper from ACL 2025 shows the intent shifting from human contrasting to GPT-5.1 supporting . Stage 3 : Dimensions grounding and downstream analysis. Recommendations are matched to Dimensions via DOI then normalized title, returning team size, recency, and citation counts that feed the downstream analyses: intent shift (RQ1), bias amplification (RQ2), and social distance (RQ3).",
+          "primary_category": "cs.CL",
+          "primary_category_anchor": "cs-cl",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 30,
+        "papers_after_llm_filter": 14,
+        "count": 14
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 30,
+    "papers_after_llm_filter": 14,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 51
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2609.01597v1",
+      "title": "The Rise of Verbal Reinforcement Learning",
+      "authors": [
+        "Kshitij Tayal",
+        "Arun Sharma",
+        "Genta Indra Winata",
+        "Anirban Das",
+        "Sambit Sahu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Verbal Reinforcement Learning (VRL), a paradigm where natural language serves as the feedback mechanism for language agents. It unifies existing work by categorizing VRL based on *when* verbal feedback is applied and *what* it modifies, leading to three core pillars: language as a grounding signal (defining the task), deliberative feedback (guiding reasoning at test time), and learning signal (shaping model parameters during training). The paper's contribution is a structured overview and synthesis of this emerging field.",
+      "url": "http://arxiv.org/abs/2609.01597v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01597v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2609.01597v1/main_figure.png",
+      "figure_caption": "Language plays three complementary roles in agent’s development lifecycle: grounding the environment, scaffolding intermediate reasoning, and providing learning signal for further training.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01491v1",
+      "title": "GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions",
+      "authors": [
+        "Elias Stengel-Eskin",
+        "Newton Sander",
+        "Carlos Bonetti",
+        "Sasha Boguraev",
+        "James Bowler"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "GlossoGen is a novel platform for studying emergent language in complex multi-agent LLM interactions. The paper demonstrates that LLM agents, under pressure and with partial information, can develop compositional and morphologically productive languages that are incomprehensible to humans. This evolution is driven by efficiency pressures, model strength, and a postmortem stage for convention agreement.",
+      "url": "http://arxiv.org/abs/2609.01491v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01491v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2609.01491v1/fig1_draft1.png",
+      "figure_caption": "Example of language emergence under budget pressure in an emergency response scenario (example from Sonnet 4.6). In our fictional SaveVeyru scenario, a Field Observer has access to an ailing alien, Veyru. The field observer reports observed symptoms to the Specialist, who can provide remedies which the Observer implements. Agents must handle information asymmetry, forcing them to communicate, and time pressure, encouraging them to develop novel languages, as seen in Round 13.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01560v1",
+      "title": "H3-World: Turning Language Understanding into World Control",
+      "authors": [
+        "Danze Chen",
+        "Zeqing Wang",
+        "Ziyue Lin",
+        "Xingyi Yang",
+        "Yeying Jin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "H3-World transforms a large video generator into an interactive world model by leveraging language as a precise control interface. Its core method involves representing actions as structured character and camera instructions, temporally grounded with video latents via temporal attention routing. The contribution is enabling fine-grained, zero-shot control of video generation using natural language, without needing specialized action modules, by directly utilizing the generator's learned semantic representations.",
+      "url": "http://arxiv.org/abs/2609.01560v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01560v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2609.01560v1/H3-World-Intro-Prior.png",
+      "figure_caption": "Vanilla MiniMax-H3 already exhibits coarse zero-shot control through textual motion instructions.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01567v1",
+      "title": "Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers",
+      "authors": [
+        "Matteo Merler",
+        "Giovanni Bonetta",
+        "Davide Zago",
+        "Rossella Cancelliere",
+        "Bernardo Magnini"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces SAGE, a framework that learns an efficient autonomous policy from an imperfect Vision-Language Model (VLM) teacher. SAGE selectively queries the VLM only when the learning agent is uncertain, distilling its guidance into a lightweight Reinforcement Learning policy. A key contribution is weighting VLM advice based on environmental feedback, leading to improved performance over standard RL in visual reasoning and navigation tasks.",
+      "url": "http://arxiv.org/abs/2609.01567v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01567v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01437v1",
+      "title": "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
+      "authors": [
+        "Yuhao Wu",
+        "Jingyuan Zhang",
+        "Jiajun Shi",
+        "Xinping Lei",
+        "Qingshui Gu"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces HarnessDev, a benchmark that evaluates an LLM's ability to create and improve its own agent execution infrastructure (harness). The core method involves two stages: **Creation**, where the LLM builds a harness from scratch, and **Evolution**, where it iteratively refines its existing harness based on performance feedback. The key contribution is shifting evaluation from task outputs to the runnable infrastructure itself, assessing both the harness's capability and efficiency.",
+      "url": "http://arxiv.org/abs/2609.01437v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01437v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2609.01600v1",
+      "title": "CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?",
+      "authors": [
+        "Damien Sileo",
+        "Dimitri Kachler"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces CordisBench, a new benchmark designed to test language models' ability to reason about component lifecycles in dynamic agent harnesses. The benchmark features 1,200 questions covering tasks like identifying affected components and predicting system states after changes. The study finds that current models perform well on simple systems but struggle with increasing complexity and reasoning across multiple interactions, particularly when predicting final states and handling teardown orders.",
+      "url": "http://arxiv.org/abs/2609.01600v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01600v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01588v1",
+      "title": "Designing Proactive Thought Partners for Writing",
+      "authors": [
+        "Chao Zhang",
+        "Abe Davis",
+        "Chih-Wei Chen",
+        "Chin-Chia Hsu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "abstract": "This paper introduces \"proactive thought partners,\" AI agents designed to offer customizable, higher-level cognitive support during the writing process. The core method involved building and testing a technology probe where users configured AI partners to proactively offer suggestions for idea generation and self-monitoring. The contribution lies in demonstrating the potential of such agents to provide timely, tailored assistance beyond basic text completion, enhancing writers' planning and reflection.",
+      "url": "http://arxiv.org/abs/2609.01588v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01588v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.01588v1/figures/design_space.jpg",
+      "figure_caption": "Proactive thought partners in the design space of intelligent writing assistants. We position intelligent writing assistants along two dimensions: initiative, distinguishing reactive user-invoked support from proactive system-initiated support, and level of support, distinguishing textual assistance from higher-level cognitive assistance. Proactive thought partners fall within the proactive and cognitive quadrant, where AI offers higher-level cognitive support during writing without requiring explicit user prompting.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01431v1",
+      "title": "Efficiently Estimating Optimal Hyperparameter Scaling Laws through Power-Law Entropy Search",
+      "authors": [
+        "Zhiliang Chen",
+        "Sebastian Ament",
+        "David Eriksson",
+        "Maximilian Balandat",
+        "Eytan Bakshy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces Power-Law Entropy Search (PLES), a novel method for efficiently estimating optimal hyperparameter scaling laws for LLMs. PLES utilizes multi-fidelity Bayesian optimization to adaptively select experiments that minimize the uncertainty of scaling law estimates per unit computational cost, drastically reducing the need for expensive large-scale tuning. Its core contribution lies in its cost-aware search strategy that focuses on improving the overall scaling law prediction rather than optimizing a single hyperparameter.",
+      "url": "http://arxiv.org/abs/2609.01431v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01431v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.01431v1/pictures/LR_scaling_law_convergence.png",
+      "figure_caption": "Through small-scale experiments that share information across different model and data scales, PLES produces an optimal hyperparameter scaling law estimate ( red line ) that converges to the ground-truth optimal hyperparameter scaling law (black dotted line). In addition, PLES produces uncertainty intervals (red horizontal bars) that indicate our confidence of the scaling law estimate.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01526v1",
+      "title": "EvoSCM: Scientific Belief Revision Through Causal Model Evolution and Experimentation",
+      "authors": [
+        "Qing Zhao",
+        "Haowei Li",
+        "Weijian Deng",
+        "Pengxu Wei",
+        "Liang Lin"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "EvoSCM enables scientific agents to learn and revise beliefs by explicitly representing them as evolving structural causal models (SCMs). It maintains a population of competing SCM hypotheses, which are refined through a cycle of abducing mechanisms, designing experiments, and updating models based on observed discrepancies between predictions and reality. This closed discovery loop allows for systematic and testable scientific belief revision.",
+      "url": "http://arxiv.org/abs/2609.01526v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01526v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.01526v1/first_image.png",
+      "figure_caption": "The discovery performance and transferability of EvoSCM on DiscoverPhysics ( Wiemann et al., 2026 ) . (a) Faster Convergence & Lower Error: EvoSCM achieves significantly better performance while requiring fewer experiment episodes compared to the baseline agent. (b) Cross-Model Transferability: evolved SCMs can be directly transferred across different base models.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01595v1",
+      "title": "Mechanism Design for Alignment and Control",
+      "authors": [
+        "Dirk Bergemann",
+        "Andrew Koh",
+        "Stephen Morris"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.GT",
+        "econ.TH"
+      ],
+      "abstract": "This paper proposes a mechanism design framework for AI agents with unknown preferences and capabilities. The core method involves a one-sided imitation structure that incentivizes both honesty and obedience, leading to a revelation principle and conditions for disciplining multiple agents. The contribution lies in providing a general approach to aligning and controlling AI agents, with applications to issues like sandbagging, alignment-interpretability trade-offs, and scalable oversight.",
+      "url": "http://arxiv.org/abs/2609.01595v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01595v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01519v1",
+      "title": "When Guardrails Look Effective: Construct Validity Failures in LLM Agent Commerce Evaluation",
+      "authors": [
+        "Peiying Zhu",
+        "Sidi Chang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper argues that current evaluations of LLM agents in simulated markets may be misleading. The core method involves an interactive buyer-seller testbed where researchers found that seemingly positive economic outcomes from marketplace \"guardrails\" were often artifacts of implementation details, not genuine behavioral changes. The main contribution is demonstrating how construct validity failures can inflate perceived effectiveness, highlighting the need for more rigorous evaluation methods.",
+      "url": "http://arxiv.org/abs/2609.01519v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01519v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01455v1",
+      "title": "When Safety Routing Breaks: Understanding Alignment Fragility under Benign Fine-Tuning",
+      "authors": [
+        "Yitong Guo",
+        "Xiaoyi Chen",
+        "Siyuan Zhang",
+        "Xiaofeng Wang",
+        "Haixu Tang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper argues that safety alignment in LLMs is fragile due to a \"flattening\" of the safety geometry, which creates a preserved output-routing pathway. Benign fine-tuning selectively re-sharpens this pathway in specific MLP modules, leading to a collapse in safety while general utility remains largely intact. This Fisher-geometric perspective explains the asymmetric fragility and the effectiveness of few-shot safety restoration.",
+      "url": "http://arxiv.org/abs/2609.01455v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01455v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01449v1",
+      "title": "Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning",
+      "authors": [
+        "Mariia Drozdova",
+        "Aidan Sirbu",
+        "Pietro Miotti",
+        "Robert Obryk",
+        "Mayalen Etcheverry"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces a novel training curriculum for iterative reasoning models by adapting diffusion models. The core method involves adding a persistent hidden state to a diffusion denoiser and removing timestep conditioning, allowing it to function as a single, arbitrarily deep update mechanism. The key contribution is an \"anytime solver\" that achieves high accuracy on complex tasks like Sudoku and Maze, even when inference involves injecting maximum noise at each step, demonstrating efficient exploration of the solution space without complex external mechanisms.",
+      "url": "http://arxiv.org/abs/2609.01449v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01449v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.01449v1/results/diagram.png",
+      "figure_caption": "Denoiser schematic used for Sudoku-Extreme. The transformer’s attention mask for the example blue target cell is also depicted. We detail architectural modifications for Maze-Unique/Maze-Hard in App. B .",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2609.01432v1",
+      "title": "Citing Less Critically: LLMs Reshape the Rhetoric and Reach of Scientific Citation",
+      "authors": [
+        "Yixuan Liu",
+        "Lin Chen",
+        "Zhuoqi Liu",
+        "Jianglin Lu",
+        "Dakota Murray"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CY",
+        "cs.DL",
+        "cs.SI"
+      ],
+      "abstract": "This paper investigates how Large Language Models (LLMs) alter scientific citation practices. Using a masked-citation task, they found LLMs cite less critically than humans, favoring popular and older works. This suggests LLMs may reshape the rhetorical intent and reach of scientific discourse by promoting a less nuanced citation landscape.",
+      "url": "http://arxiv.org/abs/2609.01432v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01432v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.01432v1/plot_diagram_better_v1.png",
+      "figure_caption": "Framework for auditing how LLMs reshape scientific citation behavior by intent. From 1,746 main-track papers (with available .tex and .bib from arXiv), we extract every citation sentence and run the pipeline: Stage 1 : Masking and reconstruction. Each citation sentence is replaced by a masked placeholder, preserving title, venue, section, ± \\( \\pm \\) 1-sentence context, and required citation count. LLMs independently fill each slot with real papers, a fill sentence, and a self-reported intent. Stage 2 : LLM-as-judge intent labeling. An independent judge labels every original and reconstructed sentence as supporting / contrasting / mentioning on identical context, without seeing cited-paper titles, so the label reflects the rhetorical move, not which work is cited. The example paper from ACL 2025 shows the intent shifting from human contrasting to GPT-5.1 supporting . Stage 3 : Dimensions grounding and downstream analysis. Recommendations are matched to Dimensions via DOI then normalized title, returning team size, recency, and citation counts that feed the downstream analyses: intent shift (RQ1), bias amplification (RQ2), and social distance (RQ3).",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2609.01597v1",
+      "title": "The Rise of Verbal Reinforcement Learning",
+      "authors": [
+        "Kshitij Tayal",
+        "Arun Sharma",
+        "Genta Indra Winata",
+        "Anirban Das",
+        "Sambit Sahu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Verbal Reinforcement Learning (VRL), a paradigm where natural language serves as the feedback mechanism for language agents. It unifies existing work by categorizing VRL based on *when* verbal feedback is applied and *what* it modifies, leading to three core pillars: language as a grounding signal (defining the task), deliberative feedback (guiding reasoning at test time), and learning signal (shaping model parameters during training). The paper's contribution is a structured overview and synthesis of this emerging field.",
+      "url": "http://arxiv.org/abs/2609.01597v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01597v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2609.01597v1/main_figure.png",
+      "figure_caption": "Language plays three complementary roles in agent’s development lifecycle: grounding the environment, scaffolding intermediate reasoning, and providing learning signal for further training.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01491v1",
+      "title": "GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions",
+      "authors": [
+        "Elias Stengel-Eskin",
+        "Newton Sander",
+        "Carlos Bonetti",
+        "Sasha Boguraev",
+        "James Bowler"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "GlossoGen is a novel platform for studying emergent language in complex multi-agent LLM interactions. The paper demonstrates that LLM agents, under pressure and with partial information, can develop compositional and morphologically productive languages that are incomprehensible to humans. This evolution is driven by efficiency pressures, model strength, and a postmortem stage for convention agreement.",
+      "url": "http://arxiv.org/abs/2609.01491v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01491v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2609.01491v1/fig1_draft1.png",
+      "figure_caption": "Example of language emergence under budget pressure in an emergency response scenario (example from Sonnet 4.6). In our fictional SaveVeyru scenario, a Field Observer has access to an ailing alien, Veyru. The field observer reports observed symptoms to the Specialist, who can provide remedies which the Observer implements. Agents must handle information asymmetry, forcing them to communicate, and time pressure, encouraging them to develop novel languages, as seen in Round 13.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01560v1",
+      "title": "H3-World: Turning Language Understanding into World Control",
+      "authors": [
+        "Danze Chen",
+        "Zeqing Wang",
+        "Ziyue Lin",
+        "Xingyi Yang",
+        "Yeying Jin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "H3-World transforms a large video generator into an interactive world model by leveraging language as a precise control interface. Its core method involves representing actions as structured character and camera instructions, temporally grounded with video latents via temporal attention routing. The contribution is enabling fine-grained, zero-shot control of video generation using natural language, without needing specialized action modules, by directly utilizing the generator's learned semantic representations.",
+      "url": "http://arxiv.org/abs/2609.01560v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01560v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2609.01560v1/H3-World-Intro-Prior.png",
+      "figure_caption": "Vanilla MiniMax-H3 already exhibits coarse zero-shot control through textual motion instructions.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01567v1",
+      "title": "Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers",
+      "authors": [
+        "Matteo Merler",
+        "Giovanni Bonetta",
+        "Davide Zago",
+        "Rossella Cancelliere",
+        "Bernardo Magnini"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces SAGE, a framework that learns an efficient autonomous policy from an imperfect Vision-Language Model (VLM) teacher. SAGE selectively queries the VLM only when the learning agent is uncertain, distilling its guidance into a lightweight Reinforcement Learning policy. A key contribution is weighting VLM advice based on environmental feedback, leading to improved performance over standard RL in visual reasoning and navigation tasks.",
+      "url": "http://arxiv.org/abs/2609.01567v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01567v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01437v1",
+      "title": "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
+      "authors": [
+        "Yuhao Wu",
+        "Jingyuan Zhang",
+        "Jiajun Shi",
+        "Xinping Lei",
+        "Qingshui Gu"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces HarnessDev, a benchmark that evaluates an LLM's ability to create and improve its own agent execution infrastructure (harness). The core method involves two stages: **Creation**, where the LLM builds a harness from scratch, and **Evolution**, where it iteratively refines its existing harness based on performance feedback. The key contribution is shifting evaluation from task outputs to the runnable infrastructure itself, assessing both the harness's capability and efficiency.",
+      "url": "http://arxiv.org/abs/2609.01437v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01437v1",
+      "score": 8.0,
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2609.01600v1",
+      "title": "CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?",
+      "authors": [
+        "Damien Sileo",
+        "Dimitri Kachler"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces CordisBench, a new benchmark designed to test language models' ability to reason about component lifecycles in dynamic agent harnesses. The benchmark features 1,200 questions covering tasks like identifying affected components and predicting system states after changes. The study finds that current models perform well on simple systems but struggle with increasing complexity and reasoning across multiple interactions, particularly when predicting final states and handling teardown orders.",
+      "url": "http://arxiv.org/abs/2609.01600v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01600v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01588v1",
+      "title": "Designing Proactive Thought Partners for Writing",
+      "authors": [
+        "Chao Zhang",
+        "Abe Davis",
+        "Chih-Wei Chen",
+        "Chin-Chia Hsu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "abstract": "This paper introduces \"proactive thought partners,\" AI agents designed to offer customizable, higher-level cognitive support during the writing process. The core method involved building and testing a technology probe where users configured AI partners to proactively offer suggestions for idea generation and self-monitoring. The contribution lies in demonstrating the potential of such agents to provide timely, tailored assistance beyond basic text completion, enhancing writers' planning and reflection.",
+      "url": "http://arxiv.org/abs/2609.01588v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01588v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.01588v1/figures/design_space.jpg",
+      "figure_caption": "Proactive thought partners in the design space of intelligent writing assistants. We position intelligent writing assistants along two dimensions: initiative, distinguishing reactive user-invoked support from proactive system-initiated support, and level of support, distinguishing textual assistance from higher-level cognitive assistance. Proactive thought partners fall within the proactive and cognitive quadrant, where AI offers higher-level cognitive support during writing without requiring explicit user prompting.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01431v1",
+      "title": "Efficiently Estimating Optimal Hyperparameter Scaling Laws through Power-Law Entropy Search",
+      "authors": [
+        "Zhiliang Chen",
+        "Sebastian Ament",
+        "David Eriksson",
+        "Maximilian Balandat",
+        "Eytan Bakshy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces Power-Law Entropy Search (PLES), a novel method for efficiently estimating optimal hyperparameter scaling laws for LLMs. PLES utilizes multi-fidelity Bayesian optimization to adaptively select experiments that minimize the uncertainty of scaling law estimates per unit computational cost, drastically reducing the need for expensive large-scale tuning. Its core contribution lies in its cost-aware search strategy that focuses on improving the overall scaling law prediction rather than optimizing a single hyperparameter.",
+      "url": "http://arxiv.org/abs/2609.01431v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01431v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.01431v1/pictures/LR_scaling_law_convergence.png",
+      "figure_caption": "Through small-scale experiments that share information across different model and data scales, PLES produces an optimal hyperparameter scaling law estimate ( red line ) that converges to the ground-truth optimal hyperparameter scaling law (black dotted line). In addition, PLES produces uncertainty intervals (red horizontal bars) that indicate our confidence of the scaling law estimate.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01526v1",
+      "title": "EvoSCM: Scientific Belief Revision Through Causal Model Evolution and Experimentation",
+      "authors": [
+        "Qing Zhao",
+        "Haowei Li",
+        "Weijian Deng",
+        "Pengxu Wei",
+        "Liang Lin"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "EvoSCM enables scientific agents to learn and revise beliefs by explicitly representing them as evolving structural causal models (SCMs). It maintains a population of competing SCM hypotheses, which are refined through a cycle of abducing mechanisms, designing experiments, and updating models based on observed discrepancies between predictions and reality. This closed discovery loop allows for systematic and testable scientific belief revision.",
+      "url": "http://arxiv.org/abs/2609.01526v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01526v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.01526v1/first_image.png",
+      "figure_caption": "The discovery performance and transferability of EvoSCM on DiscoverPhysics ( Wiemann et al., 2026 ) . (a) Faster Convergence & Lower Error: EvoSCM achieves significantly better performance while requiring fewer experiment episodes compared to the baseline agent. (b) Cross-Model Transferability: evolved SCMs can be directly transferred across different base models.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01595v1",
+      "title": "Mechanism Design for Alignment and Control",
+      "authors": [
+        "Dirk Bergemann",
+        "Andrew Koh",
+        "Stephen Morris"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.GT",
+        "econ.TH"
+      ],
+      "abstract": "This paper proposes a mechanism design framework for AI agents with unknown preferences and capabilities. The core method involves a one-sided imitation structure that incentivizes both honesty and obedience, leading to a revelation principle and conditions for disciplining multiple agents. The contribution lies in providing a general approach to aligning and controlling AI agents, with applications to issues like sandbagging, alignment-interpretability trade-offs, and scalable oversight.",
+      "url": "http://arxiv.org/abs/2609.01595v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01595v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01519v1",
+      "title": "When Guardrails Look Effective: Construct Validity Failures in LLM Agent Commerce Evaluation",
+      "authors": [
+        "Peiying Zhu",
+        "Sidi Chang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper argues that current evaluations of LLM agents in simulated markets may be misleading. The core method involves an interactive buyer-seller testbed where researchers found that seemingly positive economic outcomes from marketplace \"guardrails\" were often artifacts of implementation details, not genuine behavioral changes. The main contribution is demonstrating how construct validity failures can inflate perceived effectiveness, highlighting the need for more rigorous evaluation methods.",
+      "url": "http://arxiv.org/abs/2609.01519v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01519v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01455v1",
+      "title": "When Safety Routing Breaks: Understanding Alignment Fragility under Benign Fine-Tuning",
+      "authors": [
+        "Yitong Guo",
+        "Xiaoyi Chen",
+        "Siyuan Zhang",
+        "Xiaofeng Wang",
+        "Haixu Tang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper argues that safety alignment in LLMs is fragile due to a \"flattening\" of the safety geometry, which creates a preserved output-routing pathway. Benign fine-tuning selectively re-sharpens this pathway in specific MLP modules, leading to a collapse in safety while general utility remains largely intact. This Fisher-geometric perspective explains the asymmetric fragility and the effectiveness of few-shot safety restoration.",
+      "url": "http://arxiv.org/abs/2609.01455v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01455v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.01449v1",
+      "title": "Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning",
+      "authors": [
+        "Mariia Drozdova",
+        "Aidan Sirbu",
+        "Pietro Miotti",
+        "Robert Obryk",
+        "Mayalen Etcheverry"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces a novel training curriculum for iterative reasoning models by adapting diffusion models. The core method involves adding a persistent hidden state to a diffusion denoiser and removing timestep conditioning, allowing it to function as a single, arbitrarily deep update mechanism. The key contribution is an \"anytime solver\" that achieves high accuracy on complex tasks like Sudoku and Maze, even when inference involves injecting maximum noise at each step, demonstrating efficient exploration of the solution space without complex external mechanisms.",
+      "url": "http://arxiv.org/abs/2609.01449v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01449v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.01449v1/results/diagram.png",
+      "figure_caption": "Denoiser schematic used for Sudoku-Extreme. The transformer’s attention mask for the example blue target cell is also depicted. We detail architectural modifications for Maze-Unique/Maze-Hard in App. B .",
+      "primary_category": "cs.LG",
+      "primary_category_anchor": "cs-lg",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2609.01432v1",
+      "title": "Citing Less Critically: LLMs Reshape the Rhetoric and Reach of Scientific Citation",
+      "authors": [
+        "Yixuan Liu",
+        "Lin Chen",
+        "Zhuoqi Liu",
+        "Jianglin Lu",
+        "Dakota Murray"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CY",
+        "cs.DL",
+        "cs.SI"
+      ],
+      "abstract": "This paper investigates how Large Language Models (LLMs) alter scientific citation practices. Using a masked-citation task, they found LLMs cite less critically than humans, favoring popular and older works. This suggests LLMs may reshape the rhetorical intent and reach of scientific discourse by promoting a less nuanced citation landscape.",
+      "url": "http://arxiv.org/abs/2609.01432v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01432v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.01432v1/plot_diagram_better_v1.png",
+      "figure_caption": "Framework for auditing how LLMs reshape scientific citation behavior by intent. From 1,746 main-track papers (with available .tex and .bib from arXiv), we extract every citation sentence and run the pipeline: Stage 1 : Masking and reconstruction. Each citation sentence is replaced by a masked placeholder, preserving title, venue, section, ± \\( \\pm \\) 1-sentence context, and required citation count. LLMs independently fill each slot with real papers, a fill sentence, and a self-reported intent. Stage 2 : LLM-as-judge intent labeling. An independent judge labels every original and reconstructed sentence as supporting / contrasting / mentioning on identical context, without seeing cited-paper titles, so the label reflects the rhetorical move, not which work is cited. The example paper from ACL 2025 shows the intent shifting from human contrasting to GPT-5.1 supporting . Stage 3 : Dimensions grounding and downstream analysis. Recommendations are matched to Dimensions via DOI then normalized title, returning team size, recency, and citation counts that feed the downstream analyses: intent shift (RQ1), bias amplification (RQ2), and social distance (RQ3).",
+      "primary_category": "cs.CL",
+      "primary_category_anchor": "cs-cl",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
