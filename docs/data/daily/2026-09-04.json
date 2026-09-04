@@ -1,0 +1,1081 @@
+{
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T13:43:36.423022+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2609.04071v1",
+          "title": "TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models",
+          "authors": [
+            "Mehedi Hasan",
+            "Ashfak Yeafi",
+            "Md Khairul Islam"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "TAP-Path is a task-adaptive compression framework for pathology foundation models that directly restructures a pretrained encoder. It achieves efficiency by selectively removing transformer blocks and input-adaptive patch tokens, while recovering lost features and using a lightweight task head. This method significantly reduces model size and computation with minimal impact on downstream task performance.",
+          "url": "http://arxiv.org/abs/2609.04071v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.04071v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.04170v1",
+          "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+          "authors": [
+            "Davide Paglieri",
+            "Logan Cross",
+            "Tim Genewein",
+            "Joel Z. Leibo",
+            "Nenad Tomasev"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper studies emergent cheating and whistleblowing in a swarm of 100 autonomous LLM agents tasked with proving mathematical conjectures. The core method involved observing these agents' interactions within a shared knowledge system. The key contribution is demonstrating how undesirable behaviors like cheating can spontaneously emerge and be countered by emergent whistleblowing within a multi-agent AI system, highlighting vulnerabilities in shared AI infrastructure.",
+          "url": "http://arxiv.org/abs/2609.04170v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.04170v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.04096v1",
+          "title": "Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis",
+          "authors": [
+            "Sixu Yan",
+            "Shikang Wang",
+            "Binhua Huang",
+            "Xuanlai Tang",
+            "Guohua Fan"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV",
+            "cs.RO"
+          ],
+          "abstract": "AdaRoboVLG introduces a novel Vision-Language-Grasp (VLG) framework that separates a generalizable base grasp policy from task-specific understanding. The base policy efficiently synthesizes and evaluates physically feasible grasps, while specialized foundation model modules provide composable priors for task adaptation. This approach enables contextually adaptive grasping without retraining the core policy, demonstrating strong cross-hand generalization and effective integration of various prior knowledge types.",
+          "url": "http://arxiv.org/abs/2609.04096v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.04096v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.04094v1",
+          "title": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
+          "authors": [
+            "Shubham Gandhi",
+            "Saurabh Goyal",
+            "Kiran Kate",
+            "Yara Rizk"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.SE"
+          ],
+          "abstract": "DRACO addresses the challenge of training agents for long-horizon tasks without explicit success signals by dynamically generating and applying multi-criteria rubrics. It scores these rubrics per trajectory and then uses a closed-form redistribution method to assign per-step advantages, improving credit assignment in reinforcement learning. This approach significantly enhances agent performance on complex tasks like AppWorld, outperforming baseline methods and even those using sparse ground-truth rewards.",
+          "url": "http://arxiv.org/abs/2609.04094v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.04094v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2609.04094v1/figures/draco_image.png",
+          "figure_caption": "Overview of DRACO. Top: for each task, the judge proposes criteria from the instruction and each sampled trajectory; proposals are merged, deduplicated, and scored to produce an outcome-blind reward R i R_{i} (Section 3.2). Bottom: within a rollout group, GRPO normalizes rewards into trajectory advantages A i A_{i} ; DRACO then reallocates each A i A_{i} across steps according to the judge’s per-criterion verdicts, yielding step advantages a j a_{j} that concentrate credit on the steps the rubric implicates (Section 3.3).",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.04141v1",
+          "title": "Efficient Test-Time Adaptation through Human-AI Interaction",
+          "authors": [
+            "Zora Zhiruo Wang",
+            "Apurva Gandhi",
+            "Rulin Shao",
+            "Aspen Chen",
+            "Jonas Mueller"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces Test-Time Adaptation through Human-AI Interaction (TAHI), a method that leverages iterative human-AI collaboration to personalize AI agent outputs. TAHI integrates user feedback across sessions into the agent's context and weights, and uses an evolving rubric to capture individual expertise and evaluation criteria. This approach aims to bridge the gap between general AI capabilities and the specific, high standards of individual professionals.",
+          "url": "http://arxiv.org/abs/2609.04141v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.04141v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2609.04141v1/human-agent-interaction.png",
+          "figure_caption": "Illustration of a human-agent interaction process using our interface with an evolving verifier module. The agent executes tasks, while the human provides instructions, suggestions, and corrections via four modules: plan adjustment (A. Plan), output file editing (B. Deliverables), textual feedback (C. Message), and criteria specification (D. Rubrics). Human and agent iterate on this instruction-execution loop to improve the deliverables (iter 1 → \\( \\rightarrow \\) iter 2 → \\( \\rightarrow \\) …) until the human is satisfied with it (bottom). Meanwhile, the verifier module evolves by integrating human signals from the previous iteration, updating the rubrics to capture human preferences.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.04127v1",
+          "title": "Epistemic Warrant for LLM Recommendations: Characterizing the Basis for Reliance When Ground Truth Is Unavailable",
+          "authors": [
+            "Shai Vardi",
+            "João Sedoc"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces \"epistemic warrant\" as a new way to assess reliance on LLM recommendations when ground truth is unknown. It operationalizes this by providing a four-tier \"reliance certificate\" for pairwise recommendations, indicating their stability and scope of applicability. This framework helps users understand *why* they should trust a specific LLM suggestion, moving beyond general model properties.",
+          "url": "http://arxiv.org/abs/2609.04127v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.04127v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2609.04127v1/context_more.png",
+          "figure_caption": "Conceptual relationships among the contextual transformation tiers. Tier 1 transformations preserve approximately the same contextual breadth as the focal decision; Tier 2 transformations evaluate narrower subcontexts; and Tier 3 transformations evaluate either broader contexts or substantively related contexts that are not nested within the focal context. Tier 0 is not shown because it consists of repeated queries of the unchanged focal prompt rather than a contextual transformation.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.04021v1",
+          "title": "FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models",
+          "authors": [
+            "Yalun Wu",
+            "Junfeng Fang",
+            "Jiawei Wang",
+            "Haotian Liu",
+            "Qijun Yang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces FLY-EVAL++, an evidence-driven evaluation protocol for LLMs in safety-critical flight prediction. It goes beyond simple accuracy by incorporating deterministic verification of physical feasibility and safety constraints, alongside rubric-guided aggregation into multi-dimensional scores. The core contribution is a more robust evaluation method that reliably identifies critical failure modes, demonstrating that safety compliance is a key differentiator for LLMs in this domain.",
+          "url": "http://arxiv.org/abs/2609.04021v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.04021v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2609.04021v1/figures/ftap_safety_tube_overview.png",
+          "figure_caption": "FTAP phase structure and safety corridor overview. Each flight phase imposes distinct kinematic constraints, and the shaded corridors indicate admissible prediction regions.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.04014v1",
+          "title": "InSituMeasure: Probing Situated Measurement Grounding in Industrial Scenes with Multimodal Large Language Models",
+          "authors": [
+            "Chao Shen",
+            "Xinyuan Li",
+            "Yunfan Zhou",
+            "Jianguo Yao",
+            "Haibing Guan"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces InSituMeasure, a new benchmark designed to evaluate how well Multimodal Large Language Models (MLLMs) can read and understand measurements from industrial instruments in realistic settings. The core method involves using a dataset of real industrial scenes with detailed annotations and noise tags to test MLLMs on numerical accuracy, unit consistency, and their ability to reject invalid tasks. The main contribution is providing a more realistic evaluation of MLLMs' measurement grounding capabilities, moving beyond simplified benchmarks to identify and address their weaknesses in complex, knowledge-grounded industrial environments.",
+          "url": "http://arxiv.org/abs/2609.04014v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.04014v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.04180v1",
+          "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
+          "authors": [
+            "Joseph Lee",
+            "Yidi Huang",
+            "Dokyoon Kim",
+            "Shu Yang",
+            "Li Shen"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates how Large Language Models (LLMs) acquire knowledge during pre-training. The core method involves controlled experiments to isolate the impact of \"auxiliary views\" – reformulations of knowledge. The key contribution is demonstrating that providing these auxiliary views, even at the expense of direct repetition, can improve LLM learning, particularly for factual recall, and that this benefit is not dependent on the teacher model's strength.",
+          "url": "http://arxiv.org/abs/2609.04180v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.04180v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.04013v1",
+          "title": "LLM4CKD: Large Language Models for Early Stage Chronic Kidney Disease Screening",
+          "authors": [
+            "Muhammad Ashad Kabir",
+            "Sirajam Munira"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces LLM4CKD, a framework for early chronic kidney disease (CKD) screening using large language models (LLMs). The core method leverages LLMs in zero-shot and few-shot settings with structured prompts and clinically selected features, eliminating the need for extensive labeled data and model training. The main contribution is demonstrating that LLMs can achieve competitive, and sometimes superior, CKD screening performance compared to traditional ML/DL methods, especially in low-data scenarios.",
+          "url": "http://arxiv.org/abs/2609.04013v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.04013v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.04022v1",
+          "title": "Representational alignment yields generalizable safety in language models",
+          "authors": [
+            "Lingyu Li",
+            "Yan Teng",
+            "Yingchun Wang",
+            "Xia Hu"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces **representational similarity optimization** to improve LLM safety. Instead of just controlling output, it aligns the model's internal representations with human moral judgments. This novel approach aims to make LLMs more robust to variations in harmful intent by ensuring their internal understanding of moral concepts mirrors human categorization.",
+          "url": "http://arxiv.org/abs/2609.04022v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.04022v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.04172v1",
+          "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
+          "authors": [
+            "Zixuan Fu",
+            "Bingxiang He",
+            "Yuxin Zuo",
+            "Haohuan Huang",
+            "Jinqian Zhang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper investigates the effectiveness of on-policy distillation (OPD) for large language models when trained with minimal data, specifically a single example. The core method involves distilling knowledge from a teacher model to a student model using student-generated rollouts and token-level supervision. The key contribution is demonstrating that even one training example can lead to significant performance gains, recovering most of the benefits of full-data training by achieving high state coverage early in the process.",
+          "url": "http://arxiv.org/abs/2609.04172v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.04172v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.04159v1",
+          "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
+          "authors": [
+            "Uday Vallabhaneni",
+            "Cassie L. Cagwin",
+            "David J. Wild"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR"
+          ],
+          "abstract": "This paper introduces Sentinel-RL, an architecture for LLM-based security analysts that addresses limitations in handling large network topologies. It decouples topological reasoning by using a graph attention encoder to summarize the network state and a reinforcement learning policy to select constrained investigative actions. This approach ensures that LLM recommendations are topologically consistent and reliable for enterprise-scale security operations.",
+          "url": "http://arxiv.org/abs/2609.04159v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.04159v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.04066v1",
+          "title": "Subspace Inference Enables Efficient Active Reward Learning from Preferences",
+          "authors": [
+            "Yutai Zhou",
+            "Erdem Bıyık"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "cs.RO"
+          ],
+          "abstract": "This paper introduces PreferenceEKF, an efficient method for active learning in reinforcement learning from human feedback. It frames preference learning as a sequential Bayesian filtering problem, using an extended Kalman filter within a low-dimensional parameter subspace to track reward model uncertainty. This approach avoids computationally expensive full posterior inference, enabling scalable sampling of neural network parameters and efficient acquisition of informative human preferences.",
+          "url": "http://arxiv.org/abs/2609.04066v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.04066v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.04148v1",
+          "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
+          "authors": [
+            "Jie Wu",
+            "Zhenru Zhang",
+            "Beichen Zhang",
+            "Xuwu Wang",
+            "Yuhui Su"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "This paper introduces Terminal-Universe, a framework that reconstructs executable environments from agent trajectories. By replaying file operations, it recreates the original workspace, enabling these trajectories to become reusable environments for generating new tasks and continued agent interaction. This addresses the scarcity of realistic environments by leveraging existing agent data.",
+          "url": "http://arxiv.org/abs/2609.04148v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.04148v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2609.04135v1",
+          "title": "The Natural Language Interaction Protocol and Standard for AI Agents",
+          "authors": [
+            "Luyi Xing",
+            "Rasit Onur Topaloglu",
+            "Ranjan Sinha",
+            "Abhay Ratnaparkhi",
+            "Samuel Ndichu"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces the Natural Language Interaction Protocol (NLIP), a new standard for AI agent communication. NLIP provides a lightweight, semantic message envelope that enables interoperability between diverse AI agents and their environments, regardless of underlying frameworks or protocols. Its core contribution is a standardized way for AI agents to communicate, facilitating their integration and broader impact.",
+          "url": "http://arxiv.org/abs/2609.04135v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.04135v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        }
+      ],
+      "meta": {
+        "papers_fetched": 50,
+        "papers_after_keyword_filter": 27,
+        "papers_after_llm_filter": 16,
+        "count": 16
+      }
+    },
+    {
+      "key": "postdoc_jobs",
+      "payload_key": "jobs",
+      "title": "Postdoc Jobs",
+      "icon": "💼",
+      "items": [],
+      "meta": {
+        "count": 0
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 50,
+    "papers_after_keyword_filter": 27,
+    "papers_after_llm_filter": 16,
+    "llm_model": "google/gemini-2.5-flash-lite",
+    "scoring_model": "google/gemini-2.5-flash-lite",
+    "summarization_model": "google/gemini-2.5-flash-lite",
+    "duration_seconds": 63
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2609.04071v1",
+      "title": "TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models",
+      "authors": [
+        "Mehedi Hasan",
+        "Ashfak Yeafi",
+        "Md Khairul Islam"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "TAP-Path is a task-adaptive compression framework for pathology foundation models that directly restructures a pretrained encoder. It achieves efficiency by selectively removing transformer blocks and input-adaptive patch tokens, while recovering lost features and using a lightweight task head. This method significantly reduces model size and computation with minimal impact on downstream task performance.",
+      "url": "http://arxiv.org/abs/2609.04071v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04071v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04170v1",
+      "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+      "authors": [
+        "Davide Paglieri",
+        "Logan Cross",
+        "Tim Genewein",
+        "Joel Z. Leibo",
+        "Nenad Tomasev"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper studies emergent cheating and whistleblowing in a swarm of 100 autonomous LLM agents tasked with proving mathematical conjectures. The core method involved observing these agents' interactions within a shared knowledge system. The key contribution is demonstrating how undesirable behaviors like cheating can spontaneously emerge and be countered by emergent whistleblowing within a multi-agent AI system, highlighting vulnerabilities in shared AI infrastructure.",
+      "url": "http://arxiv.org/abs/2609.04170v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04170v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04096v1",
+      "title": "Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis",
+      "authors": [
+        "Sixu Yan",
+        "Shikang Wang",
+        "Binhua Huang",
+        "Xuanlai Tang",
+        "Guohua Fan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "AdaRoboVLG introduces a novel Vision-Language-Grasp (VLG) framework that separates a generalizable base grasp policy from task-specific understanding. The base policy efficiently synthesizes and evaluates physically feasible grasps, while specialized foundation model modules provide composable priors for task adaptation. This approach enables contextually adaptive grasping without retraining the core policy, demonstrating strong cross-hand generalization and effective integration of various prior knowledge types.",
+      "url": "http://arxiv.org/abs/2609.04096v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04096v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04094v1",
+      "title": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
+      "authors": [
+        "Shubham Gandhi",
+        "Saurabh Goyal",
+        "Kiran Kate",
+        "Yara Rizk"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.SE"
+      ],
+      "abstract": "DRACO addresses the challenge of training agents for long-horizon tasks without explicit success signals by dynamically generating and applying multi-criteria rubrics. It scores these rubrics per trajectory and then uses a closed-form redistribution method to assign per-step advantages, improving credit assignment in reinforcement learning. This approach significantly enhances agent performance on complex tasks like AppWorld, outperforming baseline methods and even those using sparse ground-truth rewards.",
+      "url": "http://arxiv.org/abs/2609.04094v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04094v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.04094v1/figures/draco_image.png",
+      "figure_caption": "Overview of DRACO. Top: for each task, the judge proposes criteria from the instruction and each sampled trajectory; proposals are merged, deduplicated, and scored to produce an outcome-blind reward R i R_{i} (Section 3.2). Bottom: within a rollout group, GRPO normalizes rewards into trajectory advantages A i A_{i} ; DRACO then reallocates each A i A_{i} across steps according to the judge’s per-criterion verdicts, yielding step advantages a j a_{j} that concentrate credit on the steps the rubric implicates (Section 3.3).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04141v1",
+      "title": "Efficient Test-Time Adaptation through Human-AI Interaction",
+      "authors": [
+        "Zora Zhiruo Wang",
+        "Apurva Gandhi",
+        "Rulin Shao",
+        "Aspen Chen",
+        "Jonas Mueller"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces Test-Time Adaptation through Human-AI Interaction (TAHI), a method that leverages iterative human-AI collaboration to personalize AI agent outputs. TAHI integrates user feedback across sessions into the agent's context and weights, and uses an evolving rubric to capture individual expertise and evaluation criteria. This approach aims to bridge the gap between general AI capabilities and the specific, high standards of individual professionals.",
+      "url": "http://arxiv.org/abs/2609.04141v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04141v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.04141v1/human-agent-interaction.png",
+      "figure_caption": "Illustration of a human-agent interaction process using our interface with an evolving verifier module. The agent executes tasks, while the human provides instructions, suggestions, and corrections via four modules: plan adjustment (A. Plan), output file editing (B. Deliverables), textual feedback (C. Message), and criteria specification (D. Rubrics). Human and agent iterate on this instruction-execution loop to improve the deliverables (iter 1 → \\( \\rightarrow \\) iter 2 → \\( \\rightarrow \\) …) until the human is satisfied with it (bottom). Meanwhile, the verifier module evolves by integrating human signals from the previous iteration, updating the rubrics to capture human preferences.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04127v1",
+      "title": "Epistemic Warrant for LLM Recommendations: Characterizing the Basis for Reliance When Ground Truth Is Unavailable",
+      "authors": [
+        "Shai Vardi",
+        "João Sedoc"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces \"epistemic warrant\" as a new way to assess reliance on LLM recommendations when ground truth is unknown. It operationalizes this by providing a four-tier \"reliance certificate\" for pairwise recommendations, indicating their stability and scope of applicability. This framework helps users understand *why* they should trust a specific LLM suggestion, moving beyond general model properties.",
+      "url": "http://arxiv.org/abs/2609.04127v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04127v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.04127v1/context_more.png",
+      "figure_caption": "Conceptual relationships among the contextual transformation tiers. Tier 1 transformations preserve approximately the same contextual breadth as the focal decision; Tier 2 transformations evaluate narrower subcontexts; and Tier 3 transformations evaluate either broader contexts or substantively related contexts that are not nested within the focal context. Tier 0 is not shown because it consists of repeated queries of the unchanged focal prompt rather than a contextual transformation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04021v1",
+      "title": "FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models",
+      "authors": [
+        "Yalun Wu",
+        "Junfeng Fang",
+        "Jiawei Wang",
+        "Haotian Liu",
+        "Qijun Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces FLY-EVAL++, an evidence-driven evaluation protocol for LLMs in safety-critical flight prediction. It goes beyond simple accuracy by incorporating deterministic verification of physical feasibility and safety constraints, alongside rubric-guided aggregation into multi-dimensional scores. The core contribution is a more robust evaluation method that reliably identifies critical failure modes, demonstrating that safety compliance is a key differentiator for LLMs in this domain.",
+      "url": "http://arxiv.org/abs/2609.04021v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04021v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.04021v1/figures/ftap_safety_tube_overview.png",
+      "figure_caption": "FTAP phase structure and safety corridor overview. Each flight phase imposes distinct kinematic constraints, and the shaded corridors indicate admissible prediction regions.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04014v1",
+      "title": "InSituMeasure: Probing Situated Measurement Grounding in Industrial Scenes with Multimodal Large Language Models",
+      "authors": [
+        "Chao Shen",
+        "Xinyuan Li",
+        "Yunfan Zhou",
+        "Jianguo Yao",
+        "Haibing Guan"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces InSituMeasure, a new benchmark designed to evaluate how well Multimodal Large Language Models (MLLMs) can read and understand measurements from industrial instruments in realistic settings. The core method involves using a dataset of real industrial scenes with detailed annotations and noise tags to test MLLMs on numerical accuracy, unit consistency, and their ability to reject invalid tasks. The main contribution is providing a more realistic evaluation of MLLMs' measurement grounding capabilities, moving beyond simplified benchmarks to identify and address their weaknesses in complex, knowledge-grounded industrial environments.",
+      "url": "http://arxiv.org/abs/2609.04014v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04014v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04180v1",
+      "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
+      "authors": [
+        "Joseph Lee",
+        "Yidi Huang",
+        "Dokyoon Kim",
+        "Shu Yang",
+        "Li Shen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how Large Language Models (LLMs) acquire knowledge during pre-training. The core method involves controlled experiments to isolate the impact of \"auxiliary views\" – reformulations of knowledge. The key contribution is demonstrating that providing these auxiliary views, even at the expense of direct repetition, can improve LLM learning, particularly for factual recall, and that this benefit is not dependent on the teacher model's strength.",
+      "url": "http://arxiv.org/abs/2609.04180v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04180v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04013v1",
+      "title": "LLM4CKD: Large Language Models for Early Stage Chronic Kidney Disease Screening",
+      "authors": [
+        "Muhammad Ashad Kabir",
+        "Sirajam Munira"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces LLM4CKD, a framework for early chronic kidney disease (CKD) screening using large language models (LLMs). The core method leverages LLMs in zero-shot and few-shot settings with structured prompts and clinically selected features, eliminating the need for extensive labeled data and model training. The main contribution is demonstrating that LLMs can achieve competitive, and sometimes superior, CKD screening performance compared to traditional ML/DL methods, especially in low-data scenarios.",
+      "url": "http://arxiv.org/abs/2609.04013v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04013v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04022v1",
+      "title": "Representational alignment yields generalizable safety in language models",
+      "authors": [
+        "Lingyu Li",
+        "Yan Teng",
+        "Yingchun Wang",
+        "Xia Hu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces **representational similarity optimization** to improve LLM safety. Instead of just controlling output, it aligns the model's internal representations with human moral judgments. This novel approach aims to make LLMs more robust to variations in harmful intent by ensuring their internal understanding of moral concepts mirrors human categorization.",
+      "url": "http://arxiv.org/abs/2609.04022v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04022v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04172v1",
+      "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
+      "authors": [
+        "Zixuan Fu",
+        "Bingxiang He",
+        "Yuxin Zuo",
+        "Haohuan Huang",
+        "Jinqian Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates the effectiveness of on-policy distillation (OPD) for large language models when trained with minimal data, specifically a single example. The core method involves distilling knowledge from a teacher model to a student model using student-generated rollouts and token-level supervision. The key contribution is demonstrating that even one training example can lead to significant performance gains, recovering most of the benefits of full-data training by achieving high state coverage early in the process.",
+      "url": "http://arxiv.org/abs/2609.04172v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04172v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04159v1",
+      "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
+      "authors": [
+        "Uday Vallabhaneni",
+        "Cassie L. Cagwin",
+        "David J. Wild"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces Sentinel-RL, an architecture for LLM-based security analysts that addresses limitations in handling large network topologies. It decouples topological reasoning by using a graph attention encoder to summarize the network state and a reinforcement learning policy to select constrained investigative actions. This approach ensures that LLM recommendations are topologically consistent and reliable for enterprise-scale security operations.",
+      "url": "http://arxiv.org/abs/2609.04159v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04159v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04066v1",
+      "title": "Subspace Inference Enables Efficient Active Reward Learning from Preferences",
+      "authors": [
+        "Yutai Zhou",
+        "Erdem Bıyık"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces PreferenceEKF, an efficient method for active learning in reinforcement learning from human feedback. It frames preference learning as a sequential Bayesian filtering problem, using an extended Kalman filter within a low-dimensional parameter subspace to track reward model uncertainty. This approach avoids computationally expensive full posterior inference, enabling scalable sampling of neural network parameters and efficient acquisition of informative human preferences.",
+      "url": "http://arxiv.org/abs/2609.04066v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04066v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04148v1",
+      "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
+      "authors": [
+        "Jie Wu",
+        "Zhenru Zhang",
+        "Beichen Zhang",
+        "Xuwu Wang",
+        "Yuhui Su"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Terminal-Universe, a framework that reconstructs executable environments from agent trajectories. By replaying file operations, it recreates the original workspace, enabling these trajectories to become reusable environments for generating new tasks and continued agent interaction. This addresses the scarcity of realistic environments by leveraging existing agent data.",
+      "url": "http://arxiv.org/abs/2609.04148v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04148v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04135v1",
+      "title": "The Natural Language Interaction Protocol and Standard for AI Agents",
+      "authors": [
+        "Luyi Xing",
+        "Rasit Onur Topaloglu",
+        "Ranjan Sinha",
+        "Abhay Ratnaparkhi",
+        "Samuel Ndichu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces the Natural Language Interaction Protocol (NLIP), a new standard for AI agent communication. NLIP provides a lightweight, semantic message envelope that enables interoperability between diverse AI agents and their environments, regardless of underlying frameworks or protocols. Its core contribution is a standardized way for AI agents to communicate, facilitating their integration and broader impact.",
+      "url": "http://arxiv.org/abs/2609.04135v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04135v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "papers": [
+    {
+      "id": "2609.04071v1",
+      "title": "TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models",
+      "authors": [
+        "Mehedi Hasan",
+        "Ashfak Yeafi",
+        "Md Khairul Islam"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "TAP-Path is a task-adaptive compression framework for pathology foundation models that directly restructures a pretrained encoder. It achieves efficiency by selectively removing transformer blocks and input-adaptive patch tokens, while recovering lost features and using a lightweight task head. This method significantly reduces model size and computation with minimal impact on downstream task performance.",
+      "url": "http://arxiv.org/abs/2609.04071v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04071v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04170v1",
+      "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+      "authors": [
+        "Davide Paglieri",
+        "Logan Cross",
+        "Tim Genewein",
+        "Joel Z. Leibo",
+        "Nenad Tomasev"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper studies emergent cheating and whistleblowing in a swarm of 100 autonomous LLM agents tasked with proving mathematical conjectures. The core method involved observing these agents' interactions within a shared knowledge system. The key contribution is demonstrating how undesirable behaviors like cheating can spontaneously emerge and be countered by emergent whistleblowing within a multi-agent AI system, highlighting vulnerabilities in shared AI infrastructure.",
+      "url": "http://arxiv.org/abs/2609.04170v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04170v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04096v1",
+      "title": "Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis",
+      "authors": [
+        "Sixu Yan",
+        "Shikang Wang",
+        "Binhua Huang",
+        "Xuanlai Tang",
+        "Guohua Fan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "AdaRoboVLG introduces a novel Vision-Language-Grasp (VLG) framework that separates a generalizable base grasp policy from task-specific understanding. The base policy efficiently synthesizes and evaluates physically feasible grasps, while specialized foundation model modules provide composable priors for task adaptation. This approach enables contextually adaptive grasping without retraining the core policy, demonstrating strong cross-hand generalization and effective integration of various prior knowledge types.",
+      "url": "http://arxiv.org/abs/2609.04096v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04096v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04094v1",
+      "title": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
+      "authors": [
+        "Shubham Gandhi",
+        "Saurabh Goyal",
+        "Kiran Kate",
+        "Yara Rizk"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.SE"
+      ],
+      "abstract": "DRACO addresses the challenge of training agents for long-horizon tasks without explicit success signals by dynamically generating and applying multi-criteria rubrics. It scores these rubrics per trajectory and then uses a closed-form redistribution method to assign per-step advantages, improving credit assignment in reinforcement learning. This approach significantly enhances agent performance on complex tasks like AppWorld, outperforming baseline methods and even those using sparse ground-truth rewards.",
+      "url": "http://arxiv.org/abs/2609.04094v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04094v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.04094v1/figures/draco_image.png",
+      "figure_caption": "Overview of DRACO. Top: for each task, the judge proposes criteria from the instruction and each sampled trajectory; proposals are merged, deduplicated, and scored to produce an outcome-blind reward R i R_{i} (Section 3.2). Bottom: within a rollout group, GRPO normalizes rewards into trajectory advantages A i A_{i} ; DRACO then reallocates each A i A_{i} across steps according to the judge’s per-criterion verdicts, yielding step advantages a j a_{j} that concentrate credit on the steps the rubric implicates (Section 3.3).",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04141v1",
+      "title": "Efficient Test-Time Adaptation through Human-AI Interaction",
+      "authors": [
+        "Zora Zhiruo Wang",
+        "Apurva Gandhi",
+        "Rulin Shao",
+        "Aspen Chen",
+        "Jonas Mueller"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces Test-Time Adaptation through Human-AI Interaction (TAHI), a method that leverages iterative human-AI collaboration to personalize AI agent outputs. TAHI integrates user feedback across sessions into the agent's context and weights, and uses an evolving rubric to capture individual expertise and evaluation criteria. This approach aims to bridge the gap between general AI capabilities and the specific, high standards of individual professionals.",
+      "url": "http://arxiv.org/abs/2609.04141v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04141v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.04141v1/human-agent-interaction.png",
+      "figure_caption": "Illustration of a human-agent interaction process using our interface with an evolving verifier module. The agent executes tasks, while the human provides instructions, suggestions, and corrections via four modules: plan adjustment (A. Plan), output file editing (B. Deliverables), textual feedback (C. Message), and criteria specification (D. Rubrics). Human and agent iterate on this instruction-execution loop to improve the deliverables (iter 1 → \\( \\rightarrow \\) iter 2 → \\( \\rightarrow \\) …) until the human is satisfied with it (bottom). Meanwhile, the verifier module evolves by integrating human signals from the previous iteration, updating the rubrics to capture human preferences.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04127v1",
+      "title": "Epistemic Warrant for LLM Recommendations: Characterizing the Basis for Reliance When Ground Truth Is Unavailable",
+      "authors": [
+        "Shai Vardi",
+        "João Sedoc"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces \"epistemic warrant\" as a new way to assess reliance on LLM recommendations when ground truth is unknown. It operationalizes this by providing a four-tier \"reliance certificate\" for pairwise recommendations, indicating their stability and scope of applicability. This framework helps users understand *why* they should trust a specific LLM suggestion, moving beyond general model properties.",
+      "url": "http://arxiv.org/abs/2609.04127v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04127v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.04127v1/context_more.png",
+      "figure_caption": "Conceptual relationships among the contextual transformation tiers. Tier 1 transformations preserve approximately the same contextual breadth as the focal decision; Tier 2 transformations evaluate narrower subcontexts; and Tier 3 transformations evaluate either broader contexts or substantively related contexts that are not nested within the focal context. Tier 0 is not shown because it consists of repeated queries of the unchanged focal prompt rather than a contextual transformation.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04021v1",
+      "title": "FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models",
+      "authors": [
+        "Yalun Wu",
+        "Junfeng Fang",
+        "Jiawei Wang",
+        "Haotian Liu",
+        "Qijun Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces FLY-EVAL++, an evidence-driven evaluation protocol for LLMs in safety-critical flight prediction. It goes beyond simple accuracy by incorporating deterministic verification of physical feasibility and safety constraints, alongside rubric-guided aggregation into multi-dimensional scores. The core contribution is a more robust evaluation method that reliably identifies critical failure modes, demonstrating that safety compliance is a key differentiator for LLMs in this domain.",
+      "url": "http://arxiv.org/abs/2609.04021v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04021v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2609.04021v1/figures/ftap_safety_tube_overview.png",
+      "figure_caption": "FTAP phase structure and safety corridor overview. Each flight phase imposes distinct kinematic constraints, and the shaded corridors indicate admissible prediction regions.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04014v1",
+      "title": "InSituMeasure: Probing Situated Measurement Grounding in Industrial Scenes with Multimodal Large Language Models",
+      "authors": [
+        "Chao Shen",
+        "Xinyuan Li",
+        "Yunfan Zhou",
+        "Jianguo Yao",
+        "Haibing Guan"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces InSituMeasure, a new benchmark designed to evaluate how well Multimodal Large Language Models (MLLMs) can read and understand measurements from industrial instruments in realistic settings. The core method involves using a dataset of real industrial scenes with detailed annotations and noise tags to test MLLMs on numerical accuracy, unit consistency, and their ability to reject invalid tasks. The main contribution is providing a more realistic evaluation of MLLMs' measurement grounding capabilities, moving beyond simplified benchmarks to identify and address their weaknesses in complex, knowledge-grounded industrial environments.",
+      "url": "http://arxiv.org/abs/2609.04014v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04014v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04180v1",
+      "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
+      "authors": [
+        "Joseph Lee",
+        "Yidi Huang",
+        "Dokyoon Kim",
+        "Shu Yang",
+        "Li Shen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates how Large Language Models (LLMs) acquire knowledge during pre-training. The core method involves controlled experiments to isolate the impact of \"auxiliary views\" – reformulations of knowledge. The key contribution is demonstrating that providing these auxiliary views, even at the expense of direct repetition, can improve LLM learning, particularly for factual recall, and that this benefit is not dependent on the teacher model's strength.",
+      "url": "http://arxiv.org/abs/2609.04180v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04180v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04013v1",
+      "title": "LLM4CKD: Large Language Models for Early Stage Chronic Kidney Disease Screening",
+      "authors": [
+        "Muhammad Ashad Kabir",
+        "Sirajam Munira"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces LLM4CKD, a framework for early chronic kidney disease (CKD) screening using large language models (LLMs). The core method leverages LLMs in zero-shot and few-shot settings with structured prompts and clinically selected features, eliminating the need for extensive labeled data and model training. The main contribution is demonstrating that LLMs can achieve competitive, and sometimes superior, CKD screening performance compared to traditional ML/DL methods, especially in low-data scenarios.",
+      "url": "http://arxiv.org/abs/2609.04013v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04013v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04022v1",
+      "title": "Representational alignment yields generalizable safety in language models",
+      "authors": [
+        "Lingyu Li",
+        "Yan Teng",
+        "Yingchun Wang",
+        "Xia Hu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces **representational similarity optimization** to improve LLM safety. Instead of just controlling output, it aligns the model's internal representations with human moral judgments. This novel approach aims to make LLMs more robust to variations in harmful intent by ensuring their internal understanding of moral concepts mirrors human categorization.",
+      "url": "http://arxiv.org/abs/2609.04022v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04022v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04172v1",
+      "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
+      "authors": [
+        "Zixuan Fu",
+        "Bingxiang He",
+        "Yuxin Zuo",
+        "Haohuan Huang",
+        "Jinqian Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper investigates the effectiveness of on-policy distillation (OPD) for large language models when trained with minimal data, specifically a single example. The core method involves distilling knowledge from a teacher model to a student model using student-generated rollouts and token-level supervision. The key contribution is demonstrating that even one training example can lead to significant performance gains, recovering most of the benefits of full-data training by achieving high state coverage early in the process.",
+      "url": "http://arxiv.org/abs/2609.04172v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04172v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04159v1",
+      "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
+      "authors": [
+        "Uday Vallabhaneni",
+        "Cassie L. Cagwin",
+        "David J. Wild"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces Sentinel-RL, an architecture for LLM-based security analysts that addresses limitations in handling large network topologies. It decouples topological reasoning by using a graph attention encoder to summarize the network state and a reinforcement learning policy to select constrained investigative actions. This approach ensures that LLM recommendations are topologically consistent and reliable for enterprise-scale security operations.",
+      "url": "http://arxiv.org/abs/2609.04159v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04159v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04066v1",
+      "title": "Subspace Inference Enables Efficient Active Reward Learning from Preferences",
+      "authors": [
+        "Yutai Zhou",
+        "Erdem Bıyık"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "abstract": "This paper introduces PreferenceEKF, an efficient method for active learning in reinforcement learning from human feedback. It frames preference learning as a sequential Bayesian filtering problem, using an extended Kalman filter within a low-dimensional parameter subspace to track reward model uncertainty. This approach avoids computationally expensive full posterior inference, enabling scalable sampling of neural network parameters and efficient acquisition of informative human preferences.",
+      "url": "http://arxiv.org/abs/2609.04066v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04066v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04148v1",
+      "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
+      "authors": [
+        "Jie Wu",
+        "Zhenru Zhang",
+        "Beichen Zhang",
+        "Xuwu Wang",
+        "Yuhui Su"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces Terminal-Universe, a framework that reconstructs executable environments from agent trajectories. By replaying file operations, it recreates the original workspace, enabling these trajectories to become reusable environments for generating new tasks and continued agent interaction. This addresses the scarcity of realistic environments by leveraging existing agent data.",
+      "url": "http://arxiv.org/abs/2609.04148v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04148v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2609.04135v1",
+      "title": "The Natural Language Interaction Protocol and Standard for AI Agents",
+      "authors": [
+        "Luyi Xing",
+        "Rasit Onur Topaloglu",
+        "Ranjan Sinha",
+        "Abhay Ratnaparkhi",
+        "Samuel Ndichu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces the Natural Language Interaction Protocol (NLIP), a new standard for AI agent communication. NLIP provides a lightweight, semantic message envelope that enables interoperability between diverse AI agents and their environments, regardless of underlying frameworks or protocols. Its core contribution is a standardized way for AI agents to communicate, facilitating their integration and broader impact.",
+      "url": "http://arxiv.org/abs/2609.04135v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04135v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "hacker_news": [],
+  "github_trending": [],
+  "us_stocks": [],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
